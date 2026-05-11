@@ -60,16 +60,16 @@ is implemented (`kan/end.py`) by a *consensus-threshold filter*: an edge is reta
 
 Mahadevan's research codebase provides the tools we build on:
 
-- **Democritus** [3] performs causal-triple extraction from raw text via topic discovery + LLM relation extraction, producing `(subject, relation, object, topic)` records.
+- **Democritus** [3] performs causal-triple extraction from raw text. From a document it auto-proposes root topics, builds a topic graph, derives causal questions and statements, and finally extracts `(cause, relation, effect)` triples; the per-triple records actually emitted include `{topic, path, question, statement, subj, rel, obj, domain}`. The geometric back-end uses the Geometric Transformer (GT) and Diagrammatic Backpropagation (DB) to produce a 2D/3D causal manifold from the extracted triples.
 - **CLIFF** [4] is an agentic chatbot built on FunctorFlow that routes user queries to causal-question handlers; it includes information-gain tracking that motivated the RL-front-end discussion in class.
-- **BASKET** [5] builds agentic workflows from textual documents using Kan-Extension-Transformers (KETs).
-- **FunctorFlow** [6] provides the categorical primitives (functors, natural transformations, string diagrams) used by all of the above.
+- **BASKET** [5] builds agentic systems from textual documents using *Kan-Extension Transformers* (KETs); its prototype implements a "PLAN-KET block encoder → corruption → denoising / repair" pipeline.
+- **FunctorFlow** [6] is the categorical-ML framework (and Julia port [`FunctorFlow.jl`]) on which the above three projects are built; it supplies functors, natural transformations, string diagrams, and the DB/GT primitives.
 
-Our `kan_transfer/` codebase reuses Democritus for triple extraction and the FunctorFlow embedding utilities, then layers Kan extensions and a 7-dimension evaluation suite on top.
+Our `kan_transfer/` codebase reuses Democritus's extracted triples directly (loaded from `relational_triples.jsonl`), and uses `sentence-transformers` (`all-MiniLM-L6-v2`, 384-d) for query/topic embeddings — we do not import any FunctorFlow code, and the CLIFF integration in `cliff_integration/kan_transfer_agentic.py` is a router stub for future integration, not an active dependency. On top of these inputs we layer the two Kan-extension implementations, the soft Kan, and the seven-dimension evaluation suite.
 
 ### 2.3 Kan extensions in machine learning
 
-Kan extensions have appeared in ML primarily as a categorical re-formulation of attention (the *Kan-Extension Transformer* / KET [7], discussed in the ICML 2026 tutorial). To our knowledge, no prior work uses Kan extensions for *cross-domain causal* transfer with real causal triples; the most closely related work is Mahadevan's own *Democritus* paper [2], which proposes a unified causal manifold across 100,000 claims from 10 domains via Geometric-Transformer training — an approach we discuss in §7 as the natural next step.
+Kan extensions have appeared in ML primarily as a categorical re-formulation of attention and diffusion (the *Kan-Extension Transformer* / KET [7], the subject of Prof. Mahadevan's ICML 2026 tutorial in Seoul). To our knowledge, no prior work uses Kan extensions for *cross-domain causal* transfer with real causal triples; the most closely related work is Mahadevan's own *Democritus* paper [2], which builds a unified causal manifold from 100,000 causal claims across 10 domains using the Geometric Transformer with Diagrammatic Backpropagation — an approach we discuss in §6.1 as the natural next step for closing the vocabulary-grounding gap surfaced in our results.
 
 ### 2.4 Cross-disciplinary parallels motivating the evaluation framework
 

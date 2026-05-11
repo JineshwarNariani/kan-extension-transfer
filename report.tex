@@ -74,9 +74,9 @@ is implemented in our codebase (\texttt{kan/coend.py}) by treating $\mathrm{Hom}
 \]
 is implemented (\texttt{kan/end.py}) by a consensus-threshold filter: an edge is retained only if a super-majority of top-$k$ source contributors support it.
 
-\subsection{CLIFF, Democritus, FunctorFlow~\cite{cliff,democritus_repo,functorflow}}
+\subsection{CLIFF, Democritus, BASKET, FunctorFlow~\cite{cliff,democritus_repo,basket,functorflow}}
 
-Mahadevan's research toolchain: \textbf{Democritus} extracts causal triples via topic discovery + LLM relation extraction; \textbf{CLIFF} is an agentic chatbot built on FunctorFlow; \textbf{BASKET}~\cite{basket} builds agentic workflows via Kan-Extension-Transformers (KETs~\cite{ket}). Our \texttt{kan\_transfer/} reuses Democritus for triple extraction and the FunctorFlow embedding utilities, then layers Kan extensions and a 7-dimension evaluation suite on top.
+Mahadevan's research toolchain underpins our project. \textbf{Democritus}~\cite{democritus_repo} extracts causal triples from documents via auto-proposed root topics, a topic graph, causal questions/statements, and a final triple-extraction stage; its geometric back-end uses the Geometric Transformer (GT) and Diagrammatic Backpropagation (DB) to build a $2$D/$3$D causal manifold. \textbf{CLIFF}~\cite{cliff} is an agentic chatbot built on FunctorFlow with built-in information-gain tracking. \textbf{BASKET}~\cite{basket} builds agentic systems from textual documents using Kan-Extension Transformers (KETs~\cite{ket}); its prototype implements a ``PLAN-KET block encoder $\to$ corruption $\to$ denoising / repair'' pipeline. \textbf{FunctorFlow}~\cite{functorflow} is the categorical-ML framework on which the above projects build. Our \texttt{kan\_transfer/} loads the triples produced by Democritus directly from \texttt{relational\_triples.jsonl} and uses \texttt{sentence-transformers} (\texttt{all-MiniLM-L6-v2}, $384$-d) for query/topic embeddings; we do not import any FunctorFlow code, and the \texttt{cliff\_integration/kan\_transfer\_agentic.py} module is a router stub for future integration rather than an active dependency. On top of these inputs we layer the two Kan-extension implementations, the soft Kan, and the seven-dimension evaluation suite.
 
 \subsection{Cross-disciplinary parallels}
 

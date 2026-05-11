@@ -331,13 +331,13 @@ The present evaluation framework (Motif, Homology, Universality) partially addre
 
 ## 7. Conclusion
 
-We built a complete, reproducible empirical test of Mahadevan's *Kan-Do-Calculus* on cross-domain causal transfer. The categorical duality between coend (left Kan) and end (right Kan) is *not* a formal nicety: it predicts, and our experiments confirm, an asymmetric structural transfer in which left Kan dominates right Kan along every measurable dimension on the legal→economic regime, while both collapse to the empty graph on the medical→economic regime where domain proximity is below 0.05. We further introduced a seven-dimension evaluation framework that sidesteps the zero exact-match F1 problem by drawing on structural-similarity ideas from cognitive science (Gentner), biology, physics (Wilson), linguistics (Nida), probability theory (Radon–Nikodym), and hermeneutics (Gadamer). The framework discriminates honest cross-domain transfer (left Kan: 0.50 coherence) from surface-preservation artefacts (naive RAG: 0.997 homology), and it empirically locates the bottleneck that remains: the RN entity-translation operator, whose absence keeps semantic F1 low even after RN-derivative reweighting at the topic-selection stage. Closing that gap with a unified causal manifold trained by Diagrammatic Backpropagation on a pooled cross-domain corpus is the natural next experiment, and is the one the textbook's three-layer framework explicitly calls for.
+We built a complete, reproducible empirical test of Mahadevan's *Kan-Do-Calculus* on cross-domain causal transfer. The categorical duality between coend (left Kan) and end (right Kan) is *not* a formal nicety: it predicts, and our experiments confirm, an asymmetric structural transfer in which left Kan dominates right Kan on all six comparable evaluation dimensions in the legal→economic regime (proximity 0.4802), while both hard-Kan variants collapse to the empty graph on the medical→economic regime (proximity 0.0354). We further introduced a seven-dimension evaluation framework that sidesteps the zero exact-match F1 problem by drawing on evaluators inspired by cognitive science (Gentner), biology, physics (Wilson), linguistics (Nida), probability theory (Radon–Nikodym), and hermeneutics (Gadamer). The framework discriminates honest cross-domain transfer (left Kan: 0.500 coherence) from surface-preservation artefacts (naive RAG: 0.997 homology), and it empirically locates the bottleneck that remains: the RN entity-translation operator, whose absence keeps semantic F1 low even after RN-derivative reweighting at the topic-selection stage. The soft Kan we built does, however, recover non-trivial structural transfer (motif 0.354) on medical→economic — the empirical signature that the RN-derivative works as predicted in the structure space, motivating its full implementation as an entity-translation operator. Closing that gap with a unified causal manifold trained by Diagrammatic Backpropagation on a pooled cross-domain corpus is the natural next experiment, and is the one the textbook's three-layer framework explicitly calls for.
 
 ---
 
 ## Acknowledgements
 
-I thank Prof. Sridhar Mahadevan for the *Categories for AGI* textbook, for the CLIFF / Democritus / BASKET / FunctorFlow toolchain that made this project feasible in a 12-day window, for the May 4–6 lecture suggestion of the unified causal manifold as the natural next step, and for the project conversations that shaped both hypotheses and evaluation design.
+I thank Prof. Sridhar Mahadevan for the *Categories for AGI* textbook, for the CLIFF / Democritus / BASKET / FunctorFlow toolchain that made this project feasible in a roughly two-week implementation window, for the project-conversation suggestion of the unified causal manifold as the natural next step (§6.1), for the compositional-causality diagnostic for RAG (§6.2), and for the broader course conversations that shaped both hypotheses and evaluation design.
 
 ### AI Disclosure
 
@@ -345,7 +345,7 @@ In keeping with the spirit of CMPSCI 692CT, I used frontier AI coding tools heav
 
 - **Anthropic Claude (Claude Code, Opus 4.7)** was used as the primary pair-programmer for the entire `kan_transfer/` codebase: implementing the coend/end/soft-Kan modules, designing the seven evaluators, writing the UNITY SLURM scripts, and drafting this report. Approximately 80% of the code was authored by Claude under iterative human-in-the-loop direction, with the human providing the research questions, the categorical formulation, the cross-disciplinary parallels, hyper-parameter choices, debugging guidance, and final acceptance of every commit.
 - **OpenAI GPT** (via the UMass TheKeymaker gateway) was used as the LLM-judge for the back-translation (Nida) and coherence (Gadamer) evaluators, and as the relation-extraction model inside Democritus.
-- **OpenAI Sentence-Transformers** (`all-MiniLM-L6-v2`) supplied the embedding model.
+- **`sentence-transformers`** (the open-source library from sbert.net / UKP Lab) supplied the embedding model `all-MiniLM-L6-v2`. The model itself originates from Microsoft Research's MiniLM work and is distributed via the sbert.net team. This is *not* an OpenAI model.
 
 All scientific claims, hypothesis design, and interpretation of results in this report are the human author's. The AI tools accelerated implementation by an estimated 5–10× but did not contribute novel ideas; the cross-disciplinary parallel structure (Gentner, Wilson, Nida, Gadamer) and the framing of the zero-F1 finding as RN-layer motivation are human contributions.
 
@@ -385,7 +385,7 @@ All scientific claims, hypothesis design, and interpretation of results in this 
 - **Codebase root:** `kan_transfer/`
 - **Headline results:** `kan_transfer/results/tables/novel_evaluation/master_summary.json`
 - **Figures:** `kan_transfer/results/figures/` (10 plots).
-- **UNITY job:** `unity_56498824` — 30 minutes, 250 GB RAM allocation, single-node.
+- **UNITY job:** `unity_56498824` — 30 minutes wall time, 128 GB RAM, 16 CPUs, CPU partition (`#SBATCH --mem=128G --cpus-per-task=16 --partition=cpu --time=12:00:00` in `unity_job.sh`; the job completed in 30 min, well under the 12 h wall-time cap).
 - **Extraction stats:** `results/extraction/{economic,legal,medical}/extraction_stats.json`
 - **Predictions (pickled):** `results/kan_predictions/predictions_{legal,medical}.pkl`
 

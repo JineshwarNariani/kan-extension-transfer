@@ -320,11 +320,11 @@ The professor also flagged: \emph{``RAG really should not work that well in tran
 
 \section{Conclusion}
 
-We built a complete, reproducible empirical test of Mahadevan's \emph{Kan-Do-Calculus}. The duality between coend (left Kan) and end (right Kan) is not a formal nicety: it predicts, and our experiments confirm, an asymmetric structural transfer where left Kan dominates right Kan on every measurable dimension at legal${\to}$economic proximity $0.48$, while both collapse on medical${\to}$economic at proximity $0.04$. The seven-dimension evaluation framework discriminates honest cross-domain transfer (left Kan, coherence $0.50$) from surface-preservation artefacts (naive RAG, homology $0.997$) and locates the remaining bottleneck: the RN entity-translation operator. Closing that gap with a unified causal manifold trained by Diagrammatic Backpropagation on a pooled cross-domain corpus is the natural next experiment and is the one the textbook's three-layer framework explicitly calls for.
+We built a complete, reproducible empirical test of Mahadevan's \emph{Kan-Do-Calculus}. The duality between coend (left Kan) and end (right Kan) is not a formal nicety: it predicts, and our experiments confirm, an asymmetric structural transfer where left Kan dominates right Kan on all six comparable evaluation dimensions at legal${\to}$economic proximity $0.4802$, while both hard-Kan variants collapse on medical${\to}$economic at proximity $0.0354$. The seven-dimension evaluation framework discriminates honest cross-domain transfer (left Kan, coherence $0.500$) from surface-preservation artefacts (naive RAG, homology $0.997$) and locates the remaining bottleneck: the RN entity-translation operator. The soft Kan we built recovers non-trivial structural transfer (motif $0.354$) on medical${\to}$economic, an empirical signature that the RN-derivative works as predicted in the structure space. Closing the residual gap with a unified causal manifold trained by Diagrammatic Backpropagation on a pooled cross-domain corpus is the natural next experiment and is the one the textbook's three-layer framework explicitly calls for.
 
 \section*{Acknowledgements}
 
-I thank Prof.\ Sridhar Mahadevan for the \emph{Categories for AGI} textbook, for the CLIFF / Democritus / BASKET / FunctorFlow toolchain that made this project feasible in a 12-day window, and for the suggestion of the unified causal manifold as the natural next step.
+I thank Prof.\ Sridhar Mahadevan for the \emph{Categories for AGI} textbook, for the CLIFF / Democritus / BASKET / FunctorFlow toolchain that made this project feasible in a roughly two-week implementation window, for the project-conversation suggestion of the unified causal manifold as the natural next step (\S\ref{sec:cw}), and for the compositional-causality diagnostic for RAG.
 
 \subsection*{AI Disclosure}
 
@@ -333,7 +333,7 @@ In keeping with the spirit of CMPSCI 692CT, I used frontier AI coding tools heav
 \begin{itemize}
 \item \textbf{Anthropic Claude (Claude Code, Opus 4.7)} was the primary pair-programmer for the entire \texttt{kan\_transfer/} codebase: implementing the coend/end/soft-Kan modules, designing the seven evaluators, writing the UNITY SLURM scripts, and drafting this report. Approximately $80\%$ of the code was authored by Claude under iterative human-in-the-loop direction; the human provided research questions, the categorical formulation, the cross-disciplinary parallels, hyperparameter choices, and final acceptance of every commit.
 \item \textbf{OpenAI GPT} (UMass TheKeymaker gateway) was the LLM-judge for back-translation (Nida) and coherence (Gadamer) evaluators, and the relation-extraction model inside Democritus.
-\item \textbf{Sentence-Transformers} (\texttt{all-MiniLM-L6-v2}) supplied the embedding model.
+\item \textbf{\texttt{sentence-transformers}} (open-source library from sbert.net / UKP Lab, \emph{not} an OpenAI product) supplied the embedding model \texttt{all-MiniLM-L6-v2}, which originates from Microsoft Research's MiniLM work.
 \end{itemize}
 
 All scientific claims, hypothesis design, and interpretation are the human author's. The AI tools accelerated implementation by an estimated $5{-}10{\times}$ but did not contribute novel ideas; the cross-disciplinary parallel structure (Gentner, Wilson, Nida, Gadamer) and the framing of the zero-F1 finding as RN-layer motivation are human contributions.

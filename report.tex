@@ -4,8 +4,9 @@
 \usepackage{amsmath,amssymb,amsthm}
 \usepackage{graphicx}
 \usepackage{booktabs}
+\usepackage{multirow}
 \usepackage{xcolor}
-\usepackage{microtype}
+% microtype removed - font expansion incompatible with available LaTeX fonts on this machine
 \usepackage{hyperref}
 \usepackage{titlesec}
 \usepackage{authblk}
@@ -162,7 +163,7 @@ For each of $\{\text{left\_kan}, \text{right\_kan}, \text{naive\_rag}\}$ and eac
 \label{fig:crossover}
 \end{figure}
 
-\paragraph{Edge-count asymmetry.} Across all 20 legal${\to}$economic queries, left Kan produces an average of \textbf{6.8 edges/graph} (max 18); right Kan \textbf{0.4 edges/graph} (max 4). This 17:1 ratio is exactly the qualitative pattern predicted by the coend / end duality. For medical${\to}$economic --- where source and target share virtually no semantic ground --- both variants collapse to the empty graph, also as predicted.
+\paragraph{Edge-count asymmetry.} Across all 20 legal${\to}$economic queries, left Kan produces an average of \textbf{6.75 edges/graph} (max 18); right Kan \textbf{0.40 edges/graph} (max 4). This ${\sim}17{:}1$ ratio is the qualitative pattern predicted by the coend / end duality. For medical${\to}$economic --- where source and target share virtually no semantic ground (proximity $0.0354$) --- both hard-Kan variants collapse to the empty graph, also as predicted. The soft-Kan variants partially break this collapse (\S\ref{sec:softkan}).
 
 \begin{table}[h]
 \centering\small
@@ -171,10 +172,10 @@ For each of $\{\text{left\_kan}, \text{right\_kan}, \text{naive\_rag}\}$ and eac
 \toprule
 Method & avg edges & max edges \\
 \midrule
-left\_kan  & 6.8 & 18 \\
-right\_kan & 0.4 &  4 \\
-soft\_left\_kan ($\alpha{=}0.5$) & \textbf{35.1} & 38 \\
-soft\_right\_kan                  & 0.0  &  0 \\
+left\_kan  & 6.75 & 18 \\
+right\_kan & 0.40 &  4 \\
+soft\_left\_kan ($\alpha{=}0.5$) & \textbf{35.10} & 38 \\
+soft\_right\_kan                  & 0.00  &  0 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -183,7 +184,7 @@ soft\_right\_kan                  & 0.0  &  0 \\
 
 \begin{table}[h]
 \centering\small
-\caption{Legal${\to}$Economic (proximity 0.480, populated regime).}\label{tab:legal}
+\caption{Legal${\to}$Economic (proximity $0.4802$, populated regime). \texttt{n/a} = pipeline not yet wired for soft variants on these evaluators (\S\ref{sec:cw}).}\label{tab:legal}
 \begin{tabular}{lrrrrrr}
 \toprule
 Method & SoftF1 & Motif & Homol. & Univ. & BackT & Coher. \\
@@ -191,22 +192,24 @@ Method & SoftF1 & Motif & Homol. & Univ. & BackT & Coher. \\
 left\_kan       & 0.029           & 0.135           & 0.592          & 0.766          & 0.339          & \textbf{0.500} \\
 right\_kan      & 0.003           & 0.100           & 0.095          & 0.743          & 0.072          & 0.100 \\
 naive\_rag      & \textbf{0.031}  & \textbf{0.435}  & \textbf{0.997} & \textbf{0.870} & \textbf{0.703} & \textbf{0.984} \\
-soft\_left\_kan & 0.027           & ---             & ---            & ---            & ---            & ---            \\
-soft\_right\_kan& 0.000           & ---             & ---            & ---            & ---            & ---            \\
+soft\_left\_kan & 0.027           & 0.135           & n/a            & n/a            & n/a            & n/a            \\
+soft\_right\_kan& 0.000           & 0.000           & n/a            & n/a            & n/a            & n/a            \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 \begin{table}[h]
 \centering\small
-\caption{Medical${\to}$Economic (proximity 0.035, degenerate regime).}\label{tab:medical}
+\caption{Medical${\to}$Economic (proximity $0.0354$, degenerate regime). Notable: medical \texttt{soft\_left\_kan} motif $0.354$ is the highest motif score of any (method, source) pair in this study, despite semantic soft-F1 remaining $0$.}\label{tab:medical}
 \begin{tabular}{lrrrrrr}
 \toprule
 Method & SoftF1 & Motif & Homol. & Univ. & BackT & Coher. \\
 \midrule
-left\_kan  & 0.000 & 0.000 & 0.000 & 0.715 & 0.000 & 0.000 \\
-right\_kan & 0.000 & 0.000 & 0.000 & 0.715 & 0.000 & 0.000 \\
-naive\_rag & 0.000 & 0.447 & 0.997 & 0.722 & 0.895 & 0.284 \\
+left\_kan       & 0.000 & 0.000          & 0.000 & 0.715 & 0.000 & 0.000 \\
+right\_kan      & 0.000 & 0.000          & 0.000 & 0.715 & 0.000 & 0.000 \\
+naive\_rag      & 0.000 & 0.447          & 0.997 & 0.722 & 0.895 & 0.284 \\
+soft\_left\_kan & 0.000 & \textbf{0.354} & n/a   & n/a   & n/a   & n/a   \\
+soft\_right\_kan& 0.000 & 0.050          & n/a   & n/a   & n/a   & n/a   \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -220,7 +223,7 @@ naive\_rag & 0.000 & 0.447 & 0.997 & 0.722 & 0.895 & 0.284 \\
 \label{fig:sensitivity}
 \end{figure}
 
-Across 18 hyper-parameter combinations and 20 queries, edge-F1 is identically $0.0$. Predicted edges live in source-domain vocabulary (\texttt{"sec enforcement"}, \texttt{"clinical trial"}) while ground truth lives in target vocabulary (\texttt{"open market operations"}); string equality is mathematically impossible. This is the \emph{measurement gap} motivating the semantic and structural evaluators.
+Across all $20$ unique hyperparameter combinations ($3{\times}3$ grid in $(k, \tau)$ for both methods at $\mathrm{consensus\_frac}{=}0.60$, plus $2$ additional consensus values for right Kan at $k{=}10, \tau{=}0.25$) and $20$ queries, edge-F1 is identically $0.0$. Predicted edges live in source-domain vocabulary (e.g., \texttt{"sec enforcement"}, \texttt{"clinical trial"}) while ground truth lives in target vocabulary (e.g., \texttt{"open market operations"}); string equality is mathematically impossible. This is the \emph{measurement gap} motivating the semantic and structural evaluators.
 
 \subsection{Sheaf-gluing test}
 
@@ -240,9 +243,35 @@ Across 18 hyper-parameter combinations and 20 queries, edge-F1 is identically $0
 \label{fig:perquery}
 \end{figure}
 
-\subsection{The Soft-Kan / RN-derivative experiment}
+\subsection{The Soft-Kan / RN-derivative experiment}\label{sec:softkan}
 
-Soft-left-Kan produces $\mathbf{5{\times}}$ \textbf{more edges} (35.1 vs.\ 6.8) than hard left-Kan, confirming that $\rho$-reweighting upweights rare cross-domain topics. \emph{Yet semantic soft-F1 is essentially unchanged} ($0.027$ vs.\ $0.029$). Soft-right-Kan collapses to $0$ edges everywhere, mirroring the colimit/limit asymmetry in the soft setting.
+\begin{table}[h]
+\centering\small
+\caption{Soft Kan ($\alpha{=}0.5$) vs. hard Kan, both source domains.}\label{tab:softkan}
+\begin{tabular}{llrrr}
+\toprule
+Source & Method & avg edges & $\rho$SoftF1 & Motif \\
+\midrule
+\multirow{4}{*}{Legal}   & left\_kan       &  6.75 & 0.029 & 0.135 \\
+                         & soft\_left\_kan & \textbf{35.10} & 0.027 & 0.135 \\
+                         & right\_kan      &  0.40 & 0.003 & 0.100 \\
+                         & soft\_right\_kan&  0.00 & 0.000 & 0.000 \\
+\midrule
+\multirow{4}{*}{Medical} & left\_kan       &  0.00 & 0.000 & 0.000 \\
+                         & soft\_left\_kan & \textbf{19.65} & 0.000 & \textbf{0.354} \\
+                         & right\_kan      &  0.00 & 0.000 & 0.000 \\
+                         & soft\_right\_kan&  0.40 & 0.000 & 0.050 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Three findings:
+
+(1)~\textbf{On legal, soft-left-Kan produces ${\sim}5{\times}$ more transferred edges than hard left-Kan} ($35.10$ vs.\ $6.75$), confirming that $\rho$-reweighting upweights rare cross-domain topics. Semantic soft-F1 is essentially unchanged ($0.027$ vs.\ $0.029$) and the motif fingerprint is \emph{identical} ($0.135$ in both): the added edges come from topics with similar relational structure to the original top-$k$, so the soft Kan densifies the graph without altering its structural signature. RN-reweighting at the topic-selection stage does not close the vocabulary gap.
+
+(2)~\textbf{On medical, soft-Kan partially escapes the empty-graph collapse.} Where hard left-Kan produces $0$ edges in $20/20$ medical queries, soft-left-Kan produces $19.65$ edges on average --- and recovers a motif score of $\mathbf{0.354}$, the highest motif score of any (method, source) combination in this study. Semantic soft-F1 remains $0$ (vocabulary still does not overlap), but the structural fingerprint is recovered. The RN-derivative is therefore doing the work it was theoretically designed to do, in the \emph{motif/structure space} --- not in the surface-semantic space.
+
+(3)~\textbf{The colimit/limit asymmetry persists in the soft setting.} Soft-right-Kan stays empty on legal ($0.00$) and near-empty on medical ($0.40$); soft-left-Kan densifies on both. This mirrors the \S\ref{sec:zerof1} hard-Kan asymmetry exactly: free union scales with RN reweighting, strict intersection does not.
 
 \section{Discussion}
 

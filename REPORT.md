@@ -90,13 +90,13 @@ Six external literatures motivate our evaluators:
 
 We constructed three causal-knowledge corpora using domain-specific data acquisition scripts in `kan_transfer/data/acquire/`:
 
-| Corpus | Source | Triples | Topics | Role |
-|---|---|---:|---:|---|
-| Economic | Federal Reserve documents (FOMC statements, speeches, Beige Book) | **313** | 92 | Ground truth target |
-| Legal | SEC litigation releases + CFPB enforcement actions + FTC press releases | **43** | 12 | Source A |
-| Medical | PubMed full-text papers | **47** | 12 | Source B |
+| Corpus | Source | Docs | Triples | Topics | Role |
+|---|---|---:|---:|---:|---|
+| Economic | Federal Reserve Beige Book + FOMC Meeting Minutes + NBER + FEDS + BIS working papers | 93 | **313** | 92 | Ground truth target |
+| Legal | SEC litigation releases + CFPB enforcement actions + FTC press releases | 31 | **43** | 12 | Source A |
+| Medical | PubMed full-text papers (via PMC) | 101 | **47** | 12 | Source B |
 
-Each triple is `(subj, rel, obj, topic)` where `rel ∈ {causes, increases, reduces, influences, affects, leads_to}`. Topics are Democritus-discovered concept clusters. The query split uses 20 held-out economic queries (see `results/query_split/test_queries.json`).
+Each triple is a record `{topic, path, question, statement, subj, rel, obj, domain}`; the Kan-extension code uses the subset `(subj, rel, obj, topic)`. Relation types come from a closed vocabulary the extractor was prompted with; the realised set per corpus is `{causes, increases, reduces, influences, affects, leads_to}` for economic and legal, and `{causes, increases, reduces, influences, leads_to}` for medical (the medical extraction never emitted `affects`). Topics are Democritus-discovered concept clusters. The query split uses 20 held-out economic queries (see `results/query_split/test_queries.json`).
 
 **Domain proximity** is the cosine similarity of domain centroids in sentence-transformer embedding space:
 
@@ -113,7 +113,7 @@ This wide spread is deliberate: it lets us test H2 (proximity predicts transfer)
 F(q) = weighted_union { topic_to_graph[c]  :  c ∈ top-k(sim(q, c)) }
 ```
 
-with edge weight equal to source-target cosine similarity. This is the elementary functor whose Kan extension we compute. The same module also exposes `F.get_all_triples_as_graph()`, used as the input to the naive-RAG baseline.
+with edge weight equal to source-target cosine similarity. This is the elementary functor whose Kan extension we compute. The same module also exposes the raw triple list `source_functor.triples` and a helper `F.get_all_triples_as_graph()`; the naive-RAG baseline (§3.4) embeds the raw triples directly rather than going through the functor evaluation.
 
 ### 3.3 Three Kan-extension implementations
 
@@ -135,19 +135,19 @@ where `freq(c) = |triples in c| / |total source triples|`. This is the discrete 
 
 ### 3.5 The seven evaluation dimensions
 
-For each of `{left_kan, right_kan, naive_rag, soft_left_kan, soft_right_kan}` and each of 20 test queries, we compute:
+For each of `{left_kan, right_kan, naive_rag}` and each of 20 test queries, we compute all seven dimensions below; the soft Kan variants `{soft_left_kan, soft_right_kan}` are run through only the two dimensions that meaningfully discriminate them (Semantic Soft-F1 — to test whether ρ-reweighting changes semantic alignment — and Structural Motifs — to test whether the denser ρ-weighted graphs preserve relational patterns). Wiring the soft variants through Homology / Universality / Back-Translation / Coherence is a half-day implementation task (§6.3).
 
 | # | Evaluator | Source literature | Metric |
 |---|---|---|---|
-| 0 | Semantic Soft-F1 | Standard | BERTScore-style triple match (`τ = 0.40`) |
+| 0 | Semantic Soft-F1 | Standard | BERTScore-style triple match (Hungarian + greedy, `τ = 0.40`) |
 | 1 | Structural Motifs | Gentner SME | Cosine of 6-d motif vector |
 | 2 | Homology | Comparative biology | Cosine of 16-d skeleton features |
 | 3 | Universality | RG theory (Wilson) | `1 − JSD` over 6 universal classes |
 | 4 | Back-Translation | Nida 1964 | LLM round-trip cosine fidelity |
 | 5 | Soft-Kan ρSoftF1 | RN-derivative | Semantic F1 of ρ-weighted prediction |
-| 6 | Coherence | Gadamer | LLM-as-judge 0–5 rating, normalised |
+| 6 | Coherence | Gadamer | LLM-as-judge 0–5 rating, normalised by /5 |
 
-All evaluators are in `evaluation/` and share a `_gt_cache` so the ground-truth functor is encoded only once per source (a non-trivial 10× speed-up).
+All evaluators are in `evaluation/`. They share a `_gt_cache` (built once per source via a single bulk encode of the 20 test queries against the economic functor's pre-computed topic embeddings) so the ground-truth graphs are constructed only once per source rather than once per (method, query, evaluator) call — a meaningful speed-up given that each functor evaluation otherwise triggers a fresh query encoding.
 
 ### 3.6 Reproducibility
 

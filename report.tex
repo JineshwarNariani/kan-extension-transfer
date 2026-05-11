@@ -90,18 +90,18 @@ We constructed three causal-knowledge corpora using domain-specific data-acquisi
 
 \begin{center}
 \small
-\begin{tabular}{lrrrc}
+\begin{tabular}{lrrrl}
 \toprule
-Corpus & Triples & Topics & Role \\
+Corpus & Docs & Triples & Topics & Role \\
 \midrule
-Economic (Fed FOMC + Beige Book) & 313 & 92 & GT target \\
-Legal (SEC + CFPB + FTC)         &  43 & 12 & Source A \\
-Medical (PubMed full-text)       &  47 & 12 & Source B \\
+Economic (Beige Book + FOMC + NBER + FEDS + BIS) & 93  & 313 & 92 & GT target \\
+Legal (SEC + CFPB + FTC)                         & 31  &  43 & 12 & Source A \\
+Medical (PubMed full-text)                       & 101 &  47 & 12 & Source B \\
 \bottomrule
 \end{tabular}
 \end{center}
 
-Each triple is $(\text{subj}, \text{rel}, \text{obj}, \text{topic})$ where $\text{rel} \in \{\text{causes}, \text{increases}, \text{reduces}, \text{influences}, \text{affects}, \text{leads\_to}\}$. The query split uses 20 held-out economic queries.
+The Democritus record is $\{\text{topic}, \text{path}, \text{question}, \text{statement}, \text{subj}, \text{rel}, \text{obj}, \text{domain}\}$; the Kan-extension code uses the subset $(\text{subj}, \text{rel}, \text{obj}, \text{topic})$. The realised relation set is $\{\text{causes}, \text{increases}, \text{reduces}, \text{influences}, \text{affects}, \text{leads\_to}\}$ for economic and legal, and $\{\text{causes}, \text{increases}, \text{reduces}, \text{influences}, \text{leads\_to}\}$ for medical (which never emitted \texttt{affects}). The query split uses 20 held-out economic queries.
 
 \paragraph{Domain proximity.} Cosine similarity of domain centroids in SentenceTransformer space:
 \begin{itemize}
@@ -128,9 +128,11 @@ where $\mathrm{freq}(c) = |\text{triples in } c| / |\text{total source triples}|
 
 \subsection{Naive RAG baseline}
 
-\texttt{kan/baseline.py} retrieves the top-20 source triples by direct query-to-triple cosine similarity and returns them as a graph. No functor, no categorical composition, no Kan extension.
+\texttt{kan/baseline.py} reads the source functor's raw triple list (\texttt{source\_functor.triples}), retrieves the top-20 triples by direct query-to-triple cosine similarity, and returns them as a graph. No functor structure, no categorical composition, no Kan extension.
 
 \subsection{Seven evaluation dimensions}
+
+For each of $\{\text{left\_kan}, \text{right\_kan}, \text{naive\_rag}\}$ and each of $20$ test queries we compute all seven dimensions below; the soft Kan variants $\{\text{soft\_left\_kan}, \text{soft\_right\_kan}\}$ are evaluated only on Semantic Soft-F1 and Motif in the current pipeline (extending them through the remaining four evaluators is a half-day implementation task, \S\ref{sec:cw}).
 
 \begin{center}
 \small
@@ -264,7 +266,7 @@ The soft-Kan experiment is dispositive: $5{\times}$ more predicted edges yields 
 
 (a) Source corpora are small (43--47 triples). (b) Train/test split is over target queries only; the source functors see all their topics. (c) LLM judges are noisy (Coherence std comparable to mean). (d) The sheaf-gluing test is untestable without non-zero per-source F1 --- re-running on semantic soft-F1 would make it properly testable.
 
-\section{Current Work and Future Directions}
+\section{Current Work and Future Directions}\label{sec:cw}
 
 \subsection{Building a unified causal manifold}
 

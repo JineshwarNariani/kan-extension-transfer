@@ -1,0 +1,1029 @@
+BIS Working Papers 
+No 1050 
+Population aging and 
+bank risk-taking 
+
+by Sebastian Doerr, Gazi Kabaş and Steven Ongena 
+
+Monetary and Economic Department 
+
+November 2022 
+
+JEL classification: E51, G21. 
+
+Keywords:  Risk-taking,  financial  stability,  low 
+interest  rates, population aging, demographics. 
+
+BIS  Working  Papers  are  written  by  members  of  the  Monetary  and  Economic 
+Department of the Bank for International Settlements, and from time to time by other 
+economists,  and  are  published  by  the  Bank.  The  papers  are  on  subjects  of  topical 
+interest and are technical in character. The views expressed in them are those of their 
+authors and not necessarily the views of the BIS. 
+
+This publication is available on the BIS website (www.bis.org). 
+
+©  Bank for International Settlements 2022. All rights reserved. Brief excerpts may be 
+
+reproduced or translated provided the source is stated. 
+
+ISSN 1020-0959 (print) 
+ISSN 1682-7678 (online) 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Population aging and bank risk-taking
+
+Sebastian Doerr
+
+Gazi Kaba¸s
+
+Steven Ongena
+
+BIS
+
+Tilburg
+
+UZH, SFI,
+
+KU Leuven & CEPR
+
+November 2022
+
+Abstract
+
+What are the implications of an aging population for ﬁnancial stability? To ex-
+amine this question, we exploit geographic variation in aging across U.S. counties.
+We establish that banks with higher exposure to aging counties increase loan-to-
+income ratios, especially where they operate no branches. Laxer lending standards
+also lead to higher nonperforming loans during downturns, suggesting higher credit
+risk. Inspecting the mechanism shows that aging drives risk-taking through two
+contemporaneous channels: deposit inﬂows due to seniors’ propensity to save in
+deposits; and depressed local investment opportunities due to seniors’ lower credit
+demand. Banks thus look for riskier clients in no-branch counties.
+
+JEL classiﬁcation: E51, G21.
+
+Keywords: Risk-taking, ﬁnancial stability, low interest rates, population aging, demo-
+graphics.
+
+Sebastian Doerr is at the Bank for International Settlements (sebastian.doerr@bis.org). Gazi Kaba¸s
+is at Tilburg University (g.kabas@tilburguniversity.edu). Steven Ongena is at University of Zurich,
+Swiss Finance Institute, KU Leuven, NTNU, and CEPR (steven.ongena@bf.uzh.ch). We thank our
+discussants Bo Becker, Robin Greenwood, Andrew Mackinlay, George Pennacchi, Romina Ruprecht,
+Neeltje van Horen, and Jinyuan Zhang; as well as Adrien Auclert, Andreas Barth, Martin Brown,
+Tabea Bucher-Koenen, Andreas Fuster, Emilia Garcia-Appendini, Jose Jorge, Oguzhan Karakas, Luca
+Mazzone, Kasper Roszbach, and Simon Rother. We also thank participants at the American Finance
+Association Annual Conference, Financial Intermediation Research Society Conference, Western Finance
+Association 2022 Meeting, FDIC 20th Annual Bank Research Conference, JFI-Nova SBE Conference on
+Financial Intermediation and Corporate Finance, Norges Bank-CEPR Workshop on Frontier Research in
+Banking, European Economic Association Annual Conference, ZEW conference on Ageing and Financial
+Markets, SFI Research Days, Annual Meeting of the Swiss Society for Financial Market Research, and the
+Seminar for Contract Theory, Banking and Money at University of Zurich. Kaba¸s and Ongena gratefully
+acknowledge ﬁnancial support from the European Research Council (ERC) under the European Union’s
+Horizon 2020 research and innovation programme ERC ADG 2016 (No. 740272:
+lending). The views
+expressed here are those of the authors only, and not necessarily those of the Bank for International
+Settlements.
+
+1
+
+1
+
+Introduction
+
+The U.S. population of age 65 and above will grow by 18 million (or 33%) over the next
+decade, and similar developments are taking place in most other advanced economies.
+This unprecedented rise in the senior population has led to a debate on whether popula-
+tion aging leads to a build-up of risks in the ﬁnancial sector. High savings rates among
+seniors might lead to an abundance of savings and depressed returns, thereby potentially
+encouraging banks to reach for yield (IMF, 2019).1 Low expected returns and banks’
+reach for yield, in turn, could give rise to ﬁnancial instabilities (Brookings, 2019).
+
+This paper provides the ﬁrst evidence on how an aging population aﬀects bank lending
+standards. For identiﬁcation, we exploit the extensive variation in aging that has already
+occurred across U.S. counties, combined with granular data on bank mortgage loans and
+deposits. We ﬁnd that banks more exposed to aging counties relax lending standards
+as they grant new loans:
+loan-to-income ratios increase, and in particular in counties
+where banks operate no branches. Banks with greater exposure also see a sharper rise
+in nonperforming loans during downturns, implying an increase in credit risk due to
+population aging. Further analysis suggests that these patterns are shaped by two forces:
+an increase in banks’ available funds due to seniors’ higher propensity to save in the
+form of deposits, and a contemporaneous aging-induced decrease in the local demand for
+credit.
+
+To measure banks’ presence in aging counties and how it aﬀects lending standards,
+we deﬁne bank exposure as the weighted average change in the number of seniors across
+counties where banks have branches. Weights are given by deposit shares at the beginning
+of the sample period. Intuitively, banks with higher exposure have a larger footprint in
+counties that see a stronger increase in seniors. Our main analysis focuses on the 1997–
+2007 period, and does so for three reasons. First, the period after the ﬁnancial crisis of
+2007/08 is characterized by substantial ﬁnancial regulatory reforms. These reforms have
+aﬀected banks’ lending decisions and hamper an identiﬁcation of the respective channels
+through which population aging aﬀects bank risk-taking. Second, we can exploit the
+Great Recession as a negative shock to see whether aging-induced risk-taking manifests
+itself in higher nonperforming loans during a downturn. And third, we avoid the zero
+lower bound on interest rates (Leahy et al., 2022).
+
+1Indeed, population aging is a major driver of falling interest rates (Carvalho et al., 2017; Conesa
+and Kehoe, 2018), and low rates have been associated with higher risk-taking (Dell’Ariccia et al., 2017;
+Heider et al., 2021).
+
+2
+
+Bank exposure could be correlated with observable or unobservable bank characteris-
+tics, posing a challenge to identiﬁcation. We address this challenge in a number of ways.
+First, we document that high- and low-exposure banks are similar in terms of initial bal-
+ance sheet characteristics, for example in terms of size, capital ratio, or return on assets.
+In line with the balancedness in bank co-variates, in regressions we ﬁnd that including
+bank controls and bank ﬁxed eﬀects barely aﬀects the magnitude of our estimated coeﬃ-
+cients, despite increasing the R2 substantially. Bank exposure to aging counties is hence
+likely uncorrelated with observable and unobservable bank characteristics, reducing po-
+tential concerns about self-selection and omitted variable bias (Altonji et al., 2005; Oster,
+2019).
+
+Second, we develop an instrumental variable approach that exploits the predetermined
+component of counties’ age structure. Speciﬁcally, we predict the change in the popula-
+tion of ages 65 and above from 1997 to 2007 with the change in the population of age 45
+to 65 from 1977 to 1987 in the same county. We then re-construct exposure, but based
+on aging predicted from historical trends, and use it as an instrumental variable (IV) for
+actual bank exposure to aging counties. This approach builds on the assumption that the
+historical demographic structure is plausibly exogenous to changes in contemporaneous
+confounding factors. Such factors include, for example, changes in life expectancy or
+economic conditions. To support the plausible exogeneity of our instrument, we show
+that directly controlling for banks’ exposure to contemporaneous changes in county char-
+acteristics (e.g. changes in income per capita or the unemployment rate) does not aﬀect
+our conclusions.
+
+Armed with our measure of bank exposure, we establish that banks more exposed
+to aging counties relax their lending standards. As the main measure for risk-taking we
+focus on the loan-to-income (LTI) ratio, which is highly correlated with ex-post default
+(Fuster et al., 2021). Our results show that a 33 percentage point (pp) increase in bank
+exposure is associated with a signiﬁcant rise in LTI ratios by around 23 pp.2 The eﬀect of
+exposure on LTI ratios is particularly strong in counties where banks have no branches.
+As a greater borrower distance to the nearest branch can result in less eﬃcient screening
+and monitoring (DeYoung et al., 2008; Granja et al., 2018; Liberti and Petersen, 2019),
+
+2Note that the increase of 33% in the number of seniors corresponds to the expected U.S. growth in
+the senior population over the next decade, from 2021 to 2030. The unconditional mean and standard
+deviation of the county-level growth in the number of seniors between 1997 and 2007 equal 12% and
+15%, respectively. An increase in bank exposure by 33 pp occurs hence, for example, when moving
+from a bank with zero exposure to a bank with 33% exposure, which is a bank exposed to counties that
+deposit-weighted have a growth in seniors equal to the expected growth in the U.S. over the next decade.
+
+3
+
+the rise in LTI ratios in no-branch counties suggests an increase in credit risk.3 Local
+aging could hence not only lower lending standards in general, but also have geographic
+spillover eﬀects to ﬁnancial stability in other markets.
+
+The rise in LTI ratios could in principle be explained by diﬀerences in the type of
+markets that more and less exposed banks serve. To absorb all observable and unobserv-
+able borrower-county characteristics, including loan demand, we exploit the granularity
+of our bank-county level data to include borrower-county ﬁxed eﬀects. Intuitively, these
+ﬁxed eﬀects enable us to compare two banks with diﬀerent exposures that lend to the
+same county, mitigating concerns that risk-taking is driven by changes in borrower-county
+fundamentals (Khwaja and Mian, 2008; Jim´enez et al., 2014). We still ﬁnd a statistically
+and economically signiﬁcant eﬀect of exposure on lending standards when we enrich our
+speciﬁcations with borrower-county ﬁxed eﬀects.
+
+The relaxation of lending standards among exposed banks suggests an increase in
+credit risk, with potentially negative consequences for ﬁnancial stability. To investigate
+this aspect in more detail, we show that banks with higher exposure to aging counties see
+a signiﬁcantly stronger increase in their share of nonperforming loans during the Great
+Recession. Importantly, controlling for banks’ exposure to the rise in house prices prior to
+the Great Recession does not aﬀect our estimates. Exposure to aging counties had eﬀects
+on risk-taking above and beyond banks’ exposure to the housing boom. Moreover, our
+ﬁndings hence suggest that the aging-induced relaxation in lending standards negatively
+aﬀects ﬁnancial stability during downturns.
+
+Having established a strong association between population aging and bank risk-
+taking, we investigate the underlying channels that could explain the link. Population
+aging could aﬀect banks through changes in the supply of and demand for capital. On
+the one hand, Becker (2007) argues that seniors are more likely to save in the form of
+deposits, which are a stable and cheap source of funding (Hanson et al., 2015; Carletti
+et al., 2021). Higher exposure to aging counties could hence lead to deposit inﬂows and
+reduce banks’ cost of funds, translating into an increase in lending but allowing banks to
+pursue safer projects with lower returns. On the other hand, an aging population could
+reduce the local demand for credit and depress returns. Homeownership rates and savings
+
+3Banks could have opened branches between 1997 and 2007 in counties where they had no branch in
+1997, possibly mitigating informational frictions in the lending process, leading to a smaller increase in
+LTI ratios. Consistent with this interpretation, we ﬁnd that estimated coeﬃcients increase in magnitude
+when we focus on counties where banks had no branches in 1997 and did not open any branches during
+the sample period.
+
+4
+
+are highest among seniors, and they are less likely to start new companies (Azoulay et al.,
+2020). An aging-induced decline in the labor force also reduces ﬁrms’ marginal product
+of capital, further lowering the demand for capital (Auclert et al., 2021). Aging-exposed
+banks could hence be confronted with a decline in the demand for credit in counties
+where they have branches at a time when they experience an increase in available funds.
+Banks might therefore have to look for new and potentially riskier clients, in particular
+in counties where they operate no branches.
+
+We ﬁrst investigate the link between aging and deposits. We ﬁnd that an increase in
+the number of seniors in a county has a positive and strongly signiﬁcant eﬀect on local
+bank deposits. A rise in a county’s senior population by one-third is associated with an
+increase in county-level bank deposits by around 25%. Seniors’ relatively larger share of
+wealth held in the form of deposits explains this positive relationship (Becker, 2007). For
+identiﬁcation, our regressions absorb all observable and unobservable bank heterogeneity
+with bank ﬁxed eﬀects. They also include a large set of county-level control variables.
+We hence account for other bank or observable county characteristics that could explain
+the rise in deposits. In addition, we show that neither local aging nor bank exposure
+predict where banks open new branches prior to our sample period. This mitigates the
+concern that banks strategically opened branches to beneﬁt from future deposit inﬂows
+in anticipation of local demographic trends.
+
+We then establish that population aging dampens the local demand for credit. First,
+we use data from the Survey of Consumer Finances and show that seniors are less likely
+to borrow or have outstanding debt compared to younger respondents. These correlations
+hold even after controlling for an extensive set of household-level controls. Second, we
+decompose mortgage loan growth in each county into supply and demand factors, follow-
+ing Amiti and Weinstein (2018). Higher growth among seniors has a signiﬁcant negative
+eﬀect on the demand factor, suggesting that aging leads to a decline in the local demand
+for mortgages.
+
+The aging-induced deposit inﬂows and weaker local demand for credit aﬀect the geog-
+raphy of bank lending. Higher exposure leads banks to increase their mortgage lending.
+The increase in lending is especially large in counties where banks operate no branches,
+i.e., in counties where exposed banks are not directly aﬀected by an aging-induced de-
+cline in credit demand. These results speak directly to our ﬁnding that banks relax their
+lending standards by most in counties where they operate no branches. They also add
+to concerns that banks exposed to aging markets may reach for yield outside their core
+
+5
+
+markets (IMF, 2019).
+
+To examine the robustness of our ﬁndings, we perform a series of additional tests. We
+start by investigating how the eﬀect of aging on risk-taking changes along the LTI distri-
+bution. We ﬁnd that the eﬀect is stronger in the right tail of the LTI ratio distribution,
+suggesting higher risk-taking among borrowers that already had high LTI ratios. We also
+show that the risk-taking in no-branch counties is stronger in the right tail of the LTI
+ratio distribution. In line with the large literature documenting that banks with lower
+capital ratios engage more in risk-taking, we further ﬁnd that higher exposure leads to
+a signiﬁcantly higher increase in LTI ratios for low-capitalized banks. Next, we consider
+the share of denied loans as another measure of bank lending standards. Similar to our
+main results, we ﬁnd that exposure to aging counties reduces the share of denied loans
+and that the eﬀect is stronger in no-branch counties.
+
+Finally, we also investigate whether laxer lending standards in the form of loan-to-
+income ratios aﬀect household leverage. The results show that counties in which exposed
+banks have a larger ex-ante market share also see a stronger increase in household debt-
+to-income ratios over the sample period. That is, the increase in risk-taking and loan-to-
+income ratios at the bank-county level is mirrored in an increase of households’ debt-to-
+income ratios at the county level.
+
+To the best of our knowledge, our paper is the ﬁrst to investigate the eﬀects of popula-
+tion aging on lending standards, and to what extent there are spillovers across markets.4
+While this paper’s focus is on risk-taking, our paper builds on work that shows how
+changes in banks’ deposit base aﬀect their loan volumes. Becker (2007) uses the local
+demographic structure as an instrument for changes in bank deposits, but focuses on how
+the availability of deposits aﬀects local entrepreneurial activity. Gilje et al. (2016) provide
+evidence that banks exposed to local liquidity inﬂows from oil and natural gas shale dis-
+coveries subsequently increase lending in other counties where they have branches. They
+ﬁnd that the eﬀects are especially pronounced for loan types that are subject to more
+contracting frictions.5 Our novel results for population aging show that local aging not
+
+4Recent papers investigate the eﬀects of population aging on various outcomes. Butler and Yi (2021)
+investigate the eﬀect of an aging population on the U.S. municipal bond market. Kopecky and Taylor
+(2022) use historical panel data to show that demographic shifts are correlated with asset returns and risk
+premia. Cravino et al. (2022) show that US population aging accounted for about 20% of the increase
+in the service share in consumption.
+
+5For further papers on the eﬀects of local shocks on bank lending, see Cort´es and Strahan (2017);
+Smolyansky (2019); De Jonghe et al. (2020); Doerr and Schaz (2021) and Rehbein and Ongena (2021),
+among many others. In addition, Kundu et al. (2022) demonstrate that the geographic concentration of
+
+6
+
+only leads to deposit inﬂows, but also reduces the local demand for credit. The combi-
+nation of both forces explains why banks increase their risk-taking, and why there are
+spillover eﬀects to other no-branch markets.
+
+We also contribute to the literature that explores how banks adjust their lending
+standards during credit booms (Berger and Udell, 2004; Dell’Ariccia and Marquez, 2006;
+Mendoza and Terrones, 2008; Dell’Ariccia et al., 2012; Justiniano et al., 2019) and periods
+of low interest rates (Maddaloni and Peydr´o, 2011; Altunbas et al., 2014; Jim´enez et al.,
+2014; Ioannidou et al., 2015; Dell’Ariccia et al., 2017; Heider et al., 2021). These papers
+show that credit booms or periods of low interest rates can lead to laxer lending standards
+and a higher risk of ﬁnancial crises. However, evidence on the eﬀects of population aging
+on bank risk-taking is scarce, despite the signiﬁcant policy attention devoted to this major
+macroeconomic trend (CGFS, 2018; ECB, 2018; IMF, 2019; OECD, 2019). Our analysis
+aims to ﬁll this gap in the literature. As advanced economies face an unprecedented
+increase in the number of seniors over the next decade, the bank risk-taking channel of
+population aging could gain in importance for ﬁnancial stability.6
+
+The rest of the paper proceeds as follows. Section 2 describes our main data sources
+and the construction of the main variables. Section 3 explains the empirical strategy and
+presents our main results on risk-taking and ﬁnancial stability. Section 4 then investigates
+the underlying mechanism. Section 5 provides additional tests, and Section 6 concludes.
+
+2 Data and descriptive statistics
+
+This section explains the construction of our main variables and reports descriptive statis-
+tics. Table OA1 in the Online Appendix provides further details on variable deﬁnitions
+and sources.
+
+Our main analysis focuses on the period from 1997 to 2007, for three reasons. First,
+while the growth in the senior population has been even more pronounced after the
+Great Financial Crisis, the post-crisis period is characterized by substantial ﬁnancial
+regulatory reform (such as the Dodd-Frank Act and regular stress tests) and encompassing
+government programs. These reforms have shaped banks’ lending decisions, particularly
+mortgage lending, over the post-crisis period, which would make a clean identiﬁcation of
+
+deposits aﬀects how shocks are transmitted across geographies by multi-market banks.
+
+6We thereby also complement results in Drechsler et al. (2021), Lin (2020) and Doerr et al. (2021)
+by highlighting an alternative channel through which macroeconomic changes aﬀect the ﬁnancial sector.
+
+7
+
+the respective channels through which population aging aﬀects bank risk-taking diﬃcult.
+The absence of major ﬁnancial regulatory changes during our sample period makes it
+well-suited to identify the eﬀects of population aging on bank risk-taking. Second, we
+can exploit the Great Recession to analyze whether higher risk-taking in the years leading
+up to the crisis manifested itself in higher nonperforming loans during the shock episode.
+That is, we can analyze whether laxer lending standards had an impact on ﬁnancial
+stability. And third, we avoid the zero lower bound on interest rates (Leahy et al., 2022).
+
+2.1 Main variables
+
+Population aging. Our main explanatory variable at the county level is the change in
+the log of the population of ages 65 and above from 1997 to 2007, denoted by ∆oldc. We
+use the change in the number of seniors (i.e., in the level) rather than the change in the
+ratio of seniors to the total population (i.e., in the share), because changes in the share
+could be driven by changes in the numerator or denominator. For example, a decline
+in the total population of a county would lead to an increase in the share of seniors,
+even though the number of seniors does not change.
+In such a case, the relationship
+between e.g. deposits or loans and the change in the share of seniors would be driven by
+the decline in population.7 Detailed population data by age cohort are provided by the
+National Cancer Institute Surveillance, Epidemiology, and End Results (SEER) program.
+We use these data also to construct changes in the size of other age cohorts.
+
+Bank exposure. To calculate banks’ exposure to aging counties, we use data from the
+Federal Deposit Insurance Corporation’s (FDIC) Summary of Deposits (SOD), which
+provides information on the geographic distribution of bank deposits.8 We compute
+
+7In regressions of the log of the share of seniors on the log of the total number of seniors (the
+numerator) and the log of the total population (the denominator), a Shapley decomposition of the R-
+squared shows that around two-thirds of the variation in the share is explained by the variation in the
+total population, and around one-third by the variation in the senior population. Using the share of
+seniors as an explanatory variable would hence lead to signiﬁcant measurement issues, as most of the
+variation would be due to changes in the total population. Instead, we directly control for population
+growth in our regressions.
+
+8An assumption underlying our analysis is that deposits raised by banks in a given county are raised
+from residents of that county. Amel et al. (2008) show that between 1992 and 2004, the median distance
+between a depositor and its bank was three miles and remained constant over time. Nonetheless, the
+rise of online banking could mean that “branchless” deposits are recorded in the bank’s headquarters
+branch. To the extent that the amount of branchless deposits is uncorrelated with bank exposure, such
+measurement error would arguably not lead to a bias in the estimates. In line with this argument, we
+ﬁnd that excluding banks’ headquarter county from the analysis does not aﬀect our results (unreported).
+
+8
+
+banks’ beginning-of-sample exposure as
+
+exposureb =
+
+(cid:88)
+
+c
+
+depositsb,c
+depositsb
+
+× ∆oldc,
+
+(1)
+
+where depositsb,c and depositsb denote bank b’s deposits in county c and its total deposits
+as of 1997. ∆oldc is county c’s change in the log of the population of ages 65 and
+above. High exposureb implies that a large share of banks’ initial deposits is held in
+aging counties, while low exposure implies that deposits are held in counties with a small
+increase in the number of seniors. Higher exposure thus corresponds to an increase in
+deposit-weighted average aging in banks’ borrower counties. Exposure is constructed from
+beginning-of-sample deposit shares, alleviating concerns about banks selectively opening
+branches in aging counties.9
+
+Instrumental variable strategy. Counties that experience a stronger increase in se-
+niors could diﬀer along other dimensions that could matter for deposit growth. We thus
+predict ∆old, i.e., the change in the population of ages 65 and above from 1997 to 2007,
+with the change in the population of age 45 to 65 from 1977 to 1987 in the same county.
+In essence, we use the predetermined component of each county’s age structure − 20 years
+prior to our sample period − as an instrumental variable for the actual change in the
+age structure. This approach builds on the assumption that the historical demographic
+structure is plausibly exogenous to changes in contemporaneous confounding factors. For
+example, it purges ∆old from changes in life expectancy, in- or out-migration, or incomes
+over the sample period.
+
+Similar to county aging, bank exposure could be correlated with other (unobservable)
+factors that aﬀect bank behaviour. For example, aging counties could, for whatever
+reason, face better economic prospects in terms of their unemployment trajectory or
+income growth. Banks more exposed to aging counties would then also be more exposed
+to faster growing areas, which poses a threat for our identiﬁcation strategy. To address
+this concern beyond the ﬁxed eﬀects strategy (explained below), we construct exposure
+in Equation (1) based on ∆old predicted by the historical demographic structure.
+In
+addition, and to test whether exposure to aging counties is correlated with exposure to
+counties with better growth trajectories, we compute exposure to the changes in local
+
+9In the Online Appendix, we show that neither local aging nor bank exposure predict in which
+
+counties banks open new branches prior to 1997, see Table OA3.
+
+9
+
+unemployment rates and income per capita, analogous to Equation (1). We obtain a
+strong ﬁrst stage, with an F-statistic of almost 60 (see also Figure OA2).
+
+LTI ratios, loan and deposit growth. Home Mortgage Disclosure Act data provide
+detailed information on banks’ residential mortgage lending.10 HMDA covers the vast
+majority of applications and approved mortgage loans in the U.S. The data include the
+application outcome (granted or denied), loan amount, and borrower income for each
+loan.11 We measure bank risk-taking through the loan-to-income (LTI) ratio, deﬁned as
+loan volume over applicant income. The LTI ratio is a signiﬁcant predictor of ex-post
+default (Fuster et al., 2021) and has been widely used in the literature to measure the
+riskiness of loans (Dell’Ariccia and Marquez, 2006; Dell’Ariccia et al., 2012; Duchin and
+Sosyura, 2014). We compute the change in the average LTI ratio, as well as at the 10th,
+25th, 50th, 75th, and 90th percentile in each bank-county cell:
+
+∆LT Ib,c =
+
+LT I 07
+(LT I 07
+
+b,c − LT I 97
+b,c
+b,c + LT I 97
+b,c)/2
+
+.
+
+(2)
+
+Additionally, we compute the change in the share of denied applications in each bank-
+county cell. For these measures of risk-taking, we are restricted to the ‘intensive margin’,
+in the sense that we can only take into account counties in which banks made loans in
+1997 and 2007.
+
+Further, we compute the change in loan amounts and deposits at the bank-county
+
+level as
+
+∆yb,c =
+
+y07
+b,c − y97
+b,c
+b,c + y97
+(y07
+b,c)/2
+
+,
+
+(3)
+
+where y is either HMDA loans or deposits. For our mortgage analysis, we use mortgage
+loans that were not sold in the respective calendar year. Since these loans are mostly
+retained on banks’ balance sheets, they are predominately funded by deposits (Han et al.,
+2015; Cort´es and Strahan, 2017). To account for entry into and exit out of counties over
+the long time horizon, we standardize the change in variables by their respective mid-
+
+10We follow the literature and restrict the sample to conventional or Federal Housing Administration
+(FHA)-insured loans, exclude multi-family properties, and keep only originated, approved, and purchased
+loans. We also drop all observations with missing county Federal Information Processing Standards
+(FIPS) codes or missing borrower income, as well as loans extended to borrowers residing outside of
+metropolitan statistical areas (MSAs).
+
+11In 2007, mortgage lending averaged around 30% of banks’ total lending, and 40% for the largest
+banks. Additionally, HMDA data represent the most detailed publicly available data on bank lending
+disaggregated at the geographical level, which is why we focus on mortgage lending in our analysis.
+
+10
+
+points. This deﬁnition bounds growth rates to lie in the interval [−2, 2], where −2 implies
+that a bank exited a county between 1997 and 2007, and 2 that it entered.12 Finally,
+we deﬁne the dummy no branch that takes on a value of one if bank b had no branch in
+county c in 1997 and zero otherwise.
+
+Bank and county data. The FDIC provides detailed bank balance sheet data in its
+Statistics on Depository Institutions (SDI). We collect 1997 second quarter data on banks’
+total assets, Tier 1 capital ratio, nonperforming loans (NPL), return on assets, total
+deposits, total liabilities, share of non-interest out of total income, and overhead costs
+(eﬃciency ratio). We also include an indicator of an institution’s primary specialization
+in terms of asset concentration that takes on ten distinct values.13 We also collect 1997
+and 2007 data on banks’ total deposits, total liabilities, and total loans and compute the
+change in the logarithm of each variable.
+
+At the county level, we further collect public information on debt-to-income ratios
+(Federal Reserve Bank of New York Consumer Credit Panel, available from 1999 on-
+ward). We also collect 1997 data on the log of the population (NCI SEER), the unem-
+ployment rate (Bureau of Labor Statistics, Local Area Unemployment Statistics (BLS
+LAUS)), log income per capita (Bureau of Economic Analysis, Local Area Personal In-
+come (BEA LAPI)), house price indices (Federal Housing Finance Agency (FHFA)), as
+well as employment shares in manufacturing (SIC code 20), retail trade (SIC code 52),
+and services (SIC code 70), provided in the County Business Patterns (CBP). CBP also
+provide information on employment in tradable and nontradable industries. Following
+Adelino et al. (2015), we classify two-digit NAICS code 23 as construction; codes 44, 45,
+and 72 as nontradable, and all others as tradable industries.
+
+To remove outliers, we winsorize all variables at the 0.5th and 99.5th percentile. We
+then trim all remaining extreme values that lie at least ﬁve standard deviations above or
+below the mean.
+
+12While the log diﬀerence is symmetric around zero, it is unbounded above and below, and does not
+easily aﬀord an integrated treatment of entry and exit. The growth rate used in this paper is divided by
+the simple average in t − 1 and t. It is symmetric around zero, lies in the closed interval [-2,2], facilitates
+an integrated treatment of entry and exit, and is identical to the log diﬀerence up to a second order
+Taylor series expansion (Davis and Haltiwanger, 1999).
+
+13The indicator reﬂects, for example, whether a bank has an agricultural or a mortgage lending
+
+specialization.
+
+11
+
+Survey of Consumer Finances. The Survey of Consumer Finances (SCF) of the
+Federal Reserve provides detailed information on the allocation of households’ ﬁnancial
+assets. The SCF is a triennial cross-sectional survey on household assets and demograph-
+ics. We combine the survey waves from 1998 and 2007 (41,366 observations). We collect
+information on respondents’ total ﬁnancial assets, deposits, and debt, as well as dummy
+indicators for whether they borrowed in the past year, had any outstanding debt, or
+whether they have been turned down for credit, or feared being denied credit in the past
+5 years. As control variables, we further use data on the education level, number of kids,
+gender, race, marital status, home ownership, and a dummy for business ownership.
+
+2.2 Descriptive statistics
+
+In the average county, the number of seniors (∆oldc) increased by 12%,14 with a standard
+deviation of 15%. These numbers suggest signiﬁcant variation in population aging across
+U.S. counties.
+
+Table 1 provides descriptive statistics for the main variables.
+
+In total, our sample
+includes 1,843 banks for which we have data on loans and deposits over the sample
+period. Panel (a) summarizes bank exposure and other balance sheet characteristics from
+the SDI. For the average bank, exposure equals 0.10, with a standard deviation of 0.11.
+As exposure reﬂects deposit-weighted aging, a mean of 0.10 implies that the number of
+seniors increased by 10% in the average county where a bank takes deposits.15
+
+Panel (b) reports summary statistics at the bank-county level. The average bank saw
+little change in its LTI ratio, but there is sizeable dispersion in the change across banks,
+the standard deviation equals 85 pp. While LTI ratios at the 25th percentile declined
+by 19 pp, LTI ratios increased by more than 5 pp on average at the 75th percentile,
+and by more than 20 pp at the 90th percentile. The share of denied loans increased by
+7 pp on average. For the average bank-county pair, deposits increased by 114% over
+the time period (13,086 observations); mortgage lending (one- to four-family residences)
+increased by 103% (53,197 observations).16 Along the intensive margin (disregarding
+bank entry and exit across counties), lending increased by 84% (17,643 observations). 17
+
+14The unweighted county average of 11.6% in the change in the number of seniors compares to a
+
+US-wide increase in the senior population of around 10% over the sample period.
+
+15Figure OA1 shows the distribution of aging and exposure to aging.
+16The diﬀerence in the number of observations reﬂects that the average bank lends to counties in
+
+which it does not raise deposits.
+
+17The unweighted average increase in mortgage lending in our sample is lower than the ﬁgure based
+
+12
+
+Finally, panel (c) reports summary statistics for county-level variables for the set of 2,163
+counties.
+
+Balancedness. To examine the balancedness in beginning-of-sample covariates among
+our sample of banks, in Table 2 we split banks into those below (low exposure) and
+above (high exposure) the median of the exposure distribution. High-exposure banks are
+slightly smaller (the diﬀerence in size is signiﬁcant at the 10% level). They are statistically
+similar in terms of the share of nonperforming loans, return on assets, capital ratio, ratio
+of deposits to liabilities, or eﬃciency ratio (reﬂecting overhead costs).18 There is also no
+signiﬁcant diﬀerence in the share of C&I loans or the share of loans extended to no-branch
+counties.
+
+A potential concern for identiﬁcation is that banks strategically opened branches to
+beneﬁt from future deposit inﬂows in anticipation of demographic trends. In the Online
+Appendix, we show that neither local aging nor bank exposure predict in which counties
+banks open new branches prior to 1997 (see Table OA3). Speciﬁcally, we regress diﬀerent
+measures that indicate whether banks opened branches on population aging or bank
+exposure and ﬁnd no systematic relationship. These results mitigate concerns about
+such selection eﬀects.
+
+3 Population aging and bank risk-taking
+
+The unprecedented rise in the senior population has led to a debate on whether population
+aging leads to a build-up of risks in the ﬁnancial sector. High savings rates among
+seniors might lead to an abundance of savings and depressed returns, thereby potentially
+encouraging banks to reach for yield and engage in risk-taking (IMF, 2019). Higher risk-
+taking by ﬁnancial institutions in turn could give rise to ﬁnancial instabilities (Brookings,
+
+on aggregate outstanding mortgage debt (one- to four-family residences) that increased by around 190%
+from 1997 to 2007. See Federal Reserve Bank of St. Louis, FRED series MDOTP1T4FR.
+
+18A potential concern arising from the correlation between bank size and exposure is that the estimates
+of exposure on bank lending and risk-taking reﬂect (unobservable) bank characteristics correlated with
+bank size. To address this concern, we estimate regressions with granular bank size*county ﬁxed eﬀects,
+where bank size corresponds to deciles of 1997 total bank assets. We thus account for any unobservable
+factors, including loan demand, that could diﬀer across counties and be speciﬁc to banks of diﬀerent
+sizes. In other words, we compare the eﬀect of bank exposure to aging counties on lending and risk-taking
+among banks of near-identical size active in the same county. None of our results are aﬀected by the
+inclusion of bank size*county ﬁxed eﬀects.
+
+13
+
+2019). In this section, we ﬁrst analyze the eﬀect of population aging on banks’ loan-to-
+income ratios and non-performing loans. In the next section, we explore the underlying
+mechanism that drives the link between population aging and risk-taking.
+
+3.1 Population aging and lending standards
+
+To investigate the eﬀects of an aging population on bank risk-taking, we estimate the
+following regression at the bank-county level:
+
+∆LT Ib,c = β ∆ exposureb + controlsb/c + θc + (cid:15)b,c,
+
+(4)
+
+where ∆LT Ib,c is the change in bank b’s average LTI ratio in mortgage lending in county
+c over the sample period. Variable exposureb is bank exposure to aging counties at the
+beginning of the sample, as deﬁned in Equation 1. Bank controls include log total assets,
+return on assets, nonperforming loans, total deposits over total liabilities, Tier-1 capital
+ratio, non-interest income, the indicator on bank specialization, and overhead costs, all
+at the beginning of the sample period. County controls include the change in the log of
+the total population, as well as the unemployment rate, log income per capita, the share
+of blacks, the log of the population, and the employment shares in manufacturing, retail,
+and services, also all at the beginning of the sample period. Standard errors are clustered
+at the bank and county level to account for correlations across observations among the
+same bank or county.
+
+Equation (4) faces the common identiﬁcation challenge to account for diﬀerences in
+the underlying characteristics of banks’ borrowers. If more exposed banks lend to counties
+with diﬀerent characteristics than less exposed banks, any observed diﬀerential change
+in LTI ratios reﬂects both county (demand) and bank (supply) factors. To address this
+challenge, we include granular borrower-county ﬁxed eﬀects (θc) that absorb any unob-
+servable county characteristics, for example, changes in consumption, employment, or
+loan demand. Under the assumption that loan demand in a county is similar across
+banks, these ﬁxed eﬀects diﬀerence out demand forces and allow for identiﬁcation of sup-
+ply eﬀects. Intuitively, these ﬁxed eﬀects enable us to compare two banks with diﬀerent
+exposure that lend to the same county (Khwaja and Mian, 2008; Jim´enez et al., 2014).
+
+Table 3 reports the regression results for Equation (4) and shows that an increase in
+exposure to aging counties leads to higher LTI ratios. Column (1) shows that exposure
+
+14
+
+has a positive eﬀect on bank risk-taking, signiﬁcant at the 1% level. When we add bank
+controls in column (2), the coeﬃcient of exposure remains similar in terms of sign, size,
+and signiﬁcance. In line with results in Table 2, this ﬁnding suggests that exposure is
+not systematically correlated with other observable bank characteristics. Column (3)
+accounts for observable diﬀerences across borrower-counties by adding county controls,
+and column (4) further tightens identiﬁcation by including borrower-county ﬁxed eﬀects.
+Holding all observable and unobservable county characteristics constant, exposure to
+aging counties still is associated with a highly signiﬁcant increase in LTI ratios. The
+magnitude of the coeﬃcient remains similar to column (2). Banks with a one standard
+deviation (sd) higher exposure see a relative increase in their LTI ratio by (0.11 × 0.42 =)
+4.6 pp.
+
+Including bank controls, county controls or county ﬁxed eﬀects in columns (2)–(4) does
+not materially change the size or signiﬁcance of our coeﬃcients relative to column (1),
+despite a substantial increase in the R2. Our results hence suggest that the correlation
+between bank exposure and observable bank or unobservable county characteristics is
+low, reducing potential concerns about self-selection and omitted variable bias (Altonji
+et al., 2005; Oster, 2019).
+
+To support the argument that exposure to aging counties leads to an increase in risk-
+taking, column (5) replicates the speciﬁcation in column (4), but uses bank exposure
+predicted with exposure constructed from the historical age structure (see Section 2).
+Supporting the notion that bank exposure is likely orthogonal to several bank and county
+characteristics, the coeﬃcient on exposure remains positive and signiﬁcant at the 1%
+level.19 These ﬁndings suggest a causal eﬀect of bank exposure on LTI ratios.
+
+Providing further support for a causal link from exposure to risk-taking, column (6)
+additionally controls for banks’ exposure to the changes in counties’ income per capita
+and unemployment rate. As discussed above, to the extent that aging counties might
+systematically diﬀer in their economic prospects and growth trajectories, these exposure
+variables could explain changes in risk-taking and be correlated with exposure to aging
+counties. Accounting for these factors, column (6) shows that the coeﬃcient on exposure
+declines only slightly in magnitude, but remains signiﬁcant at the 1% level, which supports
+
+19The ﬁrst-stage F-statistic equals 57.97. The coeﬃcient in the IV regression is larger than that in the
+OLS regressions, which could suggest that the IV overcomes measurement error in the exposure variable.
+Such mismeasurement could arise if, for example, seniors hold deposits in bank branches outside their
+residence county (which happens when e.g. snowbirds permanently move from the Great Lakes region
+to Florida but leave their deposits in a bank branch up north in the town of origin).
+
+15
+
+the plausible exogeneity of our IV.20
+
+Does the eﬀect of exposure on risk-taking diﬀer in counties where banks have a branch
+or not? In column (7), we interact exposure with the dummy no branch, which takes on a
+value of one in counties where banks had no branch at the beginning of the sample period.
+Results show that banks increase their LTI ratios by signiﬁcantly more in counties where
+they have no branch. Column (8) conﬁrms this ﬁnding once we add bank ﬁxed eﬀects
+to control for any unobservable bank-level characteristics. Previous work has shown that
+a greater borrower distance to the nearest branch requires banks to rely more on hard
+information (DeYoung et al., 2008). A greater distance can hence result in a less eﬃcient
+screening and monitoring of borrowers, leading to the build-up of risks (Granja et al.,
+2018). These considerations suggest that the increase in LTI ratios in counties where
+banks have no physical presence could lead to material increases in credit risk.21 We will
+investigate this aspect in what follows.
+
+3.2 Do laxer lending standards result in higher credit risk and
+
+losses?
+
+The analysis in the previous section has shown that banks with higher exposure to aging
+counties increase their LTI ratios, which suggests an increase in credit risk. Did the
+increase in credit risk have consequences for the performance of exposed banks during a
+negative shock, and hence for ﬁnancial stability more broadly?
+
+Evidence from the Great Recessions suggests so: Figure 1, panel (a) shows the evo-
+lution of the ratio of nonperforming 1–4 family residential loans to assets from 2000 to
+2015 for banks in the bottom (black dashed line) and top tercile (blue solid line) of the
+exposure distribution. Panel (b) depicts the same plot for overall nonperforming loans as
+a share of assets. Up until 2007, the series for high- and low-exposure banks are indistin-
+guishable. After 2007 NPLs increase to a larger extent for high-exposure banks, relative
+
+20Formally testing for the sensitivity of the exclusion restriction following Conley et al. (2012) shows
+that even if the exclusion restriction would be substantially violated – i.e., the past demographic structure
+has a large and signiﬁcant eﬀect on the outcome variables during the sample period through channels
+other than contemporaneous aging – exposure leads to an economically sizeable and statistically signiﬁ-
+cant increase in LTI ratios (unreported).
+
+21Banks could have opened branches between 1997 and 2007 in counties where they had no branch
+in 1997, possibly mitigating informational frictions in the lending process. Consistent with this inter-
+pretation, we show that the coeﬃcient on the interaction term exposure × no branch increases in size
+when the dummy no branch takes on a value of one in counties where banks had no branches in 1997
+and opened no branches until 2007 (see Table OA5).
+
+16
+
+to low-exposure banks. The diﬀerence across series peaks in 2010 and only reverts to sim-
+ilar levels by 2015. Figure 1 thus suggests that high exposure banks fared worse during
+the Great Recession, relative to low exposure banks. However, there was no discernible
+diﬀerence in pre-trends, i.e., greater risk-taking did manifest itself in higher NPL ratios
+only once the economy entered a downturn.
+
+To investigate the eﬀects of exposure on nonperforming loans in more detail, we
+
+estimate bank-level regressions of the following form:
+
+∆yb = β exposureb + δ exposure to ∆hpi97−07
+
+b
+
++ controlsb + (cid:15)b,
+
+(5)
+
+where yb is the 2007 to 2010 change in the ratio of nonperforming residential mortgages
+loans (1–4 family homes) to total assets or the ratio of overall nonperforming loans to total
+assets. Exposure denotes bank exposure to aging counties, predicted by the historical
+demographic structure. Bank controls include the log of total assets, return on assets,
+nonperforming loans, total deposits over total liabilities, Tier-1 capital ratio, non-interest
+income, the indicator on bank specialization, and overhead costs, all as of 1997. To ensure
+that our ﬁndings do not reﬂect that exposed banks are also more exposed to the pre-crisis
+housing boom, we construct banks’ exposure to the change in county-level house price
+indices (‘hpi’) from 1997 to 2007 (exposure to ∆hpib) analogously to Equation 1.
+In
+bank-level regressions, we can no longer control for possible confounding factors at the
+county level, so it is important to keep in mind that the coeﬃcient β could at least in
+part reﬂect unobservable demand factors.
+
+Column (1) of Table 4 shows that exposed banks see a signiﬁcant increase in their
+NPL ratio on residential mortgage loans. Controlling for banks’ exposure to the housing
+boom in column (2) does not aﬀect the coeﬃcient on exposure in any statistically or
+economically meaningful way. Columns (3) and (4) repeat the exercise, but use the
+change in banks’ total NPL ratio as the dependent variable. Similar to columns (1) and
+(2), there is a strong positive and highly signiﬁcant relationship: exposed banks see a
+stronger rise in nonperforming loans. In column (4), a one standard deviation increase
+in exposure is associated with an almost 13% stronger growth in nonperforming loans
+during the Great Recession (around 18% of the average growth in NPLs). While columns
+(1) and (2) directly follow from our main ﬁnding − exposed banks increase their provision
+of mortgage loans and increase their LTIs − ﬁndings in columns (3) and (4) suggest that
+risk-taking in mortgage lending had repercussions on overall bank performance during
+the crisis.
+
+17
+
+In conclusion, results in Table 3 suggest that banks exposed to aging counties increase
+their loan-to-income ratios, likely taking on credit risk. The eﬀects are more pronounced
+in counties where banks have no physical presence – implying geographic spillover eﬀects
+of population aging on ﬁnancial stability. Table 4 shows that the aging-induced increase
+in risk-taking before the Great Recession led to a sharper increase in nonperforming
+loans during the crisis. Exposure to aging counties could therefore have exacerbated the
+negative eﬀects of the Great Financial Crisis on bank health and ﬁnancial stability –
+irrespective of banks’ exposure to the housing boom.
+
+In what follows, we explore the underlying mechanisms that drives the link between
+
+population aging and bank risk-taking.
+
+4
+
+Inspecting the mechanism: deposits and local loan
+
+demand
+
+As we show in this section, banks operating in aging counties are subject to two opposing
+forces that aﬀect their risk-taking behaviour. First, population aging leads to an increase
+in banks’ available funding in the form of deposits. Second, an aging population reduces
+the local demand for credit.
+
+4.1 Aging and deposits
+
+Seniors have a higher propensity to hold deposits (Becker, 2007), consistent with a lower
+portfolio share of risky assets among older households (Fagereng et al., 2017). Panel (a)
+of Figure 2 plots average ﬁnancial assets (left axis) and average deposits (right axis) for
+diﬀerent age cohorts. Seniors, deﬁned as the population of age 65 and above, hold on
+average about twice as much deposits as those in the cohort of 55-64, and more than three
+times as much as younger cohorts. Table OA2 in the Online Appendix shows that the
+positive relationship between age and deposits is not explained by cohort ﬁxed eﬀects,
+nor by a large set of individual-level controls such as income, occupation, homeownership
+or education.
+
+Such diﬀerences in deposit holdings across age cohorts imply potentially large eﬀects
+on banks’ funding conditions when economies age, as deposits are a safe and cheap source
+
+18
+
+of funding (Kashyap et al., 2002; Hanson et al., 2015; Carletti et al., 2021).22 Moreover,
+deposits by customers that have a longer relationship with a bank have been shown to be
+more stable (Iyer and Puri, 2012; Iyer et al., 2016) – which is the case for senior citizens.23
+Deposit inﬂows due to exposure to aging counties could hence be an important factor in
+explaining banks’ risk-taking behavior.
+
+Building on demographic variation in savings behavior, we investigate the relationship
+between secular changes in local demographics and bank deposits in the following cross-
+sectional regression at the bank-county level:
+
+∆depositsb,c = β ∆oldc + controlsb/c + θb + (cid:15)b,c,
+
+(6)
+
+where ∆depositsb,c is the change in bank b’s deposits in county c over the sample period.
+The explanatory variable ∆oldc is the change in the log county population of ages 65 and
+above. Due to a possible correlation between local aging and other county-level factors,
+we instrument ∆oldc with the historical demographic structure, as explained in Section 2.
+Note that we focus on the change in the number of seniors, rather than the share, to avoid
+that results are spuriously driven by changes in the total population (see the discussion
+Instead, we control for the change in the total population directly.24
+in Section 2.1).
+County controls include the unemployment rate, log income per capita, the share of
+blacks, the log of the population, the change in the total population as well as employment
+shares in manufacturing, retail, and services, all at the beginning of the sample period.
+Bank controls include the log of total assets, return on assets, nonperforming loans,
+total deposits over total liabilities, Tier-1 capital ratio, non-interest income, the indicator
+on bank specialization, and overhead costs, all at the beginning of the sample period.
+Standard errors are clustered at the bank and county level to account for correlations
+across observations among the same bank or county.
+
+In Equation (6), a coeﬃcient β > 0 would indicate that local aging leads to an increase
+in local bank deposits. The underlying intuition is that the elderly hold more deposits,
+
+22In 1997 the average bank in our sample had a ratio of deposits to total liabilities of 94%. A large
+
+literature highlights the importance of deposits for bank lending (see e.g. Gilje et al. (2016)).
+
+23According to the Survey of Consumer Finances, respondents of age 65 and above are almost twice
+as likely than younger cohorts to state that they chose their ﬁnancial institution because they “banked
+there a long time”.
+
+24Consider how aging could aﬀect bank deposits. While aging is expected to have a positive eﬀect
+on deposits (see Becker (2007) and the discussion in Section 4), measuring aging by the change in the
+share of seniors can spuriously generate a negative inﬂuence, due to a decline in total population – the
+denominator of the share.
+
+19
+
+as shown in Figure 2. Yet, β reﬂects diﬀerences in households’ savings behavior and in
+bank behavior, both of which could aﬀect individuals’ incentives to hold deposit. For
+example, banks could decide to oﬀer more attractive rates on deposits. To isolate the
+eﬀect of aging on deposits, in some speciﬁcations, we include bank ﬁxed eﬀects (θb) that
+absorb all unobservable bank characteristics. In essence, we compare the eﬀect of aging
+in diﬀerent counties on deposits of the same bank, as we hold all bank characteristics
+constant.
+
+Table 5 shows that an increase in the number of seniors in a county increases bank
+deposits. Column (1) includes county controls and shows that aging has a positive eﬀect
+on bank deposits, signiﬁcant at the 1% level. Once we add bank controls in column (2),
+the coeﬃcient is similar in terms of sign, size, and signiﬁcance. While we cannot include
+depositor-county ﬁxed eﬀects in Equation (6), in column (3) we include depositor-state
+ﬁxed eﬀects to control for confounding factors at the state level. The coeﬃcient on ∆ old
+declines in magnitude, but remains positive and signiﬁcant at the 1% level.
+
+In column (4), we further tighten identiﬁcation and include bank ﬁxed eﬀects. Holding
+all observable and unobservable bank characteristics constant, local aging still is associ-
+ated with a highly signiﬁcant increase in deposits. Banks operating in a county with a one
+standard deviation (sd) larger increase in the number of seniors see a relative increase
+in local deposits by (0.15 × 0.640 =) 9.6% (or around 8.4% of the average growth in
+deposits over the sample period). These results suggest a causal eﬀect of local aging on
+bank deposits. To further support this interpretation, column (5) additionally controls
+for the 1997–2007 change in counties’ income per capita and unemployment rate (note
+that regressions already account for the change in the total population). In principle,
+diﬀerences in economic prospects could aﬀect deposits and be correlated with popula-
+tion aging. Accounting for these factors, column (5) shows that the coeﬃcient on ∆old
+remains positive and signiﬁcant at the 5% level.25
+
+4.2 The local demand for credit
+
+Beyond the positive eﬀect on deposits, an aging population could reduce the local demand
+for credit. Seniors usually own their property and have high savings, so they have less need
+to borrow. In addition, seniors are also signiﬁcantly less likely to start new companies
+
+25In unreported regressions we show that higher exposure increases banks’ total deposits and total
+liabilities. This suggests that banks do not oﬀset the increase in deposits with a reduction in other
+liabilities.
+
+20
+
+(Azoulay et al., 2020), further dampening the demand for credit.26 Consistent with
+lower demand for credit by seniors, Figure 2, panel (b) shows that older cohorts have
+signiﬁcantly lower debt levels than younger cohorts (left axis). For the cohort of age
+65 and above, total debt is close to zero. The share of respondents stating that they
+‘currently do not borrow’ (right axis) also reﬂects this: While around 5% of younger
+cohorts state that they did not borrow, almost every third respondent of age 65 and
+above reports that he or she did not borrow.
+
+We conﬁrm these diﬀerences in borrowing behavior with respondent (i)-level data
+
+from the SCF. We estimate the following regression:
+
+yi = β respondent age 65i + controlsi + τt + (cid:15)i.
+
+The independent variable respondent age 65i is a dummy with a value of one if the
+respondent is of age 65 and above, and zero otherwise. Table 6 shows results. In columns
+(1)–(2), the dependent variable is a dummy that takes on a value of one if a respondent
+indicated that he/she has not borrowed over the past year. Column (1) shows that
+seniors are 20.9% more likely not to have borrowed, compared to younger respondents.
+Adding an extensive set of household-level controls (the log of total ﬁnancial wealth, the
+education level, number of kids, gender, race, marital status, home ownership, and a
+dummy for business ownership), as well as survey wave ﬁxed eﬀects, narrows the gap
+only slightly in column (2). We obtain similar results when we use a dummy that takes
+on a value of one if a respondent indicated that he/she has no outstanding household
+debt in columns (3)–(4). For example, column (4) suggests that seniors are around 36%
+less likely to have any debt, compared to younger respondents. In principle, infrequent
+borrowing and no outstanding debt could also result from supply factors, e.g. age-speciﬁc
+discrimination by ﬁnancial institutions that leads to higher denial rates. To investigate
+this explanation, columns (5)–(6) use a dummy for whether a respondent indicated that
+he/she has been turned down for credit or feared being denied credit in the past 5 years.
+Results show that seniors are signiﬁcantly less likely to have been turned down for credit,
+which is consistent with the argument that seniors’ demand for credit is lower than that
+
+26Further, an increase in the number of seniors leads to a decline in the labor force participation
+rate. As ﬁrms’ marginal product of capital increases in the amount of available labor, a fall in the
+supply of labor reduces ﬁrms’ demand for capital (Auclert et al., 2021). Several studies argue that aging
+contributes to slower growth and reduces investment opportunities (Fernald and Li, 2019). Maestas
+et al. (2016) and Gagnon et al. (2016) provide state-level evidence for the U.S. that aging leads to lower
+growth, mainly due to declining labor productivity. Aksoy et al. (2019) show a negative eﬀect of aging
+on growth for a sample of OECD countries.
+
+21
+
+of younger respondents.
+
+To provide further evidence that an increase in the number of seniors reduces the
+local demand for credit, we decompose mortgage loan growth in each bank-county cell
+into supply and demand factors, following Amiti and Weinstein (2018). To do so, we start
+from the following equation: ∆HM DA = αc + βb + εc,b, where the dependent variable
+is the growth in the amount of all mortgages originated by bank b in county c. The
+borrower-county demand channel is captured by αc, while βb denotes the bank supply
+channel. As described in Amiti and Weinstein (2018), this equation implies an adding up
+constraint that makes it possible to recover αc, and βb through a weighted least squares
+regressions, with weights given by the beginning-of-period share of total loans of bank
+b originated in county c over total loans originated in county c. For our regressions, we
+aggregate

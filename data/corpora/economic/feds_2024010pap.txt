@@ -1,0 +1,1558 @@
+Finance and Economics Discussion Series
+
+Federal Reserve Board, Washington, D.C.
+ISSN 1936-2854 (Print)
+ISSN 2767-3898 (Online)
+
+Land development and frictions to housing supply over the
+business cycle
+
+Hyunseung Oh, Choongryul Yang, Chamna Yoon
+
+2024-010
+
+Please cite this paper as:
+Oh, Hyunseung, Choongryul Yang, and Chamna Yoon (2024). “Land development and
+frictions to housing supply over the business cycle,” Finance and Economics Discus-
+sion Series 2024-010. Washington: Board of Governors of the Federal Reserve System,
+https://doi.org/10.17016/FEDS.2024.010.
+
+NOTE: Staﬀ working papers in the Finance and Economics Discussion Series (FEDS) are preliminary
+materials circulated to stimulate discussion and critical comment. The analysis and conclusions set forth
+are those of the authors and do not indicate concurrence by other members of the research staﬀ or the
+Board of Governors. References in publications to the Finance and Economics Discussion Series (other than
+acknowledgement) should be cleared with the author(s) to protect the tentative character of these papers.
+
+Land development and frictions to housing supply
+over the business cycle∗
+
+Hyunseung Oh†
+
+Choongryul Yang‡
+
+Chamna Yoon§
+
+February 2, 2024
+
+Abstract
+
+Using a novel data set of U.S. residential land developments, we document
+that the average time to develop residential properties—which includes both the
+time spent preparing land infrastructures and construction—is about three years,
+consistent with sizable lags in housing investment projects. We show that the
+time to develop is highly dispersed across locations, a ﬁnding that helps quantify
+the housing supply elasticity that is relevant for assessing local housing variations
+over the business cycle. We also show that incorporating long and dispersed time
+to develop into an otherwise standard housing investment model helps rationalize
+some empirical facts on the housing market. Our model implies that policies to
+boost housing supply are less effective in immediately stabilizing house prices for
+regions where land development takes a long time.
+
+Keywords: Housing supply; house price dynamics; residential investment.
+JEL Classiﬁcation Numbers: E22, E32, R31.
+
+∗We thank Harun Alp, Etienne Gagnon, Daniel Garcia, Greg Howard, Matteo Iacoviello, Ryan Kim, Emi
+Nakamura, Joseph Nichols, Jón Steinsson, Luis Torres, and numerous seminar and conference participants for
+helpful comments and suggestions. The views expressed are solely the responsibility of the authors and should
+not be interpreted as reﬂecting the views of the Board of Governors of the Federal Reserve System or of any
+other person associated with the Federal Reserve System.
+
+†Federal Reserve Board. E-mail: hyunseung.oh@frb.gov.
+‡Federal Reserve Board. E-mail: choongryul.yang@frb.gov.
+§Seoul National University. E-mail: chamna.yoon@snu.ac.kr.
+
+1
+
+1
+
+Introduction
+
+Researchers have argued that signiﬁcant adjustment costs are needed in standard investment
+models to account for the empirically slower response of investment to economic shocks.
+Because ships and factories cannot be built in a day, these adjustment costs are typically mo-
+tivated as stand-ins for the time it takes to produce new capital and the difﬁculties in adjusting
+investment plans once they are in train. A strand of literature on the housing market also high-
+lights inelastic short-run housing supply as a sensible feature to explain the dynamic properties
+of the housing market, such as the difference in the short- and long-run housing market reac-
+tions to COVID-19 (Howard, Liebersohn and Ozimek, 2023).1 Quantitatively, little is known,
+however, about how long it takes to develop land and what that implies on the adjustment of
+housing supply over time.
+
+In this paper, we document the time it takes to build a house from undeveloped piece of
+land across regions using a new data set and study its aggregate and cross-regional impli-
+cations using a model of investment dynamics. A desirable feature of our data set is that we
+observe the time it takes not only to build structures on a developed lot but also to develop land
+infrastructure on a vacant, undeveloped piece of land. Accordingly, we are able to analyze the
+comprehensive process of residential construction across major U.S. regions.
+
+Empirically, we document two stylized facts on land development. First, residential land
+development is indeed a lengthy process that takes more than three years, on average, after re-
+ceiving a preliminary approval of the site plan from the local government, including more than
+a year, on average, to develop raw land with a subdivision map into a lot on which structures
+could be built. Second, the time it takes to develop land is highly dispersed across locations,
+even after controlling for an extensive list of variables that are likely to affect local construc-
+tion demand. In turn, we ﬁnd that a county’s median time to develop (TTD) is associated
+not only with a measure of its long-run housing supply elasticity, but also with adverse local
+weather conditions that hinder construction activity in the short run. This information suggests
+that local factors that determine TTD are not fully aligned with the local factors that determine
+housing supply in the long run.
+
+We then use the local variations in TTD to quantify the local housing supply elasticity,
+a measure that has taken center stage in the macro-housing literature. As housing wealth is
+about one-third of the total net worth of U.S. households, house price changes have signiﬁcant
+spillover effects to the broader economy and estimates of the housing supply elasticity are
+
+1Many models that account for residential investment and house price dynamics rely on the assumption of
+ﬁxed land supply—for example, Davis and Heathcote (2005); Kiyotaki, Michaelides and Nikolov (2011); and
+Kaplan, Mitman and Violante (2020).
+
+2
+
+frequently used to decipher the causal effect of house price changes to economic activity.2
+While the existing estimates of the housing supply elasticity mainly focus on the long-run
+determinants of housing supply, we show that TTD helps quantify the housing supply elasticity
+more relevant for the evolution of housing supply within the next ﬁve years. Towards that, we
+elaborate a housing investment model with TTD and derive analytical expressions that relate
+the short-run (up to ﬁve years) housing supply elasticity to TTD and the long-run housing
+supply elasticity. Combining the model and the data, we ﬁnd that short-run housing supply
+elasticities vary signiﬁcantly across counties and are indeed smaller than, and distinct from,
+corresponding long-run elasticities.
+
+We show that the consideration of relatively long and dispersed TTD in an otherwise stan-
+dard local general equilibrium model of housing investment helps rationalize a number of em-
+pirical facts. First, when the TTD friction is included, our otherwise standard model no longer
+predicts a counterfactual, strongly negative correlation between a region’s relative price and
+relative quantity in response to a common demand shock across regions. Intuitively, as lengthy
+TTD lowers the short-run supply elasticity in all regions, developers in the region with a higher
+long-run supply elasticity are more likely to substitute short-run supply with long-run supply
+as they internalize the larger gap between the short- and long-run supply elasticities. Second,
+when the autocorrelation of the common demand shock is not highly persistent, our model pre-
+dicts that a region’s house price growth is better explained by the short-run supply elasticity
+than by the long-run supply elasticity. Using county-level data, we regress a county’s house
+price change (relative to the national house price change) on the short- to long-run housing
+supply elasticities. Since the early 2010s, we ﬁnd that our short-run supply elasticity outper-
+forms the long-run supply elasticity in accounting for the observed cross-county variation in
+house prices.
+
+Finally, we draw a policy implication by conducting a counterfactual exercise where the
+government aims to stabilize house prices by a discretionary housing supply policy. When
+TTD is present, we ﬁnd that government incentives to boost the housing supply affect house
+prices through the expectations channel of future housing supply. Therefore, the policy could
+be somewhat less effective in immediately stabilizing house prices for regions where land
+development takes a long time, but it could be more effective in stabilizing medium-run house
+prices for those regions.
+
+2According to the 2022 ﬁnancial accounts of the United States from the Federal Reserve Board’s ﬂow of
+funds statistics, the total real estate at market value for households and nonproﬁt organizations is 47.1 trillion
+dollars and the net worth of households and nonproﬁt organizations is 143.7 trillion dollars.
+
+3
+
+Related literature. Studies on housing supply mainly focus on estimating its long-run deter-
+minants (Saiz, 2010; Baum-Snow and Han, 2022; Lutz and Sand, 2022), and these estimates
+are typically used to identify regional variations to economic shocks (Mian, Rao and Suﬁ,
+2013; Mian and Suﬁ, 2014; Davis and Haltiwanger, 2019; Bhattarai, Schwartzman and Yang,
+2021). This approach could be problematic when the economic shock of interest does not
+persist in the long run and when the short-run determinants of housing supply differ from the
+long-run estimates. For example, Guren, McKay, Nakamura and Steinsson (2020) suggest
+that a puzzling feature of the cross-regional housing price and quantity correlation discussed
+in Davidoff (2016) could be potentially resolved by assuming a lower short-run housing sup-
+ply elasticity in all regions. Not much is known, however, about the determinants of housing
+supply elasticity in a business cycle frequency, with the notable exception of Topel and Rosen
+(1988), who estimate the short- and long-run elasticities of housing supply and ﬁnd that most
+of the long-run response occurs within a year. We contribute to this literature by (i) quantify-
+ing frictions to housing supply at a business cycle frequency based on the observed duration of
+land development and (ii) studying the implications of our quantiﬁed frictions on the housing
+market through an equilibrium model of housing investment. By investigating the link be-
+tween new housing supply data and the elasticity of housing supply, we also complement the
+literature that studies the sensitivity of local economic activity to house prices (Guren, McKay,
+Nakamura and Steinsson, 2021; Graham and Makridis, 2023). Research in this topic identiﬁes
+plausibly exogenous house price variations by focusing on variables of the local economy or
+existing housing characteristics; we argue that data on the timing of new housing supply also
+capture an important source of local variation in house prices that could be used to estimate
+the sensitivity of local economic activity to house prices.
+
+In the literature on business cycles, time to build has been noted as a key friction to in-
+vestment dynamics at least since Kydland and Prescott (1982). Subsequently, several papers
+document the duration of building capital using newly available data or study its implica-
+tions on investment behavior (Lucca, 2007; Kalouptsidi, 2014; Sarte, Schwartzman and Lu-
+bik, 2015; Millar, Oliner and Sichel, 2016; Kydland, Rupert and Šustek, 2016; Oh and Yoon,
+2020; Meier, 2020; Charoenwong, Kiruma, Kwan and Tan, 2024). Our paper contributes to
+this line of work, both by providing new stylized facts on the comprehensive construction pro-
+cess from undeveloped land to the completion of new structures and by delivering a number of
+housing market implications of the new stylized facts. Relatedly, our work contributes to exist-
+ing studies of housing investment (Mayer and Somerville, 2000; Green, Malpezzi and Mayo,
+2005; Haughwout, Peach, Sporn and Tracy, 2013; Paciorek, 2013; Murphy, 2018; Nathanson
+and Zwick, 2018). More broadly, our ﬁndings could also shed light on the importance of
+
+4
+
+TTD frictions for nonresidential structures as both residential and nonresidential structures
+are likely to share some common hurdles from the site development stage.
+
+As discussed earlier, the implications of these residential construction dynamics are less
+explored in the housing and macro literature. Most models that study the aggregate impli-
+cations of the housing sector abstract from the dynamic aspect of land development (Davis
+and Heathcote, 2005; Iacoviello and Neri, 2010). Following the spirit of Glaeser, Gyourko
+and Saiz (2008), we explore the aggregate and regional implications of housing supply with a
+focus on the short-run dynamics.
+
+Structure of the paper.
+
+In section 2, we present the land development data and estimate a
+TTD measure that is comparable across regions by controlling for various factors. In section 3,
+we develop a TTD model of housing investment and analytically derive housing supply elas-
+ticities in each horizon. In section 4, we quantify local housing supply elasticities in the short
+to medium run by using the model derivations and the empirical TTD estimates. In section 5,
+we study three implications of our model for house prices and housing quantity. Section 6
+concludes. The Online Appendix provides additional details and sensitivity analyses of our
+theoretical and empirical results.
+
+2 Duration of land development across regions
+
+In this section, we use a unique data set that tracks development activities for residential prop-
+erties in the U.S. to measure the duration of land development across regions. The desirable
+feature of our data set is that it includes the period of site development prior to building con-
+struction.
+
+We show that the duration of land development that includes the period of site development
+is lengthy and varies widely across regions. These variations persist even after controlling for
+a number of observable regional demand factors.
+
+2.1 Land development data and summary statistics
+
+Our data set comes from Zonda, which provides data and analysis to the national residential
+home-building industry. The data set is constructed from Zonda’s survey markets data, which
+cover many of the major metro areas with high residential construction activity in the U.S. The
+survey markets data put together a quarterly construction status survey in new home subdivi-
+sions, an area containing a large number of houses or apartments to be built close together at
+
+5
+
+Table 1: New housing completions between 2003 and 2019
+
+(unit: 1, 000 housing)
+
+Total housing
+Single-family housing
+
+Zonda
+
+7, 790
+5, 939
+
+Census
+
+20, 020
+15, 314
+
+Coverage
+
+39%
+39%
+
+the same time. Large subdivisions are often broken down to multiple sections, each of which
+is typically built by a single-builder company. The data set displays the total number of hous-
+ing units as well as other construction characteristics by sections. We have access to this data
+set from 2000 to 2021.
+
+As shown in Table 1, our data set includes a large number of new housing supply across the
+U.S. Between 2003 and 2019, the data set contains 222,868 developed sections with a total of
+7.8 million units of new housing. For reference, the Census Bureau reports a sum of 20 million
+new housing completions in the same period, implying a 39 percent Census coverage ratio of
+our data set. Our data set is not biased toward multi-unit housing development, as the Census
+coverage of single-unit housing completion is also around 39 percent.3 These completions
+are distributed over 318 counties in 113 core-based statistical areas (CBSAs) that represent
+48 percent of the U.S. population. The average population size of those CBSAs is 1,590,428,
+which is 4.7 times larger than that of the U.S. average CBSA.4
+
+Besides the high coverage ratio, a desirable feature of the data set is that it continuously
+tracks the construction status of subdivisions and sections. Land development is a lengthy
+process, starting from the acquisition of land by developers and the design of a development
+plan. The plan is then submitted to the appropriate municipality for a preliminary review. The
+proﬁle of the subdivision is ﬁrst created and labeled as future lots in our data set when the
+municipality grants a preliminary approval as a ﬁrst step in the process or, if the approval date
+is not available, after Zonda reviews and veriﬁes the site plan submitted to the municipality.
+During each quarterly survey, the lot remains as future lots while there is ongoing land devel-
+opment, such as the site having survey stakes or equipment. It follows that the ﬁnal site plan
+is submitted and approved, and the necessary permits are processed. Thereafter, the infras-
+tructure for the land is developed and the lot is now labeled as active. At this stage, separate
+homebuilders enter for construction projects in the active lots not pursued by the developer.
+
+3In our data set, single-family housing units comprise 82.6 percent of the completions, followed by town-
+houses (10.2 percent), condos (2.3 percent), and duplexes (1.2 percent). We show in the Appendix that the Census
+coverage does not signiﬁcantly ﬂuctuate across years.
+
+4Of the top 20 CBSAs ranked by the 2020 Census population, only 2 CBSAs (Boston and Seattle) are not
+
+included in our data set.
+
+6
+
+When there is excavation activity with a slab or basement on these vacant developed lots, the
+units are classiﬁed as under construction, consistent with the Census Bureau’s deﬁnition of
+housing starts. After the completion of home construction, each house is classiﬁed as either
+a ﬁnished vacant unit or an occupied unit, depending on its status of sales. Eventually, the
+subdivision is classiﬁed as built out, and it exits the data set when the number of occupied
+units equals its total units.
+
+Based on this classiﬁcation, we deﬁne a TTD measure for each new development section.
+TTD is deﬁned as the duration between the quarter when the municipality likely approves a
+preliminary site plan and the quarter when the number of ﬁnished units (vacant or occupied)
+reaches at least half of the total number of units. The unique feature of our data set is that
+it captures the earliest stage of a completed development with a plan that is as concrete as a
+preliminary map submitted to the municipality. Our deﬁnition for the beginning quarter of
+TTD fully takes this feature on board; in the Appendix, we present results using an alterna-
+tive deﬁnition for the beginning quarter of TTD.5 The deﬁnition for the end quarter of TTD
+is consistent with the Census Bureau’s deﬁnition of the completion of a multi-unit building,
+as it classiﬁes the construction of a multi-unit building as complete when half of the units
+are ﬁnished. It is worth noting that the Census Bureau tracks construction time per building,
+whereas we can only track construction time per section. Therefore, our measure of the sec-
+tion’s construction time could be longer than the construction time of an average building in
+that section if a developer decides to build structures sequentially rather than simultaneously.
+In the Appendix, we study the sensitivity of our empirical results when the end quarter of
+TTD is deﬁned earlier than our baseline—that is, the date at which the number of ﬁnished
+units reaches a quarter of the total number of units in the section.
+
+For the remaining analysis, we adopt the following sample selection criterion. Between
+2003 and 2019, 222,868 sections were completed. We dropped 102,575 observations without
+information on TTD (for example, missing start dates), resulting in 120,293 observations.6 We
+further dropped 16,097 observations without lot size information or demand controls, leaving
+us with 104,196 observations.
+
+5Our baseline deﬁnition is also driven by data availability. In the data set, the preliminary approval date is
+missing for many sections, which limits our sample size substantially. In the Appendix, we provide details on
+how we measure the beginning quarter of development.
+
+6Speciﬁcally, we deﬁne the start date as the ﬁrst quarter when the total number of planned units is equal to
+the total number of future lots, based on Zonda’s quarterly review of newly submitted maps at the municipality.
+We ﬁnd that our deﬁned start date is close to the municipality approval date of the preliminary site plan, when
+the latter date is available in the data set. We dropped sections where their ﬁrst observation already had positive
+active lots, as land development on these sections likely started (according to our deﬁnition) before they entered
+the data set.
+
+7
+
+(unit: days)
+
+Mean
+Std. dev.
+IQR
+
+P10
+P25
+P50
+P75
+P90
+
+Table 2: Section TTD statistics
+
+Site TTD
+
+Building TTD
+
+Total TTD
+
+569
+760
+458
+
+91
+181
+275
+639
+1, 278
+
+760
+792
+548
+
+182
+275
+458
+823
+1, 734
+
+1, 329
+1, 077
+1, 006
+
+366
+638
+1, 004
+1, 644
+2, 922
+
+Observations
+
+104, 196
+
+104, 196
+
+104, 196
+
+Note: Each observation is a subdivision or a section of a subdivision when there are multiple sections in a subdi-
+vision. IQR stands for the interquartile range (P75−P25). Five different percentiles of each TTD distribution are
+shown—for example, P50 referring to the median (50th percentile) of the distribution.
+
+2.2 Stylized facts on the duration of housing development
+
+The total time it takes for housing development (TTD) comprises two parts: time to develop
+infrastructure at the site (site TTD) and time spent on the construction of buildings (building
+TTD). Just by looking into the raw measures of TTD based on Table 2, we ﬁnd two stylized
+facts on the duration of housing development that stand out.
+
+First, housing development is a lengthy process with signiﬁcant time spent on land devel-
+opment. As shown in the ﬁrst row of the table, housing development takes a total of 1, 329
+days on average. While less emphasized in the literature because of limited data availability,
+we ﬁnd that the duration between the land development plan approval and the ﬁnishing of
+site development is substantially long, averaging 569 days. The mean construction time of
+buildings on these developed sites is 760 days.
+
+Second, there is substantial heterogeneity in the duration of housing development. The
+standard deviation and the interquartile range of total TTD are both around three years (1, 077
+days and 1, 006 days, respectively). The signiﬁcant heterogeneity is also pronounced in site
+TTD, as its standard deviation is more than two years.
+
+Note that the distribution of TTD is skewed to the right, as the mean is larger than the
+median in all TTD measures. This ﬁnding is also evident from the lengthy TTD at the 90th
+percentile.
+
+8
+
+2.3 Controlled measures of TTD
+
+The lengthy and highly dispersed TTD across sections documented above could be driven by
+various factors. Our goal is to measure the developers’ TTD constraint for housing devel-
+opment that is comparable across locations. Toward that goal, we need to ﬁrst control for
+differences in construction characteristics that are likely to affect TTD. For each development
+section, the data set includes some of that information, such as the number of housing units,
+the average lot size, the type of housing, and the builder(s) of each section. Indeed, these
+construction characteristics have substantial variations. For example, there are an average of
+42 housing units per each section, and the standard deviation is also 42 units.
+
+The ﬁrst column of Table 3 shows the regression result when the log of TTD is regressed
+on several construction characteristics in our sample. Builder ﬁxed effects are included for
+the top 15 builders in our sample. Completion year ﬁxed effects are also included to abstract
+from time variations in TTD. We ﬁnd that both the number of units and the (average) lot size
+per housing unit are positively associated with TTD. One percent increases in the number of
+units and in the lot size per unit imply 0.131 percent and 0.136 percent increases in TTD,
+respectively. These results are highly signiﬁcant and consistent with the ﬁndings in Oh and
+Yoon (2020), where the square footage of a single-family house under construction is shown
+to be positively associated with its time to build. In terms of the type of housing, townhouses
+and condos take a longer time to complete relative to single-family developments.
+
+Even after we control for construction characteristics, TTD could also be driven by lo-
+cal economic factors that are linked to the developers’ incentives in those locations. Because
+our model does not feature the developer’s location choice, we would also need to control
+for these factors. The second column of Table 3 adds a number of local controls potentially
+relevant for housing supply—such as a Bartik-type variable that measures the local demand
+pressure, indicators of sand and coastal states, population shares of immigrants and college-
+educated adults, and population density—as suggested in Davidoff (2016). We also include
+the annual county-level GDP in the regression to control for any country-level time-varying
+economic factors. The regression results show that several of these local economic factors
+are associated with TTD in a statistically signiﬁcant manner. Counties with higher Bartik de-
+mand pressure, immigrant share, and population density, or counties not in sand states and
+especially in coastal states, experience longer duration in development, as shown in the Ap-
+pendix. Even after we control for these local economic factors, however, the R-squared shows
+limited improvement over the regression in the ﬁrst column, and the regression coefﬁcients
+for construction characteristics remain robust. These results suggest that local economic fac-
+
+9
+
+Table 3: Section TTD regression results
+
+Variables
+
+Log(number of units)
+
+Log(lot size)
+
+Single family
+
+Townhouse
+
+Condo
+
+Duplex
+
+Etc.
+
+Builder ﬁxed effect
+Year ﬁxed effect
+Local controls
+Local controls × Year
+
+Constant
+
+Observations
+R-squared
+
+(1)
+
+0.131***
+(0.00427)
+0.136***
+(0.00480)
+
+−
+
+0.208***
+(0.0111)
+0.191***
+(0.0417)
+0.0436
+(0.0309)
+0.0233
+(0.0263)
+(cid:88)
+(cid:88)
+
+4.505***
+(0.0505)
+104, 196
+0.282
+
+(2)
+
+0.140***
+(0.00436)
+0.141***
+(0.00492)
+
+−
+
+0.198***
+(0.0113)
+0.227***
+(0.0414)
+0.0341
+(0.0310)
+0.0461*
+(0.0261)
+(cid:88)
+(cid:88)
+(cid:88)
+
+4.432***
+(0.0883)
+104, 196
+0.289
+
+(3)
+
+0.138***
+(0.00417)
+0.140***
+(0.00477)
+
+−
+
+0.187***
+(0.0112)
+0.235***
+(0.0384)
+0.0396
+(0.0293)
+0.0444*
+(0.0246)
+(cid:88)
+(cid:88)
+
+(cid:88)
+
+5.284***
+(0.184)
+104, 196
+0.330
+
+Note: Regression with log(TTD) as the dependent variable. Local control variables include Bartik-type predicted
+industry employment growth, indicators for sand state and coastal state, population share of immigrants, popu-
+lation share of college educated, population density, and county real GDP. Robust standard errors are reported in
+parentheses. *** p<0.01, ** p<0.05, * p<0.1.
+
+tors might play a limited independent role after taking into account the developer’s choice of
+construction characteristics.
+
+The third column of Table 3 allows for additional ﬂexibility in the time-varying response of
+TTD to local economic factors by interacting the time-invariant local controls with year ﬁxed
+effects. While the R-squared moderately improves to 33 percent, the regression coefﬁcients
+on construction characteristics remain relatively robust across all three speciﬁcations.
+
+10
+
+Table 4: County-level TTD statistics
+
+(unit: days)
+
+Raw TTD
+
+Reg. (1)
+
+Reg. (2)
+
+Reg. (3)
+
+Mean
+Std. dev.
+IQR
+
+P10
+P25
+P50
+P75
+P90
+
+Observations
+
+1, 044
+426
+365
+
+640
+822
+1, 005
+1, 187
+1, 369
+
+267
+
+973
+317
+396
+
+605
+764
+954
+1, 160
+1, 369
+
+267
+
+969
+317
+371
+
+605
+784
+959
+1, 155
+1, 358
+
+267
+
+971
+287
+319
+
+631
+803
+964
+1, 123
+1, 348
+
+267
+
+Note: Each observation is a county’s median TTD. We use counties with at least 10 completed sections ob-
+served. IQR stands for the interquartile range (P75−P25). Five different percentiles of each TTD distribution are
+shown—for example, P50 referring to the median (50th percentile) of the distribution.
+
+2.4 County-level TTD
+
+Using the regression results in Table 3, we now construct the county-level TTD for the repre-
+sentative housing. That is, we normalize TTD for each section by assuming that the controlled
+observables are at their national average values and add the ﬁtted residuals. We then take the
+median of this value for each county of interest. Note that we use the median instead of the
+mean, as the distribution of TTD is skewed to the right. Moreover, the median TTD should
+be relatively insensitive to any remaining time-varying demand factors of TTD, such as the fat
+right tail in construction time during the Great Recession (Oh and Yoon, 2020).
+
+Table 4 presents some cross-county moments of each county’s measure of TTD. In the
+ﬁrst column (“Raw TTD”), we observe that the average of the county-level TTD using raw
+section TTD data is almost the same as the average of the section TTD itself. The standard
+deviation and the interquartile range are sizable at 426 days and 365 days, respectively. The
+second to fourth columns present the same statistics using the controlled TTD estimates in Ta-
+ble 3. Controlling for construction characteristics and focusing on a nationally representative
+housing development, we ﬁnd that the cross-county mean TTD is 973 days, just less than three
+years. The standard deviation and the interquartile range are also sizable at around one year.
+Results for the third and fourth columns are similar to those of the second column, consis-
+tent with the R-squared results in Table 3, suggesting that after one controls for construction
+characteristics, the marginal contribution of local demand factors is limited.
+
+11
+
+2.5 The geographic determinants of the land development process
+
+Land development is a major topic of interest in civil engineering, as each construction site
+poses unique engineering challenges based on soil characteristics, topography, weather, and
+other physical features (Kone, 2006). As such, developers create not only a master plan design
+that conceptualizes their new development at the location of interest, but also a site engineer-
+ing plan that adapts the master plan design to the physical properties of the site. These site
+engineering plans include (i) a grading plan that shows the elevations of grounds and buildings,
+(ii) a storm water management plan that shows the volume and rate of storm water runoff, and
+(iii) an erosion and sediment control plan that shows the erosion control barriers and materials
+at the site. The local government regulation on development varies based on its transitory and
+permanent environmental effects, and this factor also plays an important role in shaping the
+engineering plans of each site.
+
+As shown in Table 4, our county-level TTD measures exhibit signiﬁcant degrees of cross-
+regional variation even after controlling for construction characteristics and local economic
+factors. Based on the described process of land development, we then ask whether any ob-
+servable geographic differences in engineering challenges could account for that variation.
+Some of the geographic differences could be highly correlated with factors that determine
+long-run housing supply described in Saiz (2010), but other geographic differences that do
+not play a large role in accounting for the long-run housing supply could nevertheless mat-
+ter for the duration of land development. For example, each location is exposed to different
+weather conditions that might not materially affect the decision to develop land but might still
+matter for the cost and duration of land development. That is, locations with extreme storm
+and heat conditions could still be desirable for new construction, but severe weather will oc-
+casionally delay on-site construction activity and the developer’s building design to tolerate
+extreme weather conditions might further lengthen the development process.
+
+Table 5 displays the regression result using our controlled TTD measures and the observed
+geographic determinants described in this section. Both the long-run housing supply elasticity
+and rainfall intensity affect TTD in a statistically signiﬁcant sense. That is, the duration of
+land development is longer for locations where (i) the long-run housing supply is limited and
+(ii) rainfalls are more intense, more frequent, or both. Heat also delays TTD, but its statistical
+signiﬁcance is less pronounced. A careful study of these engineering challenges is beyond
+the scope of this paper, but we think that the signiﬁcance of these geographic determinants in
+accounting for the variation in TTD across locations suggests the potential of our controlled
+TTD measure to reﬂect plausibly exogenous variations to economic shocks.
+
+12
+
+Table 5: County-level TTD regression results
+
+Variables
+
+Saiz elasticity
+
+Rainfall intensity
+
+Heat
+
+Observations
+R-squared
+
+Reg. (1)
+
+−0.162***
+(0.047)
+0.125***
+(0.022)
+0.030
+(0.022)
+
+222
+0.206
+
+Reg. (2)
+
+−0.150***
+(0.048)
+0.099***
+(0.022)
+0.049**
+(0.022)
+
+222
+0.192
+
+Reg. (3)
+
+−0.134***
+(0.041)
+0.099***
+(0.021)
+0.036*
+(0.021)
+
+222
+0.190
+
+Note: We use counties with at least 10 completed sections observed. “Rainfall intensity” measures the rainfall
+inches per hour on a storm of one-hour duration and a 100-year return period for each county (Data source:
+National Oceanic and Atmospheric Administration’s Atlas 14 Precipitation Frequency Estimates). “Heat”—that
+is, cooling degree days—is a measure of the year’s temperature hotness, calculated as the difference between the
+daily temperature mean (the sum of the high and low temperatures divided by two) and 65 degrees Fahrenheit,
+multiplied by the number of days with a positive value of this difference in a given year (Data source: National
+Centers for Environmental Information’s Annual Climatological Data). Robust standard errors are reported in
+parentheses. *** p<0.01, ** p<0.05, * p<0.1.
+
+3 Time-to-develop model of housing investment
+
+This section outlays the theoretical framework that ties our TTD data to the housing supply
+elasticity, which is a key measure of interest in the housing literature.
+In the model, the
+developer makes housing investment decisions under a TTD constraint. We analytically derive
+and characterize the short- to long-run housing supply elasticities as a function of several
+parameters, including TTD. As our focus is to analytically formulate housing supply elasticity
+based on TTD, it is important to note that our framework abstracts from the endogeneity of
+TTD or other potential short-run determinants of housing supply studied in the literature.
+
+3.1 Model description
+
+In period t, the developer produces housing units, It, using inputs built in current and previous
+periods, {Ut−p|t}p=0,1,··· ,P , based on the following TTD construction function:
+
+(cid:33) θ
+
+θ−1
+
+It =
+
+(cid:32) P
+
+(cid:88)
+
+p=0
+
+θ−1
+θ
+t−p|t
+
+U
+
+,
+
+θ > 0.
+
+(3.1)
+
+13
+
+The parameter P is the number of periods it takes to complete a project from the beginning,
+and θ governs the substitutability of the different stages of construction. This generalized TTD
+speciﬁcation follows Sarte et al. (2015) and nests the investment assumption in Kydland and
+Prescott (1982) as a special case when θ → 0.7
+
+In turn, the developer builds construction inputs Ut|t+p at a lot where housing completions
+are scheduled in period t + p for each p ∈ {0, 1, · · · , P }. These inputs are built based on a
+Cobb-Douglas production function:
+
+Ut|t+p = M 1−α
+
+t+p−P |t+pN α
+
+t|t+p,
+
+∀p ∈ {0, 1, · · · , P },
+
+(3.2)
+
+where Mt+p−P |t+p is the housing permit in the beginning period of development t + p − P
+for the lot where new housing is scheduled to be completed in period t + p and Nt|t+p is the
+amount of variable construction input at that lot.
+
+In each period, the developer purchases building permits, Mt|t+P , from the local govern-
+ment at a price, qM,t, for a lot that is at the beginning stage of development. Moreover, the
+developer hires variable construction inputs for each lot under development at a competitive
+cost, wt. When a lot is fully developed, its completed new houses, It, are sold at a unit price,
+qt. The developer’s proﬁt in period t, Φt, is
+
+Φt = qtIt − qM,tMt|t+P − wtNt,
+P
+(cid:88)
+
+where Nt =
+
+Nt|t+p.
+
+(3.3)
+
+The developer builds new houses at multiple lots by purchasing building permits and uti-
+
+lizing variable construction inputs to maximize its discounted sum of proﬁts:
+
+p=0
+
+max
+
+{It,Mt|t+P ,Nt,{Nt|t+p,Ut|t+p}P
+
+p=0}
+
+E0
+
+∞
+(cid:88)
+
+t=0
+
+Λ0|t(qtIt − qM,tMt|t+P − wtNt),
+
+subject to the TTD equations (3.1), (3.2), and (3.3). The variable Λ0|t is the stochastic discount
+factor between periods 0 and t, and Et is the expectations operator conditional on information
+available in period t.
+
+7Consistent with our TTD construction function when θ → 1, we assume that It = (cid:81)P
+
+p=0 Ut−p|t when
+
+θ = 1. To simplify the analysis without loss of generality, we assume θ (cid:54)= 1 in this section.
+
+14
+
+Finally, permits are supplied by the local government and are elastic to the house price:
+
+Mt|t+P = ¯M qγ
+t .
+
+(3.4)
+
+This assumption is common in the literature and is consistent with the long-run housing supply
+elasticity as a function of γ (Guren, McKay, Nakamura and Steinsson, 2020).
+
+3.2 Developer’s housing supply
+
+We denote µt|t+p as the period-t Lagrange multiplier of equation (3.2) for each p and express
+the respective optimality conditions of (i) construction at each stage, (ii) variable inputs at
+each stage, and (iii) building permits at the beginning stage of development as follows:
+
+(cid:34)
+
+µt|t+p = Et
+
+Λt|t+pqt+p
+
+(cid:35)
+
+(cid:19) 1
+
+θ
+
+(cid:18) It+p
+Ut|t+p
+
+for p = 0, 1, · · · , P,
+
+t+p−P |t+pN α−1
+wt = αµt|t+pM 1−α
+(cid:34) P
+
+t|t+p
+
+qM,t = (1 − α) Et
+
+Λt|t+pµt+p|t+P
+
+(cid:88)
+
+p=0
+
+(cid:35)
+
+.
+
+Ut+p|t+P
+Mt|t+P
+
+for p = 0, 1, · · · , P
+
+The ﬁrst condition shows that construction at each stage is chosen such that its shadow value,
+µt|t+p, is equal to its marginal contribution to the expected discounted value of the completed
+house in the future. The second and third conditions equate the costs of variable inputs and
+the building permit to the respective marginal products.
+
+After log-linearizing the previous optimality conditions as well as equations (3.1) through
+(3.4), we derive the following lemma that summarizes the model’s housing supply conditions.
+
+Lemma 1 (log-linearized dynamic housing supply equilibrium) Let each hatted variable
+be the log deviation from its steady-state value. The following log-linearized equilibrium
+conditions summarize the TTD model of housing investment:
+
+ˆIt =
+
+1
+B(P )
+
+P
+(cid:88)
+
+p=0
+
+(cid:16) ˜βα(θ−1)/θ(cid:17)p
+
+ˆUt−p|t,
+
+(cid:18) 1 − α
+α
+
++
+
+(cid:19)
+
+1
+θ
+
+ˆUt|t+p =
+
+1
+θ
+
+Et
+
+ˆIt+p + Et ˆqt+p +
+
+1 − α
+α
+
+ˆMt+p−P |t+p − ˆwt + Et(ˆλt+p − ˆλt),
+
+ˆUt|t+p = (1 − α) ˆMt+p−P |t+p + α ˆNt|t+p,
+
+15
+
+ˆNt =
+
+(cid:32)
+
+1 − ˜β
+1 − ˜β1+P
+
+(cid:33) P
+
+(cid:88)
+
+p=0
+
+˜βp ˆNt|t+p,
+
+ˆMt|t+P = γ ˆqt,
+
+where
+
+Λt|t+p = βp λt+p
+λt
+
+, ˜β = β
+
+θ
+
+θ+α(1−θ) , and B(t) =
+
+˜β(α(θ−1)/θ)(1+t) − 1
+˜βα(θ−1)/θ − 1
+
+.
+
+Note that in Lemma 1, we introduced the deterministic per-period discount factor param-
+eter β < 1. As such, the stochastic discount factor between period t and t + p, Λt|t+p, is
+decomposed into the deterministic discount factor βp and the net stochastic discount factor
+λt+p/λt.
+
+Using Lemma 1, the following proposition derives the developer’s period-by-period hous-
+
+ing supply choice as a function of house prices and other general equilibrium forces.
+
+Proposition 2 (period-by-period housing supply curve) Based on the lemma and assuming
+a steady-state equilibrium before period 0, we derive the following period-by-period housing
+supply curve:
+
+ˆIt =
+
+
+
+
+Υt(P )ˆqt + GEt(P ),
+
+∀t ∈ [0, P ),
+
+
+
+α
+1−α ˆqt + γ ˆqt−P + (cid:103)GEt(P ), ∀t ∈ [P, ∞),
+
+where
+
+Υt(P ) =
+
+,
+
+B(t)
+(cid:1) B(P ) − 1
+
+θ B(t)
+( ˜βα(θ−1)/θ)j (cid:16)
+
+(cid:0) 1−α
+
+α + 1
+θ
+Υt(P )
+B(t)
+
+t
+(cid:88)
+
+j=0
+
+GEt(P ) = −
+
+ˆwt−j + (ˆλt−j − ˆλt)
+
+(cid:17)
+
+,
+
+(cid:103)GEt(P ) = −
+
+ΥP (P )
+B(P )
+
+P
+(cid:88)
+
+( ˜βα(θ−1)/θ)j (cid:16)
+
+ˆwt−j + (ˆλt−j − ˆλt)
+
+(cid:17)
+
+.
+
+j=0
+
+All the proofs are available in the Appendix. Proposition 2 decomposes housing supply
+into its partial equilibrium and general equilibrium components. The general equilibrium
+component, denoted by GEt(P ) and (cid:103)GEt(P ), depends on the current and past histories of
+construction wages and the stochastic discount factors. Our object of interest in this section is
+housing supply in partial equilibrium, and the general equilibrium forces that depend on the
+setup of the overall economy will be studied in section 5. The partial equilibrium component
+
+16
+
+Figure 1: Theoretical static housing supply elasticities
+
+consists of the current housing price before the TTD constraint (t < P ) and the P -period
+lagged house price after the TTD constraint (t ≥ P ). The partial equilibrium component has
+a well-deﬁned static housing supply elasticity, which is Υt(P ) when t < P and α/(1 − α)
+when t ≥ P . The following corollary provides us some useful comparative statics with regard
+to the derived static housing supply elasticities.
+
+Corollary 3 (comparative statics) The static housing supply elasticity when t < P , Υt(P ),
+has two properties. First, Υt(P ) is positive and an increasing function of time, with an upper
+bound of α/(1 − α):
+
+0 < Υt−1(P ) < Υt(P ) <
+
+α
+1 − α
+
+.
+
+Second, Υt(P ) is larger when the TTD constraint P is shorter:
+
+Υt(P ) > Υt( ˜P ) when P < ˜P .
+
+Corollary 3 is visualized in Figure 1. As observed, the static housing supply elasticity is an
+increasing function up to the TTD constraint. Afterward, the static housing supply elasticity
+is determined by the parameter α, which represents the production elasticity to variable con-
+struction inputs. Comparing the housing supply elasticity between two regions with different
+
+17
+
+TTD constraints, P and ˜P , we ﬁnd that the region with a shorter TTD constraint has a higher
+static housing supply elasticity for two reasons. First, housing supply is more ﬂexible during
+periods under construction, represented by area A in the ﬁgure. Second, housing supply de-
+termined at the beginning period is completed earlier, represented by area B in the ﬁgure. In
+turn, area A + B is the cumulative housing supply elasticity difference in the two regions. As
+noted earlier, our model nests the TTD assumption in Kydland and Prescott (1982) as a special
+case when θ → 0. In this case, the static housing supply elasticity becomes a step function: 0
+before the TTD constraint is reached and α/(1 − α) afterward. As such, the difference in the
+static housing supply elasticity across regions in Kydland and Prescott (1982) arises only after
+the TTD constraint is reached in the more ﬂexible region, which is area B.
+
+3.3 The short- and long-run empirical housing supply elasticities
+
+Using the proposition, we deﬁne the T -horizon housing supply elasticity that is consistent
+with existing empirical measures of the housing supply elasticity.
+
+Deﬁnition 4 (T -horizon housing supply elasticity) The T -horizon housing supply elastic-
+ity is deﬁned as the average of the theoretical partial equilibrium period-by-period housing
+supply elasticities between periods 0 and T . Using Proposition 2 and assuming Υt(P ) =
+α/(1 − α) when t ≥ P for simplicity of notation, we deﬁne the T -horizon housing supply
+elasticity with P -period TTD, ET (P ), as
+
+ET (P ) ≡
+
+∆T
+∆T
+
+ˆIt
+t=0
+t=0 ˆqt
+
+≡
+
+1
+T + 1
+
+T
+(cid:88)
+
+t=0
+
+(cid:2)Υt(P ) + γ(T − P + 1) × 1{T ≥P }
+
+(cid:3) ,
+
+(3.5)
+
+where 1{T ≥P } is an indicator function equal to 1 when T ≥ P . Moreover, the long-run
+housing supply elasticity, E∞, is deﬁned as
+
+E∞ ≡ lim
+T →∞
+
+ET (P ) =
+
+α
+1 − α
+
++ γ.
+
+By taking an average of the period-by-period housing supply elasticities, our T -horizon
+housing supply elasticity summarizes the evolution of housing supply over time based on the
+supply-side behavior. In the short run when T < P , housing supply elasticity is not a function
+of γ but a function of TTD and other parameters of the housing construction function. In the
+long run, housing supply elasticity is purely a function of γ and α; TTD is no longer relevant.
+For P ≤ T < ∞, housing supply elasticity is a weighted average of TTD and the long-run
+elasticity, where the latter matters more as T → ∞.
+
+18
+
+Of note, this deﬁnition is not the only way to characterize the T -horizon housing supply
+elasticity. Depending on the endogenous forces that drive house prices, different weights on
+the period-by-period housing supply elasticities might better characterize the average housing
+supply elasticity over the horizon of interest. Indeed, our unweighted average of the period-
+by-period housing supply elasticities might be viewed as an agnostic measure to the various
+driving forces of the house price throughout the horizon.
+
+4 Quantifying housing supply elasticities in each horizon
+
+Using the duration of land development statistics in section 2 and our theoretical result in
+section 3, this section presents regional housing supply elasticities in each horizon. We ask
+whether the signiﬁcant TTD variations we ﬁnd in the data translate to signiﬁcant variations in
+the T −horizon housing supply elasticities by comparing those with the counterpart long-run
+elasticities. In this section, our main focus is on quantifying housing supply elasticities at
+different horizons; their relevance in accounting for housing market dynamics will be studied
+in section 5.
+
+4.1 Parameterization
+
+Recall county i’s T -horizon housing supply elasticity from Deﬁnition 4. In equation (3.5), the
+elasticity E i
+T (Pi) requires ﬁve inputs: Pi, γi, α, β, and θ.8 We begin by discussing the calibra-
+tion of the key county-level parameters Pi and γi. First, Pi is calibrated by the county median
+TTD estimate in the previous section. Note that the TTD estimate is the time span between
+the approval of the preliminary site plan and the completion of the project. As such, it is in-
+clusive of the county’s average time span between submitting a project for ﬁnal approval and
+receiving a decision, documented in Gyourko, Hartley and Krimmel (2021). Next, the per-
+mit supply elasticity parameter (γi) is derived from Saiz’s long-run housing supply elasticity
+together with α described below.
+
+For the remaining parameters, we set the time discount factor, β, at 0.99, as the model
+is calibrated at a quarterly frequency. The construction labor share, α, is set at 0.385 which
+implies that a county with the smallest Saiz’s supply elasticity has a permit elasticity γi at
+its lower bound of zero. This value of α is consistent with our estimate of the construction
+labor income of 37 percent in the KLEMS account when we assume that overhead labor costs
+
+8Due to data availability, we assume that the time discount factor (β), the construction labor share (α), and
+
+the elasticity of substitution across construction stages (θ) are identical across all counties.
+
+19
+
+are about 10 percent of the total labor cost.9 The elasticity of substitution across construction
+stages, θ, is set at 0.5 in our baseline. The calibration of θ is not straightforward, but we
+think a complementarity assumption (θ < 1) is intuitive, as most construction activities are
+conducted sequentially on site. Another piece of evidence that tells us that θ is small is the
+minor difference in our data between the number of housing units planned at the beginning
+of development and the number of housing units completed at the end of development. For
+example, the total number of housing units submitted at the beginning of development does
+not change at the end of development for about 60 percent of the sections in our sample. In
+the Appendix, we show that the regional variation of our supply elasticity measures is less
+sensitive to this parameter.
+
+4.2 The T −horizon housing supply elasticity
+
+In Figure 2, we quantify the county-level house price elasticity for each horizon. The left panel
+compares our measure of horizon-speciﬁc elasticities with the Saiz elasticity. The takeaway
+from this panel is that the shorter-run housing supply elasticities are not simply a monoton-
+ically smaller version of the long-run supply elasticities. While one-year (T = 4) housing
+supply elasticities are close to zero and show little variability, ﬁve-year (T = 20) housing
+supply elasticities show signiﬁcant variations. As T increases, the T −horizon housing supply
+elasticities increase and converge to the 45 degree line that equates the long-run elasticity.
+
+The right panel shows the standard deviation of the T −horizon elasticities for each T
+normalized by the standard deviation of the long-run elasticities. The blue solid line plots
+the results when we use the county-level TTD measure used in the regression (3) column
+in Table 4. For example, when T = 9, our T −horizon supply elasticity is half as variable
+in standard deviation as the long-run elasticity. The red dashed line plots the results when
+we assume that all counties have the same TTD at the national median of T = 11. In this
+case, the cross-county variation in housing supply elasticity obviously disappears in the short
+run. Therefore, the difference between the blue solid line and the red dashed line quantiﬁes
+the share of TTD variations in accounting for the cross-county variations of housing supply
+elasticities for each T . We ﬁnd that the difference between the blue solid line and the red
+dashed line remains sizable especially for lower values of T , suggesting that TTD variations
+play a signiﬁcant role in accounting for total variations in each of the T −horizon housing
+supply elasticity. For example, at T = 16, TTD contributes to about 50 percent of the total
+
+9KLEMS stands for K-capital, L-labor, E-energy, M-materials, and S-purchased services; the term refers to
+
+broad categories of intermediate inputs consumed by industries in their production of goods and services.
+
+20
+
+Figure 2: Supply elasticities in each horizon
+
+Note: The left panel shows the scatter plot comparing the Saiz supply elasticity and the T −horizon supply
+elasticities with T = 4, 20, 36 quarters. The right panel shows the cross-county variation of the T −horizon
+supply elasticities when we use (i) the TTD measure constructed by using regression (3) in Table 3 (blue solid
+line) and (ii) the median county TTD measure of 11 quarters (red dashed line).
+
+variation in the T −horizon housing supply elasticity.
+
+In sum, we ﬁnd that the large variations of TTD documented in the data translate to quan-
+titatively sizable variations in the shorter-run housing supply elasticities. This suggests that
+our shorter-run housing supply elasticities could provide a new perspective compared to the
+long-run housing supply elasticity in the study of housing dynamics.
+
+Nevertheless, our focus so far on housing supply elasticities has limitations because the
+equilibrium housing market behavior is a combination of both housing supply and demand
+and it is unclear whether the measured variations in supply elasticities would imply signiﬁcant
+variations in housing market variables that we observe through the data. That is the topic of the
+next section, where we study the equilibrium effects of short-run housing supply elasticities
+on house prices and housing investment.
+
+5 Theory and application of short- and long-run elasticities
+
+We documented that TTD is lengthy and dispersed across counties. Mapping the empirical
+TTD into our model’s analytical expression for housing supply elasticity, we ﬁnd that the
+short-run housing supply elasticity is also highly dispersed across counties. As the housing
+supply elasticity is derived from a partial equilibrium model of housing developers, our results
+
+21
+
+012345T-Quarter Elasticity (eTi(Pi))012345Saiz Long-Run Elasticity45o LineT = 4T = 20T = 36Short- to Long-run Supply Elasticity0.00.20.40.60.8Std.(eTi(Pi))/Std.(Saiz Elasticity)0481216202428323640Horizon (T)BaelineCommon TTDTTD Contribution to Elasticity Variationare not speciﬁc to the nature of economic shocks or the endogenous response of housing
+demand. However, housing supply elasticity does not directly inform us about the dynamics of
+house prices and quantities that are of interest in the literature. To understand its implications
+on house prices and quantities, one needs to specify the demand side of housing.
+
+In this section, we study the theoretical implications of our short- and long-run housing
+supply elasticities on house prices and quantities using a local general equilibrium model of
+housing investment. That is, we extend the partial equilibrium model of developers in section 3
+by incorporating the household and the nondurable goods–producing sectors. After specifying
+the local general equilibrium model, we hit the economy with a common housing demand
+shock and study the differential local house price and quantity responses. We show that our
+calibrated model predicts two salient housing market features that can be tested with house
+price and quantity data. We also investigate the effectiveness of a government’s discretionary
+housing supply policy when TTD is taken into account.
+
+5.1 Local general equilibrium TTD model
+
+The local economy consists of housing developers, households, nondurable goods producers,
+and a local government. Since the national central bank sets the interest rate, we assume that
+the local economy takes it as given. Therefore, the bond and nondurable goods markets do
+not clear locally, analogous to the assumptions in small open economy models in the interna-
+tional macro literature. Housing developers follow the same speciﬁcation and notation as in
+section 3. Below, we describe the households, the rest of the economy, and the equilibrium of
+the model.
+
+5.1.1 Households
+
+The representative local household’s expected lifetime utility is
+
+E0
+
+∞
+(cid:88)
+
+t=0
+
+βtU (Ct, Ht, Nn,t, Nt; ϕt),
+
+(5.1)
+
+where Ct is the household consumption of nondurable goods, Ht is the service ﬂow of housing,
+Nn,t is the labor supply for the nondurable goods sector, and ϕt is an exogenous process for
+housing demand. The household’s one-period subjective discount factor, β, is consistent with
+the housing developers’ deterministic discount factor speciﬁed in section 3.
+
+The household’s service ﬂow of housing is proportional to its housing stock. For simplicity
+
+22
+
+of notation, the housing stock is also denoted as Ht. The housing stock evolves over time by
+
+Ht = (1 − δ)Ht−1 + It,
+
+(5.2)
+
+where δ is the depreciation rate of the housing stock.
+The household ﬂow budget constraint is given by
+
+Ct + qtIt +
+
+Bt+1
+Rt
+
++
+
+ψb
+2
+
+B2
+
+t+1 = wn,tNn,t + wtNt + Bt + Φt + Tt,
+
+(5.3)
+
+where Bt+1 is the household’s one-period bond holdings that mature in period t + 1, Rt is the
+gross bond interest rate between periods t and t + 1, wn,t is the real wage for working in the
+nondurable goods sector, Φt is the period-t proﬁt of developers because households are the
+ﬁnal owners of the developers, and Tt is transfers from the local government. As is standard
+in small open economy models, the household is subject to the bond portfolio adjustment cost
+ψbB2
+t+1/2. The parameter ψb is calibrated to be positive for stability in solving the model but
+small enough to not materially affect the model dynamics.
+
+5.1.2 The rest of the economy
+
+As we will discuss next, the rest of the economy consists of the nondurable goods producers,
+the local government, and the market-clearing conditions. We also specify the exogenous
+process for housing demand that we use for later applications.
+
+Nondurable goods producers. The representative nondurable goods producer operates with
+a linear production technology, Yt = ¯ZNn,t, where Yt is the output of the nondurable good
+and ¯Z captures its productivity. The proﬁt of the producer is Yt − wn,tNn,t, where both the
+input and output markets are perfectly competitive. The nondurable goods are tradable to
+other regions.
+
+Local government. As speciﬁed in equation (3.4), the supply of housing permits is deter-
+mined by its local government, which in turn is elastic to the region’s equilibrium house price.
+For each housing permit, the local government collects a fee, qM,t, from developers. The local
+government also collects the bond portfolio adjustment cost from households. The local gov-
+ernment follows a balanced budget by rebating back its revenue to the households in the form
+
+23
+
+of transfers Tt:
+
+Tt = qM,tMt +
+
+ψb
+2
+
+B2
+
+t+1.
+
+(5.4)
+
+Market clearing. The labor markets for the nondurable goods sector and the construction
+sector clear by equating the supply and demand of labor in each sector. The permit market
+clears by equating permit supply to permit demand. The market for new housing clears by
+equating the supply and demand of new housing investment. The bond and nondurable goods
+markets do not clear locally as we assume that the interest rate is exogenously determined
+by the national central bank. Finally, the following resource constraint of the local economy
+needs to be satisﬁed:
+
+Ct +
+
+Bt+1
+Rt
+
+= wn,tNn,t + Bt.
+
+(5.5)
+
+Exogenous housing demand. The exogenous component of housing demand, ϕt, is at-
+tached to the household’s preference over the housing stock Ht in the utility function (5.1)
+and follows a ﬁrst-order autoregressive process in logs:
+
+log ϕt = (1 − ρϕ) ¯ϕ + ρϕ log ϕt−1 + (cid:15)ϕ,t,
+
+(5.6)
+
+where (cid:15)ϕ,t is the exogenous housing demand shock and ρϕ is the persistence of exogenous
+housing demand from its mean ¯ϕ.
+
+5.1.3 Equilibrium
+
+The local general equilibrium is a set of variables {Ut|t+p, Nt|t+p, µt|t+p}P
+p=0, Mt|t+P , Nt, It,
+Ht, Ct, Yt, Nn,t, Bt+1, wt, wn,t, qt, Rt for t ≥ 0 such that taking as given the endogenous
+prices wt, wn,t, and qt, the exogenous processes Rt and ϕt, and the initial conditions B0 and
+H−1, the following conditions hold:
+
+1. Housing developers maximize their proﬁt subject to (3.1) through (3.3).
+
+2. Households maximize their lifetime utility (5.1) subject to (5.2) and (5.3).
+
+3. Nondurable goods producers maximize their proﬁt.
+
+4. The local government supplies permits and balances its budget according to (5.4).
+
+24
+
+Inelastic Supply
+
+e
+c
+i
+r
+P
+
+C
+
+Elastic Supply
+
+B
+
+Demand (D
+
+(cid:48)
+
+)
+
+A
+
+Demand (D)
+
+Quantity
+
+Figure 3: Housing supply and demand curves
+
+5. Markets clear for nondurable goods labor, construction labor, permits, and housing in-
+
+vestment, and the resource constraint (5.5) is satisﬁed.
+
+We assume that the interest rate is ﬁxed by the national central bank. The exogenous compo-
+nent of housing demand follows (5.6).
+
+5.2 Relative price and relative quantity correlation in the housing mar-
+
+ket
+
+Consider two regions with different housing supply elasticities. In Figure 3, the housing sup-
+ply curves of the two regions are denoted as inelastic supply and elastic supply. Assume that
+the initial housing market equilibrium for both regions is at A, where the demand curve is
+denoted as D. When there is positive housing demand that shifts the demand curve from
+D to D(cid:48), the equilibrium price and quantity responses are different for the two regions. In
+the inelastic supply region, the equilibrium is formed at C, where prices increase by a lot and
+quantities increase by little. By contrast, in the elastic supply region, the equilibrium is formed
+at B, where prices increase by little and quantities increase by a lot. This outcome implies
+that conditional on a demand shock, the cross-regional correlation between the relative price
+and the relative quantity should be negative.
+
+In the data, however, the cross-county correlation of the relative price and the relative
+
+25
+
+quantity is mildly positive. Using the county house price indexes from the Federal Housing
+Finance Agency and the annual estimates of the number of housing units from the Census
+Bureau, we ﬁnd that the cross-county correlation of the annual growth rates of prices and
+quantities is positive in 15 years between 2001 and 2019 with an average correlation of 0.13.
+This discr

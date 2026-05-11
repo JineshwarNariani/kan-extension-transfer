@@ -1,0 +1,135 @@
+
+PMID- 41914351
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260407
+LR  - 20260407
+IS  - 2047-9980 (Electronic)
+IS  - 2047-9980 (Linking)
+VI  - 15
+IP  - 7
+DP  - 2026 Apr 7
+TI  - Blood Pressure Parameters and Risk of Cognitive Decline and Dementia in Type 2 
+      Diabetes: Results From the ADVANCE Trial.
+PG  - e044061
+LID - 10.1161/JAHA.125.044061 [doi]
+AB  - BACKGROUND: Blood pressure (BP) variability and cumulative BP load are 
+      significantly associated with cardiovascular disease risk beyond mean systolic 
+      BP, but less is known regarding their associations with cognitive 
+      decline/dementia and whether these associations differ by cognitive function at 
+      baseline or by sex. The aims of this study were to determine associations of 
+      different BP parameters with cognitive decline/dementia in patients with type 2 
+      diabetes and explore differences by mild cognitive impairment at baseline and 
+      sex. METHODS: Using data from the ADVANCE (Action in Diabetes and Vascular 
+      Disease: Preterax and Diamicron Modified Release Controlled Evaluation) study, BP 
+      parameters were calculated from an 18-month exposure window comprising 
+      measurements at 3, 4, 6, 12, and 18 months, after randomization. Logistic 
+      regression was used to estimate the odds ratio (OR) per SD higher and 95% CI for 
+      the associations of BP parameters with the composite outcome of cognitive decline 
+      (>/=3 points from baseline on the Mini-Mental State Examination) or clinical 
+      diagnosis of dementia. RESULTS: Of the 11 140 ADVANCE participants, 9586 patients 
+      had 5 complete BP measurements within the 18-month exposure window. After a mean 
+      follow-up of 3.5 years, 1674 (17.5%) participants were diagnosed with cognitive 
+      decline and/or dementia. Overall, variability and baseline pulse pressure (PP), 
+      but not BP load, were associated with higher odds of cognitive decline/dementia 
+      (OR: variability in systolic BP, 1.11 [95% CI, 1.05-1.17]; diastolic BP, 1.11 
+      [95% CI, 1.05-1.17]; PP, 1.05 [95% CI, 1.00-1.11]; mean arterial pressure, 1.13 
+      [95% CI, 1.07-1.19]; and baseline PP, 1.19 [95% CI, 1.13-1.25]). There were no 
+      differences by mild cognitive impairment at baseline or sex. CONCLUSIONS: Higher 
+      BP variability and baseline PP, but not mean BP or BP load, were associated with 
+      higher odds of cognitive decline/dementia in patients with type 2 diabetes. BP 
+      variability and PP may be important therapeutic markers for the preservation of 
+      brain health. REGISTRATION: URL: https://clinicaltrials.gov; Unique Identifier: 
+      NCT00145925.
+FAU - Shajahan, Sultana
+AU  - Shajahan S
+AUID- ORCID: 0000-0002-7705-7449
+AD  - The George Institute for Global Health University of New South Wales Sydney NSW 
+      Australia.
+FAU - Woodward, Mark
+AU  - Woodward M
+AUID- ORCID: 0000-0001-9800-5296
+AD  - The George Institute for Global Health University of New South Wales Sydney NSW 
+      Australia.
+AD  - The George Institute for Global Health, School of Public Health, Imperial College 
+      London London United Kingdom.
+FAU - Anderson, Craig S
+AU  - Anderson CS
+AUID- ORCID: 0000-0002-7248-4863
+AD  - The George Institute for Global Health University of New South Wales Sydney NSW 
+      Australia.
+AD  - Institute of Science and Technology for Brain-inspired Intelligence, Fudan 
+      University Shanghai China.
+AD  - Neurology Department Royal Prince Alfred Hospital Sydney NSW Australia.
+FAU - Carcel, Cheryl
+AU  - Carcel C
+AUID- ORCID: 0000-0001-8942-953X
+AD  - The George Institute for Global Health University of New South Wales Sydney NSW 
+      Australia.
+AD  - Prince of Wales Clinical School University of New South Wales Sydney NSW 
+      Australia.
+FAU - Wang, Nelson
+AU  - Wang N
+AD  - The George Institute for Global Health University of New South Wales Sydney NSW 
+      Australia.
+FAU - Tully, Phillip J
+AU  - Tully PJ
+AD  - School of Psychology Deakin University Burwood VIC Australia.
+AD  - School of Medicine The University of Adelaide Adelaide SA Australia.
+FAU - Peters, Ruth
+AU  - Peters R
+AUID- ORCID: 0000-0003-0148-3617
+AD  - The George Institute for Global Health University of New South Wales Sydney NSW 
+      Australia.
+FAU - Harrap, Stephen
+AU  - Harrap S
+AD  - Department of Anatomy and Physiology University of Melbourne and Royal Melbourne 
+      Hospital Melbourne VIC Australia.
+FAU - Poulter, Neil
+AU  - Poulter N
+AUID- ORCID: 0000-0002-6292-997X
+AD  - School of Public Health, Imperial College London London United Kingdom.
+FAU - Mancia, Giuseppe
+AU  - Mancia G
+AUID- ORCID: 0000-0003-0942-3176
+AD  - University Milano-Bicocca Milan Italy.
+FAU - MacMahon, Stephen
+AU  - MacMahon S
+AD  - The George Institute for Global Health University of New South Wales Sydney NSW 
+      Australia.
+AD  - The George Institute for Global Health, School of Public Health, Imperial College 
+      London London United Kingdom.
+FAU - Chalmers, John
+AU  - Chalmers J
+AUID- ORCID: 0000-0002-9931-0580
+AD  - The George Institute for Global Health University of New South Wales Sydney NSW 
+      Australia.
+FAU - Harris, Katie
+AU  - Harris K
+AUID- ORCID: 0000-0003-2444-2869
+AD  - The George Institute for Global Health University of New South Wales Sydney NSW 
+      Australia.
+LA  - eng
+SI  - ClinicalTrials.gov/NCT00145925
+PT  - Journal Article
+PT  - Multicenter Study
+PT  - Randomized Controlled Trial
+DEP - 20260331
+PL  - England
+TA  - J Am Heart Assoc
+JT  - Journal of the American Heart Association
+JID - 101580524
+RN  - 0 (Antihypertensive Agents)
+SB  - IM
+MH  - Humans
+MH  - Male
+MH  - *Diabetes Mellitus, Type 2/drug 
+      therapy/complications/physiopathology/epidemiology/diagnosis
+MH  - Female
+MH  - *Cognitive Dysfunction/epidemiology/diagnosis/physiopathology/etiology
+MH  - *Dementia/epidemiology/diagnosis/etiology/physiopathology
+MH  - Aged
+MH  - *Blood Pressure/physiology/drug effects
+MH  - Risk Factors
+MH  - Middle Aged
+MH  - Risk Assessm

@@ -1,0 +1,3 @@
+method,k,sim_threshold,consensus_frac,mean_edge_f1,std_edge_f1
+right_kan,10,0.25,0.4,0.0,0.0
+right_kan,10,0.25,0.8,0.0,0.0

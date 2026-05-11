@@ -1,0 +1,4 @@
+TITLE: Feedback-Regulated versus Constant-Rate Sufentanil Patient-Controlled Analgesia for Postoperative Nausea and Vomiting After Laparoscopic Myomectomy: A Randomized Controlled Trial.
+
+ABSTRACT:
+Postoperative nausea and vomiting (PONV) remains a common and distressing side effect of opioid-based patient-controlled analgesia (PCA). Although continuous background infusion stabilizes analgesia, it often induces excessive opioid exposure and related adverse events. This study evaluates a novel smart PCA system featuring feedback-regulated background infusion (FRBI) designed to dynamically adjust opioid delivery based on real-time pain feedback, aiming to reduce PONV without compromising analgesia.

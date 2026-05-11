@@ -1,0 +1,1713 @@
+BIS Working Papers 
+No 1150
+
+Markups and the 
+asymmetric pass-
+through of cost push 
+shocks 
+
+by  Enisse  Kharroubi,  Renée  Spigt,  Deniz  Igan,  Koji 
+Takahashi, Egon Zakrajšek 
+
+Monetary and Economic Department 
+
+November 2023 
+
+JEL classification: E31, D22, L13 
+
+Keywords:  market  power,  inflation,  oil  shocks,  pass-
+
+through, profits 
+
+BIS  Working  Papers  are  written  by  members  of  the  Monetary  and  Economic 
+Department of the Bank for International Settlements, and from time to time by other 
+economists,  and  are  published  by  the  Bank.  The  papers  are  on  subjects  of  topical 
+interest and are technical in character. The views expressed in them are those of their 
+authors and not necessarily the views of the BIS. 
+
+This publication is available on the BIS website (www.bis.org). 
+
+©  Bank for International Settlements 2023. All rights reserved. Brief excerpts may be 
+
+reproduced or translated provided the source is stated. 
+
+ISSN 1020-0959 (print) 
+ISSN 1682-7678 (online) 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Markups and the Asymmetric Pass-Through of
+
+Cost Push Shocks*
+
+Enisse Kharroubi
+
+Ren´ee Spigt
+
+Deniz Igan
+
+Koji Takahashi
+
+Egon Zakrajˇsek
+
+Bank for International Settlements
+
+Abstract
+
+This paper studies how prices and markups respond to cost push shocks, taking
+
+the example of global oil supply shocks. Using sector-level data for the US, we first
+
+document a weaker pass-through of global oil shocks to PPI inflation in sectors where
+
+firms charge higher markups. However, high markups mainly reduce the pass-through
+of dis-inflationary oil shocks, while they barely affect that of inflationary oil shocks.
+
+Second, using firm-level data, we show that following a dis-inflationary oil shock,
+
+high-markup firms are more likely to raise their markup. In addition, they are also
+
+more likely to increase their revenues, and hence their profits. Conversely, we find no
+difference in the response of high- and low-markup firms to inflationary oil shocks.
+
+Taken together, these results suggest that high-markup firms draw significant benefits
+
+from dis-inflationary oil shocks, as they are able to raise their markups and expand
+
+their revenues. They also suggest that high markups provide little cushion against
+
+prices pressures stemming from inflationary oil shocks.
+
+Keywords: Markup, PPI inflation, oil shock, pass-through, profits.
+
+JEL Classification codes: E31, D22, L13
+
+*The views expressed in this paper are those of the authors and do not necessarily reflect the official views
+of the Bank for International Settlements. Deniz Igan, Enisse Kharroubi, Koji Takahashi and Egon Zakrajˇsek
+are at the BIS. Ren´ee Spigt is a Ph.D. fellow visiting the BIS from the Erasmus University in Rotterdam.
+Corresponding author: Enisse Kharroubi (enisse.kharroubi@bis.org)
+
+1
+
+“Increasingly dominant corporations are taking the opportunity to jack up
+
+prices [...] squeezing consumers and supercharging inflation. Or “greedfla-
+
+tion,” as the hypothesis has come to be known.”
+
+— New York Times, June 3, 2022.
+
+1
+
+Introduction
+
+Many countries around the world have witnessed a large rise in firm market power over
+
+the last decades, as reflected in the secular increase in markups (De Loecker et al. (2020)).
+
+Between the early 80’s and the mid-2010’s, markups increased by about 50% at the global
+
+level, and by about 75% in Advanced Economies (AEs).1 Against this background, and
+
+following the global resurgence of inflation, markups have become one of the focal points
+
+of policy discussions questioning their role in the current inflation surge, or examining
+
+policies to address inflationary pressures. On the one hand, there was hope that high
+
+markups could act as a shock absorber and help cushion inflationary pressures. Indeed,
+contrary to firms pricing at their marginal cost, firms charging large markups can afford,
+
+when faced with a cost increase, to pass-on only some of it to their costumers, absorbing
+
+the other part through markup cuts.2 On the other hand, the worry was and still is, that
+
+high markups could just act as oil on fire and contribute to the inflationary dynamics as
+
+firms holding large market power could more easily impose their price conditions and
+
+therefore pass-on cost increases to their customers.
+
+Likewise, another, albeit more recent, worry has been that firms, especially those
+
+charging high markups, could retain some of the benefits of falling input cost. These
+
+concerns find their sources in the asymmetric relationship between input and output
+
+1Figures on markup changes are from De Loecker and Eeckhout (2018). See also Kouvavas et al. (2021)
+for markup estimates for the Euro area, Aquilante et al. (2019) for the United Kingdom, Ciapanna et al.
+(2022) for Italy, Nakamura and Ohashi (2020) for Japan and Hambur (2021) for Australia. D´ıez et al. (2018)
+provides an international comparison, showing that in advanced economies, there has been a significant
+increase in markups, which is broad-based across industries and countries, and driven by the firms with the
+highest markups in each economic sector. For emerging markets and developing economies, the authors
+find less support for an upward trend in markups.
+
+2The negative relationship between cost pass-through and market power typically holds when firms
+produce a homogeneous good, compete `a la Cournot and the elasticity of the inverse demand function is
+not too low (above -1). Amiti et al. (2019) provide firm-level evidence consistent with this mechanism.
+
+2
+
+prices. In the US for instance, when input price are increasing, i.e. when the diffusion
+
+index is above the historical median, the relationship between to output prices is relatively
+
+tight, and higher input prices are associated with higher output prices (left-hand panel,
+Figure 1). By contrast, when input price are falling, i.e. the diffusion index is below the
+
+median, the relationship between input and output prices is much looser and a drop in
+
+input prices is not associated with any clear trend in output prices, especially in the short
+
+run (right-hand panel, Figure 1).3
+
+Figure 1: Output price sensitivity to input price. The blue line in each panel represents the percentage
+change in the PMI diffusion index for output prices following a one percentage point increase in the PMI
+diffusion index for input prices, for a horizon running from zero to 12 months, controlling for the current
+level of the PMI diffusion index for output prices. The left-hand panel (right-hand panel) estimates this
+relationship when the input price variable is above (below) the median. Dashed red lines display the 90%
+confidence interval around the mean estimate (in blue). Sample period = 2010m1-2023m4.
+
+In this paper, we try to make sense of these differences and understand how markups
+affect the pass-through of cost shocks, taking the example of global oil supply shocks.
+
+Specifically, we use data for US sectors and firms over a 20-year period and explore two
+
+questions. First, considering sectoral producer price index (PPI) inflation, we test whether
+
+the data supports the view that high markups can act as shock absorbers, i.e.
+
+that oil
+
+price shocks have a smaller price impact in sectors where firms charge higher markups. In
+
+3Figure A.1 in Appendix A provides similar evidence for the Euro Area.
+
+3
+
+addition, given that the role of markups as shock absorbers is particularly relevant in the
+
+case of inflationary ”cost push” shocks, we go one step further and investigate if markups
+affect the pass-through of positive and negative oil shocks to PPI inflation differently. In a
+
+nutshell, we do find evidence that markups can act as shock absorbers: the pass-through of
+oil price shocks to sectoral PPI inflation effectively tends to be lower in sectors where firms
+
+charge higher markups. However, we also find that markups reduce the pass-through of
+
+dis-inflationary oil price shocks (i.e. positive oil supply shocks), but not that of inflationary
+ones (i.e. negative oil supply shocks). Put differently, high markups act as shock absorbers
+
+on the way down, not on the way up.
+
+Second we go to firm-level data, to understand the mechanisms behind the asymmetric
+
+impact of markups on the pass-through of oil shocks. For this, we explore how firms react
+
+to oil shocks, considering both prices and quantities. Specifically, we first investigate the
+
+dynamics of markups at the firm-level, i.e. how firms change their markups following a
+
+given oil shock. There, consistent with sector-level evidence, we find that high-markup
+
+firms are more likely to raise their markup following a dis-inflationary oil shock than
+
+low-markup firms, suggesting that firms holding market power take opportunity of cost-
+
+reducing shocks to increase profits, instead of lowering prices. Quantification however
+shows that the increase in markups —the intensive margin effect— , while statistically
+
+significant, is not economically large. We therefore go one step further and look into firm
+growth —the extensive margin effect— and estimate how revenues (and profits) at the
+
+firm-level change following an oil price shock. Here, we find that firms charging higher
+
+markups tend to increase their revenues and earn larger profits following a dis-inflationary
+
+oil shock relative to firms with lower markups, consistent with sector-level evidence.
+
+The firm-level analysis therefore suggests that the asymmetric impact of markups on
+
+the pass-through of oil price shocks reflects a combination of intensive and extensive
+margin effects, even if quantitatively the latter seems more important. Following a dis-
+
+inflationary oil shock, high-markup firms are more likely to raise their markup (intensive
+margin effect) and to grow disproportionately faster (extensive margin effect). As high-
+
+markup firms raise their markup and become larger, the sector-wide markup increases,
+
+which dampens the impact of dis-inflationary oil shocks.
+
+4
+
+1.1 Literature review
+
+This paper relates to three different strands of literature. First, this paper builds on the
+
+production function approach to estimate firm-level markups as proposed by De Loecker
+
+and Warzynski (2012). Following seminal contributions by Hall (1988) and Roeger (1995),
+
+which provide country-level estimates for markups by estimating an extended expression
+
+for the Solow residual, a growing number of papers investigating markups has shifted
+
+to the production function approach, in part because of the flexibility in the estimation
+
+assumptions)4, and despite some limitations, including substantial variation in markup
+
+estimates or some implausible implications (Syverson (2019) and Basu (2019)). Based on
+
+this approach, a number of studies have investigated the macroeconomic implications of
+
+increasing market power and markups (De Loecker et al., 2020).
+
+Second, this paper contributes to the literature on the real effects of firm market power.
+
+Feenstra et al. (1996), Nakamura and Zerom (2010), Koujianou Goldberg and Hellerstein
+
+(2013) and Amiti et al. (2019) all provide empirical estimates of pass-through and markup
+
+variability. Focusing on the estimation of strategic complementarities at the firm-level,
+
+Amiti et al. (2019) show that prices of large firms display lower elasticity to own cost
+
+shocks. Conversely, small firms show higher elasticity, with complete pass-through. We
+differ from these papers in that we investigate the extent to which differences in markups
+—across firms or sectors— can account for differences in pass-through. Duval et al.
+
+(2021) show using firm-level data that higher markups dampen the response of output
+
+to monetary policy shocks. Kouvavas et al. (2021) run a similar exercise for Euro Area
+
+countries, providing suggestive evidence that inflation is less volatile in sectors where
+
+firms charge higher markups. In these countries, not only the pass-through of monetary
+
+policy shocks to inflation appears to be weaker for high-markup sectors but also the pass-
+
+through of oil supply and global demand shocks. That said, they do not look, as we do,
+into possible asymmetric effect of markups.5 Nor do they complement their sector-level
+
+analysis with an investigation of the evolution of markups at the firm-level as we do
+
+4Bond et al. (2021) and Raval (2023) propose some modification of the production function approach.
+5Importantly, this paper concludes that high markups have contributed to low inflation by shielded Euro
+Area countries from the fall out of inflationary shocks. Conversely, the evidence presented in this paper for
+the United States rather shows that high markups barely provide any hedge against such shocks.
+
+5
+
+in this paper. Br¨auning et al. (2022) are close to this paper in that they investigate the
+differential effect of concentration on the pass-through of both positive as well as negative
+
+cost shocks. They find however no impact of concentration on the pass-through of negative
+
+cost shocks. Conversely, they show that the pass-through of positive cost shocks is larger
+in more concentrated industries. While these results differ from ours, it is important to
+note that concentration, while useful to proxy for market power, also suffer a number of
+
+drawbacks, that can make it a poor approximation for market power (Berry et al., 2019).
+
+Finally, Conlon et al. (2023) measure the correlation between the change in firm-level
+
+markups and the change in industry-level prices as measured by the PPI and find little
+
+to no relationship. One explanation is that markups could have risen more quickly than
+
+prices in the aggregate, which could indicate that firms have not fully passed on declines
+
+in marginal costs to consumers.
+
+In this respect, our paper provide empirical evidence
+
+consistent with this view: following positive oil supply shocks, high-markup firms do
+
+not seem to pass on fully the reduction in the marginal cost of production. Instead, they
+
+benefit from their pricing power after dis-inflationary oil supply shocks by increasing
+
+their markups, sales and profits. Also, we do not find any evidence that firms with higher
+
+markups cushion inflationary price pressures. The fact that firms with pricing power can
+
+benefit from supply side developments, relates somewhat to the findings of Franzoni et al.
+
+(2023). However, the origins of their shocks are not directly related to input costs but
+
+to supply chain shortages. They find that ”superstar” firms benefit from supply chain
+
+shortages through higher markups and profitability.
+
+Third, our paper adds to the specific literature on the pass-through of energy cost
+
+shocks. Using data on French manufacturing firms’ prices, Lafrogne-Joussier et al. (2023)
+
+show that firms pass on 100% of energy cost shocks (and 30% of non-energy imported
+
+input price shocks), conditional on their exposure to these shocks. They also find evidence
+
+of asymmetric pass-through, with positive cost shocks inducing significantly higher pass-
+In our paper, we find a similar asymmetric effect.
+
+through than to negative shocks.
+
+However, we go one step further in that we find that the asymmetry is driven by sector-
+
+and firm-level markups. In addition, we exploit the full universe of sectors, and a longer
+
+time span from 1997 to 2019, allowing us to examine not only many positive cost shocks
+
+6
+
+but also a substantial number of negative cost shocks.
+
+The rest of the paper proceeds as follows. Section 2 presents our estimation method-
+
+ology of markups and the estimates as well as the firm-level datasets. Section 3 describes
+
+the oil supply shock and sectoral PPI inflation data. Section 4 estimates the pass-through
+
+of oil shocks to inflation at the sectoral level. Section 5 explores the mechanism behind the
+difference in the sectoral pass-through using firm-level markups and revenues. Finally,
+
+concluding remarks are given in Section 6.
+
+2 Markup estimation
+
+In this section, we review the methodology used to estimate markups as well as the data
+
+used in this estimation. We then briefly discuss our markup estimates and benchmark
+
+them against those existing in the literature.
+
+2.1 Methodology
+
+To estimate markups, we follow the production function approach pioneered by De Loecker
+and Warzynski (2012). Let us denote µit the markup for firm i at time t as the ratio of its
+price Pit to its marginal cost of production MCit, i.e. µit = Pit
+MCit
+
+. Then, let us assume firm i’s
+
+technology is summarised by a production function F which depends on a set of variable
+
+, ..., Vv
+
+inputs V1
+it
+capital stock— and total factor productivity ωit:
+
+it, —-eg. labour, material, energy, etc.—, a state variable Kit —typically the
+
+Yit = F(V1
+it
+
+, ..., Vv
+it
+
+, Kit, ωit)
+
+(1)
+
+Then, solving the cost minimization problem, the expression for the markup of firm i at
+
+time t simplifies as:
+
+µit = βv
+it
+
+(cid:35)
+
+(cid:34)
+
+PitYit
+Pv
+itVit
+
+7
+
+(2)
+
+where βv
+
+it is the elasticity of firm i’s output at time t to the variable input v and PitYit
+Pv
+itVit
+
+is the
+
+ratio of output to the variable input v for firm i at time t.
+
+Obtaining (one of) the elasticities β of output to the variable inputs requires estimating
+
+the production function, which in turn requires making three choices: one about the spe-
+
+cific functional form for F, one about the panel of firms you use to estimate the production
+
+function on, and finally one about productivity shocks and in particular how to address
+
+related simultaneity issues. First, we assume a Cobb-Douglas production function, so that
+
+the production function can be estimated using linear regressions on the log-transformed
+
+variables. In addition, we assume that firms’ output (revenues) depends on capital (net
+
+property plant and equipment) and a composite variable input (cost of goods sold) that
+
+bundles labour and intermediary inputs together.
+
+Second, in line with De Loecker et al. (2020), we estimate the production functions
+
+for a panel of firms within the same industry, which in our case is defined by the 3-digit
+
+NAICS industry.
+
+In the time dimension, we consider a three-year (backward-looking)
+
+rolling window, to account for technology and productivity changes over time.
+
+Third, productivity shocks can induce a simultaneity bias in the production function
+
+estimation as firms facing positive productivity shocks are likely to increase their demand
+for inputs and expand output at the same time, thereby affecting the estimates for the
+βs,t elasticity. Here, we follow Olley and Pakes (1996), and use log-capital expenditures
+
+to proxy for firm-level productivity shocks, the idea being that capital expenditures and
+
+productivity shocks should be positively correlated.6 Hence, letting lower-case letters
+
+represent logs of upper-case variables, the Cobb-Douglas production function writes as:
+
+yi,t = α + vi,tβs,t + ki,tγs,t + ωi,t + εi,t
+
+(3)
+
+where i refers to firm, s refers to sector and t refers to the time dimension. y is the
+
+log of output, v is the log of the cost of goods sold, k is the log of net property, plant
+and equipment, the state variable, ω is the unobservable productivity efficiency and ε
+
+is a white noise idiosyncratic shock. Then assuming firm-level investment increases
+
+6This approach is valid when the idiosyncratic productivity shock is not correlated with the current and
+
+lagged values of the state variable, here capital.
+
+8
+
+monotonically and is invertible in firm-level productivity, i.e. iit = f
+, we can write
+firm-level productivity ω as a function of capital and investment.7 Formally, inverting their
+investment policy function, and denoting h (.) the invert of f (.), the production function
+
+ki,t; ωi,t
+
+(cid:0)
+
+(cid:1)
+
+(3) can be written as
+
+yi,t = α + vi,tβs,t + ki,tγs,t + h
+
+(cid:0)
+
+iit; ki,t
+
+(cid:1) + εi,t = α + vi,tβs,t + Φs,t
+
+(cid:0)
+
+iit; ki,t
+
+(cid:1) + εi,t
+
+(4)
+
+The estimation procedure then goes into two steps. The first stage is about approximating
+the Φs,t function. For this, we use a third degree polynomial. Second, denoting (cid:99)Φs,t the
+estimate for Φs,t , one can get a consistent estimate of βs,t by estimating the regression:
+
+yi,t = α + vi,tβs,t + (cid:99)Φs,t
+
+(cid:0)
+
+iit; ki,t
+
+(cid:1) + εi,t
+
+(5)
+
+Denoting (cid:99)βs,t the estimate for βs,t, the estimated markup for firm i at time t then writes as
+
+µi,t = (cid:99)βs,t
+
+(cid:35)−1
+
+(cid:34)Pv
+i,tVi,t
+Pi,tYi,t
+
+(6)
+
+where Pi,tYi,t and PV
+
+i,tVi,t are respectively the values for firm i output and variable input at
+
+time t.
+
+2.2 Data
+
+This paper focuses on firms from the United States. To estimate their markups, we use
+
+firm-level data from Standards and Poor’s Capital IQ. This source provides standard
+
+balance sheet and income statement data for listed and large private firms. This includes
+
+data on total revenues, cost of goods sold (COGS), net property plant and equipment,
+
+and capital expenditures, which we use to measure respectively gross output, the variable
+
+input, capital and investment.8 The data sample runs from 1998 to 2019 and covers all
+
+7There are two additional requirements. One is that the state variable evolves according to the investment
+policy function. Another is that the variable input v is non-dynamic, i.e. it does not affect subsequent profits.
+8We deflate all variables used to estimate the markups with the corresponding price index. Revenues
+and cost of goods sold are deflated with the gross output price index, capital expenditures with the gross
+fixed capital formation price index and net property plant and equipment with the capital goods price
+
+9
+
+sectors in the US economy, with more than 15,000 individual firms over the full sample
+
+period. We perform several cleaning steps before running the estimation of markups.9
+
+This shrinks our sample to about 7,000 public and private firms.10
+
+We construct markups by estimating sector-specific elasticities of output to COGS,
+
+lumping together all firms that operate in a given sector, following the 3-digit NAICS
+
+industrial classification, spanning about 75 sectors covering all sectors in the economy,
+
+but ”Agriculture, Forestry, Fishing and Hunting”, ”Finance and Insurance”, ”Government
+
+and Non-Profit Firms”, ”Oil and Gas Extraction”, and ”Utilities”. We exclude these
+
+industries from the sector-level analysis either because there is no corresponding PPI
+
+data (Agriculture or Government Firms), because estimated markups are likely unreliable
+
+measures of market power (Finance and Insurance or Utilities), or because oil supply
+
+shocks are unlikely to be a good proxy for cost push shocks (Oil and Gas Extraction).11
+
+Moreover we estimate time-varying elasticities by estimating production functions over
+
+three-year backward-looking rolling windows. This way, we can allow for changes —
+
+cyclical or structural— in the production function parameters. Finally, markups being
+
+estimated at the firm-level, we construct sector-level markup aggregates using quantiles
+
+of the within sector-time distribution of firm markups, where firm-level observations
+
+are weighted by revenues. Specifically, denoting Fs,t the cumulative distribution of firm
+
+markups in sector s at time t, and considering the nth-percentile of the firm revenue
+
+distribution in sector s at time t, the markup for sector s at time t for the nth-percentile,
+which we denote mkupn
+
+s,t, is defined as Fs,t
+
+(cid:16)
+mkupn
+s,t
+
+= n
+
+(cid:17)
+
+100 .
+
+index. Moreover, we winsorise the growth rates of revenues, capital expenditures, net property plant and
+equipment and cost of goods at the 1st and 99th percentile to exclude outliers. In the firm-level analysis, we
+limit the range of markup to 0.5-2.5 and exclude any observation with a markup estimate outside this range.
+9In particular, we drop firms with missing or below zero values for total revenues, net property plant and
+equipment, cost of goods sold and capital expenditures, total debt or total assets. In addition, we exclude
+firms with less than five years of data and sector-year pairs with less than five firms.
+
+10In Figure A.2 we show that the growth rate in aggregated revenues of our sample of firms follows simlar
+
+trends over time as the total gross output as published by the US BEA.
+
+11Another issue is that some firms report more than one sector of activity. In the absence of a sectoral
+break-down of revenues and costs, we duplicate the data so that these firms are represented in each sector
+they operate in. Note that for the firm-level regressions, we make sure that there only exists one observation
+for a given firm-year.
+
+10
+
+2.3 Markup estimates
+
+The left-hand panel of Figure 2 plots the distribution of estimated markups, when sectoral
+
+markups are aggregated at the one-digit level. First, our estimates of median markups
+
+tend to overlap quite well with those provided by De Loecker et al. (2020), which are
+
+estimated based on Compustat data. As is the case with our estimates, De Loecker et al.
+
+(2020) finds ”Wholesale Trade” and ”Transportation & Warehousing” to be amongst the
+
+sectors with the lowest sectoral markups, and ”Information”, ”Manufacturing” and ”Other
+
+Services” to be amongst sectors with the highest markups. Also, the markups of sectors as
+
+”Construction”, ”Retail Trade” and ”Accommodation & Food Services” are close to each
+
+other in magnitude with a median markup of around 1.1. For some sectors, the ranking
+slightly differs. According to our estimates ”Mining” is for example at the lower end of
+
+the sectoral markup spectrum, whereas De Loecker et al. (2020) estimate the ”Mining”
+sectoral markup to be in the middle. Such differences could arise, because of differences in
+
+sub-sector composition of the 2-digit NAICS code. As discussed in Section 2.2, we exclude
+
+the 3-digit NAICS sectors that are related to oil and gas extraction, which are part of the
+
+2-digit NAICS ”Mining, Quarrying, and Oil and Gas Extraction” sector. Furthermore, in
+
+contrast to De Loecker et al. (2020), we not only cover public firms but also large private
+
+firms and we extend our sample period to 2019 instead of 2016.
+
+11
+
+Figure 2: The distribution of sectoral markup. The left-hand figure shows the distribution of markups
+for 2-digit NAICS sectors, and with revenue-weighted percentiles. The box shows the interquartile range
+together with the median sectoral markup. The whiskers use the 10th and 90th percentile as the lower
+and upper extremes. The right-hand panel shows the 3-digit NAICS revenue-weighted sectoral median
+markups plotted against the revenue-weighted octile skewness, with the octile skewness computed by
+(Q0.875−Q0.5)−(Q0.5−Q0.125)
+. All dots represent 3-digit NAICS sectors, with in red the industry-related sectors and in
+Q0.875−Q0.125
+blue the services-related sectors. Both panels are estimated using firm-level data, and cover our full sample
+period.
+
+Second, turning to the within-sector distribution of markups, dispersion within 2-digit
+
+sectors also turns out to be quite significant. It is largest in ”Manufacturing”, ”Arts, Enter-
+
+tainment & Recreation” and ”Other Services”, with a revenue-weighted standard deviation
+
+of 0.32 against a weighted average of 1.2, 0.9 and 1.3, respectively. Conversely, sectors
+
+like ”Mining” or ”Wholesale Trade” and ”Retail Trade”, display much lower markup
+dispersion.12,13
+
+Third, our markup estimates show a strong negative cross-sectoral correlation between
+
+median markups and markup skewness (Figure 2, right-hand panel). We compute the
+
+markup skewness using the octile skewness measure, which is robust to outliers and is
+
+bounded between -1 and 1 (Hinkley, 1975). Sectors where the median markup is higher
+
+display a stronger left tail asymmetry, suggesting that the mass of the high sectoral median
+
+markup distribution is concentrated on the right, as opposed to uniformly higher markups
+
+over the whole distribution. This relationship holds for both industry-related sectors as
+
+well as for services-related sectors.
+
+12For ”Mining”, ”Wholesale Trade” and ”Retail Trade” the revenue-weighted standard deviations are
+
+equal to 0.17, 0.15 and 0.16, and the revenue-weighted averages to 0.8, 0.9 and 1.1, respectively.
+
+13It is important to note that having aggregated markup distributions at the 2-digit level, our dispersion
+measures capture, not only the within-sector dispersion at the 3-digit level but also differences in average
+markups across 3-digit sectors that belong to a single sectoral aggregate, which are also likely to be significant.
+
+12
+
+.511.52Markup MiningConstructionManufacturingWholesale TradeRetail TradeTransportation & WarehousingInformationProfessional, Scientific, and Technical ServicesAdministrative and Support and Waste ManagementHealth Care & Social AssistanceArts, Entertainment, and RecreationAccomodation & Food ServicesOther Services (except Public Administration)Sectoral Markup DistributionFigure 3: The distribution of markups over time. The left-hand panel of the Figure shows the time
+evolution of the revenue-weighted median and mean firm-level markup. The right-hand panel shows
+the time evolution of the P–10, P–25, P–75 and P–90 markup quantiles. Markup quantiles are computed
+weighing firm-level markups using firm-level revenues. All quantiles are rebased at 100 in 1998.
+
+Finally, we examine in Figure 3 the evolution of the distribution of the estimated
+
+markups over time.
+
+In the left-hand panel, we show that both the average as well as
+
+the median markup have stayed relatively constant from 1999 up until 2019. There has
+
+been a slight upward trend in the average and median markup from 2003 to roughly 2008
+
+after which the trend reversed, but all within the bandwidth of 5% relative to the base.
+
+However, upon examining the full distribution displayed in the right-hand panel, distinct
+
+patterns emerge for the upper and lower tails, pointing to diverging trends. The most
+
+upper tail of the distribution, i.e. the 90th percentile, has been on the rise, whereas the two
+
+lower tails, the 25th and the 10th percentile, have been falling somewhat over time. In other
+
+words, the dispersion in the distribution of markups has increased since 1999.
+
+In Figure A.3 we provide a similar time series, but this time unweighted. Also in this
+
+series, we observe that the 90th percentile has been following an upward trend although
+
+less pronounced than in the revenue-weighted series. This implies that especially the
+
+larger firms have gained in markup in the 90th percentile. The observation that the 90th
+
+percentile has been the main driver of a markup increase is in line with previous literature,
+
+including De Loecker et al. (2020).
+
+13
+
+9095100105110Markup (Indexed) 19992001200320052007200920112013201520172019YearP50AverageTime Evolution of Average and Median Markup90100110120130Markup (Indexed) 19992001200320052007200920112013201520172019YearP10P25P75P90Time Evolution of Markup Quantiles3 Oil shocks and PPI inflation
+
+To estimate how prices at the sector-level respond to cost shocks and how this response
+depends (if at all) on markups charged by firms in different sectors, we use empirically
+
+identified structural shocks and estimate a set of cross-sector panel local projections `a la
+
+Jorda (2005). Following the literature14, we rely on identified global oil supply shocks
+
+from Baumeister and Hamilton (2019), available on a monthly frequency. Such oil supply
+shocks are defined as unpredictable interruptions / expansions to global oil production,
+
+whose cause could be related to the start or the end of wars, the occurrence of bad
+
+weather conditions or the imposition or relaxation of export limits by large oil producing
+countries.15,16
+
+Figure A.4 provides some descriptive statistics as well as the density plot for the
+
+monthly oil supply shock series. As one would expect, the mean and median of the oil
+
+supply shocks are about zero, while the inter-quartile range and the standard deviation
+
+are comparable (1.07 vs. 1.05). In addition, oil supply shocks are roughly symmetrically
+
+distributed, even if the skewness is slightly positive, as reflected by the relatively large
+
+number of mid-sized positive oil supply shock in the right-hand panel of Figure A.4.
+
+The time series of the oil supply shock is displayed in Figure 4, left-hand panel. The grey
+
+highlighted area represents the global financial crisis (GFC) and the yellow highlighted
+
+areas denote other notable events for oil markets. At the start of the sample period, oil
+prices were heavily affected by the Asian financial crisis. A combination of stagnating
+
+demand and excess supply caused oil prices to drop significantly. During 1998 and 1999,
+
+the Organization of the Petroleum Exporting Countries (OPEC) announced various supply
+
+cuts, leading to multiple negative supply shocks. In September 2001, the period of relative
+price stabilization came to an end with the 9/11 attacks. The turmoil in the oil market
+
+14See for instance Kouvavas et al. (2021).
+15The oil shocks are estimated using a 4-variable Bayesian Structural Vector Autoregression (SVAR) model
+which provides a flexible empirical framework that nests frequentist identification strategies as a special
+case. The four variables are global oil production, real oil prices, global real economic activity and oil
+inventories, the oil supply shock being the residual to the first equation. As is clear, these shocks do not
+embed any sector- or firm-level information, which could otherwise invalidate our identification strategy.
+
+16We choose to focus on global oil supply shocks and abstract from global oil demand shocks, which
+Baumeister and Hamilton (2019) also provide, as the latter are likely to pick up global demand shocks, and
+could hence affect prices independently of the cost channel.
+
+14
+
+continued at the end of 2002 with the Venezuelan oil field strikes, as reflected by the strong
+
+negative supply shock, and lasted up until 2003 with the onset of the Iraq war.
+
+Figure 4: Oil supply shocks and oil prices. The left-hand panel plots the time series of the monthly oil
+supply shocks. The grey highlighted area denotes the global financial crisis. The yellow highlighted areas
+indicate other notable events which have strongly affected the oil price development, all of which are listed
+at the top of the graph. The right-hand panel shows the relationship between the monthly oil supply shocks
+and the monthly growth rate of the West Texas Intermediate (WTI) oil price – deflated using US CPI. It
+makes use of the binscatter command, with the monthly oil supply shocks divided into 40 equal-sized bins.
+
+The 2007 to 2008 time frame was characterized by a longer period of negative oil
+
+supply shocks. During this period, global oil production was mostly flat, while global oil
+
+demand was particularly strong, sending oil prices up to almost 150 US $ a barrel. The
+
+price run-up came to an end in mid-2008, when the global economy entered in recession,
+
+and Brent crude oil price plummeted all the way down to 40 US $ per barrel at the turn
+
+of 2009. The next geopolitical event hitting the oil market came a few years later with
+
+the Arab uprisings in 2011. The growing unrest caused uncertainty about the oil supply
+
+development, pushing the oil supply shocks in negative territory.
+
+The next episode of positive oil supply shocks came only in 2014, when global oil
+
+supply was particularly strong while global oil demand was rather weak. Baumeister and
+
+Hamilton (2019) show that both supply and demand developments played a significant
+
+role in the oil price collapse during 2014-2016. The final major oil supply disruption in
+
+our sample period was caused by the Saudi oil attack in September 2019, as shown by the
+
+large negative spike in the left-hand panel of Figure 4.
+
+The right-hand panel of Figure A.4 plots the relationship between the oil supply shock
+
+and the monthly growth rate of the West Texas Intermediate (WTI) oil price — deflated
+
+15
+
+−4−2024 Asian      crisis         OPEC   supply   cutsVenezuelan crisisand Iraq warGFCArabuprisingsOvercapacitySaudi droneattack1997m12000m12003m12006m12009m12012m12015m12018m1Oil supply shocks−12−9−6−3036912Real WTI oil price growth (%)−3−2−10123Oil supply shocksOil supply shocks and real WTI oil price growth (%) using US CPI.17 The negative correlation displayed in the panel confirms that positive oil
+
+supply shock are associated with lower growth in the real WTI oil price. Quantitatively, a
+
+unitary —approximately one standard deviation— monthly oil supply shock is on average
+
+associated with a 4.4 percentage points decrease in the growth rate of the real price of oil
+
+over the same period.
+
+Last to investigate the link between cost shocks, markups and prices, we rely on
+
+sectoral inflation, defined as the growth rate of the seasonally-adjusted monthly series
+
+of the Producer Price Index (PPI) for the years 1998 to 2019. We do so for all sectors at
+
+the 3-digit NAICS level, which yields us in the end a total of 46 industries after merging
+
+the PPI data with the sectoral markup data. The summary statistics of the annual PPI
+
+growth rate per sector can be found in Table A.1. On average, sectors have a PPI growth
+
+rate of 0.2%. Sectors with significant price fluctuations are ”Petroleum and Coal Products
+
+Manufacturing”, ”Electronics and Applicance Stores” and ”Gasoline Stations”.
+
+17The right-hand panel of Figure A.4 makes use of the binscatter command, with the monthly oil supply
+
+shocks divided into 40 equal-sized bins.
+
+16
+
+4 Markups and the sectoral pass-through of oil shocks
+
+In this section, we estimate the pass-through at the sector-level of oil shocks to PPI inflation,
+
+allowing it to depend on the initial markup in the sector.
+
+4.1 Empirical specification
+
+To test for the possibility that high markups can cushion cost-push shocks, we run a set
+of regressions where the dependent variable is inflation in sector s between t and t + h,
+denoted ps,t+h − ps,t, in what follows. On the right-hand side, we use as explanatory
+
+variables, the oil shock at month t denoted OILt, and a measure of the revenue-weighted
+median markup in sector s, which we lag one year and denote µs,t−1
+
+In addition, to
+
+18.
+
+test for the cushioning hypothesis, we include the interaction between the monthly oil
+shock OILt and the measure of the sectoral markup µst−1 to allow the sensitivity of sectoral
+
+inflation to the oil shock to change with the sectoral markup. Finally, we also include in
+
+our specification lagged PPI inflation as a control variable, with lags going from 1 to 12
+
+months.
+
+To estimate our baseline regression, we follow two alternative approaches. In the first,
+
+we rely on a standard linear interaction term between the oil shock and the sectoral markup
+
+itself. Our second approach creates indicator variables for low, medium and high sectoral
+
+median markups. For example, the dummy variable for the low (high) sectoral markup is
+
+equal to one for sectors whose markup on a given year belongs to the lower (upper) tercile
+of the distribution of sectoral markups on that year. In each of these different specifications,
+we include sector fixed effects θs and run specifications with and without time dummies
+λt. The year-month dummies help us to control for any aggregate developments, such as
+
+overall inflation of GDP growth.
+
+With µs,t−1 denoting the yearly sectoral median markup at time t − 1, the first variant
+
+of the baseline empirical specification with the standard linear interaction term writes as:
+
+18As the markup frequency is annual, t − 1 represents the previous year for sectoral markups and not the
+previous month. To be precise, if an oil shock hits in July 2011, then we take the pre-determined sectoral
+markup of 2010, estimated based on a three-year backward-looking rolling window as described in the 2.2
+Data section.
+
+17
+
+ps,t+h − ps,t =
+
+12(cid:88)
+
+j=0
+
+ρ j,h∆ps,t−j + β
+
+1,hµs,t−1
+
++ β
+
+2,hOILt + β
+
+3,hOILtµs,t−1
+
++ θs,h + λt,h + ϵs,t+h
+
+(7)
+
+In the second specification, we use the interaction term between the oil supply shock
+
+and the indicator variables for the markup terciles. In particular, the variable 1µs,t−1
+t−1)
+represents an indicator that takes the value one when the sectoral markup µst−1 lies between
+the xth and the yth percentiles of the yearly distribution of sectoral markups:
+
+∈(µX
+t−1
+
+,µY
+
+ps,t+h − ps,t =
+
+12(cid:88)
+
+j=0
+
+ρ j,h∆ps,t−j + βlow
+1,h
+
++ βlow
+
+2,h OILt + [βmed
+3,h
+
++ βmed
+
+4,h OILt]1µs,t−1
+
+∈(µ33
+t−1
+
+,µ67
+
+t−1)
+
+(8)
+
++[βhigh
+5,h
+
++ βhigh
+
+6,h OILt]1µs,t−1
+
+∈(µ67
+t−1
+
+,µ100
+t−1)
+
++ θs,h + λt,h + ϵs,t+h
+
+We first run regressions using as a dependent variable one-year ahead PPI inflation,
+i.e. for h = 12. Thereafter, we investigate the full time dynamics, considering PPI inflation
+
+from 1 to 36 months ahead.19
+
+4.2 Estimation results
+
+We first discuss the empirical results based on estimations of regressions (7) and (8) using
+
+the oil supply shock and the median sectoral markup.
+
+Columns (1) and (2) of Table 1 show that positive oil supply shocks are associated with
+
+significant lower PPI inflation at a 12 month horizon, but less so in sectors where the median
+
+markup is higher. To illustrate, we can take a high and a low median markup sector, defined
+
+at the 10th and 90th percentile of our sectoral markup distribution, and with markups of 0.8
+
+and 1.6 respectively. Column (1) shows that for the high-markup sector, the PPI inflation
+
+is reduced by -1 percentage points following a 10 percentage points decrease in real oil
+
+price growth20, and by -2.4 percentage points for the low-markup sector, reflecting a 1.4
+
+19As is clear from specifications (7) and (8), the oil shock variable OILt and the time dummies λt,h are
+perfectly colinear. Hence the oil shock variable OILt matters only insofar as the time dummies are not
+included in the regression.
+
+20In Figure A.4 we show that a one-unit increase in an oil supply shock is on average associated with a
+
+18
+
+percentage points difference. Differences in sectoral markups therefore make a significant
+difference as to how much of the oil shock is passed onto sectoral inflation. This result is
+
+robust to including time dummies (column (2)).
+
+Dependent variable: 1-year PPI inflation
+
+Oil supply shock
+
+Oil supply shock × Sectoral markup
+
+Oil supply shock × Medium sectoral markup
+
+Oil supply shock × High sectoral markup
+
+Observations
+R-squared
+Number of industries
+Industry FE
+Year-month FE
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+-1.630***
+(0.473)
+0.739***
+(0.263)
+
+0.806***
+(0.267)
+
+-1.078***
+(0.298)
+
+0.449*
+(0.242)
+0.524**
+(0.211)
+
+0.458*
+(0.245)
+0.532**
+(0.213)
+
+8,185
+0.073
+46
+Yes
+No
+
+8,185
+0.190
+46
+Yes
+Yes
+
+8,185
+0.076
+46
+Yes
+No
+
+8,185
+0.193
+46
+Yes
+Yes
+
+Table 1: The dampening effect of markups on the pass-through of oil shocks. This table presents estimation
+results from specification (7). The unit of observation is sector s, month t. The dependent variable is ∆PPI 1y
+which is defined as the log change in PPI from t to t + h with h equal to 12. Oil supply shock is an oil supply
+shock in month t. Sectoral markup is the sectoral revenue-weighted median markup the year before the oil
+supply shock. Med and high median sectoral markup denote the dummy variables for the medium and the high
+terciles for sectoral median markups the year before the oil supply shock. The uninteracted Sectoral markup
+and Med and high median sectoral markup terms and the lagged sectoral inflation terms are included in the
+estimation but not reported for brevity. Driscoll-Kraay standard errors are reported in parentheses. ***
+p<0.01, ** p<0.05, * p<0.1.
+
+Similarly, estimation results based on the empirical specification including the tercile
+
+dummies confirm the main result (columns (3) and (4)). Columns (3) and (4) of Table 1 show
+
+that sectoral inflation responds negatively to positive oil supply shocks (first row), but that
+
+the sensitivity of PPI inflation to oil supply shocks is lower when the sectoral markup is
+
+higher, i.e. when it belongs to the higher terciles of the cross-sectoral distribution (third
+
+and fourth row). To give an order of magnitude, the pass-through of oil supply shocks to
+
+1-year ahead PPI inflation is roughly cut by half for sectors whose median markup is in the
+
+third tercile of the cross-sectoral distribution of markups, relative sectors whose median
+
+markup is in the first tercile of the cross-sectoral distribution. The results in column (3)
+
+indicate that when an oil supply shock hits the economy which represents a 10 percentage
+
+4.4 percentage point decrease in the oil price growth. Thus, a 10 percentage points decrease in real oil price,
+translates into an additional positive oil supply shock of roughly 2.27.
+
+19
+
+points cut in real oil price growth, the PPI inflation is reduced by -2.4 percentage points
+
+for sectors whose median markup is in the first tercile of the cross-sectoral distribution
+
+of markups, whereas the PPI inflation is reduced by -1.3 percentage points for sectors in
+the third tercile.21 Column (4) again shows that this effect is robust to the inclusion of
+year-month fixed effects and thus to macro-economic shocks at time t.
+
+Figure 5: High markups reduce the pass-through of oil supply shocks to sectoral inflation. The figure
+shows the oil supply shock pass-through to 1-year ahead sectoral inflation across the sectoral median markup
+distribution. The oil supply shock corresponds to a 1 percentage point decrease in the growth rate of real oil
+prices.
+
+Our regression results from the specification using the linear interaction allow us to
+examine the dampening effect in pass-through for the full sectoral markup distribution.
+
+Using Figure 5, we can gain several additional insights. First, using as a benchmark the
+
+case of a sector whose markup is 1, and using the rule of thumb linking the growth rate of
+
+the real WTI oil price and oil supply shock, an oil supply shock amounting to a 1 percentage
+
+point reduction in the real WTI price of oil typically translates into a -0.2 percentage point
+
+reduction in sectoral inflation one year later, an arguably large pass-through. Since our
+
+median markup is about 1.1, this means that, at the aggregate level, the pass-through from
+
+oil supply shocks to PPI inflation is close to 20%. Second, we learn that in sectors where the
+
+median markup is relatively high, i.e. about 1.9 and above, oil supply shocks do not have
+
+21These magnitudes thus reflect a 1.1 percentage points difference in the effect of a 10 percentage points
+
+decrease in real oil prices for high-markup sectors relative to low-markup sectors.
+
+20
+
+−.3−.2−.10.1Percentage points.911.11.21.31.41.51.61.71.81.922.1Sectoral markupNote: Dashed lines represent 10% confidence bands around mean estimates. The oil supply shockcorresponds to a 1 percentage point decrease in the growth rate of real oil price.1−year response to an oil supply shockSectoral PPI inflationany significant impact on 1-year ahead sectoral inflation, as the estimated pass-through
+
+then shrinks to zero.
+
+4.2.1 How persistent is the impact of oil shocks on PPI inflation?
+
+Up to now, we have focused on the impact of oil shocks on inflation over the subsequent
+12 months. We extend the analysis by examining the effect at different time horizons
+
+within the 12-month period and by going beyond that. Table 2 reports the response of PPI
+
+inflation to oil supply shocks for 3 to 24-months ahead.
+
+Dependent variable: Sectoral PPI Inflation h-months ahead
+
+Time horizon h in months
+
+Oil supply shock
+
+Oil supply shock × Sectoral markup
+
+(1)
+3
+
+(2)
+6
+
+(3)
+12
+
+(4)
+24
+
+(5)
+3
+
+(6)
+6
+
+(7)
+12
+
+(8)
+24
+
+-0.670***
+(0.226)
+0.280**
+(0.141)
+
+-1.137***
+(0.364)
+0.525***
+(0.199)
+
+-1.630***
+(0.473)
+0.739***
+(0.263)
+
+-1.437**
+(0.642)
+0.638*
+(0.372)
+
+0.344**
+(0.154)
+
+0.617***
+(0.221)
+
+0.806***
+(0.267)
+
+0.700**
+(0.339)
+
+Observations
+R-squared
+Number of industries
+Industry FE
+Year-month FE
+
+8,608
+0.066
+46
+Yes
+No
+
+8,467
+0.057
+46
+Yes
+No
+
+8,185
+0.073
+46
+Yes
+No
+
+7,621
+0.116
+46
+Yes
+No
+
+8,608
+0.137
+46
+Yes
+Yes
+
+8,467
+0.156
+46
+Yes
+Yes
+
+8,185
+0.190
+46
+Yes
+Yes
+
+7,621
+0.252
+46
+Yes
+Yes
+
+Table 2: Markups and pass-through dynamics. This table presents estimation results from specification
+(8). The unit of observation is sector s, month t. The dependent variable is ∆PPI t + h which is defined as the
+log change in PPI from t to t + h with h ranging from 3 to 24. Oil supply shock is an oil supply shock in month
+t. Sectoral markup is the revenue-weighted sectoral median markup the year before the oil supply shock. The
+uninteracted Sectoral markup term and the lagged sectoral inflation terms are included in the estimation but
+not reported for brevity. Driscoll-Kraay standard errors are reported in parentheses. *** p<0.01, ** p<0.05, *
+p<0.1.
+
+From columns (1)-(4), we can get two main results. On the one hand, oil supply shocks
+
+have a significant impact on sectoral inflation up to two years ahead. However, as would
+be expected, the magnitude of the effect first gradually increases and then diminishes over
+
+time. On the other hand, sectors where firms charge higher markups typically display
+a lower pass-through of oil shocks to PPI up to two years ahead, the dampening effect
+
+of markups relative to the oil supply shocks being fairly constant over this three-year
+
+horizon. Quantitatively, the results in column (4) imply that for an oil supply shock that
+
+cuts the growth rate of WTI real oil prices by 10 percentage points, the PPI inflation pass-
+
+through 2-years ahead is attenuated by roughly 1.2 percentage points for a high-markup
+
+21
+
+sector relative to a low-markup sector.22 In addition, introducing time effects, and focusing
+on the difference-in-difference effect, columns (5)-(8) show that sectors where firms charge
+
+higher markups typically tend to respond significantly less to oil shocks than sectors where
+
+firms charge lower markups, this being true up to two years ahead.
+
+Figure 6 shows the full time dynamics of the pass-through of oil shocks to PPI inflation
+
+up to 36 months ahead, again considering two sectors, one with a markup at the 90th
+
+percentile of the cross-sectoral distribution of markups and one with a markup at the
+
+10th percentile of the cross-sectoral distribution of markups. In addition, we consider this
+
+time a positive oil supply shock corresponding to a one percentage point decrease in the
+
+real WTI oil price. The left-hand panel shows that the overall pass-through of oil shocks
+
+gradually increases with time and peaks after about 15 months for both high and low-
+
+markup sectors. 15 months is also the horizon over which the pass-through of oil shocks
+to PPI inflation in high- and low-markup sectors are significantly different.23
+
+Figure 6: Markups and tynamics of oil shocks pass-through to sectoral inflation The left-hand panel
+shows the 1-year ahead pass-through of oil supply shocks for high and low-markup sectors defined at the
+90th and 10th percentile. The right-hand panel provides a similar graph but only based on a sub-sample
+of oil dependent industries, including mining, manufacturing and transportation. The oil supply shock
+corresponds to a 1 percentage point decrease in the growth rate of real oil prices.
+
+The right-hand panel in Figure 6 displays the pass-through of oil supply shocks to
+
+PPI inflation, focusing on oil dependent industries, i.e. mining, manufacturing and trans-
+
+22As in the previous section, the high and low-markup sectors are defined at the 90th and 10th percentile
+of the sectoral markup distribution, with a sectoral markup of 1.6 and 0.8 respectively. These definitions are
+used throughout the text, unless stated differently.
+
+23Note that the difference-in-difference is still significant up to 36 months ahead. The shorter horizon over
+which the pass-throughs displayed in Figure 6 are significantly different from each other simply reflects the
+standard error on the coefficient on the oil shock variable.
+
+22
+
+−.4−.20.2Percentage points0122436Monthly horizonHigh sectoral markupLow sectoral markupNote: Inflation response in percentage points. Dashed lines represent 10% confidence bandsaround the mean estimate. The positive oil supply shock corresponds to a 1 percentage pointsdecrease in the growth rate of real oil price.Forward cumulative response to an oil supply shockSectoral output price inflation−.4−.20.2Percentage points0122436Monthly horizonHigh sectoral markupLow sectoral markupNote: Inflation response in percentage points. Dashed lines represent 10% confidence bandsaround the mean estimate. The positive oil supply shock corresponds to a 1 percentage pointsdecrease in the growth rate of real oil price.Forward cumulative response to an oil supply shockSectoral output price inflation of oil dependent industriesportation sectors. Pass-through estimates are qualitatively similar to those displayed in
+
+the left-hand panel which includes all sectors, confirming that sectors with little exposure
+
+to oil shocks play a relatively minor role in our results.
+
+4.2.2 Markups or energy intensity?
+
+Firms from different sectors charge different markups, but firms from different sectors also
+differ in how much they rely on energy as an input. So if firms charging high markups
+happen to be operating in sectors with barely any reliance on energy, the dampening effect
+
+of high markups on the pass-through of oil shocks could simply reflect that sectors relying
+
+less on energy naturally display a lower pass-through of oil shocks. To ensure that high
+sectoral markups, not low energy intensity drive the dampening effect of oil supply shocks
+
+on PPI inflation, we augment our data set with input data from the U.S. Bureau of Economic
+
+Analysis (BEA), which describes the intermediate inputs that are used by industries in their
+
+production of goods and service. We construct the variable Energy intensitys,t by taking an
+
+industry’s energy input as a proportion of the total intermediate inputs that an industry
+
+consumes in a year. Using this variable and the interaction term with the oil supply shock
+
+variable, we revisit specification (8) and run a horse race against the interacted markup
+µs,t−1 and oil supply shock in the specification below:
+
+ps,t+h − ps,t =
+
+12(cid:88)
+
+j=0
+
+ρ j,h∆ps,t−j + β
+
+1,hµs,t−1
+
++ β
+
+2,hOILt + β
+
+3,hEnergy intensitys,t
+
+(9)
+
++β
+
+4,hOILtµs,t−1
+
++ β
+
+5,hOILt Energy intensitys,t + θs,h + λt,h + ϵs,t+h
+
+Table 3 provides estimation results when we allow both markups and energy intensity
+to affect the pass-through of oil supply shocks to PPI inflation. Columns (1) and (2)
+show that the dampening effect of high markups on the pass-through of oil shocks to PPI
+
+inflation is robust to controlling for sectoral energy intensity. Regression results in column
+(1) —based on a specification without time effects— show that energy intensity does not
+
+have any significant impact on the pass-through of oil shocks to PPI inflation. Conversely,
+with time effects —the regression then estimates difference-in-difference effects—, both
+the sectoral markup and the sectoral energy intensity affect significantly the pass-through
+
+23
+
+of oil shocks to PPI inflation (column (2)).
+
+Dependent variable: 1-year ahead PPI inflation XXXXXX XXXXXX XXXXXX XXXXXX
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+Oil supply shock
+
+Oil supply shock × Sectoral markup
+
+Oil supply shock × Sectoral energy intensity
+
+Oil supply shock × Sectoral energy intensity
+× Sectoral markup
+
+Observations
+R-squared
+Number of industries
+Industry FE
+Year-month FE
+
+-1.333***
+(0.482)
+0.583**
+(0.270)
+-0.013
+(0.009)
+
+0.660**
+(0.269)
+-0.014*
+(0.008)
+
+8,185
+0.079
+46
+Yes
+No
+
+8,185
+0.191
+46
+Yes
+Yes
+
+-0.946*
+(0.536)
+0.222
+(0.333)
+-0.085**
+(0.040)
+0.071**
+(0.033)
+
+8,185
+0.080
+46
+Yes
+No
+
+0.423
+(0.331)
+-0.062*
+(0.034)
+0.046*
+(0.027)
+
+8,185
+0.191
+46
+Yes
+Yes
+
+Table 3: Markups vs. energy intensity as drivers of oil shocks pass-through. This table presents estimation
+results from the adjusted specification (8). The unit of observation is sector s, month t. The dependent variable
+is ∆PPI 1y which is defined as the log change in PPI from t to t + h with h equal to 12. Oil supply shock is
+an oil supply shock in month t. Sectoral markup is the sectoral revenue-weighted median markup the year
+before the oil supply shock. Energy intensity is the sectoral energy input divided by the total inputs in
+the year of the oil supply shock and is expressed as a percentage. The uninteracted Sectoral markup and
+Energy intensity term, as well as the various interactions and the lagged sectoral inflation terms are included
+in the estimation but not reported for brevity. Driscoll-Kraay standard errors are reported in parentheses.
+*** p<0.01, ** p<0.05, * p<0.1.
+
+The magnitudes of the coefficients on the interaction terms between oil shocks on the
+
+one hand and the sectoral median markup and the sectoral energy intensity are comparable
+
+across the two specifications but are opposite in sign. Using the results of column (1), an
+
+oil supply shock that cuts the growth rate of WTI real oil prices by 10 percentage points
+
+dampens the PPI inflation pass-through in a high-markup sector by roughly 1.1 percentage
+
+points relative to a low-markup sector.2425 Conversely, columns (1) and (2) shows that the
+
+same shock hitting a high energy intensity sector would increase the PPI inflation pass-
+
+through by 0.5 percentage points relative to a sector whose energy intensity is low.
+
+In Columns (3) and (4) we go one step further and introduce a triple interaction term
+
+to Specification (9), interacting the oil supply shock with the sectoral energy input and the
+
+sectoral median markup. The augmented specification writes as follows:
+
+24As for high and low-markup sectors, we define a high (low) energy intensive sector as a sector whose
+energy intensity is at the 90% (10%) percentile of the cross-sectoral distribution of energy intensity. The
+energy intensity of a high (low) energy intensive sector is equal to 17.7% (1.2%).
+
+25The differential effect has a standard error of 0.49 and is significant at the 5% level.
+
+24
+
+ps,t+h − ps,t =
+
+12(cid:88)
+
+j=0
+
+ρj,h∆ps,t−j + β
+
+1,hµs,t−1
+
++ β
+
+2,hOILt + β
+
+3,hEnergy intensitys,t
+
+(10)
+
++ β
+
+4,hµs,t−1 Energy intensitys,t + β
+
+5,hOILtµs,t−1
+
++ β
+
+6,hOILt Energy intensitys,t
+
++ β
+
+7,hOILt µs,t−1 Energy intensitys,t + θs,h + λt,h + ϵs,t+h
+
+The results support our previous findings:
+
+for a given oil supply shock, a higher
+
+sectoral energy intensity increases the pass-through to sectoral PPI inflation, but less so
+when the sectoral markup is higher. Put differently, high markups mitigate the impact
+
+of oil supply shocks, especially in energy intensive sectors. Quantitatively, using our
+
+results from column (3), it means that when you consider an oil supply shock that cuts
+
+the growth rate of WTI real oil prices by 10 percentage points, PPI inflation is cut by
+
+2.9 percentage points for a high energy intensity, low-markup sector. In contrast, a high
+
+energy intensity, high-markup sector experiences a cut of only 0.2 percentage points, which
+
+is even statistically indistinguishable from zero. This further confirms our findings that
+
+markups mitigate the pass-through of real WTI oil price reductions and that our results
+
+are driven by the high energy intensive sectors.
+
+4.3 The pass-through of positive and negative oil supply shocks
+
+Thus far, we have shown that the pass-through of oil shocks to PPI inflation tends to be
+
+smaller in sectors where firms charge higher markups. The question that naturally follows
+
+is whether high markups uniformly reduce the pass-through of oil shocks or whether
+they affect the pass-through of positive or negative oil shocks differently? To test for the
+possibility that markups have asymmetric effects on the pass-through of oil shocks, we
+split oil shocks into positive and negative, and allow markups to affect their respective
+pass-through differently. Denoting OILp positive (dis inflationary) oil supply shocks, and
+OILn, negative (inflationary) supply shocks, the extended empirical specification writes
+
+as:
+
+25
+
+ps,t+h − ps,t =
+
+12(cid:88)
+
+j=0
+
+ρ j,h∆ps,t−j 

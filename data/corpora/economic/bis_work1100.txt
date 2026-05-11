@@ -1,0 +1,1353 @@
+BIS Working Papers 
+No 1100 
+
+Getting up from the floor  
+
+by Claudio Borio 
+
+Monetary and Economic Department 
+
+May 2023 
+
+JEL classification: E42, E43, E52, E58. 
+
+Keywords:  monetary  policy  operating  procedures, 
+central  bank  balance  sheets,  abundant  vs  scarce 
+reserves systems. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BIS  Working  Papers  are  written  by  members  of  the  Monetary  and  Economic 
+Department of the Bank for International Settlements, and from time to time by other 
+economists,  and  are  published  by  the  Bank.  The  papers  are  on  subjects  of  topical 
+interest and are technical in character. The views expressed in them are those of their 
+authors and not necessarily the views of the BIS. 
+
+This publication is available on the BIS website (www.bis.org). 
+
+©  Bank for International Settlements 2023. All rights reserved. Brief excerpts may be 
+
+reproduced or translated provided the source is stated. 
+
+ISSN 1020-0959 (print) 
+ISSN 1682-7678 (online) 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Getting up from the floor1  
+
+Claudio Borio 
+Head of the BIS Monetary and Economic Department 
+
+Abstract 
+
+Since  the  Great  Financial  Crisis,  a  growing  number  of  central  banks  have  adopted 
+abundant reserves systems (“floors”) to set the interest rate. However, there are good 
+grounds  to  return  to  scarce  reserve  systems  (“corridors”).  First,  the  costs  of  floor 
+systems  take  considerable  time  to  appear,  are  likely  to  grow  and  tend  to  be  less 
+visible. They can be attributed to independent features of the environment which, in 
+fact, are to a significant extent a consequence of the systems themselves. Second, for 
+much the same reasons, there is a risk of grossly overestimating the implementation 
+difficulties of corridor systems, in particular the instability of the demand for reserves. 
+Third, there is no need to wait for the central bank balance sheet to shrink before 
+moving in that direction: for a given size, the central bank can adjust the composition 
+of its  liabilities.  Ultimately, the  design of  the  implementation system should  follow 
+from a strategic view of the central bank’s balance sheet. A useful guiding principle is 
+that its size should be as small as possible, and its composition as riskless as possible, 
+in a way that is compatible with the central bank fulfilling its mandate effectively. 
+
+Keywords:  monetary  policy  operating  procedures,  central  bank  balance  sheets, 
+abundant vs scarce reserves systems. 
+
+JEL codes: E42, E43, E52, E58. 
+
+1  
+
+This  paper  was  published  as  SUERF  Policy  Note,  no  311.  It  is  an  extended  version  of  the  keynote 
+speech  delivered  at  the  workshop  “Beyond  unconventional  policy:  Implications  for  central  banks’ 
+operational frameworks“,  hosted  by  the Netherlands Bank  in Amsterdam on 10  March 2023. I am 
+very grateful to Aerdt Houben for inviting me to give that speech. I would also like to thank Morten 
+Bech, Ulrich Bindseil, Stijn Claessens, Piti Disyatat, Robert McCauley, Bill Nelson, Francesco Papadia, 
+Andreas  Schrimpf,  Masaaki  Shirakawa  and  Nikola  Tarashev  as  well  as  workshop  participants  for 
+comments and very valuable discussions. The views expressed are my own and not necessarily those 
+of the BIS. 
+
+1
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Introduction 
+
+The Great Financial Crisis (GFC) has been a watershed for the way in which central 
+banks set the short-term interest rate on a day-to-day basis. The crisis has literally 
+upended  these  operating  procedures.  Is  the  change  desirable  or  should  it  be 
+reversed? 
+
+The  question  may  appear  inconsequential,  at  least  at  first  sight.  After  all,  why 
+should it make a big difference? All that matters, it could be argued, is at what level 
+the rate is set, not how it is set. Indeed, while things have changed somewhat in recent 
+years,  a  keen  interest  in  operating  procedures  remains  generally  limited  to  central 
+bankers and the market participants most directly concerned, particularly those active 
+in money markets. 
+
+This  limited  interest,  while  understandable,  is  regrettable.  For  operating 
+procedures shed light on the great power that central banks wield, as well as on the 
+source of that power and on its limits (Borio (1997)). Moreover, they also have broader 
+implications for the functioning of money and even capital markets, for how monetary 
+policy spreads its influence through the financial system, for central bank emergency 
+interventions at times of financial stress and for the optimal size and structure of the 
+central bank’s balance sheet. 
+
+Against this backdrop, this paper assesses the post-GFC sea-change in operating 
+procedures. It does so from the perspective of someone who has studied them in the 
+past and sees current developments with a mix of surprise and some discomfort. My 
+hope is that the analysis will make it clear that the discomfort is not just a matter of 
+unjustified nostalgia. 
+
+More specifically, the paper examines the relative merits of abundant reserves 
+systems (ARS) and scarce reserves systems (SRS) in implementing interest rate policy. 
+This  is  what  has  typically  been  referred  to,  somewhat  inaccurately,  as  the  relative 
+merits of floor versus corridor systems. That said, the analysis will also address more 
+briefly the bigger and closely related debate over the size and composition of the 
+central bank’s balance sheet.  
+
+The key takeaway is that it is worth giving serious thought to returning to SRS – 
+
+“getting up from the floor”, as it were.  
+
+The  first  section  summarises  the  post-GFC  sea-change.  The  second  explains  it 
+might be desirable to reverse course. The third considers the broader question of the 
+central bank’s balance sheet. The conclusion summarises the key messages. 
+
+The sea-change 
+
+The  common  features  of  pre-GFC  operating  procedures  were  very  clear.  The 
+overriding objective was to make the policy stance effective while at the same time 
+
+2 
+
+ 
+ 
+ 
+leaving  a  minimal  imprint  on  the  financial  system.  This  gave  rise  to  three,  tightly 
+related, characteristics.2 
+
+First, there was a single operating target at the very short end of the curve, almost 
+invariably an overnight rate.3 This rate, in effect, captured the overall monetary policy 
+stance – in technical terms, it was a sufficient statistic for that stance.  
+
+Second,  the  “decoupling  principle”  ruled.  Signalling  did  the  heavy  lifting  in 
+steering  the  overnight  target.  Through  signals,  the  central  bank  would  tell  banks 
+where  it  wanted  the  overnight  rate  to  be.4  In  the  meantime,  light-touch  liquidity 
+management  operations  worked  only  in  the  background.  They  would  keep  the 
+market  for  bank  reserves  in  balance  and  ensured  that  the  demand  for  settlement 
+balances “did not get in the way”.5 Importantly, the operations were designed not to 
+disturb  market  prices.6  The  rest  of  market  rates  then  aligned  seamlessly  with  the 
+overnight rate and expectations thereof. Of course, the central bank could pull off this 
+magic signalling “trick” – often little appreciated by non-specialists – because of its 
+monopoly over the supply of banks’ settlement balances and its ability to set features 
+of the demand for them, such as the terms on reserve requirements (eg averaging 
+and remuneration).  
+
+Third, SRS were the rule and ARS very much the exception. An SRS system is here 
+defined as one that ensures that the overnight rate is above the interest rate on bank 
+reserves (possibly zero); and an ARS as one where that interest rate (or zero) is the 
+binding  “floor”  for  the  overnight  rate  –  typically  implemented  through  a  deposit 
+facility.7 More precisely,  in an SRS, the  factor  determining  the  overnight rate  is  the 
+demand  for  reserves  for  settlement  purposes  (“settlement  balances”),  possibly 
+constrained by reserve requirements with averaging provisions. By contrast, in an ARS 
+reserves exceed that amount. The handful of central banks that had an ARS – in fact, 
+
+2  
+
+3  
+
+4  
+
+5  
+
+6  
+
+7  
+
+For a detailed and systematic comparison of operating procedures at the time, see Borio (1997) and 
+(2001). The procedures did not change significantly until the GFC, when adjustments started to be 
+made (Borio and Nelson (2008)). Ho (2008) compares operating procedures in selected countries in 
+Asia.  For  a  short  overview  of  current  systems,  see  Cap  et  al  (2020)  and  the  Markets  Committee 
+Compendium on the BIS website: www.bis.org/mc/compendium.htm.    
+
+The  Swiss  National  Bank  was  an  exception,  as  it  targeted  three-month  Libor,  given  the  structural 
+features of the money market. 
+
+The critical importance of signalling in practical implementation is lost in standard formal models of 
+operating  procedures,  where  control  of  the  overnight  rate  is  portrayed  as  a  vertical  supply  curve 
+hitting a smooth and well behaved downwards-sloping demand curve. Compare, for instance, Borio 
+(1997) and Borio and Disyatat (2010), Bindseil (2004) and Woodford (2000) with Bech and Monnet 
+(2013).  In  the  latter  class  of  models,  which  have  become  increasingly  standard,  signalling  has  not 
+much of a role to play and liquidity management operations do the bulk of the work. Borio (1997) 
+also includes a detailed discussion of the role of averaging provisions and their link with signalling. 
+See also Friedman and Kuttner (2010).   
+
+This essentially meant offsetting the impact of autonomous factors on the supply of reserves and 
+possibly  smoothing  out  the  demand  for  settlement  balances  themselves,  through  eg  reserve 
+requirements with averaging provisions. 
+
+This definition of the “decoupling principle” is not used to refer to the possibility of adjusting the 
+amount of reserves and the policy rate/operating target independently, which is a property of a floor 
+system.  
+
+This does not mean, though, that the overnight rate will necessarily be at the floor. In particular, it 
+may be below – floors may “leak” (see below). Many central banks had no deposit facility in the past, 
+with the Federal Reserve pre-GFC being a case in point. 
+
+3
+
+ 
+ 
+ 
+ 
+ 
+only  two  (New  Zealand  and  Norway),  at  least  among  advanced  economies  –  did 
+satiate the demand for settlement balances, but only marginally.  
+
+To be sure, beneath these similarities, differences abounded – think of them as 
+“a  hundred  ways  to  skin  a  cat”  (Borio  (2001)).  But,  looking  back,  the  similarities 
+prevailed. And those differences made hardly any difference. 
+
+Operating procedures were simple and tidy.  
+
+Fast-forward to today and the sea-change is obvious, at least in several AEs. In 
+
+many respects, the current features are the mirror image of the pre-GFC ones.  
+
+First,  central  banks  can  no  longer  capture  the  policy  stance  with  a  single 
+(overnight) operating target. Because of their large-scale asset purchases and special 
+lending schemes, they have extended their direct influence well beyond the overnight 
+segment. 
+
+Second, gone is the decoupling principle. Liquidity management operations are 
+an  integral  part  of  the  policy  stance.  And  when  central  banks  tried  to  rescue  the 
+principle  as  they  started,  or  considered  starting,  to  unwind  their  balance  sheets,  it 
+proved  very  hard.  Recall  how  shrinking  the  balance  sheet  was  supposed  to  be  “as 
+boring as seeing paint dry”. Well, it has not been.  
+
+Third, many central banks have adopted ARS. In several cases reserves are much 
+larger  than  any  conceivable  liquidity  needs.  As  a  result,  they  are  no  longer  just  a 
+payments  or  settlement  medium  but  also  a  store  of  value,  competing  with  other 
+assets in terms of remuneration. 
+
+We know the reason for the shift: the huge and unsterilised increase in central 
+bank balance sheets, which was designed to ease further the policy stance at the zero, 
+or effective, lower bound or to address financial stress. Large scale asset purchases – 
+often  termed,  too  loosely, quantitative  easing  (QE) – have accounted  for  the  lion’s 
+share of the increase.8 As a result, central bank balance sheets have reached levels 
+previously seen only in wartime.9 
+
+The sea-change has gone hand in hand with another remarkable development – 
+widespread  market segmentation. Gone  is  the  seamless  alignment  of  market  rates 
+with the (uncollateralised) overnight rate: some arbitrage relationships in overnight 
+and term money market segments have seemingly broken down.10  
+
+In some cases, though, the main counterpart was increases in foreign exchange reserves – large-scale 
+purchases in foreign currency-denominated assets – which are another form of balance sheet policy 
+(Borio  and  Disyatat  (2010)).  This  is  more  common  in  emerging  market  economies  (EMEs);  among 
+advanced economies, the Swiss National Bank is an example. 
+
+For those countries that had adopted ARS pre-GFC, the motivations were different. In the case of 
+Norway, it was the impact of huge and unpredictable autonomous factors, in the form of government 
+balances with the central bank. In that of New Zealand, the reasons were more “philosophical”, ie 
+following Friedman’s principle that if producing money is costless, then its opportunity cost should 
+be zero. See also Goodfriend (2002) for an advocate of this implementation approach.  
+
+See  eg  Duffie  and  Krishnamurthy  (2016)  on  how  dispersion  across  money  market  rates  due  to 
+segmentation hampers the pass-through efficiency of policy rate changes. See Borio et al (2016) and 
+Rime et al (2022) on how the frictions in money markets spill over to FX swap markets and contribute 
+to violations in covered interest parity (CIP). 
+
+8  
+
+9  
+
+10  
+
+4 
+
+ 
+ 
+ 
+ 
+Examples  abound.  Market  rates  may  languish  below  the  deposit  facility  rate  – 
+“floors may leak”. Collateralised rates may hover well below uncollateralised ones, by 
+an amount that exceeds any possible difference in credit risk – a symptom of collateral 
+scarcity. And some spreads that used to be stable may now be more volatile.  
+
+Continue or reverse course? 
+
+Where do we (or should we) go from here? In talking to central banks, the impression 
+is that they are becoming used to ARS. ARS have become a kind of “New Normal”, 
+linked to larger central bank balance sheets. 
+
+There are essentially four arguments for retaining ARSs. 
+
+Argument one: the floor system does its job. The central bank does manage to 
+control the overnight rate with the desired degree of precision, in both good and bad 
+times.11  To  be sure,  the  degree  of  control  may  not  be  perfect.  But the  rate  hovers 
+roughly where the central bank would like to see it and its volatility is generally low 
+and acceptable. Simply put, if it ain’t broken, why fix it. 
+
+Argument two: in the New Normal, it would be hard to implement an SRS. This 
+is because the demand for reserves has become less predictable. Sometimes, there 
+may be tensions and spikes in the overnight and other closely related market rates, 
+such as the repo rate. The money market ructions in September 201912 are the most 
+notorious example: they showed that, despite very large reserves, there was no excess 
+after  all. As  a  result,  central  banks  have  been  cautiously testing the  waters  as  they 
+unwind their balance sheets.   
+
+Various  reasons  have  been  put  forward  to  explain  this  unpredictability  in  the 
+demand  for  reserves.  Central  banks  have  broadened  the  set  of  counterparties, 
+including central clearing counterparties (CCPs).13 There is greater segmentation in 
+the  (secured  and  unsecured)  interbank  market  and  probably  beyond.  Importantly, 
+new prudential liquidity requirements are now in place: settlement balances, possibly 
+constrained by reserve requirements, are no longer the only factor determining the 
+need for deposits with the central bank. It is as if these deposits now have to obey 
+two masters: the monetary authority and the prudential authority.    
+
+Argument  three:  abundant  reserves  have  the  additional  benefit  of  supporting 
+financial  stability.  Regardless  of  prudential  requirements,  they  provide  banks  with 
+ample liquidity buffers. Moreover, if one believes that there is a scarcity of safe assets, 
+then bank reserves are an additional source of supply.14 
+
+11  
+
+12  
+
+13  
+
+14  
+
+In general, the desired degree of precision and acceptable deviations can vary, depending on the 
+specifics of the system and broader aspects of the financial system. For a discussion, see Borio (1997) 
+and (2001). 
+
+For  a  more  detailed  analysis  of  this  episode,  see  eg  Avalos  et  al  (2019),  Afonso  et  al  (2021)  and 
+Copeland et al (2022). 
+
+See, for example, the case of the United Kingdom (Hauser (2019)).  
+
+For an elaboration of this view, see Greenwood et al (2016).  
+
+5
+
+ 
+ 
+ 
+ 
+ 
+Argument four: regardless of the relative merits of the system, the question of 
+which system to adopt is rather premature. No reason to think about changing, at 
+least now. In some jurisdictions, it will take a long time to reduce central bank balance 
+sheets. 
+
+No doubt, these arguments have merit. But they are not that compelling. Take 
+
+each in turn. 
+
+Argument  one:  the  system  has  indeed  “worked”  in  sense  that  it  has  yielded 
+
+control over the overnight rate. That said, it has not come without costs.  
+
+Directly or indirectly, these costs reflect a key factor: reserves have also become 
+a  store  of  value.  In  the  process,  the  central  bank  has  switched  off  the  signalling 
+mechanism of control: now it is liquidity management operations that do all the heavy 
+lifting. Moreover, the central bank has taken over much of the intermediation in the 
+overnight  interbank  market.  As  a  result,  many  of  the  unwelcome  features  of  the 
+financial landscape that we may be tempted to treat as exogenous may well be, to a 
+significant extent, endogenous, ie the consequence of the ARS system itself. 
+
+Three types of cost are worth highlighting. 
+
+One  is  that  the  ARS  kills  the  overnight  interbank  market  (Graph  1).  And  the 
+damage  can  easily  extend  beyond  the  overnight  tenor:  if  banks  expect  to  have 
+sufficient liquidity also in the future, it is not obvious why they should trade with each 
+other for funding purposes beyond the overnight segment either.15,16 The damage is 
+long-lasting.17  If  you  don’t  use  a  muscle,  it  atrophies.  Desks  are  dismantled. 
+Institutional memory withers. In the meantime, not just the total amount of reserves, 
+but their distribution begins to matter.  
+
+The  consequences  are  material.  For  one,  this  raises  the  likelihood  of  tensions 
+when  reserves  need  to  circulate  freely, as  we  saw  in  the US markets  in September 
+2019. As a result, it will require the central bank to increase its injections of liquidity 
+to calm markets at times of stress, ultimately magnifying moral hazard.18 In addition, 
+there is a risk of a ratchet effect: the longer the ARS stays in place, the greater the 
+demand for reserves can become.19 Variants of such concerns have led the Central 
+
+15  
+
+16  
+
+Potter (2016), for instance, argues that the function of the overnight segment is simply to redistribute 
+reserves linked to arbitrary payment patterns. As such, it does not perform a useful economic function 
+and, on top, it absorbs capital by increasing the size of banks’ balance sheets as they borrow and 
+lend to each other.      
+
+Killing the overnight market has also raised challenges for the shift to new benchmark rates following 
+the  Libor  scandal,  as  these  rates  require  active  trading  (Schrimpf  and  Sushko  (2019)).  One  more 
+specific implication is the pressure to have a benchmark rate determined in a market in which non-
+banks also participate. This, in turn, may indirectly be one reason for extending access to the central 
+bank balance sheet to them. See also below.     
+
+17   On this, see also the report by the Markets Committee (2019).  
+
+In  this  context,  Selgin  (2019),  for  instance,  stresses  the  importance  of  interbank  monitoring  as  a 
+disciplining  factor;  Furfine  (2001)  provides  evidence  based  on  the  (uncollateralised)  overnight 
+segment. See also Cœuré (2013). 
+
+See, for instance, Nelson (2022) and, for a reference to this possibility, Åberg et al (2021). In a similar 
+vein, Acharya et al (2022) argue that large excess reserves induce banks to create commitments on 
+them: the supply of liquidity generates its own demand. 
+
+18  
+
+19  
+
+6 
+
+ 
+ 
+ 
+ 
+Graph 1
+
+EUR bn 
+
+200
+
+160
+
+120
+
+80
+
+40
+
+0
+
+Bank of Norway and the Swiss National Bank to take half a step back and adopt tiered 
+floor systems and absorb reserves.20    
+
+Excess liquidity and the decline in interbank money market activity 
+
+Federal Reserve 
+USD bn 
+
+  Eurosystem 
+
+USD bn  
+
+EUR bn 
+
+3,400
+
+2,550
+
+1,700
+
+850
+
+0
+
+Lhs:
+
+Rhs:
+
+340
+
+255
+
+170
+
+4,000
+
+3,200
+
+2,400
+
+1,600
+
+85
+
+800
+
+0
+
+0
+
+03
+
+05
+
+07
+
+09
+
+11
+
+13
+
+15
+
+17
+
+19
+
+21
+
+23
+
+03
+
+05
+
+07
+
+09
+
+11
+
+13
+
+15
+
+17
+
+19
+
+21
+
+23
+
+Excess reserves
+
+Unsecured interbank volume (EFFR)
+
+Lhs:
+
+Rhs:
+
+Excess reserves
+
+Unsecured interbank volume (EONIA)
+Secured volume for funding purposes (GC pooling)
+
+The vertical line in the left-hand panel indicates the start of reserve remuneration by the Federal Reserve, which marked the switch to a floor
+system. The market for the effective federal funds rate includes participants that are not eligible to receive interest on reserves. The vertical 
+line in the right-hand panel corresponds to when EONIA converged to the deposit facility rate, when excess reserves rose as a result of the
+Eurosystem’s Public Sector Purchase Programme (PSPP).  
+
+Sources: Board of Governors of the Federal Reserve System; Bloomberg; BIS. 
+
+A  second,  closely  related,  cost  is  the  distortions  that  the  ARS  system  can 
+introduce in markets. It can contribute to collateral scarcity: after all, only banks can 
+use reserves. Collateral scarcity has been an issue in the euro area.21 Moreover, it can 
+contribute to price anomalies, such as leaking floors. As the overnight rate hits the 
+floor, the impact of segmentation due to institution-specific features increases. Given 
+no or little trading among banks, new players become the marginal ones, de facto 
+setting the interest rate. Think, for instance, of those institutions in the United States 
+that have access to central bank deposits but are not eligible for interest on them.  
+
+But the issue is more general. Once reserves become a store of value, they 
+can trigger pervasive, possibly unpredictable waves across relative yields in the 
+financial system. The reason is that the amount exogenously set by the central 
+bank must be willingly held at the exogenously set interest rate.22 As the excess 
+increases, to the extent that banks find reserves costly – eg because they crowd 
+
+20  
+
+21  
+
+22  
+
+In these systems, reserves are remunerated only up to a pre-determined amount and the central bank 
+keeps the supply of reserves close to that point. This induces a certain amount of interbank trading, 
+whenever some banks are beyond the threshold and others below it. On Norway, see Central Bank 
+of Norway (2021); on Switzerland, see Maechler and Moser (2022).   
+
+For a discussion of these issues, see eg Arrata et al (2020), Schaffner et al (2019). 
+
+Indeed, these are precisely the types of effect discussed in Tobin and Brainard (1969), where an open 
+market operation exchanges a government debt for a zero-yielding monetary base.    
+
+7
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+out more profitable investments, such as by consuming capital – attempts to get 
+rid of them will put downward pressure on other yields. 
+
+Depending on country-specific features, the downward pressure could reach 
+uncomfortable levels, possibly to the point of calling for further adjustments to 
+the framework. This is especially the case at times when banks are reluctant to 
+grow their balance sheet – its “price” is high. Non-banks would look for alternative 
+investment  opportunities,  most  likely  pushing  down  the  rates  on  the  closest 
+substitutes, such as reverse repo rates.23 In addition to the critical role of more 
+structural  factors,24  this  may  help  explain  the  sharp  downward  spikes  on  repo 
+rates in the euro area at quarter ends and the utilisation of the new reverse repo 
+facility in the United States – a kind of safety valve.25   
+
+One can look at it another way. In an SRS, where the demand for reserves is 
+purely for settlement purposes, and signalling does the heavy lifting, the impact 
+of the implementation framework is limited to the corresponding overnight rate. 
+The decoupling principle reigns. In an ARS, the impact cannot be contained in the 
+same way. Paraphrasing Jeremy Stein, excess liquidity gets in all the cracks (Stein 
+(2013)).  
+
+A third type of cost is of a more political economy nature. It is the perception 
+that the central bank “subsidises” banks.26 The central bank can then become an 
+easy target for criticism, as is already the case, especially if banks are reluctant to 
+offer more attractive rates to depositors. After all, why should they if they have 
+plenty of liquidity, so that they are less pressed for funds, and if their capital, and 
+hence lending capacity, is absorbed by an unwanted item on their balance sheet? 
+This  subsidy  question  is  part  of  a  broader  concern  with  central  bank  financial 
+results. 
+
+Argument two: it is hard to imagine that, because of instability in the demand 
+for  reserves,  an  SRS  would  be  more  difficult  to  operate  than  in  the  past  –  or, 
+perhaps one should say, not as easy. The overwhelming majority of central banks 
+around the world are still operating such a system and without difficulties. This is 
+so  even  when  they  have  large  balance  sheets,  mainly  reflecting  holdings  of 
+foreign exchange reserves, as in many EMEs. And, of course, they are operating 
+the  systems  following  the  implementation  of  the  new  Basel  III  prudential 
+requirements. Some of the concerns may simply reflect the loss of institutional 
+
+23   On this, see also Markets Committee (2019). 
+
+24   A  pervasive  structural  factor  has  been  changes  in  prudential  regulation  and  supervision, 
+internationally and domestically. For a detailed analysis of the US experience, see eg Potter (2017), 
+who also explains the rationale for the introduction of the facility in those terms. For a cross-country 
+perspective, see CGFS (2015).  
+
+25   A reverse repo facility, if unlimited, would also have broader implications for financial stability, as it 
+makes  it  easier  for  runs  on  banks  to  take  place  at  times  of  stress.  The  risk  can  be  mitigated  by 
+including some caps. See eg the discussion in Greenwood et al (2016), although there it is couched 
+in terms of the choice between commercial paper and RRPs.  
+
+26   De Grauwe and Yi (2023), for instance, stress this point. Tucker (2022) provides a systematic analysis 
+
+of the link between monetary policy operating procedures and public finances.  
+
+8 
+
+ 
+ 
+ 
+ 
+memory  within  central  banks.  One  can  hear  echoes  of  the  so-called  “fear  of 
+floating” regarding exchange rates (Calvo and Reinhart (2002)). 
+
+Why should operating an SRS not be so complicated? Because, arguably, the 
+instability in the demand for bank reserves is to an important extent endogenous 
+to  the  ARS  itself.  The  previous  analysis  already  identified  two  specific  reasons: 
+obstacles to the smooth redistribution of reserves and the risk of a ratchet effect. 
+But there is a more general one: the store of value function makes the demand 
+for  reserves  sensitive  to  relative  returns,  not  least  those  of  other  short-term 
+instruments such as government debt and repos.  
+
+As  an  illustration,  consider  the  case  of  Basel  III’s  Liquidity  Coverage  Ratio 
+(LCR).  In  the  ratio,  government  paper  and  reserves  are  perfect  substitutes  for 
+regulatory  purposes:  banks  can  fulfil  the  requirement  with  either,  without 
+constraints. As a result, the demand for reserves becomes very sensitive to the 
+spread. This would not be the case in an SRS, in which the central bank would 
+steer  market  overnight  rates  to  be  well  above  the  deposit  facility  rate.  The 
+opportunity  cost  of  holding  reserves  would  be  too  high  and  the  demand  for 
+settlement  balances  would  again  be  the  only  relevant  factor  in  driving  their 
+demand at the margin.27 Given the more attractive pricing, banks would fulfil the 
+requirement as far as possible with government securities. In effect, we would be 
+back in the pre-GFC world.28 
+
+Put  differently,  the  sources  of  uncertainty  in  implementing  an  ARS  and  an 
+SRS differ. In an SRS, it is uncertainty about the demand for settlement balances. 
+Because  that  demand  is  not  interest-elastic,  effort  is  expended  to  forecast 
+autonomous  factors  and  make  them  more  predictable,  and  to  put  in  place 
+mechanisms  that  can  limit  the  volatility  of  the  overnight  rate  (eg  reserve 
+requirements with averaging provisions). In an ARS, the uncertainty relates largely 
+to the demand for reserves as a store of value and hence its impact on the overall 
+constellation of relative yields. But, in addition, the uncertainty about settlement 
+needs  is  not  eliminated  and  lurks  in  the  background.  It  can  appear  with  a 
+
+27  
+
+28  
+
+To be clear: banks will not be fully indifferent between the two, since settlement balances are superior 
+to short-term paper for liquidity purposes, not least owing to settlement lags and possibly valuation 
+effects, at least if one considers longer-dated securities (Schnabel (2023). The point is that they would 
+not have an incentive to minimise those holdings. See also Filardo (2020). The substantive point is 
+that the additional demand, which will depend on potential cash outflows, will not be interest-elastic. 
+See  Bech  and  Keister  (2012)  for  a  model  that  incorporates  these  additional  considerations  in  a 
+standard analytical framework. 
+
+The  term  “settlement  balances”  here  includes  also  any  precautionary  balances  held  for  prudential 
+regulatory purposes. Some supervisors may still prefer that banks retain a minimum of reserves, as 
+seems to be the case, for instance, in the United States. If so, and if the amounts held for reserve 
+requirements (with averaging provisions) did not qualify, there could still be a supervisory-induced 
+demand for reserves. That said, this demand would be interest-inelastic, and central banks should be 
+able to estimate it rather easily, including by simply asking. 
+
+9
+
+ 
+ 
+ 
+ 
+ 
+vengeance as the central bank seeks to withdraw the excess or tensions in the 
+financial system arise. In turn, this can magnify those tensions.29 
+
+Argument three: it is far from obvious that a glut of bank reserves is good for 
+financial  stability.  After  all,  short-term  government  paper  and  reserves  are 
+reasonably  good,  although  by  no  means  perfect,  substitutes,  for  liquidity 
+purposes.30 Accordingly, even those who believe that a shortage of safe assets 
+has been a key reason for financial instability would argue that it would be better 
+for the central bank to issue its own paper or do reverse repos: the instruments 
+could  be  made  available  to  all.31  In  addition,  as  noted  above,  the  atrophy  of 
+monitoring  and  trading  muscles  may  actually  require  the  central  bank  to 
+intervene  more,  rather  than  less,  intensely  at  times  of  stress.32  And  more 
+generally, historically, it has not been a lack of liquidity, but capital erosion, that 
+has lurked at the core of banking crises.33         
+
+Argument four: it is not necessary to wait for the central bank balance sheet 
+to  shrink  before  moving  towards  an  SRS.  There  is  no  one-to-one  mapping 
+between the size of the central bank’s balance sheet and the composition of its 
+liabilities. Just look at those EME central banks with huge FX reserves. In fact, size 
+and composition can be largely decoupled. There are many tools to shrink the 
+reserves for a given balance sheet size, such as through central bank paper or 
+time deposits, reverse repos or FX swaps. Each has its pros and cons, depending 
+on  the  institutional  context.  But  some  of  them  have  an  additional  merit:  they 
+increase the supply of collateral – the “new money” in today’s collateral-based 
+financial system.   
+
+Of course, while the absorption of reserves may be gradual to start with, at 
+some point the shift to an SRS will have to take place overnight, in a kind of big 
+bang. The two systems do not lie along a continuum: the demand for reserves is 
+not a smoothly downwards-sloping one, given the nature of settlement balances. 
+You either target the overnight rate by signalling (SRS) or you satiate the banks 
+with liquidity (ARS). There is no middle ground.  
+
+29  
+
+30  
+
+31  
+
+32  
+
+These  points  are  relevant  when  considering  the  argument  that  an  SRS  is  operationally  more 
+burdensome, with reference to the need to forecast autonomous factors and carry out fine-tuning 
+operations (eg Potter (2017), Schnabel (2023)). This argument is less compelling to the extent that 
+the  broader,  general  equilibrium  complications  and  side  effects  of  an  ARS  materialise  and  are 
+considered. 
+
+See Lopez-Salido and Vissing Jorgensen (2023) for a specific perspective on the demand for reserves 
+that accounts for a convenience yield of reserves due to banks’ liquidity preferences. See also Afonso, 
+Giannone,  La  Spada  and  Williams  (2022)  for  an  econometric  estimation  of  the  demand  for  bank 
+reserves that allows for time variation in the relationship. 
+
+For  an  in-depth  discussion  of  these  issues  and  a  proposal,  see  Greenwood  et  al  (2016).  In  fact,  if 
+additional  reserves  are  produced  by  buying  a  short-term  security,  given  that  reserves  are  only 
+available to banks, from this specific perspective, the operation would not be helpful. 
+
+That said, one effect of ARS is to avoid the need for the central bank to lend – expand its balance 
+sheet  intra-day  –  to  oil  the  financial  system,  especially  given  the  tendency  to  throttle  and  delay 
+payments. This reduces operational risk. See Bech et al (2019) and Afonso, Duffie, Rigon and Shin 
+(2022). 
+
+33  
+
+For a review of some of these issues, see eg Borio (2011). 
+
+10 
+
+ 
+ 
+ 
+ 
+How could a smooth transition back to an SRS system be engineered? The 
+central  bank  would  need  to  put  in  place  safeguards  to  avoid  spikes  and 
+undesirable volatility in the overnight rate. It could announce in advance the day 
+and time of the shift. It could then set relatively tight bands around the target 
+overnight rate through standing facilities (eg, a repo and reverse repo one) and 
+absorb  the  excess  reserves.  Over  time,  the  bands  could  then  be  widened,  as 
+familiarity  grows  with  the  features  of the  demand for  settlement  balances  and 
+with the system.34 
+
+The central bank balance sheet 
+
+Let’s  now  widen  the  focus  and  consider  a  bigger  issue  –  the  central  bank  balance 
+sheet.  
+
+One concern is that the wish to keep an ARS ends up dictating the size of the 
+central  bank’s  balance  sheet.  The  argument  could  go  as  follows.  The  ARS  system 
+requires  the  monetary  authority  to  satiate  the  demand  for  bank  reserves.  At  the 
+standing  deposit  facility  rate,  that  demand  could  be  large  and  unpredictable.  As  a 
+result, the balance sheet must have a minimum size that is considerably larger than 
+in the past.  
+
+This, however, would be the tail wagging the dog. The operating system should 
+be  the  outcome  of  a  strategic  view  regarding  the  balance  sheet’s  size  and 
+composition. And that view should include risk management as a key consideration. 
+
+Size and composition should be derived from broad principles. A useful starting 
+point is that the balance sheet should be as small as possible, and its composition as 
+riskless as possible, but no more. “No more” here means that the central bank should 
+be able to perform its mandate effectively. In other words, the central bank should 
+aim for a “lean” balance sheet.35  
+
+Country-specific  differences  aside,  three  functions  are  part  of  a  central  bank’s 
+core  mandate  –  functions  that  will  constrain  the  balance  sheet  size  and  dictate  its 
+composition:  underpinning  the  payments  system;  implementing  monetary  policy, 
+including aspects linked to the exchange rate (making the stance operational); and 
+crisis management, including acting as lender or market-maker of last resort. Except 
+perhaps for foreign exchange reserve considerations, none requires a large balance 
+sheet in normal conditions. 
+
+There are three benefits of having a lean balance sheet.  
+
+34   Another possible intermediate step that might provide further comfort would be to shift temporarily 
+to a tiered system. That said, given the facilities that set the boundaries to the corridor, this is not 
+necessary. Importantly, high-frequency volatility in the overnight rate need not be an issue as long 
+as the central bank’s signal concerning the desired interest rate is effective, as banks and other market 
+participants  would  tend  to  see  through  it.  Central  banks  have  displayed  very  different  degrees  of 
+tolerance for this volatility; see Borio (1997) for a more detailed discussion of these issues.   
+
+35  
+
+For a similar view, see Bindseil (2016). 
+
+11
+
+ 
+ 
+ 
+ 
+ 
+One is to limit the central bank’s footprint in the financial system and economy 
+at large. This would reduce its involvement in resource allocation and also the risk of 
+inhibiting  market  functioning.36  A  small  footprint  would  support  a  smoothly 
+functioning economy while at the same time reducing the risk of political economy 
+pressures, especially those that can easily arise if the central bank gets too involved 
+in resource allocation.    
+
+A second, closely related, benefit is to limit the side effects of the link with the 
+
+government’s balance sheet.  
+
+Some of these side effects are of an economic nature. The key one is the impact 
+on the fiscal position through central bank remittances. Large-scale asset purchases 
+financed with bank reserves greatly heighten the sensitivity of the fiscal position to 
+higher interest rates. From the perspective of the consolidated state sector balance 
+sheet – government plus central bank – they amount to a large debt management 
+operation. Long-term government debt is retired and replaced with debt indexed to 
+the overnight rate, ie bank reserves. Back-of-the-envelope calculations suggest that, 
+for the central banks that have used such purchases more actively, some 30–50% of 
+long-term  debt  is,  de  facto,  overnight.37  This  will  show  up  as  lower  central  bank 
+remittances to the government and hence lower government revenues. And central 
+bank  losses  will  not  just  mean  a  weaker  fiscal  position,  but  they  could  also  raise 
+reputational and institutional challenges for central banks.  
+
+Other  side  effects  are  of  a  political  economy  one.38  While  central  banks’ 
+performance  should  be  judged  exclusively  on  how  effectively  they  fulfil  their 
+mandates and not on their financial results, there is a strong temptation to focus on 
+those results (Carstens (2023)). Especially when they make losses, central banks can 
+come  under  heavy  criticism,  with  risks  to  their  reputation,  independence  and, 
+ultimately,  legitimacy.  A  small  and  risk-proofed  balance  sheet  mitigates  those 
+concerns and increases the central bank’s room for policy manoeuvre. Such a balance 
+sheet is what avoids blurring the line between monetary and fiscal policy – a form of 
+institutional hygiene.  
+
+In this context, there may be a risk of underestimating the side effect of a step 
+as apparently innocuous as paying interest on bank (excess) reserves, which opens 
+the door to an ARS. Doing so raises the political incentive to take advantage of the 
+newly found “captive” investor base, thereby potentially relaxing the government’s 
+financing constraint. Banks represent a form of “captive” demand because they must 
+accept the amount of reserves the central bank injects into the system through its 
+open market operations. With any other instrument that drains reserves, the pricing 
+has  to  be  sufficiently  attractive  for  market  participants to  be willing to  lend to  the 
+central bank in the first place, which raises the funding cost and difficulties involved 
+
+To  be  sure,  spurring  market  development  –  an  important  consideration  is  some  cases  –  can 
+encourage size up to a point. But its main impact is on the composition of the balance sheet. Spurring 
+market development is a common consideration in many EMEs. For a historical example involving 
+the Federal Reserve and  the market for letters of credit  to encourage the  role of the  US  dollar in 
+trade, see Eichengreen and Flandreau (2010).   
+
+See Borio and Disyatat (2021) for a discussion of this point in the broader context of the relationship 
+between monetary and fiscal policies.  
+
+For a recent elaboration on this issue, see Bell et al (2023). 
+
+36  
+
+37  
+
+38  
+
+12 
+
+ 
+ 
+ 
+ 
+(eg  failed  auctions  etc).39  All  this  puts  a  premium  on  institutional  safeguards  that 
+protect central bank independence.        
+
+A third, often underestimated, benefit of a lean balance sheet is that it maximises 
+the central bank’s ability to expand it when the need does arise. Given the costs of 
+large and risky balance sheets, the initial size is a hindrance, not an advantage. The 
+balance sheet must be elastic, not large. 
+
+Conclusion 
+
+This paper has argued that there are good reasons to return to an SRS.  
+
+There is a risk of underestimating the costs of ARS or floor systems. The costs 
+take a considerable time to appear, are likely to grow and tend to be less visible. They 
+can  be  attributed  to  exogenous  features  of  the  environment  when,  in  fact,  those 
+features are to a significant extent endogenous – a consequence of the system itself. 
+
+There is equally a risk of grossly overestimating the implementation difficulties 
+of  an  SRS.  That  perception,  too,  depends  to  a  considerable  extent  on  some 
+problematic features of the environment that would disappear once an SRS is put in 
+place – the instability in the demand for reserves being the key one. Not surprisingly, 
+the  overwhelming  majority  of  central  banks  around  the  world  are  operating  such 
+systems, even those with large balance sheets.   
+
+There  is  no  need  to  wait  for  the  central  bank  balance  sheet  to  shrink  before 
+moving in that direction. For a given size, the central bank can adjust the composition 
+of its liabilities. 
+
+Ultimately,  the  design  of  monetary  policy  operating  procedures  should  follow 
+from a strategic view of the right size and composition of the central bank’s balance 
+sheet. The principle proposed here is that the size should be as small as possible, and 
+its  composition  as  riskless  as  possible,  but  no  more.  “No  more”  here  means 
+“consistent with the central bank fulfilling its mandate effectively”. This would limit 
+the economic and political economy costs of large and risky balance sheets and, by 
+so doing, also maximise the balance sheet’s capacity to expand at times of need. That 
+is, it would maximise the balance sheet’s elasticity, which is key. 
+
+To be sure, the analysis has deliberately highlighted a specific perspective and 
+glossed over qualifications and country-specific factors. These will of course influence 
+the final cost/benefit analysis. But while there may be “a hundred ways to skin a cat”, 
+some of those ways may be better than others.  
+
+39   On this, see also Plosser (2018) and Selgin (2019).  
+
+13
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+References 
+
+Åberg,  P,  M  Corsi,  V  Grossmann-Wirth,  T  Hudepohl,  Y  Mudde,  T  Rosolin  and  F 
+Schobert  (2021):  “Demand  for  central  bank  reserves  and  monetary  policy 
+implementation  frameworks:  the  case  of  the  Eurosystem”,  ECB  Occasional  Paper 
+Series, no 282, September. 
+
+Acharya,  V,  R  Chauhan,  R  Rajan  and  S  Steffen  (2022):  “Liquidity  dependence:  why 
+shrinking central bank balance sheets is an uphill task”, proceedings of the Jackson 
+Hole  Economic  Symposium  of  the  Federal  Reserve  Bank  of  Kansas  City  on 
+“Reassessing Constraints on the Economy and Policy”, August.  
+
+Afonso, G, M Cipriani, A Copeland, A Kovner, G La Spada, G and A Martin (2021): “The 
+market  events  of  mid-September  2019,  Federal  Reserve  Bank  of  New  York,  Staff 
+Reports, no 918. 
+
+Afonso, G, D Duffie, L Rigon and H S Shin (2022): “How abundant are reserves? 
+Evidence  from  the  wholesale  payment  system”,  BIS  Working  Papers,  no  1053, 
+December. 
+
+Afonso, G, D Giannone, G La Spada and J Williams (2022): “Scarce, abundant, or 
+ample? A time-varying model of the reserve demand curve”, Federal Reserve Bank 
+of New York, Staff Reports, no 1019. 
+
+Arrata, W, B Nguyen, I Rahmouni-Rousseau and M Vari (2020): “The scarcity effect 
+of  QE  on  repo  rates:  evidence  from  the  euro  area”,  Journal  of  Financial 
+Economics, vol 137, no 3, pp 837–56. 
+
+Avalos, F, T Ehlers and E Egemen (2019): “September stress in dollar repo markets: 
+passing or structural?”, BIS Quarterly Review, December. 
+
+Bech, M and T Keister (2012): “On the liquidity coverage ratio and monetary policy 
+implementation”, BIS Quarterly Review, December, pp 49–61.  
+
+Bech, M, A Martin and J McAndrews (2019): “Settlement liquidity and monetary 
+policy implementation – Lessons from the financial crisis”, Federal Reserve Bank 
+of New York, Economic Policy Review, pp 1–25.  
+
+Bech, M and C Monnet (2013): “The impact of unconventional monetary policy 
+on the overnight interbank market”, in A Heath, M Lilley and M Manning (eds), 
+Liquidity and funding markets, proceedings of the 2013 Reserve Bank of Australia 
+Conference. 
+
+Bell, S, M Chui, T Gomes, P Moser-Boehm and A Tejada (2023): “Why are central 
+banks reporting losses? Does it matter?”, BIS Bulletin, no 68, February. 
+
+Bindseil, U (2004): Monetary policy implementation, Oxford University Press. 
+
+——— (2016): ”Evaluating monetary policy operational frameworks”, proceedings 
+of the Jackson Hole Economic Symposium of the Federal Reserve Bank of Kansas 
+City on “Designing resilient monetary policy frameworks for the future”, August. 
+
+Borio, C (1997): “The implementation of monetary policy in industrial countries: a 
+survey”, BIS Economic Papers, no 47, July. 
+
+14 
+
+ 
+ 
+ 
+———  (2001):  “A  hundred  ways  to  skin  a  cat:  comparing  monetary  policy 
+operating procedures in the United States, Japan and the euro area”, BIS Papers, 
+no 9, December, pp 1–22. 
+
+———  (2011):  “Rediscovering  the  macroeconomic  roots  of  financial  stability 
+policy:  journey,  challenges  and  a  way  forward”,  Annual  Review  of  Financial 
+Economics, vol 3, December, pp 87–117. Also available as BIS Working Papers, no 
+355, October. 
+
+Borio, C and P Disyatat (2010): “Unconventional monetary policies: an appraisal”, 
+The Manchester School, vol 78, s1. Also available as BIS Working Papers, no 292, 
+November 2009. 
+
+——— (2021): “Monetary and fiscal policies: In search of a corridor of stability”, 
+VoxEU, 10 November. 
+
+Borio, C and B Nelson (2008): “Monetary operations and the financial turmoil”; 
+BIS Quarterly Review, March, pp 31-46.  
+
+Borio, C, R McCauley, P McGuire and V Sushko (2016): “Covered interest parity 
+lost: understanding the cross-currency basis”, BIS Quarterly Review, September, 
+pp 45-64.   
+
+Calvo,  G  and  C  Reinhart  (2002):  “Fear  of  floating”,  The  Quarterly  Journal  of 
+Economics, vol 117, no 2, pp 379–408. 
+
+Cap,  A,  M  Drehmann  and  A  Schrimpf  (2020):  “Changes  in  monetary  policy 
+operating procedures over the last decade: insights from a new database”, BIS 
+Quarterly Review, December, pp 27–39. 
+
+Carstens, A (2023): “Central banks are not here to make profits”, op-ed, Financial 
+Times, 7 February. 
+
+Central  Bank  of  Norway  (2021):  “Norges  Bank’s  liquidity  policy:  principles  and 
+design”, Norges Bank Papers, no 21. 
+
+Cœuré,  B  (2013):  “Where  to  exit  to?  Monetary  policy  implementation  after  the 
+crisis”,  speech  at  the  15th  Geneva  Conference  on  the  World  Economy:  “Exit 
+strategies: time to think about them”, Geneva, 3 May. 
+
+Committee of the Global Financial System (CGFS) (2015): “Regulatory change and 
+monetary policy”, CGFS Papers, no 54, May.  
+
+Copeland, A, J Duffie and Y Yang (2022): “Reserves were not so ample after all”, 
+Stanford University Graduate School of Business Research Papers, no 4185217.  
+
+De Grauwe, P and Y Ji (2023): “Monetary policies with fewer subsidies for banks: 
+A two-tier system of minimum reserve requirements”, VoxEU, 23 March. 
+
+Duffie, D and A Krishnamurthy (2016): “Pass-through efficiency in the Fed’s new 
+monetary policy setting”, proceedings of the Jackson Hole Economic Symposium 
+of  the  Federal  Reserve  Bank  of  Kansas  City  on  “Designing  resilient  monetary 
+policy frameworks for the future”, September. 
+
+Du, W (2022): “Bank balance sheet constraints at the center of liquidity problems”, 
+remarks at the Jackson Hole Economic Symposium of the Federal Reserve Bank 
+
+15
+
+ 
+ 
+ 
+ 
+of Kansas City on “Designing resilient monetary policy frameworks for the future”, 
+August.  
+
+Eichengreen,  B  and  M  Flandreau  (2010):  “The  Federal  Reserve,  the  Bank  of 
+England  and  the  rise  of  the  dollar  as  an  international  currency,  1914–39”,  BIS 
+Working Papers, no 328.  
+
+Filardo, A (2020): “Monetary policy operating frameworks: are reforms heading in 
+the right direction?”, Cato Journal, vol 40, no 2, Spring/Summer, pp 385–407.  
+
+Friedman, B and K Kuttner (2010): “How do central banks set interest rates?”, in B 
+Friedman  and  M  Woodford  (eds),  Handbook  of  Monetary  Economics,  vol  3, 
+Elsevier, pp 1345–438. 
+
+Furfine, C (2001) “Banks as monitors of other banks: evidence from the overnight 
+federal funds market”, Journal of Business, vol 74, no 1, pp 33–5. 
+
+Goodfriend,  M  (2002):  ““Interest  on  reserves  and  monetary  policy”,  Federal 
+Reserve Bank of New York, Economic Policy Review, May, pp 1–8.  
+
+Greenwood, R, S Hanson and J Stein (2016): “The Federal Reserve’s balance sheet 
+and financial stability”, proceedings of the Jackson Hole Economic Symposium of 
+the Federal Reserve Bank of Kansas City on “Designing resilient monetary policy 
+frameworks for the future”, August. 
+
+Hauser, A (2019): “Waiting for the exit: QT and the Bank of England’s long-term 
+balance  sheet”,  speech  at  the  European  Bank  for  Reconstruction  and 
+Development, London, 17 July. 
+
+Ho, C (2008): “Implementing monetary policy in the 2000s: operating procedures 
+in Asia and beyond”, BIS Working Papers, no 253. 
+
+Lopez-Salido, D and A Vissing-Jorgensen (2023): “Reserve demand, interest rate 
+control, and quantitative tightening”, working paper available on SSRN. 
+
+Maechler, A and T Moser (2022): “Return to positive interest rates: why reserve 
+tiering?”, Money Market Event, 17 November.  
+
+Markets  Committee  (2019):  Large  central  bank  balance  sheets  and  market 
+functioning,  report  prepared  by  a  study  group chaired  by  Lorie Logan  (Federal 
+Reserve Bank of New York) and Ulrich Bindseil (European Central Bank) October. 
+
+Nelson, B (2022): “The Fed is stuck on the floor: here’s how it can get up”, Bank 
+Policy Institute, 11 January. 
+
+Potter, S (2016): Discussion of U Bindseil “Evaluating monetary policy operational 
+frameworks”,  proceedings  of  the  Jackson  Hole  Economic  Symposium  of  the 
+Federal  Reserve  Bank  of  Kansas  City  on  “Designing  resilient  monetary  policy 
+frameworks for the future”, August. 
+
+——— (2017): “Money markets at a crossroads: policy implementation at a time 
+of structural change”, remarks at the Master of Applied Economics Distinguished 
+Speaker Series, University of California, Los Angeles, Federal Reserve Bank of New 
+York. 
+
+16 
+
+ 
+ 
+ 
+Plosser, C (2018): “The risks of a Fed balance sheet unconstrained by monetary 
+policy”, in M Bordo, J Cochrane and A Seru (eds), The Structural Foundations of 
+Monetary Policy, Stanford: Hoover Institution Press, pp 1–10. 
+
+Rime, D, A Schrimpf and O Syrstad (2022): “Covered interest parity arbitrage”, The 
+Review of Financial Studies, vol 35, no 11, November. 
+
+Selgin, G (2019): “The Fed’s new operating framework: how we got here and why 
+we shouldn’t stay”, Cato Journal vol 39, no 2, pp 317–26. 
+
+Schaffner, P, A Ranaldo and K Tsatsaronis (2019): “Euro repo market functioning: 
+collateral is king”, BIS Quarterly Review, December. 
+
+Schnabel, I (2023): “Back to normal? Balance sheet size and interest rate control”, 
+speech at an event organised by Columbia University and SGH Macro Advisor, 
+New York, 27 March. 
+
+Schrimpf, A and V Sushko (2019): “Beyond Libor: a primer on the new reference 
+rates”, BIS Quarterly Review, March, pp 29–52. 
+
+Stein, J (2013): “Overheating in credit markets: origins, measurement, and policy 
+responses”,  speech  at  the  research  symposium  Restoring  household  financial 
+stability after the Great Recession: why household balance sheets matter, Federal 
+Reserve Bank of St Louis.  
+
+Tobin,  J  and  W  Brainard  (1969):  “Pitfalls  in  financial  model  building”,  American 
+Economic Review, vol 58, May, pp 99–122.  
+
+Tucker, P (2022): “Quantitative easing, monetary policy implementation and the 
+public finances”, IFS Report, no R223. 
+
+Woodford, M (2000): “Monetary policy in a world without money”, International 
+Finance, vol 3, pp 229–60. 
+
+17
+
+ 
+ 
+ 
+ 
+Previous volumes in this series 
+
+1099 
+May 2023 
+
+1098 
+May 2023 
+
+1097 
+May 2023 
+
+Who holds sovereign debt and why it matters  Xiang Fang, Bryan Hardy and Karen 
+
+K Lewis 
+
+Long term debt propagation and real 
+reversals 
+
+Mathias Drehmann, Mikael Juselius 
+and Anton Korinek 
+
+Dampening global financial shocks: can 
+macroprudential regulation help (more than 
+capital controls)? 
+
+Katharina Bergant, Francesco 
+Grigoli, Niels-Jakob Hansen and 
+Damiano Sandri 
+
+1096 
+May 2023 
+
+Money Market Funds and the Pricing of 
+Near-Money Assets 
+
+Sebastian Doerr, Egemen Eren and 
+Semyon Malamud 
+
+1095 
+April 2023 
+
+Sectoral shocks, reallocation, and labor 
+market policies 
+
+Joaquín García-Cabo, Anna Lipińska 
+and Gastón Navarro 
+
+1094 
+April 2023 
+
+The foreign exchange market 
+
+Alain Chaboud, Dagfinn Rime and 
+Vladyslav Sushko 
+
+1093 
+April 2023 
+
+Sovereign risk and bank lending: evidence 
+from the 1999 Turkish earthquake 
+
+1092 
+April 2023 
+
+Mobile Payments and Interoperability: 
+insights from the academic literature 
+
+Yusuf Soner Baṣkaya, Bryan Hardy, 
+Ṣebnem Kalemli-Özcan and Vivian 
+Yue 
+
+Milo Bianchi, Matthieu Bouvard, 
+Renato Gomes, Andrew Rhodes 
+and Vatsala Shreeti 
+
+1091 
+April 2023 
+
+FinTech, investor sophistication and financial 
+portfolio choices 
+
+Leonardo Gambacorta, Romina 
+Gambacorta and Roxana Mihet 
+
+1090 
+April 2023 
+
+Tackling the fiscal policy-financial stability 
+nexus 
+
+Claudio Borio, Marc Farag and 
+Fabrizio Zampolli 
+
+1089 
+April 2023 
+
+Intraday liquidity around the world 
+
+Biliana Alexandrova Kabadjova, 
+Anton Badev, Saulo Benchimol 
+Bastos, Evangelos Benos, Freddy 
+Cepeda-Lopéz, James Chapman, 
+Martin Diehl, Ioana Duca-Radu, 
+Rodney Garratt, Ronald Heijmans, 
+Anneke Kosse, Antoine Martin, 
+Thomas Nellen, Thomas Nilsson, Jan 
+Paulick, Andrei Pustelnikov, 
+Francisco Rivadeneyra, Mario Rubem 
+do Coutto Bastos and Sara Testi 
+
+1088 
+April 2023 
+
+Big techs and the credit channel of  
+monetary policy 
+
+Fiorella De Fiore, Leonardo 
+Gambacorta and Cristina Manea 
+
+All volumes are available on our website www.bis.org. 
+
+ 
+ 
+ 
+

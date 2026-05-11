@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+.venv/
+venv/
+env/
+
+# SLURM job artifacts
+logs/unity_*.log
+logs/unity_*.err
+
+# Big binary predictions (regeneratable via experiments/run_kan.py)
+results/kan_predictions/*.pkl
+
+# Local cache
+.pytest_cache/
+.mypy_cache/
+.DS_Store

@@ -1,0 +1,4 @@
+TITLE: Olorofim in combination with azole antifungals: results from the Phase 2 salvage therapy study.
+
+ABSTRACT:
+Olorofim is an antifungal agent with a novel mechanism of action against Aspergillus spp., rare moulds and dimorphic fungi. Preclinical studies reported unidirectional antagonism between olorofim and mould-active azoles (e.g. azoles other than fluconazole) against Aspergillus fumigatus in which the azole reduces the antifungal effect of olorofim.

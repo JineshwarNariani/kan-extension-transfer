@@ -1,0 +1,94 @@
+
+PMID- 41943475
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260407
+LR  - 20260409
+IS  - 2051-817X (Electronic)
+IS  - 2051-817X (Linking)
+VI  - 14
+IP  - 7
+DP  - 2026 Apr
+TI  - Association between cardiac autonomic control and blood pressure response to 
+      resistance training in adults with pharmacologically treated hypertension.
+PG  - e70863
+LID - 10.14814/phy2.70863 [doi]
+LID - e70863
+AB  - This study aimed to assess the acute cardiac autonomic responses to high and low 
+      intensity resistance training and their association with post exercise 
+      hypotension in adults with pharmacologically treated hypertension. This 
+      randomized clinical trial included 31 participants with pharmacologically treated 
+      hypertension. The effects of two resistance training sessions performed at high 
+      intensity (80% of 1RM) and low intensity (40% of 1RM), matched for total training 
+      volume, were compared. Blood pressure and heart rate variability were measured 
+      before and after exercise. Significance level was set at 5%. No significant 
+      interaction was observed for any of the variables (p > 0.05). Both intensities 
+      produced significant reductions in blood pressure and in cardiac parasympathetic 
+      indices. During the high intensity session, DeltaV1% heart rate variability index was 
+      positively correlated with blood pressure reductions. During the low intensity 
+      session, low frequency was negatively correlated with blood pressure. In 
+      conclusion, both high and low intensity RT elicited acute hypotensive effects, 
+      with a more pronounced cardiac autonomic response characterized by greater vagal 
+      withdrawal observed for the low intensity training protocol. Furthermore, changes 
+      in indices related to cardiac sympathetic modulation and greater decreases in 
+      cardiac parasympathetic modulation were associated with a greater post exercise 
+      hypotensive response.
+CI  - (c) 2026 The Author(s). Physiological Reports published by Wiley Periodicals LLC on 
+      behalf of The Physiological Society and the American Physiological Society.
+FAU - Benavides-Roca, Luis A
+AU  - Benavides-Roca LA
+AD  - School of Sports Sciences and Physical Activity, Faculty of Health, Universidad 
+      Santo Tomas, Talca, Chile.
+AD  - Faculty of Education, Universidad Autonoma de Chile, Talca, Chile.
+FAU - Parra, German
+AU  - Parra G
+AD  - Department of Physiology, Universidad de Valencia, Valencia, Spain.
+FAU - Zamuner, Antonio R
+AU  - Zamuner AR
+AD  - Laboratory of Clinical Research in Kinesiology, Department of Kinesiology and 
+      Centro de Investigacion en Neuropsicologia y Neurociencias Cognitivas (CINPSI 
+      Neurocog), Universidad Catolica del Maule, Talca, Chile.
+LA  - eng
+GR  - CIA250016 (CPS-RTC)/Agencia Nacional de Investigacion y Desarrollo (ANID)/
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+PL  - United States
+TA  - Physiol Rep
+JT  - Physiological reports
+JID - 101607800
+RN  - 0 (Antihypertensive Agents)
+SB  - IM
+MH  - Humans
+MH  - Male
+MH  - Female
+MH  - *Blood Pressure/physiology
+MH  - *Resistance Training/methods/adverse effects
+MH  - *Hypertension/physiopathology/therapy/drug therapy
+MH  - Heart Rate/physiology
+MH  - Middle Aged
+MH  - *Autonomic Nervous System/physiopathology/physiology
+MH  - Adult
+MH  - *Heart/innervation
+MH  - Antihypertensive Agents/therapeutic use
+PMC - PMC13053935
+OTO - NOTNLM
+OT  - blood pressure
+OT  - cardiovascular system
+OT  - hypertension
+OT  - resistance exercise
+COIS- The authors have no conflict of interest to declare.
+EDAT- 2026/04/07 06:31
+MHDA- 2026/04/07 06:32
+PMCR- 2026/04/06
+CRDT- 2026/04/07 01:53
+PHST- 2026/03/26 00:00 [revised]
+PHST- 2026/02/13 00:00 [received]
+PHST- 2026/03/26 00:00 [accepted]
+PHST- 2026/04/07 06:32 [medline]
+PHST- 2026/04/07 06:31 [pubmed]
+PHST- 2026/04/07 01:53 [entrez]
+PHST- 2026/04/06 00:00 [pmc-release]
+AID - PHY270863 [pii]
+AID - 10.14814/phy2.70863 [doi]
+PST - ppublish
+SO  - Physiol Rep. 2026 Apr;14(7):e70863. doi: 10.14814/phy2.70863.

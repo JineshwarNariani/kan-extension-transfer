@@ -1,0 +1,130 @@
+
+PMID- 41387645
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20251213
+LR  - 20260123
+IS  - 1433-7339 (Electronic)
+IS  - 0941-4355 (Print)
+IS  - 0941-4355 (Linking)
+VI  - 34
+IP  - 1
+DP  - 2025 Dec 12
+TI  - Impact of enteral Ecoimmunonutrition on immunological response, nutritional 
+      status and tolerance to treatment in gastrointestinal malignancy patients 
+      receiving chemotherapy.
+PG  - 29
+LID - 10.1007/s00520-025-10257-7 [doi]
+LID - 29
+AB  - PURPOSE: Gastrointestinal (GI) malignancies are major contributors to global 
+      cancer-related mortality, with many patients experiencing severe nutritional 
+      decline and immune suppression due to chemotherapy. Enteral immunonutrition 
+      (EIN), which includes immune-modulating nutrients, has shown promise in improving 
+      nutrition, reducing chemotherapy-related side effects, and enhancing immune 
+      function, but its role in advanced GI cancer patients undergoing chemotherapy is 
+      not well-studied. METHODS: This randomized, controlled study involved 28 patients 
+      with advanced GI malignancies, assigned to either standard nutrition or EIN for 
+      42 days. Key measures included nutritional status, immune markers, quality of 
+      life (QoL), and chemotherapy-related toxicities. The study also used a 
+      preclinical mouse model to evaluate EIN's impact on tumor growth and intestinal 
+      health during chemotherapy. RESULTS: Patients in the EIN group demonstrated 
+      significantly improved serum albumin levels on day 28 (P = 0.03) and a higher 
+      CD4 + /CD8 + T-cell ratio on day 42 (P < 0.01) compared to controls. EIN 
+      supplementation significantly mitigated chemotherapy-induced fatigue and improved 
+      QoL scores on days 28 and 42 (P < 0.05). Repeated measures analysis revealed a 
+      substantial reduction in pro-inflammatory cytokines (IL-1, IL-6) and an increase 
+      in the anti-inflammatory cytokine IL-10 in the EIN group (P < 0.05). Preclinical 
+      findings showed that EIN significantly reduced tumor volume (P < 0.05) and 
+      preserved the integrity of the intestinal mucosal barrier, evidenced by higher 
+      ZO-1 and Occludin expression (P < 0.05). CONCLUSION: These findings suggest that 
+      EIN during chemotherapy enhances nutritional and immune status, reduces 
+      inflammation, and improves QoL, warranting further large-scale trials to confirm 
+      its benefits in cancer care. TRIAL REGISTRATION: This trial was registered on the 
+      Chinese Clinical Trial Register (ChiCTR2400084224) on 13-05-2024.
+CI  - (c) 2025. The Author(s).
+FAU - Zhi, Jie
+AU  - Zhi J
+AD  - Department of Oncology, Hebei General Hospital, Shijiazhuang, 050051, Hebei 
+      Province, China.
+FAU - Wang, Bin
+AU  - Wang B
+AD  - Department of Oncology, Hebei General Hospital, Shijiazhuang, 050051, Hebei 
+      Province, China.
+FAU - Zhao, Wujie
+AU  - Zhao W
+AD  - Department of Oncology, Hebei General Hospital, Shijiazhuang, 050051, Hebei 
+      Province, China.
+FAU - He, Hongyu
+AU  - He H
+AD  - Department of Oncology, North China University of Science and Technology 
+      Affiliated Hospital, Tangshan, 063000, Hebei Province, China.
+FAU - Cheng, Gang
+AU  - Cheng G
+AD  - Department of Oncology, Hebei General Hospital, Shijiazhuang, 050051, Hebei 
+      Province, China.
+FAU - Zhang, Xiaowei
+AU  - Zhang X
+AD  - Department of Nutrition, Hebei General Hospital, Shijiazhuang, 050051, Hebei 
+      Province, China.
+FAU - Feng, Bo
+AU  - Feng B
+AD  - Department of Oncology, Hebei General Hospital, Shijiazhuang, 050051, Hebei 
+      Province, China.
+FAU - Jia, Yitao
+AU  - Jia Y
+AD  - Department of Oncology, Hebei General Hospital, Shijiazhuang, 050051, Hebei 
+      Province, China. jiayitao202408@163.com.
+LA  - eng
+GR  - 20200009/Health Commission of Hebei Province/
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+DEP - 20251212
+PL  - Germany
+TA  - Support Care Cancer
+JT  - Supportive care in cancer : official journal of the Multinational Association of 
+      Supportive Care in Cancer
+JID - 9302957
+RN  - 0 (Antineoplastic Agents)
+RN  - 0 (Serum Albumin)
+SB  - IM
+MH  - Adult
+MH  - Aged
+MH  - Animals
+MH  - Female
+MH  - Humans
+MH  - Male
+MH  - Mice
+MH  - Middle Aged
+MH  - *Antineoplastic Agents/adverse effects/therapeutic use
+MH  - *Enteral Nutrition/methods
+MH  - *Gastrointestinal Neoplasms/immunology/drug therapy/therapy
+MH  - *Nutritional Status/immunology
+MH  - Quality of Life
+MH  - Serum Albumin
+PMC - PMC12701029
+OTO - NOTNLM
+OT  - Chemotherapy
+OT  - Enteral immunonutrition
+OT  - Gastrointestinal malignancies
+OT  - Immune modulation
+OT  - Quality of life
+COIS- Declarations. Ethics approval: This study was performed in line with the 
+      principles of the Declaration of Helsinki. Approval was granted by the Ethics 
+      Committee of Hebei General Hospital (NO. 2019/181). Consent to participate: 
+      Informed consent was obtained from all individual participants included in the 
+      study. Competing interest: The authors declare no competing interests.
+EDAT- 2025/12/13 00:32
+MHDA- 2025/12/13 06:29
+PMCR- 2025/12/12
+CRDT- 2025/12/12 23:26
+PHST- 2024/10/25 00:00 [received]
+PHST- 2025/12/08 00:00 [accepted]
+PHST- 2025/12/13 06:29 [medline]
+PHST- 2025/12/13 00:32 [pubmed]
+PHST- 2025/12/12 23:26 [entrez]
+PHST- 2025/12/12 00:00 [pmc-release]
+AID - 10.1007/s00520-025-10257-7 [pii]
+AID - 10257 [pii]
+AID - 10.1007/s00520-025-10257-7 [doi]
+PST - epublish
+SO  - Support Care Cancer. 2025 Dec 12;34(1):29. doi: 10.1007/s00520-025-10257-7.

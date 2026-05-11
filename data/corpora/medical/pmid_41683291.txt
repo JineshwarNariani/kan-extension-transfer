@@ -1,0 +1,112 @@
+
+PMID- 41683291
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260213
+LR  - 20260216
+IS  - 2072-6643 (Electronic)
+IS  - 2072-6643 (Linking)
+VI  - 18
+IP  - 3
+DP  - 2026 Jan 31
+TI  - The Impact of a Fat-Dominant Preload Before a Carbohydrate-Rich Meal on Glucose 
+      Homeostasis in Patients Without Diabetes After Sleeve Gastrectomy: A 
+      Proof-of-Concept, Randomised, Open-Label, Crossover Study.
+LID - 10.3390/nu18030469 [doi]
+LID - 469
+AB  - BACKGROUND/OBJECTIVES: Sleeve gastrectomy (SG) improves glycaemic control; 
+      however, it also markedly accelerates gastric emptying, which can lead to 
+      exaggerated postprandial glucose and insulin excursions and, in some cases, 
+      postprandial hyperinsulinaemic hypoglycaemia. In non-surgical populations, fat 
+      preloads can reduce postprandial glycaemia by slowing gastric emptying, but their 
+      effects after SG are unclear. METHODS: Ten adults >1-year post-SG completed a 
+      randomised, open-label, crossover study involving two mixed-meal tolerance tests 
+      (MMTTs), preceded (-30 min) by either a moderate, fat-dominant preload (28 g 
+      Brazil nuts) or 100 mL water (control). Blood samples were collected over three 
+      hours to assess plasma glucose, insulin, c-peptide, and total glucagon-like 
+      peptide-1 (GLP-1). Hypoglycaemia and dumping symptoms were assessed using 
+      validated questionnaires. Nadir plasma glucose concentration was the primary 
+      outcome. RESULTS: Nadir plasma glucose was identical between conditions (both 3.8 
+      mmol/L; 95% CI: -0.4, 0.3, p = 0.849), and neither peak glucose nor overall 
+      postprandial glucose exposure (incremental area under the curve iAUC(0-180 min)) 
+      differed between the preload and water conditions. Insulin and c-peptide 
+      concentrations immediately before the MMTT were higher after the fat-dominant 
+      preload (both p < 0.001). Overall insulin and c-peptide responses during the MMTT 
+      (iAUC(0-180 min)) remained comparable between conditions (95% CI -225, 2665; p = 
+      0.442 and -67,787, 70,263; 0.968), but peak values for both hormones were higher 
+      after the preload (95% CI 2.9, 79.1, p = 0.038 and 17.3, 2402.7, p = 0.040, 
+      respectively). Total GLP-1 was also elevated prior to the MMTT (95% CI 1.6, 22.8, 
+      p = 0.028), while its early and overall postprandial responses did not differ 
+      (both p > 0.05). Ratings of hypoglycaemia and dumping symptoms were similar for 
+      both study arms. DISCUSSION: A moderate, fat-dominant preload consumed before a 
+      mixed meal did not alter nadir or overall postprandial glucose in adults without 
+      diabetes after SG. However, the preload was associated with higher peak insulin 
+      secretion, a finding that should be interpreted with caution, as the study was 
+      not powered for secondary outcomes. Given the unique gastrointestinal physiology 
+      after SG, further research is needed to determine how different nutrient 
+      compositions or timing approaches influence postprandial glucose homeostasis in 
+      this population.
+FAU - Whelehan, Grainne
+AU  - Whelehan G
+AUID- ORCID: 0000-0003-1391-4349
+AD  - Diabetes Research Centre, University of Leicester, Leicester LE1 7RH, UK.
+AD  - Leicester Diabetes Centre, University Hospitals of Leicester NHS Trust, Leicester 
+      LE5 4PW, UK.
+AD  - NIHR Leicester Biomedical Research Centre, Leicester General Hospital, Leicester 
+      LE5 4PW, UK.
+FAU - Herring, Louisa Y
+AU  - Herring LY
+AUID- ORCID: 0000-0002-9592-6759
+AD  - Diabetes Research Centre, University of Leicester, Leicester LE1 7RH, UK.
+AD  - Leicester Diabetes Centre, University Hospitals of Leicester NHS Trust, Leicester 
+      LE5 4PW, UK.
+FAU - Tziannou, Aikaterina
+AU  - Tziannou A
+AUID- ORCID: 0009-0009-3445-440X
+AD  - Diabetes Research Centre, University of Leicester, Leicester LE1 7RH, UK.
+FAU - Henson, Joseph
+AU  - Henson J
+AD  - Diabetes Research Centre, University of Leicester, Leicester LE1 7RH, UK.
+FAU - Thackray, Alice E
+AU  - Thackray AE
+AUID- ORCID: 0000-0002-7800-3207
+AD  - NIHR Leicester Biomedical Research Centre, Leicester General Hospital, Leicester 
+      LE5 4PW, UK.
+AD  - National Centre for Sport and Exercise Medicine, School of Sport, Exercise and 
+      Health Sciences, Loughborough University, Loughborough LE11 3TU, UK.
+FAU - Bowrey, David
+AU  - Bowrey D
+AD  - Department of Surgery, University Hospitals of Leicester NHS Trust, Leicester LE1 
+      5WW, UK.
+FAU - Abraham, Jenny
+AU  - Abraham J
+AD  - Department of General Surgery, University Hospitals Coventry & Warwickshire NHS 
+      Trust Coventry, Coventry CV2 2DX, UK.
+FAU - Menon, Vinod
+AU  - Menon V
+AD  - Department of General Surgery, University Hospitals Coventry & Warwickshire NHS 
+      Trust Coventry, Coventry CV2 2DX, UK.
+AD  - Warwick Medical School, University of Warwick, Coventry CV4 7AL, UK.
+FAU - Idris, Iskandar
+AU  - Idris I
+AUID- ORCID: 0000-0002-7548-8288
+AD  - Warwick Medical School, University of Warwick, Coventry CV4 7AL, UK.
+FAU - Waller, Helen
+AU  - Waller H
+AD  - Diabetes Research Centre, University of Leicester, Leicester LE1 7RH, UK.
+AD  - NIHR Leicester Biomedical Research Centre, Leicester General Hospital, Leicester 
+      LE5 4PW, UK.
+FAU - Stensel, David J
+AU  - Stensel DJ
+AUID- ORCID: 0000-0001-9119-8590
+AD  - NIHR Leicester Biomedical Research Centre, Leicester General Hospital, Leicester 
+      LE5 4PW, UK.
+AD  - National Centre for Sport and Exercise Medicine, School of Sport, Exercise and 
+      Health Sciences, Loughborough University, Loughborough LE11 3TU, UK.
+AD  - Faculty of Sport Sciences, Waseda University, Tokorozawa 359-1192, Japan.
+AD  - Department of Sports Science and Physical Education, The Chinese University of 
+      Hong Kong, Ma Liu Shui, Hong Kong.
+FAU - Webb, David R
+AU  - Webb DR
+AD  - Diabetes Research Centre, University of Leicester, Leicester LE1 7RH, UK.
+AD  - Leicester Diabetes Centre, University Hospitals of Leicester NHS Trust,

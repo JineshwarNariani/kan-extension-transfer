@@ -1,0 +1,121 @@
+
+PMID- 41893844
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260327
+LR  - 20260427
+IS  - 2574-3805 (Electronic)
+IS  - 2574-3805 (Linking)
+VI  - 9
+IP  - 3
+DP  - 2026 Mar 2
+TI  - Transcutaneous Electrical Nerve Stimulation and Pain With Movement in People With 
+      Fibromyalgia: A Cluster Randomized Clinical Trial.
+PG  - e262450
+LID - 10.1001/jamanetworkopen.2026.2450 [doi]
+LID - e262450
+AB  - IMPORTANCE: Fibromyalgia is characterized by chronic widespread pain that is 
+      often exacerbated by movement that interferes with daily activities. Development 
+      of effective treatments for movement-evoked pain is essential for improving 
+      function for individuals with fibromyalgia. OBJECTIVE: To evaluate whether the 
+      addition of transcutaneous electrical nerve stimulation (TENS) to outpatient 
+      physical therapy improves fibromyalgia-associated movement-evoked pain. DESIGN, 
+      SETTING, AND PARTICIPANTS: The Fibromyalgia TENS in Physical Therapy (FM-TIPS) 
+      study was a cluster-randomized clinical trial of participants with fibromyalgia 
+      at 28 outpatient PT clinics from 6 health care systems. Between February 1, 2021, 
+      and September 31, 2024, 958 participants were screened, 459 participants 
+      enrolled, and 384 completed baseline data collection, with final data collected 
+      in March 2025. INTERVENTION: Clinics were randomized to PT plus TENS (PT-TENS) 
+      and PT-only groups. Data were captured on days 1, 30, 60 (primary end point, 
+      randomized phase), 90, and 180. Participants in the PT-only group received TENS 
+      after day 60 (extension phase). TENS was applied to the upper and lower back with 
+      instructions to use 2 hours daily with parameters of modulating frequency of 2 to 
+      125 Hz for 100 to 180 microseconds at a strong but comfortable intensity. MAIN 
+      OUTCOMES AND MEASURES: The primary outcome was a change in movement-evoked pain 
+      (scale of 0-10, with 0 indicating no pain and 10 indicating worst pain 
+      imaginable) from baseline to day 60 rated during a 5-times sit-and-stand task 
+      using a linear mixed-effects model. In addition, patient-reported improvement 
+      based on the Patient Global Impression of Change score and patient-reported 
+      adverse events were assessed. RESULTS: A total of 384 FM-TIPS participants (mean 
+      [SD] age, 53 [15] years; 351 [91%] female) completed baseline data collection 
+      (modified intention-to-treat), with 191 individuals in PT-TENS group and 193 in 
+      PT-only group. Movement-evoked pain at day 60 during TENS treatment was 
+      significantly lower in the PT-TENS group compared with the PT-only group (group 
+      mean difference, -1.2; 95 CI, -1.6 to -0.7; d = 0.46). A dose-response effect for 
+      TENS was observed, with more participants in the PT-TENS group reporting 
+      improvement on the Patient Global Impression of Change (120 [72%] vs 86 [51%], 
+      P = .001) and a 30% or greater reduction in movement-evoked pain in responder 
+      analysis (66 of 161 [41%] vs 22 of 169 [13%]; P < .001). At day 180, 217 
+      respondents (81%) found TENS helpful and 147 (55%) used TENS daily. There were no 
+      serious adverse events, and 109 of 358 (30%) experienced minor adverse events 
+      during the entire 6 months of the study. CONCLUSIONS AND RELEVANCE: In this 
+      cluster randomized clinical trial of TENS in fibromyalgia, TENS meaningfully 
+      reduced movement-evoked pain and remained effective for 6 months. This study's 
+      results suggest that TENS is a safe, inexpensive, and readily available treatment 
+      for fibromyalgia. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT04683042.
+FAU - Dailey, Dana L
+AU  - Dailey DL
+AD  - Department of Physical Therapy and Rehabilitation Science, University of Iowa, 
+      Iowa City.
+AD  - Department of Physical Therapy, St Ambrose University, Davenport, Iowa.
+FAU - Vance, Carol G T
+AU  - Vance CGT
+AD  - Department of Physical Therapy and Rehabilitation Science, University of Iowa, 
+      Iowa City.
+FAU - Van Gorp, Barbara J
+AU  - Van Gorp BJ
+AD  - Department of Physical Therapy and Rehabilitation Science, University of Iowa, 
+      Iowa City.
+AD  - University of Iowa Health Care, North Liberty.
+FAU - Johnson, Elizabeth M
+AU  - Johnson EM
+AD  - Division of Rheumatology, Vanderbilt University Medical Center, Nashville, 
+      Tennessee.
+FAU - Post, Andrew A
+AU  - Post AA
+AD  - Department of Physical Therapy and Rehabilitation Science, University of Iowa, 
+      Iowa City.
+AD  - Department of Physical Therapy, Grand Valley State University, Allendale, 
+      Michigan.
+FAU - Chimenti, Ruth L
+AU  - Chimenti RL
+AD  - Department of Physical Therapy and Rehabilitation Science, University of Iowa, 
+      Iowa City.
+FAU - Vance, Kari G
+AU  - Vance KG
+AD  - Department of Physical Therapy and Rehabilitation Science, University of Iowa, 
+      Iowa City.
+FAU - Franck, Carla
+AU  - Franck C
+AD  - Kepros Physical Therapy and Performance, Cedar Rapids, Iowa.
+FAU - Sault, Josiah
+AU  - Sault J
+AD  - UI Health, University of Illinois Chicago, Chicago.
+FAU - Yarasir, Ezgi
+AU  - Yarasir E
+AD  - Department of Physical Therapy and Rehabilitation Science, University of Iowa, 
+      Iowa City.
+FAU - Reisinger, Heather S
+AU  - Reisinger HS
+AD  - Department of Internal Medicine, University of Iowa, Iowa City.
+FAU - Anderson, Alexandra
+AU  - Anderson A
+AD  - UI Health, University of Illinois Chicago, Chicago.
+FAU - Anderson, Jesse
+AU  - Anderson J
+AD  - UI Health, University of Illinois Chicago, Chicago.
+FAU - Capelle, Randy
+AU  - Capelle R
+AD  - Big Stone Therapies, Baxter, Minnesota.
+FAU - Crouch, Amanda
+AU  - Crouch A
+AD  - Rock Valley Physical Therapy, Muscatine, Iowa.
+FAU - Donatelle, Jeffrey
+AU  - Donatelle J
+AD  - Big Stone Therapies, Baxter, Minnesota.
+FAU - Kaster, Dennis
+AU  - Kaster D
+AD  - Advanced Physical Therapy & Sports Medicine, Stevens Point, Wisconsin.
+FAU - Kepros, Ted
+AU  - Kepros T
+AD  - Kepros Physi

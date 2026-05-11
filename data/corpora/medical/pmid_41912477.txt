@@ -1,0 +1,104 @@
+
+PMID- 41912477
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260330
+LR  - 20260408
+IS  - 2046-4924 (Electronic)
+IS  - 1366-5278 (Print)
+IS  - 1366-5278 (Linking)
+VI  - 30
+IP  - 26
+DP  - 2026 Mar
+TI  - Comparing the clinical and cost-effectiveness of various washout policies in 
+      preventing catheter associated complications in adults living with long-term 
+      catheters: synopsis of the CATHETER II RCT.
+PG  - 1-43
+LID - 10.3310/GJMA0724 [doi]
+AB  - BACKGROUND: Approximately 90,000 people in the United Kingdom have a long-term 
+      catheter. Use of long-term catheters is associated with common adverse events 
+      including blockage of the catheter and symptomatic catheter-associated urinary 
+      tract infection. Washout solutions are often used prophylactically to prevent 
+      these adverse events, but evidence for the benefits and potential harms is 
+      insufficient. OBJECTIVES: Does the addition of weekly prophylactic washouts of 
+      the catheter to standard long-term catheter care improve the outcomes of adults 
+      with long-term catheter. DESIGN AND METHODS: A pragmatic three-arm multicentre 
+      open-label superiority randomised controlled trial with embedded qualitative 
+      study. SETTING AND PARTICIPANTS: Adults with long-term catheter in situ (any 
+      route or type) with no plans to discontinue long-term catheter use were recruited 
+      in a community setting in the United Kingdom. Participants received training to 
+      self-administer the washouts, with/without the assistance of a carer. 
+      INTERVENTIONS: Participants were randomised 1 : 1 : 1 to standard long-term 
+      catheter care plus weekly prophylactic saline washouts; weekly prophylactic 
+      acidic washouts; or no prophylactic washouts. MAIN OUTCOME MEASURES: The primary 
+      clinical and health economic outcomes were catheter blockage requiring 
+      intervention (/1000 catheter days) up to 24 months post randomisation and 
+      incremental cost per quality-adjusted life-year gained. Outcome data were patient 
+      reported. RESULTS: Eighty of the planned 600 participants were recruited (26 
+      saline; 27 acidic; 27 control). There was a reduction in incidence of blockages 
+      requiring treatment (per 1000 catheter days) from 20.92 (control) to 9.96 
+      (saline) and 10.53 (acidic). The incidence rate ratio favoured the washout groups 
+      [saline 0.65 (97.5% confidence interval 0.24 to 1.77); p = 0.33 and acidic 0.59 
+      (97.5% confidence interval 0.22 to 1.63); p = 0.25] but was not statistically 
+      significant. There was a reduction in the secondary outcome of symptomatic 
+      catheter-associated urinary tract infection requiring antibiotic use (per 1000 
+      catheter days) from 8.05 (control) to 3.71 (saline) and 6.72 (acidic). The 
+      incidence rate ratio favoured the washout groups [saline 0.40 (97.5% confidence 
+      interval 0.20 to 0.80); p = 0.003 and acidic 0.98 (97.5% confidence interval 0.54 
+      to 1.78); p = 0.93]; however, the significance should be interpreted cautiously 
+      given the small sample size. There were few adverse events. Quality-of-life 
+      outcomes were similar between groups. Due to the low sample size, the health 
+      economic outcomes could not be analysed. The embedded qualitative work 
+      demonstrated that the study design was feasible and acceptable to healthcare 
+      professionals and participants involved with the trial. Healthcare professionals 
+      perceived the training of participants to have minimal impact on healthcare 
+      resources and participants were empowered to self-manage the washouts and 
+      integrate it into their routine care. LIMITATIONS: COVID-19 led to recruitment 
+      difficulties and early termination of the study by the funder. Sample size was 
+      not met. CONCLUSIONS: There is a suggestion that regular prophylactic washout use 
+      may result in the reduction of catheter blockage and symptomatic 
+      catheter-associated urinary tract infection. However, the results are 
+      inconclusive due to the small sample size. Participants found the washouts 
+      acceptable to use and could self-manage the washouts with training. FUTURE WORK: 
+      The study design was acceptable to involved participants and healthcare workers. 
+      We recommend a multinational randomised controlled trial to produce evidence on 
+      the clinical effectiveness of long-term catheter washout policies. FUNDING: This 
+      synopsis presents independent research funded by the National Institute for 
+      Health and Care Research (NIHR) Health Technology Assessment programme as award 
+      number 17/30/02.
+FAU - Johnson, Diana
+AU  - Johnson D
+AUID- ORCID: 0000-0003-0479-1228
+AD  - Centre for Healthcare Randomised Trials, Health Services Research Unit, 
+      University of Aberdeen, Aberdeen, UK.
+FAU - Tripathee, Sheela
+AU  - Tripathee S
+AUID- ORCID: 0000-0003-1280-1406
+AD  - Academic Urology Unit, University of Aberdeen, Aberdeen, UK.
+FAU - Cooper, David
+AU  - Cooper D
+AUID- ORCID: 0000-0002-9361-4399
+AD  - Centre for Healthcare Randomised Trials, Health Services Research Unit, 
+      University of Aberdeen, Aberdeen, UK.
+FAU - Constable, Lynda
+AU  - Constable L
+AUID- ORCID: 0000-0001-9646-3904
+AD  - Centre for Healthcare Randomised Trials, Health Services Research Unit, 
+      University of Aberdeen, Aberdeen, UK.
+FAU - Imran Omar, Muhammad
+AU  - Imran Omar M
+AUID- ORCID: 0000-0002-1597-3126
+AD  - Academic Urology Unit, University of Aberdeen, Aberdeen, UK.
+FAU - MacLennan, Sara
+AU  - MacLennan S
+AUID- ORCID: 0000-0003-1405-6964
+AD  - Academic Urology Unit, University of Aberdeen, Aberdeen, UK.
+FAU - Cotton, Seonaidh
+AU  - Cotton S
+AUID- ORCID: 0000-0002-7883-0608
+AD  - Centre for Healthcare Randomised Trials, Health Services Research Unit, 
+      University of Aberdeen, Aberdeen, UK.
+FAU - Dimitropoulos, Konstantinos
+AU  - Dimitropoulos K
+AUID- ORCID: 0000-0001-7090-7327
+AD  - Department of

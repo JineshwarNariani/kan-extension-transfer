@@ -1,0 +1,96 @@
+
+PMID- 41660750
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260209
+LR  - 20260218
+IS  - 2046-4924 (Electronic)
+IS  - 1366-5278 (Print)
+IS  - 1366-5278 (Linking)
+VI  - 30
+IP  - 9
+DP  - 2026 Feb
+TI  - Gabapentin as an adjunct to multimodal pain regimens in surgical patients: the 
+      GAP placebo-controlled RCT and economic evaluation.
+PG  - 1-144
+LID - 10.3310/PLMH9787 [doi]
+AB  - BACKGROUND: Gabapentin is an anticonvulsant medication with a United Kingdom 
+      licence to treat partial seizures and neuropathic pain. It is used off-licence 
+      for acute pain and is frequently added to multimodal analgesic regimens after 
+      surgery to try and reduce opioid use while controlling pain effectively. 
+      OBJECTIVE: To test the hypothesis that gabapentin reduces opioid use after major 
+      surgery and speeds up recovery, thereby reducing postoperative hospital length of 
+      stay compared to standard multimodal analgesia. DESIGN, SETTING AND PARTICIPANTS: 
+      The GAP study was a multicentre, blinded, randomised controlled trial in patients 
+      aged >/= 18 years, undergoing cardiac, thoracic or abdominal surgery with an 
+      expected postoperative stay of >/= 2 days in seven National Health Service 
+      hospitals. The trial was designed to provide 90% power to detect a difference of 
+      12.5% in the proportion of participants discharged by the median length of stay 
+      in each specialty (500 participants/specialty), which was reduced to 80% (340 
+      participants/specialty) due to COVID-19-related recruitment challenges. 
+      INTERVENTIONS: Participants were randomised 1 : 1 (stratified by surgical 
+      specialty) to receive either gabapentin (600 mg before surgery, 300 mg twice 
+      daily for 2 days after surgery) or placebo as an adjunct to multimodal pain 
+      regimens. MAIN OUTCOME MEASURES: Primary outcome was length of stay. Secondary 
+      outcomes included acute and chronic (Brief Pain Inventory) pain, total opioid 
+      use, adverse health events, health-related quality of life (-EQ-5D-5L, Short Form 
+      questionnaire-12 items physical component score and mental component score), 
+      resource use; cost-effectiveness (outcome measure quality-adjusted life-years 
+      using EQ-5D, five-level version). RESULTS: One thousand one hundred and 
+      ninety-six (cardiac 500, thoracic 346, abdominal 350) participants consented and 
+      were randomised. Baseline characteristics were well balanced across the two 
+      groups: median age: 68 years; male sex 796/1195 (66.4%). Of the participants, 
+      223/1195 (18.7%) did not receive all prescribed medication or received medication 
+      out of window. There was no difference in length of stay; median placebo 
+      (n = 589): 6.15, gabapentin (n = 595): 5.94 days [hazard ratio for discharge 
+      1.07, 95% confidence interval (0.95 to 1.20), p = 0.26]. Opioid use in-hospital 
+      differed between surgical specialties (p = 0.001); in the abdominal specialty, it 
+      was significantly lower in the gabapentin group in 4 of the first 5 postoperative 
+      days [range -26% (-46% to 0%) to -36% (-52% to -14%)], with no differences in the 
+      cardiac specialty nor in the thoracic specialty beyond day 2. During follow-up, 
+      opioid use was similar in the two groups across all specialties. Acute pain 
+      beyond 24 hours was similar (p >/= 0.15). The incidence of one or more serious 
+      adverse events was placebo: 189/595 (31.7%); gabapentin: 195/599 (32.6%). 
+      Health-related quality of life was similar [EQ-5D: mean difference -0.014 (-0.036 
+      to 0.009), Short Form questionnaire-12 items physical component score: -0.87 
+      (-1.71 to -0.04), Short Form questionnaire-12 items mental component score: at 4 
+      weeks 0.74 (-1.71 to 0.42) and 4 months -0.55 (-1.61 to 0.51)]. Differences in 
+      costs and quality-adjusted life-years favoured placebo, and gabapentin was not 
+      considered cost-effective. LIMITATIONS: GAP study tests the application of 
+      gabapentin to major body cavity surgery, but not major non-body cavity surgery, 
+      or non-major surgery. The fixed dose and limited duration of gabapentin may 
+      reduce applicability to certain populations. Reducing the power to 80% reduced 
+      the ability of the trial to detect a beneficial effect of gabapentin. 
+      CONCLUSIONS: Among patients undergoing major cardiac, thoracic and abdominal 
+      surgery, adding gabapentin to multimodal analgesic regimes did not result in a 
+      change in length of stay, opiate use in two specialties, acute pain, or 
+      health-related quality of life, nor was it cost-effective. FUTURE WORK: Trials to 
+      assess the place of gabapentin in major non-body cavity surgery (e.g. joint 
+      replacement), or non-major (e.g. day-care) surgery should be considered. TRIAL 
+      REGISTRATION: This trial is registered as Current Controlled Trials 
+      ISRCTN63614165. FUNDING: This award was funded by the National Institute for 
+      Health and Care Research (NIHR) Health Technology Assessment programme (NIHR 
+      award ref: 15/101/16) and is published in full in Health Technology Assessment; 
+      Vol. 30, No. 9. See the NIHR Funding and Awards website for further award 
+      information.
+FAU - Baos, Sarah
+AU  - Baos S
+AUID- ORCID: 0000-0003-2039-8768
+AD  - Bristol Trials Centre, Bristol Medical School, University of Bristol, Bristol, 
+      UK.
+FAU - Walker-Smith, Terrie
+AU  - Walker-Smith T
+AUID- ORCID: 0000-0001-6637-3705
+AD  - Bristol Trials Centre, Bristol Medical School, University of Bristol, Bristol, 
+      UK.
+FAU - Lui, Mandy
+AU  - Lui M
+AUID- ORCID: 0009-0007-4404-2084
+AD  - Bristol Trials Centre, Bristol Medical School, University of Bristol, Bristol, 
+      UK.
+FAU - A Stokes, Elizabeth
+AU  - A Stokes E
+AUID- ORCID: 0000-0002-4179-1369
+AD  - Health Economics Research Centre, Nuffield Department of Population Health, 
+      University of Oxford, Oxford, UK.
+FAU 

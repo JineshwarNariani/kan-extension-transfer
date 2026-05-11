@@ -1,0 +1,111 @@
+
+PMID- 41933952
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260412
+LR  - 20260412
+IS  - 1836-9561 (Electronic)
+IS  - 1836-9561 (Linking)
+VI  - 72
+IP  - 2
+DP  - 2026 Apr
+TI  - High-intensity respiratory muscle training improves maximal respiratory 
+      pressures, breathing endurance, dyspnoea and exercise capacity in people with 
+      Parkinson's disease: a randomised trial.
+PG  - 128-136
+LID - S1836-9553(26)00021-4 [pii]
+LID - 10.1016/j.jphys.2026.03.006 [doi]
+AB  - QUESTIONS: What is the effect of home-based, high-intensity, combined inspiratory 
+      and expiratory muscle training on maximal respiratory pressures, inspiratory 
+      muscle endurance, peak cough flow, dyspnoea, fatigue, exercise capacity and 
+      quality of life in people with Parkinson's disease? DESIGN: A randomised 
+      controlled trial with concealed allocation, intention-to-treat analysis and 
+      blinding of participants, assessors and statisticians. PARTICIPANTS: People with 
+      Parkinson's disease. INTERVENTION: The experimental group received high-intensity 
+      combined inspiratory and expiratory muscle training at 60% of maximal inspiratory 
+      pressure (MIP) and 60% of maximal expiratory pressure (MEP). The control group 
+      received sham training using the same protocol, but without any resistive load. 
+      Both groups trained for 20 minutes, twice per day, 7 days/week for 8 weeks. 
+      OUTCOME MEASURES: The primary outcome was respiratory muscle strength (MIP and 
+      MEP). Secondary outcomes included inspiratory muscle endurance, peak cough flow, 
+      dyspnoea (0-to-4 Medical Research Council scale, where lower scores are better), 
+      fatigue (1-to-7 Fatigue Severity, where lower scores are better), exercise 
+      capacity (6-minute walk test) and quality of life (0-to-100 Parkinson's Disease 
+      Questionnaire-39, where lower scores are better). All outcomes were measured at 
+      0, 8 and 12 weeks. RESULTS: Thirty-four participants were included. Compared with 
+      control, the experimental group had better MIP (MD 20 cmH(2)O, 95% CI 10 to 30), 
+      MEP (MD 24 cmH(2)O, 95% CI 10 to 39) and inspiratory muscle endurance (MD 1.2 
+      minutes, 95%CI 0.4 to 2.0). The benefits in MIP and inspiratory muscle endurance 
+      were maintained at follow-up. Benefits also occurred in dyspnoea (MD -0.71, 95% 
+      CI -1.30 to -0.12) and exercise capacity (MD 24.9 m, 95% CI 0.2 to 49.7); 
+      however, the confidence intervals spanned worthwhile and trivial effects, 
+      indicating uncertainty about whether those effects are clinically worthwhile. 
+      CONCLUSION: High-intensity combined inspiratory and expiratory muscle training 
+      improved respiratory muscle strength, inspiratory muscle endurance, dyspnoea and 
+      exercise capacity in people with Parkinson's disease. REGISTRATION NUMBER: 
+      NCT05608941.
+CI  - Copyright (c) 2026 Australian Physiotherapy Association. Published by Elsevier B.V. 
+      All rights reserved.
+FAU - Brito, Sherindan Ayessa Ferreira de
+AU  - Brito SAF
+AD  - Department of Physical Therapy, Universidade Federal de Minas Gerais, Belo 
+      Horizonte, Minas Gerais, Brazil.
+FAU - Scianni, Aline Alvim
+AU  - Scianni AA
+AD  - Department of Physical Therapy, Universidade Federal de Minas Gerais, Belo 
+      Horizonte, Minas Gerais, Brazil.
+FAU - Silveira, Bruna Mara Franco
+AU  - Silveira BMF
+AD  - Department of Physical Therapy, Universidade Federal de Minas Gerais, Belo 
+      Horizonte, Minas Gerais, Brazil.
+FAU - de Oliveira, Elem Rodrigues Martins
+AU  - de Oliveira ERM
+AD  - Department of Physical Therapy, Universidade Federal de Minas Gerais, Belo 
+      Horizonte, Minas Gerais, Brazil.
+FAU - Faria, Christina Danielli Coelho de Morais
+AU  - Faria CDCM
+AD  - Department of Physical Therapy, Universidade Federal de Minas Gerais, Belo 
+      Horizonte, Minas Gerais, Brazil. Electronic address: chrismoraisf@gmail.com.
+LA  - eng
+SI  - ClinicalTrials.gov/NCT05608941
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+DEP - 20260402
+PL  - Netherlands
+TA  - J Physiother
+JT  - Journal of physiotherapy
+JID - 101528691
+SB  - IM
+MH  - Humans
+MH  - *Parkinson Disease/rehabilitation/physiopathology
+MH  - *Dyspnea/rehabilitation/physiopathology
+MH  - Male
+MH  - Female
+MH  - Aged
+MH  - *Exercise Tolerance/physiology
+MH  - *Breathing Exercises/methods
+MH  - Quality of Life
+MH  - Middle Aged
+MH  - *Respiratory Muscles/physiopathology
+MH  - *Maximal Respiratory Pressures
+MH  - Muscle Strength/physiology
+OTO - NOTNLM
+OT  - Breathing exercises
+OT  - Clinical trial
+OT  - Muscle strength
+OT  - Parkinson's disease
+OT  - Rehabilitation
+EDAT- 2026/04/04 06:34
+MHDA- 2026/04/13 00:31
+CRDT- 2026/04/04 02:10
+PHST- 2025/06/03 00:00 [received]
+PHST- 2026/01/30 00:00 [revised]
+PHST- 2026/03/17 00:00 [accepted]
+PHST- 2026/04/13 00:31 [medline]
+PHST- 2026/04/04 06:34 [pubmed]
+PHST- 2026/04/04 02:10 [entrez]
+AID - S1836-9553(26)00021-4 [pii]
+AID - 10.1016/j.jphys.2026.03.006 [doi]
+PST - ppublish
+SO  - J Physiother. 2026 Apr;72(2):128-136. doi: 10.1016/j.jphys.2026.03.006. Epub 2026 
+      Apr 2.

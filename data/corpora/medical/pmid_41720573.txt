@@ -1,0 +1,112 @@
+
+PMID- 41720573
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260220
+LR  - 20260302
+IS  - 2215-0374 (Electronic)
+IS  - 2215-0366 (Print)
+IS  - 2215-0366 (Linking)
+VI  - 13
+IP  - 3
+DP  - 2026 Mar
+TI  - A digital imagery-competing task intervention for stopping intrusive memories in 
+      trauma-exposed health-care staff during the COVID-19 pandemic in the UK: a 
+      Bayesian adaptive randomised clinical trial.
+PG  - 233-247
+LID - S2215-0366(25)00397-9 [pii]
+LID - 10.1016/S2215-0366(25)00397-9 [doi]
+AB  - BACKGROUND: Psychological trauma, such as witnessing an untimely or gruesome 
+      death, commonly provokes intrusive memories that might persist for days to years 
+      with adverse effects on individual mental and physical health and functioning. 
+      Despite the global prevalence of trauma, scalable evidence-based interventions 
+      are absent. Reducing the impact of intrusive memories is crucial for people 
+      frequently exposed to trauma, such as health-care workers. This study aimed to 
+      determine whether a brief digital imagery-competing task intervention (ICTI) 
+      reduced intrusive memory frequency after 4 weeks. Harms were also assessed. 
+      METHODS: The GAINS-02 decentralised digital, parallel-group Bayesian adaptive 
+      randomised controlled trial tested a brief ICTI against an active control and 
+      treatment as usual to determine the effect on reducing intrusive memory 
+      frequency. Health-care workers in facilities that admitted patients with COVID-19 
+      during the pandemic, who had experienced one or more traumatic events and 
+      reported at least three intrusive memories in the week before screening were 
+      randomised 2:2:1 (ICTI to active control to treatment as usual) via block 
+      randomisation (web-based). ICTI and active control participants were masked to 
+      treatment allocation, and both had one guided session then optional self-use. 
+      ICTI involved image-based memory retrieval then Tetris computer gameplay with 
+      mental rotation. The active control involved a music-listening task. Study 
+      statisticians were masked to ICTI and active control group. The primary outcome 
+      was the number of intrusive memories in week 4 (controlling for baseline), which 
+      was evaluated on an intention-to-treat basis. Treatment effects for the 
+      intervention group versus the comparator groups were assessed using Bayes 
+      regression analyses. Harms were assessed through adverse event reporting and 
+      interim analyses on primary outcome. People with lived experience were involved 
+      from study conception and throughout the research and writing process. The trial 
+      was pre-registered at clinicaltrials.gov (NCT05616676) and is completed. 
+      FINDINGS: Between Dec 8, 2022, and Sept 15, 2023, 176 participants were screened 
+      and 99 included (ICTI n=40, active control n=39, treatment as usual n=20) with 
+      mean age 41.2 years (SD 10.2; range 21-62). Of these 99 participants, 85 (86%) 
+      self-identified as women and 89 (90%) as White. Bayesian analyses gave robust 
+      evidence that ICTI reduced intrusive memories at week 4: ICTI participants 
+      reported fewer intrusive memories (median 0.5 [IQR 0.0-5.0]) compared with the 
+      active control (active control 5.0 [3.0-11.5]; Bayes factor [BF](active 
+      control>ICTI vs active control=ICTI) 114.1; beta(active control>ICTI) 1.29 [95% CrI 
+      0.64-2.00]) and treatment as usual (median 5.0 [IQR 2.5-8.0]; BF(treatment as 
+      usual>ICTI vs treatment as usual=ICTI)=15.8; beta(treatment as usual>ICTI) 1.21 [95% 
+      CrI 0.49-1.98]) groups. No harms were detected for ICTI relative to the active 
+      control and treatment as usual. The most reported adverse event (n=7) was 
+      COVID-19. Two adverse events involved burden of diary recording. Serious adverse 
+      events were hospitalisations unrelated to study procedures (n=6). INTERPRETATION: 
+      This study shows that ICTI reduces intrusive memory frequency and post-traumatic 
+      stress disorder symptoms among health-care workers exposed to trauma. As a brief, 
+      scalable digital intervention, ICTI shows promise for mitigating consequences of 
+      trauma on mental health, an important and unmet need for health-care personnel 
+      and systems worldwide. FUNDING: Wellcome Trust, Swedish Research Council, UK 
+      Medical Research Council, and National Institute for Health and Care Research.
+CI  - Copyright (c) 2026 The Author(s). Published by Elsevier Ltd. This is an Open Access 
+      article under the CC BY 4.0 license. Published by Elsevier Ltd.. All rights 
+      reserved.
+FAU - Beckenstrom, Amy C
+AU  - Beckenstrom AC
+AD  - P1vital Products, Wallingford, UK.
+FAU - Bonsall, Michael B
+AU  - Bonsall MB
+AD  - Mathematical Ecology Research Group, Department of Biology, University of Oxford, 
+      Oxford, UK; St Peter's College, University of Oxford, Oxford, UK.
+FAU - Markham, Alfred
+AU  - Markham A
+AD  - P1vital Products, Wallingford, UK.
+FAU - Slade, Owen
+AU  - Slade O
+AD  - P1vital Products, Wallingford, UK.
+FAU - Ramineni, Varsha
+AU  - Ramineni V
+AD  - P1vital Products, Wallingford, UK.
+FAU - Iyadurai, Lalitha
+AU  - Iyadurai L
+AD  - P1vital Products, Wallingford, UK.
+FAU - Islam, Zunaid
+AU  - Islam Z
+AD  - P1vital Products, Wallingford, UK.
+FAU - Highfield, Julie
+AU  - Highfield J
+AD  - Intensive Care Society, London, UK.
+FAU - Jaki, Thomas
+AU  - Jaki T
+AD  - University of Regensburg, Regensburg, Bavaria, Germany; MRC Biostatistics Unit, 
+      University of Cambridge, Cambridge, UK.
+FAU - Goodwin, Guy M
+AU  - Goodwin GM
+AD  - Department of Psychiatry, University of Oxford, Oxford, UK.
+FAU - Dias, Rebecca
+AU  - Dias R
+AD  - P1vital Products, Wallingford, UK.
+FAU - Daniels, Rebecca
+AU  - Daniels R
+AD  - P1vital Products, Wallingford, UK.
+FAU - Malik, Asad
+AU  - Malik A
+AD  - P1vital Products, Wallingford, UK.
+FAU - Summers, Charlotte
+AU  - Summers C
+AD  - Victor Phill

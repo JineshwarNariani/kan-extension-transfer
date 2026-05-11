@@ -1,0 +1,132 @@
+
+PMID- 41997615
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260417
+LR  - 20260428
+IS  - 2053-3624 (Print)
+IS  - 2053-3624 (Electronic)
+IS  - 2053-3624 (Linking)
+VI  - 13
+IP  - 1
+DP  - 2026 Apr 17
+TI  - Non-invasive endotyping improves treatment satisfaction and prescribing 
+      appropriateness in patients with angina and no obstructive coronary artery 
+      disease.
+LID - 10.1136/openhrt-2026-004135 [doi]
+LID - e004135
+AB  - BACKGROUND: Patients with angina and no obstructive coronary artery disease 
+      (ANOCA) frequently receive empirical antianginal therapy that fails to target 
+      underlying pathophysiological mechanisms. Whether stress perfusion cardiac 
+      magnetic resonance (CMR)-guided endotyping and stratified medical therapy 
+      improves treatment satisfaction and appropriate medication prescribing in this 
+      population is uncertain. METHODS: In the Coronary Microvascular Angina CMR 
+      Imaging Trial, 250 patients with suspected ANOCA, who had undergone invasive 
+      coronary angiography demonstrating no obstructive disease, were enrolled and 
+      underwent stress perfusion CMR with quantification of myocardial blood flow. 
+      Participants were randomised 1:1 to CMR-guided management (intervention) or 
+      angiography-guided management (control). Treatment satisfaction was assessed 
+      using the validated Treatment Satisfaction Questionnaire for Medication (TSQM-9) 
+      at baseline, 6 months and 12 months. Medication prescriptions were documented at 
+      these time points. RESULTS: Stress CMR imaging led to diagnostic reclassification 
+      in 53.0% of patients, with microvascular angina diagnosed in 51.0%. At 12 months, 
+      global treatment satisfaction was significantly higher in the intervention group 
+      compared with controls (adjusted difference, 19.30 units (95% CI 13.89 to 24.71); 
+      p<0.001), with consistent improvements across the effectiveness and convenience 
+      domains. CMR-guided management was associated with more appropriate prescribing, 
+      including higher use of preventive therapies (85.5% vs 67.5%; p=0.001), and more 
+      targeted antianginal prescribing, including calcium channel blockers (43.5% vs 
+      27.0%; p=0.008) and long-acting nitrates (56.5% vs 32.5%; p<0.001). CONCLUSIONS: 
+      In patients with ANOCA, non-invasive CMR-guided endotyping substantially improves 
+      treatment satisfaction and enables more appropriate, mechanism-targeted 
+      pharmacotherapy compared with angiography-guided care. TRIAL REGISTRATION NUMBER: 
+      ClinicalTrials.gov ID NCT04805814.
+CI  - (c) Author(s) (or their employer(s)) 2026. Re-use permitted under CC BY-NC. No 
+      commercial re-use. See rights and permissions. Published by BMJ Group.
+FAU - Bradley, Conor P
+AU  - Bradley CP
+AUID- ORCID: 0000-0003-2941-7259
+AD  - University of Glasgow BHF Glasgow Cardiovascular Research Centre, Glasgow, 
+      Scotland, UK.
+FAU - McKinley, Gemma
+AU  - McKinley G
+AD  - Robertson Centre for Biostatistics, University of Glasgow, Glasgow, UK.
+FAU - Orchard, Vanessa
+AU  - Orchard V
+AD  - Golden Jubilee National Hospital, Clydebank, Scotland, UK.
+FAU - Tiller, Christina
+AU  - Tiller C
+AD  - Cardiology and Angiology, Medical University of Innsbruck, Innsbruck, Tyrol, 
+      Austria.
+FAU - Stanley, B
+AU  - Stanley B
+AD  - University of Glasgow, Glasgow, UK.
+FAU - Ang, Daniel
+AU  - Ang D
+AD  - University of Glasgow BHF Glasgow Cardiovascular Research Centre, Glasgow, 
+      Scotland, UK.
+AD  - Cardiology, Golden Jubilee National Hospital, Glasgow, UK.
+FAU - Morrow, Andrew J
+AU  - Morrow AJ
+AD  - School of Cardiovascular and Metabolic Health, University of Glasgow BHF Glasgow 
+      Cardiovascular Research Centre, Glasgow, Scotland, UK.
+FAU - Sykes, Robert
+AU  - Sykes R
+AUID- ORCID: 0000-0003-1010-5474
+AD  - School of Cardiovascular and Metabolic Health, University of Glasgow College of 
+      Medical, Veterinary and Life Sciences, Glasgow, UK.
+AD  - Cardiology, Golden Jubilee National Hospital, West of Scotland Regional Heart and 
+      Lung Centre, Glasgow, UK.
+FAU - Gildea, Pamela
+AU  - Gildea P
+AD  - Golden Jubilee National Hospital, Clydebank, Scotland, UK.
+FAU - Petty, Maria
+AU  - Petty M
+AD  - Golden Jubilee National Hospital, Clydebank, Scotland, UK.
+FAU - Brogan, Richard
+AU  - Brogan R
+AD  - Golden Jubilee National Hospital, Clydebank, Scotland, UK.
+FAU - Carrick, David
+AU  - Carrick D
+AD  - University Hospital Hairmyres, East Kilbride, South Lanarkshire, UK.
+FAU - Collison, Damien
+AU  - Collison D
+AD  - Golden Jubilee National Hospital, Clydebank, Scotland, UK.
+FAU - Eteiba, Hany
+AU  - Eteiba H
+AD  - Institute of Cardiovascular and Medical Sciences, University of Glasgow BHF 
+      Glasgow Cardiovascular Research Centre, Glasgow, Scotland, UK.
+FAU - Ghattas, Angie
+AU  - Ghattas A
+AD  - Golden Jubilee National Hospital, Clydebank, Scotland, UK.
+FAU - Good, Richard
+AU  - Good R
+AUID- ORCID: 0000-0002-3906-1025
+AD  - University of Glasgow College of Medical, Veterinary and Life Sciences, Glasgow, 
+      UK.
+AD  - Golden Jubilee National Hospital, West of Scotland Regional Heart and Lung 
+      Centre, Glasgow, UK.
+FAU - Joshi, Francis
+AU  - Joshi F
+AD  - Golden Jubilee National Hospital, Clydebank, Scotland, UK.
+FAU - Lindsay, Mitchell
+AU  - Lindsay M
+AD  - Robertson Centre for Biostatistics, University of Glasgow, Glasgow, UK.
+FAU - McCartney, Peter
+AU  - McCartney P
+AUID- ORCID: 0000-0001-7482-1811
+AD  - University of Glasgow BHF Glasgow Cardiovascular Research Centre, Glasgow, 
+      Scotland, UK.
+FAU - McGowan, James
+AU  - McGowan J
+AD  - Department of Cardiology, University Hospital Ayr, Ayr, UK.
+FAU - McGeoch, Ross
+AU  - McGeoch R
+AD  - University Hospital Hairmyres, East Kilbride, South Lanarkshire, UK.
+FAU - Robertson, Keith E
+AU  - Robertson KE
+AD  - Golden Jubilee National Hospital, Clydebank, Scotland, UK.
+FAU - Rocchiccioli, J Paul
+AU  - Rocchiccioli JP
+AD  - Golden Jubilee National Hospital, Clydebank, Scotland, UK.
+FA

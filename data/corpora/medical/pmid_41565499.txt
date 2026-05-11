@@ -1,0 +1,106 @@
+
+PMID- 41565499
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260321
+LR  - 20260321
+IS  - 1933-2874 (Print)
+IS  - 1876-4789 (Linking)
+VI  - 20
+IP  - 3
+DP  - 2026 Mar
+TI  - Different response of plaque regression following achievement of LDL-C 
+      <1.8 mmol/L in obese and nonobese patients with diabetes and coronary artery 
+      disease: OPTIMAL sub-analysis.
+PG  - 553-563
+LID - S1933-2874(25)00540-9 [pii]
+LID - 10.1016/j.jacl.2025.12.011 [doi]
+AB  - BACKGROUND: Obesity is a major risk factor for atherosclerotic cardiovascular 
+      disease (ASCVD). While lowering low-density lipoprotein cholesterol (LDL-C) 
+      reduces ASCVD, it remains unclear whether patients with obesity exhibit distinct 
+      plaque responses to LDL-C control. OBJECTIVE: The current study sought to compare 
+      disease progression under achieving LDL-C <1.8 mmol/L in patients with type 2 
+      diabetes mellitus (T2DM) and coronary artery disease (CAD) with and without 
+      obesity. METHODS: This prespecified sub-analysis of the OPTIMAL randomized trial 
+      (jRCT1052180152; UMIN000036721) evaluated 78 statin-treated patients with T2DM 
+      and CAD who underwent serial intravascular ultrasound imaging. Change in percent 
+      atheroma volume (PAV) was compared in those with obesity (body mass index [BMI] >/= 
+      25 kg/m(2), n = 31) and without (BMI <25 kg/m(2), n = 47) stratified by 
+      achievement of LDL-C<1.8 mmol/l at 48 weeks. RESULTS: LDL-C<1.8 mmol/L was 
+      attained in 41.9% with obesity and 57.4% without (P = .18). In participants 
+      without obesity, achieving LDL-C<1.8 mmol/L was not associated with significant 
+      change in PAV (-0.5 +/- 0.4 vs -0.3 +/- 0.4%, P = .74) or regression frequency (59.3 
+      vs 62.0%, P = .85). In contrast, patients with obesity achieving LDL-C<1.8 mmol/L 
+      more often received high-intensity statins and demonstrated significant PAV 
+      regression (-0.9 +/- 0.3 vs 0.4 +/- 0.2%, P = .006) and greater regression frequency 
+      (79.6 vs 25.2%, P = .01). CONCLUSION: A greater regression of coronary atheroma 
+      following LDL-C<1.8 mmol/L was observed in obese patients. Future dedicated study 
+      is warranted to further elucidate atheroma regression in response to LDL-C 
+      control in obese and nonobese patients.
+CI  - Copyright (c) 2025 The Authors. Published by Elsevier Inc. All rights reserved.
+FAU - Salib, Anthony
+AU  - Salib A
+AD  - Austin Health, Melbourne, Australia (Dr Salib).
+FAU - Kataoka, Yu
+AU  - Kataoka Y
+AD  - Department of Cardiovascular Medicine, National Cerebral & Cardiovascular Center, 
+      Suita, Osaka, Japan (Drs Mitsui, Iwai, Sawada, Matama, Kataoka, Kitahara, 
+      Funabashi, Murai, Honda, Fujino, Yoneda, Nakao, Takagi, Otsuka, Asaumi, and 
+      Noguchi). Electronic address: yu.kataoka@ncvc.go.jp.
+FAU - Nicholls, Stephen J
+AU  - Nicholls SJ
+AD  - Victorian Heart Institute, Monash University, Melbourne, Australia (Dr Nicholls).
+FAU - Kitahara, Satoshi
+AU  - Kitahara S
+AD  - Department of Cardiovascular Medicine, National Cerebral & Cardiovascular Center, 
+      Suita, Osaka, Japan (Drs Mitsui, Iwai, Sawada, Matama, Kataoka, Kitahara, 
+      Funabashi, Murai, Honda, Fujino, Yoneda, Nakao, Takagi, Otsuka, Asaumi, and 
+      Noguchi); Department of Cardiovascular Medicine, Kashiwa Kousei General Hospital, 
+      Kashiwa, Japan (Dr Kitahara).
+FAU - Funabashi, Sayaka
+AU  - Funabashi S
+AD  - Department of Cardiovascular Medicine, National Cerebral & Cardiovascular Center, 
+      Suita, Osaka, Japan (Drs Mitsui, Iwai, Sawada, Matama, Kataoka, Kitahara, 
+      Funabashi, Murai, Honda, Fujino, Yoneda, Nakao, Takagi, Otsuka, Asaumi, and 
+      Noguchi); Department of Cardiovascular Medicine, Kyorin University, Mitaka, 
+      Tokyo, Japan (Dr Funabashi).
+FAU - Makino, Hisashi
+AU  - Makino H
+AD  - Division of Diabetes and Lipid Metabolism, National Cerebral and Cardiovascular 
+      Center, Suita, Osaka, Japan (Drs Omura-Ohata, Makino, Matsubara, Matsuo, Koezuka, 
+      Tochiya, Tamanaha, Tomita, Honda-Kohmo, Noguchi, and Hosoda).
+FAU - Matsubara, Masaki
+AU  - Matsubara M
+AD  - Division of Diabetes and Lipid Metabolism, National Cerebral and Cardiovascular 
+      Center, Suita, Osaka, Japan (Drs Omura-Ohata, Makino, Matsubara, Matsuo, Koezuka, 
+      Tochiya, Tamanaha, Tomita, Honda-Kohmo, Noguchi, and Hosoda).
+FAU - Matsuo, Miki
+AU  - Matsuo M
+AD  - Division of Diabetes and Lipid Metabolism, National Cerebral and Cardiovascular 
+      Center, Suita, Osaka, Japan (Drs Omura-Ohata, Makino, Matsubara, Matsuo, Koezuka, 
+      Tochiya, Tamanaha, Tomita, Honda-Kohmo, Noguchi, and Hosoda).
+FAU - Omura-Ohata, Yoko
+AU  - Omura-Ohata Y
+AD  - Division of Diabetes and Lipid Metabolism, National Cerebral and Cardiovascular 
+      Center, Suita, Osaka, Japan (Drs Omura-Ohata, Makino, Matsubara, Matsuo, Koezuka, 
+      Tochiya, Tamanaha, Tomita, Honda-Kohmo, Noguchi, and Hosoda).
+FAU - Koezuka, Ryo
+AU  - Koezuka R
+AD  - Division of Diabetes and Lipid Metabolism, National Cerebral and Cardiovascular 
+      Center, Suita, Osaka, Japan (Drs Omura-Ohata, Makino, Matsubara, Matsuo, Koezuka, 
+      Tochiya, Tamanaha, Tomita, Honda-Kohmo, Noguchi, and Hosoda).
+FAU - Tochiya, Mayu
+AU  - Tochiya M
+AD  - Division of Diabetes and Lipid Metabolism, National Cerebral and Cardiovascular 
+      Center, Suita, Osaka, Japan (Drs Omura-Ohata, Makino, Matsubara, Matsuo, Koezuka, 
+      Tochiya, Tamanaha, Tomita, Honda-Kohmo, Noguchi, and Hosoda).
+FAU - Tamanaha, Tamiko
+AU  - Tamanaha T
+AD  - Division of Diabetes and Lipid Metabolism, National Cerebral and Cardiovascular 
+      Center, Suita, Osaka, Japan (Drs Omura-Ohata, Makino, Matsubara, Matsuo, Koezuka, 
+      Tochiya, Tamanaha, Tomita, Honda-Kohmo, Noguchi, and Hosoda).
+FAU - Tomita, Tsutomu
+AU  - Tomita T
+AD  - Division of Diabetes and Lipid Metabolism, National Cerebral and Cardiovascular 
+      Center, Suita, Osaka, Japan (Drs Omura-Ohata, Makino, Matsubara, Matsuo, Koezuka, 
+      Tochiya, Tamanaha, Tomita

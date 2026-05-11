@@ -1,0 +1,123 @@
+
+PMID- 41425719
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20251222
+LR  - 20260105
+IS  - 1555-3906 (Electronic)
+IS  - 0965-0407 (Print)
+IS  - 0965-0407 (Linking)
+VI  - 33
+IP  - 12
+DP  - 2025
+TI  - Clostridium butyricum MIYAIRI 588 Reduces Colorectal Adenomatous Polyp 
+      Recurrence: A Randomized Crossover Trial.
+PG  - 3907-3922
+LID - 10.32604/or.2025.070432 [doi]
+AB  - OBJECTIVES: Colorectal adenomatous polyps frequently recur after removal and are 
+      precursors to colorectal cancer, highlighting the need for effective preventive 
+      strategies. This study evaluated the efficacy of probiotic Clostridium butyricum 
+      MIYAIRI 588 (CBM588) in preventing colorectal adenoma recurrence in high-risk 
+      patients. METHODS: We conducted a randomized, single-blind, two-year crossover 
+      trial in patients with a history of adenomatous polyps. Participants received 
+      CBM588 in either the first or second year, with the alternate year as 
+      observation, and underwent annual surveillance colonoscopies. Outcomes (adenoma 
+      recurrence and polyp counts) were analyzed by intention-to-treat (ITT) and 
+      per-protocol (PP) approaches. RESULTS: A total of 398 participants were enrolled. 
+      In first-year ITT analysis, the CBM588-first group had a lower mean polyp count 
+      (0.78 vs. 1.00) and lower adenoma recurrence rate (30.00% vs. 35.35%) than the 
+      control-first group, though these differences were not statistically significant 
+      (p = 0.10 and p = 0.26, respectively). In contrast, first-year PP analysis showed 
+      significant reductions in the CBM588-first group's mean polyp count (0.80 vs. 
+      1.25, p < 0.05) and adenoma recurrence rate (29.76% vs. 44.71%, p < 0.05) 
+      compared to control. After crossover, the group receiving CBM588 in the second 
+      year experienced similar benefits, and by year two both groups had comparable 
+      outcomes. No carryover effect was evident. The number needed to treat to prevent 
+      one adenoma in one year was 19 in ITT and 7 in PP. CBM588 was well tolerated, 
+      with no serious adverse events. CONCLUSION: CBM588 demonstrated potential to 
+      reduce colorectal adenoma recurrence in high-risk patients, supporting its role 
+      as a feasible, non-invasive preventive strategy.
+CI  - (c) 2025 The Authors.
+FAU - Wang, Jiunn-Wei
+AU  - Wang JW
+AD  - Graduate Institute of Clinical Medicine, College of Medicine, Kaohsiung Medical 
+      University, Kaohsiung, 807378, Taiwan.
+AD  - Department of Internal Medicine, Faculty of Medicine, College of Medicine, 
+      Kaohsiung Medical University, Kaohsiung, 807378, Taiwan.
+AD  - Division of Gastroenterology, Department of Internal Medicine, Kaohsiung Medical 
+      University Hospital, Kaohsiung, 80756, Taiwan.
+FAU - Hsu, Wen-Hung
+AU  - Hsu WH
+AD  - Department of Internal Medicine, Faculty of Medicine, College of Medicine, 
+      Kaohsiung Medical University, Kaohsiung, 807378, Taiwan.
+AD  - Division of Gastroenterology, Department of Internal Medicine, Kaohsiung Medical 
+      University Hospital, Kaohsiung, 80756, Taiwan.
+AD  - Division of Gastroenterology, Kaohsiung Medical University Gangshan Hospital, 
+      Kaohsiung, 820111, Taiwan.
+FAU - Yu, Fang-Jung
+AU  - Yu FJ
+AD  - Department of Internal Medicine, Faculty of Medicine, College of Medicine, 
+      Kaohsiung Medical University, Kaohsiung, 807378, Taiwan.
+AD  - Division of Gastroenterology, Department of Internal Medicine, Kaohsiung Medical 
+      University Hospital, Kaohsiung, 80756, Taiwan.
+FAU - Kuo, Fu-Chen
+AU  - Kuo FC
+AD  - School of Medicine, College of Medicine, E-Da Hospital, I-Shou University, 
+      Kaohsiung, 84001, Taiwan.
+FAU - Liu, Chung-Jung
+AU  - Liu CJ
+AD  - Division of Gastroenterology, Department of Internal Medicine, Kaohsiung Medical 
+      University Hospital, Kaohsiung, 80756, Taiwan.
+AD  - Regenerative Medicine and Cell Therapy Research Center, Kaohsiung Medical 
+      University, Kaohsiung, 807378, Taiwan.
+FAU - Kuo, Chao-Hung
+AU  - Kuo CH
+AD  - Graduate Institute of Clinical Medicine, College of Medicine, Kaohsiung Medical 
+      University, Kaohsiung, 807378, Taiwan.
+AD  - Department of Internal Medicine, Faculty of Medicine, College of Medicine, 
+      Kaohsiung Medical University, Kaohsiung, 807378, Taiwan.
+AD  - Division of Gastroenterology, Department of Internal Medicine, Kaohsiung Medical 
+      University Hospital, Kaohsiung, 80756, Taiwan.
+FAU - Wang, Jaw-Yuan
+AU  - Wang JY
+AD  - Department of Surgery, Faculty of Medicine, College of Medicine, Kaohsiung 
+      Medical University, Kaohsiung, 807378, Taiwan.
+AD  - Division of Colorectal Surgery, Department of Surgery, Kaohsiung Medical 
+      University Hospital, Kaohsiung, 80756, Taiwan.
+FAU - Lin, Ming-Hong
+AU  - Lin MH
+AD  - Department of Microbiology and Immunology, College of Medicine, Kaohsiung Medical 
+      University, Kaohsiung, 807378, Taiwan.
+FAU - Wu, Deng-Chyang
+AU  - Wu DC
+AD  - Graduate Institute of Clinical Medicine, College of Medicine, Kaohsiung Medical 
+      University, Kaohsiung, 807378, Taiwan.
+AD  - Department of Internal Medicine, Faculty of Medicine, College of Medicine, 
+      Kaohsiung Medical University, Kaohsiung, 807378, Taiwan.
+AD  - Division of Gastroenterology, Department of Internal Medicine, Kaohsiung Medical 
+      University Hospital, Kaohsiung, 80756, Taiwan.
+LA  - eng
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+DEP - 20251127
+PL  - United States
+TA  - Oncol Res
+JT  - Oncology research
+JID - 9208097
+SB  - IM
+MH  - Humans
+MH  - Male
+MH  - Female
+MH  - *Clostridium butyricum/physiology
+MH  - Middle Aged
+MH  - *Colorectal Neoplasms/prevention & control/pathology/microbiology
+MH  - *Neoplasm Recurrence, Local/prevention & control/pathology
+MH  - Cross-Over Studies
+MH  - Aged
+MH  - *Probiotics/administration & dosage/therapeutic use
+MH  - *Adenomatous Polyps/pathology/microbiology/prevention & control
+MH  - Single-Blind Method
+MH  - Adult
+MH  - Treatment Outcome
+MH  - Colonoscopy
+PMC 

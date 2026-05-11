@@ -1,0 +1,118 @@
+
+PMID- 41795685
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260308
+LR  - 20260310
+IS  - 1552-5279 (Electronic)
+IS  - 1552-5260 (Print)
+IS  - 1552-5260 (Linking)
+VI  - 22
+IP  - 3
+DP  - 2026 Mar
+TI  - Resistance training and subcortical vascular cognitive impairment: A 12-month 
+      randomized trial.
+PG  - e71245
+LID - 10.1002/alz.71245 [doi]
+LID - e71245
+AB  - INTRODUCTION: It is unknown whether progressive resistance training (PRT) 
+      improves cognitive function in adults with cerebral small vessel disease and mild 
+      cognitive impairment (i.e., subcortical vascular cognitive impairment [SVCI]). 
+      METHODS: We conducted a 12-month randomized trial comparing PRT versus balance 
+      and tone exercises (BAT) on the Alzheimer's Disease Assessment Scale Cognitive 
+      Plus (ADAS-Cog-Plus). RESULTS: Ninety-one participants were randomized (PRT = 45; 
+      BAT = 46); 76 completed the trial. Adherence was not different between groups 
+      (p = 0.18). At 12 months, PRT significantly improved ADAS-Cog-Plus scores 
+      (estimated mean difference: -0.18; 95% confidence interval [CI: -0.35, -0.01]; 
+      p = 0.04). Planned contrasts stratified by sex showed a significant PRT effect on 
+      ADAS-Cog-Plus scores for females (mean difference: -0.27; 95% CI: [-0.49, -0.05]; 
+      p = 0.02), but not for males. PRT also significantly reduced C-reactive protein 
+      (estimated mean difference: -2.93; 95% CI: [-5.36, -0.49]; p = 0.02). No 
+      significant differences were observed for other secondary outcomes. DISCUSSION: 
+      PRT may have a small beneficial effect on cognitive function in SVCI. CLINICAL 
+      TRIAL REGISTRATION: This trial was registered with ClinicalTrials.gov 
+      (NCT02669394).
+CI  - (c) 2026 The Author(s). Alzheimer's & Dementia published by Wiley Periodicals LLC 
+      on behalf of Alzheimer's Association.
+FAU - Liu-Ambrose, Teresa
+AU  - Liu-Ambrose T
+AD  - Department of Physical Therapy, University of British Columbia, Vancouver, 
+      British Columbia, Canada.
+AD  - Djavad Mowafaghian Centre for Brain Health, University of British Columbia, 
+      Vancouver, British Columbia, Canada.
+AD  - Centre for Aging SMART at Vancouver Coastal Health, Vancouver Coastal Health 
+      Research Institute, Vancouver, British Columbia, Canada.
+FAU - Falck, Ryan S
+AU  - Falck RS
+AD  - Djavad Mowafaghian Centre for Brain Health, University of British Columbia, 
+      Vancouver, British Columbia, Canada.
+AD  - Centre for Aging SMART at Vancouver Coastal Health, Vancouver Coastal Health 
+      Research Institute, Vancouver, British Columbia, Canada.
+AD  - School of Biomedical Engineering, University of British Columbia, Vancouver, 
+      British Columbia, Canada.
+FAU - Dao, Elizabeth
+AU  - Dao E
+AD  - Centre for Aging SMART at Vancouver Coastal Health, Vancouver Coastal Health 
+      Research Institute, Vancouver, British Columbia, Canada.
+AD  - Department of Radiology, University of British Columbia, Vancouver, British 
+      Columbia, Canada.
+AD  - International Collaboration on Repair Discoveries, Vancouver, British Columbia, 
+      Canada.
+FAU - Crockett, Rachel A
+AU  - Crockett RA
+AD  - Djavad Mowafaghian Centre for Brain Health, University of British Columbia, 
+      Vancouver, British Columbia, Canada.
+AD  - Centre for Aging SMART at Vancouver Coastal Health, Vancouver Coastal Health 
+      Research Institute, Vancouver, British Columbia, Canada.
+AD  - Nuffield Department of Clinical Neurosciences, University of Oxford, Oxford, UK.
+FAU - Barha, Cindy K
+AU  - Barha CK
+AD  - Djavad Mowafaghian Centre for Brain Health, University of British Columbia, 
+      Vancouver, British Columbia, Canada.
+AD  - Centre for Aging SMART at Vancouver Coastal Health, Vancouver Coastal Health 
+      Research Institute, Vancouver, British Columbia, Canada.
+AD  - Barha Brain Health Laboratory, Faculty of Kinesiology, University of 
+      Calgary,Calgary, Alberta, Canada.
+FAU - Silva, Narlon C Boa Sorte
+AU  - Silva NCBS
+AD  - Djavad Mowafaghian Centre for Brain Health, University of British Columbia, 
+      Vancouver, British Columbia, Canada.
+AD  - Centre for Aging SMART at Vancouver Coastal Health, Vancouver Coastal Health 
+      Research Institute, Vancouver, British Columbia, Canada.
+AD  - Department of Health, Kinesiology, and Applied Physiology, Concordia University, 
+      Montreal, Quebec, Canada.
+FAU - Alkeridy, Walid A
+AU  - Alkeridy WA
+AD  - Division of Neurology, University of British Columbia, Vancouver, British 
+      Columbia, Canada.
+AD  - Department of Medicine, King Saud University, College of Medicine, Riyadh, Saudi 
+      Arabia.
+AD  - Department of Medicine, Division of Geriatric Medicine, University of British 
+      Columbia, Vancouver, British Columbia, Canada.
+FAU - Best, John R
+AU  - Best JR
+AD  - Department of Psychiatry, University of British Columbia, Vancouver, British 
+      Columbia, Canada.
+FAU - Hsiung, Ging-Yuek R
+AU  - Hsiung GR
+AD  - Djavad Mowafaghian Centre for Brain Health, University of British Columbia, 
+      Vancouver, British Columbia, Canada.
+AD  - Division of Neurology, University of British Columbia, Vancouver, British 
+      Columbia, Canada.
+FAU - Field, Thalia S
+AU  - Field TS
+AD  - Djavad Mowafaghian Centre for Brain Health, University of British Columbia, 
+      Vancouver, British Columbia, Canada.
+AD  - Division of Neurology, University of British Columbia, Vancouver, British 
+      Columbia, Canada.
+AD  - Vancouver Stroke Program, Vancouver, British Columbia, Canada.
+FAU - Madden, Kenneth M
+AU  - Madden KM
+AD  - Centre for Aging SMART at Vancouver Coastal Health, Vancouver Coastal Health 
+      Research Institute, Vancouver, British Columbia, Canada.
+AD  - Department of Medicine, Division of Geriatric Medicine, University of British 
+      Columbia, Vancouver, British Columbia, Canada.
+FAU - Davis, Jennifer C
+AU  - Davis JC
+AD  - Centre for Aging SMART at Vancouver Coastal Health, Vancouver Coastal Health 
+      Research Institute, Vancouver

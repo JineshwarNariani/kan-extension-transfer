@@ -1,0 +1,31 @@
+query,method,coherence_score,mean_raw_score,n_judged,n_predicted
+Roles and responsibilities of individual board members,left_kan,0.0,0.0,0,0
+Federal Reserve Annual Reports and Financial Disclosures,left_kan,0.0,0.0,0,0
+Redundant payment gateway architecture and failover switching mechanisms,left_kan,0.0,0.0,0,0
+federal reserve public communication channels,left_kan,0.0,0.0,0,0
+Indemnification and liability protection policies for board members,left_kan,0.0,0.0,0,0
+Monetary Policy Reports Submitted to Congress,left_kan,0.0,0.0,0,0
+Proportional representation methods and their implementation,left_kan,0.0,0.0,0,0
+The impact of unconvent,left_kan,0.0,0.0,0,0
+Beige Book Regional Economic Condition Reports,left_kan,0.0,0.0,0,0
+Federal Reserve Bank Presidents' Speeches and Public Addresses,left_kan,0.0,0.0,0,0
+Roles and responsibilities of individual board members,right_kan,0.0,0.0,0,0
+Federal Reserve Annual Reports and Financial Disclosures,right_kan,0.0,0.0,0,0
+Redundant payment gateway architecture and failover switching mechanisms,right_kan,0.0,0.0,0,0
+federal reserve public communication channels,right_kan,0.0,0.0,0,0
+Indemnification and liability protection policies for board members,right_kan,0.0,0.0,0,0
+Monetary Policy Reports Submitted to Congress,right_kan,0.0,0.0,0,0
+Proportional representation methods and their implementation,right_kan,0.0,0.0,0,0
+The impact of unconvent,right_kan,0.0,0.0,0,0
+Beige Book Regional Economic Condition Reports,right_kan,0.0,0.0,0,0
+Federal Reserve Bank Presidents' Speeches and Public Addresses,right_kan,0.0,0.0,0,0
+Roles and responsibilities of individual board members,naive_rag,0.27999999999999997,1.4,5,5
+Federal Reserve Annual Reports and Financial Disclosures,naive_rag,0.2,1.0,5,5
+Redundant payment gateway architecture and failover switching mechanisms,naive_rag,0.16,0.8,5,5
+federal reserve public communication channels,naive_rag,0.24,1.2,5,5
+Indemnification and liability protection policies for board members,naive_rag,0.36,1.8,5,5
+Monetary Policy Reports Submitted to Congress,naive_rag,0.27999999999999997,1.4,5,5
+Proportional representation methods and their implementation,naive_rag,0.32,1.6,5,5
+The impact of unconvent,naive_rag,0.36,1.8,5,5
+Beige Book Regional Economic Condition Reports,naive_rag,0.32,1.6,5,5
+Federal Reserve Bank Presidents' Speeches and Public Addresses,naive_rag,0.32,1.6,5,5

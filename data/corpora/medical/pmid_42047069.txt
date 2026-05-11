@@ -1,0 +1,4 @@
+TITLE: Effect of vitamin D supplementation on metabolic syndrome and atherosclerosis biomarkers in epilepsy: a randomized controlled trial.
+
+ABSTRACT:
+To analyze the effect of vitamin D administration on serum 25(OH)D levels and biomarkers of metabolic syndrome and atherosclerosis (homeostatic model assessment of insulin resistance [HOMA-IR], adiponectin, homocysteine, and high sensitivity C-reactive protein [hs-CRP]) in epilepsy patients receiving enzymatic antiseizure medications (ASMs).

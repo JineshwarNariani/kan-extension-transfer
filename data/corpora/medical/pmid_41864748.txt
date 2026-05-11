@@ -1,0 +1,107 @@
+
+PMID- 41864748
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260321
+LR  - 20260402
+IS  - 1474-547X (Electronic)
+IS  - 0140-6736 (Print)
+IS  - 0140-6736 (Linking)
+VI  - 407
+IP  - 10534
+DP  - 2026 Mar 21
+TI  - Prevention of urinary stones with hydration: a randomised clinical trial of an 
+      adherence intervention.
+PG  - 1171-1181
+LID - S0140-6736(25)02637-6 [pii]
+LID - 10.1016/S0140-6736(25)02637-6 [doi]
+AB  - BACKGROUND: Increased fluid intake is universally recommended to decrease the 
+      risk of recurrent urinary stones; however, adherence is challenging. The 
+      effectiveness of interventions to maintain high fluid intake has not been well 
+      studied. We sought to determine whether a multicomponent behavioural intervention 
+      programme to promote high fluid intake reduces symptomatic stone recurrence, 
+      compared with a control. METHODS: In this randomised clinical trial, participants 
+      aged 12 years and older with a history of urinary stone disease and low 24 h 
+      urine volumes based on current guidelines were enrolled at six academic medical 
+      centres in the USA. Participants were randomly assigned in a 1:1 ratio to a 
+      multicomponent behavioural intervention designed to promote increased fluid 
+      intake or to the control group receiving guideline-concordant care. The 
+      intervention consisted of a fluid prescription, financial incentives to adhere to 
+      fluid prescription, health coaching to overcome barriers to consuming more 
+      fluids, and patient-selected approaches such as text messaging to maintain 
+      increased fluid intake. Randomisation assignment was computer-generated remotely, 
+      and investigators, treating physicians, outcome assessors, and adjudicators were 
+      masked to group assignment. The primary outcome was symptomatic stone recurrence 
+      defined as stone passage or procedural intervention for stone(s) during a 2-year 
+      follow-up period, analysed in the intention-to-treat population. Secondary 
+      outcomes included change in 24 h urine volume, urinary symptoms, radiographic 
+      stone recurrence or growth, and a composite outcome of symptomatic stone 
+      recurrence, new stone formation, and growth of existing stone(s); hyponatremia 
+      requiring hospitalisation was the safety endpoint. This trial is registered with 
+      ClinicalTrials.gov, NCT03244189. FINDINGS: Between Oct 26, 2017, and Feb 18, 
+      2022, 1658 participants were randomly assigned to intervention (n=826) and 
+      control (n=832) groups (median age 44 years [IQR 29-59]; 946 [57%] female). At a 
+      median follow-up of 738 days (IQR 711-778), symptomatic stone events occurred in 
+      154 (19%) participants in the intervention group and 165 (20%) in the control 
+      group (hazard ratio 0.96, 95% CI 0.77-1.20). Among these 1658 participants, 1104 
+      (66.6%) were recurrent stone formers. 24 h urine volume increased from baseline 
+      in both groups and was higher in the intervention group at months 6, 12, 18, and 
+      24 compared with the control group. Urinary storage symptoms of frequency, 
+      urgency, and nocturia were greater in the intervention group versus control at 
+      months 6 and 12 but not at other timepoints. There was no difference in stone 
+      growth of at least 2 mm or new stones between groups from baseline to 
+      end-of-study imaging, and the composite outcome of symptomatic stone recurrence, 
+      new stone formation, or stone growth of at least 2 mm was also not statistically 
+      different between groups. No episodes of hyponatremia requiring hospitalisation 
+      (safety endpoint) were reported; 12 (1%) participants in the intervention group 
+      had asymptomatic hyponatraemia versus two (<1%) participants in the control 
+      group. INTERPRETATION: A behavioural intervention programme to promote fluid 
+      intake for secondary stone prevention did not reduce recurrent stone events but 
+      modestly increased urine volume compared with guideline-based care during a 
+      2-year follow-up period. FUNDING: National Institute of Diabetes and Digestive 
+      and Kidney Diseases.
+CI  - Copyright (c) 2026 Elsevier Ltd. All rights reserved, including those for text and 
+      data mining, AI training, and similar technologies.
+FAU - Desai, Alana C
+AU  - Desai AC
+AD  - Department of Surgery, Division of Urology, Washington University in St Louis, St 
+      Louis, MO, USA.
+FAU - Maalouf, Naim M
+AU  - Maalouf NM
+AD  - Department of Internal Medicine and Charles & Jane Pak Center for Mineral 
+      Metabolism and Clinical Research, University of Texas Southwestern Medical 
+      Center, Dallas, TX, USA.
+FAU - Harper, Jonathan D
+AU  - Harper JD
+AD  - Department of Urology, University of Washington School of Medicine, Seattle, WA, 
+      USA.
+FAU - Sivalingam, Sri
+AU  - Sivalingam S
+AD  - Glickman Urological & Kidney Institute, Cleveland Clinic Foundation, Cleveland, 
+      OH, USA.
+FAU - Lieske, John C
+AU  - Lieske JC
+AD  - Department of Nephrology and Hypertension, Mayo Clinic Foundation, Rochester, MN, 
+      USA.
+FAU - Lai, H Henry
+AU  - Lai HH
+AD  - Department of Surgery, Division of Urology, Washington University in St Louis, St 
+      Louis, MO, USA; Department of Anesthesiology, Washington University in St Louis, 
+      St Louis, MO, USA.
+FAU - Reese, Peter P
+AU  - Reese PP
+AD  - Division of Renal Electrolyte and Hypertension, Department of Medicine, Perlman 
+      School of Medicine, University of Pennsylvania School of Medicine, Philadelphia, 
+      PA, USA.
+FAU - Wessells, Hunter
+AU  - Wessells H
+AD  - Department of Urology, University of Washington School of Medicine, Seattle, WA, 
+      USA.
+FAU - Yang, Hongqiu
+AU  - Yang H
+AD  - Duke Clinical Research Institute, Duke University School of Medicine, Durham, NC, 
+      USA.
+FAU - Al-Khalidi, Hussein R
+AU  - Al-Khalidi HR
+AD  - Duke Clinical Research Institute, Duke University School of Medicine, Durham, NC, 
+      USA;

@@ -1,0 +1,116 @@
+
+PMID- 41568006
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260122
+LR  - 20260126
+IS  - 2235-2988 (Electronic)
+IS  - 2235-2988 (Linking)
+VI  - 15
+DP  - 2025
+TI  - Comprehensive nursing care for advanced digestive malignancy patients during 
+      chemotherapy based on probiotic intervention: a randomized controlled study on 
+      improvement of gastrointestinal function and prevention of complications.
+PG  - 1718665
+LID - 10.3389/fcimb.2025.1718665 [doi]
+LID - 1718665
+AB  - OBJECTIVE: This study aims to investigate the effects of a comprehensive nursing 
+      protocol combined with a probiotic intervention on improving gastrointestinal 
+      function, reducing non-infectious complications, and enhancing the quality of 
+      life in patients with advanced digestive malignancies undergoing chemotherapy, 
+      thereby providing evidence-based support for chemotherapy nursing care. METHODS: 
+      A total of 300 advanced digestive malignancy patients undergoing chemotherapy at 
+      Our Oncology Specialty Hospital from January 2021 to December 2024 were randomly 
+      divided into a control group (150 patients) and an observation group (150 
+      patients) using a random number table. The control group received conventional 
+      chemotherapy nursing care, while the observation group received a combined 
+      probiotic intervention along with comprehensive nursing care. Baseline data, 
+      gastrointestinal function scores (bloating, diarrhea, constipation, 
+      nausea/vomiting), nutritional status indicators (serum albumin, prealbumin, BMI), 
+      and quality of life scores (EORTC QOLQ-C30) were recorded before and after 2, 4, 
+      and 8 weeks of intervention. Non-infectious complications and nursing 
+      satisfaction were also evaluated. The dynamic effects of the intervention were 
+      analyzed using Generalized Estimation Equations (GEE). RESULTS: No significant 
+      differences were observed between the groups at baseline (P>0.05). However, after 
+      2, 4, and 8 weeks of intervention, the observation group exhibited significantly 
+      improved gastrointestinal function, with lower scores across all dimensions 
+      compared to the control group (P<0.05). At week 8, the total gastrointestinal 
+      function score in the observation group (1.57 +/- 0.58) was significantly lower 
+      than the control group (3.74 +/- 1.05) (t=22.156, P = 0.000). The observation group 
+      also showed significantly higher nutritional indicators: serum albumin 
+      (41.53 +/- 2.96 vs. 36.18 +/- 3.42), prealbumin (276.41 +/- 17.53 vs. 218.65 +/- 20.37), 
+      and BMI (23.58 +/- 2.86 vs. 22.37 +/- 3.21) (P<0.01). Additionally, the observation 
+      group had higher quality of life scores and lower complication rates (P<0.05), 
+      with increased nursing satisfaction. GEE analysis confirmed that the observation 
+      group showed greater improvements in all measured indicators over time compared 
+      to the control group (P<0.01). CONCLUSION: The comprehensive nursing protocol 
+      with probiotic intervention significantly improves gastrointestinal function, 
+      enhances nutritional status, reduces non-infectious complications, and boosts the 
+      quality of life in chemotherapy patients with advanced digestive malignancy. This 
+      intervention demonstrates substantial clinical benefits and therapeutic value.
+CI  - Copyright (c) 2026 Huang, Zhuo, Zhang, Gao, He and Zhang.
+FAU - Huang, Feng
+AU  - Huang F
+AD  - Department of Day Treatment Room, Clinical Oncology School of Fujian Medical 
+      University, Fujian Cancer Hospital, National Health Commission Key Laboratory of 
+      Cancer Metabolism, Fuzhou, Fujian, China.
+FAU - Zhuo, Qi
+AU  - Zhuo Q
+AD  - Department of Day Treatment Room, Clinical Oncology School of Fujian Medical 
+      University, Fujian Cancer Hospital, National Health Commission Key Laboratory of 
+      Cancer Metabolism, Fuzhou, Fujian, China.
+FAU - Zhang, Lijuan
+AU  - Zhang L
+AD  - Department of Day Treatment Room, Clinical Oncology School of Fujian Medical 
+      University, Fujian Cancer Hospital, National Health Commission Key Laboratory of 
+      Cancer Metabolism, Fuzhou, Fujian, China.
+FAU - Gao, Zheng
+AU  - Gao Z
+AD  - Department of Day Treatment Room, Clinical Oncology School of Fujian Medical 
+      University, Fujian Cancer Hospital, National Health Commission Key Laboratory of 
+      Cancer Metabolism, Fuzhou, Fujian, China.
+FAU - He, Chennuo
+AU  - He C
+AD  - Department of Day Treatment Room, Clinical Oncology School of Fujian Medical 
+      University, Fujian Cancer Hospital, National Health Commission Key Laboratory of 
+      Cancer Metabolism, Fuzhou, Fujian, China.
+FAU - Zhang, Lanlan
+AU  - Zhang L
+AD  - Department of Day Treatment Room, Clinical Oncology School of Fujian Medical 
+      University, Fujian Cancer Hospital, National Health Commission Key Laboratory of 
+      Cancer Metabolism, Fuzhou, Fujian, China.
+LA  - eng
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+DEP - 20260106
+PL  - Switzerland
+TA  - Front Cell Infect Microbiol
+JT  - Frontiers in cellular and infection microbiology
+JID - 101585359
+RN  - 0 (Antineoplastic Agents)
+SB  - IM
+MH  - Humans
+MH  - *Probiotics/therapeutic use/administration & dosage
+MH  - Male
+MH  - Female
+MH  - Quality of Life
+MH  - Middle Aged
+MH  - Aged
+MH  - Adult
+MH  - *Gastrointestinal Neoplasms/nursing/drug therapy
+MH  - *Nursing Care/methods
+MH  - Nutritional Status
+MH  - *Gastrointestinal Tract/physiopathology
+MH  - *Digestive System Neoplasms/drug therapy/nursing
+MH  - Antineoplastic Agents/adverse effects/therapeutic use
+PMC - PMC12818372
+OTO - NOTNLM
+OT  - chemotherapy
+OT  - complications
+OT  - comprehensive nursing
+OT  - dvanced digestive malignancy patients
+OT  - gastrointestinal function
+OT  - probiotics
+COIS- The authors declare that the research was conducted in the absence of any 
+      commercial or financial relationships that could be construed as a potential 
+      conflict o

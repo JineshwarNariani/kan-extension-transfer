@@ -1,0 +1,135 @@
+
+PMID- 41961837
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260410
+LR  - 20260412
+IS  - 1932-6203 (Electronic)
+IS  - 1932-6203 (Linking)
+VI  - 21
+IP  - 4
+DP  - 2026
+TI  - Risk factors for spontaneous abortion following hepatitis E vaccination during 
+      and shortly before pregnancy: Further analysis from a cluster-randomized trial.
+PG  - e0345974
+LID - 10.1371/journal.pone.0345974 [doi]
+LID - e0345974
+AB  - BACKGROUND: A recent randomized trial of Hepatitis E Vaccine (HEV239) found an 
+      elevated risk of spontaneous abortion (SAB) in women given HEV239 during or 
+      within ninety days before pregnancy. Here we present additional analyses to 
+      better understand this risk. METHODS: We investigated whether maternal risk 
+      profiles of SAB or gestational age at SAB differed between women receiving HEV239 
+      versus control Hepatitis B vaccine (HBV). We also assessed whether 
+      HEV239-vaccinated women who experienced SABs had distinct short-term adverse 
+      reactions compared to HEV239-vaccinated women who had live births, exploring 
+      potential inflammatory mechanisms. Finally, we assessed maternal exposure to 
+      HEV239 in narrowly defined pre-last menstrual period (LMP) windows to more 
+      precisely demarcate pre-LMP at which HEV-239 vaccination was associated with an 
+      elevated risk of SAB. Chi-square tests and Mann-Whitney U tests were performed 
+      for bivariate comparisons. Poisson models were used for multivariable analyses. 
+      FINDINGS: Baseline maternal risk factors for SAB (age, body mass index, parity, 
+      and histories of SAB, hypertension, or diabetes) were similar between the SABs in 
+      HEV239 and HBV groups. Median gestational age at SAB was comparable (10.5 weeks 
+      [IQR 10-13] for HEV239 vs. 11 weeks [IQR 9-12.2] for HBV, p = 0.783). No 
+      increased short-term adverse events (pain: 9% vs. 9%; fever: 2% vs. 1%) were 
+      observed among HEV239 recipients who experienced SABs compared to those who did 
+      not. An elevated risk of SAB was observed in HEV239 recipients vaccinated 31-60 
+      days pre-LMP (Relative Risk 4.3 [95% CI 1.3-19.3], p = 0.026). INTERPRETATION: 
+      Our analyses did not uncover associations pointing to a biological mechanism 
+      underlying the original observation of an increased SAB rate connected to HEV239 
+      vaccination shortly before or during pregnancy. Targeted studies such as 
+      placental examinations and genetic testing are needed to investigate potential 
+      mechanisms.
+CI  - Copyright: (c) 2026 Aziz et al. This is an open access article distributed under 
+      the terms of the Creative Commons Attribution License, which permits unrestricted 
+      use, distribution, and reproduction in any medium, provided the original author 
+      and source are credited.
+FAU - Aziz, Asma Binte
+AU  - Aziz AB
+AUID- ORCID: 0000-0003-0203-5744
+AD  - International Vaccine Institute, Seoul, Republic of Korea.
+AD  - International Centre for Diarrhoeal Disease Research, Dhaka, Bangladesh.
+AD  - Institute of Clinical Medicine, University of Oslo, Norway.
+FAU - Ahmmed, Faisal
+AU  - Ahmmed F
+AD  - International Centre for Diarrhoeal Disease Research, Dhaka, Bangladesh.
+FAU - Haile, Kassa
+AU  - Haile K
+AD  - Armauer Hansen Research Institute, Addis Ababa, Ethiopia.
+FAU - Kering, Kelvin
+AU  - Kering K
+AD  - Kenya Medical Research Institute (KEMRI), Nairobi, Kenya.
+FAU - Dudman, Susanne
+AU  - Dudman S
+AUID- ORCID: 0000-0001-5047-4982
+AD  - Institute of Clinical Medicine, University of Oslo, Norway.
+AD  - Oslo University Hospital, Oslo, Norway.
+FAU - Julin, Cathinka Halle
+AU  - Julin CH
+AD  - Oslo University Hospital, Oslo, Norway.
+FAU - Overbo, Joakim
+AU  - Overbo J
+AD  - Oslo University Hospital, Oslo, Norway.
+FAU - Khan, Ashraful Islam
+AU  - Khan AI
+AD  - International Centre for Diarrhoeal Disease Research, Dhaka, Bangladesh.
+FAU - Akter, Afroza
+AU  - Akter A
+AD  - International Centre for Diarrhoeal Disease Research, Dhaka, Bangladesh.
+FAU - Ongadi, Beatrice Atieno
+AU  - Ongadi BA
+AUID- ORCID: 0000-0001-6687-6927
+AD  - Kenya Medical Research Institute (KEMRI), Nairobi, Kenya.
+FAU - Ngugi, Benjamin
+AU  - Ngugi B
+AD  - Kenya Medical Research Institute (KEMRI), Nairobi, Kenya.
+FAU - Mbae, Cecilia Kathure
+AU  - Mbae CK
+AD  - Kenya Medical Research Institute (KEMRI), Nairobi, Kenya.
+FAU - Mesfin, Edlawit
+AU  - Mesfin E
+AD  - Armauer Hansen Research Institute, Addis Ababa, Ethiopia.
+FAU - Chowdhury, Fahima
+AU  - Chowdhury F
+AD  - International Centre for Diarrhoeal Disease Research, Dhaka, Bangladesh.
+FAU - Khanam, Farhana
+AU  - Khanam F
+AD  - International Centre for Diarrhoeal Disease Research, Dhaka, Bangladesh.
+FAU - Lee, Joo-Young Esther
+AU  - Lee JE
+AD  - International Vaccine Institute, Seoul, Republic of Korea.
+FAU - Im, Justin
+AU  - Im J
+AD  - Research Investment for Global Health Technology (RIGHT) Foundation, Seoul, 
+      Republic of Korea.
+FAU - Bundi, Martin Mwebia
+AU  - Bundi MM
+AD  - Kenya Medical Research Institute (KEMRI), Nairobi, Kenya.
+FAU - Firoj, Md Golam
+AU  - Firoj MG
+AD  - International Centre for Diarrhoeal Disease Research, Dhaka, Bangladesh.
+FAU - Islam, Md Taufiqul
+AU  - Islam MT
+AD  - International Centre for Diarrhoeal Disease Research, Dhaka, Bangladesh.
+FAU - Mwangi, Moses
+AU  - Mwangi M
+AD  - Kenya Medical Research Institute (KEMRI), Nairobi, Kenya.
+FAU - Rickett, Natasha Y
+AU  - Rickett NY
+AUID- ORCID: 0000-0002-3172-1877
+AD  - International Vaccine Institute, Seoul, Republic of Korea.
+FAU - Ara, Sadia Isfat
+AU  - Ara SI
+AUID- ORCID: 0000-0002-7983-087X
+AD  - International Centre for Diarrhoeal Disease Research, Dhaka, Bangladesh.
+FAU - Behute, Meseret Gebre
+AU  - Behute MG
+AD  - International Vaccine Institute, Seoul, Republic of Korea.
+FAU - Park, Se Eun
+AU  - Park SE
+AD  - International Vaccine Institute, Seoul, Republic of Korea.
+FAU - Agampodi, Suneth
+AU  - Agampodi S
+AD  - International Vaccine Institute, Seoul, Republic of Korea.
+FAU - Kariuki, Samuel
+AU  -

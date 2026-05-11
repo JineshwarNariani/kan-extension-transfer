@@ -1,0 +1,2000 @@
+Finance and Economics Discussion Series
+
+Federal Reserve Board, Washington, D.C.
+ISSN 1936-2854 (Print)
+ISSN 2767-3898 (Online)
+
+Hawkish or Dovish Fed? Estimating a Time-Varying Reaction
+Function of the Federal Open Market Committee’s Median
+Participant
+
+Manuel Gonz´alez-Astudillo and Rakeen Tanvir
+
+2023-070
+
+Please cite this paper as:
+Gonz´alez-Astudillo, Manuel, and Rakeen Tanvir (2023). “Hawkish or Dovish Fed? Estimat-
+ing a Time-Varying Reaction Function of the Federal Open Market Committee’s Median
+Participant,” Finance and Economics Discussion Series 2023-070. Washington: Board of
+Governors of the Federal Reserve System, https://doi.org/10.17016/FEDS.2023.070.
+
+NOTE: Staﬀ working papers in the Finance and Economics Discussion Series (FEDS) are preliminary
+materials circulated to stimulate discussion and critical comment. The analysis and conclusions set forth
+are those of the authors and do not indicate concurrence by other members of the research staﬀ or the
+Board of Governors. References in publications to the Finance and Economics Discussion Series (other than
+acknowledgement) should be cleared with the author(s) to protect the tentative character of these papers.
+
+Hawkish or Dovish Fed? Estimating a Time-Varying
+Reaction Function of the Federal Open Market
+Committee’s Median Participant
+
+Manuel Gonz´alez-Astudillo †1 and Rakeen Tanvir ‡2
+
+1Federal Reserve Board, Washington, D.C., USA
+1Escuela Superior Polit´ecnica del Litoral, ESPOL, Guayaquil, Ecuador
+2Federal Reserve Board, Washington, D.C., USA
+
+November 1, 2023
+
+Abstract
+
+This paper estimates a time-varying reaction function of the median participant
+of the Federal Open Market Committee, using a Taylor rule with time-varying co-
+eﬃcients estimated on one- to three-year ahead median forecasts of the federal funds
+rate, inﬂation, and the unemployment rate from the Summary of Economic Projections
+(SEP). We estimate the model with Bayesian methods, incorporating the eﬀective lower
+bound on the median federal funds rate projections. The results indicate that the mon-
+etary policy rule has become signiﬁcantly more persistent after the pandemic than in
+the years prior, and it currently reacts strongly to inﬂation, at more than twice the
+responsiveness estimated prior to 2020. Our proposed policy rule produces accurate
+predictions of the median federal funds rate projections in real time for given SEP fore-
+casts of inﬂation and the unemployment rate, suggesting that the median participant’s
+reaction function is well-represented by our assumed Taylor rule with time-varying co-
+eﬃcients. Our results show that the median participant’s reaction function becomes
+less persistent and less responsive to inﬂation yet more responsive to the output gap in
+anticipation of tighter monetary policy conditions, measured by a steeper yield curve.
+We also ﬁnd that labor market activity, inﬂation, and macroeconomic uncertainty
+correlate signiﬁcantly with the evolution of the time-varying coeﬃcients of the rule.
+Finally, we show that in times of a less persistent policy rule or more responsiveness
+to inﬂation, markets perceive nominal bonds as better macroeconomic hedges.
+
+Keywords: Summary of Economic Projections, reaction function, Taylor rule, FOMC
+
+communications, time-varying coeﬃcients, censored regression
+
+JEL Classiﬁcation Numbers: C32, C34, E52, E58
+
+∗The views expressed in this paper are solely the responsibility of the authors and should not be interpreted
+
+as reﬂecting the views of the Board of Governors of the Federal Reserve System.
+
+†Corresponding author. Email: manuel.p.gonzalez-astudillo@frb.gov
+‡Email: rakeen.tanvir@frb.gov
+
+1
+
+Introduction
+
+How can the public infer in real time the strength of the response of the Federal Reserve
+
+(Fed) toward each of the goals of its dual mandate of low and stable inﬂation and maximum
+
+employment? For instance, could the Fed be reacting more strongly to inﬂation pressures
+
+and less to increases in the unemployment rate at a given point in time? In this paper,
+
+we assess changes in the Fed’s policy responses to inﬂation and economic activity through a
+
+time-varying reaction function estimated with economic projections made by the participants
+
+of the Federal Open Market Committee (FOMC).
+
+Bernanke (2016) and Faust (2016) advocate for the FOMC to make its monetary policy
+
+reaction function public to increase the transparency of Fed communications. In the spirit
+
+of oﬀering clearer communications, the FOMC started releasing the Summary of Economic
+
+Projections (SEP) in which (since 2012) each participant projects a corresponding path for
+
+the federal funds rate “under appropriate monetary policy,” in addition to other macroeco-
+
+nomic projections such as inﬂation and the unemployment rate consistent with that path.
+
+We use the information provided in the SEP to propose and estimate a monetary policy
+
+reaction function that private agents, especially ﬁrms and ﬁnancial market participants, can
+
+use to gauge, for instance, the path of future interest rates.
+
+We posit an inertial Taylor (1999) rule with time-varying coeﬃcients as a reaction func-
+
+tion of the FOMC. Some variants of this rule are a common way of modeling the Fed’s
+
+reaction function (see Judd and Rudebusch, 1998, for example).
+
+In fact, the release of
+
+historical FOMC materials from 2017 shows that the Fed staﬀ projection used an inertial
+
+Taylor (1999) rule as the interest-rate reaction function.1 However, in contrast with several
+
+papers in the literature about Taylor rules with time-varying or Markov-switching coeﬃ-
+
+cients (see Boivin, 2006; Kim and Nelson, 2006; Murray, Nikolsko-Rzhevskyy and Papell,
+
+1See the “Monetary Policy” section of the “Key Background Factors” in the December 2017 Tealbook
+here:
+https://www.federalreserve.gov/monetarypolicy/files/FOMC20171213tealbooka20171201.
+pdf, and this memo from June 2016 to the FOMC: https://www.federalreserve.gov/monetarypolicy/
+files/FOMC20160603memo04.pdf.
+
+1
+
+2015; Gonz´alez-Astudillo, 2018, for example), we do not use historical/realized data on in-
+
+terest rates, inﬂation, and the output gap to estimate the rule.
+
+Because we aim to measure how the median FOMC participant would respond to devi-
+
+ations of macroeconomic outcomes from the mandate of the Fed, we use the SEP forecasts
+
+of the federal funds rate, inﬂation, and the unemployment rate to estimate our Taylor rule
+
+with time-varying coeﬃcients. These forecasts consider the end of the current year and the
+
+next two years (when the projections are made in March or June), or the end of the next
+
+three years (when they are made in October or December). In particular, we use the median
+
+SEP forecasts of these variables to inform the estimates of the persistence, inﬂation, and out-
+
+put gap coeﬃcients of the monetary policy rule each period, with a sample from June 2012
+
+to March 2023. Moreover, given that our sample covers two eﬀective lower bound (ELB)
+
+episodes for the federal funds rate, we account for censoring in the monetary policy rule as
+
+otherwise the estimates of policy rule coeﬃcients would be biased (see Kahn and Palmer,
+
+2016; Morris, 2017; Arai, 2023, for censored estimations with SEP data).
+
+Our state-space model (SSM) considers a Taylor rule equation across forecast horizons in
+
+which each time-varying coeﬃcient is a latent variable that follows random walk dynamics
+
+and is the same across horizons. Because we consider three forecast horizons, our model
+
+has a factor structure in which the relationship among the median forecasts of the federal
+
+funds rate, inﬂation, and unemployment gaps over those horizons informs the evolution of
+
+the latent variables, i.e., the time-varying coeﬃcients of the rule. Our Bayesian estimation
+
+results indicate that the persistence of the monetary policy rule has increased signiﬁcantly
+
+since 2020 and the inﬂation coeﬃcient has more than doubled compared with estimates
+
+obtained with information prior to the pandemic. These results suggest that the most recent
+
+monetary policy response of the median FOMC participant is to aggressively counteract
+
+inﬂation deviations from the Committee’s target.
+
+As a way to validate our proposed reaction function, we check if our monetary policy
+
+rule speciﬁcation with time-varying coeﬃcients is useful to predict the median SEP forecasts
+
+2
+
+given inputs of the rule also taken from the SEP. We perform that prediction exercise in
+
+real time to ﬁnd that our speciﬁcation matches very well the federal funds rate median
+
+forecast at the three horizons and that it produces much smaller forecast errors than a
+
+monetary policy rule with constant coeﬃcients. In particular, our speciﬁcation is able to
+
+deliver median predictions at the ELB during the pandemic and is almost on point with
+
+the median SEP forecast in March 2023. These results indicate that the median FOMC
+
+participant’s projections could be adequately estimated with a monetary policy rule whose
+
+coeﬃcients magnitudes change over time. As a byproduct of our estimation technique that
+
+takes into account the ELB, we produce a shadow federal funds rate at the end of each year
+
+that reaches about -2% during each of the two ELB episodes in our sample.
+
+We go one step further and examine what incoming macroeconomic data may be corre-
+
+lated with changes in the evolution of the time-varying policy rule coeﬃcients, in an attempt
+
+to ﬁnd determinants of variability in the conduct of monetary policy. The results suggest
+
+that the persistence of the rule and the reactions of the median participant of the FOMC
+
+to inﬂation and the output gap change during monetary policy tightening and easing cycles.
+
+In particular, at the onset of a tightening cycle or when tighter monetary conditions are ex-
+
+pected in the future, the policy rule becomes less persistent and less responsive to inﬂation,
+
+but its responsiveness to the output gap increases, as this latter variable may be the focus of
+
+policy makers at this stage of the monetary policy cycle. Once in the tightening cycle, the
+
+rule increases its persistence and, as monetary policy eventually eases, the responsiveness
+
+to inﬂation and the output gap decline, perhaps indicating the inclination of the FOMC
+
+to have insurance cuts available. Moreover, if the federal funds rate ends up at the ELB,
+
+the rule becomes signiﬁcantly more persistent as monetary policy could be operating under
+
+“Odyssean” forward guidance in these instances.
+
+In addition, when the inﬂation rate increases, particularly above the 2% inﬂation target,
+
+the attention to inﬂation increases as well as the persistence of the reaction function. Also,
+
+weaker current labor market conditions make the policy rule more responsive to the output
+
+3
+
+gap. However, a declining indicator of future labor market conditions leads the reaction
+
+function to become less sensitive to inﬂation and the output gap, signalling the ability to cut
+
+rates quickly in case of a downturn. Lastly, elevated macroeconomic uncertainty increases
+
+the responsiveness to inﬂation, possibly indicating a more hawkish stance of monetary policy
+
+to prevent losing control over inﬂation, perhaps through a reputation channel.
+
+As a ﬁnal exercise, we analyze if the evolution of the time-varying coeﬃcients of the as-
+
+sumed monetary policy rule inﬂuence Treasury bond market returns in an attempt to justify
+
+our motivation that our estimation results can be useful to ﬁnancial market participants.
+
+We ﬁnd that when the reaction function of the median FOMC participant becomes less per-
+
+sistent or more focused on inﬂation, bond excess returns decline, indicating that Treasury
+
+bonds become better macroeconomic hedges. This feature is a reﬂection that when demand
+
+shocks hit the economy, the procyclicality of the federal funds rate (and countercyclicality
+
+of bond valuations) increases when policymakers pay more attention to inﬂation, or their
+
+policy prescriptions are less persistent.
+
+2 Contacts With The Literature
+
+Previous studies that estimated the FOMC’s reaction function with SEP data did so in
+
+two ways: (i) with constant coeﬃcients and (ii) with time-varying coeﬃcients. Studies with
+
+constant coeﬃcients often include a censored speciﬁcation to take into account the ELB in
+
+the federal funds rate projections. To the best of our knowledge, there are no studies in the
+
+existing literature that estimate time-varying coeﬃcients taking into account the censoring
+
+problem caused by the ELB.
+
+Kahn and Palmer (2016) use, like us, median forecasts from the SEP at diﬀerent hori-
+
+zons for the federal funds rate, headline and core inﬂation, and the unemployment rate to
+
+estimate a constant-coeﬃcient reaction function akin to a Taylor (1993) rule with inﬂation
+
+and unemployment gaps, but without persistence in the interest rate projections. The esti-
+
+4
+
+mation with data from January 2012 to March 2016 incorporates censoring in the reaction
+
+function and obtains a core inﬂation coeﬃcient around 3.8 (1.6 with headline inﬂation) with
+
+an unemployment coeﬃcient around -1.5 (-1.6 with headline). The results using headline
+
+inﬂation are relatively close to those obtained using real-time historical data from 1987:Q1 to
+
+2007:Q4. Moreover, a counterfactual exercise that uses the coeﬃcients of the reaction func-
+
+tion estimated with SEP and real-time data on inﬂation and the unemployment rate shows
+
+that the projected federal funds rate closely mirrors the actual federal funds rate target from
+
+roughly 2001 to 2015.
+
+Morris (2017) estimate a monetary policy rule `a la Taylor with average SEP projections
+
+for the federal funds rate, inﬂation, and the unemployment rate from January 2012 to De-
+
+cember 2016, incorporating censoring due to the ELB. The results show a headline inﬂation
+
+coeﬃcient close to 3.1 and a coeﬃcient on -2 times the unemployment gap (to mimic for the
+
+output gap, using Okun’s law) of about 0.8. In addition, controlling for ﬁnancial risk (mea-
+
+sured by the 10-year versus 2-year Treasury yield spread) indicates that the federal funds
+
+rate reacts negatively to it and that the inﬂation coeﬃcient is substantially lower, around
+
+0.6. A consideration of breaks in the reaction function shows that there is statistical evi-
+
+dence of diﬀerent coeﬃcients before and after December 2014. In fact, rolling nine-meeting
+
+estimates show an inﬂation coeﬃcient that declined steadily from about 1.5 in December
+
+2014 to 0.5 two years later whereas the activity coeﬃcient (that measures the reaction of the
+
+federal funds rate to the average of the output and unemployment gaps) is less noisy, but
+
+also declines from about 1 to about 0.2 in the same period. The author concludes that the
+
+change in policymaking over this period may be characterized as substituting responsiveness
+
+to ﬁnancial risk for responsiveness to inﬂation.
+
+In a diﬀerent attempt to determine if there have been changes in the reaction function of
+
+the FOMC over time, Knotek (2019) estimates a time-invariant monetary policy rule using
+
+rolling windows of the median SEP forecast of the federal funds rate, inﬂation, and the
+
+unemployment rate for the period December 2015 to March 2019. The ﬁndings suggest that
+
+5
+
+the policy rule coeﬃcients have changed, as the federal funds rate projections have become
+
+less responsive to the unemployment gap. Apart from Knotek’s model having constant
+
+coeﬃcients estimated on rolling windows of data and ours having truly time-varying ones, a
+
+key diﬀerence with respect to our approach is that his estimation is of a quarterly rule, using
+
+linearly interpolated missing quarterly forecasts from the SEP combined with nowcasts of
+
+the variables, whereas our rule is speciﬁed at an annual frequency in which no interpolation
+
+is needed (but still estimated with quarterly releases from the SEP). Additionally, the author
+
+does not include the ELB period from the Great Recession.
+
+Kalfa and Marquez (2021) analyze the FOMC’s projections, focusing on release dates,
+
+delays in release, the forecast process, and forecast assessment, using the median SEP. In the
+
+absence of an oﬃcial reaction function, the authors estimate the coeﬃcients of an inertial rule
+
+similar to Taylor’s (speciﬁed at an annual frequency) that includes chairmanship dummies
+
+for Ben Bernanke and Janet Yellen, in the period 2012-2019, using quarterly SEP releases.
+
+The results of the ﬁnal model speciﬁcation show that (i) the estimated annual persistence of
+
+the median federal funds rate projection is 0.36 (0.77 if converted to quarterly frequency),
+
+(ii) a one-percentage-point increase in the median inﬂation projection increases the median
+
+federal funds rate projection by 0.45 pp, (iii) a one-percentage-point increase in the median
+
+unemployment rate forecast decreases the median interest rate projection by 0.42 pp, and
+
+(iv) the coeﬃcient for Yellen’s tenure is signiﬁcantly negative, equivalent to an almost 0.7 pp
+
+lower federal funds rate projection, on average. Their paper does not take into account the
+
+ELB on the median federal funds rate projection during the Great Recession when estimating
+
+the model.
+
+Lastly, among the studies with constant coeﬃcients in the FOMC’s reaction function
+
+using a censored speciﬁcation, Arai (2023) estimates a Taylor rule that depends on the
+
+inﬂation and unemployment gaps but does not have persistence because of the diﬃculty
+
+to track past projections. This diﬃculty occurs because Arai uses individual participant’s
+
+projections at diﬀerent horizons instead of median or average statistics. The results with a
+
+6
+
+sample from 2012 to 2017 (1471 individual projections) with core PCE inﬂation in the rule,
+
+including horizon dummies, yield an inﬂation coeﬃcient around 1.3 and an unemployment
+
+gap coeﬃcient around -0.6.
+
+To the best of our knowledge, Bauer, Pﬂueger and Sunderam (2023) is the only study
+
+that considers time-varying coeﬃcients in the perceived or assumed reaction function of the
+
+FOMC. The authors are interested in the perception of monetary policymaking because
+
+of its importance for policy eﬀectiveness. They estimate a time-varying coeﬃcient Taylor
+
+rule, relying on a forecaster-by-horizon monthly panel based on data from the Blue Chip
+
+Financial Forecasts. The authors use (pooled and ﬁxed eﬀects) panel regressions for each
+
+survey and estimate time series of the persistence, inﬂation, and output gap coeﬃcients of
+
+the rule, assuming that each of the coeﬃcients follows a martingale and, therefore, that they
+
+are uniform over forecast horizons (and forecasters). In an additional exercise, the authors
+
+estimate the same panel regressions with data from 16 to 19 FOMC participants in the
+
+period 2012-2016, using the SEP forecasts for the current and the following years.
+
+The authors focus on the output gap coeﬃcient throughout their discussion in the paper
+
+because they argue that an estimation of the inﬂation coeﬃcient during periods of stable
+
+general price increases could lead to the mistaken conclusion that the Fed is not aggressively
+
+ﬁghting inﬂation, as noted by Clarida, Gali and Gertler (2000). Although their estimated
+
+inﬂation coeﬃcient increased signiﬁcantly at the end of the sample (April 2023), the output
+
+gap coeﬃcient would still be a summary statistic of the Fed’s overall responsiveness to
+
+economic conditions as long as inﬂation is expected to move up and down a stable Phillips
+
+curve. Three distinctions are apparent with the approach in our paper. First, we use
+
+FOMC participants’ information instead of private sector forecasters’ projections. Because
+
+our intention is to gauge the FOMC reaction function through a Taylor rule with time-
+
+varying coeﬃcients in real time yet the individual participants’ forecasts are released with a
+
+delay of ﬁve years, we use the median SEP forecasts. Second, Bauer, Pﬂueger and Sunderam
+
+(2023) do not take into account the ELB when estimating their model. That omission could
+
+7
+
+inﬂuence their results, especially those that indicate that the output gap coeﬃcient was close
+
+to zero through 2014 when using the SEP data. Third, we obtain and discuss the evolution
+
+of the time-varying persistence, inﬂation, and unemployment (output) gaps coeﬃcients of
+
+the rule, not only the last, so that we can shed more light on the monetary policy reaction
+
+function of the FOMC.
+
+3 The Empirical Model
+
+Assuming we have a sample of forecasts indexed by t = 1, 2, . . . , T , the shadow interest
+
+rate projection for horizon h, where h = 1, 2, 3 years ahead (possibly including the current
+
+year as h = 1), is given by the following modiﬁed Taylor rule (the modiﬁcation uses the
+
+unemployment gap to proxy for the output gap):
+
+R∗
+
+h = ρ (cid:12) R∗
+
+h−1 + (1 − ρ) (cid:12) (cid:0)RLR + απ (cid:12) (πh − 2) + αy (cid:12) 2(uLR − uh)(cid:1) + γh + ψ + εh, (1)
+
+where εh ∼ N (0, σ2
+
+ε IT ); and R∗
+
+h is a T × 1 vector with the shadow federal funds rate
+
+projection for horizon h, as we assume each element of the T × 1 vector of actual federal
+
+funds rate projections, R, is the maximum between an eﬀective lower bound (ELB),
+
+R, and
+¯
+
+the corresponding element of R∗
+
+h. In addition, R∗
+
+h−1 is a T × 1 vector with the shadow rate
+
+projected for the previous horizon; RLR is a T × 1 vector with the long-run federal funds
+
+rate projection; πh is a T × 1 vector with the core inﬂation rate projection for horizon h (we
+
+assume the inﬂation target is 2 percent in our Taylor rule, as deﬁned by the Statement on
+
+Longer-Run Goals and Monetary Policy Strategy of the FOMC);2 uLR is a T × 1 vector with
+
+the long-run unemployment rate projection; and uh is a T ×1 vector with the unemployment
+
+rate projection for horizon h. Notice that 2(uLR − uh) proxies for a T × 1 vector of projected
+
+output gaps in horizon h, where “2” is implied by usual estimates of Okun’s law in the
+
+literature (see Ball, Leigh and Loungani, 2017, for instance). The coeﬃcients of the rule
+
+2See https://www.federalreserve.gov/monetarypolicy/files/FOMC_LongerRunGoals.pdf.
+
+8
+
+are time varying and, hence, ρ, απ, and αy are also T × 1 vectors. Here, (cid:12) denotes the
+
+Hadamard or element-wise product. Because we allow the projections to have horizon-
+
+speciﬁc idiosyncratic components, we add a T × 1 vector of constants, γh.3 In addition, we
+
+capture seasonality with a quarterly dummy variable, ψ, also of dimension T × 1 that we
+
+exclude in what follows to save on notation. Finally, εh is a T × 1 vector of errors to the
+
+period h projection which should not be interpreted as a monetary policy shock, but as an
+
+error term reﬂecting that the modiﬁed Taylor rule (1) is an imperfect representation of the
+
+true reaction function of the median FOMC participant.
+
+For a particular period t in which a projection h periods ahead is made, the Taylor rule
+
+for the expected shadow federal funds rate is as follows (here, Et denotes the expectation
+
+conditional on the information available in period t, so that Etxt+h is the h-period-ahead
+
+projection of variable xt):
+
+EtR∗
+
+t+h = ρtEtR∗
+
+t+h−1 + (1 − ρt) (cid:0)EtRLR
+
+t + απ
+
+t (Etπt+h − 2) + αy
+
+t 2(EtuLR
+
+t − Etut+h)(cid:1) + γh + εt+h,
+
+with
+
+ρt = ρt−1 + ηρ
+t
+
+t = απ
+απ
+
+t−1 + ηαπ
+
+t
+
+t = αy
+αy
+
+t−1 + ηαy
+
+t
+
+,
+
+,
+
+,
+
+ηρ
+t ∼ i.i.d. N (0, σ2
+
+ηρ) ,
+
+ρ0 ∼ N (µρ0, σ2
+
+ρ0) ,
+
+ηαπ
+t ∼ i.i.d. N (0, σ2
+
+ηαπ ),
+
+ηαy
+t ∼ i.i.d. N (0, σ2
+
+ηαy ),
+
+απ
+
+0 ∼ N (µαπ
+
+0
+
+αy
+
+0 ∼ N (µαy
+
+0
+
+, σ2
+απ
+0
+
+),
+
+, σ2
+αy
+0
+
+).
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+In our setup, the frequency of the projections is quarterly, but the Taylor rule speciﬁcation
+
+in equation (2) is at an annual frequency. That is, the lagged shadow rate for the projection
+
+in t + h corresponds to the shadow rate projection one year prior. As a consequence, the
+
+size of the persistence coeﬃcient, ρt, has to be interpreted accordingly.
+
+3This idiosyncratic component plays the role of a ﬁxed eﬀect in a panel structure in which the cross
+section variability is given by the forecast horizons. We assume there are potentially unobserved components
+that may be correlated with the arguments of the Taylor rule in its right hand side, which gives rise to these
+ﬁxed eﬀects.
+
+9
+
+We postulate the following SSM to estimate the system in equations (2)-(5):
+
+
+
+
+
+
+
+
+
+EtR∗
+
+t+1 − EtRLR
+
+t
+
+R∗
+
+t − EtRLR
+
+t
+
+EtR∗
+
+t+2 − EtRLR
+
+t
+
+EtR∗
+
+t+1 − EtRLR
+
+t
+
+EtR∗
+
+t+3 − EtRLR
+
+Etπt+1 − 2
+
+2(EtuLR
+
+t − Etut+1)
+
+Etπt+2 − 2
+
+2(EtuLR
+
+t − Etut+2)
+
+Etπt+3 − 2
+
+2(EtuLR
+
+t − Etut+3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ρt
+
+˜απ
+t
+˜αy
+t
+
+
+
+
+
+
+
+
+
++
+
+
+
+
+
+
+
+
+
++
+
+
+
+
+
+
+
+
+
+γ1
+
+γ2
+
+γ3
+
+
+
+
+
+
+
+
+
+εt+1
+
+εt+2
+
+εt+3
+
+
+
+
+
+
+
+
+
+,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=
+
+=
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+t
+
+
+
+
+
+
+
+
+ρt
+
+˜απ
+t
+˜αy
+t
+
+t+2 − EtRLR
+EtR∗
+t
+
+
+
+
+ρt−1
+
+˜απ
+
+t−1
+
+˜αy
+
+t−1
+
++
+
+
+
+
+
+
+
+
+
+
+
+
+
+ηρ
+t
+η ˜απ
+t
+η ˜αy
+t
+
+,
+
+
+
+
+
+
+
+where ρt ∈ [0, 1), ˜απ
+
+t = απ
+
+t (1 − ρt), ˜αy
+
+t = αy
+
+t (1 − ρt) ∀t, and
+
+
+
+
+
+
+
+
+
+ηρ
+t
+
+η ˜απ
+t
+
+η ˜αy
+t
+
+
+
+
+
+
+
+
+
+03×1,
+
+Ft−1 ∼N
+
+(cid:12)
+
+(cid:12)
+(cid:12)
+(cid:12)
+
+(cid:12)
+
+(cid:12)
+
+(cid:12)
+
+(cid:12)
+
+(cid:12)
+(cid:12)
+
+
+
+
+
+
+
+
+
+σ2
+ηρ
+
+−απ
+
+t−1σ2
+ηρ
+
+−αy
+
+t−1σ2
+ηρ
+
+−απ
+
+t−1σ2
+ηρ
+
+−αy
+
+t−1σ2
+
+ηρ απ
+
+t−1αy
+
+σ2
+
+t,η ˜απ
+t−1σ2
+ηρ
+
+t−1αy
+απ
+
+t−1σ2
+ηρ
+
+σ2
+
+t,η ˜αy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,
+
+ρ0 ∼N (µρ0, σ2
+(cid:16)
+
+ρ0),
+
+˜απ
+
+0 ∼N
+
+(1 − µρ0)µαπ
+
+0
+
+, σ2
+
+ρ0σ2
+απ
+0
+
+(cid:16)
+
+˜αy
+
+0 ∼N
+
+(1 − µρ0)µαy
+
+0
+
+, σ2
+
+ρ0σ2
+αy
+0
+
+(cid:17)
+
+(cid:17)
+
+,
+
+,
+
+with σ2
+
+t,η ˜αi = (1 − ρt−1)2 σ2
+
+ηαi +αi2
+
+t−1σ2
+
+ηρ +σ2
+
+ηαi σ2
+
+ηρ for i = π, y, where Ft−1 is the σ-ﬁeld with the
+
+information through period t − 1. Notice that the error terms η ˜αi
+
+t = (1 − ρt−1) ηαi
+
+t − αi
+
+t−1ηρ
+
+t −
+
+t for i = π, y no longer have a conditional (on Ft−1) normal distribution. Nevertheless,
+
+t ηρ
+ηαi
+we assume a misspeciﬁed model in which η ˜αi
+t
+
+is still normally distributed.4
+
+4 The Data
+
+This section describes the details of the data set we use to estimate the assumed monetary
+
+policy reaction function. Our data sources are the SEP releases from January 2012 through
+
+March 2023, which the Fed typically releases on a quarterly basis. It is a summary of FOMC
+
+4The speciﬁcation of the quarterly seasonal factors is such that ψ1,t+1 = −ψ1,t − ψ2,t − ψ3,t + ωt, ψ2,t+1 =
+
+ψ1,t, ψ3,t+1 = ψ2,t, ωt ∼ i.i.d. N (0, σ2
+
+ω), as in Commandeur and Koopman (2007).
+
+10
+
+participants’ economic projections. Each participant makes projections in the context of their
+
+individual view of appropriate monetary policy, which is the policy path that would deliver
+
+economic activity and inﬂation outcomes that best serve the dual mandate of maximum
+
+employment and price stability as interpreted by the individual participant.5
+
+The SEP currently provides annual forecasts of the change in real gross domestic product
+
+(GDP), the unemployment rate, personal consumption expenditure (PCE) inﬂation, core
+
+PCE inﬂation, and the federal funds rate for each FOMC participant. We focus on the
+
+federal funds rate, core PCE inﬂation, and the unemployment rate. Our measure of the
+
+federal funds rate is the forecast of the midpoint of the appropriate target range or level at
+
+the end of the speciﬁed year. The unemployment rate is projected for the average civilian
+
+unemployment rate in the fourth quarter of the speciﬁed year. The projections for headline
+
+inﬂation are percent changes from the previous year’s fourth quarter PCE price index to
+
+the fourth quarter of the speciﬁed year; and the core PCE price index excludes food and
+
+energy. The SEP also provides long-run projections for the federal funds, unemployment,
+
+and headline inﬂation rates, but not for core inﬂation, for which we use the 2 percent inﬂation
+
+target.
+
+In addition to participants’ projections of the change in real GDP, the unemployment
+
+rate, headline and core PCE inﬂation, projections for the appropriate interest rate were
+
+included in 2012, and the medians of the forecasts distributions of these variables have been
+
+reported since 2015. Figure 1 shows the date of the SEP release along the vertical dimension
+
+and the forecast horizon along the horizontal dimension. The cells shaded blue indicate that
+
+a forecast is made on the date in the vertical axis for the quarter in the horizontal axis.
+
+The darker the shading, the farther away the forecast is from the release date of the SEP.
+
+5The FOMC consists of twelve members–the seven members of the Board of Governors of the Federal
+Reserve System; the president of the Federal Reserve Bank of New York; and four of the remaining eleven
+Reserve Bank presidents, who serve one-year terms on a rotating basis. The rotating seats are ﬁlled from the
+following four groups of Banks, one Bank president from each group: Boston, Philadelphia, and Richmond;
+Cleveland and Chicago; Atlanta, St. Louis, and Dallas; and Minneapolis, Kansas City, and San Francisco.
+Nonvoting Reserve Bank presidents attend the meetings of the Committee, participate in the discussions,
+and contribute to the Committee’s assessment of the economy and policy options. See “About the FOMC”
+here: https://www.federalreserve.gov/monetarypolicy/fomc.htm
+
+11
+
+Figure 1: SEP Schematic
+
+Note: The March 2020 SEP release did not happen because of the pandemic.
+
+Two situations are noticeable: First, prior to June 2012, the SEP was not released quarterly.
+
+Second, the SEP that would have been released on March 18, 2020 was not because of the
+
+pandemic.
+
+The SEP provides three or four annual projections and a long-run projection of the value
+
+to which each economic variable would converge given appropriate monetary policy, without
+
+further economic shocks. In general, the March and June releases have forecasts for the end
+
+of the current and the next two years, whereas the September and December releases have
+
+forecasts for the current year and the subsequent three years. We consider three forecast
+
+horizons from each SEP release as follows: In any given year, we take the one-, two-, and
+
+three-year ahead forecasts made in September and December of each year (that do not
+
+include the current year) in addition to the one-, two-, and three-year ahead forecasts made
+
+in March and June of the following year as the forecasts one, two, and three years ahead for
+
+12
+
+2012:Q42013:Q42014:Q42015:Q42016:Q42017:Q42018:Q42019:Q42020:Q42021:Q42022:Q42023:Q42024:Q42025:Q4Forecast Horizon25-Jan-201225-Apr-201220-Jun-201213-Sep-201212-Dec-201220-Mar-201319-Jun-201318-Sep-201318-Dec-201319-Mar-201418-Jun-201417-Sep-201417-Dec-201418-Mar-201517-Jun-201517-Sep-201516-Dec-201515-Mar-201615-Jun-201621-Sep-201614-Dec-201615-Mar-201714-Jun-201720-Sep-201713-Dec-201721-Mar-201813-Jun-201826-Sep-201819-Dec-201820-Mar-201919-Jun-201918-Sep-201911-Dec-201918-Mar-202010-Jun-202016-Sep-202016-Dec-202017-Mar-202116-Jun-202122-Sep-202115-Dec-202116-Mar-202215-Jun-202221-Sep-202214-Dec-202222-Mar-2023SEP Release Datethe given year. This choice of a structure is relevant to determine what we should use as the
+
+lagged federal funds rate in the Taylor rule.
+
+The lagged value of the September and December federal funds rate projections one
+
+year ahead is taken to be the projection provided in the December SEP for the current
+
+year and, because the one-year ahead forecast horizons are the same for the subsequent
+
+March and June releases, the September-December-March-June window shares the same
+
+previously mentioned lagged value for the forecast one year ahead. In fact, this window of
+
+releases also shares the same lagged value for the federal funds rate forecast two and three
+
+years ahead. In these cases, the lagged values correspond to the one- and two-year ahead
+
+projections, respectively, made at the time of the two- and three-year ahead federal funds
+
+rate projections.
+
+Regarding the information provided by the SEP for each variable, we use the median fore-
+
+casts as opposed to the individual projections. Faust (2016) reﬂects that the median SEP
+
+might be very far from unanimously supported monetary policy because of the disagreement
+
+among policymakers about how the economy is working. In order to incorporate the fore-
+
+casters’ disagreement mentioned by Faust, we believe the optimal data setup to estimate our
+
+model would have been a panel of forecasts of the federal funds, unemployment, and inﬂation
+
+rates in which the cross-sectional dimension is indexed by each FOMC participant. Bauer,
+
+Pﬂueger and Sunderam (2023) follow this approach with data on 16-19 Fed forecasters over
+
+21 SEP releases from 2012 to 2016 to estimate the time-varying coeﬃcients of a Taylor rule
+
+similar to ours. Unfortunately, because individual projections are published with a lag of
+
+ﬁve years, this approach is not useful to gauge the monetary policy reaction function in real
+
+time, which is the main focus of our paper.
+
+Kalfa and Marquez (2021) show that, despite the dispersion of participants’ views on the
+
+appropriate policy rate, the current-year SEP median tends to be close to the actual rate.
+
+Moreover, they ﬁnd that there exists at least one econometric model that predicts well the
+
+FOMC forecasts for the current and the following years which would diminish Faust (2016)’s
+
+13
+
+Figure 2: SEP Median federal funds rate forecasts
+
+critique. Hence, because of the timely information provided by the median SEP and the
+
+evidence that it may well represent unanimously supported policy, we resort to this statistic
+
+as our data choice. As indicated by Bauer, Pﬂueger and Sunderam (2023), the SEP forecasts
+
+reﬂect what the participants think the policy rate should be, not what it is most likely to
+
+be, for which we believe the median SEP forecast still provides information in line with our
+
+intended use of this database to estimate the time-varying coeﬃcients of the monetary policy
+
+rule.
+
+In our model setup in equations (2)-(5), we have three shadow rate equations for each
+
+period t, one for each forecast horizon, h = 1, 2, 3. Hence, we use the SEP data in a
+
+panel manner to inform, in each period, the common factor structure of the time-varying
+
+coeﬃcients across the three equations. To the best of our knowledge, the use we give to this
+
+data structure in the SEP is the ﬁrst in the literature. Figure 2 shows the federal funds rate
+
+forecasts in the SEP for the three forecast horizons.
+
+Two things stand out from that ﬁgure. First, the period June 2020 to March 2021 is the
+
+only one in which the forecasts of the federal funds rate at all horizons were at the ELB.
+
+During the previous ELB episode, at least one forecast horizon had the median forecast
+
+above the bound. Second, since September 2022, there is an inversion of the “yield curve”
+
+14
+
+25-Jan-201225-Apr-201220-Jun-201213-Sep-201212-Dec-201220-Mar-201319-Jun-201318-Sep-201318-Dec-201319-Mar-201418-Jun-201417-Sep-201417-Dec-201418-Mar-201517-Jun-201517-Sep-201516-Dec-201515-Mar-201615-Jun-201621-Sep-201614-Dec-201615-Mar-201714-Jun-201720-Sep-201713-Dec-201721-Mar-201813-Jun-201826-Sep-201819-Dec-201820-Mar-201919-Jun-201918-Sep-201911-Dec-201910-Jun-202016-Sep-202016-Dec-202017-Mar-202116-Jun-202122-Sep-202115-Dec-202116-Mar-202215-Jun-202221-Sep-202214-Dec-202222-Mar-202314-Jun-202301234560123456PercentOne year aheadTwo years aheadThree years aheadassociated with the federal funds rate in which the rate projected three years ahead is below
+
+the two-year ahead forecast and, in turn, the latter is below the one-year ahead projection.
+
+All in all, we use a sample that spans SEP releases between June 2012 and March 2023.6
+
+5 Estimation
+
+We estimate the model with Bayesian methods, using the Gibbs sampler to alternate
+
+sampling between coeﬃcients and latent states.7 For the latter, we use the Durbin and
+
+Koopman (2002) simulation smoother. To obtain the shadow federal funds rate that allows
+
+us to keep the state-space model linear (conditional on the lagged values of the time-varying
+
+coeﬃcients), we embed data augmentation in the Gibbs sampler, as in Chib (1992), which
+
+is included to deal with the censored speciﬁcation of the Taylor rule. This is the approach
+
+followed by Gonz´alez-Astudillo and Laforte (2020) to estimate the natural rate of interest
+
+when the Taylor rule is subject to censoring. However, we need to make a modiﬁcation to
+
+that approach because our data set starts during the ELB period that prevailed in the Great
+
+Recession, with no history of projected rates above the bound, as we describe below.
+
+Because the Taylor rule is speciﬁed at an annual frequency, we need a lagged shadow
+
+federal funds rate to estimate the rule at any point in time when the federal funds rate
+
+was at the ELB the prior year. For instance, for the projections made in the ﬁrst half
+
+of 2012, which correspond to December of that year, we need a shadow rate prevailing in
+
+December 2011, but our data set starts in 2012. We treat that value as a parameter sampled
+
+with a Metropolis-Hastings step within the Gibbs sampler in which the proposal density is
+
+centered at the value obtained by Wu and Xia (2016) for December of 2011 and published
+
+by the Federal Reserve Bank of Atlanta.8 Then, for the projections made past the ﬁrst
+
+half of 2012, we take two approaches. In the ﬁrst one, we assume that the shadow federal
+
+6In the estimations, we linearly interpolate the data on the federal funds rate, inﬂation, and the unem-
+
+ployment rate for 18-March-2020 using the SEP releases of 11-Dec-2019 and 10-Jun-2020.
+
+7For details on the sampler, see Appendix A.
+8See https://www.atlantafed.org/cqer/research/wu-xia-shadow-federal-funds-rate.
+
+15
+
+funds rate prevailing in December of a year when the ELB was binding—i.e., the lagged
+
+shadow interest rate for the projection of December of the following year—is the shadow
+
+rate projection made in June of the year when the ELB was binding in December. This
+
+projection is obtained with the data augmentation step we previously mentioned. This is
+
+our baseline approach. In the second approach, we employ the Wu and Xia values for each of
+
+the years when the ELB was binding in December to center a proposal density used by the
+
+Metropolis-Hastings steps within the Gibbs sampler in order to obtain the lagged shadow
+
+federal funds rate that will enter the Taylor rule speciﬁcation. This second approach yields
+
+results similar to those from our baseline, but we prefer said baseline because of the internal
+
+consistency of the forecasts.
+
+The prior distributions of the coeﬃcients of the model follow an independent normal
+
+inverse-gamma scheme and appear in the second column of table 1. The horizon-speciﬁc
+
+ﬁxed eﬀects, γ1, γ2, and γ3, are centered at zero with relatively large uncertainties. We
+
+choose prior means of the initial values of the parameters, µρ0, µαπ
+
+0
+
+, and µαy
+
+0
+
+, in accordance
+
+with the values of an inertial Taylor rule, such as those found in Board of Governors of
+
+the Federal Reserve System (2018) and Bernanke (2015), with relatively low uncertainties.
+
+We center the prior distribution of the variance of the error of the policy rule, σ2
+
+ε , at 0.25
+
+following the results in Kahn and Palmer (2016) with very large uncertainty. Regarding
+
+the time-varying coeﬃcients, their shock variances, σ2
+
+ηρ, σ2
+
+ηαπ , and σ2
+
+ηαy have prior means
+
+with masses close to zero and low uncertainty, implying that our prior beliefs are that the
+
+coeﬃcients are nearly constant over time, as we do not expect the FOMC to make large
+
+changes every time there is an SEP release.9
+
+9We also center the prior distribution of the variance of the quarterly seasonal eﬀects, σ2
+
+ω, at 1 with very
+
+large uncertainty around.
+
+16
+
+6 Results
+
+We estimate the posterior moments of the parameters and states of the model with 6,000
+
+draws from the posterior distribution, after 50,000 burn-in draws and thinning every 50th
+
+draw out of a total of 350,000. The results appear in the third and fourth columns of table
+
+1. The posterior medians of the ﬁxed eﬀect coeﬃcients, γh, indicate that the interest rate
+
+projection tends to be upward sloping beyond what is implied by the inputs of the Taylor
+
+rule; on average, the federal funds rate projected three years ahead is 22 bps higher than that
+
+projected one year ahead. The posterior medians of the initial values of the time-varying
+
+policy rule coeﬃcients are what would be expected, at 0.48 (0.83 in the usual quarterly
+
+frequency) for ρt, 1.61 for απ
+
+t , and 0.88 for αy
+
+t . The posterior median of the variance of the
+
+error to the policy rule is much lower than its prior mean. Despite the low uncertainty around
+
+the prior variances of the shocks to the time-varying coeﬃcients, the posterior median of the
+
+variance of the shock to the inﬂation coeﬃcient is signiﬁcantly higher than its respective prior
+
+mean. Finally, the value of the shadow rate in December of 2011 has a posterior median
+
+equal to -2.5%.10
+
+Figure 3 shows the estimated time-varying Taylor rule coeﬃcients plotted against the
+
+date of the SEP release dates. Figure 3a plots the persistence coeﬃcient and indicates that
+
+the half-life of a shock to the federal funds rate, keeping the inputs of the rule constant, is
+
+about one year during the ﬁrst ELB period and thereafter through the end of 2016. This
+
+estimated persistence coeﬃcient between 0.8 and 0.85 is very close to those seen in the
+
+practitioners’ literature (see Brayton et al., 2014; Board of Governors of the Federal Reserve
+
+System, 2018). The coeﬃcient begins to increases beyond this range with the advent of
+
+the monetary tightening cycle at the end of 2016. Its value reaches 0.89 in 2018, 0.91 in
+
+2019, and 0.93 in 2020, during the pandemic ELB period. The coeﬃcient peaks in early
+
+2021 and declines thereafter, reaching 0.89 at the end of the sample, as the most recent
+
+10The posterior mean of σ2
+
+ω is estimated to be 0.09 with a 68% credible set between 0.07 and 0.12.
+
+17
+
+Table 1: Estimates of the model coeﬃcients
+
+Prior Distribution Posterior Median 68% Credible Set
+−0.35
+−0.25
+−0.13
+0.48
+1.61
+0.88
+0.242
+0.022
+0.142
+0.022
+−2.50
+
+N (0,2)
+N (0,2)
+N (0,2)
+N (0.5,0.2)
+N (1.5,0.5)
+N (1,0.5)
+IG(0.52,∞)
+IG(0.012,0.005)
+IG(0.012,0.005)
+IG(0.012,0.005)
+
+[−0.44,−0.26]
+[−0.33,−0.18]
+[−0.19,−0.07]
+[0.42,0.53]
+[1.31,1.92]
+[0.78,0.98]
+[0.212,0.282]
+[0.022,0.032]
+[0.092,0.222]
+[0.012,0.052]
+[−4.73,−0.69]
+
+γ1
+γ2
+γ3
+ρ0
+απ
+0
+αy
+0
+σ2
+ε
+σ2
+ηρ
+σ2
+ηαπ
+σ2
+ηαy
+R∗
+2011:12 N (−1.47,1.1)
+
+Note: “N” stands for normal distribution and “IG” stands for inverse gamma distribution. In both distributions,
+the ﬁrst parameter is the mean and the second is the standard deviation. For the shadow interest rate in December
+of 2011, we report the proposal distribution under the prior distribution column.
+
+monetary policy tightening cycle took place. All in all, the results evidence that the conduct
+
+of monetary policy has become signiﬁcantly more persistent in the past three years than in
+
+the years prior.
+
+Figure 3b plots the inﬂation reaction coeﬃcient of the rule. As could have been inferred
+
+from the size of the estimated variance of its shock, σ2
+
+ηαπ , in table 1, this coeﬃcient shows
+
+substantially more variability than that associated with the persistence of the rule. It starts
+
+around 1.6 and ends around 3.6. Uncertainty around the estimate increases at the end of the
+
+ﬁrst ELB period, peaking during the post-pandemic ELB episode and subsiding thereafter.
+
+One possibility for the increase in the uncertainty around the second ELB period is the
+
+diﬃculty of the model to identify time-varying coeﬃcients when the dependent variable
+
+(the federal funds rate projections, in this case) is censored, as shown by Gonz´alez-Astudillo
+
+(2018). Summarizing, the increase in the inﬂation reaction coeﬃcient would be an indication
+
+of the strong response of the FOMC to ﬁght inﬂation in the recent past.
+
+Finally, ﬁgure 3c shows the evolution of the output gap coeﬃcient of the rule. This
+
+coeﬃcient is estimated to be much more stable and less uncertain than that of inﬂation.
+
+18
+
+After starting around 0.88, it consistently stays between 0.8 and 1 through the end of the
+
+sample. These values are also mostly consistent with those found in the literature. We point
+
+out, however, that our estimate of the output gap is signiﬁcantly more stable than that found
+
+by Bauer, Pﬂueger and Sunderam (2023) for the period 2012-2016. Possible reasons for the
+
+diﬀerence are that we incorporate the ELB explicitly in our estimation technique whereas
+
+they did not and that we use the median SEP whereas they use individual participant data.
+
+A byproduct of our estimation technique is the generation of a shadow rate. As we
+
+mentioned before, the shadow rate prevailing in December of every year when the ELB is
+
+binding is taken to be the rate forecast one year ahead in June of the ELB year. Figure 4
+
+shows this SEP forecast when it is not at the ELB and the estimated shadow rate during the
+
+ELB periods for December of each year in the sample. As can be seen, the shadow federal
+
+funds rate reached about -2% during each ELB period. This value is very close to that
+
+estimated by Wu and Xia (2016) for 2013, but much lower than their estimate (at -0.29%)
+
+for 2020; for 2021, our estimate is very close to theirs.
+
+6.1 Is the Taylor rule with time-varying coeﬃcients adequate to
+
+model the forecasts of the median FOMC participant?
+
+Both Bernanke (2016) and Faust (2016) argue that it would be convenient and pertinent
+
+for the public to understand monetary policy if the central bank made its reaction function
+
+known. In this paper, we have argued that a Taylor rule with time-varying coeﬃcients (and
+
+forecast horizon-speciﬁc ﬁxed eﬀects) could help gauge the monetary policy reaction function
+
+through the values its reaction coeﬃcients take over time. One way to determine if what
+
+is behind the monetary policy determination of the median FOMC participant is a reaction
+
+function such as the one we propose is to evaluate how well this rule ﬁts the released forecasts
+
+in real time, given SEP forecasts of the arguments of the rule (interest and unemployment
+
+rates in the longer run, and inﬂation and the unemployment rate in the medium term).
+
+To that end, we estimate the model in equations (2)-(5) sequentially, starting with data
+
+19
+
+Figure 3: Time-varying Coeﬃcient Estimates
+
+(a) Persistence coeﬃcient
+
+(b) Inﬂation coeﬃcient
+
+(c) Output gap coeﬃcient
+
+20
+
+Figure 4: SEP and shadow federal funds rate forecast
+
+from June 2012 to December 2017. We produce an estimate of EtR∗
+
+t+h, for h = 1, 2, 3, using
+
+arguments of the rule released in the SEP for each horizon and our Taylor rule speciﬁcation
+
+with time-varying coeﬃcients. We do the same for each December from 2017 to 2019,
+
+adding information one year at a time. Starting in June 2020, we follow this procedure
+
+every six months through December 2022. Finally, we add the March 2023 release. Our
+
+sequential Bayesian estimation produces federal funds rate predictions from their posterior
+
+distributions, which are depicted in ﬁgure 5. The panels show the distribution of model
+
+predictions for each horizon (cyan box plots) in conjunction with the SEP forecasts (black
+
+dots).
+
+As can be seen from the three panels, the inter-quartile ranges of the model predictions
+
+capture well the actual SEP forecasts, and, when they are captured, the median predictions
+
+are very close to the actual forecasts, in particular for the two-year ahead horizon (ﬁgure
+
+5b). Of note are the median predictions when the SEP forecasts are at the ELB: our model
+
+predicts very well those instances in real time, especially one and two years ahead (ﬁgures 5a
+
+and 5b, respectively). For March 2023, the median predictions from our model are almost
+
+on point with the actual SEP forecasts (that was also the case in December 2022).
+
+We perform an additional exercise to determine if our assumed time variation is a better
+
+representation of the median FOMC participant’s reaction function compared with an alter-
+
+21
+
+20122013201420152016201720182019202020212022Year-4-3-2-101234Percent-4-3-2-101234Percent68% credibility intervalDecember federal funds rate projected in June of each yearFigure 5: Federal Funds Rate Real-time Model Prediction versus SEP
+
+Median Forecast
+
+(a) Interest rate forecast one year ahead
+
+(b) Interest rate forecast two years ahead
+
+(c) Interest rate forecast three years ahead
+
+Note: The box plot shows in cyan the median, the inter-quartile range, and the range of the model prediction
+distributions. The red dots are considered outliers, deﬁned as those points outside the (roughly) middle 99.3% of
+the distribution. The black dots are the SEP forecasts, and the blue diamonds are the median forecasts of the model
+with time-invariant coeﬃcients.
+
+22
+
+13-Dec-201719-Dec-201811-Dec-201910-Jun-202016-Dec-202016-Jun-202115-Dec-202115-Jun-202214-Dec-202222-Mar-202301234567Percent01234567SEP median forecastTime-invariant model forecast13-Dec-201719-Dec-201811-Dec-201910-Jun-202016-Dec-202016-Jun-202115-Dec-202115-Jun-202214-Dec-202222-Mar-202301234567Percent01234567SEP median forecastTime-invariant model forecast13-Dec-201719-Dec-201811-Dec-201910-Jun-202016-Dec-202016-Jun-202115-Dec-202115-Jun-202214-Dec-202222-Mar-202301234567Percent01234567SEP median forecastTime-invariant model forecastnative with constant coeﬃcients. Figure 5 also shows in each panel the real-time forecast
+
+of the same model we consider in this paper but with constant coeﬃcients (blue diamonds).
+
+Two features are worse in this case. First, the predictions one year ahead at the end of the
+
+sample are oﬀ, being signiﬁcantly lower than the SEP forecasts, as seen in ﬁgure 5a. Second,
+
+the constant-coeﬃcient model predicts rates above the ELB when the forecasts were at the
+
+lower bound in the two- and three-year-ahead forecasts, as shown in ﬁgures 5b and 5c.11
+
+These results suggest that our proposal of a Taylor rule with time-varying coeﬃcients is a
+
+good approximation to the reaction function of the median SEP participant of the FOMC.
+
+6.2 Real-time gauging of the monetary policy reaction function
+
+The values of the estimated coeﬃcients shown in ﬁgure 3 correspond to their smoothed
+
+counterparts. As a result of the backward induction in those estimates, it is not possible
+
+to assess in real time what the monetary policy reaction function was at a given point in
+
+time. If our proposed setup is meant to be useful to provide information about how strongly
+
+the FOMC is responding to inﬂation, for instance, we should look at how it performed in
+
+the past regarding the estimated policy rule coeﬃcients in real time. Figure 6 contrasts the
+
+smoothed estimates of the policy rule coeﬃcients with those obtained following the same
+
+sequential estimation procedure described in section 6.1, which are in fact the one-sided or
+
+ﬁltered estimates (as opposed to the two-sided or smoothed estimates).
+
+The results in ﬁgure 6a indicate that the persistence coeﬃcient was estimated between
+
+0.75 and 0.8 through the end of 2019, started to increase in mid-2020, reached 0.9 by mid-
+
+2021, and remained around there since then. The smoothed estimate tries to iron out the
+
+sudden increase in the real-time estimate during 2020, hence the signiﬁcant discrepancy
+
+between the two estimates from late 2017 to late 2020. All in all, at least since mid-2021,
+
+11The root-mean-squared forecast error (RMSFE) of the model with time-varying coeﬃcients for these 10
+predictions is 0.19 pp, 0.08 pp, and 0.19 pp for the one-, two-, and three-years ahead forecasts, respectively,
+compared with 0.46 pp, 0.33 pp, and 0.50 pp for the model with constant coeﬃcients. We do not perform a
+Diebold and Mariano (2002) test of forecast accuracy because of the very low number of forecasts for each
+model-horizon.
+
+23
+
+Figure 6: Real-time Time-varying Coeﬃcient Estimates
+
+(a) Real-time persistence coeﬃcient
+
+(b) Real-time inﬂation coeﬃcient
+
+(c) Real-time output gap coeﬃcient
+
+24
+
+13-Dec-201721-Mar-201813-Jun-201826-Sep-201819-Dec-201820-Mar-201919-Jun-201918-Sep-201911-Dec-201918-Mar-202010-Jun-202016-Sep-202016-Dec-202017-Mar-202116-Jun-202122-Sep-202115-Dec-202116-Mar-202215-Jun-202221-Sep-202214-Dec-202222-Mar-20230.750.80.850.90.9510.750.80.850.90.95168% credibility intervalt smoothedt real time13-Dec-201721-Mar-201813-Jun-201826-Sep-201819-Dec-201820-Mar-201919-Jun-201918-Sep-201911-Dec-201918-Mar-202010-Jun-202016-Sep-202016-Dec-202017-Mar-202116-Jun-202122-Sep-202115-Dec-202116-Mar-202215-Jun-202221-Sep-202214-Dec-202222-Mar-202300.511.522.533.544.5500.511.522.533.544.5568% credibility intervalt smoothedt real time13-Dec-201721-Mar-201813-Jun-201826-Sep-201819-Dec-201820-Mar-201919-Jun-201918-Sep-201911-Dec-201918-Mar-202010-Jun-202016-Sep-202016-Dec-202017-Mar-202116-Jun-202122-Sep-202115-Dec-202116-Mar-202215-Jun-202221-Sep-202214-Dec-202222-Mar-20230.50.60.70.80.911.11.21.31.41.50.50.60.70.80.911.11.21.31.41.568% credibility intervalyt smoothedyt real timethe results indicate that the median FOMC participant would prescribe signiﬁcantly more
+
+persistent monetary policy.
+
+As can be seen in ﬁgure 6b, the inﬂation reaction coeﬃcient also shows relatively large
+
+diﬀerences between the real-time and smoothed estimates: most of the former falls below
+
+the credible set around the latter. After evolving just below the typical value of 1.5 from
+
+the end of 2017 until mid-2021, the coeﬃcient begins to rise rapidly, reaching almost 2 by
+
+the end of 2021, just below 3 by mid-2022, and about 3.5 by the end of the sample in March
+
+2023. Hence, at least since late 2021, one could conclude that the median FOMC participant
+
+would have been prescribing monetary policy to more actively ﬁght inﬂation than before. As
+
+a side note, it is once again evident how the two-sided estimate smooths out the variation
+
+in the real-time one.
+
+Finally, the output gap coeﬃcient does not show signiﬁcant diﬀerences between its
+
+smoothed and real-time counterparts, suggesting that the median FOMC participant has
+
+not changed the weight put on output (or unemployment) deviations from target in the past
+
+ﬁve years.
+
+7 Explaining Changes in the Monetary Policy Reac-
+
+tion Function
+
+In this section, we seek to obtain some of the variables that correlate with the changes
+
+in the evolution of the time-varying coeﬃcients characterizing our assumed policy rule. We
+
+intend to shed light on the macroeconomic indicators that may inﬂuence the decision making
+
+of the median FOMC participant.
+
+Bauer, Pﬂueger and Sunderam (2023) perform a similar analysis of cyclical shifts for the
+
+perceived monetary policy output gap coeﬃcient estimated with Blue Chip data, arguing
+
+that anecdotal evidence suggests that the Fed’s monetary policy rule experiences cyclical
+
+variation. They indicate that monetary policy tightening is usually characterized as data-
+
+25
+
+dependent whereas monetary policy easing tends to be quick and unpredictable, as the Fed
+
+uses “insurance” cuts to manage the risk concerns of economic outcomes.12 For these reasons,
+
+monetary policy may be less dependent on incoming data, and less strongly connected to
+
+macroeconomic forecasts, during monetary easing episodes. While Bauer et al. focus only on
+
+the output gap coeﬃcient to understand this perceived monetary policy cyclical variation,
+
+we analyze the persistence, inﬂation, and output gap coeﬃcients, oﬀering a more exhaustive
+
+view on such variation for actual monetary policymaking (because our estimates are obtained
+
+from SEP rather than Blue Chip data).
+
+Our regression analysis relies on monthly observations of macroeconomic variables avail-
+
+able at the time of the SEP release to explain time-variation in the coeﬃcients of the es-
+
+timated monetary policy rule.13 Table 2 shows that the expectation of a monetary policy
+
+tightening cycle arising or strengthening (measured by the spread between the 10-year Trea-
+
+sury yield and the 3-month Treasury rate, which also contains a term premium) aﬀects all
+
+the coeﬃcients of the Taylor rule, making it less persistent and less responsive to inﬂation
+
+but more sensitive to the output gap. More speciﬁcally, the rule becomes more persistent
+
+mainly when the economy is at the ELB, and it reacts more strongly to inﬂation when the
+
+labor market gains momentum, macroeconomic uncertainty increases, monetary policy is
+
+not currently easing, or inﬂation is high, especially above the 2% target. Also, the rule’s
+
+responsiveness to the output gap increases when current labor market conditions worsen,
+
+but decreases when monetary policy is easing or the labor market loses momentum.
+
+Putting the results together, one can see that the monetary policy cycle is related to
+
+changes in the reaction function of the median participant of the FOMC. When a tightening
+
+12See also the Transcript from Chair Powell’s Press Conference May 3, 2023 here: https://www.
+
+federalreserve.gov/mediacenter/files/FOMCpresconf20230503.pdf.
+
+13In this and the following sections, we use the ﬁltered estimates of the time-varying coeﬃcients obtained
+with the Kalman ﬁlter, in which the SSM matrices are constructed with the median posterior estimates of
+the parameters of the model shown in table 1. Appendix B shows the evolution of the ﬁltered time-varying
+coeﬃcients used in these regressions. We use the ﬁltered estimates instead of the smoothed ones because
+we are interested in evaluating the real-time response of the median participant of the FOMC to changes in
+their information set (in this section) and how changes in the monetary policy reaction function in real time
+aﬀect bond valuations (in the next section).
+
+26
+
+Table 2: Determinants of time-varying coeﬃcient estimates
+
+100 × ρt
+
+απ
+t
+
+(1)
+0.39
+Labor Level
+Labor Momentum 0.21∗
+Macro Uncertainty −0.04
+0.64
+3.07∗∗∗
+1.09∗
+0.40
+
+Financial Uncertainty
+ELB
+Tightening
+Easing
+Slope −3.17∗∗∗ −3.16∗∗∗ −0.24∗∗∗ −0.24∗∗∗
+
+(1)
+(2)
+0.14
+0.27
+0.08∗∗∗
+0.24∗
+0.30∗∗∗
+0.19
+0.63∗
+0.01
+3.56∗∗∗ −0.08
+1.55∗∗ −0.15
+0.17
+
+(2)
+0.14
+0.08∗∗∗
+0.29∗∗∗
+0.01
+−0.09
+−0.16
+
+αy
+t
+
+(1)
+
+(2)
+
+−0.04∗∗ −0.04∗∗
+0.01∗∗∗
+0.02
+−0.01
+−0.02
+−0.02
+
+0.01∗∗∗
+0.02
+−0.01
+−0.02
+−0.01
+
+1.37∗∗∗
+
+0.27∗∗∗
+
+−0.64∗∗∗ −0.63∗∗ −0.11∗∗∗ −0.11∗∗∗
+0.04∗∗∗
+
+0.04∗∗∗
+0.01
+
+3.06∗∗
+1.09∗∗∗
+0.89
+
+0.89
+
+0.21
+0.28∗∗∗
+0.92
+
+0.73
+
+0.01
+0.01
+0.72
+
+0.92
+
+44
+
+Inﬂation
+Below Target
+Above Target
+Adjusted R2
+N
+
+Note: All regressions include a constant term that has been omitted in the table
+and have been checked for the existence of at least one cointegrating relationship.
+HAC standard errors are used to calculate statistical signiﬁcance. Labor Level and
+Momentum are the labor market conditions indices produced by the Kansas City Fed.
+ELB is a dummy variable that takes the value of one during eﬀective lower bound
+periods; Tightening is a dummy variable that takes the value of one during periods of
+increasing target federal funds rate; and Easing is a dummy variable that takes the
+value of one during periods of declining target federal funds rate. Slope is the spread
+between the 10-year Treasury yield and the 3-month Treasury rate, lagged 12 months.
+Macro Uncertainty is the Jurado, Ludvigson and Ng (2015) index of macroeconomic
+uncertainty 12 months ahead (standardized); and Financial Uncertainty is the VIX
+(standardized).
+Inﬂation is the 3-month average of the annual core CPI inﬂation
+rate; Below Target is the inﬂation rate minus 2.3; and Above Target is the inﬂation
+rate minus 2.3. All the variables are lagged to account for publication lags. Sample:
+2012:Q2-2023:Q1.
+∗ denotes a p-value<0.1, ∗∗ denotes a p-value<0.05, and ∗∗∗ denotes a p-value<0.01.
+
+27
+
+cycle is expected to start or to strengthen—so that current monetary policy conditions are
+
+looser than in the future and the slope of the yield curve increases—the policy rule becomes
+
+less persistent and less sensitive to inﬂation, but its responsiveness to the output gap increases
+
+as this latter variable may be the focus of policy makers at this stage of the monetary policy
+
+cycle. Once embarked in the tightening cycle, the rule increases its persistence and, as
+
+monetary policy eventually eases, the responsiveness to inﬂation and the output gap decline,
+
+making the rule

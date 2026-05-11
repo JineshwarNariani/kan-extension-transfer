@@ -1,0 +1,2388 @@
+Finance and Economics Discussion Series
+
+Federal Reserve Board, Washington, D.C.
+ISSN 1936-2854 (Print)
+ISSN 2767-3898 (Online)
+
+Demand Shocks, Hysteresis and Monetary Policy
+
+Jae Sim
+
+2022-080
+
+Please cite this paper as:
+Sim, Jae (2022). “Demand Shocks, Hysteresis and Monetary Policy,” Finance and Eco-
+nomics Discussion Series 2022-080. Washington: Board of Governors of the Federal Reserve
+System, https://doi.org/10.17016/FEDS.2022.080.
+
+NOTE: Staﬀ working papers in the Finance and Economics Discussion Series (FEDS) are preliminary
+materials circulated to stimulate discussion and critical comment. The analysis and conclusions set forth
+are those of the authors and do not indicate concurrence by other members of the research staﬀ or the
+Board of Governors. References in publications to the Finance and Economics Discussion Series (other than
+acknowledgement) should be cleared with the author(s) to protect the tentative character of these papers.
+
+Demand Shocks, Hysteresis
+and Monetary Policy∗
+
+Jae Sim†
+
+October 4, 2022
+
+Abstract
+
+This paper builds a micro-founded general equilibrium model of hysteresis in which changing com-
+position of ﬁrms with heterogeneous qualities in response to demand shocks alter the total factor
+productivity of the economy through a process of “creative destruction”. Hysteresis fundamentally
+challenges existing consensus on stabilization policies: the complete stabilization of demand shocks
+becomes suboptimal as demand creates its own supply; ﬁscal multiplier can be substantially larger
+than 1; an opportunistic monetary policymaker, who adopts a lenient policy reaction to positive
+demand shocks, but provides decisive monetary stimulus in response to negative demand shocks,
+can bring large welfare gains.
+
+JEL Classification: E31, E32, E52, E58
+Keywords: demand shocks, hysteresis, moentary policy
+
+∗The analysis and conclusions set forth are those of the authors and do not indicate concurrence by other members
+
+of the research staﬀ or the Board of Governors.
+
+†The Board of Governors of the Federal Reserve System. Email: jae.w.sim@frb.gov
+
+1 Introduction
+
+On October 14, 2016, Janet L. Yellen, then the Chair of the Board of Governors of the Federal Re-
+
+serve System at a research conference, called for a new research agenda to reconsider the traditional
+
+relationship between aggregate demand and supply, opening up a question that fundamentally chal-
+
+lenges the underpinning of the philosophy behind the current consensus on the mechanism of how
+
+stabilization policies should work, a consensus that has not changed since Milton Friedman proposed
+
+the hypothesis of the natural rate of unemployment, about 50 years ago:
+
+“Are there circumstances in which changes in aggregate demand can have an apprecia-
+
+ble, persistent eﬀect on aggregate supply?..., albeit more speculatively, strong demand could
+
+potentially yield signiﬁcant productivity gains by, among other things, prompting higher
+
+levels of research and development spending and increasing the incentives to start new,
+
+innovative businesses.”– Yellen (2016)
+
+As Blanchard (2017) pointed out, the natural rate hypothesis of Milton Friedman had two sub-
+
+hypotheses, so called “independence hypothesis” and “accelerationist hypothesis”. The ﬁrst hypothesis
+
+has been much more inﬂuential than the second in the history of macroeconomics as the profession
+
+has drifted away from the second hypothesis over time while the ﬁrst remains as a corner stone of any
+
+stabilization theory even today. It is the ﬁrst hypothesis that Yellen (2016) asks the profession to call
+
+into question.
+
+The ﬁrst hypothesis posits that there exists a “natural rate of unemployment” or natural level of
+
+output that is determined by “real forces” and is independent of aggregate demand factors, including,
+
+among others, monetary policy. Ever since Friedman (1977), the independence hypothesis has been at
+
+the center of monetary economics and the majority of Keynesian economists has accepted the concept
+
+as unquestionable axiom, which can be seen in the expression such as “exogenously varying natural
+
+rate of output” (Woodford (2001)) or “exogenous variation in the “natural rate of output” as a result
+of any of several types of real disturbances” (Woodford (2003)).1
+
+However, there was a small group of Keynesian economists who proposed and tested a counter-
+
+hypothesis known as hysteresis or history-dependence of the natural rate: Blanchard and Summers
+
+(1987), Mankiw (2001), Blanchard and Diamond (1994) and Ball (1999). For instance, Ball (1999)
+
+pointed out a possibility that “as demand pushes unemployment away from the current NAIRU,
+
+this causes the NAIRU itself to change over time”. He then explained the diﬀerence in the natural
+
+rate of unemplyment rates between the EU and the U.S. by the diﬀerence in strength and duration
+
+in disinﬂation policies adopted by the two continents. He suggested that monetary policy, a primary
+
+demand factor, could aﬀect the natural rates of unemployment. However, he did not develop structural
+
+models of hysteresis and the exact mechanisms of hysteresis are left as a black box.
+
+There are at least two compelling reasons to reconsider hysteresis hypothesis at the current junc-
+
+ture: the “missing deﬂation puzzle” during the Global Financial Crisis in 2008 and the “missing
+
+1In both quotes, the emphasis is by the author of this paper.
+
+1
+
+inﬂation puzzle” during the subsquent recovery. The wide resource gaps that opened up during the
+
+crisis generated fear of deﬂation. However, core inﬂation rates in both eurozone and U.S. economies
+
+were surprizing stable, hovering around 1 percent. The fear of deﬂation simply failed to materialize
+
+into reality. In contrast, the U.S. economy is now experiencing exactly opposite phenomenon. Even
+
+after the unemployment rate fell to 3.7 percent in 2018Q3, which is considered far below the inﬂuential
+
+estimates of the natural rate, for instance, 4.6 percent by the Congressional Budget Oﬃce, the core
+
+Personal Consumption Expenditure inﬂation rate in 2018Q3 remains at 2 percent year-over-year rate.
+
+Again, the fear that inﬂation was just around corner has failed to materialize into reality.
+
+One popular explanation of these two puzzle is based on the notion of so-called “ﬂat” Phillips
+
+curve. The notion can be understood in the context of the second hypothesis of Friedman (1977):
+
+πt − πt−1 = −a(ut − uN
+
+t ), a > 0.
+
+(1)
+
+(1) is the accelerationist Phillips curve proposed by Friedman (1977). It says that inﬂation rate is
+accelerated when the unemployment rate ut falls below the natural rate uN
+t . The proponents of ﬂat
+Phillips curve argue that if a is closed to zero, the volatility of inﬂation rate must be much smaller
+than the volatility of unemployment gap.2
+
+The goal of this paper is neither to prove nor to disprove the notion of ﬂat Phillips curve. Rather,
+
+I show that there is an alternative explanation of the two puzzles: hysteresis. As pointed out by
+
+Yellen (2016), “persistent shortfalls in aggregate demand” during the Global Financial Crisis “could
+adversely aﬀect the supply side of the economy”. If so, the shocks that had elevated ut also might
+have raised uN
+t during the crisis. Note that one of these shocks was monetary policy shock in that
+the binding zero lower bound constraint during this period was no diﬀerent than monetary policy
+
+tightening shocks. In this situation, even though nothing happened to a of (1) and the Phillips curve
+
+was not “ﬂat”, the downward pressure on inﬂation rate might have been much more subdued if the
+
+natural rate of unemployment rate was closely tracking the actual rate of unemployment.
+
+In reverse, if the demand shocks that had lowered ut during the recovery, including extraordinary
+monetary policy stimulation through quantative easing and forward guidance, also had lowered uN
+t
+into an unprecedently low level, the upward pressure on inﬂation rate might have been tepid for this
+
+reason despite glaringly low level of unemployment rate. Thus hysteresis and reverse hysteresis can
+
+explain both “missing deﬂation” puzzle and “missing inﬂation” puzzle without relying on the notion
+
+of ﬂat Phillips curve.
+
+This paper builds a micro-founded general equilibrium model of hysteresis in which a changing
+
+composition of ﬁrms with heterogeneous qualities in response to demand shocks alters the total factor
+
+productivity (TFP henceforth) of the economy endogenously. To create the hysteresis channel, I
+
+introduce Baldwin and Krugman (1989)’s hysteresis model of ﬁrm dynamics in an otherwise standard
+
+New Keynesian model. Firms are created with sunk entry cost when new entrant ﬁrms realize good
+
+random draws of technology, good enough to justify the cost of entry.
+
+Incumbent ﬁrms face ﬁxed
+
+2An extreme form of this notion is recently delivered by the Director of the National Economic Council, Larry Kudlow,
+
+who says, “It’s time to bury the Phillips curve”. See https://twitter.com/larry kudlow/status/913116542346375170.
+
+2
+
+operation costs such that when their productivity draws are bad enough, incumbent ﬁrms exit the
+
+market. Positive demand shocks raise the aggregate TFP by replacing relatively ineﬃcient old ﬁrms
+
+with more eﬃcient new ﬁrms. By a process of creative destruction, positive demand shocks change
+
+the composition of ﬁrms, elevating the eﬀective level of productivity and keeping the inﬂation pressure
+
+from reaching a harmful level. Inverse Say’s law holds: Demand creates its own supply. Negative
+
+demand shocks accomplish exactly the opposite by delaying the entries of ﬁrms with good qualities
+
+and helping ﬁrms with low qualities live on thanks to depressed factor prices, deteriorating overall
+
+TFP, reverse hysteresis. Lack of demand destroys supply capacity.
+
+The size of the hysteresis eﬀect in the model is dependent on the strength of the returns-to-
+
+specialization. With an increasing returns-to-specialization, a new entry creates a positive externality
+
+of “business enhansing” eﬀect, making the hysteresis eﬀects even stronger. With a decreasing returns-
+
+to-specialization, a new entry creates a negative externality of “business stealing” eﬀect (see Spence
+
+(1976) and Mankiw and Whinston (1986)), making the hysteresis eﬀects weaker.
+
+Such hysteresis mechanism has important implications for monetary and ﬁscal policies. In a canon-
+
+ical New Keynesian model, aggregate demand disturbances are the objects of complete stabilization.
+
+A central bank tries to minimize the deviation of the economy from the ﬂexible price economy. Often
+
+optimal monetary policy takes the form of increasing the reaction coeﬃcients to inﬂation gap and/or
+
+unemployment gap coeﬃcient indeﬁnitely. Clarida, Gal´ı, and Gertler (1999), for instance, formally
+
+show that increasing the coeﬃcient for inﬂation gap indeﬁnitely is optimal in the case of optimal
+
+monetary policy without commitment in the absence of cost-push shock, or equivalently, when the
+
+weight given to the output gap in the central bank’s loss function converges to zero. In fact, in the
+
+absence of cost push shock, the optimal monetary policy is able to achieve zero inﬂation volatility by
+making the reaction coeﬃcients of a given feedback rule arbitrarily large.3
+
+However if the hysteresis mechanism described in the above is at work, a complete stabilization of
+
+positive demand shock becomes suboptimal as this is equivalent of “leaving money on the table”. In
+
+this environment, demands shock have a mixed feature of demand shocks and supply shocks. I show
+
+that the welfare-maximizing monetary policy rule has ﬁnite coeﬃcients for both inﬂation gap and the
+
+output gap. It is also shown that the welfare-maximizing inﬂation coeﬃcient declines in the degree of
+
+returns-to-specialization, that is, the stronger the positive externality from ﬁrm entry, the more dovish
+
+monetary policy optimal.
+
+More importantly, the presence of hysteresis implies that the welfare-maxizing monetary policy
+
+response to demand shocks should be asymmetric. If postive demand shocks lead to expansion in sup-
+
+ply capacity, optimal monetary policy lets the demand shocks walk its way into supply by conducting
+
+lenient monetary policy against demand shocks. On the contrary, if negative demand shocks were to
+
+adversely aﬀect supply capacity, optimal monetary policy should prevent such demand shocks from
+
+eating away supply capacity by providing the economy with massive monetary policy stimulus. To
+
+prove this intuition, I optimize the following asymmetric monetary policy rule to maxize the welfare
+
+3Note that this property only holds perfectly in the simplest of all canonical models where the ﬂexible price allocation
+is eﬃcient. There are many mechanisms that can make this property to fail to hold, for instance, rigidity of real wage.
+
+3
+
+of the representative household,
+
+rt = r∗ + 1(πt ≥ π∗)ρ(+)
+
+π (πt − π∗) + 1(πt < π∗)ρ(−)
+
+π (πt − π∗)
+
+(2)
+
+π
+
+π < ρ(−)
+
+is optimal if the hysteresis is present. Furthermore, the degree of asym-
+
+and show that ρ(+)
+metry in optimal monetary policy rule in terms of ρ(−)
+increases with the degree of returns-to-
+specialization.4 Note that in the presence of positive externality due to returns-to-specialization, the
+competitive equilibrium delivered by free entry condition is ineﬃcient because individual ﬁrms do not
+
+π − ρ(+)
+
+π
+
+internalize the beneﬁts of their own entries to incumbent ﬁrms. Hence optimal allocation should subsi-
+
+dize new ﬁrm entries. In the absence of active ﬁscal authority implementing subsidy policy, monetary
+policy could subsidize ﬁrm entries by implementing the asymmetric policy, i.e., ρ(+)
+
+π < ρ(−)
+π .
+
+The welfare gains from such asymmetric monetary policy rules can be quite sizable. It is shown
+
+that depending on the degree of returns-to-specialization, asymmetric optimal monetary policy rule
+
+could bring large increase in the mean level of aggregate output on the order of 1.6 to 1.9 percent
+
+and 20 to 39 percent reduction in the standard deviation of aggregate output as compared with the
+
+economy with symmetric optimal monetary policy rule. Furthermore, asymmetric optimal monetary
+
+policy can bring 35 to 53 percent reduction in inﬂation volatility.
+
+Monetary policy is not the only place where the presence of hysteresis mechanism fundamentally
+
+challenges our understadings of stabilization policies. I show that if the hysteresis mechanism is present
+
+and the monetary authority conducts its monetary policy using the optimized asymmetric rule, a ﬁscal
+
+multiplier can be as large as 3.7 to 4.8 depending on the strength of returns-to-specialization. DeLong
+
+and Summers (2012) has recently developed a macroeconomic model in which a ﬁscal multiplier can
+
+be substantially larger than 1 due to the hysteresis eﬀect. However, their attempt faced a criticism
+
+that their model was not based on “ﬁrst-order principles” (see Ramey (2012)). The results in this
+
+paper indicate that a model of ﬁscal multiplier due to hysteresis can be constructed from the ﬁrst-order
+
+principles.
+
+The rest of the paper is organized as follows: Section 2 develops the theoretical model; Section
+
+3 discuss the main ﬁndings regarding business cycle properties under the baseline monetary policy
+
+rules, optimality of asymmetric monetary policy rule and ﬁscal multiplier under hysteresis and op-
+
+timal asymmetric monetary policy; Section 4 concludes; Appendix A provides the proofs of the two
+Propositions in the main text. 5
+
+4The kink in the monetary policy rule (2) implies that the model cannot be solved by a conventional perturbation
+method and has to be solved and simulated by a fully nonlinear solution method. Speciﬁcally, the expanded path
+approach developed by Adjemian and Juillard (2011) is adopted for the nonlinear solution. See the online Appendix D
+to see more details regarding the nonlinear solution method.
+
+5Online (not intended for publication) Appendix B provides the complete set of model equations; Online Appendix
+C shows how the non-stochastic steady state can be pinned down; Online Appendix D explains how the fully nonlinear
+solution method works.
+
+4
+
+2 The Model
+
+We combine Ethier (1982)-Romer (1990)-type monopolistic competition model of time-varying variety
+
+with Baldwin and Krugman (1989)’s hysteresis model based on ﬁrm dynamics in an economy with
+
+nominal rigidity. Owing to endogenous exits, the number of ﬁrms do not grow in the long run. However,
+
+TFP becomes endogenous not because of changes in investment in research and development as in
+
+Romer (1990), but because the composition of ﬁrms with heterogeneous productivities changes in
+
+response to aggregate demand shocks.
+
+2.1 Production Firms
+
+2.1.1 Technology
+
+There exists a continuum of product variety indexed by [0, 1]. The term, variety is interchangable
+
+with ﬁrm in this paper. Some ﬁrms in the continuum are active and some ﬁrms are inactive and exist
+only as “ideas”. An active ﬁrm produces an intermediate good yt(i) using a constant-returns-to-scale
+Cobb-Douglas production funciton,
+
+yt(i) = mt(i)xzt(i)kt(i)ant(i)1−α
+
+(3)
+
+where kt(i) and nt(i) denote capital and labor. x is the aggregate productivity.6 Throughout the
+analysis, x is assumed to be a constant. zt(i) is an i.i.d.
+idiosyncratic technology shock following a
+lognormal distribution,
+
+log z(i) ∼ N (−0.5σ2
+
+z, σ2
+z)
+
+with its cdf denoted by F (·). mt(i) ∈ {0, 1} denotes the activity status of ﬁrm i. If mt(i) = 1, the ﬁrm
+is active in the current period. If mt(i) = 0, the ﬁrm is inactive either because it has never entered
+the market or because it exited the market in the past.
+
+Note that Et[zt(i)] = 1. However Et[zt(i)|mt(i) = 1] is not a constant and time-varies as the
+
+composition of active ﬁrms changes over time. The total measure of active ﬁrms today is given by
+
+Mt ≡
+
+(cid:90) 1
+
+0
+
+mt(i)di.
+
+The varieties of intermediate products are then sold to a representative ﬁrm, which produces the
+
+ﬁnal good using a CES technology,
+
+yt = M
+
+1+v−
+t
+
+(cid:15)p
+(cid:15)p−1
+
+(cid:20)(cid:90) Mt
+
+(cid:21)
+
+(cid:15)p−1
+(cid:15)p di
+
+yt(i)
+
+(cid:15)p
+(cid:15)p−1
+
+0
+
+,
+
+(cid:15)p ∈ (1, ∞),
+
+(4)
+
+where (cid:15)p is the elasticity of substitution among diﬀerent varieties and v is the returns-to-specialization
+
+6As will be made clear, nt(i) is itself a a composite input, combining a continuum of varieties of labor inputs nt(i, j)
+(cid:105) (cid:15)w
+(cid:15)w −1
+(cid:15)w −1 where (cid:15)w is the elasticity of substitution among
+
+(cid:15)w dj
+
+(cid:104)(cid:82) 1
+
+using a Dixit-Stiglitz aggregator, that is nt(i) =
+diﬀerent labor inputs.
+
+0 nt(i, j)
+
+5
+
+(see Benassy (1996), Devereux, Head, and Lapham (1996) and Sim (2008)). If v > 0 (v < 0), there is
+
+an increasing (decreasing) returns-to-scale due to specialization. To see this, consider the fact that if
+all active ﬁrms produce an identical quantity, say, ¯y, the output of the ﬁnal-good becomes y = ¯yM 1+v.
+v > 0 (v < 0) makes the output increasing(decreasing) in M more (less) than proportionately.
+
+The price index implied by the zero proﬁt condition of the ﬁnal good sector is given by
+
+To streamline the notations, we deﬁne
+
+Pt = M
+
+−
+t
+
+(cid:16)
+
+1+v−
+
+(cid:15)p
+(cid:15)p−1
+
+(cid:17)
+
+(cid:20)(cid:90) Mt
+
+(cid:21)1/(1−(cid:15)p)
+
+Pt(i)1−(cid:15)pdi
+
+.
+
+0
+
+(cid:18)
+
+ξ ≡ (1 − (cid:15)p)
+
+1 + v −
+
+(cid:19)
+
+.
+
+(cid:15)p
+(cid:15)p − 1
+
+Using (6), we can express the product demand for a variety i as
+
+yt(i) = M −ξ
+
+t
+
+(cid:21)−(cid:15)p
+
+(cid:20) Pt(i)
+Pt
+
+yt.
+
+(5)
+
+(6)
+
+(7)
+
+We impose a parameter restriction such that ξ > 0 or equivalently v < ((cid:15)p − 1)−1.
+
+2.1.2 Firm Dynamics
+
+When a new ﬁrm enters the market, the ﬁrm has to make an investment, which is sunk upon entry.
+This cost is denoted by a fraction γE ∈ (0, 1) of the non-stochastic steady state of aggregate output
+(y). Any active ﬁrm, whether new or incumbent, has to incur ﬁxed operating cost in each period.
+This cost is denoted by a fration γX (≤ γE) of the non-stochastic steady state of aggregate output.
+
+Let Vt(zt(i), mt−1(i)) denote the value of a ﬁrm with an idiosyncratic shock zt(i) and an activity
+status mt−1(i) in the previous period. To analyze the ﬁrm’s entry/exit decision, 4 auxiliary value
+functions are deﬁned as follows. For each of (mt−1(i), mt(i)) ∈ {0, 1} × {0, 1}, an auxiliary value
+function is deﬁned as
+
+Wt(zt(i), mt−1(i), mt(i)) = mt(i)[Πt(zt(i)) − (1 − mt−1(i))γEy − γX y] + Et[Qt,t+1Vt+1(zt+1(i), mt(i))]
+(8)
+where Πt(zt(i)) is the proﬁt before entry and ﬁxed costs, Qt,t+1 is the stochastic discounting factor
+of the representative household. For instance, consider a new ﬁrm that has to decide to enter or not
+today. For this ﬁrm, Wt(zt(i), 0, 1) is the value of entry today while Wt(zt(i), 0, 0) is the value of
+delaying entry. Likewise, Wt(zt(i), 1, 1) and Wt(zt(i), 1, 0) are the value of delaying exit and the value
+of exiting for an incumbent ﬁrm. The value of a ﬁrm can then be expressed, regardless of its activity
+
+status in the previous period, as:
+
+Vt(zt(i), mt−1(i)) = max{Wt(zt(i), mt−1(i), 0), Wt(zt(i), mt−1(i), 1)}.
+
+(9)
+
+6
+
+One can then deﬁne entry and exit threshold levels of productivity as a set of cutoﬀ values of z
+
+that satisfy
+
+Wt(zE
+
+t , 0, 0) = Wt(zE
+
+t , 0, 1)
+
+in the case of entry problem (mt−1(i) = 0) and
+
+Wt(zX
+
+t , 1, 0) = Wt(zX
+
+t , 1, 1)
+
+(10)
+
+(11)
+
+in the case of exit problem (mt−1(i) = 1) where zE
+t are entry and exit threshold levels of
+idiosyncratic technology, respectively. In words, an inactive ﬁrm with the idiosyncratic technology
+level zt(i) = zE
+t
+ﬁrm with the idiosymcratic technology level zt(i) = zX
+t
+the market. Using the deﬁnition of (8), one can express (10) and (11) as
+
+is indiﬀerent between staying inactive and entering the market. Likewise, an active
+
+is indiﬀerent between staying active and exiting
+
+t and zX
+
+and
+
+where
+
+(γE + γX )yt = Πt(zE
+
+t ) + qF
+t
+
+γX yt = Πt(zX
+
+t ) + qF
+t
+
+qF
+t ≡ Et{Qt,t+1[Vt+1(zt+1(i), 1) − Vt+1(zt+1(i), 0)]}.
+
+(12)
+
+(13)
+
+(14)
+
+One can think of qF
+t as the expected surplus value tomorrow that is created by the decision to remain
+active today either by creating an additional ﬁrm or by postponing an exit. Note that since the proﬁt
+is monotonically increasing in z, (12) and (13) imply that zE
+increasing in z and γE > 0.
+
+since the proﬁt is monotonically
+
+t > zX
+t
+
+These conditions can be viewed as zero proﬁt conditions (also “free entry” and “free exit”): the
+
+current proﬁt and the expected surplus value of staying active today should cover ﬁxed costs (inclusive
+
+of the entry cost in the case of a new entrant) at the entry and exit threshold technology levels.
+
+Proposition 1 The surplus value of ﬁrm given by (14) satisﬁes the following recursion:
+
+(cid:34)
+
+qF
+t = Et
+
+Qt,t+1
+
+(cid:32)(cid:90)
+
+γEydF (z) +
+
+(cid:90)
+
+z≥zE
+
+t+1
+
+t+1≤z≤zE
+zX
+
+t+1
+
+(cid:2)Πt+1(z) − γX y + qF
+
+t+1
+
+(cid:3) dF (z)
+
+(cid:33)(cid:35)
+
+(15)
+
+Proof See Appendix A.
+
+Firm dynamics is then determined by the entry and exit conditions, (12) and (13), the dynamics
+
+of surplus ﬁrm value, (15) and the law of motion for the mass of active ﬁrms:
+
+Mt = Mt−1[1 − F (zX
+
+t )] + (1 − Mt−1)[1 − F (zE
+
+t )].
+
+(16)
+
+The law of motion implies that only the incumbent ﬁrms whose idiosyncratic shocks are above the
+exit threshold zX
+t )]) and only the new ﬁrms whose idiosyncratic shocks
+t
+
+remain active (Mt−1[1 − F (zX
+
+7
+
+are above the entry threshold zE
+t
+standardized entry and exit thresholds are deﬁned:
+
+enter the market ((1 − Mt−1)[1 − F (zE
+
+t )]). For later purposes,
+
+and
+
+νE
+t ≡
+
+log(zE
+
+t ) + 0.5σ2
+z
+
+σz
+
+νX
+t ≡
+
+log(zX
+
+t ) + 0.5σ2
+z
+
+σz
+
+.
+
+Using (17) and (18), the law of motion (16) can be expressed as
+
+Mt = Mt−1[1 − Φ(νX
+
+t )] + (1 − Mt−1)[1 − Φ(νE
+
+t )],
+
+(17)
+
+(18)
+
+(19)
+
+where Φ(·) denotes the cdf of standard normal distribution.
+
+2.1.3 Optimal Pricing
+
+The ﬁrms face nominal rigidity in setting product prices. Nominal rigidity is introduced a l`a Rotemberg
+
+(1982). The symmetric equilibrium of Rotemberg (1982) under our timing assumption that price
+
+choice has to be made prior to the realization of idiosyncratic shock uniquely pins down the entry/exit
+
+thresholds. Firms are assumed to face quadratic adjustment cost when they change nominal prices.
+
+In particular, the generalized New Keynesian version by Ireland (2007) is assumed:
+
+(cid:18)
+
+ϕp
+2
+
+Pt(i)
+πχ
+t−1Pt−1(i)
+
+(cid:19)2
+
+− 1
+
+ytM −ξ
+
+t =
+
+ϕp
+2
+
+(cid:18) πt
+πχ
+t−1
+
+pt(i)
+pt−1(i)
+
+(cid:19)2
+
+− 1
+
+ytM −ξ
+t
+
+, χ ∈ [0, 1)
+
+where pt(i) ≡ Pt(i)/Pt, and πt is gross inﬂation rate, i.e., πt ≡ Pt/Pt−1. χ is the indexation parameter,
+which makes the Phillips curve both backward and forward looking. Note that it is assumed that the
+price adjustment cost is proportional to ytM −ξ
+
+for the homogeneity of the Phillips curve.
+
+t
+
+Entrant ﬁrms were not active last period and the cost of changing its own relative price from last
+
+period is not deﬁned. For this reason, entrant ﬁrms are assumed to face diﬀerent price setting cost:
+
+ϕp
+2
+
+(cid:18) Pt(i)
+πχ
+t−1Pt−1
+
+(cid:19)2
+
+− 1
+
+ytM −ξ
+
+t =
+
+ϕp
+2
+
+(cid:18) πt
+πχ
+t−1
+
+(cid:19)2
+
+pt(i) − 1
+
+ytM −ξ
+t
+
+.
+
+This cost assumes that entrant ﬁrms face the cost of deviating from the average price last period.
+
+Taken together, these assumptions imply that the ﬁrm’s real proﬁt before ﬁxed costs is
+
+Πt(i) = pt(i)yt(i) − rK
+
+t kt(i) − wtnt(i) −
+
+ϕp
+2
+
+(cid:20) πt
+πχ
+t−1
+
+pt(i)
+
+(cid:18) mt−1(i)
+pt−1(i)
+
+(cid:19)
+
+(cid:21)2
+
++ 1 − mt−1(i)
+
+− 1
+
+ytM −ξ
+t
+
+(20)
+
+where rK
+
+t and wt are rental rate of capital and equilibrium real wage.
+
+As mentioned, to formulate the optimal pricing problem in the context of symmetric equilibrium,
+
+it is assumed that the pricing decision has to be made before the realization of the idiosyncratic shock.
+
+8
+
+In this environment, the ﬁrms make decision on pricing based on the expected real marginal cost
+Ei
+t[µt(i)] where the expectation operator is deﬁned with repect to the idiosyncratic uncertainty. The
+
+otimal pricing problem then solves
+
+(cid:40)
+
+(cid:2)pt(i)1−(cid:15)p − Ei
+
+t[µt(i)]pt(i)−(cid:15)p(cid:3) M −ξ
+
+t yt −
+
+max
+pt(i)
+
+ϕp
+2
+
+(cid:20) πt
+πχ
+t−1
+
+pt(i)
+
+(cid:18) mt−1(i)
+pt−1(i)
+
+(cid:19)
+
+(cid:21)2
+
++ 1 − mt−1(i)
+
+− 1
+
+ytM −ξ
+t
+
+∞
+(cid:88)
+
+(cid:34)
+
+˜Qt,s
+
++Et
+
+s=t+1
+
+(cid:2)ps(i)1−(cid:15)p − Es[µs(i)]ps(i)−(cid:15)p(cid:3) M −ξs
+
+s
+
+ys −
+
+ϕp
+2
+
+(cid:18) πs
+πχ
+s−1
+
+ps(i)
+ps−1(i)
+
+(cid:19)2
+
+− 1
+
+ysM −ξs
+s
+
+(cid:35)(cid:41)
+
+where ˜Qt,s ≡ Qt,s
+j=t+1[1 − Φ(νX
+symmetric equilibrium condition pt(i) = pt+1(i) = 1, is
+
+(cid:81)s
+
+j )]. The ﬁrst order condition for this problem, after imposing the
+
+1 =
+
+(cid:15)p
+(cid:15)p − 1
+
+Ei
+
+t[µt(i)] −
+
+ϕp
+(cid:15)p − 1
+
+πt
+πχ
+t−1
+
+(cid:18) πt
+πχ
+t−1
+
+(cid:19)
+
+− 1
+
++
+
+ϕp
+(cid:15)p − 1
+
+Et
+
+(cid:34)
+Qt,t+1[1 − Φ(νX
+
+t+1)]
+
+πt+1
+πχ
+t
+
+(cid:18) πt+1
+πχ
+t
+
+− 1
+
+(cid:19) yt+1/M ξ
+yt/M ξ
+t
+
+t+1
+
+(21)
+
+(cid:35)
+
+for both entrants and incumbents. This is the Phillips curve of the model. It is straightforward to show
+
+that the log-linear dynamics of inﬂation rate is captured by a both forward- and backword-looking
+
+Phillips curve:
+
+ˆπt =
+
+χ
+1 + χβ[1 − Φ(νX )]
+
+ˆπt−1 +
+
+β[1 − Φ(νX )]
+1 + χβ[1 − Φ(νX )]
+
+Et[ˆπt+1] +
+
+µ(cid:15)/ϕp
+1 + χβ[1 − Φ(νX )]
+
+Ei
+
+t[ˆµt],
+
+(22)
+
+where variables with hat are log-linearized values of the original variables and the variables without
+
+time subscripts are the values at the nonstochastic steady state.
+
+2.1.4 Aggregate Production Function
+
+Cost minimization, taking place after the realization of the idiosyncratic shock and hence after the
+
+entry/exit decision, requires
+
+and
+
+rK
+t = αµt(i)xtzt(i)
+
+(cid:21)α−1
+
+(cid:20) kt(i)
+nt(i)
+
+wt = (1 − α)µt(i)xtzt(i)
+
+(cid:21)α
+
+(cid:20) kt(i)
+nt(i)
+
+where µt(i) is the realized real marginal cost. These two conditions imply that the capital labor ratio
+is equalized across heterogeneous ﬁrms regardless of their levels of idiosyncratic technology, i.e.,
+
+kt(i)
+nt(i)
+
+=
+
+(cid:18) α
+
+1 − α
+
+(cid:19) wt
+rK
+t
+
+≡ κt.
+
+(23)
+
+9
+
+In this symmetric equilibrium, all active ﬁrms produce an identical level of output regardless of their
+
+productivity diﬀerentials. Since some ﬁrms are less productive than others, these ﬁrms need to use
+
+greater amounts of production inputs, but the ratio of production input must be equalized across all
+
+active ﬁrms. The equalization of product demand and supply implies
+
+(cid:21)−(cid:15)p
+
+M −ξ
+t
+
+(cid:20) Pt(i)
+Pt
+
+yt = xtzt(i)kt(i)αnt(i)1−α.
+
+(24)
+
+The following proposition shows the existence of aggregate production function and provides its an-
+
+lytical functional form.
+
+Proposition 2 Deﬁne kt ≡
+
+(cid:90) 1
+
+mt(i)kt(i)di, nt ≡
+
+(cid:90) 1
+
+mt(i)nt(i)di. The eﬃciency condition for fac-
+
+0
+tor utilization (23) and the market clearing condition (24) imply that the aggregate production
+
+0
+
+function exists and is of the form:
+
+yt = xΞtkα
+
+t n1−α
+t
+
+where
+
+Ξt ≡
+
+Proof See Appendix A.
+
+{[(1 − Mt−1)[1 − Φ(νE
+
+(1 − Mt−1)[1 − Φ(νE
+
+t )] + Mt−1[1 − Φ(νX
+t + σz)] + Mt−1[1 − Φ(νX
+
+t )]}ξ
+t + σz)]
+
+(25)
+
+(26)
+
+.
+
+Note that Ξt in the aggregate production function (25) can be thought of as the endogenous
+component of Solow residuals. Appendix A shows that the endogenous component of TFP is given by
+
+(cid:18)(cid:90)
+
+Ξt = M ξ
+t ·
+
+mt(i)zt(i)−1di
+
+(cid:19)−1
+
+.
+
+(27)
+
+The more productive active ﬁrms are, the greater the endogenous TFP is. Therefore, if aggregate
+
+shocks that induce more entries of productive ﬁrms and exits of ineﬃcient marginal ﬁrms, the TFP
+
+level of the economy is increased endogenously. Substituting (25) and (27) in the demand for an
+
+individual product and imposing the symmetric equilibrium condition yields
+
+(cid:18)(cid:90)
+
+yt(i) =
+
+mt(i)zt(i)−1di
+
+(cid:19)−1
+
+xkα
+
+t n1−α
+t
+
+for all i ∈ [0, 1].
+
+(28)
+
+This shows that all active ﬁrms beneﬁt from the increase in average quality of ﬁrms.
+
+In our baseline calibration, we set v = 0 to exclude any eﬀects of the externality stemming from
+
+the returns-to-specialization. In this case, competitive equilibrium is socially optimal. If v > 0, there
+
+exists “business enhansing” eﬀects associated with new entry. In this case, the number of variety in the
+
+competitive equilibrium is too small relative to socially optimal level. If v < 0, there exists “business
+
+stealing” eﬀects associated with new entry. In this case, the number of varieties in the competitive
+
+equilibrium is too large relative to socially optimal level (see Spence (1976) and Mankiw and Whinston
+
+10
+
+(1986)). The presence of such externality implies that the competive equilibrium analyzed in this paper
+is not socially optimal.7 Later we explore the monetary policy implication of positive externality.
+
+Corollary The average marginal cost of the economy is given by
+
+Ei
+
+t[µt(i)] =
+
+1
+xtΞt
+
+(cid:18) rK
+t
+α
+
+(cid:19)α (cid:18) wt
+1 − α
+
+(cid:19)1−α
+
+.
+
+(29)
+
+Proof (25) is the sum of the products of all active ﬁrms. Hence, average level of output is given by
+
+yt
+Mt
+
+= xtΞt
+
+(cid:18) kt
+Mt
+
+(cid:19)α (cid:18) nt
+Mt
+
+(cid:19)1−α
+
+(30)
+
+Using the average production function (30), the conditional factor demands can be derived as
+
+and
+
+nt
+Mt
+
+= κ−α
+t
+
+1
+xtΞt
+
+yt
+Mt
+
+kt
+Mt
+
+= κ1−α
+t
+
+1
+xtΞt
+
+yt
+Mt
+
+.
+
+(31)
+
+(32)
+
+Average total cost of producing average output yt/Mt can be expressed as
+
+T C
+
+(cid:19)
+
+(cid:18) yt
+Mt
+
+= wt
+
+nt
+Mt
+1
+xtΞt
+
+kt
++ rK
+t
+Mt
+(cid:19)α (cid:18) wt
+1 − α
+
+(cid:18) rK
+t
+α
+
+=
+
+(cid:19)1−α yt
+Mt
+
+Hence the average marginal cost is given by Ei
+the Corollary. Q.E.D.
+
+t[µt(i)] = T C(cid:48) (yt/Mt), which is equal to (29) in
+
+Not surprisingly, an increase in endogenous TFP lowers the average real marginal cost, which
+
+matters for pricing decisions as shown by log-linearized Phillips curve (22). This means that when
+
+endogenous TFP is increased during an expansion driven by positive demand shocks, inﬂation pressure
+
+is more subdued than in the economy without the endogenous TFP channel. This is precisely the
+
+meaning of the expression “demand creates its own supply”, that is, the inverse Say’s Law, a potential
+
+resolution to “missing inﬂation ” puzzle. Conversely, (29) implies that when endogenous TFP is
+
+decreased during a contraction driven by negative demand shocks, deﬂation pressure is more subdued
+
+than in the economy without the endogenous TFP channel, a potential resolution to “missing deﬂation
+
+” puzzle.
+
+7Sim (2008) shows how a constrained optimum can be constructed such that the total value of ﬁrms is maximized for
+the representative household subject to the mark-up pricing rule implied by the monopolistic competition in the presence
+of the externality in a real business cycle setting.
+
+11
+
+2.2 Household
+
+We model the household as a large family in which a continuum of family members exist and pro-
+
+vide intermediate labor inputs to ﬁrms in monopolistically competitive labor markets. Firms use a
+
+composite labor inputs by aggregating intermediate labor inputs in a CES function:
+
+nt =
+
+(cid:20)(cid:90) 1
+
+0
+
+(cid:21) (cid:15)w
+(cid:15)w −1
+
+nt(j)
+
+(cid:15)w −1
+(cid:15)w dj
+
+,
+
+(cid:15)w ∈ (1, ∞)
+
+(33)
+
+The cost minimization problem of ﬁrms yields the labor demand for each intermediate labor input as
+
+nt(j) =
+
+(cid:19)−(cid:15)w
+
+(cid:18) Wt(j)
+Wt
+
+nt ≡ wt(j)−(cid:15)w nt,
+
+(34)
+
+where aggregate nominal wage index Wt satisﬁes
+
+Wt =
+
+(cid:20)(cid:90) 1
+
+0
+
+Wt(j)1−(cid:15)w dj
+
+(cid:21)1/(1−(cid:15)w)
+
+.
+
+The household faces a quadratic cost of adjusting real wage:
+
+ϕw
+2
+
+(cid:18) Wt(j)/Pt
+
+Wt−1(j)/Pt−1
+
+(cid:19)2
+
+− 1
+
+ns(j) =
+
+ϕw
+2
+
+(cid:18) wt(j)
+wt−1(j)
+
+wt
+wt−1
+
+(cid:19)2
+
+− 1
+
+ns(j)
+
+where wt ≡ Wt/Pt. Note that by supplying nt(j) units of labor input j , the households earn the
+following real income before tax:
+
+Wt(j)
+Pt
+
+nt(j) =
+
+Wt(j)
+Wt
+
+Wt
+Pt
+
+wt(j)−(cid:15)w nt = wtwt(j)1−(cid:15)w nt.
+
+The representative household is endowed with GHH preferences (Greenwood, Hercowitz, and Huﬀ-
+
+man (1988)) with external habit. She maximizes her life-time utility:
+
+Ut = max
+
+cs,bs+1,ws(j)
+
+Et
+
+(cid:34)
+
+∞
+(cid:88)
+
+s=t
+
+βs−t
+
+1
+1 − σu
+
+cs − hcs−1 −
+
+1/ς
+1 + 1/θ
+
+(cid:18)(cid:90) 1
+
+0
+
+ws(j)−(cid:15)w nsdj
+
+(cid:19)1+1/θ(cid:35)1−σu
+
+subject to a period-by-period budget constraint,
+
+ct =
+
+(cid:90) 1
+
+0
+
+(1 − τ t)wtwt(j)1−(cid:15)w ntdj + rK
+
+bt − bt+1
+
+(35)
+
+−qK
+
+t [kt+1 − (1 − δ)kt] −
+
+(cid:90) 1
+
+0
+
+ϕw
+2
+
+(cid:19)2
+
+− 1
+
+nt(j)dj + Πt,
+
+wt
+wt−1
+
+1 + rt−1
+πt+1
+
+t kt +
+(cid:18) wt(j)
+wt−1(j)
+
+where bt+1 is risk-free bonds, which are in zero net supply and Πt is the transfer of aggregate proﬁts.
+Note that the household chooses its labor supply by selecting the real wage of intermediate labor input
+on the demand curve nt(j) = wt(j)−(cid:15)w nt, acting as a monopolistically competitive labor supplier of
+
+12
+
+nt(j). The ﬁrst order conditions for the household, after imposing the symmetric equilibrium condition,
+i.e., wt(j) = Wt(j)/Wt = 1 and denoting the shadow value of the budget constraint by λt, are given
+by the following four conditions:
+
+(cid:18)
+
+λt =
+
+ct − hct−1 −
+
+1/ς
+1 + 1/θ
+
+n1+1/θ
+t
+
+(cid:19)−σu
+
+(1 − τ t)wt =
+
+(cid:15)w
+(cid:15)w − 1
+β
+(cid:15)w − 1
+
++
+
+n1/θ
+t
+ς
+
+−
+
+ϕw
+(cid:15)w − 1
+
+Et
+
+(cid:20) λt+1
+λt
+
+wt+1
+wt
+
+(cid:18) wt
+wt−1
+
+wt
+wt−1
+(cid:18) wt+1
+wt
+
+(cid:19)
+
+− 1
+
+(cid:21)
+
+(cid:19) nt+1
+nt
+
+− 1
+
+(cid:35)
+
+and
+
+(cid:34)
+
+1 = βEt
+
+λt+1
+λt
+
+rK
+t+1 + (1 − δ)qK
+t+1
+qK
+t
+
+1 = βEt
+
+(cid:20) λt+1
+λt
+
+1 + rt+1
+πt+1
+
+(cid:21)
+
+ψt
+
+,
+
+(36)
+
+(37)
+
+(38)
+
+(39)
+
+where ψt is Smets and Wouters (2007)’s risk premium shock associated with nominal bond holdings,
+which follows an AR(1) process given by
+
+log ψt = ρΞ log ψt−1 + σψ(cid:15)ψ,t,
+
+(cid:15)ψ,t ∼ i.i.d. N (0, 1).
+
+(40)
+
+The GHH preferences make the marginal cost of providing labor in the wage Phillips curve (37)
+
+independent of marginal utility of consumption.
+(37) shows that in the non-stochastic zero trend
+inﬂation steady state in which πt = πt−1 = 1 and wt = wt−1, the real wage is determined by tax
+wage, (1 − τ )−1, markup wedge (cid:15)w/((cid:15)w − 1) and the marginal diutility of labor controlled by the Frisch
+elasticity of labor supply:
+
+w = (1 − τ )−1 ·
+
+(cid:15)w
+(cid:15)w − 1
+
+·
+
+n1/θ
+ς
+
+.
+
+2.3 Investment-Goods Producers
+
+To endogeneize the price of capital, it is assumed that there is a continuum of competitive investment-
+
+goods producers. These ﬁrms use the following CRS technology to produce investment goods. The
+
+combination of complete competition and CRS technology implies that the scale of the ﬁrms is inde-
+
+terminate. Hence, the existence of a representative ﬁrm. This ﬁrm solves
+
+Et
+
+max
+xs
+
+∞
+(cid:88)
+
+s=t
+
+(cid:40)
+
+(cid:34)
+
+Qt,s
+
+qK
+s is −
+
+is +
+
+κ
+2
+
+(cid:18) is
+is−1
+
+(cid:19)2
+
+(cid:35)(cid:41)
+
+− 1
+
+is−1
+
+.
+
+13
+
+The ﬁrst order condition to the above problem is given by an investment Euler equation:
+
+qK
+t = 1 + κ
+
+(cid:18) it
+it−1
+
+(cid:19)
+
+− 1
+
+(cid:40)
+
+− Et
+
+Qt,t+1
+
+(cid:19)2
+
+(cid:34)(cid:18) it+1
+it
+
+κ
+2
+
+(cid:35)(cid:41)
+
+− 1
+
+.
+
+(41)
+
+Since newly produced capital and the old capital are identical, qK
+
+t becomes the price of capital.
+
+2.4 Closing the Model
+
+As was mentioned in the introduction, for a monetary policy, an asymmetric Taylor rule is considered:
+
+rt = r∗
+
+t + 1(πt ≥ π∗)ρ(+)
+
+π (πt − π∗) + 1(πt < π∗)ρ(−)
+
+π (πt − π∗),
+
+(42)
+
+where π∗ is the inﬂation target of the central bank. In the baseline analysis, we impose parameter
+restrictions ρ(+)
+π . Eventually, however, we allow the two coeﬃcients to diﬀer in the analysis of
+optimal monetary policy.
+
+π = ρ(−)
+
+Regarding the natural rate of interest rate r∗
+
+t , two cases are considered: First, in the baseline,
+t = r∗, that is, the natural rate is equal to the steady state nominal interest rate; Second, alternatively
+r∗
+t = rF
+r∗
+t , that is, the natural rate is set equal to the real interest rate of the ﬂexible price economy
+without nominal rigidity. The two cases are considered because it is unclear whether government
+
+spending shock should be considered a pure demand disturbance that does not aﬀect the ﬂexible
+
+economy or should be considered a real disturbance that aﬀects the ﬂexable economy. In the latter
+
+case, Woodford (2003) recommends central banks to set the natural rate of interest rate according to
+
+the ﬂexible price economy. While this distinction does not make any material diﬀerences for the main
+
+conclusions of this paper, it can make an important diﬀerence for the sign and size of ﬁscal multiplier.
+
+Note that an inertial component of monetary policy rule is not considered. This is because the
+
+inertial component of the Taylor rule often works as an ineﬃcient source of propagation. The feedback
+
+rule also excludes a term for output or unemployment gap. This is for two reasons. The focus of
+
+the analysis is on the eﬀects of demand shocks, and hence the model economy features the divine
+
+coincidence. This choice also avoids the strong assumption that the central bank can observe the
+
+evolution of the endogenous TFP (or the natural rate of unemployment) in real time.
+
+Final-goods market clearing condition is given by
+
+yt = ct + it + gt + (1 − Mt−1)[1 − Φ(νE
+(cid:19)2
+
+t )]γEy + MtγX y
+
++
+
+κ
+2
+
+(cid:18) it
+it−1
+
+− 1
+
+it−1 +
+
+ϕp
+2
+
+(cid:18) πt
+πχ
+t−1
+
+− 1
+
+(cid:19)2
+
+ytM −1
+
+t +
+
+ϕw
+2
+
+(cid:18) wt
+wt−1
+
+(cid:19)2
+
+− 1
+
+nt
+
+where gt is government spending, which follows an AR(1) process
+
+gt = ρggt−1 + σg(cid:15)g,t
+
+14
+
+(43)
+
+(44)
+
+Table 1: Calibration forBaseline Economy
+
+Parameter
+
+Capital share
+Elasticity of substitution in CES aggregator (goods)
+Elasticity of substitution in CES aggregator (labor)
+Returns-to-specialization
+Investment adjustment cost
+Entry cost
+Fixed cost
+Volatility of idiosyncratic shock
+Depreciation rate
+Time discount factor
+Consumption habit
+Constant relative risk aversion
+Labor disutility
+Frisch elasticity of labor supply
+Price/wage adjustment cost
+Price indexation
+Inﬂation target
+Monetary policy reaction coeﬃcients
+Persistence of risk premium shock and government spending shock
+Volatility of risk premium shock
+Volatility of government spending shock
+
+Value
+
+α = 0.3
+(cid:15)p = 2.5
+(cid:15)w = 10
+v = 0.0
+κ = 5
+γE = 0.2
+γX = 0.2
+σz = 0.33
+δ = 0.025
+β = 0.99
+h = 0.5
+σu = 2
+ς = 1
+θ = 2
+ϕp = ϕw = 100
+χ = 0.5
+π∗ = 1
+ρ(+)
+π = ρ(−)
+ρψ = ρg = 0.8
+σψ = 0.001
+σg = 0.0038
+
+π = 2
+
+For a balanced budget in each period, the tax rate on labor income should be adjusted according to
+
+τ t =
+
+gt
+wtnt
+
+(45)
+
+3 Results
+
+3.1 Calibration
+
+Table 1 summarizes the calibration of the baseline economy. The capital share α is set equal to 0.3
+as is standard in business cycle research. The elasticity of substitution ((cid:15)p) in the CES aggregator is
+set equal to 2.5. This value is relatively small compared with other literature, implying a high price
+
+markup. However, given that there are sunk entry cost and ﬁxed cost of operation, relatively large
+
+market power is required. In contrast, we assume a much less degree of market power of labor and set
+(cid:15)w = 10. Since we assume symmetric price and wage adjustment cost, ϕp = ϕw = 100, the choices of
+(cid:15)w and (cid:15)w implies that the wage Phillips curve is steeper than the price Phillips curve. Price indexation
+is calibrated as 0.5. This choice implies that the the coeﬃcient of the lagged inﬂation term in the
+
+Phillips curve is approximatedly 0.33, which is in the middle of the range [0.1, 0.5] of the estimates
+
+reported by Schorfheide (2008).
+
+Regarding the investment adjustment cost (κ), 5 is chosen to produce roughly 3 times more volatile
+
+15
+
+investment series compared with output volatility. The depreciation rate of capital (δ) is 0.025 as is
+standard in the literature. Both entry cost (γE) and ﬁxed cost of operation (γX ) are set equal to
+0.2 of average output level, which is consistent with mid-range of the estimates reported by Dunne,
+Roberts, Klimek, and Xu (2007). The volatility of idiosyncratic technology (σz) is chosen as 0.33.
+Given the choices of market power, sunk and ﬁxed costs, and the volatility of idiosyncratic shock, the
+
+equilibrium number of active ﬁrms in the non-stochastic steady state is determined as M = 0.912.
+
+Time discounting factor (β) is equal to 0.99, which can be considered standard and the constant
+relative risk aversion (σu) is 2 with the habit formation equal to 0.5. Both parameter choices are
+standard. Labor disutility parameter (ς) is set equal to 1 and the Firsch elasticity of labor supply (θ)
+
+is set as 2, which is consistent with the estimate of labor supply at the macroeconomic level. With
+
+this calibrations of nominal rigidity, the standard deviation of inﬂation rate is 4 percentage points in
+the baseline economy at the annual frequency. Gross inﬂation target (π∗) is equal to 1 and for the
+baseline monetary policy, a symmetric monetary policy is chosen: ρ(+)
+
+π = ρ(−)
+
+π = 2.
+
+Finally, for both risk-premium shock and government spending shock, a moderate degree of persis-
+tence is chosen: ρψ = ρg = 0.8. This is because, as will be show, the ﬁrm dynamics and the endogenous
+ﬂuctuations in TFP creates enough amount of endogenous persistence for equilbrium quantities and
+prices. One standard deviation of risk premium shock (σψ) is chosen such that σψ/(1 + r) = 40 basis
+points in the steady state at an annual frequency. One standard deviation of government spending
+shock (σg) is chosen such that σg/y = 40 basis points in the steady state. With this calibration of
+shock volatilities given persistence levels, the two shocks have roughly equal variance decomposition
+
+share for output.
+
+3.2 Model Dynamics
+
+3.2.1 Impacts of Demand Shocks: Impulse Response Functions
+
+In this subsection, I use impulse response functions to analyze the model dynamics under the demand
+
+shocks. Figure 1 shows the impacts of one standard deviation shocks to risk premium (blue solid
+
+lines) and to government spending (red dash-dotted lines). In response to the negative risk premium
+
+shock, output, hours, consumption and investment increase persistently as shown in panel (a)∼(d),
+
+which is standard as in the literature. What is unusual is the fact that the endogenous TFP increases
+
+persistently as shown in panel (g). The reason for this increase in TFP can be found in pabel (h) and
+
+(i): In response to the positive demand shock, ﬁrm entry increases persistently while ﬁrm exit is also
+
+increased persistently. Note that new entrant ﬁrms have higher quality than the average while exiting
+
+ﬁrms have lower quality than the average.
+
+Such replacement of ineﬃcient ﬁrms with eﬃcient ﬁrms are reminiscent of “creative destruction”
+
+of Schumpeter (1994). The increase in ﬁrm exit during a demand driven boom is somewhat counter-
+
+intuitive provided that increase in product demand should improve the survival conditions for the
+marginal ﬁrms.8 This is because the increase in product demand is dominated by the negative eﬀects
+
+8It is also counterfactual in that exit rate is asyclical in the data.
+
+16
+
+Figure 1: Impacts of Demand Shocks
+
+of increasing factor input prices shown panel (j) and (k).
+
+In the symmetric equilibrium, all ﬁrms
+
+produce the same quantity of goods, and the ﬁrms with relatively ineﬃcient technology have to use
+
+disproportionately large amounts of production inputs, which makes the survival much more diﬃcult
+
+for these ﬁrms. This is not the case for new entrant ﬁrms with relatively high productivity. Since
+
+these ﬁrms’s technologies are highly eﬃcient, their factor demands are not great in this symmetric
+
+equilibrium. As shown by (28), such creative destruction beneﬁts all active ﬁrms.
+
+The endogenous expansion in TFP makes the inﬂation pressure very much subdued as shown in
+
+panel (f). Despite the large increase in factor prices (especially the rental rate of capital), the increase
+
+in real marginal cost is mild in panel (e). This is because the endogenous increase in TFP oﬀsets the
+
+large increases in factor prices as shown by (29), lowering the inﬂation pressure.
+
+The dynamic pattern of the impact of government spending shock is diﬀerent from the risk premium
+
+shock even though the two shock processes are modeled identically. The eﬀects on aggregate output,
+
+hours and consumption (panel (a)∼(c)) are much more front-loaded compared with the eﬀects of risk
+
+premium shock. This is because the spending shock works through goods market clearing condition
+
+(43) rather than through the variation in the dynamic proﬁle of marginal utility of consumption. The
+
+spending shock is also diﬀerent from the risk premium shock in that it crowds out private investment
+
+17
+
+Figure 2: Returns-to-Specialization and Endogenous TFP
+
+Notes: The colors are arranged such that v = 0.0 is completely blue and as the v value is increased toward 0.1 the color
+becomes more redish and becomes complete red when v = 0.1.
+
+as shown in panel (d). Except these two diﬀerences, a similar pattern appears to hold : the increase in
+
+endogenous TFP owing to the creative destruction; subdued inﬂation dynamics. These two mechanism
+allow for lenient monetary policy reactions, which then further strengthens economic expansion.9
+
+3.2.2 Role of Returns-to-Specialization
+
+The degree of endogenous expansion in supply capacity and the resulting relaxation in inﬂation pres-
+
+sure crucially depends on the degree of returns-to-specialization and the speciﬁc source of demand
+
+disturbances. To illustrate this point, in Figure 2, the degree of returns-to-specialization is varied
+
+from 0, which is the case in baseline calibration, to 0.1. In the ﬁgure, v = 0 is marked by complete
+
+blue color and as the degree of returns-to-specialization is increased toward 0.1, the color becomes
+
+more reddish, reaching complete red when v = 0.1. The ﬁgure focuses on two varables, inﬂation rate
+
+on the left panels and endogenous TFP on the right panels .
+
+9The impulse response function analysis in this subsection is under the assumption that the central bank in the model
+conducts its monetary policy with a constant natural rate. As will be shown, the results for the spending shock are
+altered substantially under the alternative assumption about the time-varying natural rate.
+
+18
+
+First, consider the two upper panels, which show the impact of negative risk premium shock, a
+
+positive demand disturbance. As the degree of returns-to-specialization increases, the response of
+
+endogenous TFP becomes larger. However, despite the greater impact on TFP, the inﬂation response
+
+becomes more positive. This is because increase in factor prices dominates the increase in TFP, and
+
+as a result, greater degrees of returns-to-specialization lead to greater increases in real marginal cost.
+
+However, we note that additional increase in inﬂation pressure is pretty mild. Moving from v = 0 to
+
+v = 0.1 results in only about 1 basis poit diﬀerence in terms of the peak response of the inﬂation rate.
+
+The lower panels show the case of government spending shock for the same range of returns-
+
+to-specialization. The same pattern emerges on the right panel: as the returns-to-specialization is
+
+increased, the endogenous TFP increases more and the diﬀerence between v = 0 and v = 0.1 at the
+
+peaks creates 0.1 percentage points diﬀerence in the TFP responses similar to the case of risk premium
+
+shock. However on the left panel, an opposite pattern appears: inﬂation response becomes smaller as
+
+the returns-to-specialization is strengthend and as a result, output expansion becomes stronger (not
+
+shown). This shows an interesting possibility that greater output expansions may be associated with
+
+milder inﬂation pressure if the increase in endogenous TFP more than oﬀsets the increase in factor
+
+prices, a stronger case of inverse Say’s Law: demand creates its own supply.
+
+Before I move on to optimal monetary policy, I would like to emphasize that the hysteresis channel
+
+does not require the externality through positive returns-to-specialization. While it is true that positive
+
+returns-to-specialization may strengthen the degree of hysteresis eﬀect, the existence of hysteresis
+
+channel does not require the presence of the externality.
+
+3.3 Optimal Monetary Policy
+
+The discussion of the model’s impulse response functions indicates that the demand shocks considered
+
+in this paper has the aspects of both demand and supply shocks. What is optimal response of the
+
+central bank in this situation? In a canonical New Keynesian model, demand shocks are objects of
+
+complete stabilization especially. The central bank can achieve this by simply increasing inﬂation reac-
+
+tion coeﬃcient indeﬁnitely as shown by, for example, Clarida, Gal´ı, and Gertler (1999), who show that
+
+as the the weight given to the unemployment gap in the loss function of the central bank approaches
+
+zero, which is equivalent with the importance of cost-push shock converging to zero, optimal inﬂation
+
+reaction coeﬃcient should approach the inﬁnity in a discretionary optimization without commitment.
+
+Can one say the same thing in our environment in which “changes in aggregate demand can have an
+
+appreciable, persistent eﬀect on aggregate supply” (Yellen (2016))? Below it is shown that to the extent
+
+that hysteresis is present, complete stabilization of demand shock is suboptimal when the cenral bank
+
+is constrained to adopt a symmetric policy rule. Furthermore, it is shown that when the central bank
+
+is allowed to use an asymmetric policy rule, the central bank should react to positive demand shock
+
+in a dovish manner while it has to react to negative demand shock much more vigorously, providing
+
+massive degree of monetary stimulus.
+
+19
+
+Figure 3: To Kill Inﬂation or to Save Hysteresis
+
+Notes: The colors are arranged such that ρ(+)
+toward 4.0 the color becomes more redish and becomes complete red when ρ(+)
+
+π = 2.0 is completely blue and as the ρ(+)
+π = 4.0.
+
+π = ρ(−)
+
+π = ρ(−)
+
+π = ρ(−)
+
+π
+
+value is increased
+
+3.3.1 Symmetric Monetary Policy
+
+Figure 3 shows the eﬀects of increasing inﬂation coeﬃcient gradually from 2 to 4 in a setting of
+symmetric monetary policy rule with ρ(+)
+π . The ﬁgure is organized in a similar way that Figure
+2 is organized: the left pannels show the responses of inﬂation rate and the right pannels the responses
+
+π = ρ(−)
+
+of endogenous TFP; the upper panels are the case of risk premium shock while the lower pannels are
+the case of government spending shock. When ρ(+)
+π = 2.0, the color is complete blue. The color
+is gradually turning reddish as ρ(+)
+approaches 4.0, and the color becomes complete red when
+π = ρ(−)
+ρ(+)
+
+π = ρ(−)
+
+π = ρ(−)
+
+π = 4.0.
+
+π
+
+The left pannels show that as the monetary policy becomes more hawkish, the inﬂation responses
+
+to the demand shocks become smaller. There is nothing special about this result. However, the
+
+right panels show that the same hawish monetary policy rules also kill the expansions of endogenous
+
+TFP in both cases of risk premium shock and ﬁscal spending shock. Stabilizing inﬂation is certainly
+
+welfare improving. However, shutting down the expansion of supply capacity may be detrimental for
+
+the welfare of the representative agent. In other words, in this economy, appointing Rogoﬀ (1985)’s
+
+20
+
+Figure 4: Monetary Policy Conservatism and Welfare
+
+Notes: The welfare of the representative agent is approximated by the second-order perturbation method. The volatilities
+of risk premium shocks and government spending shocks are calibrated such that each shock accounts for 50 percent of
+output variance decomposition in the long-run.
+
+“conservative central banker” may harm the welfare of the society. Which of these opposing eﬀects
+
+dominates is the important question at hand.
+
+Figure 4 illustrates how the welfare changes as the monetary policy becomes more conservative. If
+
+the gains from stabilization of inﬂation dominates the loss from shutting down the hysteresis channel,
+the welfare of the representative agent should be maximized at large numbers for ρ(+)
+π .10 The
+upper three panel shows the cases when the monetary authority adopts a constant natural rate of
+
+π = ρ(−)
+
+interest rate because the government spending shock does not aﬀect the ﬂexible economy while the
+
+lower three panel shows the cases when the monetary authority adopts a time-varying natural rate
+
+of interest because the spending shock does aﬀect the ﬂexible economy (Woodford (2003)). The left,
+
+middle and right panels show the cases with the returns-to-specialization equal to 0.00, 0.01 and 0.02.
+
+First, consider the upper panels (a)∼(c). These three panels show that the welfare maximizing
+
+(symmteric) monetary policy coeﬃcients are ﬁnite and in fact very small. In other words, the central
+
+bank that aims to maximize the welfare of the representative agents ﬁnds complete stabilization of
+
+demand shocks suboptimal and let the demand shocks follow through such that the hysteresis eﬀects
+
+can be conserved. Furthermore, the comparisons of panels (a)∼(c) reveals that as the degree of
+
+10The welfare is approximated by the second order perturbation method. Later when the asymmetric policy rule is
+
+used, the expanded path approach is used to handle the kink in the monetary policy rule.
+
+21
+
+Figure 5: Asymmetric Monetary Policy
+
+π = 2 for all lines. ρ(−)
+Notes: ρ(+)
+π = 2,
+becomes more reddish as the value of ρ(−)
+π = 12. In the
+ﬁrst 10 periods, the economy is subject to a sequence of positive risk premium shock, ρψ[1.0 1.0 1.5 1.5 1.5 1.5 1.0 0.5
+0.25 0.125]. In the next 10 periods, the economy is subject to a sequence of negative risk premium shocks with exactly
+the same absolute values but with negative signs.
+
+is raised from 2 to 12. The color of the lines is completely blue when ρ(−)
+becomes closer to 12, and becomes completely red when ρ(−)
+
+π
+
+π
+
+returns-to-specialization increases, optimized inﬂation coeﬃcients become even smaller. These results
+
+indicate that the beneﬁts from letting the hysteresis eﬀects follow through can be far greater than the
+
+costs of having ﬂuctuations in inﬂation and output.
+
+Next, consider the bottom three panels (d)∼(f). The experiment is identical with the upper panels
+
+except that the government spending shock is modeled as a real shock that aﬀects the ﬂexible economy
+
+and the central bank is assumed to adjust the natural rate of interest rate according to the real rate
+
+in the ﬂexible economy such that when inﬂation gap is completely stabilized, the nominal interest
+
+rate is set according to the real rate of the ﬂexible economy. Our two ﬁndings are robust against this
+
+alternative assumption: welfare maximizing inﬂation coeﬃcient is ﬁnite and becomes smaller as the
+
+degree of returns-to-specialization gets stronger.
+
+22
+
+3.3.2 Asymmetric Monetary Policy
+
+So far we have assumed that the policy response of the central bank is symmetric against positive
+
+and negative demand shocks. However, the results of welfare maximizing symmetric monetary policy
+
+raises an entirely diﬀerent question: if there are beneﬁts from letting the hysteresis channel operate
+
+in the economy, should not the central bank selectively choose to stabilize the impacts of negative
+
+demand shocks only? While positive demand shocks may expand supply capacity through hysteresis,
+
+negative demand shocks do the opposite: negative demand shocks may lead to contraction in supply
+
+capacity. If so, can the central bank allow the former while preventing the latter selectively?
+
+To illustrate the eﬀects of such opportunistic monetary policy, in Figure 5, 11 monetary policy rules
+
+are used against a sequence of positive risk premium shocks (negative demand shocks) for the ﬁrst 10
+
+periods. These shocks are then alternated with a sequence of negative risk premium shock (positive
+demand shocks) for the second 10 periods.11 The baseline monetary policy is speciﬁed as ρ(+)
+π =
+2. Alternative monetary policy rules are speciﬁed as ρ(+)
+π ∈ {3, 4, 5, 6, 7, 8, 9, 10, 11, 12},
+that is, the coeﬃcient for positive inﬂation gap is held constant at 2 while the coeﬃcient for negative
+inﬂation gap is gradually increased toward 12. The color of the lines is complete blue when ρ(+)
+π =
+π = 2, becomes increasingly more reddish as ρ(−)
+ρ(−)
+is raised toward 12, and becomes complete red
+ρ(−)
+π = 12.12
+
+π = 2 and ρ(−)
+
+π = ρ(−)
+
+π
+
+The blue lines in the ﬁgure (located at the bottom of each panel) show the response of symmetric
+
+monetary policy. In this case, the economy responds symmetrically to negative and positive demand
+
+shocks. As the monetary policy becomes more asymmetric, the downside risk of the economy is more
+
+limited. For example, under the symmetric monetary policy, out declines about 4.5 percent in panel
+
+(a). As the monetary policy becomes more asymmetric, such large output decline is prevented and
+
+maximum decline is limited below 1 percent. As a result, negative hysteresis eﬀect is also limited as
+
+shown by the contraction of the endogenous TFP in panel (b). Consequently downward pressure on
+
+inﬂation and real marginal cost shown in panels (c) and (d) are much more subdued.
+
+Note that the policy switch operates through observing positive and negative inﬂation gaps rather
+than observing the shocks or the estimates of resource slack.13 Even after negative demand shocks
+turn into positive demand shocks at the eleventh period, monetary policy switch is not executed
+
+since the negative inﬂation gap persists. So exact time in which monetary policy switch happens is
+diﬀerent for each alternative monetary policies shown in the ﬁgure. In general, the switch (from ρ(−)
+to ρ(+)
+is larger (more asymmetric) as the negative inﬂation gap is less persistent
+
+π ) is sooner when ρ(−)
+
+π
+
+π
+
+11Exact sequence is given by σψ× [1.0 1.0 1.5 1.5 1.5 1.5 1.0 0.5 0.25 0.125 -1.0 -1.0 -1.5 -1.5 -1.5 -1.5 -1.0 -0.5 -0.25
+
+-0.125].
+
+12Note that such an economy with a kinked monetary policy rule cannot be simulated by conventional perturbation
+I use so called extended path approach of Adjemian and Juillard (2011), which provides a fully nonlinear
+method.
+solution based on solving two-point boundary value problems. The solution satisﬁes nonlinear model equations exactly
+even when the model is kinked or has occasionally binding constraint. The method improves upon popular piecewise
+linear solution such as Guerrieri and Iacoviello (2015) in that the model is not perturbed in any order in any place (for
+instance arround the steady state). See Appendix D for more detailed information.
+
+13This is the reason why 

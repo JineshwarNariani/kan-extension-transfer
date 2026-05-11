@@ -1,0 +1,119 @@
+
+PMID- 41954764
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260409
+LR  - 20260412
+IS  - 1432-1076 (Electronic)
+IS  - 0340-6199 (Print)
+IS  - 0340-6199 (Linking)
+VI  - 185
+IP  - 5
+DP  - 2026 Apr 9
+TI  - Melatonin effects on the left ventricular function in neonates with persistent 
+      pulmonary hypertension.
+LID - 10.1007/s00431-026-06864-z [doi]
+LID - 247
+AB  - The aim of this study is to investigate the effects of melatonin on the left 
+      ventricular (LV) function in persistent pulmonary hypertension of the newborn 
+      (PPHN) and to assess its potential role in enhancing cardiac performance and 
+      reducing oxidative stress. This randomized controlled trial was conducted on 80 
+      neonates (>/= 36 weeks' gestational age) with PPHN confirmed by echocardiography 
+      (Echo). Participants were assigned to receive standard therapy alone or in 
+      combination with oral melatonin. LV function was evaluated using 
+      echocardiographic parameters, and levels of serum biomarkers of oxidative stress 
+      and inflammation were also measured. Unlike the placebo group, the melatonin 
+      group exhibited significantly better LV function, regarding the conventional and 
+      advanced echocardiographic parameters. Additionally, melatonin administration was 
+      associated with earlier weaning from mechanical ventilation (MV) and respiratory 
+      support, shorter hospital stays, lower levels of serum high-mobility group box-1 
+      (HMGB1) protein, and N-terminal pro-B-type natriuretic peptide (NT-proBNP). 
+      CONCLUSION: Melatonin can enhance LV function in PPHN, likely through its 
+      cardioprotective and antioxidative mechanisms. These findings support melatonin 
+      as a promising adjunctive therapy in neonatal pulmonary hypertension, warranting 
+      further investigation in larger clinical trials. TRIAL REGISTRATION: registered 
+      on ClinicalTrials.gov (ID: NCT07090720), URL: 
+      https://clinicaltrials.gov/study/NCT07090720?cond=NCT07090720&rank=1 , Date: 
+      (29/7/2025). WHAT IS KNOWN: * PPHN induces hypoxic respiratory failure, 
+      jeopardizing multiorgan function, including LV performance. * Oxidative stress is 
+      crucial in pulmonary arterial hypertension development. WHAT IS NEW: * 
+      Melatonin's antioxidant and vasodilatory properties may serve as an adjunctive 
+      therapy in PPHN and enhance myocardial protection from the hypoxic effect of 
+      PPHN.
+CI  - (c) 2026. The Author(s).
+FAU - Nofal, Sarah M
+AU  - Nofal SM
+AD  - Pediatric and Neonatology Department, Faculty of Medicine, Tanta University, El 
+      Bahr St., Tanta Qism 2, First Tanta, Gharbia Governorate, Tanta, 31111, Egypt.
+FAU - El-Mashad, Abdel-Rahman M
+AU  - El-Mashad AM
+AD  - Pediatric and Neonatology Department, Faculty of Medicine, Tanta University, El 
+      Bahr St., Tanta Qism 2, First Tanta, Gharbia Governorate, Tanta, 31111, Egypt.
+FAU - Elmesiry, Asmaa M
+AU  - Elmesiry AM
+AUID- ORCID: 0000-0002-5474-1424
+AD  - Pediatric and Neonatology Department, Faculty of Medicine, Tanta University, El 
+      Bahr St., Tanta Qism 2, First Tanta, Gharbia Governorate, Tanta, 31111, Egypt. 
+      asmaa.elmesery@med.tanta.edu.eg.
+FAU - Abouelenain, Amany M
+AU  - Abouelenain AM
+AD  - Clinical Pathology Department, Faculty of Medicine, Tanta University, Tanta, 
+      Egypt.
+FAU - Awny, Mostafa M
+AU  - Awny MM
+AD  - Pediatric and Neonatology Department, Faculty of Medicine, Tanta University, El 
+      Bahr St., Tanta Qism 2, First Tanta, Gharbia Governorate, Tanta, 31111, Egypt.
+LA  - eng
+SI  - ClinicalTrials.gov/NCT07090720
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+DEP - 20260409
+PL  - Germany
+TA  - Eur J Pediatr
+JT  - European journal of pediatrics
+JID - 7603873
+RN  - JL5DK93RCL (Melatonin)
+RN  - 0 (Antioxidants)
+RN  - 0 (Biomarkers)
+SB  - IM
+MH  - Humans
+MH  - *Melatonin/therapeutic use/pharmacology
+MH  - Infant, Newborn
+MH  - Male
+MH  - Female
+MH  - *Ventricular Function, Left/drug effects
+MH  - *Antioxidants/therapeutic use
+MH  - Oxidative Stress/drug effects
+MH  - *Persistent Fetal Circulation Syndrome/drug therapy/physiopathology
+MH  - Echocardiography
+MH  - Biomarkers/blood
+MH  - Treatment Outcome
+PMC - PMC13065569
+OTO - NOTNLM
+OT  - Advanced echocardiography
+OT  - Cardiac biomarkers
+OT  - Left ventricular function
+OT  - Melatonin
+OT  - Persistent pulmonary hypertension
+COIS- Declarations. Ethics approval: This research was carried out at the Neonatal 
+      Intensive Care unit (NICU), Tanta University Hospitals, Egypt, between January 
+      2023 and January 2025 and was authorized by the local Ethical Committee of 
+      Faculty of Medicine, Tanta University (36173/12/22). Consent to participate: 
+      Patients' parents gave their signed, informed consent. Consent for publication: 
+      Not applicable. Competing interests: The authors declare no competing interests.
+EDAT- 2026/04/09 12:45
+MHDA- 2026/04/09 12:46
+PMCR- 2026/04/09
+CRDT- 2026/04/09 11:13
+PHST- 2025/09/20 00:00 [received]
+PHST- 2026/03/14 00:00 [accepted]
+PHST- 2026/03/03 00:00 [revised]
+PHST- 2026/04/09 12:46 [medline]
+PHST- 2026/04/09 12:45 [pubmed]
+PHST- 2026/04/09 11:13 [entrez]
+PHST- 2026/04/09 00:00 [pmc-release]
+AID - 10.1007/s00431-026-06864-z [pii]
+AID - 6864 [pii]
+AID - 10.1007/s00431-026-06864-z [doi]
+PST - epublish
+SO  - Eur J Pediatr. 2026 Apr 9;185(5):247. doi: 10.1007/s00431-026-06864-z.

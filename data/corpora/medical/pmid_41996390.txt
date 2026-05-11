@@ -1,0 +1,124 @@
+
+PMID- 41996390
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260417
+LR  - 20260419
+IS  - 1932-6203 (Electronic)
+IS  - 1932-6203 (Linking)
+VI  - 21
+IP  - 4
+DP  - 2026
+TI  - Impact of prophylactic oral azithromycin during labor on Azithromycin Resistance 
+      (AMR) in nasal Staphylococcus aureus and Streptococcus pneumoniae in women and 
+      infants in the multi-country Azithromycin Prevention in Labor Use Study (A-PLUS).
+PG  - e0346174
+LID - 10.1371/journal.pone.0346174 [doi]
+LID - e0346174
+AB  - BACKGROUND: Prophylactic oral azithromycin vs. placebo reduced maternal, but not 
+      neonatal, mortality/sepsis in the A-PLUS Randomized Trial. While prophylactic 
+      intrapartum azithromycin reduces maternal mortality/sepsis, it may promote 
+      antimicrobial resistance (AMR) in commensal bacteria,. METHODS: Randomly selected 
+      women and their infants participating in A-PLUS were enrolled in a longitudinal 
+      cross-sectional sub-study to assess the presence of azithromycin resistance in 
+      selected bacteria in nasal cultures. Staphylococcus aureus and Streptococcus 
+      pneumoniae were cultured on selective agar, then azithromycin-containing agar to 
+      select for azithromycin resistant bacteria, identified biochemically. 
+      Azithromycin susceptibility was assessed by E-test. Nasal cultures were collected 
+      from women and infants between August 11, 2021 and September 18, 2023 during 
+      labor/day 1, day 7, 6 weeks, and 3, 6 and 12 months after delivery. RESULTS: The 
+      study enrolled 911 women and 915 liveborn infants at 8 sites in 7 countries. 
+      Azithromycin resistance in S aureus was higher and azithromycin susceptibility 
+      was lower in women receiving azithromycin compared with those receiving placebo 
+      on day 7 (P < 0.001), 6 weeks (P < 0.001) and 3 months (P = 0.009) after 
+      delivery. Azithromycin resistance in S aureus was also higher and azithromycin 
+      susceptibility was lower 6 weeks after delivery (P < 0.001) in infants born to 
+      women receiving azithromycin, Azithromycin resistance in S. pneumoniae was too 
+      sparse to interpret. CONCLUSIONS: There was an increase in prevalence of 
+      azithromycin resistance (or reduction in azithromycin susceptibility) in 
+      commensal nasal S. aureus between day 7, 6 weeks and 3 months in women exposed to 
+      azithromycin vs. placebo and only at 6 weeks in infants exposed to azithromycin 
+      vs. placebo. These differences between the azithromycin and placebo groups were 
+      no longer detected at 6 and 12 months post-partum in the women and after 6 weeks 
+      through 12 months in the infants.
+CI  - Copyright: This is an open access article, free of all copyright, and may be 
+      freely reproduced, distributed, transmitted, modified, built upon, or otherwise 
+      used by anyone for any lawful purpose. The work is made available under the 
+      Creative Commons CC0 public domain dedication.
+FAU - Hibberd, Patricia L
+AU  - Hibberd PL
+AUID- ORCID: 0000-0002-7455-8117
+AD  - Department of Global Health, Boston University School of Public Health, Boston, 
+      Massachusetts, United States of America.
+FAU - Kim, Jean H
+AU  - Kim JH
+AD  - Social, Statistical and Environmental Health Sciences, RTI International, Durham, 
+      North Carolina, United States of America.
+FAU - Trotta, Marissa
+AU  - Trotta M
+AD  - Social, Statistical and Environmental Health Sciences, RTI International, Durham, 
+      North Carolina, United States of America.
+FAU - Leal, Sixto M
+AU  - Leal SM
+AD  - Department of Laboratory Medicine, University of Alabama at Birmingham, 
+      Birmingham, Alabama, United States of America.
+FAU - Aceituno, Anna
+AU  - Aceituno A
+AD  - Social, Statistical and Environmental Health Sciences, RTI International, Durham, 
+      North Carolina, United States of America.
+FAU - Ward, Doyle V
+AU  - Ward DV
+AUID- ORCID: 0000-0002-4952-824X
+AD  - Department of Microbiology, UMass Chan Medical School, Worcester, Massachusetts, 
+      United States of America.
+FAU - Patel, Archana
+AU  - Patel A
+AD  - Lata Medical Research Foundation, Nagpur, India.
+AD  - Datta Meghe Institute of Higher Education and Research, Sawangi, India.
+FAU - Subramaniam, Akila
+AU  - Subramaniam A
+AD  - Department of Laboratory Medicine, University of Alabama at Birmingham, 
+      Birmingham, Alabama, United States of America.
+FAU - Carlo, Waldemar A
+AU  - Carlo WA
+AD  - Department of Laboratory Medicine, University of Alabama at Birmingham, 
+      Birmingham, Alabama, United States of America.
+FAU - Ahmed, Imran
+AU  - Ahmed I
+AUID- ORCID: 0000-0003-4422-5650
+AD  - Department of Community Health Sciences, Aga Khan University, Karachi, Pakistan.
+FAU - Saleem, Sarah
+AU  - Saleem S
+AD  - Department of Community Health Sciences, Aga Khan University, Karachi, Pakistan.
+FAU - Billah, Sk Masum
+AU  - Billah SM
+AD  - International Centre for Diarrhoeal Disease Research (icddr, b), Dhaka, 
+      Bangladesh.
+AD  - University of Sydney, Sydney, Australia.
+FAU - Haque, Rashidun
+AU  - Haque R
+AD  - International Centre for Diarrhoeal Disease Research (icddr, b), Dhaka, 
+      Bangladesh.
+FAU - Mazariegos, Manolo
+AU  - Mazariegos M
+AD  - Instituto de Nutricion de Centroamerica y Panama, Guatemala City, Guatemala.
+FAU - Esamai, Fabian
+AU  - Esamai F
+AD  - Moi University School of Medicine, Eldoret, Kenya.
+FAU - Somannavar, Manjunath S
+AU  - Somannavar MS
+AD  - KLE Academy Higher Education and Research, Jawaharlal Nehru Medical College, 
+      Belagavi, Karnataka, India.
+FAU - Goudar, Shivaprasad S
+AU  - Goudar SS
+AUID- ORCID: 0000-0002-8680-7053
+AD  - KLE Academy Higher Education and Research, Jawaharlal Nehru Medical College, 
+      Belagavi, Karnataka, India.
+FAU - Chomba, Elwyn
+AU  - Chomba E
+AD  - University of Zambia University Teaching Hospital, Lusaka, Zambia.
+FAU - Mwenchanya, Muska
+AU  - Mwenchanya M
+AD  - University of Zambia University Teaching Hospital, Lusaka, Zambia.
+FAU - Lokangaka, Adrien
+AU  - Lokangaka 

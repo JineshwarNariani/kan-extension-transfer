@@ -1,0 +1,1421 @@
+Finance and Economics Discussion Series
+
+Federal Reserve Board, Washington, D.C.
+ISSN 1936-2854 (Print)
+ISSN 2767-3898 (Online)
+
+IT Shields: Technology Adoption and Economic Resilience during
+the COVID-19 Pandemic
+
+Myrto Oikonomou, Nicola Pierri, Yannick Timmer
+
+2023-010
+
+Please cite this paper as:
+Oikonomou, Myrto, Nicola Pierri, and Yannick Timmer (2023). “IT Shields: Technology
+Adoption and Economic Resilience during the COVID-19 Pandemic,” Finance and Eco-
+nomics Discussion Series 2023-010. Washington: Board of Governors of the Federal Reserve
+System, https://doi.org/10.17016/FEDS.2023.010.
+
+NOTE: Staﬀ working papers in the Finance and Economics Discussion Series (FEDS) are preliminary
+materials circulated to stimulate discussion and critical comment. The analysis and conclusions set forth
+are those of the authors and do not indicate concurrence by other members of the research staﬀ or the
+Board of Governors. References in publications to the Finance and Economics Discussion Series (other than
+acknowledgement) should be cleared with the author(s) to protect the tentative character of these papers.
+
+IT Shields:
+
+Technology Adoption and Economic
+
+Resilience during the COVID-19 Pandemic
+
+Myrto Oikonomou† Nicola Pierri ‡
+
+Yannick Timmer§
+
+Abstract
+
+We study the labor market effects of information technology (IT) during the onset of
+
+the COVID-19 pandemic, using data on IT adoption covering almost three million estab-
+
+lishments in the US. We ﬁnd that in areas where ﬁrms had adopted more IT before the
+
+pandemic, the unemployment rate rose less in response to social distancing. IT shields
+
+all individuals, regardless of gender and race, except those with the lowest educational at-
+
+tainment. Instrumental variable estimates–leveraging historical routine employment share
+
+as a booster of IT adoption– conﬁrm IT had a causal impact on fostering labor markets’ re-
+
+silience. Additional evidence suggests this shielding effect is due to the easiness of working-
+
+from-home and to stronger creation of digital jobs in high IT areas.
+
+JEL Codes: E24, O33
+
+Keywords: Unemployment Rate, Technology, IT Adoption, Inequality, Skill-Biased Technical
+
+Change
+
+*This paper was prepared as background material for the US Article IV 2020 and for the WEO October 2020
+Chapter 2. We are grateful to Nigel Chalk, Damiano Sandri, Anke Weber, and presentation participants at the
+CESifo Conference on the Economics of Digitization, PSDRN Annual Conference on Firms Resilience, Innovation
+and Technology, and the IMF for their insightful comments. Co-author Yannick Timmer worked on this project
+prior to employment at the Federal Reserve Board, while employed by the International Monetary Fund (IMF).
+Data sources were obtained under purview of IMF licenses. The views expressed in the paper are those of the
+authors and do not necessarily represent the views of the IMF, its Executive Board, its Management, the Federal
+Reserve Board or the Federal Reserve System.
+
+†International Monetary Fund. Email: moikonomou@imf.org
+‡International Monetary Fund. Email: npierri@imf.org
+§Federal Reserve Board. Email: yannick.timmer@frb.gov
+
+1 Introduction
+
+As COVID-19 spread across the world and the United States in 2020, people greatly reduced
+
+their mobility, stayed more at home, and spent less time producing and consuming products
+
+and services that require face-to-face interactions. These changes, caused by both voluntary
+
+behavior and various mitigation policies, have also severely damaged the economy. What are
+
+the labor market consequences of lockdowns and mobility restrictions? And can information
+
+technology (IT) mitigate these adverse effects? For everyone?
+
+This paper analyzes the interplay between the sudden decline in mobility, its effect on the
+
+labor market, and ﬁrms’ adoption of IT in the US. It relies on several data sources, and in partic-
+
+ular on survey data covering software and hardware purchases in 2016 for almost three million
+
+establishments in different industries.
+
+Firm-level IT adoption can strengthen or dampen the effect of mobility on economic out-
+
+comes in several ways. On the one hand, IT adoption can cushion the impact of the pan-
+
+demic by facilitating work-from-home or contact-less interactions [Bloom, 2020; Brynjolfsson
+
+et al., 2020; Papanikolaou and Schmidt, 2020] and by increasing online sales.
+
+IT adoption
+
+can facilitate online job search, which may be particularly important when physical mobility
+
+is reduced. Availability of IT investments and capabilities may also spur the creation of new
+
+digital-intensive jobs. On the other hand, the pandemic may reinforce the substitution of labor
+
+with technology for ex-ante heavy IT adopters [Chernoff and Warman, 2020]. High-technology
+
+adopting ﬁrms may be more inclined to automate processes when the pandemic spreads as
+
+humans would be at risk of contracting the virus.
+
+We ﬁnd that IT adoption signiﬁcantly shields workers from the economic consequences of
+
+the pandemic. Figure 1 illustrates the increase in the unemployment rate between February
+
+and April 2020 for each US state and the decline in mobility during the same period. In low-IT
+
+adoption states, there is a strong correlation between the drop in mobility and the rise in the
+
+unemployment rate. Conversely, mobility is not associated with rising unemployment rates in
+
+states with higher IT adoption. An event study empirical design conﬁrms this ﬁnding and il-
+
+lustrate that states hit more harshly by the pandemic and states with more IT adoption were
+
+not experience different pre-pandemic trend in unemployment. We present further evidence
+
+relying on individual-level data from the CPS (Current Population Survey) respondents and us-
+
+ing within-state (MSA-level) variation in IT adoption while controlling for a rich set of various
+
+other potential confounding factors, such as the pre-pandemic industry and occupation of the
+
+1
+
+respondent. We ﬁnd that respondents living in MSAs with a larger drop in mobility are more
+
+likely to be unemployed during Spring 2020 (controlling for pre-pandemic unemployment), but
+
+the impact of mobility is less pronounced among MSAs where IT was adopted more intensely.
+
+Importantly, we provide causal estimates on the mitigating role of ﬁrms’ IT adoption on
+
+local labor markets thanks to an instrumental variable approach. IT adoption can be corre-
+
+lated (and caused by) several local characteristics, such as availability of human capital. While
+
+we control for various potential confounding factors, such as the level of education, we cannot
+
+rule out that unobservable characteristics are driving the mitigating impact of IT. We thus follow
+
+Autor et al. [2003] by instrumenting regional-level IT adoption by its historical routine employ-
+
+ment share. In regions where historically more routine workers were employed, IT adoption
+
+has been faster and stronger when the price of IT equipment fell and routine workers could
+
+be replaced by technology. Because of path-dependency, even today IT adoption is higher in
+
+areas where historically the routine employment share was higher than in other regions. In-
+
+strumental variable regressions conﬁrm our OLS estimates: the impact of the mobility drop on
+
+unemployment probability is lower in areas where IT is adopted more intensely by ﬁrms. This
+
+points toward IT playing a causal role in mitigating adverse employment outcomes during a
+
+pandemic.
+
+We quantify the effect of IT adoption relative to a counterfactual scenario in which the pan-
+
+demic had hit the world ﬁve years earlier. The digital economy as a share of employment grew
+
+by around 10% relative to ﬁve years before (see subsection 5.2 for details). Combining this num-
+
+ber with our regression results, we ﬁnd that the unemployment rate would have been around 2
+
+percentage points higher during April and May 2020 if IT adoption would have been at the level
+
+of 2015. Instead of an unemployment rate of 14% the unemployment rate would have reached
+
+16%.1
+
+The recent literature (see section 2 for a brief review) has argued that the economic conse-
+
+quences of COVID-19–especially at its onset–were signiﬁcantly more severe for more econom-
+
+ically vulnerable individuals, such as women, racial minorities, immigrants, and individuals
+
+with lower educational attainment. IT adoption may also have a heterogeneous impact along
+
+those dimensions. For instance, information technology can be a complement for skilled labor,
+
+1This back-of-the-envelope calculation should be taken with a grain of salt, as computing the aggregate effects
+from cross-sectional heterogeneity is difﬁcult. Our speciﬁcation does not allow us to take potential general equi-
+librium effects into account that would affect the aggregate consequences of IT adoption and instead only captures
+the partial equilibrium effects coming through IT.
+
+2
+
+while it may substitute unskilled labor. If the COVID-19 shock promotes further automation of
+
+production processes, and more so for more IT intensive companies, then it may differentially
+
+impact women or men according to which industry is subject to the greatest changes (e.g. man-
+
+ufacturing sector predominantly employs male workers). Minorities have been experiencing
+
+COVID deaths and infections at higher rates [Kirby, 2020]; an occupational distribution skewed
+
+towards occupations requiring in-person contacts is a main potential culprit. Therefore, IT
+
+adoption, by facilitating the delivery of contactless services and goods, may help individuals
+
+employed in these risky occupations.
+
+The effect of IT adoption in shielding workers is consistent across most groups. We show
+
+that both males and females as well as individuals of different races beneﬁt from IT adoption.
+
+However, we ﬁnd a striking difference in the way IT adoption shields individuals with hetero-
+
+geneous levels of educational attainment. Individuals with high-and medium levels of educa-
+
+tion signiﬁcantly beneﬁt from IT adoption, while individuals with low educational attainment
+
+(those who did not complete high school) are not shielded by IT. These ﬁndings suggest that
+
+the COVID-19 pandemic increases inequality across educational groups through skill-biased
+
+technical change. This is consistent with evidence from past recessions when low-skilled indi-
+
+viduals were disproportionately affected, which further reduced complementary IT skills and
+
+persistently widened inequality [Heathcote et al., 2020].
+
+Finally, we investigate the role of different channels in explaining the shielding effect of IT.
+
+We ﬁnd that local IT adoption is strongly correlated with measures of the feasibility of working
+
+from home [Dingel and Neiman, 2020]. We ﬁnd that local IT adoption and the ability to work
+
+from home are both independently shielding the economy from a local mobility shock, but the
+
+role of local IT is signiﬁcantly reduced when local working-from-home ability is controlled for.
+
+This suggests that part of the shielding impact of IT is due to high IT ﬁrms having facing lower
+
+disruption in the shift to work from home, but other forces are also at play. Conversely, we ﬁnd
+
+no signiﬁcant role for local ﬁrms’ access to e-commerce technologies.
+
+Local unemployment can be impacted by both job destruction and job creation. The pan-
+
+demic depressed job creation both because of lower labor demand and because mobility re-
+
+strictions limited ﬁrms and workers ability to meet in person, potentially worsening labor mar-
+
+ket search frictions. To shed more light on the importance of IT adoption for the job creation
+
+margin, we study how online job postings respond to the pandemic and to local IT adoption.
+
+We ﬁnd that during Spring 2020, job postings declined more in MSAs that suffered a larger drop
+
+3
+
+in mobility, but this decline was less pronounced in high-IT MSAs. This shielding impact of IT is
+
+present only for job postings that relate to digital-intensive occupations and not for other jobs.
+
+Thus, a further reason why IT shielded local labor markets from the impact of the pandemic
+
+was that it protected ﬁrms’ ability to create vacancies for digital jobs. These results suggest that
+
+IT adoption improved ﬁrms’ ability to adjust job creation in a ﬂexible and dynamic manner and
+
+highlight the role that local IT played in facilitating the transition to a more digital economy
+
+during the early stages of the pandemic.
+
+We ﬁnally test for the importance of local demand spillover–which can be a source of general
+
+equilibrium effects at the local level–by testing whether IT shields local-level employment in
+
+tradable or non-tradable industries [Mian and Suﬁ, 2014]. We ﬁnd no mitigating role of local IT
+
+for non-tradable industries, suggesting a minor role for such spillovers.
+
+The remainder of the paper is structured as follows. In section 2 we present a brief literature
+
+review. In section 3 we describe the data. In section 4 we illustrate state-level patterns. In sec-
+
+tion 5 we present evidence (including IV estimates) on the mitigating role of IT using individual-
+
+level data. In section 6 we investigate the potential channels through which IT shields and in
+
+section 7 we conclude.
+
+2 Related Literature
+
+The literature on the economic crisis triggered by the COVID-19 pandemic has expanded very
+
+rapidly. For an early review of this literature, see Chapter 2 of the 2020 October WEO (IMF) or
+
+Brodeur et al. [2020].
+
+Some authors have argued that voluntary social distancing has had a more important role
+
+than lockdowns in disrupting economic activities [Allcott et al., 2020; Bartik et al., 2020; Kahn
+
+et al., 2020; Maloney and Taskin, 2020]. This literature documents that people’s mobility and
+
+economic activity in the US contracted before lockdowns [Chetty et al., 2020] and that lifting
+
+lockdowns led to a limited rebound in mobility [Dave et al., 2020] and economic activity (Ca-
+
+jner et al. [2020] is an exception). Goolsbee and Syverson [2020] ﬁnd small differences in visits
+
+to nearby retail establishments by people that faced different regulatory restrictions because
+
+of being located in different counties. Similar results are documented in Chen et al. [2020]
+
+that expand the analysis to Europe and ﬁnd no robust evidence of the impact of lockdowns
+
+on several high-frequency indicators of economic activities. The importance of voluntary so-
+
+4
+
+cial distancing is also highlighted by the case of Sweden that—despite avoiding strict lockdown
+
+measures—has experienced similar (though slightly smaller) declines in mobility and economic
+
+activities to comparable countries [Anderson et al., 2020; Chen et al., 2020]. While not the focus
+
+of this paper, our results also suggest that voluntary social distancing rather than de jure restric-
+
+tions are mostly responsible for the decline in mobility.
+
+Some papers have documented that more economically vulnerable individuals—such as
+
+those with lower income and educational attainment [Cajner et al., 2020; Chetty et al., 2020; Shi-
+
+bata, 2020], minorities [Fairlie et al., 2020], immigrants [Borjas and Cassidy, 2020], and women
+
+[Alon et al., 2020; Del Boca et al., 2020; Papanikolaou and Schmidt, 2020]—have been impacted
+
+more harshly during the early phases of the COVID-19 pandemic, both in the US and other
+
+countries [Alstadsæter et al., 2020; Béland et al., 2020]. One reason is that lower-paid workers
+
+are often unable to perform their jobs while working from home [Dingel and Neiman, 2020; Got-
+
+tlieb et al., 2020]. This points to a potential widening of inequality [Mongey and Weinberg, 2020;
+
+Palomino et al., 2020]. We also show that the decline in mobility has raised the unemployment
+
+rate for ethnic minorities as well as low-educated individuals most strongly, thereby widening
+
+inequality. However, we add an additional element to the debate. We show that IT adoption can
+
+shield various members of society, regardless of their gender or race, from the mobility-induced
+
+COVID-19 shock. One exception is low-educated individuals for which we do not ﬁnd shielding
+
+by IT adoption.
+
+In areas where ﬁrms are heavy IT adopters, the increase in overall inequality can be damp-
+
+ened. However, in these areas only highly educated individuals beneﬁt from the higher ex-ante
+
+IT adoption, not lowly educated ones. Therefore, in these areas, the COVID-induced mobility
+
+shock, raises this type of inequality even more than in low IT adopting areas.
+
+The closest paper to ours is Chiou and Tucker [2020], which study the impact of the diffusion
+
+of high-speed Internet on an individual’s ability to self-isolate during the pandemic. They also
+
+focus on the US and ﬁnd that, while income is correlated with the ability of social distancing,
+
+the diffusion of high-speed internet explains most of this income effect.
+
+A large literature has also studied the implications of IT adoption for various outcomes, such
+
+as productivity and local wages (see for instance, Akerman et al. [2015]; Autor et al. [2003]; Bryn-
+
+jolfsson and Hitt [2003]; Bloom et al. [2012]; Beaudry et al. [2010]; Bresnahan et al. [2002]; Bloom
+
+and Pierri [2018]; Forman et al. [2012]; McElheran and Forman [2019]; Bessen and Righi [2019]).
+
+We study the role of IT as a mitigating factor for the COVID-19 shock. Closer to us is therefore
+
+5
+
+Pierri and Timmer [2020] that show that IT adoption in ﬁnance was a mitigating factor during
+
+the Global Financial Crisis.
+
+IT adoption has been considered an important skill-biased technological change [Acemoglu
+
+and Autor, 2011]. While IT is often a complement for highly skilled workers, it can often sub-
+
+stitute the work of less-skilled workers. In previous recessions, less-skilled workers have been
+
+also hard hit by economic conditions, which reinforced the trend of skill-biased technological
+
+change Heathcote et al. [2020].
+
+Finally, there was been a growing body of literature that studies how COVID-19 impacted
+
+labor markets tapping on high-frequency data from online job boards (see for example Hensvik
+
+et al. [2021], Bellatin and Galassi [2022], Soh et al. [2022], Adrjan et al. [2021] and Marinescu
+
+et al. [2020]). The use of online job platform data predates the pandemic. We contribute to this
+
+literature by exploring the impact of the pandemic on online vacancies, and the role of local IT
+
+adoption for digital and non-digital job postings.
+
+3 Data Sources
+
+IT adoption We construct a set of measures of local-level IT adoption building on an estab-
+
+lishment survey on IT budget per employee by CiTBDs Aberdeen (previously known as “Harte
+
+Hanks”) for 2016. We access data on more than 2,800,000 establishments, e, in all states in the
+US.2 We take the log of the IT budget per employee I Te and estimate the following regressions:
+
+I Te = δ + αg (e) + θi nd (e) + (cid:178)i
+
+(1)
+
+where αg is a ﬁxed effect for the geographical unit we are interested in, i.e. state or MSA. θi nd
+is an industry (2-digit) ﬁxed effect. αg is used as our measure of IT adoption for the respective
+
+geographical unit. The ﬁxed effect can be interpreted as the average log of the IT budget per
+
+employee in an establishment in a given geographic unit, conditional on its industry. We control
+
+for industry ﬁxed effects to ensure that our measure of IT adoption is not solely driven by the
+
+fact that some industries are heavier IT adopters and located in regions where unemployment
+
+behaved differently during the COVID-19 pandemic than in others due to reasons other than IT
+
+adoption of the establishments.
+
+2While the IT data are at the establishment level, we use ﬁrms and establishments interchangeably in the rest of
+
+paper.
+
+6
+
+Other data sources We use the Current Population Survey (CPS) to assess the effect of the
+
+lockdown on the labor market [Flood et al., 2021]. The CPS is a survey that is the primary source
+
+of monthly labor force statistics in the US. We construct the unemployment rate at different
+
+levels of aggregation, i.e. MSA, state, and national levels. The mobility data are coming from
+
+Google mobility reports. Google Community Mobility Reports data use the location history of
+
+users on different types of activities, such as retail and recreation, to document how the number
+
+of visits and the length of stay at various locations changed compared to a pre-COVID baseline.
+
+The data capture the GPS location of individuals at various places, such as retail and recreation,
+
+workplaces, transit station, parks, etc.. The data are made available as disaggregated as the
+
+county level for the US and are reported as an index compared to the pre-COVID 19 period
+
+(January-February).
+
+Lockdown data are obtained through Keystone and their original source are the state web-
+
+pages. Lockdown data are based on 11 non-pharmaceutical intervention (NPI) dummy vari-
+
+ables, i.e. (i) the closing of public venues, (ii) ban of gathering size 500-101, (iii) ban of gather-
+
+ing size 100-26, (iv) ban of gathering size 25-11, (v) ban of gathering size 10-0, (vi) full lockdown,
+
+(vii) non-essential services closure, (viii) ban of religious gatherings (ix) school closure, (x) shel-
+
+ter in place, and (xi) social distancing. The dummy variables take the value one if the speciﬁc
+
+NPI is in place and zero if not. For each state on a given day, we take the average across the 11
+
+lockdown dummies so that a lockdown of 100% refers to having all 11 NPIs in place at a given
+
+time. We rely on additional standard data sources for local-level characteristics. These include
+
+the American Community Survey for local socio-demographic characteristics, the County Busi-
+
+ness Patterns and Quarterly Workforce Indicators for local level industrial composition of the
+
+workforce, and Occupational Employment and Wage Statistics data for local level occupations.
+
+We use high-frequency online job postings data from Indeed, a leading job postings plat-
+
+form. Using data from online job boards has become a common practice in a wide range of
+
+labor market studies as these data provide rich information on the characteristics of the jobs
+
+posted (including granular regional information, and detailed occupational information).3 The
+
+use of online job postings data has become prevalent also in the recent literature that studies the
+
+labor market impact of the COVID-19 shock as these data are available at very high frequency.
+
+3For example, Hershbein and Kahn [2018] use online vacancy postings to document how skill requirements
+changed in response to the Global Financial Crisis shock, Marinescu and Wolthoff [2020] employ data from an
+online job board to study what high-wage job postings imply for job search, while Brown and Matsa [2020] use
+similar data to analyze how housing market conditions impacted job search behaviour during the Great Recession.
+
+7
+
+From the Indeed database we obtain detailed job titles of the individual job postings as well
+
+as information on the region and date of each posting from January 2019 onwards. We aggre-
+
+gate job postings at the MSA level and at monthly frequency and we employ a series of match-
+
+ing algorithms to map Indeed job titles into 4-digit 2008 International Standard Classiﬁcation
+
+of Occupations (ISCO-08) occupation codes. We obtain approximately 60 million vacancies for
+
+2019 and 2020. To classify occupations into digital and non-digital, we follow closely Muro et al.
+
+[2017] and Soh et al. [2022] and compute a ranking of occupation codes by their digital con-
+
+tent based on O*NET. Speciﬁcally, we create a digital score for each occupation based on two
+
+measures of the O*NET 2019 vintage: (i) a measure of the overall knowledge of computers and
+
+electronics required by a job and (ii) a measure of the importance of working with computers
+
+for a job. These two measures aim to capture the level and importance of digital skills per occu-
+
+pation. We classify occupations as digital if their score is above the 50t h percentile of the digital
+
+score distribution, with the remaining occupations classiﬁed as non-digital.4
+
+4 Mobility, IT and Unemployment across US States
+
+In this section, we ask whether the impact of the onset of the COVID pandemic on US states’
+
+labor markets is affected by local ﬁrm IT adoption.
+
+Figure 1 shows that the extent of job losses is correlated with the decline in mobility only
+
+in those states where their ﬁrms utilize a relatively low level of IT. In states where ﬁrms are
+
+relatively strong adopters of information technology, the increase in unemployment shows lit-
+
+tle relationship to the degree to which mobility fell. For instance, both Colorado and Nevada
+
+experienced a decline in mobility of (a bit more than) 40%. However, the increase of the unem-
+
+ployment rate was twice as large in Nevada, which is a low-IT adoption state than in Colorado,
+
+which is a high-IT adoption state.
+
+An analogous pattern emerges for the correlation between the stringency of lockdown poli-
+
+cies and the increase in the unemployment rate over the period between February to April 2020.
+
+4Examples of ISCO-08 occupation codes at the bottom decile of the digital score distribution include home-
+based personal care workers, bricklayers and related workers, carpenters and joiners. Examples of occupations
+at the top decile include web technicians, systems administrators, information and communications technology
+service managers and software developers. Examples of occupations in the middle 10% include psychologists,
+employment agents and contractors and nursing associate professionals. Since our digital scores are based on a
+pre-pandemic vintage of O*NET, the occupational ranking does not reﬂect changes in digitalization within occu-
+pation codes that may have occurred during the pandemic. For more details on our methodology see Soh et al.
+[2022]).
+
+8
+
+There is a positive correlation between the severity of mitigation policies and the increase of un-
+
+employment only among low-IT adoption states (Figure A1).
+
+These results suggest that more IT-oriented states appear better able to shift quickly to a
+
+socially distant environment and, in doing so, maintain their workforce.
+
+To test for the difference between high- and low-IT states in the response of unemployment
+
+rate to the mobility decline, we estimate the following equation:
+
+∆U Rs = α + β1∆Mobi l i t ys + β2I Ts + β3∆Mobi l i t ys ∗ I Ts + X
+
+(cid:48)
+s
+
+σ + (X s ∗ Mobi l i t ys)
+
+(cid:48)γ + (cid:178)s (2)
+
+where ∆U Rs is the change in the unemployment rate in state s between April and February
+2020. ∆Mobi l i t ys is the average decline in mobility in state s in April and I Ts is a dummy that
+
+indicates whether a state is above the median in terms of IT adoption and zero if it is below the
+
+median. X s includes the level and the interaction between mobility and GDP per capita, the
+
+population density and the manufacturing share of the state as control variables in the regres-
+sions. β3 which is our main coefﬁcient of interest is equivalent to testing the difference in the
+
+slope between high and low IT adopting states in Figure 1.
+
+Table 1 reports the results. We ﬁrst estimate a simpliﬁed version of Equation 2 that regresses
+
+the change in the unemployment rate on the IT adoption dummy. A higher level of IT adoption
+
+is associated with a lower increase in the unemployment rate: a state in which ﬁrms adopt IT
+
+more strongly saw a 1.8 percentage points weaker increase in the unemployment rate relative
+
+to states where ﬁrms are not adopting IT as heavily.
+
+Column (2) then shows that on average, a larger drop in mobility is associated with a stronger
+
+increase in the unemployment rate. A 10 percentage points stronger drop in mobility is associ-
+
+ated with a 1.5 percentage points stronger increase in the unemployment rate.
+
+Column (3) reports estimates of our full speciﬁcation, which includes the interaction be-
+
+tween the IT dummy and the change in mobility. The coefﬁcient on the interaction is positive
+and statistically signiﬁcant. The coefﬁcient on ∆Mobi l i t y indicates the correlation between
+
+the change in mobility and the increase in the unemployment rate for low IT states. The coefﬁ-
+
+cient is now much larger than in column (2) which reﬂected the average effect across both high
+
+and low IT adopters. For low IT adopters, a 10 percentage points larger decline in mobility was
+
+associated with a 5 percentage points larger increase in the unemployment rate. For instance,
+
+in the case of Michigan mobility declined by around 40% while in Ohio mobility declined by
+
+9
+
+30%; both are low IT states. Ohio saw its unemployment rate rising by around 13 percentage
+
+points while Michigan’s unemployment rate rose by approximately 18 percentage points, a 5
+
+percentage points difference with respect to a 10 percentage points difference in the decline in
+
+mobility (see Figure 1).
+
+The coefﬁcient on the interaction is positive, which indicates that in high IT states the im-
+
+pact of mobility on unemployment is more muted. The point estimate of the interaction is
+
+0.463, close in absolute value to the coefﬁcient on the mobility coefﬁcient. This indicates a small
+
+or negligible impact of mobility in high IT states; the sum of the coefﬁcient (-0.505+0.463=-
+
+0.042) reﬂects the slope of high IT adopters in Figure 1.
+
+A potential explanation for why high IT states exhibit a weaker correlation between mobility
+
+and the unemployment could be that these states are different from low IT ones for some other
+
+reasons. This problem is known as omitted variable bias. For instance, states in which ﬁrms
+
+adopt more technology may just be more economically developed and thus more resilient to
+
+economic shocks. Hence, in column (4) we include the GDP per capita, the population den-
+
+sity, and the manufacturing share of the state as control variables in the regressions. We also
+
+include the interaction of each control with the mobility drop: in this way we allow states which
+
+are richer, more educated, or less dense to be affected by the pandemic differently. We then
+
+focus our attention to the coefﬁcient of the interaction between IT adoption and mobility. If
+
+this coefﬁcient were to decline substantially and lose its statistical signiﬁcance, we would infer
+
+that the estimated impact of IT adoption as a mitigating factor is probably driven by spurious
+
+correlation. However, the coefﬁcient on the interaction in column (4) remains almost identical.
+
+Because of the small sample size (N=51), it is difﬁcult to include a much richer set of controls.
+
+Nonetheless, our results suggest that such key demographic factors are not the drivers of the
+
+mitigating impact of IT on the rising unemployment rate.
+
+We also investigate how the results change when we vary the cutoff for labeling a state as
+
+high or low IT. As illustrated by Table A3 (column 3 in particular), states in the top quartile of
+
+the IT distribution are shielded from the impact of mobility changes, while states in the middle
+
+or the bottom of the IT adoption distribution are not.
+
+4.1 Event Study Design
+
+A complementary approach to analyze the data, is to rely on the panel dimension and estimate
+
+the following event study (two-way ﬁxed effects) speciﬁcation:
+
+10
+
+U Rs,t = αs + αt + (cid:88)
+
+τ(cid:54)=τ∗
+
+1(t = τ) · ∆Mobi l i t ys · (cid:161)βτ + βτ,3 ∗ I Ts
+
+(cid:162) + (cid:178)s,t
+
+(3)
+
+where U Rs,t is the unemployment rate in state s in month t , while I Ts is the continuous pre-
+pandemic IT adoption in the same state, and ∆Mobi l i t ys,t is the mobility shock (the average
+change in mobility in April and May). Both I Ts and ∆Mobi l i t ys,t are standardized for ease
+of interpretation. αs and αt are state and month ﬁxed effects, which allow us to control for
+time-invariant local characteristics and national-level time-varying shocks. The coefﬁcients βτ
+capture the impact of the change in mobility on unemployment rate in the month τ, (τ∗ is the
+omitted month, February 2020) while the coefﬁcients βτ,3 capture the shielding impact of local
+
+IT adoption.
+
+The estimated coefﬁcients are reported, together with 95% conﬁdence intervals, in Fig-
+
+ure 2.5 Panel (a) illustrates that states which were hit more harshly by the pandemic were not
+
+on a different path before February 2020, but experienced a sharper increase in the unemploy-
+
+ment rate. However, as illustrated by Panel (b), the impact of the shock is smaller for states
+
+where ﬁrms adopted more IT before the pandemic. To visualize such heterogeneity, To visualize
+
+the heterogeneity in the response of unemployment in high versus low IT states, Panel (c) re-
+
+ports the estimated impact over time of a one-standard deviation mobility drop in a state above
+
+and below the standardsized IT mean. This alternative speciﬁcation, which allows us to control
+
+for local observable and unobservable (ﬁxed over time) characteristics through ﬁxed effects,
+
+conﬁrms the ﬁndings of the previous subsection and highlights the absence of pre-pandemic
+
+differential trends.
+
+5 Evidence from Individual-Level Data
+
+The state-level analysis suggests ﬁrm IT adoption can partially shield the local economy from
+
+the impact of the pandemic. While insightful, this analysis has important drawbacks: the small
+
+sample size limits our ability to control for other potential confounding factors, in analyzing
+
+which workers are more protected by IT adoption.
+
+We therefore use individual-level data from CPS to control for respondent- and local-level
+
+5The model is estimated by OLS. Recent econometric literature has highlighted that OLS can provide biased
+estimates of two-way ﬁxed effects when the time of the shock or treatment is different across units [Goodman-
+Bacon, 2021; Callaway and Sant’Anna, 2021]. This is likely to be a minor concern in our setting as all MSA are
+impacted at the same time, but the intensity of the shock is different.
+
+11
+
+characteristics. We also compute local IT adoption at a ﬁner geographical level (MSA), in order
+
+to measure more precisely technology adoption for the individual’s relevant labor market.
+
+This analysis relies on the following linear probability model:
+
+Unempl oyedi ,t = α + β1∆Mobi l i t ymsa(i ),t + β2I Tmsa(i ) + β3∆Mobi l i t ymsa(i ,t ) ∗ I Tmsa(i )
+
++ Z
+
+(cid:48)
+i
+
+δ + X
+
+(cid:48)
+msa(i )
+
+σ + (Xmsa(i ) ∗ Mobi l i t ymsa(i ),t )
+
+(cid:48)γ + αs(i ) + (cid:178)i ,t
+
+(4)
+
+where Unempl oyedi ,t is a dummy that equals one if the individual is unemployed, but
+
+in the labor force, in a month t , where t is either April or May 2020, the height of the unem-
+
+ployment rate during the pandemic. The variable Unempl oyedi ,t is zero if the individual is
+employed in month t . ∆Mobi l i t ymsa(i ),t is the change in mobility in the MSA where the indi-
+
+vidual lives, and I Tmsa(i ) is the level of IT adoption in the MSA where the individual i lives. X
+
+captures MSA-level controls and includes the level and interaction between mobility and GDP
+
+per capita, the share of minorities, the share of people with a three year Bachelor’s degree and
+the unemployment rate in February 2020. Zi are individual level controls. αs(i ) are state ﬁxed
+
+effects. Standard errors are clustered at the MSA level and the regressions are weighted by the
+
+assigned weight of the respondent.
+
+This speciﬁcation thus compares workers with the same socio-demographic characteristics,
+
+living in different cities which are similar in various characteristics–and are within the same
+
+state–but have different degrees of pre-pandemic ﬁrm IT adoption.6
+
+Table 2 shows the results based on a pooled linear regression across individuals reporting
+
+their employment status in either April or/and May (Table A1 reports the results of the same
+
+equation using a probit model). These results illustrate the same pattern documented by the
+
+state-level analysis. Column (1) shows that a stronger decline in mobility in an MSA is associ-
+
+ated on average with a larger probability of a person reporting to be unemployed. A higher level
+
+of IT adoption is associated with a lower probability of being unemployed in April and May of
+
+2020. Column (2) shows that the probability of being unemployed in April and May is higher
+
+for respondents living in MSAs which experienced larger mobility declines, but IT adoption of
+
+companies mitigates this impact. The increase in the probability of being unemployed asso-
+
+6As the panel component of CPS is limited, and respondents are not necessarily reporting their employment
+status in consecutive months, we do not include individual ﬁxed effects. In a robustness exercise, described below,
+we focus only on individuals who were employed before the pandemic.
+
+12
+
+ciated with a large drop in mobility (one standard deviation, equal to 10 pp) is 2.4 percentage
+
+points in a low-IT MSA. A one standard deviation larger level of IT adoption in an MSA reduces
+
+the increase in the probability by 0.7 percentage points to 1.7 percentage points. Column (3)
+
+shows that the coefﬁcient remains stable and statistically signiﬁcant after controlling for the
+
+interaction of the mobility in the MSA and various MSA-level characteristics such as per capita
+
+income, the share of people with a three year Bachelor’s degree, the share of minorities, and the
+
+unemployment rate in February.
+
+In column (4) we saturate the speciﬁcation with additional ﬁxed effects. The ﬁxed effects
+
+include individual ﬁxed effects based on gender, race, and education level, as well as state ﬁxed
+
+effects. The inclusion of state ﬁxed effects implies that comparing two individuals living within
+
+the same state but in different MSAs are differentially affected by a mobility decline due to dif-
+
+ferent levels of IT adoption in the MSA. The result holds when comparing individuals with also
+
+the same gender or race, or within the same education level.
+
+Moreover, the coefﬁcient on the interaction between mobility and IT remains stable after in-
+
+cluding these additional sets of ﬁxed effects, but the R-squared increases from 0.418% to 3.8%.
+
+The increase in the R-squared conﬁrms that the additional control variables are highly impor-
+
+tant for explaining the employment status of the individual but even after controlling for these
+
+characteristics the level of IT adoption in the MSA remains a signiﬁcant predictor of whether
+
+the person was unemployed. The coefﬁcient on IT turns from negative to positive as soon as we
+
+include the interaction term. This ﬂip in the coefﬁcient is purely mechanical. The coefﬁcient on
+
+IT can be interpreted as the hypothetical effect of IT on the probability of being unemployed in
+
+an MSA where mobility has not changed. As mobility declined strongly in all MSAs, the effect of
+
+IT on the probability of being unemployed is not interpretable (and therefore omitted in most
+
+of the following exercises).
+
+Robustness We conduct several robustness tests, reported in Table A2, all of which conﬁrm
+
+our main ﬁndings. Column (1) shows the baseline equation for reference (similar to column
+
+(3) of Table 2). In column (2) we replace our measure of IT adoption with the share of high-
+
+speed internet that is available in the MSA. The interaction is, as for our IT measure, positive
+
+and statistically signiﬁcant, but only at the 5% level. In column (3) we replace our continuous
+
+measure of IT with a dummy that takes the value one if ﬁrms in the MSA are above-median IT
+
+adopters and zero if ﬁrms in the MSA are below median IT adopters. Again, the coefﬁcient is
+
+13
+
+positive and statistically signiﬁcant. Column (4) replaces the baseline IT measure, log IT bud-
+
+get per employee, with another measure that has been used commonly in the literature, also
+
+from the Harte Aberdeed/Hanks dataset, namely the ratio of personal computers per employ-
+
+ees [Bloom et al., 2012]. Next, we substitute our left-hand-side variable, the dummy indicating
+
+whether the person is unemployed, to capture a broader measure of unemployment. Our base-
+
+line unemployment rate is the U-3 unemployment rate, which is the ofﬁcial one. It takes into
+
+account people who are jobless but actively seek employment. In column (5) instead, we use
+
+the U-6 unemployment rate deﬁnition that accounts for anyone who has been seeking em-
+
+ployment for at least 12 months but left discouraged without being able to secure a job. This
+
+measure also includes anyone who has gone back to school, become disabled, and people who
+
+are underemployed or working part-time hours. Our results remain robust to using this broader
+
+unemployment measure.
+
+To further control for differences in local economic structure across different MSAs, we add
+
+a set of controls for the share of employment in different occupations and different industries
+
+at the MSA-level (we focus on the largest 2-digit NAICS sectors and the largest 2-digit SOC 2018
+
+occupations which accounted for more than one third of national employment in 2019). Both
+
+the level of the industry and occupation employment shares as well as their interaction with the
+
+mobility shock are added as controls. The inclusions of such controls has limited impact on the
+
+estimated shielding effect of local IT adoption, as reported by column (6).
+
+We then focus on respondents that were in the CPS also in February 2020, to investigate the
+
+impact of mobility and local IT among individuals that were employed in that month. (In this
+
+way, the empirical speciﬁcation investigates the impact of local mobility and IT on the prob-
+
+ability that an individual becomes unemployed.) The estimating sample shrinks considerably
+
+both because of the rotating panel structure of the survey and because only about 60% of re-
+
+spondents were employed in February 2020. We ﬁnd that the shielding impact of IT is present
+
+among the workers who were actually employed before the pandemic (column 7). Focusing on
+
+the respondents who worked in February 2020, we can also include two sets of ﬁxed effects to
+
+control for the (4 digit) occupation and industry in that month. The inclusion of such controls
+
+does not change the estimated shielding effect of IT, mitigating the concern that the local IT
+
+effect is capturing differences in the local sectoral and occupational mix.
+
+We ﬁnally investigate whether the results are also robust to MSA-level aggregation. We con-
+
+struct MSA-level unemployment rate and we aggregate all individual-level controls of Equa-
+
+14
+
+tion 4. We then estimate an MSA-level version of Equation 4 where we regress the change in
+
+unemployment rate between February and April or May 2020 on the change in mobility, MSA-
+
+level IT, and the interaction between the two variables while controlling for the other covariates.
+
+Results, presented in Table A4, are in line with the respondent-level estimates: MSAs where mo-
+
+bility dropped more experienced a stronger increase in unemployment rate, but less so if they
+
+have ﬁrms that adopted more IT before the pandemic.
+
+5.1 Instrumental Variable Approach
+
+IT adoption can be correlated with many other local characteristics. For instance, in areas
+
+where the complementarities between workers’ human capital and IT adoption are higher,
+
+more IT is adopted more intensely [Beaudry et al., 2010]. In our regression analysis, we con-
+
+trol for various characteristics that are likely correlated with IT adoption–such as the share of
+
+the population with a bachelor’s degree or the industry composition– and our results are in-
+
+sensitive to the inclusion of these controls. However, it is difﬁcult to completely rule out the
+
+presence of unobserved confounding factors which are correlated with IT and also limit the
+
+economic harm of the pandemic. Such factors could bias our estimates.
+
+We therefore adopt an instrumental variable approach, relying on characteristics of the lo-
+
+cal labor market that predate the origins of the digital revolution, i.e. when computers became
+
+widely available for the local adoption of IT. When computer equipment prices started falling
+
+strongly, it became more and more attractive to replace routine workers with IT equipment.
+
+During the end of the 20th century, US regions that were historically specialized in routine in-
+
+tensive occupations (e.g. butchers or payroll and timekeeping clerks) indeed experienced a
+
+larger workplace computer use after 1980 [Autor and Dorn, 2013].
+
+We closely follow Autor and Dorn [2013] who argue that the measure of historical routine
+
+employment shares can be seen as an exogenous shifter of IT adoption, as they are unlikely
+
+to affect employment outcomes today through other channels other than technology. We test
+
+whether historical variation in routine task shares at the regional level predicts IT adoption just
+
+before the Covid-19 pandemic. To measure routine tasks the job task requirements from the
+
+fourth edition of the US Department of Labor’s Dictionary of Occupational Titles (DOT) (US De-
+
+partment of Labor 1977) are merged to their corresponding Census occupation classiﬁcations
+
+[Autor et al., 2003]. Then for each commuting zone, a routine employment share is created. We
+
+directly take the data from Autor et al. [2015] on the commuting zone level and apply the share
+
+15
+
+of routine work to each county within that commuting zone and then average across MSAs.
+
+Figure 3 shows that there is a strong positive correlation between the employment share in
+
+routine tasks in 1980 and the level of IT adoption just before the pandemic. Under the exclusion
+
+restriction that the occupational structure in 1980 affects the employment outcomes during the
+
+pandemic only through higher IT adoption and not through other channels, we can use the
+
+share of routine employment in a region as an instrument for IT adoption before the pandemic,
+
+which allows us to estimate the causal effect of IT adoption on employment outcomes.
+
+We re-estimate the linear probability model:
+
+Unempl oyedi ,t = α+β1∆Mobi l i t ymsa(i ),t +β2I Tmsa(i )+β3∆Mobi l i t ymsa(i ),t ∗I Tmsa(i )+αs(i )+(cid:178)i ,t
+
+(5)
+while instrumenting the endogenous variables I Tmsa(i ) and Mobi l i t ymsa(i ,t ) ∗I Tmsa(i ) with the
+excluded instruments Rout i nemsa(i ) and ∆Mobi l i t ymsa(i ,t ) ∗ Rout i nemsa(i ).
+
+We perform estimation via two-stages least square. The estimates for the coefﬁcient of in-
+terests (β3, which refers to the interaction term between IT and the change in mobility) are
+
+reported in Table 7. In column (1) we report the OLS estimate. In columns (2)-(5) we estimate
+
+the 2SLS speciﬁcation with two endogenous variables and varying saturation of the models with
+
+controls and ﬁxed effects.
+
+The coefﬁcient on the interaction term between IT and mobility is positive in all speciﬁ-
+
+cations, conﬁrming our previous result that IT adoption can mitigate the adverse economic
+
+consequences in response to a mobility decline. However, the coefﬁcient is smaller in the OLS
+
+speciﬁcation than in the IV estimates, although not statistically different, as shown in the row
+P − v al ue = OLS.
+
+As we have two endogenous variables, the conventional ﬁrst-stage F-stage statistic is not
+
+appropriate to test for the strength of the instrument [Angrist and Pischke, 2008]. Instead, we
+
+report the Sanderson and Windmeijer [2016] F-statistics for models with multiple endogenous
+
+variables to test for weak instruments. The two F-statistics for the ﬁrst stage for IT itself and the
+
+interaction range between 7 and 30. In columns (3) and (4) the F-stats for both ﬁrst stages are
+
+all above 15, above the rule-of-thumb threshold of 10.
+
+In conclusion, the IV estimates conﬁrm that IT adoption has a causal impact on mitigating
+
+the adverse employment outcomes in response to restrictions in mobility. Therefore, the ﬁnd-
+
+ing that labor markets in states or MSAs where ﬁrms adopted more IT were also more resilient
+
+16
+
+to the pandemic is not mainly driven by the presence of unobserved confounding factors.
+
+5.2 Counterfactual
+
+In an interview with The Economist, Bill Gates argued that “if [the pandemic] would have come
+
+5 years earlier that would have been a disaster", referring to the economic damage due to a
+
+“crappy online experience". Other commentators have also highlighted that if the pandemic
+
+had happened in the past–even in the recent past–the ability of companies and worker to quickly
+
+scale the use of working-from-home, contactless delivery, and other remedies needed to re-
+
+spond to social distancing would have been signiﬁcantly less developed. The improvements in
+
+IT, internet infrastructure, the widespread use of smartphones and delivery apps, have been of
+
+great help.
+
+We can use our estimates to compute the counterfactual labor market consequences that
+
+would have occurred given a lower level of IT adoption. To perform such an exercise, we re-
+
+estimate Equation 4 without normalizing the measure of IT adoption; non-normalized coef-
+
+ﬁcients are expressed in terms of IT expenses per employee (rather than in terms of cross-
+
+sectional standard deviation as in section 4 and section 5). Bureau of Economic Analysis [2019]
+
+reveals that “since 2010, digital economy real gross output growth averaged 2.5 percent per year.”,
+
+while the growth rate of the labor force is about 0.5 percent per year.7 Thus, we assume that IT
+
+adoption grows at 2 percentage points per year, and was, therefore, approximately 10% smaller
+
+5 years ago. We also assume that the growth rate of IT is homogeneous across all MSAs.
+
+Under the assumptions described above, we can estimate the counterfactual probability
+
+that an individual i is unemployed as:
+
+Unempl oyedi ,t = α + (cid:99)β1∆Mobi l i t ymsa(i ),t + (cid:99)β2 ∗ 0.9 ∗(cid:225)I Tmsa(i ) + (cid:99)β3∆Mobi l i t ymsa(i ,t ) ∗ 0.9 ∗(cid:225)I Tmsa(i )
+
++ Z
+
+(cid:48)
+i
+
+δ + X
+
+(cid:48)
+msa(i )
+
+σ + (Xmsa(i ) ∗ Mobi l i t ymsa(i ),t )
+
+(cid:48)γ + αs(i )
+
+(6)
+
+7Expenses in information technology are the main but not the only component of the digital economy, as de-
+ﬁned by the BEA. Bureau of Economic Analysis [2019] speciﬁes that “BEA includes in the digital economy the entire
+information and communications technologies (ICT) sector as well as the digital-enabling infrastructure needed for
+a computer network to exist and operate, the digital transactions that take place using that system (“e-commerce”),
+and the content that digital economy users create and access (“digital media”)”. However, as long as either the other
+parts of the digital economy grow at the same rate as IT adoption, or they are similarly correlated to unemploy-
+ment, we can still equate the growth rate of IT expenses to one of the more broadly deﬁned measures of “digital
+economy”.
+
+17
+
+where the “hat” signs highlight that the IT adoption measure and the coefﬁcients are not
+
+normalized.
+
+The estimated counterfactual unemployment rate (average between April and May 2020)
+
+under the 2015 IT adoption is 16% versus the observed 14%. It is therefore 2 percentage points
+
+(or 14.3%) higher than what was observed in the data. The estimates from a linear model may
+
+overestimate the counterfactual impact of a large change in IT adoption if non-linearities are
+
+important. It is therefore reassuring that using a probit model (instead of a linear probability
+
+model) provides the same results. This ﬁnding illustrates the importance of investments in IT
+
+adoption to build an economy that is not only faster-growing but also more resilient to shocks.
+
+This back-of-the-envelope calculation should be treated with caution. Although our IV es-
+
+timate and our coefﬁcients after controlling for various observable characteristics are relatively
+
+stable, we cannot completely rule out potential exclusion restriction violations or that other un-
+
+observable or omitted characteristics which are correlated with IT spending partially bias our
+
+coefﬁcient of interest. Moreover, this type of calculation assumes that there are no spillover
+
+effects from the adoption of IT. If, for example, IT spending in one region makes not only the
+
+region itself more resilient, but also other regions that do not adopt IT as strongly more resilient
+
+– for instance via a smaller decline in aggregate demand– our estimate would provide a lower
+
+bound for the total effect of how much IT shields unemployment losses. See also Nakamura
+
+and Steinsson [2018] for an in-depth discussion of the caveats of extrapolating aggregate effects
+
+from cross-sectional regressions.
+
+5.3 IT and Inequality
+
+Does IT shield all workers from the impact of the pandemic? We test whether the mitigating ef-
+
+fect of local ﬁrms’ IT adoption on workers’ labor market outcomes depends on their character-
+
+istics, such as gender, race, and educational attainment. To this aim, we estimate the following
+
+linear probability model:
+
+18
+
+Unempl oyedi ,t = α + β1∆Mobi l i t ymsa(i ),t ∗ Ai + β2∆Mobi l i t ymsa(i ),t ∗ (1 − Ai )
+
++ β3I Tmsa(i ) ∗ Ai + β4I Tmsa(i ) ∗ (1 − Ai )
+
++ β5∆Mobi l i t ymsa(i ),t ∗ I Tmsa(i ) ∗ Ai
+
++ β6∆Mobi l i t ymsa(i ),t ∗ I Tmsa(i ) ∗ (1 − Ai )
+
++ Z
+
+(cid:48)
+i
+
+δ + X
+
+(cid:48)
+msa(i )
+
+σ + (Xmsa(i ) ∗ Mobi l i t ymsa(i ),t )
+
+(cid:48)γ + αs(i ) + (cid:178)i ,t
+
+(7)
+
+which is similar to Equation 4 except for the addition of the interaction terms disciplined by
+
+Ai , which is a dummy variable equal to one if respondent i belongs to a certain category. In par-
+
+ticular, we estimate Equation 7 for three different characteristics: gender, race, and educational
+attainment. First, we estimate the regression equation for gender, where Ai = 1 is one if the
+respondent is male and Ai = 0 if the respondent is female. Second, we estimate the equation
+for ethnicity where Ai = 1 if the respondent is white and Ai = 0 if the respondent is non-white.
+Third, Ai = 1 if the individual has a high- or medium level of education (high school or more)
+and Ai = 0 if the individual has no high school degree. (Observation where the relevant cate-
+
+gorical variable is missing are dropped.) The remaining variables are deﬁned as above, where
+
+the vector Z includes the various categories as dummies.
+
+Table 3 presents the results for β5 and β6. The coefﬁcient is positive for males, females,
+
+whites, non-whites, and high/medium education. Only in the case of low-education individu-
+
+als, we do not ﬁnd a mitigating impact of IT on the effect of mobility on the probability of being
+
+unemployed.
+
+The coefﬁcient β5 and β6 are also plotted in Figure 4. Interestingly, the effect is largest for
+
+females and non-white individuals. These are among the individuals which are most hit during
+
+the ﬁrst phase of the pandemic and IT adoption has more room to mitigate the shock for these
+
+individuals rather than for example highly-educated ones whose unemployment rates have not
+
+responded as strongly to the decline in mobility. Low educated individuals, however, although
+
+hit very harshly from the pandemic are not shielded by ﬁrm IT.
+
+Overall, even though IT adoption may—in the aggregate—signiﬁcantly shield labor markers
+
+against the effects of the COVID-19 pandemic, it may also contribute to widening inequality by
+
+increasing economic disparities between high- and low-educated individuals.
+
+19
+
+6 Channels
+
+In this section we analyze various channels through which IT adoption could have mitigated
+
+the adverse consequences of social distancing. In particular, we test whether IT adoption is
+
+associated with better ability to work from home, higher e-commerce activity, greater resilience
+
+of job creation, as well as a reallocation of labor demand from non-digital to digital jobs during
+
+Spring 2020.
+
+6.1 IT, Working-From-Home, and E-commerce
+
+One potential reason why low-educated individuals are not shielded by IT adoption is due to
+
+skill-biased technological change. More skilled workers have larger complementarities with in-
+
+formation technologies compared to lower-educated workers for which IT may even substitute
+
+their work. High-skilled individuals have been able to switch to work from home with little ad-
+
+justment necessary. Dingel and Neiman [2020] show that around 1/3 of all workers can do jobs
+
+from home, of which most of them are higher-educated workers.
+
+One potential explanation for our results is therefore that IT adoption and work-from-home
+
+abilities are highly correlated and the reason why individuals living in areas where ﬁrms adopt
+
+IT more heavily are also areas where more people can work from home. Indeed, Figure 5 shows
+
+there is a high correlation between the share of jobs that can be done from home in an MSA and
+
+IT adoption.
+
+We re-estimate Equation 4 substituting the IT measure with the share of jobs that can be
+
+done from home to test whether the work from home abilities can also shield workers from the
+
+decline in mobility.
+
+Table 5 shows the results. The results for WFH mirror those of IT, in line with the results
+
+by Bai et al. [2021]. Individuals living in MSAs where WFH is more feasible are less likely to be
+
+unemployed for a given decline in mobility than individuals who live in areas where WFH is
+
+not as widely possible. Column (3) shows the results with both interactions, between IT and
+
+mobility and between WFH and mobility. Both coefﬁcients remain statistically signiﬁcant, but
+
+the coefﬁcient declines in both cases.
+
+The fact that the coefﬁcient on the interaction between IT and mobility declines once the
+
+interaction between WFH and mobility is included in the regression suggests that WFH is one
+
+channel through which IT shields workers from the economic consequences of the pandemic.
+
+20
+
+However, the coefﬁcient on the interaction remains statistically signiﬁcant, suggesting that tele-
+
+working does not seem to be the only channel through which IT has a mitigating effect and
+
+other channels through which IT adoption mitigates the consequences of social distancing are
+
+at work.
+
+Another potential channel for the shielding effect of local IT adoption could be that IT-
+
+savvy ﬁrms have better e-commerce capabilities and thus can more promptly expand online
+
+sales. The Aberdeen survey contains more detailed information on the presence of speciﬁc e-
+
+commerce technology for about 1% of the sample establishments. For these establishments,
+
+we know whether or not they have adopted a e-commerce related technology in 2016. We con-
+
+struct an MSA-level measure of e-commerce presence by estimating the same regression used
+
+to estimate the baseline measure of IT (Equation 1).8
+
+We then augment the baseline individual-level speciﬁcation with the MSA-level measure of
+
+e-commerce prevalence and its interaction with the change in mobility. Results are reported
+
+in Table 5. We do not ﬁnd evidence in favor of a signiﬁcant shielding impact of pre-COVID e-
+
+commerce technologies on local labor markets. The empirical irrelevance of this channel may
+
+be surprising given the rise of online sales during the onset of the pandemic. We conjecture two
+
+reasons that could justify this ﬁnding. First, it may be easier for IT-savvy ﬁrms to start selling
+
+online once the pandemic hit, even if they did not do so before. Second, as we show below, the
+
+shielding impact of IT is particularly important in tradable industries, but not in non-tradable
+
+ones. Firms in tradable industries, like many manufacturing or mining industries, tend to sell
+
+to other business rather than consumers, thus limiting the importance of e-commerce.
+
+6.2 IT, Online Vacancies, and Digital Jobs
+
+The abrupt skyrocketing of the unemployment rate at the onset of the pandemic indicates a
+
+severe increase in (temporary) layoffs. While job destruction was a key driver of the unem-
+
+ployment rate, depressed job creation was another important margin of adjustment. Labor
+
+demand collapsed in the Spring of 2020 as ﬁrms responded to mobility restrictions and the ex-
+
+traordinary degree of uncertainty by severely restricting vacancies. Mobility restrictions may
+
+8That is, we estimate the MSA-level ﬁxed effect αg (e) from the linear probability model
+
+Ecommer cee = δ + αg (e) + θi nd (e) + (cid:178)i
+
+(8)
+
+where Ecommer cee is an indicator variable ﬂagging the presence of e-commerce technology.
+
+21
+
+have affected

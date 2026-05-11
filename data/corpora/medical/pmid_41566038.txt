@@ -1,0 +1,122 @@
+
+PMID- 41566038
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260122
+LR  - 20260224
+IS  - 1432-1041 (Electronic)
+IS  - 0031-6970 (Print)
+IS  - 0031-6970 (Linking)
+VI  - 82
+IP  - 2
+DP  - 2026 Jan 22
+TI  - Trimetazidine and allopurinol for the prevention of Contrast-associated acute 
+      kidney injury in elective percutaneous coronary intervention: a randomized 
+      controlled trial.
+PG  - 58
+LID - 10.1007/s00228-025-03985-6 [doi]
+LID - 58
+AB  - PURPOSE: Contrast-associated acute kidney injury (CA-AKI) is a significant 
+      concern following percutaneous coronary intervention (PCI). This study assessed 
+      whether adding trimetazidine (TMZ) or TMZ/allopurinol to standard hydration 
+      reduces CA-AKI among elective PCI patients. METHODS: 129 patients undergoing 
+      elective PCI were randomized into three groups: Group 1 received (IV isotonic 
+      saline + TMZ + allopurinol), Group 2 received (IV isotonic saline + TMZ), and 
+      Group 3 (control) received (IV isotonic saline only). The primary outcome was the 
+      incidence of CA-AKI at 24- and 48-hour post-PCI. Risk was stratified using the 
+      Mehran and the Age, Creatinine, and Ejection Fraction (ACEF) scores. RESULTS: 
+      Group 1 demonstrated a non-significant reduction in CA-AKI incidence compared 
+      with Groups 2 and 3 (24 h: 4.65%, 4.55%, and 9.52%; 48 h: 16.28%, 20.45%, and 
+      28.57%; p > 0.05). All patients were classified as low-moderate risk by ACEF and 
+      Mehran scores, neither of which predicted CA-AKI. At 48 h, SGLT2 inhibitors users 
+      demonstrated a smaller rise in creatinine compared with non-users 
+      (-0.04 +/- 0.158 mg/dL vs. 0.096 +/- 0.237 mg/dL, p < 0.05), as did DPP-4 inhibitor 
+      users (-0.05 +/- 0.217 mg/dL vs. +0.098 +/- 0.237 mg/dL, p < 0.05). Diuretics were 
+      associated with greater increases (p < 0.05). CONCLUSION: The TMZ-allopurinol 
+      combination showed a favorable but non-significant trend toward reducing CA-AKI, 
+      while ACEF and Mehran scores demonstrated limited predictive value. Improved 
+      risk-stratification tools and larger studies in higher-risk patients are needed. 
+      SGLT2 and DPP-4 inhibitors showed smaller creatinine increases, suggesting 
+      possible nephroprotection, but this remains exploratory.
+CI  - (c) 2026. The Author(s).
+FAU - Ali, Nourhan Osama
+AU  - Ali NO
+AD  - Egyptian Drug Authority (EDA), Cairo, Egypt.
+FAU - Bazan, Naglaa Samir
+AU  - Bazan NS
+AUID- ORCID: 0000-0002-8930-4697
+AD  - Critical Care Medicine Department, Kasr Al Ainy Hospitals, Cairo University, 
+      Cairo, Egypt.
+AD  - Clinical Pharmacy Department, College of Pharmacy, King Khalid University, Abha, 
+      Saudi Arabia.
+FAU - Mowafy, Hatem Hossam
+AU  - Mowafy HH
+AD  - Critical Care Medicine Department, Kasr Al Ainy Hospitals, Cairo University, 
+      Cairo, Egypt.
+FAU - Abdelrahim, Mohamed E A
+AU  - Abdelrahim MEA
+AD  - Clinical Pharmacy Department, Faculty of Pharmacy, Beni-Suef University, 
+      Beni-Suef, Egypt.
+FAU - Harb, Hadeer S
+AU  - Harb HS
+AUID- ORCID: 0000-0003-2259-9686
+AD  - Clinical Pharmacy Department, Faculty of Pharmacy, Beni-Suef University, 
+      Beni-Suef, Egypt. Hadeersafwat@pharm.bsu.edu.eg.
+LA  - eng
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+DEP - 20260122
+PL  - Germany
+TA  - Eur J Clin Pharmacol
+JT  - European journal of clinical pharmacology
+JID - 1256165
+RN  - N9A0A0R9S8 (Trimetazidine)
+RN  - 63CZ7GJN5I (Allopurinol)
+RN  - 0 (Contrast Media)
+RN  - 0 (Vasodilator Agents)
+RN  - AYI8EX34EU (Creatinine)
+SB  - IM
+MH  - Humans
+MH  - *Trimetazidine/therapeutic use/administration & dosage
+MH  - Male
+MH  - *Acute Kidney Injury/prevention & control/chemically induced/epidemiology
+MH  - Female
+MH  - *Percutaneous Coronary Intervention/adverse effects
+MH  - *Allopurinol/therapeutic use/administration & dosage
+MH  - Aged
+MH  - Middle Aged
+MH  - *Contrast Media/adverse effects
+MH  - Drug Therapy, Combination
+MH  - *Vasodilator Agents/therapeutic use
+MH  - Creatinine/blood
+PMC - PMC12823743
+OTO - NOTNLM
+OT  - Acute kidney injury
+OT  - Contrast volume
+OT  - Contrast-associated acute kidney injury
+OT  - DPP-4 inhibitors
+OT  - Percutaneous coronary intervention
+OT  - SGLT-2 inhibitors
+COIS- Declarations. Ethical approval and consent to participate: This study was 
+      approved by the Research Ethics Committee of the Faculty of Medicine, Cairo 
+      University (Approval No. S-2-2022, dated July 17, 2022) and was registered on 
+      ClinicalTrials.gov (Clinical Trial Identifier: NCT05540184; Release Date: 
+      September 5, 2022, https://clinicaltrials.gov/ ). Written informed consent was 
+      obtained from all participants prior to their inclusion in the study, in 
+      accordance with the Declaration of Helsinki. Competing interests: The authors 
+      declare no competing interests.
+EDAT- 2026/01/22 01:09
+MHDA- 2026/01/22 07:43
+PMCR- 2026/01/22
+CRDT- 2026/01/21 23:31
+PHST- 2025/06/02 00:00 [received]
+PHST- 2025/12/12 00:00 [accepted]
+PHST- 2026/01/22 07:43 [medline]
+PHST- 2026/01/22 01:09 [pubmed]
+PHST- 2026/01/21 23:31 [entrez]
+PHST- 2026/01/22 00:00 [pmc-release]
+AID - 10.1007/s00228-025-03985-6 [pii]
+AID - 3985 [pii]
+AID - 10.1007/s00228-025-03985-6 [doi]
+PST - epublish
+SO  - Eur J Clin Pharmacol. 2026 Jan 22;82(2):58. doi: 10.1007/s00228-025-03985-6.

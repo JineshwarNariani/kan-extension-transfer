@@ -1,0 +1,115 @@
+
+PMID- 41710946
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260219
+LR  - 20260221
+IS  - 2160-7648 (Electronic)
+IS  - 2160-763X (Print)
+IS  - 2160-763X (Linking)
+VI  - 15
+IP  - 2
+DP  - 2026 Feb
+TI  - Bioequivalence Between a Gantenerumab Disposable Syringe and an Autoinjector: A 
+      Randomized Controlled Trial in Healthy Volunteers.
+PG  - e70038
+LID - 10.1002/cpdd.70038 [doi]
+LID - e70038
+AB  - Gantenerumab, a monoclonal antibody targeting amyloid beta plaques in the brain, 
+      reduces plaque accumulation and was developed to slow Alzheimer's disease 
+      progression. Results from the pivotal GRADUATE I and II studies evaluating 
+      gantenerumab in people with early Alzheimer's disease were announced in 2022. The 
+      studies did not meet their primary endpoint of slowing clinical decline. This 
+      study evaluated the pharmacokinetics, immunogenicity, and safety of a high 
+      concentration liquid formulation of gantenerumab administered subcutaneously as a 
+      single dose using an autoinjector (AI) or a disposable syringe (DS). The DS was 
+      employed in pivotal clinical trials, while the AI was developed in parallel to 
+      ease SC administration. The study aimed to demonstrate bioequivalence (BE) 
+      between AI and DS administration in healthy participants, defined by 90% 
+      confidence intervals (CIs) for geometric least square (LS) mean ratios being 
+      within the 0.80-1.25 range for maximum observed plasma concentration (C(max)) and 
+      area under the plasma concentration-time curve (AUC). Among the 266 healthy 
+      participants, 135 received 255 mg gantenerumab via AI and 131 received 255 mg via 
+      DS in a parallel group design. BE between AI and DS SC administration was 
+      demonstrated with geometric LS mean ratios (90% CIs) for C(max), AUC(0-inf), and 
+      AUC(0-last) of 1.078 (1.006, 1.155), 1.053 (0.986, 1.124), and 1.054 (0.992, 
+      1.121), respectively, all within the 0.80-1.25 BE range. Safety findings were 
+      consistent with the known safety profile of gantenerumab.
+CI  - (c) 2026 F. Hoffmann-La Roche Ltd. Clinical Pharmacology in Drug Development 
+      published by Wiley Periodicals LLC on behalf of American College of Clinical 
+      Pharmacology.
+FAU - Schwab, Dietmar
+AU  - Schwab D
+AD  - Pharma Research and Early Development, Pharmaceutical Sciences, Roc, he 
+      Innovation Center, Basel, Switzerland.
+FAU - Hofmann, Carsten
+AU  - Hofmann C
+AD  - Pharma Research and Early Development, Pharmaceutical Sciences, Roc, he 
+      Innovation Center, Basel, Switzerland.
+FAU - Justies, Nicole
+AU  - Justies N
+AD  - Pharma Research and Early Development, Pharmaceutical Sciences, Roc, he 
+      Innovation Center, Basel, Switzerland.
+FAU - Dickerson, Daniel S
+AU  - Dickerson DS
+AD  - ICON - Early Development Services, Lenexa, KS, USA.
+FAU - Keshavarz, Ali
+AU  - Keshavarz A
+AD  - ICON - Early Development Services, Lenexa, KS, USA.
+FAU - van Iersel, Thijs
+AU  - van Iersel T
+AD  - ICON - Early Development Services, Groningen, The Netherlands.
+FAU - Martens, Kimberly
+AU  - Martens K
+AD  - ICON - Early Development Services, Lenexa, KS, USA.
+FAU - Bittner, Beate
+AU  - Bittner B
+AD  - Global Pharma Strategy, Product Optimization, Basel, Switzerland.
+LA  - eng
+GR  - F. Hoffmann-La Roche/
+PT  - Comparative Study
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+PL  - United States
+TA  - Clin Pharmacol Drug Dev
+JT  - Clinical pharmacology in drug development
+JID - 101572899
+RN  - 0 (Antibodies, Monoclonal, Humanized)
+SB  - IM
+MH  - Humans
+MH  - Therapeutic Equivalency
+MH  - Male
+MH  - Female
+MH  - Adult
+MH  - Healthy Volunteers
+MH  - Syringes
+MH  - Middle Aged
+MH  - Injections, Subcutaneous
+MH  - Area Under Curve
+MH  - *Antibodies, Monoclonal, Humanized/administration & 
+      dosage/pharmacokinetics/adverse effects
+MH  - Young Adult
+MH  - Disposable Equipment
+PMC - PMC12919677
+OTO - NOTNLM
+OT  - autoinjector
+OT  - bioequivalence
+OT  - device bridging
+COIS- DS, CH, NJ and BB are employees of Roche and hold stock or stock options in the 
+      company. The study was funded by Roche and was conducted as part of the author's 
+      employment. DSD, AK, TI and KM are employed by ICON which received the funding of 
+      this study.
+EDAT- 2026/02/19 07:02
+MHDA- 2026/02/19 07:03
+PMCR- 2026/02/19
+CRDT- 2026/02/19 04:58
+PHST- 2025/11/28 00:00 [received]
+PHST- 2026/01/28 00:00 [accepted]
+PHST- 2026/02/19 07:03 [medline]
+PHST- 2026/02/19 07:02 [pubmed]
+PHST- 2026/02/19 04:58 [entrez]
+PHST- 2026/02/19 00:00 [pmc-release]
+AID - CPDD70038 [pii]
+AID - 10.1002/cpdd.70038 [doi]
+PST - ppublish
+SO  - Clin Pharmacol Drug Dev. 2026 Feb;15(2):e70038. doi: 10.1002/cpdd.70038.

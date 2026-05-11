@@ -1,0 +1,122 @@
+
+PMID- 41914182
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260421
+LR  - 20260421
+IS  - 1941-3084 (Electronic)
+IS  - 1941-3084 (Linking)
+VI  - 19
+IP  - 4
+DP  - 2026 Apr
+TI  - Optimal Ablation Strategies for Persistent Atrial Fibrillation With Heart 
+      Failure: Three-Year Follow-Up of a Prospective Multicenter Randomized Trial.
+PG  - e014394
+LID - 10.1161/CIRCEP.125.014394 [doi]
+AB  - BACKGROUND: Catheter ablation has been shown to improve prognosis in patients 
+      with heart failure (HF) and atrial fibrillation (AF); however, the optimal 
+      ablation strategy remains undefined. METHODS: In this multicenter, randomized 
+      controlled trial, 300 patients with persistent AF and HF, including both HF with 
+      reduced ejection fraction (ejection fraction </=40%) and HF with preserved ejection 
+      fraction (ejection fraction >40%, including mid-range ejection fraction [ejection 
+      fraction 41% to 50%]), were enrolled and randomized equally to the 
+      anatomic-guided ablation, electrogram-guided ablation, and extensive 
+      electrogram-anatomic-guided ablation groups, with 100 patients in each group. The 
+      coprimary end points were: (1) the composite of cardiovascular death or 
+      HF-related hospitalization/urgent visit within 36 months; and (2) maintenance of 
+      sinus rhythm at 36 months. Secondary end points included AF burden <1%, New York 
+      Heart Association class improvement (>/=1 grade), 6-minute walk test change, 
+      NT-proBNP (N-terminal pro-B-type natriuretic peptide) reduction, and 
+      procedure-related complications. Subgroup analyses were performed for HF with 
+      reduced ejection fraction and HF with preserved ejection fraction. RESULTS: At 36 
+      months, the extensive electro-anatomic-guided ablation group demonstrated the 
+      lowest incidence of the composite end point (17.0%) compared with the 
+      electrogram-guided ablation (29.0%) and anatomic-guided ablation (36.0%; overall 
+      P=0.010) groups, and the highest rate of sinus rhythm maintenance (62.0%) 
+      compared with the electrogram-guided ablation (53.0%) and anatomic-guided 
+      ablation (44.0%; P=0.039) groups. Consistent improvements were observed for AF 
+      burden <1%, New York Heart Association class, 6-minute walk test, and NT-proBNP. 
+      Major complications were low and similar across all groups. These trends were 
+      consistent in both the HF with reduced ejection fraction and HF with preserved 
+      ejection fraction subgroups. CONCLUSIONS: Electrogram-anatomic ablation provides 
+      superior long-term rhythm control, reduces cardiovascular events, and improves 
+      symptoms in patients with persistent AF and HF, regardless of ejection fraction. 
+      REGISTRATION: URL: https://www.clinicaltrials.gov; Unique identifier: 
+      NCT07153718.
+FAU - Li, Kaige
+AU  - Li K
+AUID- ORCID: 0009-0001-1607-8975
+AD  - Department of Cardiology, Shanghai Jiao Tong University School of Medicine, 
+      Shanghai Chest Hospital, China (K.L., M.Q., W.J., Y.Z., S.W., K.X., X.L., X.H.).
+FAU - Wang, Xinhua
+AU  - Wang X
+AUID- ORCID: 0009-0007-0921-4688
+AD  - Department of Cardiology, Ren Ji Hospital, Shanghai Jiao Tong University School 
+      of Medicine, China (X.W.).
+FAU - Qin, Mu
+AU  - Qin M
+AUID- ORCID: 0009-0001-8973-2050
+AD  - Department of Cardiology, Shanghai Jiao Tong University School of Medicine, 
+      Shanghai Chest Hospital, China (K.L., M.Q., W.J., Y.Z., S.W., K.X., X.L., X.H.).
+FAU - Ye, Ping
+AU  - Ye P
+AUID- ORCID: 0009-0009-4657-4687
+AD  - Department of Cardiology, The Central Hospital of Wuhan, Tongji Medical College, 
+      Huazhong University of Science and Technology, China (P.Y.).
+FAU - Han, Bing
+AU  - Han B
+AUID- ORCID: 0009-0000-8442-6073
+AD  - Department of Cardiology, Xuzhou Central Hospital, Jiangsu, China (B.H.).
+FAU - Jiang, Weifeng
+AU  - Jiang W
+AUID- ORCID: 0009-0005-3872-2660
+AD  - Department of Cardiology, Shanghai Jiao Tong University School of Medicine, 
+      Shanghai Chest Hospital, China (K.L., M.Q., W.J., Y.Z., S.W., K.X., X.L., X.H.).
+FAU - Zhang, Yu
+AU  - Zhang Y
+AUID- ORCID: 0009-0005-7032-4144
+AD  - Department of Cardiology, Shanghai Jiao Tong University School of Medicine, 
+      Shanghai Chest Hospital, China (K.L., M.Q., W.J., Y.Z., S.W., K.X., X.L., X.H.).
+FAU - Zheng, Qidong
+AU  - Zheng Q
+AUID- ORCID: 0009-0006-4222-2092
+AD  - Department of Cardiology, Yuhuan Second People's Hospital, Zhejiang, China (Q.Z., 
+      A.J.).
+FAU - Ji, Anjing
+AU  - Ji A
+AUID- ORCID: 0009-0008-0374-9566
+AD  - Department of Cardiology, Yuhuan Second People's Hospital, Zhejiang, China (Q.Z., 
+      A.J.).
+FAU - Zhang, Menghe
+AU  - Zhang M
+AUID- ORCID: 0009-0006-4195-5702
+AD  - Department of Cardiology, Second Affiliated Hospital of Shandong University of 
+      Traditional Chinese Medicine, China (M.Z.).
+FAU - Wang, Yanzhe
+AU  - Wang Y
+AUID- ORCID: 0009-0002-1888-9306
+AD  - Department of Cardiology, Changshu Hospital of Traditional Chinese Medicine, 
+      Jiangsu, China (Y.W.).
+FAU - Wu, Shaohui
+AU  - Wu S
+AD  - Department of Cardiology, Shanghai Jiao Tong University School of Medicine, 
+      Shanghai Chest Hospital, China (K.L., M.Q., W.J., Y.Z., S.W., K.X., X.L., X.H.).
+FAU - Xu, Kai
+AU  - Xu K
+AD  - Department of Cardiology, Shanghai Jiao Tong University School of Medicine, 
+      Shanghai Chest Hospital, China (K.L., M.Q., W.J., Y.Z., S.W., K.X., X.L., X.H.).
+FAU - Xu, Changhao
+AU  - Xu C
+AUID- ORCID: 0000-0002-6129-946X
+AD  - Department of Cardiology, Fujian Medical University Union Hospital, Fujian 
+      Cardiovascular Medicine Center, China (C.X.).
+FAU - Liu, Xu
+AU  - Liu X
+AUID- ORCID: 0000-0001-9703-5258
+AD  - Department of Cardiology, Shanghai Jiao Tong University School of Medicine, 
+      Shanghai Chest Hospital, China (K.L., M.Q., W.J., Y.Z., S.W., K.X., X.L., X.H.).
+FAU - Hou, Xumin
+AU  - Hou X
+AUID- ORCID: 0009-0006-4060-9840
+AD  - Department of Cardiology, Shanghai Jiao Tong University School of Medicine, 
+      Shanghai C

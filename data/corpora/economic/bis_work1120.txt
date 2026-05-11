@@ -1,0 +1,2284 @@
+BIS Working Papers 
+No 1120 
+
+Energy shocks as Keynesian 
+supply shocks: implications for 
+fiscal policy 
+
+by Enisse Kharroubi and Frank Smets 
+
+Monetary and Economic Department 
+
+September 2023 
+
+JEL classification: D31, E21, E32, E62, H3. 
+
+Keywords:  energy  shocks,  non-homothetic  demand, 
+heterogeneous households, fiscal policy, public debt. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BIS  Working  Papers  are  written  by  members  of  the  Monetary  and  Economic 
+Department of the Bank for International Settlements, and from time to time by other 
+economists,  and  are  published  by  the  Bank.  The  papers  are  on  subjects  of  topical 
+interest and are technical in character. The views expressed in them are those of their 
+authors and not necessarily the views of the BIS. 
+
+This publication is available on the BIS website (www.bis.org). 
+
+©  Bank for International Settlements 2023. All rights reserved. Brief excerpts may be 
+
+reproduced or translated provided the source is stated. 
+
+ISSN 1020-0959 (print) 
+ISSN 1682-7678 (online) 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Energy Shocks as Keynesian Supply shocks:
+
+Implications for Fiscal Policy*
+
+Enisse Kharroubi†
+
+and
+
+Frank Smets‡
+
+Abstract
+
+This paper analyses the economic impact of and the optimal policy response to
+
+energy supply shocks in a flexible price model with heterogeneous households. We
+
+introduce energy as a consumption good on the demand side and as an input to pro-
+
+duction on the supply side. A distinguishing feature is that, in line with empirical
+
+evidence, we allow households’ energy demand to be non-homothetic. The model
+
+provides three main insights. First, (negative) energy supply shocks act as a (negative)
+
+demand shock, or Keynesian supply shock, when three conditions are met: (i) house-
+
+hold income heterogeneity is intermediate, neither too high nor too low; (ii) the fraction
+
+of poor and credit-constrained households is high and (iii) competition between firms
+
+is strong enough. Second, implementing the first-best allocation requires subsidising
+
+the poor and taxing the rich, and more so when the economy faces a negative energy
+
+shock. Last, issuing public debt can be part of the optimal policy response to a negative
+
+energy shock, if the shock is large and the economy’s overall energy intensity is low.
+
+Keywords: Energy shocks, non-homothetic demand, heterogeneous households, fiscal
+
+policy, public debt.
+
+JEL Classification codes: D31, E21, E32, E62, H3.
+
+*Corresponding author’s email: enisse.kharroubi@bis.org. The views expressed here do not necessarily
+represent the views of the BIS or the ECB. The paper benefited from comments from participants at the BIS-
+SNB Research Workshop, the CEPR conference on Rethinking Macroeconomic Policy in Times of Turmoil
+and the ETH-University of Oxford Macro-Finance conference. The paper was written while Frank Smets
+was visiting the BIS, as a Lamfallussy Research Fellow.
+
+†Bank for International Settlements
+‡European Central Bank, Ghent University and Bank for International Settlements
+
+1
+
+1
+
+Introduction
+
+The recent energy crisis has elicited much debate about its distributional and macroe-
+
+conomic consequences and the appropriate fiscal (and monetary) policy response. One
+
+feature that has been highlighted is the negative impact of higher energy prices on the
+
+distribution of income and consumption. Poorer households typically spend a larger share
+
+of their income on energy (see Figure 1).1 As a result, they experience a stronger decline
+
+in their real disposable income following negative energy shocks. Moreover, as these
+
+Figure 1: Poor households spend more on energy.
+
+households often have low saving buffers and are typically credit constrained, they tend
+
+to adjust their non-energy consumption much more than richer households in response
+
+to an adverse energy shock. Accordingly, the fiscal policy debate has focused on the need
+
+to target income support (in the form of subsidies or tax rebates) to the most vulnera-
+
+ble households. This can alleviate the negative distributional consequences and support
+
+aggregate demand, while limiting the fiscal cost.2
+
+In this paper we develop a flexible price model with heterogeneous households and
+
+non-homothetic demand for energy to investigate the economic impact of and the optimal
+
+fiscal policy response to energy supply shocks. Like previous papers in the literature, we
+
+introduce energy as a consumption good on the demand side and as an input to production
+
+on the supply side.3 In addition, our framework carries two distinguishing features. One
+
+1This evidence, based on Eurostat Household Budget Survey, also shows that the difference between
+
+between the rich and the poor in the energy share in consumption has been growing over time.
+
+2See, for instance, Ari et al. (2022) for a review of policy initiatives meant to alleviate the fallout of the
+
+energy crisis.
+
+3see Kim and Loungani (1992), Hunt (2005), Bodenstein et al. (2008) or Dhawan and Jeske (2008) for a
+
+similar modelling.
+
+2
+
+is that households need to consume a minimum amount of energy.4 As a result, as income
+
+rises, the energy share in total expenditure falls. Second, households are heterogeneous
+
+in their income as well as in their ability to tap credit markets. As a consequence, the
+
+minimum energy consumption barely matters for high-income households. Conversely
+
+for low-income households, the minimum energy consumption may become binding,
+
+especially when negative income shocks hit.
+
+In this environment, a negative energy supply shock typically has a larger impact on
+
+the ability of low-income, credit-constrained households to consume non-energy goods.5
+
+We trace out the implications of this feature for the aggregate economy and the policy
+
+response and provide three main insights. First, in this environment, (negative) energy
+
+supply shocks can act as (negative) demand shocks, or Keynesian supply shocks, in
+
+particular when three conditions are met: the dispersion in household incomes is neither
+
+too high nor too low; the fraction of poor, credit-constrained households is large; the
+
+elasticity of substitution between non-energy goods is high. Second, implementing the
+
+first-best allocation requires subsidising the poor and taxing the rich, and the more so —
+relative to incomes— when the economy suffers a negative energy shock. Finally, issuing
+
+public debt can be part of the optimal policy response, particularly when the economy
+faces a large shock, and/or when the economy’ overall energy intensity is low.
+
+The literature on the economic effects of energy shocks is large (see for instance Kilian
+
+(2008) for a survey). The distributional consequences and the optimal policy response
+
+are, however, less well explored. Our paper contributes to a recent literature focusing
+
+on this angle. First, several empirical papers document the distributional consequences
+
+of energy price shocks. Battistini et al. (2022), Gelman et al. (2023) and K¨anzig (2021)
+show that low-income and/or liquidity-constrained households adjust their non-energy
+
+expenditures to energy price shocks to a larger extent. Similarly, Peersman and Wauters
+
+(2022) show, using Belgian survey data, that non-energy consumption is more sensitive to
+
+energy price increases than to energy price decreases. Marginal propensities to consume
+
+4We follow here Geary (1950) and Stone (1954) in assuming that household derive utility from energy
+
+consumption only when it exceeds a certain minimum amount.
+
+5Motivated by the recent European experience, Gornemann et al. (2023) also consider energy shocks as
+
+reductions in the available quantity of energy, and how such shocks can create self-fulfilling fluctuations.
+
+3
+
+(MPCs) are also significantly larger for low-income and low-saving buffer households,
+
+while non-energy consumption declines more strongly for households who report higher
+
+uncertainty on their future financial situation. Our paper embeds these empirical findings
+
+in a two-agent macroeconomic model.
+
+Second, a burgeoning literature uses TANK and HANK models to explore the distribu-
+
+tional and macroeconomic implications of energy price shocks. Chan et al. (2022) develop
+
+a small, open-economy TANK model, where labor and energy complement each other.
+
+In this framework, higher energy prices typically reduce the labor share in total income,
+
+which depressed aggregate demand, because of borrowing constraints.
+
+In turn, price
+
+flexibility insures firm profits against adverse energy price shocks and further depresses
+
+labor income and demand. Pieroni (2023) and Auclert et al. (2023) develop a full-scale
+
+HANK model to address similar questions. Auclert et al. (2023) focuses on the open econ-
+
+omy implications of alternative monetary and fiscal policy responses. They show that an
+
+increase in imported energy prices can cause a recession by pushing down real wages and
+
+consumer spending, provided the elasticity of substitution between energy and domestic
+
+goods is realistically low. They also analyse the cross-border impact of alternative mone-
+tary and fiscal policies. Our paper also emphasises the possible negative demand effects
+
+of an energy supply shock, but our mechanism does not rely on a limited substitutability
+
+on the supply side. Instead we emphasise the empirically relevant non-homothetic en-
+
+ergy demand on the household side and the implications for MPCs of credit-constrained
+
+households. We also characterise optimal fiscal policy in this environment.
+
+Specifically, we investigate three questions. First, what are the implications of a neg-
+
+ative energy supply shock? Second, which distortions, if any, does the market allocation
+suffer from? Third, what tools can the social planner use to correct these distortions, and
+
+in particular, is there a role for public debt?
+
+On the first question, a negative energy supply shock which makes energy more scarce,
+
+typically makes the economy as a whole poorer, as households and firms need energy for
+
+consumption and production. Aggregate output, aggregate consumption and real wages
+
+therefore all fall. Yet, households’ demand for energy being non-homothetic, low-income,
+
+credit-constrained households have to cut significantly their demand for consumption
+
+4
+
+goods, as (some of) their demand for energy is sticky and does not respond to changes
+
+in relative prices. As a result, aggregate demand for consumption goods falls more than
+
+one-to-one, the relative price of consumption goods drops and high-income households
+end up better-off as the drop in the relative price of consumption goods dominates the
+
+drop in income due to the direct impact of the negative energy supply shock. As high-
+
+income households can freely borrow and lend, a temporary negative energy supply shock
+
+typically leads to a drop in the equilibrium rate of interest.
+
+Negative energy shocks can act as Keynesian supply shocks when the pecuniary ex-
+ternality affecting the price of consumption goods, is large relative to the negative income
+effect due to adverse energy shocks. This happens when three conditions are met. First,
+
+household income heterogeneity needs to be neither too low nor too high. When income
+
+heterogeneity is low, consumption patterns are similar across households, and the price
+
+externality is weak, while with high income heterogeneity, low-income households do not
+
+purchase consumption goods in the first place. So, there can be no externality. Second, the
+
+demand for consumption goods needs to drop significantly following a negative energy
+
+shock, i.e. there needs to be enough low-income, credit-constrained households. Third,
+the price of consumption goods needs to be sufficiently responsive to the fall in demand,
+i.e. competition between firms producing consumption goods needs to be sufficiently
+
+large. Hence unlike other theories of Keynesian supply shocks looking at asymmetric
+
+shocks in the context of low elasticity of substitution between consumption goods (Guer-
+
+rieri et al. (2022)), we highlight the role of inelastic demand for some goods like energy.
+
+Such inelastic demand can lead to a disproportionate reduction in the demand for other
+
+goods, paving the way for Keynesian supply shocks.
+
+In our model, the decentralised equilibrium suffers two distortions. First, because
+
+of monopolistic competition, firms do not consume enough energy. Second, because
+
+households are heterogeneous, some consume too much (energy and consumption goods)
+
+while others consume too little. Putting these two distortions together, households, as a
+
+group, do not consume enough energy at the equilibrium when dispersion in household
+
+incomes is large. Conversely, firms do not consume enough energy at the equilibrium
+
+when dispersion in household incomes is low.
+
+5
+
+Looking into the normative analysis, the social planner can implement the first-best al-
+
+location, by subsidising low-income households —to ensure they can cover their inelastic
+
+demand for energy— and firms’ energy consumption, to address the monopolistic compe-
+
+tition distortion. Last but not least, the social planner needs to raise taxes on high-income
+
+households, to equalise MPCs across households and ensure a balanced budget.
+
+The first-best allocation features two important properties. First, negative energy
+
+shocks always act as standard negative supply shocks and raise the equilibrium rate
+
+of interest, at the first-best. By equalising incomes across households, the social planner
+
+precludes any price externality resulting from some households disproportionately cutting
+
+consumption in response to negative energy shocks. Second, negative energy shocks
+
+require proportionally larger transfers to low-income households. This is because negative
+
+energy shocks typically hurt low-income households twice, as labour income falls and as
+
+a larger fraction of income is devoted to energy consumption. Implementing the first-best
+
+therefore requires to tax a larger fraction of rich households’ income, the larger the negative
+
+energy shock.
+
+In this context, there can be a role for public debt in implementing the social optimum.
+
+In principle, there should not be any. Under the first-best allocation, there is no shortage
+
+of demand, as negative energy supply shocks always raise the equilibrium rate. However,
+
+under balanced budget, implementing the first best allocation is possible, only insofar as
+
+tax rates can be set arbitrarily high. Yet if there is an upper bound on tax rates, as is likely in
+
+practise, large negative energy shocks may require taxing high-income households beyond
+
+what is feasible. Issuing public debt can then bypass this problem. In doing so, the social
+
+planner must still ensure that future tax revenues, which are themselves bounded by
+
+maximum feasible taxation, are enough to service the debt and implement the first-best
+
+allocation once the economy is back to the steady state. Summarising these constraints, we
+
+derive a ”fiscal space” statistics, which computes the upper bound on the energy shock for
+
+which the social planner can implement the first-best allocation, using public debt, while
+
+ensuring it is sustainable. We then show that, provided the social planner can implement
+
+the first-best at the steady state, ”fiscal space” is strictly positive. In addition, it is larger,
+
+in economies where energy-intensity is lower, i.e. where the share of energy in output
+
+6
+
+and consumption is lower, and/or also in economies where household inter-temporal
+
+elasticity of substitution is higher. Conversely ”fiscal space” is smaller in economies
+where household income dispersion is larger, and/or in economies where public debt is
+
+higher to start with, these correlations being magnified in low energy-intensive economies.
+
+The rest of the paper proceeds as follows. The next section lays out the main build-
+
+ing blocks of the model. Section 3 derives the decentralised equilibrium and its main
+
+properties. The social optimum, its implementation and the implications for public debt
+
+issuance, are analysed in section 4. Finally conclusions are drawn in section 5.
+
+7
+
+2 The model
+
+The model consists of households and firms. Households are heterogeneous, they supply
+
+labour to firms and consume goods that firms produce under monopolistic competition.6
+
+Moreover, households consume energy (in addition to consumption goods) while firms
+
+use energy as an input to production (in addition to labour). Importantly, the demand for
+
+energy on the household side will be non-homothetic. Let us now describe the model’s
+
+main assumptions more systematically, starting with households and following with firms.
+
+2.1 The demand side
+
+2.1.1 Household preferences
+
+Households live indefinitely. Each period, they consume energy E and a composite con-
+
+sumption good C. In addition they are endowed each period with some quantity of energy
+
+and some quantity of labour —the latter is normalised to one for simplicity. Households’
+
+preferences U write as:
+
+with
+
+u (Et; Ct) =
+
+(cid:20)
+δ
+
+U =
+
+(cid:88)
+
+t
+
+βt [u (Et; Ct)]1− 1
+1 − 1
+γ
+
+γ − 1
+
+1
+σ
+h
+
+h (Et − eh)1− 1
+
+σ
+
+h + (1 − δh)
+
+1
+σ
+
+h (Ct)1− 1
+
+σ
+h
+
+(cid:21) 1
+1− 1σ
+h
+
+if Et ≥ eh
+
+(1)
+
+(2)
+
+Here γ denotes households’ inter-temporal elasticity of substitution, σh denotes house-
+
+holds’ (intra-temporal) elasticity of substitution between energy and consumption goods
+and β is the rate at which households discount the future. Following Geary (1950) and
+
+Stone (1954), we introduce a minimum (subsistence) consumption level —denoted eh— for
+
+energy, which acts as a lower bound on households’ demand for energy. Accordingly, en-
+ergy consumption Et carries an infinite marginal utility whenever Et ≤ eh, making energy
+
+demand up to eh inelastic to prices. Households therefore first devote their income to en-
+ergy consumption up to Et = eh and then split whatever income is left between energy and
+
+6We restrict heterogeneity to the household side, while firms are assumed to be symmetric. Introducing
+heterogeneity on the firm side would add further mechanism in the model, not least in terms of reallocation
+across firms and sectors, that we leave out this paper.
+
+8
+
+consumption goods, the share of energy in household expenditures being then δh.7 The
+
+composite consumption good C, is in turn, a standard CES aggregation of consumption
+goods s produced across the different sectors in the economy:
+
+Ct =
+
+(cid:34)(cid:90) 1
+
+0
+
+(cid:35) 1
+1− 1η
+
+[cst]1− 1
+
+η ds
+
+(3)
+
+Here η > 1 is the elasticity of substitution between the different consumption goods.
+
+Denoting pet the price of energy at time t and pst the price of the consumption good s at
+
+time t, the price of the composite consumption good pct and the general price level Pt
+
+—assuming energy consumption E exceeds the minimal level eh— respectively satisfy:
+
+p1−η
+
+ct
+
+=
+
+(cid:90) 1
+
+0
+
+p1−η
+st ds and P1−σ
+
+t
+
+h
+
+= δhp1−σ
+
+et
+
+h
+
++ (1 − δh) p1−σ
+
+ct
+
+h
+
+(4)
+
+2.1.2 Household demand for energy and consumption goods
+
+Let us denote Rt, the nominal income net of the cost of minimum energy consumption,
+
+that a household devotes to purchases of energy and consumption goods. Household
+
+demands for energy and for the composite consumption good, respectively write as:
+
+Et = eh +
+
+R−
+t
+pet
+
++ δh
+
+(cid:20) pet
+Pt
+
+(cid:21)−σ
+
+h R+
+t
+Pt
+
+and Ct = (1 − δh)
+
+(cid:20) pct
+Pt
+
+(cid:21)−σ
+
+h R+
+t
+Pt
+
+(5)
+
+where x− = min {x; 0} and x+ = max {x; 0}. When net income Rt is negative, i.e. gross
+
+income is not enough to cover for the cost of minimum energy consumption, households
+
+consume only energy and do not demand consumption goods. Both the average and the
+
+marginal propensity to consume energy (energy APC and energy MPC in Figure 2) are
+
+then equal to one. Conversely, when net income Rt is positive, i.e. gross income exceeds
+the cost of minimum energy consumption, the energy MPC drops from 1 to δh, while the
+non-energy MPC increases from 0 to 1 − δh. As a result the energy APC gradually falls
+
+with income, consistent with empirical evidence showing that energy accounts for a larger
+
+fraction of the consumption basket for lower-income households (see introduction). Last,
+
+7Household demands for energy and consumption goods are formally derived in the next section.
+
+9
+
+the demand C∗
+
+st for consumption good s writes as
+
+∗
+C
+st
+
+=
+
+(cid:35)−η
+
+(cid:34)
+
+pst
+pct
+
+∗
+C
+t
+
+= (1 − δh)
+
+(cid:34)
+
+(cid:35)−η (cid:20)pct
+Pt
+
+pst
+pct
+
+(cid:21)−σ
+
+h R+
+t
+Pt
+
+(6)
+
+Figure 2: Households’ average and marginal propensities to consume.
+
+2.1.3 Household heterogeneity
+
+There are two types of households. A first group of households —called unconstrained
+
+households— is endowed with a quantity of energy (en)u that exceeds the minimum energy
+> eh; owns the firms producing consumption goods; and can freely
+
+consumption eh: (en)u
+
+lend and borrow. A second group of households —called constrained households— is
+
+endowed with a quantity of energy (en)c that falls short of the minimum energy consump-
+< eh; has no ownership rights over firms producing consumption goods; and
+
+tion eh : (en)c
+cannot save nor borrow. A fraction ϕ of households are constrained.
+
+Let ec denote constrained households’ energy needs, i.e. ec = eh − (en)c
+
+> 0. Then
+constrained households’ net income, when it is positive, is simply the difference between
+
+labour income wt and the cost petec of minimum energy consumption net of the energy
+
+endowment:
+
+≡ (cid:2)
+
+wt − petec
+
+(cid:3)+
+
+Rc
+t
+
+10
+
+(7)
+
+Turning now to the case of unconstrained households, their net income writes as:
+
+Ru
+t
+
+≡ wt + peteu +
+
+πt
+1 − ϕ
+
++ (1 + it−1) st−1
+
+− st
+
+(8)
+
+Here eu denotes the energy endowment net of the minimum energy consumption, i.e.
+− eh > 0, st the savings at time t, πt the firms’ profits at time t, and it is the
+eu = (en)u
+nominal interest rate on savings st.8 Last, unconstrained households set their net savings
+[(1 + it−1) st−1
+
+− st] at time t, consistent with the usual Euler equation:
+
+Ru
+t
+Pt
+
+=
+
+(cid:34)β (1 + it)
+/Pt
+Pt+1
+
+(cid:35)−γ
+
+Ru
+t+1
+Pt+1
+
+and welfare for constrained and unconstrained households respectively writes as
+
+(cid:104)
+Ri
+t
+
+(cid:88)
+
+βt
+
+Ui =
+
+γ − 1
+
+(cid:105)1− 1
+
+/Pt
+1 − 1
+γ
+
+for i = {c; u}
+
+(9)
+
+(10)
+
+2.2 The supply side
+
+2.2.1 Energy and good producing firms
+
+On the supply side, there are firms producing energy and firms producing consumption
+
+goods. Energy is supplied by exogenous producers who sell energy to households and
+
+firms producing consumption goods. We do not model energy producers except for the
+assumption that supply of energy is infinitely elastic at the energy world price p∗
+now, let us simply equate the local and world prices of energy pet and p∗
+
+et. Later, we lay out
+
+et. For
+
+the uncovered interest parity relationship linking the two prices.
+
+Conversely firms producing consumption goods operate across the different sectors
+
+of the economy and are owned by unconstrained households —those who can borrow
+
+and lend and have a relatively large energy endowment. The next sections detail their
+
+technology and the choices they make on behalf of their shareholders.
+
+8Given that eu is positive, we can rule out the case where Ru
+
+t would be negative.
+
+11
+
+2.2.2 Technology and demand for inputs
+
+Firms produce consumption goods using labour which they rent from households, and
+energy which they purchase from unconstrained households and/or from the exogenous
+
+energy producers. Specifically, output yst at time t for the firm operating in sector s, writes
+
+as:
+
+yst =
+
+(cid:20)
+δ
+
+1− 1
+1
+σs
+σs
+s E
+st
+
++ (1 − δs)
+
+1
+
+1− 1
+σs
+σs L
+st
+
+(cid:21) 1
+1− 1σs
+
+(11)
+
+Here Est denotes the firm’s energy consumption at time t and Lst the amount of labour the
+
+firm hires at time t from households. The elasticity of substitution between energy and
+labour is σs while δs measures the energy intensity of sector s.
+
+Let mcst denote the marginal cost to produce consumption good s at time t. The firm
+
+producing good s then sets its price pst to maximise profits, given the marginal cost mcst
+
+and household demand for its good:
+
+(cid:105)−η
+
+πst = (cid:2)
+max
+pst
+(cid:104) pst
+t and mc1−σs
+C∗
+pct
+(cid:104) pct
+= (1 − δh)
+Pt
+
+h Rt
+Pt
+
+(cid:105)−σ
+
+yst =
+C∗
+t
+
+
+
+
+
+s.t.
+
+pst − mcst
+
+(cid:3)
+
+yst
+
++ (1 − δs) w1−σs
+= δsp1−σs
+t
+(cid:17)
+(cid:16)
++ ϕRc
+1 − ϕ
+Ru
+t
+t
+
+st
+et
+and Rt =
+
+(12)
+
+Here the demand yst for consumption good s depends on three terms. The first reflects the
+choice between different consumption goods, the second, the choice between energy and
+
+consumption goods and the last reflects the composition of aggregate demand Rt between
+
+constrained and unconstrained households’ demands, as expressed in (7) and (8).
+
+The optimal price pst of consumption good s at time t simply writes as a constant
+
+markup µ over the sectoral marginal cost, pst = µmcst with µ = η
+η−1 so that the price index
+for consumption goods writes as pct = µmct where mct denotes the average marginal cost
+across sectors, i.e. (mct)1−η = (cid:82)
+then
+
+ds. The equilibrium level of output in sector s is
+
+(mcst)1−η
+
+s
+
+yst = 1 − δh
+
+µ
+
+(cid:20) mcst
+mct
+
+(cid:21)1−η (cid:20) pct
+Pt
+
+(cid:21)1−σ
+
+h Rt
+mcst
+
+(13)
+
+As is visible from (13), sectoral output yst has standard properties: it decreases in the sec-
+
+toral marginal cost of production mcst as well as in the average marginal cost of production
+
+12
+
+mct, while it increases with the elasticity of substitution between goods η, and with the
+share of income 1 − δh, households spend on consumption goods, in addition to increasing
+
+with households’ income Rt. Then using (13), profits in sector s satisfy
+
+πst =
+
+(cid:21)η−1
+
+µ − 1
+µ
+
+(cid:20) mct
+mcst
+
+(1 − δh)
+
+(cid:21)1−σ
+h
+
+Rt
+
+(cid:20)pct
+Pt
+
+(14)
+
+Under the assumption η > σh ≥ 1, the comparative statics for profits πst and output
+
+yst are broadly similar: profits decrease in the sectoral marginal cost mcst as well as in the
+average marginal cost mct while they increase with the share of income 1 − δh, households
+
+spent on consumption goods and with households’ income Rt. There are still two main
+differences: one is the impact of competition, the other is the impact of energy prices. For
+competition, things are clear: higher competition, i.e. a higher parameter η, raises output
+
+but reduces profits. For energy prices, things are less clear-cut: Everything else equal,
+
+higher energy prices lead households to reduce their demand for energy and substitute
+
+with more demand for consumption goods, which would imply higher profits. But higher
+
+energy prices also raise the marginal cost to produce consumption goods so that energy-
+intensive sectors, i.e. those with higher δs, experience a reduction in their profits.
+
+Last, firms’ demands for energy and labour are simply the sum of firm-level energy and
+
+labour demands across firms. Using the expression in (13) for firm-level output, aggregate
+
+energy and labour demand by firms respectively writes as:
+
+E f =
+
+(cid:90) 1
+
+0
+
+(cid:21)−σs
+
+δs
+
+(cid:20) pet
+mcst
+
+ystds = 1 − δh
+
+µ
+
+(cid:20) pct
+Pt
+
+(cid:21)1−σ
+
+h
+
+
+
+
+
+(cid:90) 1
+
+0
+
+(cid:105)1−η
+
+(cid:104) mcst
+mct
+
+δs
+et [mcst]1−σs
+σs
+
+p
+
+
+
+
+
+ds
+
+Rt
+
+(15)
+
+and
+
+L f =
+
+(cid:90) 1
+
+0
+
+(1 − δs)
+
+(cid:21)−σs
+
+(cid:20) wt
+mcst
+
+ystds = 1 − δh
+
+µ
+
+(cid:20) pct
+Pt
+
+(cid:21)1−σ
+
+h
+
+
+
+
+
+(cid:90) 1
+
+0
+
+(cid:105)1−η
+
+(cid:104) mcst
+mct
+
+(1 − δs)
+t [mcst]1−σs
+σs
+w
+
+
+
+
+
+ds
+
+Rt
+
+(16)
+
+Having determined households’ demand for energy and consumption goods as well as
+
+firms’ demand for energy and labour, we are now equipped to solve for the general
+
+equilibrium of the economy. Moreover, to simplify the exposition, we will focus from now
+on, on the case where the elasticities of substitution σh and σ f are both equal to one.
+
+13
+
+3 The decentralised equilibrium
+
+In this economy, an equilibrium is a vector of prices and quantities such that:
+
+(i) Household demands for energy and consumption goods maximise intra-temporal util-
+
+ity; household borrowing and savings maximise inter-temporal utility.
+
+(ii) Firm’ demands for energy and labour minimise total cost of output; consumption good
+
+prices maximises profits.
+
+(iii) The price of consumption goods balance households’ demand and firms’ supply; the
+
+wage rate balances households’ labour supply and firms’ labour demand; the interest rate
+
+balances the market for lending and borrowing.
+
+To derive the decentralised equilibrium, we first need to determine the equilibrium of
+
+the labour market. Then we can close the model and go through the main take-aways.
+Considering a symmetric equilibrium, assuming sectoral heterogeneity away, i.e. δs = δ f
+(cid:17)
+(1 − δh), we can derive the following result.
+and σs = σ f = 1, and denoting 1 − δ =
+
+(cid:16)
+1 − δ f
+
+Proposition 1 The equilibrium ”real” wage rate ω = wt/pet satisfies
+
+(cid:17)
+(cid:16)
+1 − ϕ
+
+(ω + eu) + ϕ (ω − ec)
+
++ =
+
+ω
+1 − δ
+
+(cid:2)
+
+1 + δh(µ − 1)
+
+(cid:3)
+
+The equilibrium ”real” price of consumption goods pc = pct/pet writes as pc = µω1−δ
+the equilibrium ”real” interest rate satisfies β (1 + r) = β(1+it)
+/pet
+
+= 1.
+
+pet+1
+
+(17)
+
+f , and
+
+Proof 1 cf. Appendix A.1.
+
+In this equilibrium, all prices move one-for-one with the price of energy: the wage rate
+
+deflated by the price of energy is constant and there is full pass-through of energy prices to
+
+consumption goods prices and to the general price level. Changes in the nominal interest
+rate also have no real effects, as energy prices would then move by the same amount, but
+
+in the opposite direction to leaving the real interest rate unchanged.9 For this reason, we
+
+abstract from now on, from the time subscript and denote pe the price of energy.
+
+9The price of energy being set abroad, a change, say a cut, in the domestic nominal interest rate would
+raise one to one the price of energy in local currency because of uncovered interest parity, so that the domestic
+real interest rate would typically be unaffected.
+
+14
+
+By contrast, fluctuations in the quantity of energy available, i.e. in the energy endowments
+(eu; ec), do have real effects, and these effects depend on the shape of distribution of energy
+
+endowments. The following lemma looks at this question.
+
+Lemma 2 Denoting the economy’s net energy endowment e = (1 − ϕ)eu − ϕec, constrained
+
+households can participate in the demand for consumption goods if and only if
+
+≤
+
+ec
+e
+
+1 − δ
+δ + δh(µ − 1)
+
+(18)
+
+In this case, households’ aggregate real income is R/P = µδ
+
+h
+
+(cid:21)δ
+
+(cid:20)
+
+δ
+h(µ−1)
+
+δ+δ
+
+eδ
+δδ(1−δ)1−δ
+
+Proof 2 cf. Appendix A.2.
+
+When condition (18) holds, the energy need of constrained households ec is small rela-
+
+tive to the economy’s net energy endowment e, implying that heterogeneity in households’
+
+energy endowments is relatively low. In this case, firms can use a large volume of energy
+
+for production and produce a large volume of output, without cutting households’ energy
+
+consumption below the minimum level eh.
+
+Figure 3: The complete participation equilibrium.
+
+In addition, as firms produce large volumes of output, they also pay out relatively
+
+high wages, which further ensures that households, in particular constrained ones, are
+
+15
+
+able to cover their minimum energy consumption eh and participate to the demand for
+
+consumption goods. We will refer to this equilibrium as ”the complete participation
+
+equilibrium” (see Figure 3 above) in what follows.
+
+Conversely, when condition (18) does not hold, the energy need of constrained house-
+
+holds ec is large relative to the economy’s total net energy endowment e, i.e. heterogeneity
+
+in households’ energy endowments is relatively large. As a result, constrained households
+
+spend most of their labour income on energy, not on consumption goods, and the demand
+
+for consumption goods is depressed. Demand for consumption goods being low, the
+equilibrium wage rate ω is also low, which further pushes constrained households against
+
+the minimum energy consumption constraint. In this case, constrained households are
+
+not able to cover their minimum energy consumption, nor to participate in the demand
+
+for consumption goods. We will refer to this situation in what follows as ”incomplete
+
+participation” (see Figure 4 below).
+
+Figure 4: Incomplete participation.
+
+3.1 Demand and supply effects of energy shocks
+
+The two types of situations —complete and incomplete participation— described above
+
+have distinct properties, both at the aggregate and at the individual levels. Constrained
+households are trivially better-off in the equilibrium with complete participation. But
+
+16
+
+what about unconstrained households? And how do output and real incomes vary in
+response to shocks affecting the energy endowments eu and ec, in each case? The following
+
+proposition shed some lights on these questions.
+
+Proposition 3 Denoting λ = (1+δh(µ−1)− δµ
+energy endowment e, acts as a negative demand shock if and only:
+
+ϕ )/ (1 − δ)2, a shock that reduces the economy’s
+
+[1 − λ]
+
+Proof 3 cf. Appendix A.3.
+
+1 − δ
+
+δ + δh
+
+(cid:0)µ − 1
+
+(cid:1) ≤ ec
+e
+
+≤
+
+1 − δ
+
+δ + δh
+
+(cid:1)
+(cid:0)µ − 1
+
+(19)
+
+Following a negative energy supply shock, that cuts the energy endowment of con-
+
+strained and unconstrained households, the equilibrium wage rate falls, which cuts both
+
+households incomes and the price of consumption goods. However, when participation
+
+is incomplete, only unconstrained households purchase consumption goods. As a conse-
+
+quence, the drop in the price of consumption goods is smaller than the drop in income,
+and households are worse-off. A negative energy supply shock therefore raises the equi-
+
+librium interest rate as households are temporarily poorer and therefore want to borrow
+
+to smooth out the shock.
+
+Things can however be different in the complete participation equilibrium. In this equi-
+
+librium, both constrained and unconstrained households purchase consumption goods.
+
+As a result, when a negative energy supply shock hits, both types of households are poorer
+
+and hence reduce their demand for consumption goods. However, constrained house-
+
+holds, as they get closer to minimum energy consumption, have to cut their purchases
+
+of consumption goods disproportionately, given that a large fraction of their demand for
+
+energy is sticky and cannot be compressed. Hence, the fall in the price of consumption
+
+goods can actually be larger than the fall in unconstrained households’ income. Expression
+
+(20) isolates these two opposite forces.
+
+Ru
+t
+Pt
+
+=
+
+(cid:34)
+
+(cid:34)
+
+(cid:35)
+
+(cid:34) eδ
+t
+ω1−δ
+(cid:124)(cid:32)(cid:123)(cid:122)(cid:32)(cid:125)
+(−)
+
+δh + 1 − δh
+1 + ω −
+µ
+(cid:124)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:123)(cid:122)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:32)(cid:125)
+(+)
+
+(cid:20)
+1 − ω ect
+et
+
+ϕ
+
+(cid:21)(cid:35)
+
+(cid:35)
+
+(20)
+
+17
+
+On the one hand, a negative energy supply shock reduces income expressed in energy
+units. This income effect is the first term in (20). On the other hand, the disproportionate
+
+fall in the demand for consumption goods, cuts the relative price of consumption goods,
+expressed in energy units. This price effect is the second term of (20). The positive
+price effect then dominates the negative income effect and unconstrained households
+are better-off following a negative energy supply shock when the energy need ec from
+
+unconstrained households is neither too large nor too low relative to the economy’s total
+
+energy endowment e.
+
+Figure 5 plots unconstrained households real income as a function of constrained
+
+households energy need ec. It shows that a negative energy shock —that cuts households’
+
+energy endowment and hence raises constrained households energy need relative to the
+
+economy’s overall energy endowment— first reduces the real income of unconstrained
+
+households. This (first green) region corresponds to the complete participation equilib-
+
+rium where consumption patterns of constrained and unconstrained households are very
+
+similar, because constrained households’ energy needs are relatively low. In this region,
+
+the relative price of consumption goods falls less quickly than income following a negative
+
+energy shock so that households’ real income falls.
+
+Figure 5: Negative energy supply shocks as negative demand shocks.
+
+However, as constrained households’ energy needs increase, the difference in consump-
+
+tion patterns between constrained and unconstrained households widens and a negative
+
+18
+
+energy shock triggers a significant fall in constrained household demand for consumption
+
+goods. The fall in the relative price of consumption goods then dominates the fall in house-
+
+hold income and, unconstrained households’ real income goes up. This is the second red
+
+region. Finally, when constrained households energy needs are large relative to the econ-
+
+omy’s overall energy endowment, i.e. when condition (18) holds, then the economy falls
+
+into the incomplete participation situation and negative energy shocks reduce incomes
+
+more than they cuts prices. As result, real incomes always fall. To wrap up, energy shocks
+
+work as Keynesian supply shocks when the dispersion in energy endowments between
+
+constrained and unconstrained households is intermediate, neither too low, nor too large.
+Moreover, condition (19) in Proposition 2 shows that the parameter λ needs to be
+
+positive for negative energy shocks to operate as Keynesian supply shocks. This typically
+requires that the fraction ϕ of constrained households be sufficiently large and the markup
+µ charged by firms producing consumption goods be sufficiently low. When ϕ is high and
+
+there are many constrained households, a negative energy supply shock implies a larger
+
+negative shock to the demand for consumption goods, hence a larger fall, everything else
+
+equal, in the relative price of consumption goods. In addition, the drop in the relative price
+
+of consumption goods depends not only the drop in aggregate demand for consumption
+
+goods, but also on the elasticity of the inverse demand function, and hence on the markup
+µ. When the markup is low, the fall in the demand for consumption goods produces a
+
+large drop in the relative price of consumption goods, so that a negative energy supply
+
+shock is more likely to raise unconstrained households’ real income.
+
+To summarise, when three conditions are met, i.e (i) heterogeneity in energy endow-
+
+ments is intermediate, (ii) the fraction of constrained households is large (iii) the markup
+
+charged by firms is low, then negative energy supply shocks reduce the neutral real rate
+
+that is governed by the Euler equation (9), which is typical of a negative demand shock:
+
+1 + rt = 1
+β
+
+(cid:35) 1γ
+
+(cid:34) Ru
+t+1
+Ru
+t
+
+/Pt+1
+/Pt
+
+⇒
+
+∂
+
+(cid:17)
+
+/Pt
+
+(cid:16)
+Ru
+t
+∂e
+
+≤ 0 ⇔
+
+∂rt
+∂e
+
+≥ 0
+
+19
+
+4 The social optimum
+
+The social planner can improve on the decentralised equilibrium allocation in two ways.
+
+First there are welfare gains in redistributing income between constrained and uncon-
+strained households as income differences imply differences in marginal utilities of con-
+
+sumption, and hence welfare losses. Second households and firms compete in the decen-
+
+tralised equilibrium for energy and there can be welfare gains in redistributing energy
+
+consumption between households and firms. Let us first focus on this last issue, derive
+
+the socially optimal allocation and compare it to that of the decentralised equilibrium.
+
+4.1 The socially optimal allocation of energy.
+
+Setting aside household heterogeneity, at the social optimum, the planner allocates energy
+
+to households and firms such that the allocation maximises households’ welfare under
+
+the constraints that (i) households’ consumption (of consumption goods) is equal to firms’
+
+output; (ii) firms use all of households’ labour supply; and (iii) the sum of energy consump-
+
+tion by households and firms cannot exceed the total energy endowment in the economy.
+
+The problem for the social planner therefore writes as:
+
+(cid:16)
+
+u
+
+max
+Eh;E f
+
+(cid:20)
+
+(cid:17)
+
+=
+
+C =
+
+Eh; E f
+
+
+
+
+1
+σ
+h
+
+δ
+h (Eh − eh)
+(cid:16)
+
+σ−1
+σ
+
+(cid:20)
+δ f
+
++
+
+1
+σ E
+
+f
+
+σ
+−1
+h
+σ
+
+h + (1 − δh)
+σ (cid:21) σ
+(cid:17) 1
+
+σ−1
+
+1 − δ f
+
+Eh + E f = e
+
+(cid:21)
+
+σ
+
+σ
+h
+−1
+
+h
+
+σ
+−1
+h
+σ
+h
+
+1
+σ
+h C
+
+(21)
+
+We can then derive the following proposition.
+
+Proposition 4 Households consume too little energy (and firms too much) relative to the
+
+social optimum whenever:
+
+Proof 4 cf. Appendix A.4.
+
+≥ 1 − δ
+δ
+
++ (µ − 1)δh
+δϕ
+
+ec
+e
+
+(22)
+
+The decentralised equilibrium features two types of inefficiencies. The first is the stan-
+
+dard distortion due monopolistic competition. The second is the distortion due to the
+
+20
+
+non-homotheticity in households’ energy consumption. Because of monopolistic compe-
+
+tition, firms produce too little output in the decentralised equilibrium. As a result, they
+use too little energy and the social planner corrects this inefficiency by allocating more
+
+energy to firms. However, when heterogeneity in households’ energy endowments is
+
+large, constrained households are unable to cover their minimum energy consumption,
+
+at the equilibrium, and households, taken together, do not consume enough energy. The
+social planner then corrects for this inefficiency by allocating more energy to households
+
+(and less to firms) to ensure that constrained households can cover their minimum energy
+
+consumption and participate in the demand for consumption goods. This is why house-
+
+holds as a group consume too little energy relative to the socially optimal allocation when
+the energy needs of constrained households ec/e are relatively large.
+
+In addition, in the decentralised equilibrium, constrained households’ consumption of
+both energy and purchases of consumption goods is inefficiently low, as their marginal
+
+utility of consumption is always higher than that of unconstrained households. This is
+
+why a social planner who wants to implement the first best-allocation needs to address two
+
+issues: First it needs to neutralise the monopolistic competition distortion and provide
+
+firms with incentives to consume more energy. Second, it needs to equalise incomes
+
+across constrained and unconstrained households, which would eliminate welfare losses
+stemming from differences in marginal utilities of consumption, in addition to ensuring
+
+that constrained households are able to cover their minimum energy consumption.
+
+4.2 Decentralising the socially optimal allocation
+
+Consider now a social planner who aims at implementing the first best allocation, using
+
+taxes and subsidies. For this, let us assume the social planner grants a subsidy s f to firms
+
+on energy consumption so that firms pay a price
+
+pe for energy instead of the market
+
+(cid:16)
+1 − s f
+
+(cid:17)
+
+price pe. Moreover, the social planner can raise a lump-sum tax Tu and extend a lump-
+sum subsidy Sc to households. Given this tax/subsidy scheme, denoting ωt(s f , Sc, Tu) the
+
+wage rate —expressed in energy units—, net income at time t of constrained households
+/pe = ωt(s f , Sc, Tu) + Sc − ec, while net income of unconstrained households
+/pe = ωt(s f , Sc, Tu) − Tu + eu + π(s f , Sc, Tu)/(1 − ϕ).
+
+becomes Rc
+t
+writes as Ru
+t
+
+In this last expression,
+
+21
+
+π(s f , Sc, Tu) denotes firms’ profits —expressed in energy units—, when the social planner
+
+extends a subsidy s f to firms, a subsidy Sc to constrained households and imposes a tax
+Tu on unconstrained households.10 In this framework, the tax/subsidy policy implements
+
+the first-best allocation if and only if three conditions are satisfied:
+
+• Firms and households should consume their first-best level of energy,
+
+• Marginal utilities of consumption should be equalised across households,
+
+• Tax revenues should cover for subsidy expenditures.
+
+We can derive the following result.
+
+Proposition 5 The social planner can implement the first-best allocation, by paying a
+
+subsidy s f to firms per unit of energy consumed, a subsidy Sc to constrained households,
+
+and raising a tax Tu on unconstrained households, such that:
+
+(1 − s f )µ = 1 and Sc = ec +
+
+µ − (1 − δ)
+µδ
+
+e and
+
+(cid:16)
+
+(cid:17)
+1 − ϕ
+
+Tu = ϕSc +
+
+µ − 1
+µ
+
+δ − δh
+δ
+
+e
+
+(23)
+
+In this case, the wage rate ωo and households’ real income Ro/Po write as
+
+ωo = 1
+µ
+
+1 − δ
+
+δ e and
+
+Ro
+Po
+
+=
+
+eδ
+(1 − δ)1−δ δδ
+
+(24)
+
+Proof 5 cf. Appendix A.5.
+
+The tax and subsidy scheme that implements the first-best allocation has four important
+
+properties. First, the subsidy extended to firms s f is strictly positive and independent of
+
+the economy’s energy endowment e. When the elasticity of substitution between energy
+and labour σ f is one, firms’ total energy consumption moves one-for-one with the wage
+rate ω which itself moves one-for-one with the economy’s energy endowment e. As a
+
+consequence, the monopolistic competition distortion can be corrected with a constant
+
+subsidy per unit of energy consumed. Second, the wage rate under the socially optimal
+allocation is lower than under the decentralised equilibrium, i.e. ωo < ω. When firms get
+
+10To simplify notations, the tax Tu and the subsidy Sc are expressed in energy units.
+
+22
+
+a subsidy for energy consumption, they increase their demand for energy, but they reduce
+their demand for labour and the more so, the higher the elasticity of substitution σ f . Given
+
+that household labour supply is inelastic, the subsidy on energy consumption extended to
+
+firms typically reduces the equilibrium wage rate. The fall in the equilibrium wage rate in
+turn affects households’ demand for consumption goods in two ways: through an income
+and through a substitution effect. On the one hand, cheaper energy and cheaper labour
+
+imply cheaper consumption goods, which leads households to increase their demand for
+
+consumption goods and reduce their demand for energy. On the other hand, a lower wage
+
+rate implies a lower income and hence a lower demand for both consumption goods and
+energy. When households’ elasticity of substitution σh is one, these income and substitution
+effects typically cancel each other, leaving the demand for consumption goods unchanged.
+The demand for consumption goods being unaffected, the subsidy extended to firms ends
+
+up depressing the equilibrium wage rate. In addition, when the social planner levies a tax
+
+on unconstrained households and extends a subsidy to constrained households, this acts
+
+in practise as a transfer of resources from agents spending a large share of their income
+
+on consumption goods to agents spending a large share of their income on energy. As
+a result, the tax/subsidy scheme is depressing the demand for consumption goods (and
+
+increasing the demand for energy), which reinforces the drop in the demand for labour,
+
+and hence the fall in the market clearing wage rate. This is why the equilibrium wage rate
+
+under the first-best allocation is always lower than the equilibrium wage rate under the
+
+decentralised equilibrium.
+
+Third, under the first-best allocation, households’ real income Ro/Po is typically in-
+
+creasing in the energy endowment e. As a result, a negative energy supply shock typically
+
+reduces unconstrained household’s real income and therefore raise the equilibrium rate
+
+of interest. In other words, negative energy shocks always act as negative supply shocks
+
+under the first best allocation.
+
+Fourth and last, the subsidy extended to constrained households and hence the tax
+
+levied on unconstrained households, are both increasing in the economy’s energy endow-
+ment e, i.e. ∂Sc/∂e > 0 and ∂Tu/∂e > 0. Hence, following a negative energy supply shock,
+
+that cuts the economy’s energy endowment e, the subsidy Sc extended to constrained
+
+23
+
+households, and the tax Tu imposed on unconstrained households both fall. However,
+
+the energy need ec of constrained households being non-zero, the elasticity of taxes and
+
+subsidies to energy shocks is less than less than one:
+
+∂Sc
+∂e
+
+e
+Sc
+
+< 1 and
+
+∂Tu
+∂e
+
+e
+Tu
+
+< 1
+
+(25)
+
+Based on this property, we can then derive the following lemma.
+
+Lemma 6 Implementing the first best allocation requires taxing a larger fraction of uncon-
+
+strained households’ income when the economy faces a negative energy shock.
+
+Proof 6 cf. Appendix A.6.
+
+A negative energy shock that cuts households’ energy endowments therefore requires
+
+to impose a larger tax rate on unconstrained households. The reason is that, following
+
+negative energy shocks, constrained households’ income takes a double hit, one from
+the fall in labour income ω and one from the increase in minimum energy consumption
+
+ec. The marginal utility of consumption of constrained households therefore increases
+
+much more steeply than that of unconstrained households. Equalising incomes then
+
+requires transferring a larger share of total income to constrained households. In practise,
+
+this means that negative energy shocks, in spite of being uniformly distributed, act as
+
+a distributional shock, that hurt low-income, credit-constrained households, to a larger
+
+extent.
+
+This is clearly visible in Figure 6 below, which plots the subsidy and tax rates needed
+
+to implement the first-best allocation. Following a negative energy shock, the subsidy to
+
+constrained households needs to increase for a given tax on unconstrained households (or
+
+alternatively a larger tax for a given subsidy) to ensure income equalisation (EQ and EQ’
+schedules), as the negative energy shock widens the income difference across households.
+
+Given that income equalisation has to take place under balanced budget (BB schedule),
+the social planner needs to impose a larger tax rate τ.
+
+The comparative static results derived above have one obvious implication: Given that
+
+the social planner needs to impose a higher tax rate on unconstrained households in the
+
+24
+
+Figure 6: Negative energy shocks require larger rate of taxes and subsidies
+
+face of negative energy shocks, i.e. at a time where incomes are lower, implementing the
+
+first-best allocation may become impossible if this implies imposing tax rates in excess of
+
+what is feasible in practise. The next proposition looks into this question.
+
+Proposition 7 When tax rates cannot exceed τ, implementing the first-best allocation,
+through subsidies to firm energy consumption and taxes/subsidies to households, is pos-
+
+sible only if:
+
+ϕ ec
+e
+
+≤ 1
+
+1 − τ
+
+(cid:34)
+
+1 − ϕ
+δ
+
++ (µ − 1)(δ − δh)
+δµ
+
+(cid:34) µ − ϕ(1 − δ)
+δ + (µ − 1)δh
+
+(cid:35)(cid:35)
+
+− 1
+
+−
+
+µ − ϕ(1 − δ)
+δ + (µ − 1)δh
+
+(26)
+
+Proof 7 To replicate the first-best allocation, the social planner needs to extend taxes and
+subsidies in line with (23). Then assuming tax rates cannot exceed τ, implementing the
+
+first-best allocation through a set of taxes and subsidies is not feasible if (26) holds.
+
+Expression (26) shows that implementing the first-best allocation by relying solely on
+
+taxes and subsidies is not possible whenever the maximum tax rate that the planner can
+impose is such that (26) does not hold even for ec = 0. In this case, even if constrained
+
+households’ energy endowment were to cover for their minimum energy consumption, tax
+
+revenues that can be levied from unconstrained households would fall short of covering
+
+the subsidy that needs to be extended to firms to correct for the monopolistic competition
+
+25
+
+distortion, and for the subsidy that needs to be extended to constrained households to
+
+equalise marginal utilities of consumption across households. Similarly the higher the
+fraction ϕ of constrained households, the more likely, tax revenues levied from uncon-
+
+strained households will not be enough to cover for subsidies to firms and constrained
+
+households. In this case, the social planner may need additional tools. Issuing public debt
+
+could be one of them. We investigate this possibility in the next section.
+
+4.3 Optimal public debt issuance.
+
+Let us consider an economy where the energy endowment e —and its distribution across
+
+constrained and unconstrained households— are such that the social planner can imple-
+
+ment the first-best allocation, by taxing unconstrained households’ labour income and
+
+subsidising firms’ energy consumption and constrained households’ labour income. In
+other words, the net energy need of constrained households ec/e is sufficiently low, so that
+
+condition (26) holds. Then, consider a negative energy shock that temporarily cuts energy
+
+endowments, so that condition (26) stops holding and the social planner cannot anymore
+
+implement the first best allocation, by solely relying on taxes and subsidies. We now ask if
+
+there is a role in this setting for public debt. More specifically, if the social planner cannot
+
+implement the first-best allocation because this would imply a tax rate that would exceed
+the maximum τ, could it be that issuing debt to raise the missing resources makes the
+economy as a whole better-off? And if so, under which conditions?
+
+To answer these questions, let us first describe the social planner’s problem in more
+details. Suppose until date t − 1, the economy’s total energy endowment e is sufficiently
+large so that the social planner needs to impose a relatively low tax rate τ on unconstrained
+households to implement the first-best allocation, i.e. τ ≤ τ. In other words, the relative
+energy need of constrained households ec/e is such that condition (26) holds. So until date
+t − 1, the social planner does not need to issue public debt, nor is there any public debt in
+
+the economy.
+Then at date t, a one-off, temporary, shock hits the economy and cuts the energy en-
+dowment from e down to εe with ε < 1. Unconstrained households’ energy endowment
+therefore drops from eu to eu − (1 − ε) e, constrained households’ net energy need increases
+
+26
+
+from ec to ec + (1 − ε) e. Moreover, the negative energy shock is sufficiently large —ε is
+sufficiently low— so that condition (26) stops holding, i.e. the ε shock satisfies:
+
+ε ≤
+
+(cid:104)
+
+(1 − τ)
+
+ϕ − µ−ϕ(1−δ)
+δ+(µ−1)δ
+h
+
+(cid:105)
+
++ 1−ϕ
+δ
+
++ (µ−1)(δ−δ
+h)
+
+δµ
+
+(cid:104) µ−ϕ(1−δ)
+δ+(µ−1)δ
+h
+
+(cid:105)
+
+− 1
+
+(27)
+
+(1 − τ)ϕ (1 + ec/e)
+
+Finally from date t + 1 onward, the energy shock disappears and the energy endowment
+
+is back to its initial steady-state level e so that the social planner can implement again, the
+
+first-best allocation by relying solely on taxes and subsidies.
+
+While the social planner cannot implement the first-best allocation at date t, as this
+
+would imply setting the tax rate on unconstrained households above the maximum possi-
+ble tax rate τ, it can still set the tax rate at its maximum level τ and make up for the difference
+
+by issuing debt. The amount of debt per unconstrained household11 then satisfies:
+
+dt = Tu (ε) − τRu(ε)/pe = [τ(ε) − τ] Ru(ε)/pe
+
+(28)
+
+In this expression, Tu (ε) represents the taxes, the social planner needs to raise to pay
+
+out the subsidies to constrained households and firms, when the economy is hit with a
+negative energy shock ε, τ is the maximum tax tax rate that the social planner can impose,
+and Ru(ε)/pe is the income of unconstrained households in the decentralised equilibrium,
+when the economy is hit with a negative energy shock ε. Issuing debt, however, implies
+paying interest. How much interest the social planner has to pay at date t + 1 for the
+
+debt issued at date t depends on unconstrained households’ Euler equation, which in turn
+depends on unconstrained households’ real incomes at date t and date t + 1, respectively
+/Pt+1. Given the expression for households’ real income under the first-best
+
+/Pt and Ru
+t+1
+
+Ru
+t
+
+allocation (24), the real interest rate at date t, i.e. at the time of the negative energy shock,
+
+satisfies
+
+1 + rt = 1
+β
+
+(cid:35) 1
+γ
+
+(cid:34) Ru
+t+1
+Ru
+t
+
+/Pt+1
+/Pt
+
+= 1
+βε δ
+
+γ
+
+(29)
+
+As noted above, under the first-best allocation, the real interest rate increases when a
+
+11it is convenient to express public debt as the amount held by each unconstrained household as only
+
+unconstrained households can borrow and save and hence buy financial instruments
+
+27
+
+negative energy shock hits, as unconstrained households who are temporarily poorer
+
+would like to borrow to smooth out the shock. Moreover, the increase in the real interest
+rate is larger when the energy intensity δ is higher. As would be expected, a negative
+
+energy shock is more costly in economies which are more energy intensive.
+
+Then from date t + 1, when the economy is back to the steady-state, the social planner
+
+can simply implement the first-best allocation by simply levying taxes and paying out
+
+subsidies. It does however have to fund the debt issued to address the negative shock that
+
+hit at date t, which requires raising some additional taxes, to make sure the debt does not
+blow up out of proportion. Noting that at the first best, interest rates satisfy βrt+n = 1 from
+date t + n onwards (with n ≥ 1), public debt at date t + n writes as
+
+dt+n = Ro
+βn−1
+
+
+
+
+
+(1 + rt)
+
+τ (ε) − τ
+1 − τ (ε)
+
+− 1
+β
+
+n−1(cid:88)
+
+k=0
+
+βn−kτa
+
+t+n−k
+
+
+
+
+
+(30)
+
+where
+
+(cid:111)
+
+(cid:110)
+τa
+
+t+n
+
+n≥1
+
+denotes the additional taxes that the social planner raises to finance (part
+
+of) the debt coming due. Then considering the case where the social planner sets constant
+additional taxes, i.e. τa
+= τa from date t + n, onwards (with n ≥ 1), and given that
+additional and steady-state taxes cannot exceed maximal taxation, i.e. τa + τss ≤ τ, we can
+
+t+n
+
+derive the following proposition.
+
+Proposition 8 The social planner can implement the first-best allocation on the back of a
+
+negative energy supply shock, by issuing public debt, raising taxes and paying subsidies,
+as long as the energy shock ε satisfies
+
+1 +
+
+β
+1 − β [τ − τss] [ε]
+
+δ
+
+γ ≥ 1 − τ
+1 − τ (ε)
+
+(31)
+
+Proof 8 cf. Appendix A.7.
+
+Let us denote ε (τ) the largest negative energy shock for which the social planner can
+
+implement the first best without issuing any public debt; and ε
+max the shock for which
+(31) holds with equality. Then it is straightforward to note that as long as τss ≤ τ, i.e.
+
+as long as the social planner can implement the first-best allocation at the steady state,
+
+28
+
+without having to issue public debt, we always have ε
+
+< ε (τ). In other words, when
+
+max
+
+the social planner can implement the first-best allocation at the steady state by setting a
+tax rate below τ, issuing public debt allows the social planner to accommodate a larger set
+
+of negative energy shock.
+
+The intuition for this result is fairly simple. When the economy faces a large negative
+
+energy shock, implementing the first best allocation may imply taxing unconstrained
+
+households beyond what is practically possible. As a result, the social planner can issue
+
+public debt to make up for the missing resources and redistribute the proceeds to firms and
+
+constrained households. That said, the social planner has to commit to raise additional
+
+taxes in the future to back the current debt issuance. In practise, the face value of public
+
+debt cannot exceed the present value of all future additional tax revenues that the social
+
+planner can raise, once the shock has dissipated. Hence, for the very same reason that
+
+public debt can be useful, i.e. to bypass the social planner’s limited taxation power, public
+
+debt cannot grow indefinitely, as it has to be backed by future tax revenues, which are
+
+themselves limited by the social planner’s maximum taxation power.
+
+Interestingly, issuing public debt, following a negative energy shock, can be useful for
+
+the social planner to implement the first-best allocation, even as the energy shock acts as a
+
+negative 

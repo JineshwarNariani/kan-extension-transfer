@@ -1,0 +1,113 @@
+
+PMID- 41735586
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260424
+LR  - 20260427
+IS  - 1432-0428 (Electronic)
+IS  - 0012-186X (Print)
+IS  - 0012-186X (Linking)
+VI  - 69
+IP  - 6
+DP  - 2026 Jun
+TI  - Canagliflozin attenuates CMR-quantified myocardial fibrosis in individuals with 
+      type 2 diabetes mellitus at high cardiovascular risk: a randomised open-label 
+      controlled trial.
+PG  - 1532-1544
+LID - 10.1007/s00125-026-06682-w [doi]
+AB  - AIMS/HYPOTHESIS: We aimed to investigate canagliflozin's effects on myocardial 
+      fibrosis, cardiac structure and function, and microcirculation in 
+      high-cardiovascular-risk type 2 diabetes mellitus through cardiac magnetic 
+      resonance (CMR) quantification, while investigating the cardiovascular protective 
+      mechanisms of sodium-glucose cotransporter 2 (SGLT2) inhibitors. METHODS: This 
+      open-label parallel RCT recruited 45 high-risk participants (18-75 years) with 
+      type 2 diabetes (HbA(1c) 53.0-91.3 mmol/mol [7.0-10.5%]) and left ventricular 
+      ejection fraction (LVEF) >50% from the Endocrinology Outpatient Clinic of 
+      Zhongshan Hospital, Fudan University (August 2022 to November 2024). Participants 
+      were 1:1 randomised via a computer-generated sequence through the centralised 
+      iClinicalStation system (allocation concealed, performed by independent personnel 
+      not involved in outcome assessment). They received canagliflozin 100 mg/day 
+      (n=23) or sitagliptin 100 mg/day (n=22) for 26 weeks. Consistent with the 
+      open-label design, participants and care providers were aware of treatment 
+      assignments; however, outcome assessors (radiologists, sonographers) and data 
+      analysts remained blinded to group allocation to minimise bias. The primary 
+      endpoint was CMR-quantified extracellular volume (ECV) change. Secondary outcomes 
+      included ventricular structure and function parameters, for example, left 
+      ventricular end-diastolic volume, left ventricular end-diastolic diameter, LVEF, 
+      etc. RESULTS: Among 67 individuals screened, 45 completed the intention-to-treat 
+      analysis (age 60.4 +/- 9.7 years, BMI 26.4 +/- 2.6 kg/m(2), HbA(1c) 63.0 +/- 8.7 
+      mmol/mol [7.9 +/- 0.8%]). At 26 weeks, compared with sitagliptin, canagliflozin 
+      significantly reduced the primary outcome of ECV (adjusted mean difference [AMD]: 
+      -3.67%; 95% CI -5.33, -2.01; p<0.001). Significant improvements were also 
+      observed in cardiac structure, including left ventricular end-diastolic volume 
+      (AMD: -20.72 ml; 95% CI -36.30, -5.14; p=0.010) and echocardiography-derived 
+      end-diastolic diameter (AMD: -2.82 mm; 95% CI -4.95, -0.70; p=0.010). Both groups 
+      showed comparable reductions in HbA(1c) (both Delta 0.7%, inter-group p=0.972). 
+      CONCLUSIONS/INTERPRETATION: This study demonstrates that 26 weeks of 
+      canagliflozin significantly reduces myocardial fibrosis, as assessed by 
+      CMR-derived ECV, in individuals with type 2 diabetes at high cardiovascular risk, 
+      providing imaging evidence for SGLT2 inhibitor cardiovascular protection 
+      mechanisms. TRIAL REGISTRATION: ClinicalTrials.gov NCT05367063 FUNDING: This 
+      study was financially supported by the National Key Research and Development 
+      programme (2023YFA1802000), the National Natural Science Foundation of China 
+      (Youth Fund 82200909), the Young and Middle-aged Diabetes project from the 
+      Bethune Foundation (Z04JKM2022E002), the Joint Research Development project 
+      between Shenkang and United Imaging on Clinical Research and Translation 
+      (SKLY2022CRT201), the Shanghai Municipal 'Explorer plan' (the second batch) 
+      project in 2024 (24TS1411000) and the Shanghai pujiang programme (21PJD012).
+CI  - (c) 2026. The Author(s).
+FAU - Yan, Hongmei
+AU  - Yan H
+AUID- ORCID: 0000-0001-7341-4368
+AD  - Department of Endocrinology and Metabolism, Zhongshan Hospital, Fudan University, 
+      Shanghai, China. yan.hongmei@zs-hospital.sh.cn.
+FAU - Liu, Jiaojiao
+AU  - Liu J
+AD  - Department of Endocrinology and Metabolism, Zhongshan Hospital, Fudan University, 
+      Shanghai, China.
+FAU - Zhang, Zhitian
+AU  - Zhang Z
+AD  - Department of Endocrinology and Metabolism, Zhongshan Hospital, Fudan University, 
+      Shanghai, China.
+FAU - Chen, Shuangshuang
+AU  - Chen S
+AD  - Department of Endocrinology and Metabolism, Zhongshan Hospital, Fudan University, 
+      Shanghai, China.
+FAU - Chang, Xinxia
+AU  - Chang X
+AUID- ORCID: 0000-0002-5051-6609
+AD  - Department of Endocrinology and Metabolism, Zhongshan Hospital, Fudan University, 
+      Shanghai, China.
+FAU - Jin, Hang
+AU  - Jin H
+AD  - Department of Radiology, Zhongshan Hospital, Fudan University, Shanghai, China.
+FAU - Li, Xiaoying
+AU  - Li X
+AUID- ORCID: 0009-0006-0308-685X
+AD  - Department of Endocrinology and Metabolism, Zhongshan Hospital, Fudan University, 
+      Shanghai, China.
+FAU - Chen, Yinyin
+AU  - Chen Y
+AUID- ORCID: 0000-0002-1192-671X
+AD  - Department of Radiology, Zhongshan Hospital, Fudan University, Shanghai, China. 
+      chen.yinyin@zs-hospital.sh.cn.
+AD  - Shanghai Institute of Medical Imaging, Shanghai, China. 
+      chen.yinyin@zs-hospital.sh.cn.
+FAU - Chen, Ying
+AU  - Chen Y
+AD  - Department of Endocrinology and Metabolism, Zhongshan Hospital, Fudan University, 
+      Shanghai, China. chen.ying4@zs-hospital.sh.cn.
+FAU - Zeng, Mengsu
+AU  - Zeng M
+AUID- ORCID: 0009-0004-5230-8012
+AD  - Department of Radiology, Zhongshan Hospital, Fudan University, Shanghai, China. 
+      zeng.mengsu@zs-hospital.sh.cn.
+AD  - Shanghai Institute of Medical Imaging, Shanghai, China. 
+      zeng.mengsu@zs-hospital.sh.cn.
+LA  - eng
+SI  - ClinicalTrials.gov/NCT05367063
+GR  - 24TS1411000/the Shanghai Municipal "Explorer Plan" (the second batch) project in 
+      2024/
+GR  - SKLY2022CRT201/Joint Research Development Project between Shenkang and United 
+      Imaging on Clinical Research and Translation/
+GR  - Youth Fund 8

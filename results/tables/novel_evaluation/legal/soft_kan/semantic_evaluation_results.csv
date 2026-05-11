@@ -1,0 +1,41 @@
+query,method,soft_precision,soft_recall,soft_f1,hungarian_precision,hungarian_recall,hungarian_f1,pred_size,true_size
+Roles and responsibilities of individual board members,soft_left_kan,0.01273203082382679,0.02482076920568943,0.01683063837314609,0.035299349990155965,0.423592209815979,0.06516803086862057,36,17
+Federal Reserve Annual Reports and Financial Disclosures,soft_left_kan,0.02269580215215683,0.04902982339262962,0.031028552566041638,0.07414522353145811,0.44487133622169495,0.12710609727976271,36,14
+Redundant payment gateway architecture and failover switching mechanisms,soft_left_kan,0.04430627077817917,0.054005783051252365,0.04867754775233999,0.07338661269137733,0.46478188037872314,0.12675869464874268,38,18
+federal reserve public communication channels,soft_left_kan,0.02057071588933468,0.026199951767921448,0.023046571328924337,0.04078667610883713,0.48944011330604553,0.07529847897016086,36,19
+Indemnification and liability protection policies for board members,soft_left_kan,0.015390331856906414,0.0332440510392189,0.021040134460193816,0.04932835016931806,0.43162304162979126,0.08853806393621468,35,17
+Monetary Policy Reports Submitted to Congress,soft_left_kan,0.05864273011684418,0.08774423599243164,0.07030081553533618,0.10592003249459797,0.47664016485214233,0.17332369076811577,36,15
+Proportional representation methods and their implementation,soft_left_kan,0.0010134723270311952,0.0015765124699100852,0.0012337923862413274,0.0,0.0,0.0,28,18
+The impact of unconvent,soft_left_kan,0.017737463116645813,0.034153588116168976,0.023348843205880796,0.06624270081520081,0.4636988639831543,0.11592472512274972,35,16
+Beige Book Regional Economic Condition Reports,soft_left_kan,0.020687125623226166,0.009875431656837463,0.013368926781650243,0.027197739109396935,0.43516382575035095,0.05119574420592364,32,14
+Federal Reserve Bank Presidents' Speeches and Public Addresses,soft_left_kan,0.01712212897837162,0.02194693125784397,0.019236612572929385,0.04964929819107056,0.446843683719635,0.08936873674392701,36,17
+Cross-border financial contagion and central bank coordination frameworks,soft_left_kan,0.03141985088586807,0.07731892168521881,0.044682295607438895,0.1129720734583365,0.4644407033920288,0.18173768009377764,37,15
+Recovery and resolution planning for financial market infrastructures,soft_left_kan,0.05328867956995964,0.08371850848197937,0.06512430239616189,0.12984069188435873,0.46742644906044006,0.20322890509279076,36,15
+Fiduciary duties and legal obligations of board members,soft_left_kan,0.015516061335802078,0.03532181307673454,0.021560910031092825,0.06034895032644272,0.4345124363899231,0.10597864429841504,36,16
+Committee formations and their specific functions,soft_left_kan,0.0022100009955465794,0.009066253900527954,0.0035537384230326114,0.012754572289330619,0.44641003012657166,0.02480055722925398,35,16
+Quorum requirements and participation thresholds,soft_left_kan,0.0,0.0,0.0,0.0,0.0,0.0,38,16
+Unconventional monetary policy tools during economic crises,soft_left_kan,0.038501616567373276,0.053019218146800995,0.04460898142297868,0.10969862180787164,0.4509831964969635,0.17647169392365805,37,16
+Open market operations and asset purchase programs,soft_left_kan,0.04680716618895531,0.07186425477266312,0.05669034867758767,0.12000430907521929,0.46668344736099243,0.19091594819564459,35,17
+board of governors structural organization,soft_left_kan,0.007204434834420681,0.01496313139796257,0.00972600275063264,0.023372929129335616,0.4207127094268799,0.04428554984671256,36,16
+The Taylor Rule and systematic policy frameworks,soft_left_kan,0.0035778668243438005,0.007382338400930166,0.004819804576260947,0.035288857089148626,0.423466295003891,0.06514865935906855,36,17
+Real Estate and Construction Market Conditions Across Regions,soft_left_kan,0.04271388798952103,0.02178383804857731,0.028852875149092055,0.06365939123289925,0.4456157088279724,0.11140393372625107,28,17
+Roles and responsibilities of individual board members,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,17
+Federal Reserve Annual Reports and Financial Disclosures,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,14
+Redundant payment gateway architecture and failover switching mechanisms,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,18
+federal reserve public communication channels,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,19
+Indemnification and liability protection policies for board members,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,17
+Monetary Policy Reports Submitted to Congress,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,15
+Proportional representation methods and their implementation,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,18
+The impact of unconvent,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,16
+Beige Book Regional Economic Condition Reports,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,14
+Federal Reserve Bank Presidents' Speeches and Public Addresses,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,17
+Cross-border financial contagion and central bank coordination frameworks,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,15
+Recovery and resolution planning for financial market infrastructures,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,15
+Fiduciary duties and legal obligations of board members,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,16
+Committee formations and their specific functions,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,16
+Quorum requirements and participation thresholds,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,16
+Unconventional monetary policy tools during economic crises,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,16
+Open market operations and asset purchase programs,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,17
+board of governors structural organization,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,16
+The Taylor Rule and systematic policy frameworks,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,17
+Real Estate and Construction Market Conditions Across Regions,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,17

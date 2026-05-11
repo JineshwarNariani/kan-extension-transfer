@@ -1,0 +1,98 @@
+{
+  "legal": {
+    "semantic": {
+      "left_kan": {
+        "mean": 0.0286,
+        "std": 0.0325
+      },
+      "right_kan": {
+        "mean": 0.0031,
+        "std": 0.0099
+      },
+      "naive_rag": {
+        "mean": 0.0314,
+        "std": 0.0245
+      }
+    },
+    "motif": {
+      "left_kan": {
+        "mean": 0.1354,
+        "std": 0.3351
+      },
+      "right_kan": {
+        "mean": 0.1,
+        "std": 0.3078
+      },
+      "naive_rag": {
+        "mean": 0.4354,
+        "std": 0.4979
+      }
+    },
+    "homology": {
+      "left_kan": {
+        "mean": 0.5925,
+        "std": 0.4966
+      },
+      "right_kan": {
+        "mean": 0.0947,
+        "std": 0.2916
+      },
+      "naive_rag": {
+        "mean": 0.9969,
+        "std": 0.0022
+      }
+    },
+    "universality": {
+      "left_kan": {
+        "mean": 0.7664,
+        "std": 0.1259
+      },
+      "right_kan": {
+        "mean": 0.743,
+        "std": 0.1203
+      },
+      "naive_rag": {
+        "mean": 0.8701,
+        "std": 0.0539
+      }
+    },
+    "soft_kan": {
+      "soft_left_kan": {
+        "mean": 0.0274,
+        "std": 0.0211
+      },
+      "soft_right_kan": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    "back_translation": {
+      "left_kan": {
+        "mean": 0.3385,
+        "std": 0.3574
+      },
+      "right_kan": {
+        "mean": 0.0715,
+        "std": 0.2261
+      },
+      "naive_rag": {
+        "mean": 0.7034,
+        "std": 0.055
+      }
+    },
+    "coherence": {
+      "left_kan": {
+        "mean": 0.5,
+        "std": 0.527
+      },
+      "right_kan": {
+        "mean": 0.1,
+        "std": 0.3162
+      },
+      "naive_rag": {
+        "mean": 0.984,
+        "std": 0.0207
+      }
+    }
+  }
+}

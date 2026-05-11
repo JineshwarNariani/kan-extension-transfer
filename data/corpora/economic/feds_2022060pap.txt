@@ -1,0 +1,1041 @@
+Finance and Economics Discussion Series
+
+Federal Reserve Board, Washington, D.C.
+ISSN 1936-2854 (Print)
+ISSN 2767-3898 (Online)
+
+Bank Deposit Flows to Money Market Funds and ON RRP Usage
+during Monetary Policy Tightening
+
+Luke Morgan, Anthony Sarver, Manjola Tase, and Andrei Zlate
+
+2022-060
+
+Please cite this paper as:
+Luke Morgan, Anthony Sarver, Manjola Tase, and Andrei Zlate (2022). “Bank Deposit
+Flows to Money Market Funds and ON RRP Usage during Monetary Policy Tightening,”
+Finance and Economics Discussion Series 2022-060. Washington: Board of Governors of the
+Federal Reserve System, https://doi.org/10.17016/FEDS.2022.060.
+
+NOTE: Staﬀ working papers in the Finance and Economics Discussion Series (FEDS) are preliminary
+materials circulated to stimulate discussion and critical comment. The analysis and conclusions set forth
+are those of the authors and do not indicate concurrence by other members of the research staﬀ or the
+Board of Governors. References in publications to the Finance and Economics Discussion Series (other than
+acknowledgement) should be cleared with the author(s) to protect the tentative character of these papers.
+
+Bank Deposit Flows to Money Market Funds and ON RRP Usage 
+during Monetary Policy Tightening1 
+
+Luke Morgan, Anthony Sarver, Manjola Tase, Andrei Zlate2 
+
+Federal Reserve Board 
+
+July 2022 
+
+Abstract 
+
+Using the historical experience from past monetary tightening cycles and the market-expected 
+path of the federal funds rate for the current tightening cycle, we project that the flows from bank 
+deposits to money market funds (MMFs) would be relatively small, at about $600 billion through 
+the end of 2024, or about 3 percent of current bank deposits.  Of these potential inflows to 
+MMFs, about $100 billion are projected to flow into the overnight reverse repo (ON RRP) 
+facility, or about 7 percent of MMFs’ recent take-up.  Other factors such as the private demand 
+for repo funding and the net supply of Treasury bills are expected to have more substantial 
+effects on MMFs’ take-up at the ON RRP facility than the inflows from bank deposits.  
+
+JEL Classification: E43, E52, E58. 
+
+Keywords: Monetary policy tightening, bank deposits, money market funds, overnight reverse 
+repo facility, private repo funding, Treasury bills. 
+
+1 We thank Alyssa Anderson, David Bowman, Jim Clouse, Rochelle Edge, Heather Ford, Chris Gust, Patrick 
+McCabe, Zeynep Senyuz, Mary-Frances Styczynski, Annette Vissing-Jorgensen, Min Wei, and Rebecca Zarutskie 
+for helpful comments and suggestions, as well as Paul Cochran, Hampton Dennis, John Kadlick, and Andrew Wei 
+for excellent research assistance.  The views expressed in this study are those of the authors and do not necessarily 
+reflect the views of the Federal Reserve Board or the Federal Reserve System. 
+2 Corresponding authors: Tase (manjola.tase@frb.gov), Zlate (andrei.zlate@frb.gov). 
+
+1 
+
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+1.  Introduction  
+
+With take-up at the Federal Reserve’s overnight reverse repurchase agreement (ON RRP) facility 
+reaching above $2.0 trillion in May 2022, some market participants expected facility usage to 
+grow further, given expected flows from bank deposits to money market funds (MMFs) as the 
+federal funds rate (FFR) increases.  This development would have implications for the Federal 
+Reserve’s current balance sheet runoff cycle and the relative pace of decline of reserves and ON 
+RRP. 
+
+To address these concerns, we summarize the historical experience during past episodes of 
+monetary policy tightening, and address two key questions relating to the current tightening 
+cycle.  First, what is the likely magnitude of flows from bank deposits into MMFs?  Second, how 
+will these flows and other factors affect take-up at the ON RRP facility over the period 2022-24?   
+
+To answer these questions, we examine the historical experience during past tightening cycles in 
+2004-06 and 2015-18, when FFR increases coincided with a widening spread between MMF 
+yields and bank deposit rates.  In turn, the widening spread prompted flows from bank deposits 
+to MMFs.  Furthermore, to assess the implications for ON RRP take-up, we observe the 
+experience during the most recent previous tightening episode, when MMFs’ take-up at the ON 
+RRP as a share of their AUM was largely shaped by the availability of substitute investment 
+opportunities, such as private repo and Treasury bills.  The magnitude of these historical 
+relationships guide our projections of flows from bank deposits to MMFs and the latter’s ON 
+RRP take-up during the current tightening cycle. 
+
+Our main findings are as follows.  First, based on the historical experience and using the future 
+path of the FFR from the June 2022 Desk Survey, we project that the flows from bank deposits 
+to MMFs would be relatively small, at about $600 billion through the end of 2024, or equivalent 
+to about 3 percent of current bank deposits.  This estimate is similar to the percentage estimated 
+for the 2004-06 and 2015-18 tightening episodes.   
+
+Second, of these potential inflows to MMFs, about $100 billion are projected to flow into the 
+ON RRP facility through the end of 2024, which represents only about 7 percent of the May 
+2022 take-up by MMFs.3   
+
+Third, other factors such as the private demand for repo funding and the net supply of Treasury 
+bills are expected to have more substantial effects on ON RRP take-up.  These factors are 
+projected to cause MMFs’ portfolio allocation to the ON RRP facility to initially increase in 
+
+3 See https://www.newyorkfed.org/markets/desk-operations/reverse-repo for details on ON RRP operations results.  
+Data detailing propositions accepted by counterparty type are added to the summary of results each month, with the 
+data lagged by one month.  The information is made available within the first five business days of each month. 
+
+2 
+
+ 
+ 
+ 
+ 
+2022:Q2 and to remain relatively elevated throughout 2022.  Afterwards, ON RRP take-up is 
+projected to decline in 2023 amid policy tightening and an increase in net Treasury bill issuance.   
+
+Fourth, under alternative scenarios, bank deposit flows could be larger, or MMFs’ portfolio 
+allocation at the ON RRP facility could be higher than our baseline projections.  We find that the 
+later scenarios—in which MMFs’ take-up would be higher due to lower-than-projected rates for 
+private repo funding or a lower-than-projected net Treasury bill issuance—would have a more 
+substantial effect on ON RRP take-up than the inflows from bank deposits. 
+
+Finally, the pace of decline in ON RRP take-up depends on a number of factors, and there is 
+considerable uncertainty around our projections, which has implications for the pace of decline 
+in reserves as the Fed’s balance sheet runs off.   
+
+Our analysis is related to the deposit channel of monetary policy transmission, whereby increases 
+in the FFR coincide with a rising opportunity cost of holding bank deposits, which in turn 
+prompts outflows from bank deposits especially in more concentrated deposit markets 
+(Drechsler, Savov, and Schnabl, 2017).  However, we focus on the widening spread between 
+MMF net yields and bank deposit rates and the resulting flows from bank deposits specifically to 
+MMFs.  Furthermore, we study the effect of deposit flows on MMFs’ take-up at the ON RRP 
+rather than on bank lending.  Our analysis is also related to the literature documenting the 
+asymmetric response of bank deposit rates to increases vs. decreases in market rates, which 
+varies with the deposit type, bank size, and market concentration (Neumark, Sharpe, 1992; 
+Driscoll and Judson, 2013). 
+
+Our analysis also contributes to the expanding literature on the ON RRP facility and its 
+implications.  Most closely related to our paper is Anderson and Huther (2016), which derives 
+projections for ON RRP take-up at the participant level for a very short horizon (1-5 days) and 
+no changes in the stance of monetary policy.  In contrast, our analysis derives quarterly 
+projections over a three-year horizon and starts at a time of switching from monetary policy 
+easing to monetary policy tightening.   
+
+2.  Developments at the ON RRP facility during the period 2021:Q1-2022:Q1  
+
+The Federal Reserve uses the ON RRP facility as a supplementary policy tool to help control the 
+FFR and keep it in the target range set by the FOMC.4  A wide range of counterparties—primary 
+dealers, banks, MMFs, and government sponsored enterprises—are eligible to participate in the 
+ON RRP.  Thus, the ON RRP offers an alternative risk-free investment option subject to a 
+
+4 This tool is in addition to Fed’s primary tool, the IORB rate for managing overnight interest rates. The IORB rate 
+is the rate paid to depository institutions on balances maintained at Federal Reserve Banks.  
+
+3 
+
+ 
+ 
+ 
+ 
+counterparty limit to a broad range of financial institutions that are ineligible to earn interest on 
+reserve balances (IORB).5 
+
+MMFs account for the majority of take-up at the ON RRP facility.  Among investment 
+alternatives for MMFs, the ON RRP is the closest substitute to private repo and Treasury bills.  
+During periods of low interest rates and high liquidity in the system, private repo trades close to 
+the ON RRP offering rate, making the ON RRP facility an attractive investment for eligible 
+MMFs.  However, during periods of quantitative tightening, when liquidity in the system 
+declines, dealers’ demand for repo financing and the spread between private repo and the ON 
+RRP offering rate tend to increase.  As a result, private repo becomes relatively more attractive 
+and usage at the ON RRP facility declines.  In addition, the availability of alternative investment 
+opportunities for MMFs such as the supply of Treasury bills affects usage of the facility. 
+
+Take-up at the ON RRP facility began to increase in mid-2021 and reached $2.0 trillion in mid-
+May 2022, with MMFs—primarily government MMFs—accounting for $1.7 trillion in take-up.  
+
+We distinguish three main drivers behind the elevated take-up at the ON RRP facility.  First, 
+government MMFs’ assets under management (AUM) continued to remain at high levels (around 
+$4 trillion) following substantial growth since the start of the pandemic.  Second, a decline in 
+Treasury bill supply limited investment options for MMFs.  As shown in Figure 1, the large 
+increase in ON RRP take-up during the second half of 2021 started around the same time as a 
+large decrease in net Treasury bill supply.  Third, amid the contracting supply of alternative 
+investments, the spreads on these investments declined, making these alternative investments 
+less attractive than investing at the ON RRP facility.  As shown in Figure 2, since the second half 
+of 2021, SOFR traded at (and at times just under) the ON RRP offering rate, and Treasury bill 
+yields were lower relative to the expected path of the ON RRP rate.6  
+
+During the 2022 tightening episode, some market participants expect MMFs to receive large 
+inflows, in part from flows from bank deposits.  ON RRP take-up could be pushed to even higher 
+levels in the near-term and stay elevated as a result of such inflows. However, ON RRP take-up 
+would also be affected by the supply of alternative investments available to MMFs and the rates 
+that these offer relative to the ON RRP.   
+
+5 The list of ON RRP counterparties is available here.  More information on the ON RRP facility can be found here. 
+6 Figure 2 shows an indirect measure of the Treasury bill spread to the expected path of the ON RRP rate with the 1-
+month Treasury bill – OIS spread. 
+
+4 
+
+ 
+ 
+ 
+Figure 1 
+
+Figure 2 
+
+3.  Historical experience  
+
+We discuss key factors affecting flows from bank deposits to MMFs and MMFs’ take-up at the 
+ON RRP facility during previous episodes of monetary policy tightening.   
+
+3.1. Historical experience with bank deposit flows to MMFs 
+
+One key driver of flows from bank deposits to MMFs has been the spread between MMF yields 
+net of fees and bank deposit rates.  This spread, shown in red in Figure 3, widened during past 
+episodes of FFR increases, highlighted in grey.7  During both episodes, the spread rose in the 
+same proportion with the FFR, by about 60 bps for every 100 bps of FFR increase.8  MMF yields 
+are typically more responsive than bank deposit rates to FFR increases, because the yields that 
+MMFs offer to investors are more closely connected to the returns on their underlying assets, 
+given differences in their business models, exposures to risk, and market competition (Neumark, 
+Sharpe, 1992; Driscoll and Judson, 2013; Drechsler, Savov, and Schnabl, 2017).  
+
+As a result of the widening spreads, some investors shifted from bank deposits toward MMFs 
+during periods of policy tightening, as shown by the bars in Figure 4.  These bars represent the 
+ratios of MMF shares to bank deposit amounts held by three different counterparties—non-bank 
+financial institutions, non-financial corporates, and households—constructed from the Financial 
+
+7 During the first episode, the FFR target was raised by 425 bps from 1 percent before the June 2004 FOMC meeting 
+to 5¼ percent at the June 2006 FOMC meeting.  During the second episode, the FFR target range was raised by 225 
+bps from 0 to ¼ percent before the December 2015 FOMC meeting to 2¼ to 2½ percent at the December 2018 
+FOMC meeting.   
+8 We compute the average MMF net yield from iMoneyNet, Inc. data as the weighted average of yields net of fees 
+for taxable funds, and the average deposit rate from Call Report data as the interest expense on all interest-bearing 
+deposits divided by the quarterly average of such deposits.  On average, the MMF net yields rose by about 90 bps 
+and the bank deposit rates rose by 30 bps for every 100 bps increase in the FFR.   
+
+5 
+
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+Accounts of the U.S. data, the Z.1 statistical release.9  For each counterparty, the average ratios 
+generally observed around the start and the end of the two episodes of FFR increases are shown 
+in blue and orange, respectively.  To allow for lagged effects of FFR increases on deposit flows, 
+the end-date ratios reflect the levels reached two quarters after the last FFR increase in each 
+episode.10 
+
+   Figure 3 
+
+        Figure 4 
+
+As can be seen in Figure 4, these ratios increased when the FFR increased—and the spread 
+between MMF yields and bank deposit rates widened—reflecting shifts from bank deposits to 
+MMFs.  Moreover, the ratio responses varied across the three counterparties.  The taller bars and 
+larger increases for financial institutions show that these counterparties have held larger amounts 
+of MMF shares relative to their bank deposits, and have been more responsive to widening 
+spreads.  In contrast, non-financial corporations and households have been relatively less sensitive 
+to widening spreads.   Nevertheless, flows from non-financial corporations and households still 
+
+9 We select the holdings of non-supervised non-bank financial institutions from the Z.1. data.  We exclude bank 
+holding companies, broker-dealers, GSEs, mutual funds, and ETFs, because such financial institutions may have had 
+regulatory incentives to hold bank deposits and thus be less interest rate-sensitive on their liquid assets.  Specifically, 
+for checking deposits, we include property and life insurers, private pension funds, state and local government 
+pension funds, finance companies, and REITs.  For savings and time deposits, we include private pension funds, 
+state and local government pension funds, and finance companies.  For MMF shares, we include property and life 
+insurers, private pension funds, state and local government pension funds, and other financial businesses.   
+10 Specifically, the start-date ratios are those observed in 2004:Q1 and 2015:Q3, and the end-date ratios refer the 
+levels from 2006:Q4 and 2019:Q2, respectively, thus allowing for a two-quarter lag after the last FFR increase.  In 
+cases when the ratios declined for part of the time during FFR increases, we use the minimum and maximum ratios 
+observed in each episode, instead of the start and end-date ratios.  In these cases, the ratios were already declining 
+before the tightening episode, and the decline was temporarily reversed during tightening.  By this criterion, 
+2005:Q3 and 2017:Q2 are the start dates for households across the two episodes; 2016:Q4 and 2017:Q4 are the start 
+and end dates for non-financial corporates, while 2018:Q4 is the end date for financials in the most recent episode. 
+
+6 
+
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+ 
+played an important role, because the vast majority of bank deposits in our sample are held by 
+these counterparties.    
+
+3.2. Experience with MMF inflows and ON RRP usage during the prior tightening episode 
+
+The most recent episode of monetary policy tightening may be most instructive for the current 
+episode given the experience with the balance sheet reduction.  
+
+MMFs, the primary users of the ON RRP, received large inflows in the prior tightening episode 
+from both banks and non-banks (Figure 5). These flows were driven in part by MMF yields 
+rising relative to the rates offered on bank deposits or longer-dated fixed income investments. 
+Cumulative net MMF inflows over the episode mostly occurred in 2018 and 2019, amid the latter 
+stages of increases in the FFR and balance sheet runoff, when longer-term market rates declined 
+and even fell below MMF yields following a flattening of the Treasury yield curve. These large 
+inflows continued to occur in the months after monetary tightening ended. 
+
+Figure 5 
+
+        Figure 6 
+
+At the same time, notable growth occurred in substitute investments for the ON RRP, such as 
+Treasury bills and private repo, helping to absorb these flows into MMFs. As a result, ON RRP 
+usage declined (Figure 6).  For example, private repo investment grew steadily during this 
+tightening episode, as the private sector financed additional Treasury issuance amid large fiscal 
+deficits and balance sheet runoff.  Growing demand for funding in the repo market from dealers 
+that borrow from MMFs, as well as declining aggregate reserves likely contributed to wider 
+
+7 
+
+ 
+ 
+ 
+ 
+ 
+ 
+spreads between repo rates and the ON RRP rate.  With higher rates, MMFs’ investment in repo 
+with private counterparties grew.11  
+
+In an environment with higher market repo rates relative to ON RRP rate and greater availability 
+of alternative investments, cash invested in the ON RRP declined substantially once balance 
+sheet runoff was underway and stayed near zero. 
+
+4.  Baseline projections for bank deposit flows to MMFs and ON RRP take-up during 
+
+2022-24 
+
+This section describes our methodology and shows quarterly projections for deposit flows to 
+MMFs and ON RRP usage for the period 2022:Q2-2024:Q4.  The historical series end in 
+2021:Q4.  
+
+4.1. Projections for potential bank deposit flows to MMFs  
+
+To estimate the potential flows of bank deposits to MMFs under expected FFR increases, we use 
+the historical relationships described in Section 3.1 among the FFR, the spreads between MMF 
+net yields and bank deposit rates, and the ratios of MMF shares to bank deposits held by 
+financial institutions, non-financial corporates, and households.  In addition, we take the median 
+of the FFR modal path expected by respondents to the June 2022 Surveys of Primary Dealers and 
+of Market Participants, which is conducted by the Trading Desk at the Federal Reserve Bank of 
+New York to gain insights into market expectations.12  Using the historical relationships and the 
+expected FFR path, we project the associated widening in spreads and the increase in ratios from 
+their most recent levels in 2021:Q4.  Then we back out the projected bank deposit flows to 
+MMFs from the projected ratio increases.13 
+
+11 Growth in private repo activity also reflected structural shifts and innovations in money markets during this time. 
+There was a large increase in the supply of funds available to invest in repo and other RRP alternatives as a result of 
+the MMF reform measures that went into effect in late 2016, as roughly $1 trillion moved from prime MMFs to 
+government MMFs via direct flows and fund conversions in the year preceding the implementation. Government 
+MMFs invest only in short-term Treasury and agency securities and repo, while prime MMFs invest primarily in 
+unsecured credit products. In addition, as the Fixed Income Clearing Corp. (FICC) sponsored repo service was 
+opened to MMFs in mid-2017, the FICC sponsored service came to represent a substantial part of the net growth in 
+MMFs’ private repo investment during the tightening episode, since sponsored repo offered MMFs a higher rate 
+than other repo and was not limited by the balance sheet constraints of bank-affiliated dealers. 
+12 See https://www.newyorkfed.org/medialibrary/media/markets/survey/2022/jun-2022-spd-results.pdf and 
+https://www.newyorkfed.org/medialibrary/media/markets/survey/2022/jun-2022-smp-results.pdf.  
+13 To back out deposit flows from ratios, we assume that, in the absence of flows, MMF shares and bank deposits 
+follow the same rate of trend growth (g) and that flows occur at the beginning of each period.  Then, given the 
+current and projected ratios (R0 and R1), along with the current deposit amounts (BankDep0), we compute Flows, 
+using R0 = MMMShares0 / BankDep0 and R1 = MMMShares1 / BankDep1 = [ (1+g)*( MMMShares0 + Flows) ] / 
+[(1+g)*( BankDep0 – Flows)].  
+
+8 
+
+ 
+ 
+ 
+ 
+Specifically, we use regression analysis to measure the historical relationship among the FFR, 
+the spreads, and the ratios, separately for each counterparty.  We first regress the institutional and 
+retail spreads on the FFR, conditioning on episodes of FFR increases.  Second, we regress the 
+ratios of MMF shares to bank deposits on institutional or retail spreads, as relevant for each 
+counterparty, over the full sample period using quarterly data from 2000:Q1 to 2021:Q4 and the 
+following regression specification: 
+
+Ratiot = α + β Spreadt + γ Spreadt*Tightent + δ Tightent + εt 
+
+(1) 
+
+We compute the ratios of MMF shares to bank deposits using data from the Financial Accounts 
+of the U.S., the Z.1 statistical release as discussed earlier.  The full time series are shown in 
+Figure 7.  We construct the spreads using weighted averages of retail and institutional MMF 
+yields net of fees from iMoneyNet, Inc., as well as simple averages of retail and institutional 
+deposit rates from S&P Global, SNL Depository Rates (RateWatch).  We use institutional 
+spreads separately for financial institutions and non-financial corporates, as well as retail spreads 
+for households.  To capture the lagged effects of spreads on ratios, we construct the explanatory 
+variable as the five-quarter moving average of the spread taking its contemporaneous value and 
+four lags.   
+
+Figure 7 
+
+The regression results suggest that the ratios for non-financial corporates, financial institutions, 
+and households rose on average by 0.00474, 0.177, and 0.0245 for each 100-bps increase in the 
+spread (Table 1).  The coefficient estimates on the interacted terms are not statistically 
+significant, suggesting that the sensitivity of ratios to spreads was not different during tightening 
+episodes than otherwise.   
+
+Under the FFR path from the June 2022 Desk Survey for the 2022-24 period (about 300 bps 
+increase above the Effective Lower Bound, see Figure 8.a) and using the regression analysis 
+results, the projected flows from bank deposits to MMFs are about $600 billion through 2024 
+
+9 
+
+ 
+ 
+ 
+ 
+(Figure 8.b).  This amount is equivalent to 3 percent of current bank deposits held by the selected 
+counterparties in our sample as of 2021:Q4.14  The projected flows follow a time profile that 
+reflects the FFR path and a two-quarter lagged effect of spreads on ratios.15   
+
+Figure 8.a 
+
+Figure 8.b 
+
+Alternatively, we project the flows of bank deposits to MMFs using the relationship between 
+ratios and spreads observed specifically during past episodes of FFR increases as shown in 
+Figure 4 (i.e., event-based approach), rather than the relationship implied by the regression 
+analysis over the full sample period.  Based on the 2004-06 episode, the ratios of non-financial 
+corporates, financial institutions, and households rose by 0.0624, 0.1134, and 0.0106, 
+respectively, for every 100 bps increase in the spread.  Based on the 2015-18 episode, the ratios 
+rose by 0.0282, 0.7034, and 0.0214 respectively for every 100 bps increase in the spread.  
+Consistent with the regression analysis, the event-based approach suggests that the holdings of 
+financial institutions were most responsive to spreads.  However, in contrast to the regression 
+analysis, the event-based approach suggests larger responses by non-financial corporates and 
+smaller responses by households.   
+
+Using these event-based estimates for the relationship between ratios and spreads, our projected 
+flows from bank deposits to MMFs are similar to the baseline projection from the regression-
+
+14 By comparison, we estimate that the flows from bank deposits into MMFs attributed to FFR increases amounted 
+to about $200 billion during the 2004-06 episode and $350 billion during the 2015-18 episode, equivalent to 3 and 4 
+percent respectively of the initial bank deposits at the time.   
+15 Our projections are sensitive to a number of assumptions incorporated in our methodology.  First, we assume the 
+changes in the ratio of MMF shares to bank deposits are fully explained by the past FFR increases and widening 
+spreads, abstracting from confounding factors such as MMF reform or the introduction of the LCR requirement.  
+Second, we assume that the historical sensitivity of the ratio to FFR increases holds at the current levels of bank 
+deposits and MMF shares, separately for each counterparty.  Third, we assume that the ratio sensitivity holds for the 
+projected future increases in the FFR and remains constant for individual future FFR hikes through 2024. 
+
+10 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+based approach.  The projected flows amount to about $450 billion based on the 2004-06 episode 
+and about $700 billion based on the 2015-18 episode.16   
+
+Several confounding factors other than monetary policy may have affected the ratios of MMF 
+shares to bank deposits over time, which should be considered when interpreting our regression 
+results.  For instance, the MMF reform in 2016 may have slowed the total inflows into MMFs or 
+prompted modest net outflows from MMFs into LISCC bank deposits.  Furthermore, the 
+implementation of the Liquidity Coverage Ratio (LCR) requirement in 2015 may have prompted 
+banks to retain more deposits as a stable source of funding, placing downward pressure on the 
+ratios.  For households, a secular increase in savings and time deposits has dampened the ratios.  
+In addition, flows from riskier investments such as equities and mutual funds into government 
+MMFs may have boosted the ratio during recessions and risk-off episodes, when monetary 
+policy was eased. 
+
+4.2 Projections for ON RRP take-up  
+
+To compute ON RRP take-up, we first project ON RRP take-up as a share of MMFs AUM, and 
+then add in the MMFs’ AUM increase resulting from the projected deposit flows described in 
+Section 3.1.   
+
+First, we estimate the historical relationship between ON RRP take-up by MMFs (as a share of 
+AUM) and the SOFR-ON RRP spread and net Treasury bill issuance.17 We consider the previous 
+tightening episode (October 2015-April 2018) and the more recent experience (April 2021-
+December 2021) using the following regression specification:  
+
+(ONRRP take-up/AUM)t = α + β (SOFR-ONRRP)t + γ NetTreasBillt + εt  (2) 
+
+Table 2 shows regression results for the previous episode (October 2015-April 2018) and the 
+recent period (April 2021-December 2021).18  Regression results suggest that ON RRP take-up 
+decreases as the SOFR-ON RRP spread widens and as net Treasury bill issuance increases.19  
+
+We then project ON RRP take-up by MMFs (as a share of AUM) using two inputs: 1) projected 
+SOFR-ON RRP spread, and 2) the Federal Reserve staff forecast for net Treasury bill issuance.  
+
+16 Given that in some cases we use the minimum and maximum ratios from each episode, instead of the start and 
+end-date ratios, the event-based projections may be an upper bound, such as those based on the 2015-18 episode. 
+17 Relationship lending between MMFs and dealers also affects ON RRP take-up (Han et.al., 2022).  The aggregate 
+net effect of such relationships is imbedded in the estimated coefficients in regression (2).  
+18As discussed in section 2, after balance sheet run off began in October 2017, ON RRP take-up declined and 
+reached almost zero by April 2018.  It consistently remained that that level until April 2021.  ON RRP take-up by 
+MMFs as a share of MMFs’ AUM for the period April 2021-December 2021 is not a stationary series. For the April 
+2021-December 2021 period we make two alternative modifications: 1) add the lagged series of (ONRRP take-
+up/AUM); and 2) estimate the first difference of (ONRRP take-up/AUM). 
+19 Anderson and Huther (2016) also find similar results from their panel data analysis using daily data at the 
+counterparty level for the period December 2013-November 2014. 
+
+11 
+
+ 
+ 
+ 
+We estimate the historical relationship between the SOFR-ON RRP spread and policy tightening 
+using data for the period October 2015-December 2021 and the following regression 
+specification: 
+
+(SOFR-ONRRP)t = α + β (FFR)t + γ ΔSOMAt + εt 
+
+(3) 
+
+Regression results are shown in Table 3.  The estimated coefficients have the expected sign, 
+suggesting that the SOFR-ONRRP rate spread increases with the increase in the FFR (rate 
+tightening) and with the decrease in SOMA holdings (quantitative tightening).20  Projected 
+SOFR-ONRRP rate spread is then derived based on the estimated historical relationship and the 
+expected path of policy tightening, where the expected FFR path that we use is based on the June  
+2022 Desk Survey and the Fed’s projected balance sheet runoff path follows the May 4, 2022 
+announcement on “Plan for Reducing the Size of the Federal Reserve Balance Sheet”.21  
+
+As shown in Figure 9, ON RRP take-up as a share of MMFs’ AUM is projected to increase in 
+2022:Q2 and to remain  elevated, at around 30 percent, through 2022.  This is mostly driven by 
+lower net bill issuance, which is projected to decline in 2022:Q2.  In 2023, ON RRP take-up as a 
+share of MMFs AUM is projected to decline with further increases in the SOFR-ON RRP spread 
+and in net Treasury bill issuance and to reach near zero in late-2023.   
+
+Figure 9: ON RRP take-up by MMFs as share of MMFs AUM: 
+historical, estimated and projected values 
+
+Source: Staff projections and Federal Reserve Bank of New York (historical). 
+Note:  This  figure  plots  ON  RRP  take-up  by  MMFs  as  a  share  of  MMFs  AUM:  historical  (solid  line); 
+estimated (dashed line), projections (dotted line).  Projections are based on the historical relationship between 
+MMFs allocation at the ON RRP facility, the SOFR-ONRRP rate spread and net Treasury bill issuance and 
+projected SOFR-ONRRP rate spread and projected net Treasury bill issuance.  
+
+20 We also considered a regression specification which includes net Treasury bill issuance, but the estimated 
+coefficient was not significant.  Regression results are shown in Table 3. 
+21 See “Plans for Reducing the Size of the Federal Reserve's Balance Sheet” for details.   
+
+12 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The relative contributions of the SOFR-ON RRP spread and net Treasury bill issuance on the 
+path of ON RRP take-up by MMFs as a share of AUM are shown in Figure 10.  We find that net 
+Treasury issuance mainly influences the projection for ON RRP take-up in the very near term 
+and the SOFR-ON RRP spread mainly influences the take-up projection in subsequent quarters. 
+
+Figure 10: Relative contribution of projected SOFR-ONRRP spread and net Treasury bill 
+issuance to changes in projected ON RRP take-up by MMFs as a share of MMFs AUM 
+
+Source: Staff projections. 
+Note: This figure plots the relative contribution of SOFR-ONRRP spread (blue bars) and net Treasury bill 
+issuance (orange bars) to changes in projected ON RRP take-up by MMFs as a share of MMFs AUM.   
+
+Next, we use the projected ON RRP take-up by MMFs as a share of MMFs AUM and we factor 
+in the fact that MMFs’ AUM grow with the inflows from bank deposits projected in Section 4.1.  
+ON RRP take-up by MMFs, shown by the blue line in Figure 9, is projected to be above $1 
+trillion through the end of 2022.  The red line shows projected ON RRP take-up excluding the 
+contribution of deposit flows.  The proximity of the two lines illustrates that the influence of 
+deposit flows on ON RRP take-up is projected to be small.  
+
+Specifically, our projections suggest that, of the about $600 billion of potential deposit flows to 
+MMFs, about $100 billion are projected to flow into the ON RRP through the end of 2024, 
+which represents about 7 percent of the May 2022 ON RRP take-up by MMFs.  Furthermore, 
+quarterly flows, at their highest, are at the upper bound of the range of  daily fluctuations in ON 
+RRP take-up. 
+
+Similar to deposit flows, related flows into the ON RRP also peak in the last quarter of 2022. 
+However, while we project a bank deposits to continue to flow into MMFs until 2023:Q4, related 
+flows into the ON RRP are declining, reflecting the decline in MMFs’ allocations into the ON 
+RRP as monetary policy tightening continues.  The projected path of ON RRP take-up is then 
+mostly driven by how MMFs allocate their portfolios rather than by the size of their AUM. 
+
+13 
+
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 11: Projected ON RRP take-up by MMFs 
+
+Source: Staff projections. 
+Note: This figure plot projected ON RRP take-up by MMFs. The blue line shows projected ON RRP take-
+up by MMFs assuming MMFs AUM grow with projected deposit flows as in Section 3. The red line shows 
+projected  ON  RRP  take-up  excluding  the  contribution  of  deposit  flows.  ON  RRP  take-up  by  MMFs  for 
+2022:Q1 is historical and it is shown as a reference. 
+
+5.  Upside risks to ON RRP take-up projections 
+
+We discuss upside risks to our baseline estimates of ON RRP take-up arising from (1) larger 
+bank deposit flows to MMFs, and (2) a higher share of MMFs’ portfolios invested at the ON 
+RRP.  We show that the larger bank deposit flows would only have a moderate impact on 
+MMFs’ ON RRP take-up.  However, a lower SOFR-ONRRP spread or lower net Treasury bill 
+issuance than in our baseline projections could have substantial effects on ON RRP take-up.   
+
+5.1. Larger bank deposit flows into MMFs 
+
+There are several reasons that bank deposit flows could be larger during the current tightening 
+cycle.  First, banks accumulated large amounts of deposits during the Covid-19 pandemic crisis, 
+amid the increase in reserve balances associated with the Fed’s asset purchases, fiscal stimulus, 
+and higher savings rates (Castro, Cavallo, Zarutskie, 2022).  Second, banks’ net interest margins 
+(NIMs) are currently more depressed than in 2015.  Given the abundance of bank deposits and 
+the compressed NIMs, banks may raise deposit rates more slowly in response to FFR increases, 
+or deposit holders may be more sensitive to widening spreads, which could enhance the deposit 
+flows to MMFs.  Third, as the balance sheet runoff starts sooner, MMF yields could increase by 
+more due to increasing investment opportunities such as private repo, prompting more inflows 
+
+14 
+
+ 
+ 
+ 
+ 
+ 
+from bank deposits.22  These factors could lead to wider spreads or a greater sensitivity of bank 
+deposits to spreads. 
+
+We consider two alternative scenarios:    
+
+  Alternative 1:  The MMF yield-deposit rate spread widens more in response to FFR 
+
+increases than in the baseline projections.  Specifically, we calibrate the sensitivity of 
+bank deposit rates to the FFR to be half that of our baseline analysis and the sensitivity of 
+MMF yields to be 50 percent higher, so the spread widens by about 120 bps for every 100 
+bps of FFR increases.  As a result, we project flows of about $1,150 billion or 6 percent 
+of the current bank deposits (Figure 12.a, orange bars), almost double than our baseline 
+projections (blue bars).   
+
+  Alternative 2:  The ratios of MMF shares to bank deposits are more sensitive to interest 
+
+rates than in the baseline scenario.  We calibrate households and non-financial corporates 
+to have the maximum historical sensitivity displayed by non-financial corporates during 
+the 2004-06 episode.  As a result, we project flows of $1,550 billion or 9 percent of bank 
+deposits (Figure 12.a, grey bars), more than double than our baseline projections (blue 
+bars).  We consider these two scenarios to be mutually exclusive, i.e., if counterparties 
+become more sensitive to the spread, the spread may widen by less as banks raise deposit 
+rates by more to retain deposits.   
+
+These scenarios suggest that corresponding flows into the ON RRP could be up to 2.5 times as 
+large as our baseline, but the overall effect on ON RRP take-up would still be moderate.  
+Specifically, the larger deposit flows could boost take-up by as much as 18 percent of MMFs’ 
+May 2022 take-up (compared to 7 percent in our baseline projections).  The additional take-up is 
+shown by the orange and grey lines in Figure 12.b, compared to the baseline take-up shown by 
+the blue line. 
+
+22 However, several other factors could slow the bank deposit flows relative to 2015-18.  The shares of more 
+interest-rate sensitive deposits, including non-operational deposits and deposits held by non-bank financial 
+institutions, in the total deposits at the U.S. G-SIBs are somewhat smaller today than in late-2015.  (Based on FR 
+2052 data, they fell from 19 to 17 percent and from 21 to 18 percent, respectively, between December 2015 and 
+February 2022).  In particular, the share of non-operational deposits in the total deposits held by non-supervised 
+financial institutions at G-SIBS fell (from 42 to 33 percent).  Furthermore, once the balance sheet runoff begins and 
+the amount of reserves in the banking system declines, banks may become more concerned with retaining deposits 
+for liquidity purposes, since the LCR requirements are fully implemented now compared to 2015.   
+
+15 
+
+ 
+ 
+ 
+Figure 12.a: Projected bank flows to MMFs     Figure 12.b: Projected ON RRP take-up by MMFs 
+
+Source: Staff projections. 
+Note: These figures plot projected bank flows to MMFs (Figure 12.a) and ON RRP take-up by MMFs (Figure 
+12.b) under the baseline scenario (the blue line) and alternative scenarios representing upside risk to bank 
+flows to MMFs: 1) a scenario of wider MMF yield-deposit rate spread (in orange), and 2) a scenario of higher 
+sensitivity  to  the  MMF  yields-deposit  rate  spread  (on  grey).  ON  RRP  take-up  by  MMFs  for  2022:Q1  is 
+historical and it is shown as a reference. 
+
+5.2. Higher share of ON RRP in MMFs portfolio 
+
+We consider two additional scenarios that would lead to a higher projected share of ON RRP in 
+MMFs’ portfolio: First, SOFR trading at the ON RRP rate for an extended time (through 2022) 
+and second, net Treasury bill issuance lower than projected (a 50% drop in T-bill issuance). 
+
+Figure 13 plots projected ON RRP take-up by MMFs for these alternative scenarios along with 
+our baseline projections.  In the first scenario, ON RRP take-up by MMFs would continue to 
+increase and hover around $1.8 trillion through the end of 2022 (Figure 13, purple line).  The 
+effect of the second scenario’s lower Treasury bill issuance (Figure 13, green line) is somewhat 
+smaller, as the baseline increase in net Treasury bill issuance is relatively small compared to the 
+level of ON RRP take-up, but still implies a substantial deviation from the baseline projection.  
+In either of these cases, ON RRP take-up would likely be larger and could remain close to recent 
+levels throughout 2022.  
+
+16 
+
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 13: Projected ON RRP take-up by MMFs ($ bill) 
+
+Source: Staff projections 
+Note: This figure plot projected ON RRP take-up by MMFs under the baseline scenario (the blue line) and 
+alternative scenarios representing upside risk to ON RRP take-up by MMFs. The purple line plots projected 
+ON RRP take-up by MMFs under a scenario of SOFR trading at the ONRRP offering rate through 2022. The 
+green line plots the projected ON RRP take-up by MMFs under a scenario of a 50 percent drop in net Treasury 
+bill  issuance  through  2024.  ON  RRP  take-up  by  MMFs  for  2022:Q1  is  historical  and  it  is  shown  as  a 
+reference. 
+
+6.  Conclusion 
+
+Based on the historical experience from past monetary tightening cycles and using the future 
+path of the FFR from the June 2022 Desk Survey, we project that the flows from bank deposits 
+to MMFs would be relatively small through 2024, in line with the flows observed during past 
+episodes of FFR increases.  The resulting flows to the ON RRP facility would also be relatively 
+small.  Instead, other factors such as the private demand for repo funding and the net supply of 
+Treasury bills are expected to have more substantial effects on ON RRP take-up than the flows 
+from bank deposits to MMFs.   
+
+Importantly, there is considerable uncertainty around our projections, given differences between 
+the current tightening cycle and the past.  To take this uncertainty into account, we show that 
+under alternative scenarios, bank deposit flows could be larger or MMFs’ portfolio allocation at 
+the ON RRP facility could be higher than our baseline projections.  However, we find that the 
+most substantial changes to our baseline estimates of ON RRP take-up would arise from lower-
+than-projected rates for private repo funding or a lower-than-projected net Treasury bill issuance, 
+rather than from the factors shaping the flows from bank deposits to MMFs.   
+
+17 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+References 
+
+Anderson, Alyssa, and Jeffrey Huther (2016). “Modelling Overnight RRP Participation,” 
+Finance and Economics Discussion Series 2016-023. Washington: Board of Governors of the 
+Federal Reserve System, http://dx.doi.org/10.17016/FEDS.2016.023 
+
+Castro, Andrew, Michele Cavallo, and Rebecca Zarutskie (2022). "Understanding Bank Deposit 
+Growth during the COVID-19 Pandemic," FEDS Notes. Washington: Board of Governors of the 
+Federal Reserve System, June 06, 2022, https://doi.org/10.17016/2380-7172.3133.  
+
+Drechsler, Itamar, Alexi Savov, and Philipp Schnabl (2017). “The Deposits Channel of Monetary 
+Policy,” The Quarterly Journal of Economics, Volume 132, Issue 4, November 2017, Pages 
+1819–1876, https://doi.org/10.1093/qje/qjx019. 
+
+Driscoll, John C. and Ruth Judson (2013). "Sticky Deposit Rates," Finance and Economics 
+Discussion Series 2013-80, Board of Governors of the Federal Reserve System (U.S.). 
+
+Neumark, David and Steven A. Sharpe (1992).  “Market Structure and the Nature of Price 
+Rigidity: Evidence from the Market for Consumer Deposits Get access Arrow,”  The Quarterly 
+Journal of Economics, Volume 107, Issue 2, May 1992, Pages 657–680, 
+https://doi.org/10.2307/2118485  
+
+Han, Song, Kleopatra Nikolaou, and Manjola Tase (2022). “Trading relationships in secured 
+markets: Evidence from triparty repos,” Journal of Banking & Finance, Volume 139, 2022, 
+https://doi.org/10.1016/j.jbankfin.2022.106486. 
+
+Appendix: Data Sources 
+
+EFFR: Federal Reserve Bank of New York 
+
+Bank deposit rates: S&P Global, SNL Depository Rates (RateWatch) 
+
+MMFs asset under management, yields net of fees:  iMoneyNet, Inc. 
+
+ON RRP take up: Federal Reserve Bank of New York 
+
+SOFR: Federal Reserve Bank of New York 
+
+Bank deposits, MMF share amounts: Financial Accounts of the U.S., the Z.1 statistical release 
+
+18 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Table 1 Regression results, MMF shares/bank deposit ratios on MMF yields-deposit rate spreads 
+
+VARIABLES
+
+Spread_institutional
+
+Spread_institutional*Tighten
+
+Spread_retail
+
+Spread_retail*Tighten
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+Ratio,
+non-financial corporates
+
+Ratio,
+financial institutions
+
+Ratio,
+households
+
+0.00474
+(0.0415)
+
+0.177***
+(0.0385)
+
+0.000473
+(0.0428)
+-0.00749
+(0.127)
+
+0.174***
+(0.0389)
+-0.0215
+(0.115)
+
+0.0245***
+(0.00706)
+
+Observations
+R-squared
+Standard errors in parentheses
+*** p<0.01, ** p<0.05, * p<0.1
+The explanatory variables is constructed as an average of the current and four lags of the spread.
+Coefficients on indicator variables for tightening episodes and constant not reported.
+
+86
+0.113
+
+88
+0.292
+
+88
+0.000
+
+88
+0.197
+
+88
+0.084
+
+0.0239***
+(0.00678)
+-0.0222
+(0.0205)
+
+86
+0.404
+
+Table 1 shows regression results from estimating the historical relationship between the ratio of 
+MMF shares to bank deposits and the spread between MMF yields net of fees and bank deposit 
+rates, separately for the holdings of non-financial corporates, financial institutions, and 
+households, using quarterly data from 2000:Q1 to 2021:Q4.  We use institutional spreads 
+separately for financial institutions and non-financial corporates, and retail spreads for 
+households.  To capture lagged effects of the spreads on ratios, we use the five-quarter moving 
+average of the spread taking its contemporaneous value and four lags as the explanatory variable.  
+
+19 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Table 2 Regression results: ON RRP take-up by MMFs as a share of MMFs AUM 
+
+weekly data
+variables
+
+SOFR ‐ONRRP (bps)
+
+NetTreasBills ($ bill)
+
+L.( RRP take‐up/AUM)
+
+Constant
+
+(1)
+
+(2)
+Oct. 2015‐ Apr.2018  Apr.2021‐Dec. 2021 Apr.2021‐Dec. 2021
+RRP take‐up/AUM RRP take‐up/AUM D.( RRP take‐up/AUM)
+
+(3)
+
+‐0.000866*
+(0.000522)
+‐0.000171***
+(5.54e‐05)
+
+0.0507***
+(0.00495)
+
+‐0.00699*
+(0.00350)
+‐0.000135***
+(3.61e‐05)
+0.964***
+(0.0241)
+0.0132**
+(0.00583)
+
+39
+0.988
+
+‐0.00222
+(0.00292)
+‐0.000145***
+(3.35e‐05)
+
+0.00521**
+(0.00199)
+
+39
+0.265
+
+Observations
+R‐squared
+Robust standard errors in parentheses
+*** p<0.01, ** p<0.05, * p<0.1
+
+127
+0.108
+
+Table 2 shows regression results estimating the historical relationship between ON RRP take-up 
+by MMFs as a share of AUM, SOFR-ON RRP spread and net Treasury bill issuance.  The table 
+shows regression results separately for two periods (the previous episode (October 2015-April 
+2018) and recent period (April 2021-December 2021)) and two specifications (level and changes 
+for ON RRP/AUM).   
+
+20 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Table 3: Regression results: SOFR-ONRRP spread 
+
+Oct.2015‐Dec.2021
+SOFR‐ONRRP (bps)
+
+Oct.2015‐Dec.2021
+SOFR‐ONRRP (bps)
+
+weekly data
+variables
+
+FFR (bps)
+
+D.SOMA ($ bill)
+
+NetTreasBill ($bill)
+
+Constant
+
+0.0514***
+(0.00433)
+‐0.0192***
+(0.00562)
+
+5.952***
+(0.606)
+
+Observations
+R‐squared
+Robust standard errors in parentheses
+*** p<0.01, ** p<0.05, * p<0.1
+
+326
+0.309
+
+0.0512***
+(0.00432)
+‐0.0217***
+(0.00747)
+0.00629
+(0.00683)
+5.950***
+(0.606)
+
+326
+0.310
+
+Table 3 shows regression results estimating the historical relationship between SOFR-ON RRP 
+spread and rate tightening (measured by FFR) and quantitative tightening (change in SOMA 
+holdings).  
+
+21 
+
+ 
+ 
+ 
+ 
+ 
+ 
+

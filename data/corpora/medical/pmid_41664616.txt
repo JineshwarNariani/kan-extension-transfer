@@ -1,0 +1,103 @@
+
+PMID- 41664616
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260210
+LR  - 20260218
+IS  - 2046-4924 (Electronic)
+IS  - 1366-5278 (Print)
+IS  - 1366-5278 (Linking)
+VI  - 30
+IP  - 16
+DP  - 2026 Feb
+TI  - The clinical and cost-effectiveness of paravertebral blockade versus thoracic 
+      epidural blockade in reducing chronic post-thoracotomy pain: TOPIC2 RCT synopsis.
+PG  - 1-21
+LID - 10.3310/GJFG1715 [doi]
+AB  - BACKGROUND: More than a third of patients undergoing thoracotomy suffer from 
+      debilitating chronic post-thoracotomy pain lasting months or years 
+      postoperatively. Aggressive management of acute pain during the perioperative 
+      period may mitigate this risk. OBJECTIVE(S): To determine the clinical and 
+      cost-effectiveness of paravertebral blockade compared to thoracic epidural 
+      blockade, by testing the hypothesis that paravertebral blockade reduces the 
+      incidence of chronic post-thoracotomy pain. DESIGN AND METHODS: A parallel, open, 
+      multicentre, randomised controlled with integrated health-economic evaluation and 
+      an internal pilot that incorporated a qualitative recruitment intervention. 
+      SETTING AND PARTICIPANTS: Adult patients undergoing thoracotomy in 15 United 
+      Kingdom centres. INTERVENTIONS: Paravertebral blockade compared to thoracic 
+      epidural blockade. MAIN OUTCOME MEASURES: The primary outcome was the presence of 
+      chronic post-thoracotomy pain at 6 months post randomisation defined as 'worst 
+      chest pain over the last week' of at least moderate intensity, with a visual 
+      analogue scale score >/= 40 mm. Secondary outcomes included visual analogue scale 
+      pain scores in the acute (days 1, 2, 3 and discharge) and chronic (3, 6 and 12 
+      months) phases postoperatively; Brief Pain Inventory; Short Form McGill Pain 
+      Questionnaire 2; Hospital Anxiety and Depression Scale; patient satisfaction; 
+      analgesia use in the acute and chronic phases; complications (analgesic, surgical 
+      and pulmonary) and mortality. For the economic evaluation, the EuroQol-5 
+      Dimensions, five-level version questionnaire was utilised. RESULTS: Between 8 
+      January 2019 and 29 September 2023, 770 patients underwent randomisation; 33 did 
+      not proceed to thoracotomy. At 6 months, 59 (22%) of 272 participants in the 
+      paravertebral blockade group and 47 (16%) of 292 in the thoracic epidural 
+      blockade group developed chronic pain [adjusted risk ratio = 1.32 (95% confidence 
+      interval 0.93 to 1.86); adjusted risk difference = 0.05 (95% confidence interval 
+      -0.01 to 0.11); p = 0.12]. During the acute phase, both worst and average pain 
+      was higher on day 1 with paravertebral blockade [adjusted mean difference 7.7 mm 
+      (95% confidence interval 2.8 to 12.5) and 7.0 mm (95% confidence interval 2.7 to 
+      11.2), respectively] but not different on days 2 and 3. Hypotension was less 
+      common in the paravertebral blockade group [adjusted risk ratio = 0.66 (95% 
+      confidence interval 0.46 to 0.94)], and overall complications were comparable 
+      between groups. The health-economic analysis demonstrated that thoracic epidural 
+      blockade produced an additional 0.04 quality-adjusted life-years when compared to 
+      paravertebral blockade, and was associated with slightly lower costs, but these 
+      differences were not statistically significant. LIMITATIONS: The main limitation 
+      is the reduced sample size from 1026 to 770, which reduced the associated power 
+      from 90% to 80%. The key reasons are related to practice change over time 
+      resulting in a downgrade in equipoise and the COVID pandemic. Also, we cannot 
+      rule out that lack of blinding may have had some impact on the acute phase 
+      outcomes. CONCLUSIONS: In our study, paravertebral blockade and thoracic epidural 
+      blockade appear to be equivalent in clinical and cost-effectiveness in preventing 
+      chronic post-thoracotomy at 6 months; this may be paving the way for both 
+      techniques likely to continue in National Health Service thoracic settings, based 
+      on clinician and patient's choices. FUTURE WORK: Using full TOPIC-2 data sets, 
+      defined according to the European Society of Thoracic Surgeons data set, to 
+      explore the trajectory of the development from acute to chronic post-surgery 
+      pain. FUNDING: This synopsis presents independent research funded by the National 
+      Institute for Health and Care Research (NIHR) Health Technology Assessment 
+      programme as award number 16/111/111.
+FAU - Shelley, Ben
+AU  - Shelley B
+AUID- ORCID: 0000-0001-6771-9659
+AD  - Anaesthesia, Perioperative Medicine and Critical Care Research Group, University 
+      of Glasgow, Glasgow, UK.
+AD  - Department of Cardiothoracic Anaesthesia, Golden Jubilee National Hospital, 
+      Clydebank, UK.
+FAU - Middleton, Lee
+AU  - Middleton L
+AUID- ORCID: 0000-0003-4621-1922
+AD  - Birmingham Clinical Trials Unit, University of Birmingham, Birmingham, UK.
+FAU - Goebel, Andreas
+AU  - Goebel A
+AUID- ORCID: 0000-0002-3763-8206
+AD  - Pain Research Institute, ILCAMS, Clinical Sciences Centre, University of 
+      Liverpool, Liverpool, UK.
+AD  - Liverpool and Walton Centre NHS Foundation Trust, Liverpool, UK.
+FAU - Grant, Stephen
+AU  - Grant S
+AD  - Patient and Public Partner.
+FAU - Jackson, Louise
+AU  - Jackson L
+AUID- ORCID: 0000-0001-8492-0020
+AD  - Department of Applied Health Sciences, University of Birmingham, Birmingham, UK.
+FAU - Javed, Mishal
+AU  - Javed M
+AUID- ORCID: 0009-0007-5095-4231
+AD  - Department of Applied Health Sciences, University of Birmingham, Birmingham, UK.
+FAU - Jepson, Marcus
+AU  - Jepson M
+AUID- ORCID: 0000-0003-3261-1626
+AD  - Population Health Sciences, University of Bristol, Bristol, UK.
+FAU - Marczin, Nandor
+AU  - Marczin N
+AUID- ORCID: 0000-0003-3690-5891
+AD  - Imperial College London, London, UK.
+AD  - Royal Brompton and Harefield NHS Foundation Tr

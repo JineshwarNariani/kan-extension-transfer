@@ -1,0 +1,122 @@
+
+PMID- 41803575
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260310
+LR  - 20260423
+IS  - 1432-1076 (Electronic)
+IS  - 0340-6199 (Print)
+IS  - 0340-6199 (Linking)
+VI  - 185
+IP  - 3
+DP  - 2026 Mar 10
+TI  - Multi-center investigation on the influence of clinical characteristics and 
+      molecular group A streptococci diagnostics on the management of 
+      tonsillopharyngitis in pediatric practices in Berlin-BASE study.
+LID - 10.1007/s00431-026-06818-5 [doi]
+LID - 170
+AB  - A clear distinction between viral, bacterial, or non-infectious 
+      tonsillopharyngitis is not always possible due to overlapping clinical symptoms. 
+      Patient near point-of-care diagnostics may contribute to supporting clinical 
+      assessment and, in turn, guide antibiotic treatment. We performed a prospective 
+      cluster-randomized multi-center study with cross-over design in 25 pediatric 
+      offices located in and around the city of Berlin, Germany, from December 2023 to 
+      May 2024. The primary objective was to determine whether using a rapid molecular 
+      point of care test (mPOC) reduces antibiotic prescription rates in children 3 to 
+      <18 years of age with febrile tonsillopharyngitis. As a secondary objective, sick 
+      days, re-assessments, and hospitalizations were evaluated. A total of 1111 
+      patients were included in the final analysis. A positive test result in the mPOC 
+      group was observed in 67.1% (n = 471/702) and 65.8% (n = 194/295) in the standard 
+      care (SC) control group (which had optional rapid antigen testing). 
+      Interestingly, only 27.9% (n = 114/409) of children in the SC group were managed 
+      exclusively on a clinical diagnosis. Overall, two-thirds of all patients received 
+      a prescription for antibiotics (67.2%; n = 747/1111), with no significant 
+      difference between the study groups. In 95.5% (n = 635/665) of children with a 
+      positive test, an antibiotic was prescribed, as well as in 10.8% (n = 36/332) of 
+      test-negative cases. The probability of prescribing antibiotics was significantly 
+      higher when the McIsaac score was >/=3 (OR =4.67 (CI 95% 3.22-6.79, p < 0.0001)). 
+      In patients <5 years, the number of sick leave days was 37% higher than in older 
+      ones (IRR = 1.37 (95% CI 1.18-1.59, p<0.0001)). CONCLUSION:  A McIsaac score >/= 3 
+      and a positive streptococcal test result were strong drivers for antibiotic 
+      prescription. No difference in antibiotic prescription rates between study groups 
+      was observed. Antibiotic usage was high in our patient cohort and requires 
+      further efforts regarding diagnostic and antibiotic stewardship. 
+      Tonsillopharyngitis also utilized substantial resources during follow-up. WHAT IS 
+      KNOWN: * A clear distinction between viral, bacterial, or non-infectious 
+      pharyngitis is not always possible due to the overlapping clinical symptoms. * 
+      Rapid antigen tests (RADT) or molecular diagnostic tests (mPOC) as part of 
+      point-of-care testing may contribute to antibiotic treatment guidance. WHAT IS 
+      NEW: * In children with febrile tonsillopharyngitis, we could not observe a 
+      reduction in antibiotic prescription rates using mPOC compared to routine care, 
+      including RADT. * Further efforts regarding diagnostic and antibiotic stewardship 
+      are warranted. Trial registration number (DRKS-ID): DRKS00034362.
+CI  - (c) 2026. The Author(s).
+FAU - Hain, Helena
+AU  - Hain H
+AD  - Charite-Universitatsmedizin Berlin, Chariteplatz 1, 10117, Berlin, Germany.
+FAU - Jeanbat, Viviane
+AU  - Jeanbat V
+AD  - Cemka, 43 Boulevard du Marechal Joffre, 92340, Bourg-La-Reine, France.
+FAU - Nevoret, Camille
+AU  - Nevoret C
+AD  - Cemka, 43 Boulevard du Marechal Joffre, 92340, Bourg-La-Reine, France.
+FAU - Bureau, Isabelle
+AU  - Bureau I
+AD  - Cemka, 43 Boulevard du Marechal Joffre, 92340, Bourg-La-Reine, France.
+FAU - Tenenbaum, Tobias
+AU  - Tenenbaum T
+AD  - Clinic for Child and Adolescent Medicine, Sana Klinikum Lichtenberg, Academic 
+      Teaching Hospital Charite-Universitatsmedizin Berlin, Fanningerstr. 32, 10365, 
+      Berlin, Germany. tobias.tenenbaum@sana.de.
+LA  - eng
+PT  - Journal Article
+PT  - Multicenter Study
+PT  - Randomized Controlled Trial
+DEP - 20260310
+PL  - Germany
+TA  - Eur J Pediatr
+JT  - European journal of pediatrics
+JID - 7603873
+RN  - 0 (Anti-Bacterial Agents)
+SB  - IM
+MH  - Humans
+MH  - Child
+MH  - Child, Preschool
+MH  - *Tonsillitis/diagnosis/drug therapy/microbiology
+MH  - *Pharyngitis/diagnosis/drug therapy/microbiology
+MH  - Male
+MH  - Female
+MH  - *Anti-Bacterial Agents/therapeutic use
+MH  - Prospective Studies
+MH  - *Streptococcal Infections/diagnosis/drug therapy/microbiology
+MH  - Adolescent
+MH  - *Streptococcus pyogenes/isolation & purification/genetics
+MH  - Cross-Over Studies
+MH  - Berlin
+MH  - *Point-of-Care Testing
+MH  - *Practice Patterns, Physicians'/statistics & numerical data
+MH  - Germany
+PMC - PMC12971793
+OTO - NOTNLM
+OT  - Antibiotics
+OT  - Children
+OT  - Diagnostic stewardship
+OT  - Group A Streptococcus
+OT  - Point-of care diagnostics
+COIS- Declarations. Competing interests: The BASE-study was supported by an 
+      unrestricted grant from Abbott Rapid Diagnostics to the Sana Klinikum 
+      Lichtenberg, Academic Teaching Hospital of the Charite, Berlin. VJ, CN, IB 
+      received an honorarium by Abbott Rapid Diagnostics. The funder of the BASE-study 
+      had no role in the study design, data collection, data analysis, data 
+      interpretation, or the writing of the report. The corresponding author had full 
+      access to all the data in the study and had final responsibility for the decision 
+      to submit for publication.. TT is an editor of the European Journal of 
+      Pediatrics.
+EDAT- 2026/03/10 07:00
+MHDA- 2026/03/10 07:01
+PMCR- 2026/03/10
+CRDT- 2026/03/10 00:35
+PHST- 2025/10/11 00:00 [received]
+PHST- 2026/02/19 00:00 [accepted]
+PHST- 2026/02/15 00:00 [revised]
+PHST- 2026/03/10 07:01 [m

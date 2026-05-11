@@ -1,0 +1,3650 @@
+BIS Working Papers 
+No 1070 
+Theory of supply chains: 
+a working capital 
+approach 
+
+by Se-Jik Kim and Hyun Song Shin 
+
+Monetary and Economic Department 
+
+January 2023 (revised October 2024)
+
+JEL classification: F23, F36, G15, G21, L23. 
+
+Keywords: global value chains, offshoring, 
+trade finance 
+
+BIS  Working  Papers  are  written  by  members  of  the  Monetary  and  Economic 
+Department of the Bank for International Settlements, and from time to time by other 
+economists,  and  are  published  by  the  Bank.  The  papers  are  on  subjects  of  topical 
+interest and are technical in character. The views expressed in them are those of their 
+authors and not necessarily the views of the BIS. 
+
+This publication is available on the BIS website (www.bis.org). 
+
+©  Bank for International Settlements 2023. All rights reserved. Brief excerpts may be 
+
+reproduced or translated provided the source is stated. 
+
+ISSN 1020-0959 (print) 
+ISSN 1682-7678 (online) 
+
+Theory of supply chains:
+a working capital approach(cid:3)
+
+Se-Jik Kim
+Seoul National University
+
+Hyun Song Shin
+Bank for International Settlements
+
+Revised, October 13, 2024
+
+Abstract
+
+This paper presents a “time-to-build”theory of supply chains which
+implies a key role for the …nancing of working capital as a determinant
+of supply chain length. We apply our theory to global value chains
+(GVCs) and trade, where …rms strike a balance between the produc-
+tivity gain from longer GVCs against the greater …nancial cost due to
+longer supply chains. In equilibrium, there is a duality between real
+activity and …nancial conditions, where more accommodative …nancial
+conditions are associated with higher output.
+
+JEL codes: F23, F36, G15, G21, L23
+Keywords: global value chains, global liquidity, trade …nance
+
+(cid:3)This paper is a revised version of Kim and Shin (2013) “Working capital, trade
+and macro ‡uctuations”. We thank Pol Antras, Alan Blinder, Frederic Boissay, Gor-
+don Hanson, Deniz Igan, Oleg Itskhoki, Sebnem Kalemli-Ozcan, Enisse Kharroubi, An-
+ton Korinek, Bob Lucas, Ben Moll, Esteban Rossi-Hansberg, Nikhil Patel, Phurichai
+Rungcharoenkitkul, Felipe Schwartzman, Ilhyock Shim, Nancy Stokey, David Weinstein
+and Chenzi Xu for comments on various earlier versions of this paper. The views expressed
+here are those of the authors and not necessarily those of the Bank for International Set-
+tlements.
+
+1
+
+1 Introduction
+
+Production takes time. Working capital in the form of inventories and re-
+
+ceivables bridges the timing mismatch between incurring costs and realizing
+
+cash ‡ow from sales. Inventories and receivables are assets of the …rm and
+
+are …nanced by counterparts on the liabilities side of the balance sheet.
+
+We propose a theory of supply chains based on the insight that the length
+
+of the supply chain formed by a group of …rms determines the aggregate level
+
+of working capital needed to sustain the supply chain. Longer supply chains
+
+imply greater …nancing needs, but may bring real economic bene…ts such
+as higher productivity. Financing conditions then determine the terms of
+
+the tradeo¤ between real and …nancial considerations. As …nancial condi-
+
+tions ‡uctuate, the optimal investment in working capital will also ‡uctuate.
+
+Looser …nancing conditions lengthen optimal supply chains and increase the
+demand for working capital. Conversely, when …nancial conditions tighten,
+
+there is a corresponding contraction of working capital as …rms choose a
+
+shorter horizon for their cash‡ows, entailing a contraction of working capi-
+
+tal. In this sense, there is a duality between …nancing conditions and real
+economic outcomes. This duality introduces an important channel for …nan-
+
+cial conditions to a¤ect real economic outcomes.
+
+Figure 1 illustrates this relationship between working capital and …nancial
+
+conditions in a vivid way. The panels in Figure 1 show the median annual
+growth rate of accounts receivable for a balanced global panel of manufac-
+
+turing …rms from Capital IQ together with various measures of …nancial
+
+conditions.
+
+The top left panel plots the median annual growth of accounts receivable
+with the annual change of the Goldman Sachs Financial Conditions Index
+
+(FCI). Higher FCI values indicate tighter …nancial conditions. The top right
+
+panel shows the scatter chart of this relationship. We see that tighter …nan-
+
+cial conditions are associated with a contraction in accounts receivable. The
+middle row of panels plots the co-movement of accounts receivable growth
+
+with the growth of dollar-denominated credit to non-banks outside the United
+
+States from the BIS global liquidity indicator (GLI) statistics. We see that
+
+2
+
+Figure 1. Working capital and …nancial conditions. These panels show the median
+annual growth rate of accounts receivable for a balanced global panel of manufacturing
+…rms from Capital IQ together with measures of …nancial conditions. The top left panel
+plots the median annual growth of accounts receivable with the annual change of the Gold-
+man Sachs Financial Conditions Index (FCI). Higher FCI values indicate tighter …nancial
+conditions. The top right panel shows the scatter chart of this relationship. The middle
+row plots the accounts receivable growth with the growth of dollar-denominated credit to
+non-banks outside the United States (from BIS GLI statistics). The bottom panels show
+accounts receivables growth with the annual growth of dollar FX swaps outstanding (from
+the BIS OTC derivatives statistics). In all three instances more accommodative …nancial
+conditions are associated with higher accounts receivable growth.
+
+3
+
+bbbaccounts receivable growth co-move with global dollar credit growth. Fi-
+
+nally, the bottom two panels show the co-movement of accounts receivables
+
+growth with the annual growth of dollar FX swaps outstanding (from the
+
+BIS OTC derivatives statistics). In all three instances more accommodative
+…nancial conditions are consistently associated with more expansive accounts
+
+receivable.
+
+Our theory of supply chains has a distinctively ‘Austrian’‡avor, in that
+
+longer supply chains are associated with higher productivity and output, so
+that the optimal investment in working capital considers the time dimension
+
+of production. The ‘Austrian’label makes reference to the idea of “round-
+
+about production”in the terminology of Böhm-Bawerk (1884) and the Aus-
+
+trian school of capital theory, where the output from one stage of production
+can be used as an input into production at a subsequent step. Antras (2022,
+
+2023) has breathed new life into the Austrian approach in studying global
+
+value chains and trade.
+
+We develop our theory in two stages. In the …rst stage, we derive the
+determinants of total working capital taking as given the …nancing cost facing
+
+…rms in the global value chain. Our theory draws a close analogy between the
+investment in working capital and the investment in physical capital. Ramey
+(1989) …rst pioneered such an approach. The solution for the optimal working
+capital for any given …nancing cost can also be interpreted as the demand
+for credit as a function of the …nancing cost.
+
+In the second stage, we close the model by combining the demand for
+
+credit with a credit supply function with a key role for a parameter for bank
+leverage that can capture the ebb and ‡ow of …nancial conditions. Higher
+
+bank leverage is associated with higher credit supply and hence more per-
+
+missive …nancial conditions. The resulting equilibrium outcome for working
+
+capital, supply chain length and total output is determined by the parameter
+for …nancing conditions, establishing the duality between real and …nancial
+
+variables in the economy.
+
+By highlighting the analogy between physical capital and working capi-
+
+tal, our theory connects with the classic theme of inventories as a driver of
+output ‡uctuations (Blinder (1986), Ramey (1989)). Rather than being a
+
+4
+
+bu¤er stock, inventories re‡ect the active choice of working capital by …rms.
+
+Indeed, Ramey (1989) has the title: “Inventories as a factor of production”.
+
+The extent of roundabout production determines the investment in work-
+
+ing capital, and …rms strike the optimal balance between the productivity
+gains from working capital against the greater cost of that working capital.
+
+Kashyap, Lamont and Stein (1994) documented the sensitive nature of inven-
+
+tories to …nancial conditions, especially to shocks that reduced bank credit
+
+supply.
+
+While the early literature on inventories and output ‡uctuations focused
+
+on the domestic context, our theory has greatest applicability in the interna-
+
+tional context given the central role of supply chains in international trade.
+
+Most closely related to our paper is the recent work of Antras (2022, 2023)
+who proposes an ‘Austrian’theory of global value chains and international
+
+trade where …rms engage in sequential production with a pre-determined
+
+number of stages, but in which the time length of each stage is a choice vari-
+
+able in the spirit of Findlay (1978). In such a setting, a lower interest rate
+is associated with longer production times at each stage, higher wages and
+
+higher …nal goods output.
+
+Compared to Antras (2022), our theory focuses on the complementary no-
+tion of ‘roundaboutness’in the number of stages in the supply chain, which
+proves useful in highlighting the inherently non-linear nature of working capi-
+
+tal costs as supply chains lengthen. As such, our theory highlights the greater
+
+vulnerability of longer supply chains to a tightening of …nancial conditions.
+
+The non-linearity stems from earlier vintages of inventories re‡ecting more
+rounds of value-added. As a simple example, a …rm with n production stages
+would be carrying n vintages of inventories. For simplicity, suppose the in-
+ventories (going from the newest to the oldest) are valued at v; 2v;
+; nv.
+(cid:1) (cid:1) (cid:1)
++ nv, which
+Then steady state working capital is the sum: v + 2v +
+increases at the rate of the square of the length of the production chain.
+
+(cid:1) (cid:1) (cid:1)
+
+In this way, the working capital necessary to sustain the production
+
+chain becomes highly sensitive to the length of the chain, necessitating much
+
+greater incremental …nancing needs as production chains become longer. The
+upshot is that tighter …nancial conditions bite harder for longer supply chains.
+
+5
+
+One key contribution of our theory is to close the model and to derive
+
+the equilibrium interest rate as a function of credit supply. As with Antras
+
+(2022), a lower interest rate in our model is associated with higher output,
+
+higher productivity and wages. Antras (2022) introduces a capital market
+where the interest rate follows from the rate of time preference of agents. In
+
+our case, the model is closed by credit market clearing.
+
+In the context of international trade, the length of supply chains has a
+
+direct bearing on the ratio of gross sales to value-added. We apply our frame-
+work to the optimal o¤shoring decision of a multinational …rm. Even when
+
+the sequential production process is largely determined by the technology, a
+
+multinational …rm may nevertheless have considerable leeway to choose its
+
+production time pro…le through the extent of o¤shoring. O¤shoring can lower
+costs and raise productivity, but the …nancial cost of holding larger invento-
+
+ries introduces a countervailing element. The …rm must …nance inventories
+
+in transit as assets on the balance sheet, and the cost of …nancing will a¤ect
+
+the net bene…ts of o¤shoring. We derive closed form solutions and show that
+the ratio of trade to value-added ‡uctuates with …nancial conditions. Easier
+
+credit conditions are associated with higher trade volumes, higher inventories
+
+and higher productivity.
+
+Our focus on …nancial conditions as a determinant of trade volumes places
+our work in the literature on trade and …nance. It is well understood that
+
+merchanise trade is dependent on trade …nance for working capital (Amiti
+
+and Weinstein (2011), Niepmann and Schmidt-Eisenlohr (2017a), Bruno and
+
+Shin (2023)) and that global banks play the key intermediation role (BIS
+(2014), Niepmann and Schmidt-Eisenlohr (2017b), Claessens and Van Horen
+
+(2021), Goldberg (2023) and Matray et al. (2024)). Hardy and Sa¢ e (2024)
+
+and Hardy, Sa¢ e and Simonovska (2024) show that trade credit between
+
+non-…nancial …rms also ‡uctuates in line with global conditions.
+
+The study by Matray et al. (2024) is especially notable. They use the tem-
+
+porary shutdown of the Export-Import Bank of the United States (EXIM) as
+
+a natural experiment to estimate the real economy impact of trade …nancing
+
+and conclude that a 1 percent decrease in EXIM trade …nancing is associated
+with a 5 percent decrease in total exports. Minetti et al. (2019) …nd that
+
+6
+
+credit conditions play a role in …rms’decision to participate in supply chains.
+
+Our theory sheds light on the possible mechanisms involved.
+
+Our theory has a point of contact with the literature on global factors
+
+in trade and macro ‡uctuations. Rey (2013), Miranda-Aggripina and Rey
+(2022) and Goldberg (2023) have highlighted the importance of global …nan-
+
+cial factors in the ‡uctuations of …nancial conditions across economies. There
+
+is now a growing literature that has noted that the dollar exchange rate itself
+
+is a global factor. The broad dollar index has attributes of a barometer of …-
+nancial conditions, whereby a stronger dollar is associated with tighter credit
+
+conditions and a slower growth in trade (Avdjiev et al. (2019a), Avdjiev et
+
+al.
+
+(2019b), Bruno and Shin (2015, 2023), Bruno, Kim and Shin (2018),
+
+Caballero, Candelaria and Hale (2018), Cao and Dinger (2022), Lilley et al.
+(2022) and Obstfeld and Zhou (2022)).
+
+In a micro study of export shipments, Bruno and Shin (2023) show that
+
+exporting …rms that are more reliant for credit from banks that have a greater
+
+reliance on wholesale dollar funding su¤er a sharper slowdown in exports
+due to the greater ‡uctuations in credit availability from such banks. They
+
+…nd that exports to the United States are subject to the same e¤ects as
+
+exports to other destinations, even though a stronger dollar would entail an
+
+unambiguous improvement in trade competitiveness for the exporting …rm.
+The evidence on exports to the United States allows the disentangling of
+
+the …nancial channel from the invoicing channel (Gopinath et al., 2020),
+
+as the invoicing currency (US dollars) coincides with the currency of the
+
+importer. Cook and Patel (2022) show in a model with dollar invoicing that
+a contractionary monetary shock reduces the ratio of gross to value-added
+
+exports, a pattern con…rmed in the data.
+
+Our paper has a point of contact with the large literature on global value
+
+chains (see Antras and Chor (2022) for a survey) and the propagation of
+shocks through interconnected sectors (Di Giovanni, Kalemli-Ozcan, Silva
+
+and Yildrim (2022)). Our focus on the role of …nancing conditions also
+
+provides a point of comparison with the literature on trade volumes at times
+
+of …nancial crises, especially during the Great Financial Crisis of 2008 (Amiti
+and Weinstein (2011), Chor and Manova (2012) and Manova (2013)).
+
+7
+
+The remaining sections of this paper proceed as follows. Section 2 presents
+
+the benchmark model. Sections 3 explores trade volumes determined by
+
+optimal o¤shoring and its …nancial determinants. Section 4 discusses banks’
+
+choice of credit supply. Section 5 concludes.
+
+2 Benchmark ‘Austrian’Model
+
+We begin with an elementary model of supply chains that isolates the time
+
+dimension of production. There are no product or labor market frictions. The
+
+only friction is that production takes time, in the spirit of Böhm-Bawerk
+(1884).
+
+The time dimension of production is best explained through a diagram.
+
+Consider Figure 2 which depicts the inventories of a …rm with a three-stage
+
+production process. The …rm undertakes the …rst production stage at date
+1, sends the intermediate good to stage 2. At date 3, the …rm has three
+
+vintages of inventories. The oldest inventory (3 periods old) has the highest
+value (3v) re‡ecting greater inputs in the past. The next oldest inventory (2
+periods old) has the next highest value (2v), and so on.
+
+In this setting, the total stock of inventories carried by the …rm in steady
+state (given by v + 2v + 3v) can be represented by the area of the triangle in
+Figure 2. Since the area of the triangle is increasing at the rate of the square
+of the length of the production chain, the value of the stock of inventories
+is also increasing at the same rate. In this way, the working capital need
+
+increases non-linearly with the length of the chain, necessitating much greater
+
+incremental …nancing needs as production chains become longer.
+
+2.1 Working capital and productivity
+
+Consider production that takes place through chains of length n. There
+is a population of L workers. There are …rms each owned by a penniless
+entrepreneur. In the elementary model, each …rm is matched with one worker,
+so that there are L=n production chains in the economy. Our general model
+examines the joint decision to allocate labor and choose the length of the
+
+supply chain.
+
+8
+
+Figure 2. Inventories of a …rm with a three-stage production process. At date 3, the …rm
+has three vintages of inventories, and older vintages have higher value re‡ecting greater
+inputs in the past.
+
+Within each production chain, there is a consumer-facing …rm, labeled as
+…rm n, which sells the …nal output. The other …rms produce intermediate
+inputs in the production of the …nal good. Firm 1 supplies its output to
+…rm 2, who in turn supplies output to …rm 3, and so on.
+
+There is a “time to build” element. It is assumed that …rms face a …xed
+
+unit of time to successfully complete each stage. This assumption recognizes
+
+that the production process of any intermediate or …nal product may inher-
+
+ently require a minimum …xed duration. Each step of the production process
+takes one unit of time, where time is indexed by t
+. A production
+chain of length n takes n units of time to produce the …nal output.
+
+(cid:1) (cid:1) (cid:1) g
+
+1; 2;
+
+2 f
+
+Although each step of the production process is identi…ed with a …rm, this
+
+is for narrative purposes only. In applied settings, our model may be better
+interpreted as a multi-plant …rm with each stage corresponding to a plant.
+
+The model is silent on where the boundary of the …rm lies along the chain.
+What matters is the aggregate …nancing need of the supply chain as a whole.
+For simplicity of exposition, we will say “…rm”with the understanding that
+they can be units of a single multi-plant …rm.
+
+Wage costs cannot be deferred and must be paid immediately in the
+
+period when the production is carried out. Labor is provided inelastically,
+and total labor supply is …xed at L. There is no physical capital. The wage
+rate is w per period. A production chain hires one worker for each stage.
+The cash‡ow to the chain is given in the table below.
+
+9
+
+date 1date 2date 3Stage33v2vvStage2Stage1n
+
+Firms
+1
+
+(cid:0)
+
+n
+
+(cid:1) (cid:1) (cid:1)
+
+2
+
+w
+
+(cid:0)
+
+w
+(cid:1) (cid:1) (cid:1) (cid:0)
+w
+(cid:1) (cid:1) (cid:1) (cid:0)
+w
+(cid:1) (cid:1) (cid:1) (cid:0)
+w
+(cid:1) (cid:1) (cid:1) (cid:0)
+...
+
+w
+(cid:0)
+w
+(cid:0)
+w
+(cid:0)
+...
+
+w
+
+w
+
+(cid:0)
+
+(cid:0)
+y (n)
+...
+
+cumulative
+cash‡ow
+w
+(cid:0)
+3w
+(cid:0)
+...
+
+1
+2 (n
+1)nw
+(cid:0)
+(cid:0)
+1
+2 n (n + 1) w
+(cid:0)
+
+1
+w
+w
+
+(cid:0)
+(cid:0)
+
+w
+(cid:0)
+w
+(cid:0)
+w
+(cid:0)
+w
+(cid:0)
+...
+
+date
+t
+
+1
+2
+...
+
+1
+
+n
+
+(cid:0)
+n
+n + 1
+...
+
+At date 1, …rm 1 begins production by hiring a worker and paying wages.
+It sends its output to …rm 2 at date 2. Firm 2 takes delivery and begins
+production at date 2, and sends the intermediate good to …rm 3 at date 3,
+and so on. Meanwhile, at date 2, …rm 1 starts another sequence of production
+by producing its output, which is sent to …rm 2 at date 3.
+
+The …rst positive cash‡ow to the chain comes at date n + 1 when …rm n
+sells the …nal output y (n). The cash transfer upstream is instantaneous, so
+that all upstream …rms are paid for their contribution to the output.
+
+Firms face a borrowing rate of r > 0. For the analysis in this section, we
+take r as given. We will later endogenize r by introducing a banking sector
+and solve for r as the equilibrium interest rate that clears the credit market.
+We assume for simplicity that …rms face a …nancing cost of zero in the
+initial set-up phase until the …rst positive cash‡ow materializes from the sale
+
+of the …nal good. In Appendix A, we provide the solution for the general
+
+case where …rms face positive interest cost from the outset, and show that
+
+the assumption of zero interest cost in the initial set-up phase is without loss
+of generality for our main results.
+
+The working capital needed in the initial set-up phase is given by:
+
+1
+2 n (n + 1) w
+
+(1)
+
+re‡ecting the sum of all wages paid until the …rst cash‡ow from the sale
+
+of the …nal good. Firms start with no equity and all …nancing is done by
+borrowing. Note that the total borrowing is of the order of the square of the
+
+10
+
+Figure 3. Pro…le of lenders’cash ‡ow from lending to a production chain of length n (light
+line) and to a chain of length n0 (dark line)
+
+length of the production chain, corresponding to the area of the “triangle”
+
+in the cash‡ow diagram above.
+
+There are L=n production chains, so that the aggregate working capital
+
+demand in the economy, denoted by K, is
+
+K = 1
+
+2 n (n + 1) w
+n + 1
+2
+
+wL
+
+=
+
+L
+n
+
+(cid:2)
+
+(2)
+
+For …rms, the choice of the length of the production chain takes account of
+
+the marginal increase in productivity from lengthening the chain against the
+
+increased cost of …nancing for working capital. From the lenders’perspective,
+the cash ‡ow is negative until date n, but then they start receiving interest
+payment on the outstanding stock of loans. Figure 3 compares the pro…le of
+
+lenders’cash ‡ows depending on the length of the supply chain. The green
+line gives the cash ‡ow pro…le by lending to a supply chain of length n, while
+the black line gives the pro…le from lending to a chain of length n0 > n.
+
+The production chain consisting of n stages has …nal output y (n), where
+
+y (n) = A(n)l
+
+(3)
+
+and l is total labor employed by the chain (l = n when each stage employs
+one worker), and
+
+A(n) = n(cid:11);
+
+(0 < (cid:11) < 1)
+
+(4)
+
+11
+
+nw-wn¢-()2/1+nrwntn¢n()2/1+¢¢nnrwso that productivity is an increasing and concave function of the length of
+production chain. Our assumption that 0 < (cid:11) < 1 harks back to Böhm-
+Bawerk’s (1884) discussion of “roundabout production”in which:
+
+“[t]he indirect method entails a sacri…ce of time but gains the ad-
+vantage of an increase in the quantity of the product. Successive
+
+prolongations of the roundabout method of production yield fur-
+ther quantitative increases though in diminishing proportion.”1
+
+The parameter (cid:11) is the only “deep”technological parameter in our model,
+as the interest rate on working capital will be obtained by closing the model
+
+with credit supply.
+
+2.2 Optimal length of supply chain
+
+Supply chain length n maximizes the surplus of the chain as a whole, re-
+‡ecting the interpretation of our model as the decision of a multi-plant …rm.
+Since the borrowing rate is zero until date n and is r from date n + 1, the
+choice of n at date 0 maximizes the discounted sum of surpluses:
+
+V =
+
+1
+
+(n(cid:11)zL
+
+wzL
+(cid:0)
+(cid:0)
+n
+(1 + r)t
+(cid:0)
+
+rzK)
+
+t=n+1
+X
+= (n(cid:11)zL
+
+wzL
+
+(cid:0)
+
+(cid:0)
+
+rzK)
+
+1
+r
+
+(5)
+
+where z is the proportion of the labor force employed by the production chain.
+The above maximization problem boils down to the problem of maximizing
+
+the per period surplus:
+
+(cid:25) = n(cid:11)zL
+
+The …rst-order condition for n gives
+
+wzL
+
+rzK
+(cid:0)
+1 + r(n+1)
+
+(cid:0)
+w
+
+2
+
+=
+
+n(cid:11)
+
+(cid:0)
+
+h
+
+(cid:16)
+
+n =
+
+1
+
+1
+
+(cid:11)
+
+(cid:0)
+
+2(cid:11)
+wr
+
+(cid:18)
+
+(cid:19)
+
+zL
+
+(cid:17)i
+
+(6)
+
+(7)
+
+1Böhm-Bawerk (1884), p. 88 of 1959 English translation by G. Huncke, Libertarian
+
+Press.
+
+12
+
+(9)
+
+(10)
+
+(11)
+
+In competitive markets …rms bid away their surplus by competing for
+
+workers. The wage rate is determined by the zero pro…t condition:
+
+n(cid:11) = w
+
+1 + r(n+1)
+
+2
+
+(8)
+
+The left-hand side of (8) is the marginal product of labor, while the the
+
+(cid:16)
+
+(cid:17)
+
+right-hand side is its marginal cost taking account of working capital costs.
+Given this simple set-up, we can solve the model in closed form. The
+
+optimal chain length is
+
+n =
+
+(cid:11)
+
+1
+
+(cid:11)
+
+1 +
+
+2
+r
+
+(cid:19)
+
+(cid:0)
+so that production chains are longer when the interest rate r is lower.2
+
+(cid:18)
+
+Productivity, or output per worker is
+
+A(n) =
+
+(cid:11)
+
+(cid:11)
+
+1
+
+(cid:11)
+
+(cid:19)
+
+(cid:18)
+
+1 +
+
+(cid:11)
+
+2
+r
+
+(cid:19)
+
+(cid:0)
+and total output of the economy Y is
+
+(cid:18)
+
+Y = n(cid:11)L =
+
+(cid:11)
+
+(cid:11)
+
+1
+
+(cid:18)
+
+(cid:11)
+
+1 +
+
+2
+r
+
+(cid:11)
+
+L
+
+(cid:0)
+so that productivity and output are decreasing in the interest rate r. The
+equilibrium wage w is also decreasing in r, since we have:
+
+(cid:19)
+
+(cid:18)
+
+(cid:19)
+
+w = 2
+
+(cid:11)
+
+(cid:0)
+
+1
+
+(cid:18)
+
+(cid:11)
+
+(cid:11)
+
+(cid:19)
+
+(cid:18)
+
+1 +
+
+2
+r
+
+(cid:11)
+
+(cid:19)
+
+(cid:18)
+
+(cid:11)
+1
+(cid:0)
+2 + r
+
+(cid:19)
+
+(12)
+
+Total working capital of all production chains in the economy is given by:
+
+K =
+
+n + 1
+2
+
+wL
+
+=
+
+(cid:11)
+
+(cid:0)
+
+1
+
+(cid:18)
+
+(cid:11)
+
+1 +
+
+2
+r
+
+(cid:11)
+
+(cid:19)
+
+(cid:18)
+
+(cid:11)
+r
+
++
+
+(cid:11)
+1
+(cid:0)
+2 + r
+
+L
+
+(cid:19)
+
+(13)
+
+(cid:11)
+
+(cid:19)
+
+(cid:18)
+
+2Antras (2023) also derives the inverse relationship between the interest rate and round-
+aboutness, uderscoring the robustness of the conclusions. One distinction between the
+two models is our assumption that …rms face a …xed unit of time to complete each stage,
+whereas Antras allows …rms the ‡exibility to choose production time for each stage freely,
+without limitations. Antras’s model suggests that without …xed production time, it can
+be the case that there is no association between the number of stages and the interest rate.
+Kim (2024) demonstrates that within Antras’model if both …xed and variable production
+time are introduced, the optimal number of stages may exhibit a negative correlation with
+the interest rate.
+
+13
+
+In our model, investment in working capital raises productivity and in-
+
+creases output. However, the increase in working capital comes at the cost
+of greater …nancing cost. Within the credit market, K is the aggregate credit
+demand in the economy. Equation (13) shows that credit demand is decreas-
+ing in the interest rate r. The credit to output ratio has the simple form as
+below, which also declines with the interest rate.
+
+K
+Y
+
+=
+
+(cid:11)
+r
+
++
+
+(cid:11)
+1
+(cid:0)
+2 + r
+
+(14)
+
+Our model draws out the analogy between working capital and …xed
+
+capital. Indeed, Ramey’s (1989) investigation of modeling inventories as a
+
+factor of production suggests that the analogy can be explored further. From
+(2) and (3), total output can be written as
+
+Y (K; L) = n(cid:11)L
+2K
+wL (cid:0)
+L
+2
+K
+w (cid:0)
+where K here represents working capital.
+
+=
+
+=
+
+(cid:18)
+
+(cid:18)
+
+(cid:11)
+
+1
+(cid:19)
+(cid:11)
+
+L
+
+K (cid:11)L1
+
+(cid:0)
+
+(cid:11)
+
+(cid:19)
+
+(15)
+
+Imposing a Cobb-Douglas functional form for output will result in a
+
+(cid:0)
+
+misspeci…ed production function where the total factor productivity term
+L=K)(cid:11) depends on endogenous variables. The measured TFP term
+(2=w
+is not well de…ned when r = 0 as the denominators of both expressions inside
+the brackets in (15) go to in…nity. Figure 4 which plots TFP as a function
+of the borrowing rate r when (cid:11) = 0:033 suggests that the misspeci…ed TFP
+term is decreasing in the borrowing rate. To outside observers who impose a
+Cobb-Douglas production function, they would observe that TFP undergoes
+
+shocks as …nancial conditions change. When …nancial conditions are tight
+
+and the risk premium in the borrowing rate increases, they will also observe
+
+that total factor productivity falls.
+
+2.3 Sales versus value-added
+
+Our model is well-suited to distinguishing total sales (gross output) from
+
+value-added (…nal good sale), which is equivalent to total output in our
+
+14
+
+Figure 4. Total factor producitivity as a function of the market interest rate ((cid:11) = 0:033)
+
+model.
+
+Denote by pi the price of the intermediate good produced by …rm i.
+Given the zero pro…t condition, the intermediate good price is just su¢ cient
+
+to cover wages and the cost of intermediate inputs including the cost of
+working capital. Thus, in steady state, the prices of intermediate goods are
+
+given by:
+
+p1 = w + rwn
+
+p2 = w + rw (n
+
+p3 = w + rw (n
+...
+pn = w + rw + pn
+
+(cid:0)
+
+(cid:0)
+
+(cid:0)
+
+1) + p1
+
+2) + p2
+
+1
+
+(16)
+
+By recursive substitution, we have
+
+p1 = w (1 + rn)
+
+p2 = 2w (1 + rn)
+
+p3 = 3w (1 + rn)
+...
+pn = nw (1 + rn)
+
+(cid:0)
+
+(cid:0)
+
+(cid:0)
+
+wr
+
+wr (1 + 2)
+
+wr (1 + 2 +
+
++ (n
+
+1))
+
+(cid:0)
+
+(cid:1) (cid:1) (cid:1)
+
+(17)
+
+The economy has L=n of such production chains. Therefore, gross sales
+
+15
+
+0.000.010.020.030.040.050.060.070.080.090.100.9981.0001.0021.0041.0061.0081.0101.0121.0141.0161.018rTFPin steady state, denoted by S, can be written as:
+
+n
+
+S =
+
+pi
+
+i=1
+X
+
+(cid:18)
+
+L
+n
+
+=
+
+w (1 + rn)
+
+(cid:19)
+
+"
+
+n
+
+i=1
+X
+
+wr
+
+i
+
+! (cid:0)
+
+1
+
+n
+
+(cid:0)
+
+i=1
+X
+
+i (n
+
+(cid:0)
+
+i)
+
+# (cid:18)
+
+L
+n
+
+(cid:19)
+
+Using the algebraic identity
+can be solved in closed form as:
+P
+
+n
+1
+i=1 i (n
+(cid:0)
+
+i) = 1
+
+6 n (n
+
+(cid:0)
+
+(cid:0)
+
+1) (n + 1), gross sales
+
+S =
+
+1
+1
+6 r (n
+2 (1 + rn) (n + 1)
+= 1
+6 (n + 1) (r + 2rn + 3)wL
+(cid:2)
+
+(cid:0)
+
+1) (n + 1)
+
+wL
+
+(cid:0)
+
+(cid:3)
+
+(18)
+
+Meanwhile, total value-added is the value of the …nal good (denoted by
+
+Y ), which amounts to
+
+Y = pn
+
+L
+n
+
+(cid:18)
+
+=
+
+wn (1 + rn)
+
+(cid:19)
+
+"
+
+wr
+
+(cid:0)
+
+1
+
+n
+
+(cid:0)
+
+i
+
+i=1
+X
+
+L
+n
+
+(cid:19)
+
+# (cid:18)
+
+Therefore
+
+Y =
+
+1
+2 r (n + 1) + 1
+
+wL
+
+(19)
+
+and the ratio of sales to value-added is:
+
+(cid:0)
+
+(cid:1)
+
+S
+Y
+
+=
+
+(n + 1) ( 1
+
+3 r + 2
+r(n + 1) + 2
+
+3 rn + 1)
+
+Substituting in the solution for n, we have
+
+S
+Y
+
+=
+
+=
+
+(r + 2(cid:11)) (r + (cid:11) (1 + r) + 3)
+
+3r (1
+
+1
+
+(cid:0)
+
+(cid:11))
+
+3 (1
+
+(cid:0)
+1 +
+
+(cid:11)) (r + 2)
+2(cid:11)
+r
+
+(cid:19) (cid:18)
+
+(cid:18)
+
+1 + (cid:11) +
+
+(cid:11)
+1
+(cid:0)
+2 + r
+
+(cid:19)
+
+(20)
+
+The sales to value-added ratio is decreasing in the interest rate r, re‡ecting
+the shorter production chains when …nancial conditions are tighter.
+
+Gathering the …ndings in (9), (10), (11) and (20), we can summarize the
+
+main features of our model as follows.
+
+Proposition 1 A higher borrowing rate r is associated with (1) shorter sup-
+ply chains, (2) lower productivity per worker, (3) lower output and (4) lower
+
+sales-to-value-added ratio.
+
+16
+
+ 
+3 Model with general production function
+
+Our benchmark model …xed labor allocation so as to focus on the time di-
+
+mension of production.
+
+In this section, we present a more comprehensive
+
+Austrian model incorporating a CES production function. In this model, we
+
+present a more general model of the joint allocation of labor and working
+capital. We demonstrate that the key …ndings from the benchmark model
+
+are preserved even in the general case. To facilitate ease of computation, we
+
+employ a continuous-time version of the model.
+
+3.1 Optimal labor allocation
+
+The stage index, denoted as i, is a continuous variable de…ned over the in-
+terval [0; n], where i = 0 represents the most upstream stage, and i = n
+represents the most downstream stage. The production process commences
+at t = 0, and the …nal good is produced and sold starting from t = n. Con-
+sequently, the …rm requires working capital to cover wage payments during
+the initial setup phase (0
+
+t < n).
+
+The …rm chooses the number of workers across di¤erent stages. When
+the …rm opts to employ li workers for stage i, the working capital needed
+during the set-up phase is given by
+
+(cid:20)
+
+n
+
+(n
+
+(cid:0)
+
+0
+Z
+
+i)(wli)di
+
+(21)
+
+For simplicity, we continue to assume a zero interest rate on borrowing during
+
+the set-up phase.
+
+The aggregate working capital demand in the economy is
+
+n
+0 (n
+
+i)wlidi
+
+(cid:0)
+n
+0 lidi
+
+L
+
+(cid:2)
+
+K =
+
+R
+
+(22)
+
+which simpli…es to n
+mark model, when li = 1 for all i.
+
+R
+
+2 wL, a continuous-time equivalent of eq. (2) in the bench-
+
+In steady state (t
+
+n), the …rm incurs production costs, which comprise
+the sum of wages in the current period and interest charged on the working
+
+(cid:21)
+
+capital accumulated during the setup periods:
+
+17
+
+n
+n
+0 (n
+0 wlidi + r
+n
+0 lidi
+R
+
+R
+
+i)wlidi
+
+l
+
+(cid:0)
+
+where l represents the total labor employed by the chain.
+
+R
+
+We represent the production function of …nal goods using a constant
+
+elasticity of substitution (CES) form:
+
+y = n(cid:11)+1
+
+n
+
+1
+n
+
+(li)(cid:0)
+
+1
+(cid:26)
+
+(cid:0)
+
+(cid:26)di
+(cid:21)
+
+0
+(cid:20)Z
+
+(23)
+
+where (cid:26) denotes the CES substitution parameter. Eq. (23) converges to a
+Leontief production function as (cid:26)
+
+0.
+The labor productivity in this production chain is then expressed as:
+
+and to a Cobb-Douglas as (cid:26)
+
+! 1
+
+!
+
+n(cid:11)+1[
+
+A(n) =
+
+R
+
+(cid:26)di](cid:0)
+
+1
+(cid:26)
+
+n
+0
+
+1
+n(li)(cid:0)
+n
+0 lidi
+
+which is independent of the number of workers hired by the chain. The …nal
+output y is expressed as
+
+R
+
+y = A(n)l =
+
+n(cid:11)+1+ 1
+(cid:26) [
+
+(cid:26)di](cid:0)
+
+1
+(cid:26)
+
+l
+
+n
+0 (li)(cid:0)
+n
+0 lidi
+R
+R
+
+If li values are uniform across i, the …nal output becomes y = n(cid:11)l as in our
+benchmark model.
+
+The production chain chooses li and n to maximize the per period surplus:
+
+(cid:25)(n) = A(n)zL
+(cid:0)
+n(cid:11)+1+ 1
+(cid:26) [
+
+=
+
+wzL
+rzK
+(cid:0)
+1
+n
+(cid:26)di](cid:0)
+0 (li)(cid:0)
+(cid:26)
+
+"
+
+R
+
+n
+0 (1 + r(n
+
+(cid:0)
+n
+0 lidi
+R
+
+i))wlidi
+
+(cid:0)
+
+zL
+
+#
+
+R
+where z is the proportion of the labor force employed by the production
+chain.
+
+The …rst-order condition for labor employed in stage i (li) gives
+
+n(cid:11)+1+ 1
+(cid:26) [
+
+n
+0 (li)(cid:0)
+
+(cid:26)di](cid:0)
+
+1
+(cid:26) (cid:0)
+
+R
+
+1
+
+(cid:0)
+
+(cid:26)
+
+1(li)(cid:0)
+n
+0 lidi
+
+(cid:0)
+
+(1 + r(n
+
+i))w
+
+(cid:0)
+
+(cid:25)(n)
+n
+0 lidi)zL
+
+= 0
+
+(cid:0)
+
+(
+
+R
+
+R
+
+18
+
+In competitive markets …rms bid away their surplus by competing for workers,
+
+which results in the zero pro…t condition:
+n
+
+n
+
+n(cid:11)+1+ 1
+(cid:26) [
+
+(li)(cid:0)
+
+(cid:26)di](cid:0)
+
+1
+(cid:26)
+
+0
+Z
+From the …rst-order condition and the zero pro…t condition, we have the
+
+0
+Z
+
+(cid:0)
+
+(cid:0)
+
+(1 + r(n
+
+i))wlidi = 0
+
+(24)
+
+optimal labor allocation across stages
+
+li = (1 + r(n
+
+i))(cid:0)
+
+1
+
+1+(cid:26) ln
+
+(cid:0)
+
+(25)
+
+3.2 Optimal chain length
+
+The …rst-order condition for chain length n, combined with the zero pro…t
+condition, is given by
+
+n(cid:11)+1+ 1
+
+(cid:26)
+
+d
+dn "
+
+n
+
+(li)(cid:0)
+
+1
+(cid:26)
+
+#
+
+(cid:0)
+
+(cid:26)di
+(cid:21)
+
+=
+
+d
+dn
+
+n
+
+0
+Z
+
+0
+(cid:20)Z
+
+(1 + r(n
+
+i))wlidi
+
+(cid:0)
+
+Using eqs. (24) and (25), we can further simplify the …rst-order condition
+
+for n as (see Appendix C for additional details in this subsection):
+
+((cid:11) +1+
+
+1
+(cid:26)
+
+)(
+
+1
+n
+
+)
+
+n
+
+(1+r(n
+
+(cid:0)
+
+i))
+
+(cid:26)
+1+(cid:26) di
+
+1
+(cid:26)
+
+(cid:0)
+
+n
+
+= 1+r
+
+(1+r(n
+
+i))(cid:0)
+
+1
+
+1+(cid:26) di (26)
+
+(cid:0)
+
+0
+Z
+
+0
+Z
+
+The equation can be solved for n. This suggests that the equilibrium chain
+length n depends on the CES substitution parameter (cid:26), and the interest rate
+r.
+
+Note that when (cid:26)
+
+! 1
+the optimal chain length as
+
+(Leontief production function), eq. (26) yields
+
+n =
+
+1
+
+(cid:11)
+
+(cid:0)
+
+2
+r
+
+(cid:19)
+
+(cid:11)
+
+(cid:18)
+
+This is a continuous time equivalent of the optimal n in eq.
+(9) of our
+benchmark model, indicating the negative e¤ect of the interest rate on the
+
+length of the production chain.
+
+Now consider the case where (cid:26) <
+
+. By calculating two integrals in eq.
+1
+(26) and applying Taylor’s expansion for the interest rate r which is close to
+zero, we can express eq. (26) as
+
+((cid:11) + 1 +
+
+1
+(cid:26)
+
+)(1 +
+
+1
+2
+
+(
+
+(cid:26)
+1 + (cid:26)
+
+)rn)
+
+1
+(cid:26)
+
+(cid:0)
+
+= 1 + rn
+
+1
+2
+
+(
+
+1
+1 + (cid:26)
+
+(cid:0)
+
+)r2n2
+
+19
+
+which yields a quadratic equation for n with …nite (cid:26):
+
+r2
+1 + (cid:26)
+
+(((cid:11)
+
+n2 +
+
+(cid:0)
+
+1)(cid:26)
+1 + (cid:26)
+
+(cid:0)
+
+1)r
+
+n + 2(cid:11) = 0
+
+(27)
+
+We can solve the equation (27) to determine the optimal value of n. If
+the parameter (cid:11), representing the impact of roundaboutness on productivity
+equals zero, the optimal soultion for n is zero (n = 0). Depending on the
+parameter values, the optimal solution may also be in…nity.
+
+To eliminate these unrealstic corner solutions, we assume that
+
+0 < (cid:11) <
+
+1 + (cid:26)
+(cid:26)
+
+and
+
+((cid:11)
+
+1
+
+1)(cid:26)
+(cid:0)
+1 + (cid:26)
+
+(cid:0)
+
+2
+
+(cid:19)
+
+(cid:18)
+
+8(cid:11)
+
+(cid:0)
+
+1 + (cid:26) (cid:21)
+
+0
+
+We also assume that for a technologically feasible upper bound on the chain
+length, denoted by (cid:17), the following inequality holds
+
+r2
+1 + (cid:26)
+
+(((cid:11)
+
+(cid:17)2 +
+
+(cid:0)
+
+1)(cid:26)
+1 + (cid:26)
+
+(cid:0)
+
+1)r
+
+(cid:17) + 2(cid:11) < 0
+
+In this case, the quadratic equation yields two positive solutions for n, and the
+smaller of the two is identi…ed as the optimal solution, satisfying the second-
+order condition. The optimal solution for n is expressed as a decreasing
+function of the interest rate:
+
+( ((cid:11)
+
+(cid:0)
+
+1)(cid:26)
+(cid:0)
+1+(cid:26)
+
+1
+
+)
+
+(cid:0)
+
+(cid:0)
+
+1
+
+)2
+
+(cid:0)
+
+(cid:0)
+
+1)(cid:26)
+(cid:0)
+1+(cid:26)
+
+[( ((cid:11)
+2
+1+(cid:26)
+
+n =
+
+"
+
+which holds for any …nite (cid:26).
+
+3.3 E¤ects of the interest rate
+
+8(cid:11)
+
+1+(cid:26) ] 1
+
+2
+
+1
+r
+
+(cid:19)
+
+# (cid:18)
+
+(28)
+
+The interest rate in‡uences key macro variables, including productivity and
+
+output, through its impact on the length of the production chain. Utilizing
+Taylor’s expansions, we can express productivity A(n), output Y , the wage
+rate w and total working capital K as (refer to Appendix D for further details
+in this subsection)
+
+A(n) =
+
+n(cid:11)[1 + 1
+1
+
+1
+
+2 ( (cid:26)
+2 ( 1
+
+1+(cid:26) )rn](cid:0)
+1+(cid:26) )rn
+
+(cid:0)
+
+20
+
+1
+(cid:26)
+
+(29)
+
+Y =
+
+n(cid:11)[1 + 1
+1
+
+1
+
+(cid:0)
+
+w =
+
+[1 + 1
+
+1
+(cid:26)
+
+L
+
+2 ( (cid:26)
+1+(cid:26) )rn](cid:0)
+2 ( 1
+1+(cid:26) )rn
+n(cid:11)
+1+(cid:26) )rn]( 1
+2 ( (cid:26)
+n(cid:11)+1
+(cid:26) +1)(1
+
+1
+
+(cid:0)
+
+(cid:26) +1)
+
+K =
+
+2[1 + 1
+
+2 ( (cid:26)
+
+1+(cid:26) )rn]( 1
+
+2 ( 1
+
+1+(cid:26) )rn) (cid:2)
+
+(30)
+
+(31)
+
+(32)
+
+L
+
+In the case of the Leontief function with (cid:26) approaching in…nity, closed-
+form solutions can be derived, revealing a clear negative association between
+the interest rate r and productivity A(n); output Y , the wage rate w, and
+total working capital K.
+
+In a more general environment where (cid:26) is …nite, it’s important to note
+that the formulations above indicate that A(n), Y , w, and K are una¤ected
+by rn, which is solely dependent on (cid:11) and (cid:26), not on r, as evident from (28).
+Thus, the interest rate r in‡uences these key macro variables only through n(cid:11)
+or n(cid:11)+1 in the equations, both of decrease with the interest rate. Therefore,
+for any values of the CES substitution parameter (cid:26), it can be established
+that
+
+dw
+dr
+This indicates that an increase in the interest rate leads to a reduction in
+
+dA(n)
+dr
+
+< 0, and
+
+dK
+dr
+
+dY
+dr
+
+< 0,
+
+< 0,
+
+(33)
+
+< 0
+
+the length of the production chain, which in turn results in the fall of pro-
+ductivity, GDP and working capital. Importantly, this inverse relationship
+holds true for any value of (cid:26), signifying that it is independent of the CES
+parameter.
+
+4 Application to international trade
+
+We now turn to an application of our theory to o¤shoring and trade, and
+
+begin with a motivating example of o¤shoring for a multinational …rm.
+
+21
+
+Stages
+
+2nd
+
+1
+2 w
+3 w
+...
+...
+
+1st
+w
+w
+w
+...
+
+Date
+t
+
+Date
+t
+
+Stages
+2nd
+
+3rd
+
+1
+2
+3 w
+4 w
+...
+...
+
+0
+0
+0
+...
+
+1st
+c
+c
+c
+c
+...
+
+Figure 5. Costs of two-step production with and without o¤shoring. A good
+is produced with two rounds of value-added. The left-hand diagram depicts production
+without o¤shoring. The right-hand diagram depicts the case when there is o¤shoring of
+the …rst stage of production. Without o¤shoring, each production stage takes one period
+and incurs cost of w. By o¤shoring the …rst stage, the …rm reduces the …rst-stage cost to
+c but lengthens the time to produce the …nal good to three periods due to the transport
+stage.
+
+4.1 Motivating example
+
+Consider a two-stage production process without o¤shoring (n = 2), where
+a …nal good can be produced with two rounds of value-added. This case is
+depicted by the left-hand diagram in Figure 4. Each step in the production
+of the good takes one time period, and incurs a cost of w. At date 1, the
+…rm that produces both stages completes the …rst production step at cost w
+and sends the intermediate good to the second step. At date 2, the …rm goes
+through the second step of production incurring cost w. Meanwhile, the …rm
+begins the …rst stage of the production of the next unit at cost w.
+
+The …rm begins to receive revenue of p from date 3 onwards, when it sells
+the good at price p. Before then, the …rm …nances the costs incurred during
+the initial phase (dates 1 and 2) by borrowing at interest rate r.
+In steady state (from date 3 onwards), the …rm’s cash‡ow is
+
+2w
+
+p
+
+(cid:0)
+
+(cid:0)
+
+r
+
+2w (1 + r) + w (1 + r)2
+
+(34)
+
+consisting of sales revenue p, per-period production cost 2w and the interest
+expense on the debt incurred during the initial phase of production (at the
+steady state interest rate r > 0).
+
+(cid:0)
+
+(cid:1)
+
+Now, suppose that the …rm can o¤shore the …rst stage of production
+
+abroad. The right-hand panel of Figure 4 depicts production with o¤shoring.
+
+By o¤shoring the …rst step of production, the …rm enjoys a productivity gain
+
+22
+
+and also save on the cost of the …rst step of production. But it has to lengthen
+
+the total production time to three periods to take account of the time taken
+
+to transport the intermediate good. The cost of the …rst step of production
+with o¤shoring (including transport cost) is c. At date 2, the intermediate
+good is transported, and the second step of production takes place at date
+
+3. The …rm receives revenue from the sale of the good from date 4 onwards.
+
+In steady state (from date 4 onwards), the …rm’s cash‡ow is
+
+(c + w)
+
+p
+
+(cid:0)
+
+(cid:0)
+
+r
+
+(c + w) (1 + r) + c (1 + r)2 + c (1 + r)3
+
+(35)
+
+(cid:0)
+consisting of sales revenue
+
+e
+
+p net of production cost c + w and the cost of
+building up and carrying working capital. By o¤shoring the …rst step of
+p and lowers the …rst stage cost to c,
+production, the …rm raises revenue to
+
+e
+
+(cid:1)
+
+but incurs a higher working capital cost.
+Denote by ~k and k the working capital with and without o¤shoring, re-
+e
+spectively. The …rm chooses to o¤shore when the …rm’s steady-state cash‡ow
+with o¤shoring (35) is larger than without o¤shoring (34), or equivalently,
+
+when
+
+p
+(
+
+p) + (w
+
+c) > r(~k
+
+k)
+
+(36)
+
+(cid:0)
+
+(cid:0)
+where ~k = (c + w) (1 + r) + c (1 + r)2 + c (1 + r)3 and k = 2w (1 + r) +
+w (1 + r)2. The …rm can increase steady state pro…t through o¤shoring when
+the …nancing cost of o¤shoring is su¢ ciently small. However, higher r entails
+a higher hurdle for o¤shoring.
+
+(cid:0)
+
+e
+
+In what follows, we develop our model of o¤shoring by extending the
+benchmark model of general n-stage supply chains into a multi-country set-
+ting.
+
+4.2 Model of o¤shoring and productivity
+
+Consider a multinational …rm with a presence in multiple locations. Each
+
+location has an absolute advantage in precisely one stage of the production
+
+process. The absolute advantage derives from the location, not the worker.
+
+23
+
+Speci…cally, there is a constant b > 0 such that the location with the ab-
+solute advantage in production stage i has productivity of 1 + b compared to
+productivity of 1 in any other location for that task.
+
+The output of the multinational …rm (y(n) = A(n)l) then depends on the
+
+extent of o¤shoring, and productivity is given by:
+
+A(n; s) =
+
+n
+
+(cid:11)
+
+xi
+
+!
+
+i=1
+X
+
+(0 < (cid:11) < 1)
+
+(37)
+
+where xi = 1 + b if the production of the ith stage takes place in the location
+with the absolute advantage in stage i while xi = 1 if the production takes
+place elsewhere. Thus, if there are s stages where production takes place in
+the location with the absolute advantage, productivity is given by
+
+A (n; s) = (n + bs)(cid:11)
+
+To highlight the choice of o¤shoring, we …x the length of the production
+chain at n = (cid:22)n, and there are (cid:22)n locations. Then the productivity of a chain
+is
+
+A (s) = ((cid:22)n + bs)(cid:11)
+
+and the …nal output y (s) is
+
+y (s) = A(s)l = ((cid:22)n + bs)(cid:11)l
+
+(38)
+
+(39)
+
+The …rm’s key decision is to choose s, the extent of o¤shoring.3
+
+4.3 Inventories in transit
+
+We assume that transport requires labor services just as production does.
+
+O¤shoring incurs additional …nancing costs due to time needed to transport
+intermediate goods. As indicated by Amiti and Weinstein (2011), it is not
+
+unusual for the transportation of goods overseas to extend over a period of
+
+two months. We assume that if an intermediate good is transported to an-
+
+other location, transport takes one unit of time, which is the same as the time
+
+3It is possible to allow for endogenous n by …rst deriving s and w as a function of n
+
+and then solve for n. The qualitative features of the model remain.
+
+24
+
+ 
+needed for production of an intermediate good. Within the same country,
+
+we assume that transport happens instantaneously and without labor cost.
+If s stages are o¤shored, the time to production of the …nal good in
+this o¤shoring model rises from (cid:22)n to (cid:22)n + s. With o¤shoring, a new type of
+inventory emerges - inventory in transit. Without o¤shoring, the multina-
+tional …rm has (cid:22)n vintages of inventories at the steady state. With o¤shoring,
+multinational …rms hold (cid:22)n + s vintages of inventories including s vintages of
+inventories in transit.
+
+As in the benchmark model, wages cannot be deferred and …rms that
+
+engage in intermediate good production or overseas transport need working
+
+capital to pay wages. Wages at each stage of production or transportation
+
+is paid in the period when the activity of the stage takes place. We assume
+that w is equal across locations and activities.4 We maintain the assumption
+that …rms …nance working capital with debt from banks at zero interest rates
+(cid:22)n + s). The relaxation of the assumption of
+during the initial periods (t
+zero interest rates during the transition period does not alter the main results
+of the model (see Appendix B).
+
+(cid:20)
+
+The multinational …rm starts the production of the …rst stage intermedi-
+ate good (i = 1) at date 1. At date (cid:22)n + s, it begins producing the …nal goods
+by inputing intermediate goods for which it has paid 1
+1) w,
+and labor, for which it currently pays ((cid:22)n + s) w. The steady state working
+capital is
+
+2 ((cid:22)n + s) ((cid:22)n + s
+
+(cid:0)
+
+1
+2 ((cid:22)n + s)((cid:22)n + s + 1)w
+
+which is equal to the sum of all the wages that have been paid during the
+
+initial set-up period. Note that o¤shoring raises the working capital from
+2 (cid:22)n((cid:22)n + 1)w to 1
+1
+
+2 ((cid:22)n + s)((cid:22)n + s + 1)w due to inventories in transit.
+Total working capital for the global economy as a whole, denoted by K,
+
+4We may introduce a model which allows for wage di¤erence across countries, for ex-
+ample due to restrictions on international labor mobility. In this variant of the model,
+multi-national …rms have incentive to o¤shore each stage of production chain to the coun-
+try with the lowest wage in the stage. The solution of the variant model with wage
+di¤erence for the optimal o¤shoring is similar to that of this section with productivity
+di¤erence.
+
+25
+
+is then
+
+K = 1
+
+2 ((cid:22)n + s)((cid:22)n + s + 1)w
+
+L
+((cid:22)n + s)
+
+(cid:1)
+
+=
+
+(cid:22)n + s + 1
+2
+
+wL
+
+(40)
+
+where L is the population of workers. K also has the interpretation as the
+total demand for credit to …nance working capital investment. Taking the
+borrowing rate as given for now, the per period borrowing cost is
+
+(cid:22)n + s + 1
+2
+The cost of …nancing for working capital increases with the number of o¤-
+
+wL
+
+r
+
+(cid:1)
+
+shored stages.
+
+4.4 Optimal o¤shoring
+
+The …rm chooses s to maximize its value, given by the discounted sum of
+surpluses:
+
+1
+
+V =
+
+t=(cid:22)n+s+1
+X
+
+((cid:22)n + bs)(cid:11)zL
+
+(cid:0)
+(1 + r)t
+(cid:0)
+
+wzL
+s
+(cid:22)n
+
+(cid:0)
+
+rzK
+
+(cid:0)
+
+(41)
+
+where z is the proportion of the workforce employed by the …rm. The maxi-
+mization problem reduces to maximizing the per-period pro…t
+
+(cid:25) = ((cid:22)n + bs)(cid:11)zL
+
+wzL
+
+(cid:0)
+w
+
+(cid:0)
+1 +
+
+rzK
+r ((cid:22)n + s + 1)
+2
+
+=
+
+((cid:22)n + bs)(cid:11)
+(cid:20)
+
+(cid:0)
+
+(cid:18)
+
+The …rst-order condition for s yields
+
+(cid:22)n + bs =
+
+1
+
+1
+
+(cid:11)
+
+(cid:0)
+
+2b(cid:11)
+wr
+
+(cid:18)
+
+(cid:19)
+
+and the zero pro…t condition is
+
+((cid:22)n + bs)(cid:11) = w
+
+1 +
+
+r
+2
+
+(1 + (cid:22)n) +
+
+r
+2
+
+s
+
+(cid:17)
+
+(cid:16)
+
+zL
+
+(cid:19)(cid:21)
+
+(42)
+
+(43)
+
+Assume that b > 1
+closed form. Optimal extent of o¤shoring is
+
+(cid:11) . From eqs. (42) and (43) we can solve the model in
+
+s =
+
+(cid:11)
+
+(cid:0)
+
+1
+
+(cid:11)
+
+(cid:18)
+
+1 + (cid:22)n +
+
+2
+r
+
+(cid:19)
+
+(cid:0)
+
+b(1
+
+(cid:22)n
+
+(cid:0)
+
+(cid:11))
+
+26
+
+(44)
+
+which is positive since b > 1
+captures what fraction of production is o¤shored, and is given by
+
+(cid:11) and is decreasing in r. The o¤shoring ratio s=(cid:22)n
+
+s
+(cid:22)n
+
+=
+
+(cid:11)
+
+1
+
+(cid:11)
+
+1 +
+
+2
+r
+
+1
+(cid:22)n
+
++ 1
+
+1
+
+(cid:0)
+
+b(1
+
+(cid:11))
+
+(cid:19)
+Appendix C describes an accounting framework which can be used to ap-
+proximate the o¤shoring ratio s=(cid:22)n using available data.
+
+(cid:18)(cid:18)
+
+(cid:0)
+
+(cid:0)
+
+(cid:19)
+
+The productivity is given by
+
+A((cid:22)n; r) =
+
+1)(cid:11)
+(cid:11)
+
+(b
+(cid:0)
+1
+(cid:0)
+
+(cid:20)
+
+(cid:22)n +
+
+b(cid:11)
+
+(cid:11)
+
+1
+
+(cid:0)
+
+(cid:18)
+
+1 +
+
+2
+r
+
+(cid:11)
+
+(cid:19)(cid:21)
+
+and the world output Y World is
+
+Y World = ((cid:22)n + bs)(cid:11)L =
+
+1)(cid:11)
+(cid:11)
+
+(b
+(cid:0)
+1
+(cid:0)
+
+(cid:20)
+
+(cid:22)n +
+
+b(cid:11)
+
+(cid:11)
+
+1
+
+(cid:0)
+
+(cid:18)
+
+1 +
+
+2
+r
+
+(cid:11)
+
+L
+
+(cid:19)(cid:21)
+
+so that productivity and world output are declining in r.
+
+By plugging (44) into (43), we derive the equilibrium wage as
+
+2b(cid:11)(cid:11)(1
+
+(b(1 + (cid:22)n)
+
+(cid:22)n)r
+
+(cid:0)
+
+(cid:0)
+1
+1
+
+(cid:0)
+
+(cid:11))1
+
+(cid:0)
+
+(cid:11)
+
+(cid:11) + 2br
+
+w =
+
+h
+
+i
+
+(cid:11)
+
+1
+
+(cid:0)
+
+(cid:11)
+
+1
+
+(cid:11)
+
+(cid:0)
+
+(45)
+
+which is also declining in r. The tightening of …nancial condition reduces
+o¤shoring and has a negative impact on the world productivity, wages and
+
+output.
+
+Using eqs.
+
+(44) and (45), we can then solve for working capital K
+as ((cid:22)n + s + 1) wL=2, which is decreasing in r. Global demand for credit is
+therefore decreasing in r.
+
+4.5 Ratio of trade to output
+
+Our model’s distinction between total sales and value-added allows us to
+
+track the ratio of trade to total output, or equivalently, the ratio of trade to
+
+value-added. From the zero pro…t condition, we can express the intermediate
+prices pi as in eq. (16)
+
+pi = w + rw(n
+
+i + 1) + pi
+
+(cid:0)
+
+1
+
+(cid:0)
+
+27
+
+Total sales in steady state can be obtained as:
+
+(cid:22)n+s
+
+pi
+
+i=1
+X
+
+(cid:18)
+
+L
+(cid:22)n + s
+
+(cid:19)
+
+=
+
+1
+6
+
+((cid:22)n + s + 1) (r + 2r((cid:22)n + s) + 3) wL
+
+(46)
+
+We can obtain total trade per period (denoted by T World) by multiply-
+ing total sales by the proportion of production stages that are o¤shored.
+
+Therefore,
+
+T World =
+
+=
+
+s
+(cid:22)n + s
+
+s
+(cid:22)n + s
+
+L
+(cid:22)n + s
+
+pi
+
+(cid:18)
+
+(cid:19)
+
+r + 2r((cid:22)n + s) + 3
+6
+
+(cid:22)n+s
+
+i=1
+X
+
+(cid:18)
+
+((cid:22)n + s + 1) wL
+
+(47)
+
+(cid:19)
+
+which is increasing in s.5
+
+Total output (Y World) is given by the value of the …nal good, or equiva-
+
+lently, the total value-added:
+
+Y World = pn
+
+L
+(cid:22)n + s
+
+1
+2
+
+=
+
+(cid:19)
+
+(cid:20)
+
+(cid:18)
+
+r((cid:22)n + s + 1) + 1
+
+wL
+
+(48)
+
+(cid:21)
+
+Therefore, the ratio of total trade to output is
+
+T World
+Y World =
+
+s
+(cid:22)n+s
+
+(cid:22)n+s
+
+(cid:22)n+s )
+
+i=1 pi( L
+(cid:22)n+s )
+((cid:22)n + s + 1) ( 1
+
+pn( L
+P
+
+=
+
+s
+(cid:22)n + s
+
+(cid:20)
+
+3 r + 2
+r((cid:22)n + s + 1) + 2
+
+3 r((cid:22)n + s) + 1)
+
+(49)
+
+(cid:21)
+
+s
+(cid:22)n+s increases with s, and the fraction inside the square bracket
+Note that
+also tends to increase with s since the numerator is a convex function of s
+while the denominator is linear in s. Thus, a higher s is associated with a
+higher ratio of trade to output.
+
+5In reality, overseas transport companies receive fees for shipment from exporters or
+importers rather than buy and sell goods with them. Considering this, total sales among
+the …rms (SW orld) can be approximated by
+
+SW orld =
+
+(cid:22)n+s
+
+i=1
+X
+
+pi(
+
+L
+(cid:22)n + s
+
+)
+
+(cid:0)
+
+T W orld =
+
+(cid:22)n
+(cid:22)n + s
+
+(cid:22)n+s
+
+i=1
+X
+
+pi(
+
+L
+(cid:22)n + s
+
+):
+
+28
+
+Recall that the optimal o¤shoring s is decreasing in r (eq. (44)). There-
+fore, eq. (49) implies that the ratio of trade to output decreases with the
+interest rate r.6
+
+Lastly, total inventories of intermediate goods is given by
+
+(cid:22)n+s
+
+I =
+
+pi
+
+(cid:18)
+
+i=1
+X
+((cid:22)n + s
+
+(cid:0)
+
+=
+
+pn
+
+L
+(cid:22)n + s
+
+(cid:0)
+(cid:19)
+1) (1 + 2
+
+L
+(cid:22)n + s
+
+(cid:18)
+
+(cid:19)
+3 r((cid:22)n + s + 1))
+
+2
+
+wL
+
+(50)
+
+We multiply eq. (50) by s
+
+(cid:22)n+s to get total inventories in transit (I tr):
+
+I tr = (
+
+s
+(cid:22)n + s
+s
+(cid:22)n + s
+
+(cid:20)
+
+)I
+
+((cid:22)n + s
+
+(cid:0)
+
+=
+
+1) (1 + 2
+
+3 r((cid:22)n + s + 1))
+
+2
+
+wL
+
+(cid:21)
+
+The ratio of inventory-in-transit to output is
+
+I tr
+Y World =
+
+s
+(cid:22)n + s
+
+((cid:22)n + s
+
+1) (1 + 2
+
+3 r((cid:22)n + s + 1))
+
+(cid:0)
+r((cid:22)n + s + 1) + 2
+
+(cid:20)
+
+(51)
+
+(cid:21)
+
+so that inventories-in-transit relative to output is increasing in s and hence
+decreasing in r.
+
+We summarize our …ndings in terms of the following proposition.
+
+Proposition 2 A higher interest rate r is associated with (1) lower o¤-
+shoring, (2) lower productivity per worker, (3) lower output, (4) lower trade-
+
+output ratio, and (6) lower inventories in transit as fraction of output.
+
+6To formally prove this, we can rewrite T W orld
+
+Y W orld as the product of three functions of the
+
+interest rate r as
+
+where
+
+T W orld
+Y W orld = B(r)C(r)D(R)
+
+B(r) = ((cid:22)n + s + 1)
+
+C(r) =
+
+D(r) =
+
+r
+
+s
+r((cid:22)n + s + 1) + 2
+3 r + 2
+1
+
+3 r((cid:22)n + s) + 1
+(cid:22)n + s
+
+1
+r
+
+Given the assumption b > 1
+d( T W orld
+Y W orld )
+dr
+
+and hence
+
+< 0.
+
+(cid:18)
+(cid:11) (> 1), we can show that dB(r)
+
+(cid:19)
+dr < 0, dC(r)
+
+dr < 0 and dD(r)
+
+dr < 0,
+
+29
+
+4.6 O¤shoring with general production function
+
+We now introduce a continuous-time version of the o¤shoring model that
+
+incorporates a CES production function. This model allows …rms to hire
+
+a varying number of workers across di¤erent stages, similar to the model
+
+presented in Section 3.
+
+As a generalization of the production function (39), we adopt a CES form:
+
+y = ((cid:22)n + bs)(cid:11)((cid:22)n + s)[
+0
+Z
+This formulation is reduced to y = ((cid:22)n + bs)(cid:11)l when li are equal across stages,
+as in our benchmark o¤shoring model.
+
+(cid:26)di](cid:0)
+
+(li)(cid:0)
+
+(52)
+
+1
+(cid:26)
+
+(cid:22)n+s
+
+1
+(cid:22)n + s
+
+The working capital required during the set-up phase (0
+
+t < (cid:22)n + s) is
+
+(cid:20)
+
+given by
+
+(cid:22)n+s
+
+((cid:22)n + s
+
+(cid:0)
+
+i)(wli)di
+
+0
+Z
+
+This calculation is made under the assumption of a zero interest rate on
+
+borrowing during the set-up phase.
+
+The production chain seeks to maximize the per period surplus:
+
+(cid:25)(s) =
+
+((cid:22)n + bs)(cid:11)((cid:22)n + s)1+ 1
+(cid:26) [
+
+(cid:22)n+s
+0
+lidi
+R
+
+(li)(cid:0)
+
+(cid:26)di](cid:0)
+
+1
+(cid:26)
+
+zl
+
+#
+
+(cid:22)n+s
+0
+
+"
+
+(cid:0) " R
+
+(cid:22)n+s
+0
+
+(1 + r((cid:22)n + s
+R
+(cid:22)n+s
+0
+
+lidi
+
+(cid:0)
+
+i))wlidi
+
+zL
+
+#
+
+(53)
+
+The …rst-order condition for labor, along with the zero pro…t condition,
+
+R
+
+results in
+
+li = (1 + r((cid:22)n + s
+
+i))(cid:0)
+
+1+(cid:26) l(cid:22)n+s
+
+1
+
+(54)
+
+(cid:0)
+The …rst-order condition for the number of o¤shored stages s, combined
+with the zero pro…t condition, yields (refer to Appendix F for additional
+
+details in this subsection)
+
+[b(cid:11)((cid:22)n + bs)(cid:0)
+
+1 + (1 +
+
+1
+(cid:26)
+
+=
+
+1
+(cid:26)
+
+(cid:22)n+s
+
++ 1 + r
+
+(1 + r((cid:22)n + s
+
+0
+Z
+
+0
+Z
+1
+1+(cid:26) di
+i))(cid:0)
+
+(cid:0)
+
+30
+
+)((cid:22)n + s)(cid:0)
+
+1]
+
+(1 + r((cid:22)n + s
+
+(cid:22)n+s
+
+i))
+
+(cid:26)
+1+(cid:26) di
+
+(55)
+
+(cid:0)
+
+This equation can be solved for the equilibrium number of o¤shored stages
+s.
+
+In the case of a Leontief production function ((cid:26)
+
+is given by
+
+), the equilibrium s
+
+! 1
+
+s =
+
+1
+
+(cid:11)
+
+(cid:0)
+
+(cid:11)
+
+(cid:18)
+
+(cid:22)n +
+
+2
+r
+
+(cid:19)
+
+(cid:0)
+
+b(1
+
+(cid:11))
+
+(cid:22)n
+
+(cid:0)
+
+This suggests that the optimal o¤shoring s is decreasing in the interest rate
+r.
+
+In case of …nite (cid:26), applying Taylor’s expansion to (55) yields a quadratic
+
+equation for s
+
+(
+
+b
+1 + (cid:26)
+
+where g(r) = b
+( 1
+1+(cid:26) )(cid:22)n2.
+
+r (1
+
+(cid:0)
+
+(cid:11)( (cid:26)
+
+1+(cid:26) ))
+
+(cid:0)
+
+)s2
+
+g(r)s + h(r) = 0
+
+(cid:0)
+( 1+b
+1+(cid:26) )(cid:22)n and h(r) = b(cid:11) 2
+
+r2 + (b(cid:11)( (cid:26)
+
+1+(cid:26) )
+
+(56)
+
+1) (cid:22)n
+
+r +
+
+(cid:0)
+
+Depending on the parameter values, the equation may yield two corner
+solutions, speci…cally autarky (s = 0) and full o¤shoring (s = (cid:22)n). Addition-
+ally, it provides an interior solution for s if the following conditions hold:
+
+1
+b
+
+(
+
+1 + (cid:26)
+(cid:26)
+
+) < (cid:11) <
+
+1 + (cid:26)
+(cid:26)
+
+;
+
+g(r)2
+
+4(
+
+b
+1 + (cid:26)
+
+(cid:0)
+
+)h(r)
+
+0
+
+(cid:21)
+
+(57)
+
+and
+
+(
+
+b
+1 + (cid:26)
+
+)(cid:22)n2
+
+(cid:0)
+
+g(r)(cid:22)n + h(r) < 0
+
+In such cases, the optimal solution is determined by
+
+g(r)
+
+(cid:0)
+
+s =
+
+[g(r)2
+
+4( b
+
+1+(cid:26) )h(r)] 1
+
+2
+
+(cid:0)
+b
+1+(cid:26)
+
+(58)
+
+ds
+
+dg(r) > 0 and ds
+
+dh(r) > 0. Considering the condition (57), we also
+
+dr < 0 and dh(r)
+
+dr < 0. Consequently, we can conclude that
+
+Note that
+observe dg(r)
+
+ds(r)
+dr
+
+< 0
+
+(59)
+
+This indicates that o¤shoring is diminishing with a decrease in the interest
+rate r irrespective of (cid:26). Furthermore, it suggests that productivity, GDP, the
+wage rate, and total working capital decline as the interest rate r decreases.
+
+31
+
+This inverse relationship remains consistent for any value of (cid:26), underscoring
+its independence from the CES parameter.
+
+5 Closing the model with credit supply
+
+So far we have treated the rate of interest r as given. We now close the model
+by introducing credit supply through a banking sector.
+
+An advantage of closing the model with a banking sector is that we can
+address how short-term ‡uctuations in credit conditions that a¤ect lending
+
+condition (such as through ‡uctuations in the leverage of the banking sector)
+
+can a¤ect macro ‡uctuations through productivity and trade. In this way,
+
+our analysis opens up additional avenues for exploration in trade and …nance.
+We begin our analysis by presenting a model with credit risk arising from
+
+possible failure of supply chains. We then introduce a banking sector whose
+
+total lending is determined through a contracting problem to overcome a
+
+moral hazard problem among banks, following Bruno and Shin (2015).
+
+5.1 Supply chains with credit risk
+
+We introduce risk of failure of supply chains. Starting at date (cid:22)n+s+1 (when
+each supply chain starts receiving positive cash from sales), the supply chain
+associated with a multinational …rm is subject to a hazard rate " > 0 of failure
+with zero liquidation value. We assume that if …rm fails, the constituent
+
+units can re-group costlessly under a new multinational …rm who can borrow
+
+afresh.
+
+The multinational …rm’s optimisation problem at date 0 is to choose s to
+
+maximize the expected …rm value, V :
+
+1
+
+V =
+
+t=(cid:22)n+s+1
+X
+
+")t
+(cid:0)
+
+(cid:22)n
+
+(cid:0)
+
+(1
+
+(cid:0)
+
+s (((cid:22)n + bs)(cid:11)zL
+(cid:22)n
+(1 + r)t
+(cid:0)
+
+(cid:0)
+
+(cid:0)
+s
+
+wzL
+
+(cid:0)
+
+rzK)
+
+(60)
+
+Note that V now also incorporates the hazard rate ", as well as the interest
+rate r. The …rm value (60) can be simpli…ed to:
+
+V = (((cid:22)n + bs)(cid:11)zL
+
+wzL
+
+(cid:0)
+
+(cid:0)
+
+rzK)
+
+"
+1
+(cid:0)
+r + "
+
+(61)
+
+32
+
+Despite the inclusion of risk factor ", therefore, the maximization problem
+is reduced to maximizing certain pro…ts. Pro…ts are expressed, for example,
+
+in the simple benchmark case as:

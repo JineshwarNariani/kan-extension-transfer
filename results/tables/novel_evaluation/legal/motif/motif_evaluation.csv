@@ -1,0 +1,61 @@
+query,method,motif_similarity,n_pos_feedback_pred,n_neg_feedback_pred,cascade_depth_pred,n_fanout_pred,n_fanin_pred,n_bottleneck_pred,n_pos_feedback_gt,n_neg_feedback_gt,cascade_depth_gt,n_fanout_gt,n_fanin_gt,n_bottleneck_gt
+Roles and responsibilities of individual board members,left_kan,0.0,0,0,1,0,0,0,0,0,0,0,0,0
+Federal Reserve Annual Reports and Financial Disclosures,left_kan,0.0,0,0,1,0,0,0,0,0,0,0,0,0
+Redundant payment gateway architecture and failover switching mechanisms,left_kan,0.0,0,0,0,0,0,0,0,0,1,1,0,0
+federal reserve public communication channels,left_kan,1.0,0,0,1,0,0,0,0,0,1,0,0,0
+Indemnification and liability protection policies for board members,left_kan,0.7071068286895752,0,0,1,0,0,0,0,0,1,1,0,0
+Monetary Policy Reports Submitted to Congress,left_kan,0.0,0,0,0,0,0,0,0,0,1,1,0,0
+Proportional representation methods and their implementation,left_kan,0.0,0,0,0,0,0,0,0,0,0,0,0,0
+The impact of unconvent,left_kan,0.0,0,0,0,0,0,0,0,0,0,0,0,0
+Beige Book Regional Economic Condition Reports,left_kan,0.0,0,0,0,0,0,0,0,0,1,1,0,0
+Federal Reserve Bank Presidents' Speeches and Public Addresses,left_kan,0.0,0,0,0,0,0,0,0,0,1,1,0,0
+Cross-border financial contagion and central bank coordination frameworks,left_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+Recovery and resolution planning for financial market infrastructures,left_kan,0.0,0,0,0,0,0,0,0,0,0,0,0,0
+Fiduciary duties and legal obligations of board members,left_kan,0.0,0,0,1,0,0,0,0,0,0,0,0,0
+Committee formations and their specific functions,left_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+Quorum requirements and participation thresholds,left_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+Unconventional monetary policy tools during economic crises,left_kan,1.0,0,0,1,0,0,0,0,0,1,0,0,0
+Open market operations and asset purchase programs,left_kan,0.0,0,0,1,0,0,0,0,0,0,0,0,0
+board of governors structural organization,left_kan,0.0,0,0,1,0,0,0,0,0,0,0,0,0
+The Taylor Rule and systematic policy frameworks,left_kan,0.0,0,0,1,0,0,0,0,0,0,0,0,0
+Real Estate and Construction Market Conditions Across Regions,left_kan,0.0,0,0,0,0,0,0,0,0,1,1,0,0
+Roles and responsibilities of individual board members,right_kan,1.0,0,0,1,0,0,0,0,0,1,0,0,0
+Federal Reserve Annual Reports and Financial Disclosures,right_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+Redundant payment gateway architecture and failover switching mechanisms,right_kan,0.0,0,0,0,0,0,0,0,0,1,1,0,0
+federal reserve public communication channels,right_kan,0.0,0,0,0,0,0,0,0,0,0,0,0,0
+Indemnification and liability protection policies for board members,right_kan,0.0,0,0,0,0,0,0,0,0,1,1,0,0
+Monetary Policy Reports Submitted to Congress,right_kan,0.0,0,0,0,0,0,0,0,0,1,1,0,0
+Proportional representation methods and their implementation,right_kan,0.0,0,0,0,0,0,0,0,0,0,0,0,0
+The impact of unconvent,right_kan,0.0,0,0,0,0,0,0,0,0,0,0,0,0
+Beige Book Regional Economic Condition Reports,right_kan,0.0,0,0,0,0,0,0,0,0,1,1,0,0
+Federal Reserve Bank Presidents' Speeches and Public Addresses,right_kan,0.0,0,0,0,0,0,0,0,0,0,1,0,0
+Cross-border financial contagion and central bank coordination frameworks,right_kan,0.0,0,0,0,0,0,0,0,0,0,0,0,0
+Recovery and resolution planning for financial market infrastructures,right_kan,0.0,0,0,0,0,0,0,0,0,0,0,0,0
+Fiduciary duties and legal obligations of board members,right_kan,0.0,0,0,0,0,0,0,0,0,0,0,0,0
+Committee formations and their specific functions,right_kan,0.0,0,0,0,0,0,0,0,0,0,0,0,0
+Quorum requirements and participation thresholds,right_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+Unconventional monetary policy tools during economic crises,right_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+Open market operations and asset purchase programs,right_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+board of governors structural organization,right_kan,1.0,0,0,1,0,0,0,0,0,1,0,0,0
+The Taylor Rule and systematic policy frameworks,right_kan,0.0,0,0,0,0,0,0,0,0,0,0,0,0
+Real Estate and Construction Market Conditions Across Regions,right_kan,0.0,0,0,0,0,0,0,0,0,0,1,0,0
+Roles and responsibilities of individual board members,naive_rag,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+Federal Reserve Annual Reports and Financial Disclosures,naive_rag,1.0,0,0,1,0,0,0,0,0,1,0,0,0
+Redundant payment gateway architecture and failover switching mechanisms,naive_rag,0.0,0,0,0,0,0,0,0,0,1,1,0,0
+federal reserve public communication channels,naive_rag,1.0,0,0,1,0,0,0,0,0,1,0,0,0
+Indemnification and liability protection policies for board members,naive_rag,0.7071067690849304,0,0,1,0,0,0,0,0,1,1,0,0
+Monetary Policy Reports Submitted to Congress,naive_rag,0.0,0,0,0,0,0,0,0,0,1,1,0,0
+Proportional representation methods and their implementation,naive_rag,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+The impact of unconvent,naive_rag,1.0,0,0,1,0,0,0,0,0,1,0,0,0
+Beige Book Regional Economic Condition Reports,naive_rag,0.0,0,0,0,0,0,0,0,0,1,1,0,0
+Federal Reserve Bank Presidents' Speeches and Public Addresses,naive_rag,0.0,0,0,1,0,0,0,0,0,0,1,0,0
+Cross-border financial contagion and central bank coordination frameworks,naive_rag,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+Recovery and resolution planning for financial market infrastructures,naive_rag,0.0,0,0,1,0,0,0,0,0,0,0,0,0
+Fiduciary duties and legal obligations of board members,naive_rag,1.0,0,0,1,0,0,0,0,0,1,0,0,0
+Committee formations and their specific functions,naive_rag,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+Quorum requirements and participation thresholds,naive_rag,1.0,0,0,1,0,0,0,0,0,1,0,0,0
+Unconventional monetary policy tools during economic crises,naive_rag,1.0,0,0,1,0,0,0,0,0,1,0,0,0
+Open market operations and asset purchase programs,naive_rag,1.0,0,0,1,0,0,0,0,0,1,0,0,0
+board of governors structural organization,naive_rag,1.0,0,0,1,0,0,0,0,0,1,0,0,0
+The Taylor Rule and systematic policy frameworks,naive_rag,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+Real Estate and Construction Market Conditions Across Regions,naive_rag,0.0,0,0,1,0,0,0,0,0,0,1,0,0

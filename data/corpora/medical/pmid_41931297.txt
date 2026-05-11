@@ -1,0 +1,4 @@
+TITLE: Apolipoprotein E Mimetic Peptide CN-105 and Postoperative Delirium in Older Patients: The Phase 2 MARBLE Randomized Clinical Trial.
+
+ABSTRACT:
+The apolipoprotein E (APOE) gene ε4 allele leads to increased Alzheimer disease risk and neuroinflammation and is also believed to play a role in postoperative delirium. However, the safety and feasibility of modulating apoE protein signaling to reduce postoperative neuroinflammation and delirium in older adults are unclear.

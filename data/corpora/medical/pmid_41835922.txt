@@ -1,0 +1,128 @@
+
+PMID- 41835922
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260316
+LR  - 20260316
+IS  - 1178-1998 (Electronic)
+IS  - 1176-9092 (Print)
+IS  - 1176-9092 (Linking)
+VI  - 21
+DP  - 2026
+TI  - Auricular Vagus Nerve Stimulation Reduces Postoperative Delirium After Major 
+      Non-Cardiac Surgery in Elderly Patients.
+PG  - 558395
+LID - 10.2147/CIA.S558395 [doi]
+LID - 558395
+AB  - BACKGROUND: Postoperative delirium (POD) is a prevalent and devastating 
+      complication in elderly patients undergoing major surgery, marked by substantial 
+      increases in morbidity, mortality, and long-term cognitive decline. However, 
+      treatment and prevention methods are limited. Accumulating evidence suggests that 
+      vagus nerve stimulation effectively enhances cognitive function. OBJECTIVE: To 
+      evaluate the efficacy of transcutaneous auricular vagus nerve stimulation (taVNS) 
+      on POD in elderly patients undergoing major non-cardiac surgery. METHODS: 
+      Patients aged >/=65 years scheduled for major non-cardiac surgery were randomly 
+      assigned to either the active taVNS group or the sham taVNS group, with 
+      stimulation targeting the cymba conchae or earlobe, respectively. In both groups, 
+      stimulation was initiated 5 minutes prior to anesthesia induction and continued 
+      until the end of surgery. The only difference between the two groups was the 
+      stimulation site. The primary outcome was the incidence of POD during the first 3 
+      postoperative days. RESULTS: A total of 150 patients (median age, 73 years; 96 
+      women [64%]) completed this trial. The incident POD risk was 12% (n = 9) vs 25.3% 
+      (n = 19) in active-taVNS and sham-taVNS groups, respectively (relative risk, 
+      0.47; 95% CI, 0.23-0.98; P = 0.036). The mediation analysis revealed that 
+      postoperative sleep quality played a significant mediating role in the effect of 
+      taVNS on POD (z = -2.30, P = 0.02). CONCLUSION: In this study, taVNS reduces the 
+      incidence of POD in elderly patients undergoing major non-cardiac surgery, 
+      possibly by improving postoperative sleep quality. We suggest that this 
+      non-invasive neuromodulation technique could be considered as a potential 
+      preventive strategy for POD. Further validation in future large-scale randomized 
+      controlled trials is warranted.
+CI  - (c) 2026 Shi et al.
+FAU - Shi, Jinyun
+AU  - Shi J
+AD  - Department of Anesthesiology, Affiliated Hospital of Integrated Traditional 
+      Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 
+      210028, People's Republic of China.
+AD  - Department of Anesthesiology, Jiangsu Province Academy of Traditional Chinese 
+      Medicine, Nanjing, 210028, People's Republic of China.
+FAU - Gao, Dapeng
+AU  - Gao D
+AUID- ORCID: 0009-0005-7953-0067
+AD  - Department of Anesthesiology, Jinling Hospital, Nanjing University School of 
+      Medicine, Nanjing, 210018, People's Republic of China.
+FAU - Hu, Xiaoyi
+AU  - Hu X
+AD  - Department of Anesthesiology, the Second Affiliated Hospital of Nanjing Medical 
+      University, Nanjing, 210011, People's Republic of China.
+FAU - Zhang, Yue
+AU  - Zhang Y
+AUID- ORCID: 0009-0008-0668-9773
+AD  - Department of Anesthesiology, Affiliated Hospital of Integrated Traditional 
+      Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 
+      210028, People's Republic of China.
+AD  - Department of Anesthesiology, Jiangsu Province Academy of Traditional Chinese 
+      Medicine, Nanjing, 210028, People's Republic of China.
+FAU - Guo, Ting
+AU  - Guo T
+AD  - Department of Anesthesiology, the Second Affiliated Hospital of Nanjing Medical 
+      University, Nanjing, 210011, People's Republic of China.
+FAU - Mao, Qinghong
+AU  - Mao Q
+AD  - Department of Anesthesiology, Affiliated Hospital of Integrated Traditional 
+      Chinese and Western Medicine, Nanjing University of Chinese Medicine, Nanjing, 
+      210028, People's Republic of China.
+AD  - Department of Anesthesiology, Jiangsu Province Academy of Traditional Chinese 
+      Medicine, Nanjing, 210028, People's Republic of China.
+FAU - Liu, Qingren
+AU  - Liu Q
+AUID- ORCID: 0000-0002-0753-8810
+AD  - Department of Anesthesiology, Xishan People's Hospital of Wuxi City, Wuxi, 
+      214105, People's Republic of China.
+FAU - Ji, Muhuo
+AU  - Ji M
+AUID- ORCID: 0000-0003-4944-6436
+AD  - Department of Anesthesiology, the Second Affiliated Hospital of Nanjing Medical 
+      University, Nanjing, 210011, People's Republic of China.
+LA  - eng
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+DEP - 20260106
+PL  - New Zealand
+TA  - Clin Interv Aging
+JT  - Clinical interventions in aging
+JID - 101273480
+SB  - IM
+MH  - Humans
+MH  - Female
+MH  - Aged
+MH  - Male
+MH  - *Vagus Nerve Stimulation/methods
+MH  - *Delirium/prevention & control
+MH  - Aged, 80 and over
+MH  - *Postoperative Complications/prevention & control
+MH  - *Transcutaneous Electric Nerve Stimulation/methods
+MH  - Incidence
+PMC - PMC12988621
+OTO - NOTNLM
+OT  - mediation effects
+OT  - postoperative delirium
+OT  - sleep quality
+OT  - taVNS
+COIS- The authors declare no conflicts of interest. The sponsor had no role in the 
+      design, methods, data collection, analysis, and preparation of this manuscript.
+EDAT- 2026/03/16 21:56
+MHDA- 2026/03/16 21:57
+PMCR- 2026/01/06
+CRDT- 2026/03/16 06:01
+PHST- 2025/08/06 00:00 [received]
+PHST- 2025/12/11 00:00 [accepted]
+PHST- 2026/03/16 21:57 [medline]
+PHST- 2026/03/16 21:56 [pubmed]
+PHST- 2026/03/16 06:01 [entrez]
+PHST- 2026/01/06 00:00 [pmc-release]
+AID - 558395 [pii]
+AID - 10.2147/CIA.S558395 [doi]
+PST - epublish
+SO  - Clin Interv Aging. 2026 Jan 6;21:558395. doi: 10.2147/CIA.S558395. eCollection 
+      2026.

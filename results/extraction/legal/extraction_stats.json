@@ -1,0 +1,16 @@
+{
+  "corpus": "legal",
+  "total_triples": 43,
+  "n_subjects": 43,
+  "n_objects": 43,
+  "n_topics": 12,
+  "relation_types": [
+    "increases",
+    "affects",
+    "causes",
+    "influences",
+    "leads_to",
+    "reduces"
+  ],
+  "elapsed_seconds": 166.90622425079346
+}

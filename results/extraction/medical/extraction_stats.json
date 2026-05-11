@@ -1,0 +1,15 @@
+{
+  "corpus": "medical",
+  "total_triples": 47,
+  "n_subjects": 43,
+  "n_objects": 47,
+  "n_topics": 12,
+  "relation_types": [
+    "causes",
+    "increases",
+    "reduces",
+    "influences",
+    "leads_to"
+  ],
+  "elapsed_seconds": 166.71701669692993
+}

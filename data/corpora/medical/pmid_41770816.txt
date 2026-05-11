@@ -1,0 +1,125 @@
+
+PMID- 41770816
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260305
+LR  - 20260305
+IS  - 1932-6203 (Electronic)
+IS  - 1932-6203 (Linking)
+VI  - 21
+IP  - 3
+DP  - 2026
+TI  - Visual perturbation training to reduce visual dependency in Parkinson's disease: 
+      A randomized controlled trial.
+PG  - e0343223
+LID - 10.1371/journal.pone.0343223 [doi]
+LID - e0343223
+AB  - INTRODUCTION: Decreased gait automaticity and increased visual dependency are 
+      important contributors to falls in people with Parkinson's disease. The aim of 
+      this study was to assess if visual perturbation training during treadmill walking 
+      decreases visual dependency in people with Parkinson's disease. MATERIALS AND 
+      METHODS: For this randomized controlled trial 25 early-to-mid-stage people with 
+      Parkinson's disease (age 50-67y) without regular freezing of gait were randomly 
+      assigned to a visual perturbation group or treadmill training-only control group. 
+      Both groups trained 2 times per week for 6 weeks. Visual perturbation training 
+      consisted of self-paced treadmill walking with perturbations applied as rotations 
+      around the sagittal axis and medio-lateral translations of the virtual reality 
+      environment. The primary outcome was visual dependency. Secondary outcomes 
+      included steady-state spatiotemporal gait parameters (gait speed, step 
+      time/length/width/frequency, and cadence), as well as self-reported (near) falls. 
+      RESULTS: Group x time interaction effects revealed that visual perturbation 
+      training significantly decreased visual dependency (p < 0.001) and improved 
+      temporal gait characteristics such as step time (p = 0.012), stride time 
+      (p = 0.021) and cadence (p = 0.018) compared to treadmill-only controls. However, 
+      no significant effects were found for step width, step length, gait speed, and 
+      (near) falls. Improvements in visual dependency were negatively correlated to 
+      disease progression (p = 0.004). Discussion: Visual perturbation training 
+      decreases visual dependency and improves temporal gait parameters in people with 
+      Parkinson's disease. Participants in earlier disease stages appear to benefit 
+      most from visual perturbation training but additional research is needed. 
+      CLINICAL TRIAL REGISTRATION: This study was pre-registered at ClinicalTrials.gov 
+      (NCT05690308) on 09/01/2023.
+CI  - Copyright: (c) 2026 Baggen et al. This is an open access article distributed under 
+      the terms of the Creative Commons Attribution License, which permits unrestricted 
+      use, distribution, and reproduction in any medium, provided the original author 
+      and source are credited.
+FAU - Baggen, Remco J
+AU  - Baggen RJ
+AUID- ORCID: 0000-0002-1034-8997
+AD  - Department of Rehabilitation Sciences, Ghent University, Ghent, Belgium.
+AD  - Department of Human Movement Sciences, Vrije Universiteit Amsterdam, Amsterdam, 
+      The Netherlands.
+FAU - Van Bladel, Anke
+AU  - Van Bladel A
+AD  - Department of Rehabilitation Sciences, Ghent University, Ghent, Belgium.
+AD  - Department of Physical and Rehabilitation Medicine, Ghent University Hospital, 
+      Ghent, Belgium.
+AD  - Department of Rehabilitation Sciences, University of Antwerp, Antwerp, Belgium.
+FAU - Prins, Maarten R
+AU  - Prins MR
+AD  - Military Rehabilitation Center Aardenburg, Doorn, The Netherlands.
+FAU - Stappers, Jennifer
+AU  - Stappers J
+AD  - Department of Rehabilitation Sciences, Ghent University, Ghent, Belgium.
+FAU - Spildooren, Joke
+AU  - Spildooren J
+AD  - Faculty of Rehabilitation Sciences, REVAL-Rehabilitation Research Centre, Hasselt 
+      University, Diepenbeek, Belgium.
+FAU - De Letter, Miet
+AU  - De Letter M
+AD  - Department of Physical and Rehabilitation Medicine, Ghent University Hospital, 
+      Ghent, Belgium.
+AD  - Research Group BrainComm, Ghent University, Ghent, Belgium.
+FAU - Bouche, Katie
+AU  - Bouche K
+AD  - Department of Rehabilitation Sciences, Ghent University, Ghent, Belgium.
+AD  - Department of Physical and Rehabilitation Medicine, Ghent University Hospital, 
+      Ghent, Belgium.
+FAU - Cambier, Dirk
+AU  - Cambier D
+AD  - Department of Rehabilitation Sciences, Ghent University, Ghent, Belgium.
+FAU - Maes, Leen
+AU  - Maes L
+AD  - Department of Rehabilitation Sciences, Ghent University, Ghent, Belgium.
+AD  - Department of Otorhinolaryngology, Ghent University Hospital, Ghent, Belgium.
+FAU - Santens, Patrick
+AU  - Santens P
+AD  - Research Group BrainComm, Ghent University, Ghent, Belgium.
+AD  - Department of Neurology, Ghent University Hospital, Ghent, Belgium.
+LA  - eng
+SI  - ClinicalTrials.gov/NCT05690308
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+DEP - 20260302
+PL  - United States
+TA  - PLoS One
+JT  - PloS one
+JID - 101285081
+SB  - IM
+MH  - Humans
+MH  - *Parkinson Disease/physiopathology/rehabilitation
+MH  - Male
+MH  - Female
+MH  - Aged
+MH  - Middle Aged
+MH  - Gait/physiology
+MH  - *Exercise Therapy/methods
+MH  - Walking/physiology
+MH  - Accidental Falls/prevention & control
+PMC - PMC12952592
+COIS- The authors have declared that no competing interests exist.
+EDAT- 2026/03/02 18:57
+MHDA- 2026/03/06 09:06
+PMCR- 2026/03/02
+CRDT- 2026/03/02 13:43
+PHST- 2025/08/12 00:00 [received]
+PHST- 2026/02/02 00:00 [accepted]
+PHST- 2026/03/06 09:06 [medline]
+PHST- 2026/03/02 18:57 [pubmed]
+PHST- 2026/03/02 13:43 [entrez]
+PHST- 2026/03/02 00:00 [pmc-release]
+AID - PONE-D-25-41463 [pii]
+AID - 10.1371/journal.pone.0343223 [doi]
+PST - epublish
+SO  - PLoS One. 2026 Mar 2;21(3):e0343223. doi: 10.1371/journal.pone.0343223. 
+      eCollection 2026.

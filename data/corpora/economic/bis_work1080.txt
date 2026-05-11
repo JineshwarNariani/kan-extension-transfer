@@ -1,0 +1,5800 @@
+BIS Working Papers 
+No 1080 
+Did interest rate 
+guidance in emerging 
+markets work? 
+
+by Julián Caballero and Blaise Gadanecz 
+
+Monetary and Economic Department 
+
+March 2023 
+
+JEL classification: E52, E58. 
+
+Keywords: Monetary policy, forward guidance,  
+central bank communication, emerging markets. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BIS  Working  Papers  are  written  by  members  of  the  Monetary  and  Economic 
+Department of the Bank for International Settlements, and from time to time by other 
+economists,  and  are  published  by  the  Bank.  The  papers  are  on  subjects  of  topical 
+interest and are technical in character. The views expressed in them are those of their 
+authors and not necessarily the views of the BIS. 
+
+This publication is available on the BIS website (www.bis.org). 
+
+©  Bank for International Settlements 2023. All rights reserved. Brief excerpts may be 
+
+reproduced or translated provided the source is stated. 
+
+ISSN 1020-0959 (print) 
+ISSN 1682-7678 (online) 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Did interest rate guidance in emerging markets work?∗
+
+Julián Caballero
+Bank for International Settlements
+
+Blaise Gadanecz
+Bank for International Settlements
+
+February, 2023
+
+Abstract
+
+This paper studies the experience of emerging markets with explicit interest rate guidance dur-
+ing 2020-2021. Despite some heterogeneity, interest rate guidance generally provided additional
+monetary stimulus, as reﬂected in lower medium-term yields and lower term spreads. The mag-
+nitude of the reduction in 10-year yields ranged between ﬁve and twenty basis points, and these
+eﬀects are found when the policy rate was at its historical minima. Outcome-based guidance
+appears to have had the largest eﬀects. In the immediate aftermath of the guidance, we do not
+observe a systematic negative market reaction of the kind that would be associated with a loss
+of central bank credibility or with concerns about ﬁscal dominance, such as a de-anchoring of
+inﬂation expectations, currency depreciation pressures, or increased sovereign credit risk.
+
+Keywords: Monetary policy; Forward guidance; Central bank communication; Emerging mar-
+kets.
+JEL Classification:E52, E58.
+
+1 Introduction
+
+Explicit interest rate guidance (IRG henceforth) has been used in major advanced economies (AEs)
+
+since the Great Financial Crisis but was only recently adopted in Emerging Market Economies
+
+(EMEs).1 As the experience in AEs has shown, IRG statements can serve as a useful policy tool in
+
+a crisis or in the wake of an unusual shock. Brazil, Chile, India, Israel, and Peru adopted IRG in the
+
+wake of the Covid-19 pandemic in 2020, as part of unprecedented measures taken amid the Covid-
+
+19 pandemic (albeit that both India and Israel had already experimented with IRG in August and
+
+October 2019, respectively).
+
+∗Caballero: Corresponding author. Email: Julian.Caballero@bis.org. Gadanecz: Email: Blaise.Gadanecz@bis.org.
+We would like to thank David Archer, Fiorella De Fiore, Jon Frost, Dubravko Mihaljek, Benoît Mojon, Hyun Song Shin,
+Christian Upper, Egon Zakrajšek and Fabrizio Zampolli for their comments on earlier versions. Berenice Martínez,
+Cecilia Franco and Alejandro Parada provided excellent research assistance. The views expressed are strictly ours and
+do not necessarily reﬂect the views of the Bank for International Settlements.
+
+1By IRG we refer to statements by the monetary policy setting authority explicitly committing to a future path of
+policy rates. Such statements in AEs have been called forward guidance (see, among others, CGFS, 2019 and Bernanke,
+2020). IRG does not include the publication of policy rate forecasts, as some small open economies regularly do. Their
+experience is discussed in Svensson (2015), Natvik, Rime and Syrstad (2020), Brubakk, Ellen and Xu (2021) and Hof-
+mann and Xia (2022).
+
+By making IRG statements, the central bank can attempt to inﬂuence agents’ expectations of
+
+the economic outlook and steer long-term interest rates in a desired direction – eg by announc-
+
+ing a period of “low for long” (referred to as “Odyssean” forward guidance by Campbell, 2013,
+
+Bassetto, 2019 and Bernanke, 2020). IRG can also provide clarity about the monetary authority’s
+
+policy reaction function in a situation of increased uncertainty (referred to as “Delphic” forward
+
+guidance).
+
+IRG also involves trade-oﬀs and risks. The strength of the policy commitment is traded oﬀ
+
+against its ﬂexibility. The possibility of the central bank reneging on its commitments after an-
+
+nouncing IRG creates credibility risks for it (see discussion in Campbell, 2013), while a commit-
+
+ment to “low for long” can de-anchor inﬂation expectations. These challenges and trade-oﬀs can
+
+be exacerbated by the exposure of some EMEs to volatile capital ﬂows and changeable ﬁnancial
+
+conditions, and by their history of more persistent inﬂation and less well-anchored inﬂation ex-
+
+pectations. Even more so in an environment of rising inﬂation, such as the one prevailing in the
+
+second half of 2021 that drove Brazil, Chile, and Peru to hike policy rates.
+
+Because the adoption of IRG in EMEs is relatively new and took place during a severe external
+
+shock that hit economies simultaneously, little is known about its eﬀects. This paper aims at ﬁlling
+
+this gap by taking stock of the experience of ﬁve EMEs that adopted IRG in 2019-2021,2 highlighting
+
+the key characteristics of their policy statements. Then it uses a high-frequency event study and
+
+OLS local projections regressions à la Jordà (2005) to assess IRG statements’ market impact and
+
+their potential negative side eﬀects.
+
+We ﬁnd that long-term local-currency yields fell after interest rate guidance statements in emerg-
+
+ing economies, despite some heterogeneity in the reduction of yields across countries. The reduc-
+
+tion in long-term yields was accompanied by a compression of term spreads, and a fall in mar-
+
+ket expectations of future policy rates and in in term premia. The magnitude of the reduction in
+
+10-year yields ranged between ﬁve and twenty basis points. The median reduction in long-term
+
+yields corresponds to a median reduction in term spreads of about 10 basis points. These eﬀects
+
+are economically signiﬁcant and in line with existing literature studying the eﬀects of interest rate
+
+guidance in AEs. Importantly, we do not observe a systematic negative market reaction of the
+
+kind that would be associated with a loss of central bank credibility or with concerns about ﬁscal
+
+dominance, such as a de-anchoring of inﬂation expectations, currency depreciation pressures, or
+
+2As detailed in Section 3, we codiﬁed the monetary policy statements of twenty large EMEs in the period January
+
+2019–July 2021. Only Brazil, Chile, India, Israel and Peru adopted IRG.
+
+2
+
+increased sovereign credit risk.
+
+The next section discusses the main features of interest rate guidance adopted in EMEs and
+
+compares it with that adopted in AEs. The section also discusses the main literature on interest
+
+rate guidance (aka forward guidance) and the main empirical ﬁndings of AEs’s experience with
+
+that policy. Section 3 presents the data and our empirical strategy. Section 4 discusses the baseline
+
+results for the eﬀects of IRG statements on long-term yields, term spreads, interest rate expectations
+
+and term premia. In Section 5 we explore whether risks associated with interest rate guidance in
+
+EMEs materialised. Section 6 oﬀers some robustness and sensitivity checks of the baseline results,
+
+and Section 7 concludes.
+
+2
+
+Interest rate guidance in EMEs
+
+Explicit interest rate statements, or forward guidance as it is known in AEs, are central bank com-
+
+munication tools that may aﬀect activity through a number of channels. The literature distin-
+
+guishes three main mechanisms. First, by signalling an easier policy stance than expected by mar-
+
+kets, the statements lower the level of future expected short-term rates, and thus the expectations
+
+component of long-term rates. Second, by providing greater clarity about the future path of interest
+
+rates, they reduce the volatility and dispersion of expected future policy rates, and thus the term
+
+premium, through the risk component of long-term rates. Third, they may alter the transmission of
+
+monetary policy: if markets believe central banks’ announcements, they may be more responsive
+
+to the type of economic news that conditions policy (for further discussion see Ehrmann, Gaballo,
+
+Hoﬀmann and Georg, 2019; Filardo and Hoﬀmann, 2014; Moessner and Rungcharoenkitkul, 2019;
+
+Woodford, 2012).
+
+The literature on forward guidance in AEs identiﬁes three distinct types of guidance (Camp-
+
+bell, Ferroni, Fisher and Melosi, 2019; Filardo and Hoﬀmann, 2014; Moessner, Jansen and de Hann,
+
+2017): (i) Open-ended, in which the central bank commits to an expansionary policy stance “for
+
+an extended period of time.” (ii) Outcome- or threshold-based, in which exit is subject to the reali-
+
+sation of a pre-speciﬁed economic outcome. (iii) Calendar-based, which speciﬁes the future policy
+
+stance for a deﬁned period. While open-ended guidance may not convey a strong commitment, as
+
+central banks can change policy at discretion, it aﬀords ﬂexibility if conditions change. Calendar-
+
+based guidance oﬀers a strong commitment but comes at the cost of tying the monetary authority’s
+
+hand (if conditions change, it may be forced to follow a time-inconsistent policy, on pain of dam-
+
+age to its reputation if it reneges on its promise). Both open-ended and outcome-based guidance
+
+3
+
+lower the risk of time-inconsistency, in the sense of the central bank having previously commit-
+
+ted to a stance which is now wrong because circumstances changed (for a discussion of trade-oﬀs
+
+between diﬀerent types of guidance see CGFS, 2019; Ehrmann et al., 2019; Filardo and Hoﬀmann,
+
+2014; Mishkin, 2017; Woodford, 2012).
+
+What form did IRG take in EMEs? The guidance that was adopted in Brazil, Chile, India, Israel,
+
+and Peru ﬁts in with the typology above (see Table 1). Chile, India and Israel resorted to open-
+
+ended statements when adopting IRG (making pronouncements about keeping rates at their levels
+
+– or not increasing them – for an extended period of time). Brazil and Peru made their ﬁrst state-
+
+ments conditional on future outcomes. Brazil went beyond the typical central bank’s concerns of
+
+stabilizing inﬂation. Its statement also referred to “the maintenance of the current ﬁscal regime.” De-
+
+spite evidence suggesting higher eﬀectiveness of calendar-based statements (Ehrmann et al., 2019;
+
+Woodford, 2012), no EME central bank adopted this at ﬁrst. As did AEs, most EMEs subsequently
+
+ﬁne-tuned their statements, with some central banks switching from one type of statement to an-
+
+other as conditions changed (eg Chile in June 2020, India in October 2020).
+
+What led these ﬁve EME central banks to adopt IRG? Improved central bank credibility, lack
+
+of policy space, concerns about stagnating or shirking economic activity as well as about market
+
+disruptions all played a role.
+
+First, as discussed in Aguilar and Cantú (2020), improved central bank credibility may have
+
+dissipated concerns about a de-anchoring of inﬂation expectations, which are traditionally con-
+
+sidered a potential risk of tying one’s hand with low rates that may have to be reneged ex post if
+
+inﬂation picks up (see eg Mishkin, 2017).
+
+Second, as in AEs, the monetary environment in IRG-adopting EMEs was one of historically
+
+low nominal policy rates (Figure 1), which constrained their traditional policy space to cut rates.3
+
+In such conditions, explicit statements can help lower long-term rates through their expectations
+
+and risk components (Bernanke, 2020). While the central banks of Brazil, Chile and Peru adopted
+
+IRG in 2020 when interest rates hit their historical minima, the central banks of India and Israel
+
+ﬁrst adopted IRG in 2019 when their policy rates were not at those minima. These central banks
+
+ﬁne-tuned their IRG stance later on during the Covid-19 pandemic when interest rates hit their
+
+historical minima (see Figure A.1 in the Appendix). The analysis in this paper focuses on the IRG
+
+announcements made during the period in which a country hit its historical minimum interest
+
+3Interestingly, the interest rate levels in EMEs at adoption of IRG were not that far from the levels in AEs when those
+
+countries adopted the policy after the Global Financial Crisis (see Figure A.2 in the Appendix).
+
+4
+
+Table 1: Monetary policy statements announcing the adoption of IRG in EMEs and AEs
+
+Country Country
+
+group
+
+Date of
+IRG
+
+IL
+
+28.Aug.19
+
+IN
+
+04.Oct.19
+
+EMEs
+
+CL
+
+31.Mar.20
+
+PE
+
+07.May.20
+
+BR
+
+05.Aug.20
+
+US
+
+16.Dec.08
+
+CA
+
+16.Dec.08
+
+JP
+
+05.Oct.10
+
+AEs
+
+EA
+
+04.Jul.13
+
+GB
+
+07.Aug.13
+
+Statement when
+adoption of IRG
+
+The Monetary Committee’s assessment is [...], the interest rate
+will not be increased for an extended period. Moreover, if nec-
+essary, the Committee will take additional steps toward making
+monetary policy even more accommodative in order to support
+a process at the end of which inﬂation will stabilize around the
+midpoint of the target range, and to support economic activity.
+The MPC also decided to continue with an accommodative stance
+as long as it is necessary to revive growth, while ensuring that
+inﬂation remains within the target.
+[...] the Board estimates that for inﬂation to converge to the 3%
+target, monetary policy needs to remain highly expansionary for
+an extended period.
+The Board considers it appropriate to maintain a strong expan-
+sionary monetary stance for an extended period and while the
+negative eﬀects of the pandemic on inﬂation and its determi-
+nants persist.
+[...] the Copom does not foresee reductions in the monetary stim-
+ulus unless inﬂation expectations, as well as its baseline sce-
+nario inﬂation projections, are suﬃciently close to the inﬂation
+target at the relevant horizon for monetary policy, which cur-
+rently includes 2021 and, to a lesser extent, 2022. This intention is
+conditional on the maintenance of the current ﬁscal regime and
+on the anchoring of long-term inﬂation expectations.
+[...] the Committee anticipates that weak economic conditions
+are likely to warrant exceptionally low levels of the federal funds
+rate for some time.
+[...] Conditional on the outlook for inﬂation, the target overnight
+rate can be expected to remain at its current level until the end
+of the second quarter of 2010 in order to achieve the inﬂation
+target.
+The Bank will maintain the virtually zero interest rate policy un-
+til it judges, on the basis of the “understanding of medium- to
+long-term price stability,” that price stability is in sight, on con-
+dition that no problem will be identiﬁed in examining risk factors,
+including the accumulation of ﬁnancial imbalances.
+[...] Looking ahead, our monetary policy stance will remain ac-
+commodative for as long as necessary. The Governing Council
+expects the key ECB interest rates to remain at present or lower
+levels for an extended period of time.
+The Committee intends at a minimum to maintain the current
+highly stimulative stance of monetary policy until economic
+slack has been substantially reduced, provided this does not en-
+tail material risks to either price stability or ﬁnancial stability. In
+particular, the MPC intends not to raise Bank Rate from its cur-
+rent level of 0.5% at least until the Labour Force Survey headline
+measure of the unemployment rate has fallen to a threshold of
+7%, subject to the conditions below.
+
+Type of
+IRG adopted
+
+Open-ended
+
+Open-ended
+
+Open-ended
+
+Outcome-based
+
+Outcome-based
+
+Open-ended
+
+Calendar-based
+
+Outcome-based
+
+Open-ended
+
+Outcome-based
+
+rate, which we see as its eﬀective lower bound – ELB (also shown in Figure A.1).
+
+Third, all ﬁve EMEs which resorted to IRG stated that their objective was to support economic
+
+5
+
+Figure 1: Real ex-ante monetary policy rates at the time IRG was introduced in EMEs
+
+This graph shows the level of interest rates in emerging market economies at adoption of IRG for the ﬁrst time. The
+vertical dashed line indicates implementation of forward guidance for the ﬁrst time. The horizontal axis indicates
+the number of days before and after the ﬁrst interest rate guidance statement. The band shows the inter-quartile
+range of the real ex-ante interest policy rates, and the dark blue line the medians. The green line stands for the
+median nominal policy rates. The dates of ﬁrst adoption of IRG are as follows: IL 28.Aug.2019, IN 04.Oct.2019, CL
+31.Mar.2020, PE 07.May.2020, BR 05.Aug.2020.
+
+activity and help inﬂation and inﬂation expectations converge to target, (Table 1). Indeed, in 2019
+
+and 2020 inﬂation rates were at historically low levels in all ﬁve EMEs. IRG statements made in
+
+Brazil, Chile and Peru expressed concerns about the pandemic’s eﬀects on economic activity, ﬁrst
+
+and foremost (before concerns about inﬂation overshooting its target arose and led to a hiking cycle
+
+in the second half of 2021).
+
+Lastly, some of the IRG statements contained concerns about market dislocations,4 particularly
+
+at the height of the Covid-19 crisis, and IRG was deployed to reduce uncertainty about the future
+
+4See for example the policy statement of August 2019 from the Bank of Israel in Table 1, or the monetary policy
+statement of July 2021 from the Central Reserve Bank of Peru: “The Board considers it appropriate to maintain an
+expansionary stance as long as the negative eﬀects of the pandemic on inﬂation and its determinants persist [...] Financial
+markets were highly volatile in a context of electoral uncertainty and the BCRP’s actions were intended to mitigate this volatility,”
+(emphasis added).
+
+6
+
+-5.0-4.0-3.0-2.0-1.00.01.02.03.04.05.0-360-270-180-90090180270360Real ex-anteNominalpath of interest rates. In Chile, India and Israel, central banks complemented IRG with large-scale
+
+asset purchases (LSAPs), though the latter were implemented with the stated objective of reme-
+
+dying market dislocations rather than providing additional monetary easing.
+
+3 Data and Empirical methodology
+
+To gauge the eﬀects of IRG in EMEs, we codiﬁed the monetary policy statements of twenty large
+
+EMEs5 in the period January 2019–July 2021 and identiﬁed statements of explicit interest rate guid-
+
+ance. We sourced the statements from each central bank, double-checked against the database of
+
+unconventional monetary policy measures compiled by Cantú, Cavallino, De Fiore and Yetman
+
+(2021), and identiﬁed IRG in only ﬁve EMEs: Brazil, Chile, India, Israel and Peru. We coded those
+
+statements as either open-ended, outcome-based, or calendar-based based on our reading and fol-
+
+lowing the literature on forward guidance in AEs. To illustrate, the statement excerpts relevant for
+
+the coding are shown in bold in Table 1. There are ﬁfty IRG statements in our baseline sample. See
+
+summary in Table 2 and the complete list in Table A.1 in the Appendix.
+
+Table 2: Interest rate guidance statements in EMEs, 2019–21
+
+Country
+
+BR
+CL
+IL
+IN
+PE
+
+Date IRG
+was
+introduced
+
+05.Aug.20
+31.Mar.20
+28.Aug.19
+04.Oct.19
+07.May.20
+
+Number of
+IRG
+
+Number of
+times IRG
+statements was changed Rate cuts
+
+Concurrent
+measures
+
+5
+11
+8
+11
+15
+
+1
+2
+1
+2
+0
+
+1
+1
+0
+3
+0
+
+IRG statements at the ELB
+without simultaneous
+rate cuts or LSAPs
+
+1
+1
+1
+1
+1
+
+LSAPs
+
+0
+3
+0
+1
+0
+
+This table summarizes the interest rate guidance statements in our sample and detailed in Table A.1 in the Appendix.
+
+We focus on the statements in which IRG was adopted for the ﬁrst time or in which the word-
+
+ing was signiﬁcantly changed (eg where the type was modiﬁed, say from open-ended to outcome-
+
+based, or where conditionalities were altered) and those adopted at the historical minimum of the
+
+policy rate (which we treat as the eﬀective lower bound – ELB). From the baseline sample we ex-
+
+cluded extensions or restatements of previous announcements that carry neither additional infor-
+
+mation nor a change in type (open-ended/outcome-based/calendar-based), under the assumption
+
+that they do not feed additional news to the market.6 To strip out the eﬀects of concurrent pol-
+
+5Brazil, Chile, Colombia, Croatia, Czechia, Hungary, India, Indonesia, Israel, Korea, Malaysia, Mexico, Peru, Philip-
+
+pines, Poland, Romania, Singapore, South Africa, Thailand, and Turkey.
+
+6In section 6 we show that such statements indeed did not move local currency yields.
+
+7
+
+icy measures, we eliminate statements accompanied by policy rate cuts and/or LSAPs announce-
+
+ments.7 This reduces the sample to ﬁve “clean” IRG statements, listed in Table A.1 in the Appendix
+
+(the “baseline sample", for short).
+
+We ﬁrst analyse the eﬀects of IRG based on an event study using daily data. For both medium-
+
+(5-year) and long-term (10-year) yields, we compute cumulative changes for windows starting
+
+ﬁve days before and ending ﬁve days after each announcement. We present results separately for
+
+each of the ﬁve baseline IRG statements in the baseline sample, and, in addition, for the “median"
+
+statement.
+
+We complement the event study approach with a local linear projection regression analysis
+
+following the methodology proposed by Jordà (2005). We estimate variations of the following
+
+baseline model:
+
+i,t = αh
+yh
+
+i + βhIRGi,t + θhXi,t + εh
+i,t
+
+(1)
+
+where yh
+
+i,t denotes the cumulative change of variable y in country i from the statement of date t
+
+to day h, for h = 1, ..., 5. Our main variable of interest is local-currency yields (5-year and 10-year
+
+yields), but we also estimate the model for term spreads, inﬂation expectations, sovereign CDSs
+
+and exchange rates. IRGi,t is a dummy variable that takes value 1 on the date of a baseline IRG
+
+statement in country i (those at the ELB, not simultaneous with an interest rate cut or announce-
+
+ment of a bond purchase programme). The coeﬃcients of interest are the βh, which quantify the
+
+impact of a baseline IRG statement at horizon h on variable y.
+
+The regressions controls for a vector (Xi,t) of daily country-speciﬁc control variables. In our
+
+baseline speciﬁcation for local currency yields this includes a dummy that takes the value 1 if a
+
+large-scale asset purchase programme was announced that day, the level of the monetary policy
+
+rate, the daily change in the monetary policy rate, the level of sovereign CDSs, the returns of the
+
+domestic stock exchange index and the volatility of such returns, the level of the term spread, and
+
+the level of the exchange rate.8
+
+We estimate model 1 country by country, treating αh
+
+i as the constant in each country-speciﬁc
+
+regression. Following Montiel-Olea and Plagborg-Møller (2021), the regression also includes the
+
+7For a discussion of the signalling eﬀects of LSAP announcements, see Bauer and Rudebusch (2014); on their use in
+combination with forward guidance refer to Andrade, Breckenfelder, De Fiore, Karadi and Tristani (2016), Masayuki
+and Kaihatsu (2016) and Ehrmann et al. (2019). A decomposition of the eﬀects of the ECB’s forward guidance and QE
+using high-frequency data is performed by Rostagno, Altavilla, Carboni, Lemke, Motto and Saint Guilhem (2021).
+
+8All daily ﬁnancial variables were sourced from Bloomberg.
+
+8
+
+ﬁrst lag of the dependent variable. These authors show that inference based on lag-augmented
+
+local projections models is asymptotically valid for stationary data and for long horizons.
+
+As with the literature studying any other single policy, a problem that we cannot easily solve
+
+is that some of the IRG statements took place simultaneously with other measures. The baseline
+
+results exclude statements that were concurrent with interest rate cuts and/or LSAPs announce-
+
+ments. While in principle the estimated eﬀects of IRG statements may be confounded by other
+
+central bank or ﬁscal policies (eg lending operations, FX market interventions, or ﬁscal stimuli),
+
+the daily frequency of the observations that we work with greatly limits this risk.
+
+The sample in the regressions includes the ﬁve EMEs that made IRG statements: BR, CL, IL,
+
+IN, and PE. We use daily data from 1 January 2019 to 15 July 2021.
+
+4 Did interest rate guidance work in EMEs?
+
+4.1 Eﬀects on medium- and long-term local currency yields
+
+We start by analysing the responses of local currency yields to each of the ﬁve baseline IRG state-
+
+ments by means of an event study, as shown in Figure 2. Despite some heterogeneity, interest rate
+
+guidance was followed by a reduction in long-term yields in the sample of ﬁve EMEs . The reduc-
+
+tions in 5- and 10-year local currency yields one day after an IRG statement reach up to ﬁve basis
+
+points (bps). In most countries the cumulative reduction reaches over twenty bps by day 5. The
+
+largest reductions are seen in Brazil, Chile and Peru.
+
+The reductions in long-term yields documented in the event studies are borne out and statis-
+
+tically signiﬁcant based on the regression analysis using OLS local projections à la Jordà (2005),
+
+explained in Section 3. Table 3 shows the estimated coeﬃcients βh from model 1 for each country
+
+that adopted IRG, for each estimating horizon h = 0, ..., 5 after baseline IRG statements, for both
+
+5- and 10-year local currency yields. The results of these regressions indicate that IRG statements
+
+reduced long-term local currency yields in a signiﬁcant and persistent way in all countries, with
+
+the exception of 5-year LC yields in India. One day after an IRG statement 5-year yields fell up to
+
+13 basis points in Brazil and 10-year LC yields fell up to 18 basis points in Peru. In all cases, that
+
+eﬀect persists and continues to build up in subsequent days.
+
+Comparisons based on country-speciﬁc regressions, however, should be taken with care as the
+
+level of LC currency yields is quite diﬀerent across countries (eg in 2019, the average 10-year LC
+
+yield was 7.9 percent in Brazil, 7.0 percent in India, 4.7 percent in Peru, 3.6 in Chile, and 1.4 per-
+
+9
+
+Figure 2: Changes in local currency yields around baseline IRG statements
+(in basis points)
+
+This ﬁgure shows the cumulative change in 5- and 10-year local currency yields ﬁve days before and ﬁve days after
+the ﬁve baseline IRG statements referred in the text and listed in Table A.1 in the Appendix. Changes are calculated
+as the cumulative diﬀerences in basis points in 5- and 10-year yields relative to the day prior to the IRG statement.
+
+cent in Israel). Expressing the results in basis points, nonetheless, allows us to compare them with
+
+existing literature and assess their economic signiﬁcance. Despite some variation of the estimated
+
+eﬀects across jurisdictions and over time, they are economic signiﬁcant and in the same ballpark
+
+as previous estimates for explicit interest rate statements in AEs. For example, Bernanke (2020) re-
+
+ports one-day yield reductions on 10-year Treasuries of 27 basis point in the United States following
+
+the forward guidance announcements of 9.Aug.2011 and 25.Jan.2012, while Filardo and Hoﬀmann
+
+(2014) document reductions of between 1 and 12 bps in the UK, the Euro Area, and Japan for the
+
+period 2010-2013 (see also Borio and Zabai, 2016, CGFS, 2019, and Swanson, 2021).
+
+10
+
+-40-20020-40-20020-505-505-505BR:09dec2020:Out+chgCL:30mar2021:Out+chgIL:19apr2021:Open+chgIN:07apr2021:Open+chgPE:07may2020:First+OutMedian5y10ys
+t
+n
+e
+m
+e
+t
+a
+t
+s
+e
+c
+n
+a
+d
+i
+u
+g
+e
+t
+a
+r
+
+t
+s
+e
+r
+e
+t
+n
+i
+
+r
+e
+t
+f
+a
+s
+d
+l
+e
+i
+y
+l
+a
+c
+o
+l
+n
+i
+
+s
+e
+g
+n
+a
+h
+C
+
+.
+s
+t
+l
+u
+s
+e
+r
+
+e
+n
+i
+l
+e
+s
+a
+B
+
+:
+
+3
+e
+l
+b
+a
+T
+
+s
+t
+n
+e
+m
+e
+t
+a
+t
+s
+G
+R
+I
+
+e
+n
+i
+l
+e
+s
+a
+b
+e
+v
+ﬁ
+e
+h
+t
+
+r
+e
+t
+f
+a
+
+s
+d
+l
+e
+i
+y
+y
+c
+n
+e
+r
+r
+u
+c
+
+l
+a
+c
+o
+l
+
+r
+a
+e
+y
+-
+0
+1
+d
+n
+a
+
+-
+5
+n
+
+i
+
+e
+g
+n
+a
+h
+c
+
+e
+v
+i
+t
+a
+l
+u
+m
+u
+c
+
+e
+h
+t
+
+r
+o
+f
+
+s
+t
+n
+e
+i
+c
+
+ﬃ
+e
+o
+c
+d
+e
+t
+a
+m
+
+i
+t
+s
+e
+
+e
+h
+t
+
+s
+w
+o
+h
+s
+
+e
+l
+b
+a
+t
+
+s
+i
+h
+T
+
+r
+a
+e
+y
+-
+0
+1
+d
+n
+a
+
+-
+5
+n
+
+i
+
+s
+t
+n
+i
+o
+p
+s
+i
+s
+a
+b
+n
+
+i
+
+i
+
+s
+e
+c
+n
+e
+r
+e
+ﬀ
+d
+e
+v
+i
+t
+a
+l
+u
+m
+u
+c
+
+e
+h
+t
+
+s
+a
+d
+e
+t
+a
+l
+u
+c
+l
+a
+c
+
+e
+r
+a
+
+s
+e
+g
+n
+a
+h
+C
+
+.
+
+x
+i
+d
+n
+e
+p
+p
+A
+e
+h
+t
+n
+
+i
+
+1
+.
+A
+e
+l
+b
+a
+T
+n
+
+i
+
+d
+e
+t
+s
+i
+l
+
+d
+n
+a
+
+t
+x
+e
+t
+
+e
+h
+t
+n
+
+i
+
+d
+e
+r
+r
+e
+f
+e
+r
+
+l
+o
+r
+t
+n
+o
+C
+
+.
+
+3
+
+n
+o
+i
+t
+c
+e
+S
+
+n
+
+i
+
+d
+e
+t
+n
+e
+s
+e
+r
+p
+
+l
+e
+d
+o
+m
+n
+o
+i
+s
+s
+e
+r
+g
+e
+r
+
+e
+h
+t
+
+n
+o
+d
+e
+s
+a
+b
+
+e
+r
+a
+
+s
+t
+n
+e
+i
+c
+
+ﬃ
+e
+o
+c
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+.
+t
+n
+e
+m
+e
+t
+a
+t
+s
+G
+R
+I
+
+e
+h
+t
+
+i
+
+g
+n
+d
+e
+c
+e
+r
+p
+y
+a
+d
+e
+h
+t
+
+o
+t
+
+e
+v
+i
+t
+a
+l
+e
+r
+
+s
+d
+l
+e
+i
+y
+
+n
+
+i
+
+e
+g
+n
+a
+h
+c
+y
+l
+i
+a
+d
+e
+h
+t
+
+,
+e
+t
+a
+r
+y
+c
+i
+l
+o
+p
+y
+r
+a
+t
+e
+n
+o
+m
+e
+h
+t
+
+f
+o
+l
+e
+v
+e
+l
+
+e
+h
+t
+
+,
+e
+m
+m
+a
+r
+g
+o
+r
+p
+e
+s
+a
+h
+c
+r
+u
+p
+t
+e
+s
+s
+a
+
+e
+l
+a
+c
+s
+-
+e
+g
+r
+a
+l
+
+f
+o
+t
+n
+e
+m
+e
+c
+n
+u
+o
+n
+n
+a
+
+r
+o
+f
+y
+m
+m
+u
+d
+a
+
+e
+d
+u
+l
+c
+n
+
+i
+
+s
+e
+l
+b
+a
+i
+r
+a
+v
+
+m
+r
+e
+t
+
+e
+h
+t
+
+s
+e
+t
+a
+c
+i
+d
+n
+
+i
+
+f
+o
+
+∗
+∗
+
+∗
+
+l
+e
+v
+e
+l
+
+e
+h
+t
+
+,
+
+y
+t
+i
+l
+i
+t
+a
+l
+o
+v
+
+r
+i
+e
+h
+t
+
+d
+n
+a
+
+x
+e
+d
+n
+
+i
+
+e
+g
+n
+a
+h
+c
+x
+e
+
+k
+c
+o
+t
+s
+
+c
+i
+t
+s
+e
+m
+o
+d
+
+e
+h
+t
+
+f
+o
+
+s
+n
+r
+u
+t
+e
+r
+
+e
+h
+t
+
+,
+
+S
+D
+C
+n
+g
+i
+e
+r
+e
+v
+o
+s
+
+f
+o
+
+l
+e
+v
+e
+l
+
+e
+h
+t
+
+,
+e
+t
+a
+r
+
+y
+c
+i
+l
+o
+p
+
+y
+r
+a
+t
+e
+n
+o
+m
+e
+h
+t
+
+,
+l
+e
+v
+e
+l
+
+t
+n
+e
+c
+r
+e
+p
+0
+1
+t
+a
+e
+c
+n
+a
+c
+ﬁ
+n
+g
+i
+s
+
+i
+
+s
+e
+t
+a
+c
+i
+d
+n
+
+i
+
+.
+s
+i
+s
+e
+h
+t
+n
+e
+r
+a
+p
+n
+
+i
+
+n
+w
+o
+h
+s
+e
+r
+a
+s
+r
+o
+r
+r
+e
+d
+r
+a
+d
+n
+a
+t
+s
+
+t
+s
+u
+b
+o
+R
+
+.
+e
+t
+a
+r
+e
+g
+n
+a
+h
+c
+x
+e
+e
+h
+t
+
+f
+o
+l
+e
+v
+e
+l
+e
+h
+t
+d
+n
+a
+,
+
+d
+a
+e
+r
+p
+s
+
+.
+l
+e
+v
+e
+l
+
+t
+n
+e
+c
+r
+e
+p
+1
+
+t
+a
+
+e
+c
+n
+a
+c
+ﬁ
+n
+g
+i
+s
+
+i
+
+s
+e
+t
+a
+c
+i
+d
+n
+
+i
+
+∗
+∗
+∗
+d
+n
+a
+
+,
+l
+e
+v
+e
+l
+
+t
+n
+e
+c
+r
+e
+p
+5
+t
+a
+
+e
+c
+n
+a
+c
+ﬁ
+n
+g
+i
+s
+
+i
+
+s
+d
+l
+e
+i
+y
+C
+L
+r
+a
+e
+y
+-
+0
+1
+
+s
+d
+l
+e
+i
+y
+C
+L
+r
+a
+e
+y
+-
+5
+
+5
+=
+
+t
+
+4
+=
+
+t
+
+3
+=
+
+t
+
+2
+=
+
+t
+
+1
+=
+
+t
+
+0
+=
+
+t
+
+5
+=
+
+t
+
+4
+=
+
+t
+
+3
+=
+
+t
+
+2
+=
+
+t
+
+1
+=
+
+t
+
+0
+=
+
+t
+
+∗
+∗
+∗
+2
+4
+
+.
+
+7
+1
+-
+
+∗
+∗
+∗
+9
+8
+
+.
+
+3
+1
+-
+
+)
+5
+6
+1
+4
+(
+
+.
+
+∗
+∗
+∗
+6
+9
+
+.
+
+2
+1
+-
+
+)
+2
+7
+8
+
+.
+
+3
+(
+
+∗
+∗
+∗
+3
+4
+7
+-
+
+.
+
+∗
+∗
+∗
+1
+0
+
+.
+
+3
+1
+-
+
+)
+8
+0
+4
+3
+(
+
+.
+
+2
+9
+0
+
+.
+
+∗
+∗
+∗
+9
+3
+
+.
+
+4
+1
+-
+
+)
+3
+7
+7
+
+.
+
+2
+(
+
+4
+1
+1
+
+.
+
+)
+5
+6
+7
+1
+(
+
+.
+
+∗
+∗
+∗
+9
+8
+
+.
+
+2
+1
+-
+
+)
+3
+1
+6
+
+.
+
+1
+(
+
+∗
+∗
+∗
+4
+7
+
+.
+
+2
+1
+-
+
+)
+9
+4
+4
+1
+(
+
+.
+
+∗
+∗
+∗
+6
+5
+
+.
+
+2
+1
+-
+
+)
+6
+3
+2
+
+.
+
+1
+(
+
+∗
+∗
+∗
+3
+2
+
+.
+
+1
+1
+-
+
+)
+6
+3
+7
+0
+(
+
+.
+
+∗
+∗
+∗
+8
+5
+
+.
+
+6
+-
+
+)
+5
+9
+6
+
+.
+
+0
+(
+
+∗
+∗
+∗
+3
+1
+
+.
+
+6
+-
+
+)
+3
+9
+5
+0
+(
+
+.
+
+∗
+∗
+∗
+2
+1
+
+.
+
+6
+-
+
+)
+3
+1
+5
+
+.
+
+0
+(
+
+∗
+∗
+∗
+6
+2
+
+.
+
+6
+-
+
+)
+9
+6
+6
+0
+(
+
+.
+
+∗
+∗
+9
+7
+
+.
+
+0
+1
+-
+
+)
+6
+3
+6
+0
+(
+
+.
+
+∗
+∗
+∗
+6
+4
+
+.
+
+4
+1
+-
+
+)
+1
+0
+6
+
+.
+
+0
+(
+
+∗
+∗
+∗
+8
+7
+
+.
+
+5
+1
+-
+
+)
+4
+4
+5
+0
+(
+
+.
+
+∗
+∗
+∗
+7
+4
+
+.
+
+0
+2
+-
+
+)
+5
+3
+3
+4
+(
+
+.
+
+)
+7
+3
+9
+3
+(
+
+.
+
+)
+6
+8
+2
+
+.
+
+3
+(
+
+)
+8
+5
+8
+2
+(
+
+.
+
+∗
+∗
+∗
+3
+7
+.
+0
+1
+-
+
+)
+5
+7
+6
+.
+2
+(
+
+∗
+∗
+∗
+7
+0
+.
+4
+
+)
+8
+7
+9
+.
+0
+(
+
+∗
+∗
+∗
+4
+2
+.
+9
+-
+
+)
+0
+2
+4
+.
+0
+(
+
+∗
+∗
+∗
+3
+7
+.
+4
+-
+
+)
+3
+7
+4
+.
+0
+(
+
+∗
+∗
+∗
+0
+1
+.
+8
+1
+-
+
+)
+6
+3
+3
+.
+2
+(
+
+∗
+∗
+∗
+4
+8
+.
+6
+-
+
+)
+6
+0
+0
+.
+2
+(
+
+∗
+∗
+∗
+7
+4
+.
+6
+
+)
+3
+2
+6
+.
+0
+(
+
+∗
+∗
+∗
+2
+5
+.
+3
+-
+
+)
+6
+1
+3
+.
+0
+(
+
+∗
+∗
+∗
+1
+0
+.
+4
+-
+
+)
+2
+8
+2
+.
+0
+(
+
+∗
+1
+0
+.
+3
+-
+
+)
+6
+1
+6
+.
+1
+(
+
+∗
+∗
+∗
+3
+9
+.
+1
+2
+-
+
+)
+9
+2
+2
+.
+4
+(
+
+∗
+∗
+∗
+3
+1
+.
+2
+2
+-
+
+)
+8
+8
+8
+.
+1
+(
+
+∗
+∗
+∗
+8
+7
+.
+4
+
+)
+4
+2
+0
+.
+1
+(
+
+0
+5
+.
+0
+-
+
+)
+7
+7
+3
+.
+0
+(
+
+∗
+∗
+∗
+1
+0
+.
+8
+-
+
+)
+9
+2
+0
+.
+2
+(
+
+∗
+∗
+∗
+4
+7
+.
+8
+2
+-
+
+)
+5
+0
+9
+.
+3
+(
+
+∗
+∗
+∗
+8
+0
+.
+6
+1
+-
+
+)
+2
+2
+7
+.
+1
+(
+
+∗
+∗
+∗
+9
+6
+.
+4
+
+)
+9
+5
+9
+.
+0
+(
+
+∗
+∗
+∗
+6
+5
+.
+2
+-
+
+)
+6
+5
+3
+.
+0
+(
+
+∗
+∗
+∗
+2
+4
+.
+7
+-
+
+)
+6
+4
+9
+.
+1
+(
+
+∗
+∗
+∗
+9
+3
+.
+2
+2
+-
+
+∗
+∗
+∗
+0
+7
+.
+7
+1
+-
+
+∗
+∗
+∗
+2
+0
+.
+3
+1
+-
+
+)
+9
+9
+2
+.
+3
+(
+
+∗
+∗
+∗
+7
+2
+.
+7
+-
+
+)
+4
+7
+5
+.
+1
+(
+
+∗
+∗
+∗
+3
+1
+.
+5
+
+)
+7
+1
+8
+.
+0
+(
+
+∗
+∗
+∗
+9
+5
+.
+2
+-
+
+)
+3
+3
+3
+.
+0
+(
+
+∗
+∗
+∗
+5
+3
+.
+1
+1
+-
+
+)
+3
+2
+6
+.
+1
+(
+
+)
+7
+8
+8
+.
+2
+(
+
+∗
+∗
+∗
+3
+4
+.
+6
+-
+
+)
+8
+6
+3
+.
+1
+(
+
+∗
+∗
+8
+7
+.
+1
+
+)
+1
+2
+7
+.
+0
+(
+
+∗
+∗
+∗
+9
+0
+.
+1
+-
+
+)
+6
+8
+2
+.
+0
+(
+
+∗
+∗
+∗
+6
+2
+.
+1
+1
+-
+
+)
+4
+1
+4
+.
+1
+(
+
+)
+4
+4
+6
+.
+2
+(
+
+∗
+∗
+7
+6
+.
+2
+-
+
+)
+1
+7
+0
+.
+1
+(
+
+∗
+∗
+∗
+7
+0
+.
+4
+
+)
+1
+8
+5
+.
+0
+(
+
+1
+1
+.
+0
+-
+
+)
+5
+4
+2
+.
+0
+(
+
+∗
+∗
+∗
+8
+7
+.
+0
+1
+-
+
+)
+3
+9
+9
+.
+0
+(
+
+∗
+∗
+∗
+4
+8
+.
+7
+-
+
+)
+3
+5
+0
+.
+2
+(
+
+∗
+∗
+∗
+5
+3
+.
+2
+
+)
+3
+7
+6
+.
+0
+(
+
+∗
+∗
+∗
+3
+3
+.
+1
+
+)
+6
+0
+4
+.
+0
+(
+
+∗
+∗
+∗
+9
+1
+.
+1
+-
+
+)
+7
+7
+1
+.
+0
+(
+
+∗
+1
+5
+.
+1
+-
+
+)
+8
+4
+8
+.
+0
+(
+
+l
+i
+z
+a
+r
+B
+
+e
+l
+i
+
+h
+C
+
+a
+i
+d
+n
+I
+
+l
+e
+a
+r
+s
+I
+
+u
+r
+e
+P
+
+9
+5
+6
+
+0
+6
+6
+
+1
+6
+6
+
+2
+6
+6
+
+3
+6
+6
+
+3
+6
+6
+
+9
+5
+6
+
+0
+6
+6
+
+1
+6
+6
+
+2
+6
+6
+
+3
+6
+6
+
+3
+6
+6
+
+s
+b
+O
+
+11
+
+4.2 Eﬀects on term spreads
+
+The decline in long-term yields observed after IRG statements is also accompanied by a com-
+
+pression in term spreads – deﬁned as the diﬀerence between longer-term and 1-year yields. Table
+
+4 shows the results of country-speciﬁc OLS local projections for both term spreads: 5Y-1Y and 10Y-
+
+1Y. While there are some diﬀerences across countries in speed and intensity, both term spreads de-
+
+crease in the days following IRG announcements (with the exception of India’s 5Y-1Y term spread).
+
+Figure A.3 in the Appendix shows the plot with the event studies for term spreads for each country
+
+and for the median country. The compression in term spreads is in line with the ﬁndings of the
+
+literature on forward guidance in AEs. For example, Woodford (2012) reports a ﬂattening of the
+
+OIS yield curve after the “mid-2013” announcement made by the Federal Reserve in 2011.
+
+4.3 Eﬀects on expected interest rates and term premia
+
+So far we have shown that IRG statements in EMEs reduced long-term yields and that this was
+
+accompanied by a compression of term spreads. This is in line with the expected eﬀects of interest
+
+rate guidance discussed in Section 2. In this subsection, we further document that IRG statements
+
+in EMEs were also accompanied by a reduction in the market’s expectations of future policy rates
+
+and in term premia. For this, we show the changes in both expected interest rates and term premia
+
+before and after the ﬁve IRG in our baseline sample, rather than estimating a model.9
+
+Figure 3 shows that the market’s expected policy rates and term premia fell after IRG statements
+
+in the EMEs that implemented the policy (with the exception of Chile, which we discuss below).
+
+This was the case in Brazil following a signiﬁcant change in the wording of the policy statement in
+
+December 2020 – making more explicit the central bank’s reading of economic conditions.10
+
+9Market expectations of rates at 1-, 2-, and 5-year horizons are market implied policy interest rates from Bloomberg.
+Lack of data precludes us from undertaking this analysis for Peru. For the three Latin American countries, we also use
+the decomposition of 10-year local currency yields between expected average short-term interest rate (or risk-neutral
+rate) and term premium from CEMLA (the Association of Central Banks of Latin America and the Caribbean).
+
+10In its policy statement of 9 December, the Central Bank of Brazil remarked that “[...] the Copom does not intend to
+reduce the monetary stimulus as long as speciﬁed conditions are met. The Committee judges that those conditions continue to hold.
+In spite of having increased since the last meeting, in particular for 2021, inﬂation expectations, as well as inﬂation projections for
+its baseline scenario, are still below the inﬂation target for the relevant horizon for monetary policy; the current ﬁscal regime has
+not been changed; and long-term inﬂation expectations remain well anchored. [...].” In its previous statement on 28 October,
+it only said “[...] the Copom does not intend to reduce the monetary stimulus unless inﬂation expectations, as well as its baseline
+scenario inﬂation projections, are suﬃciently close to the inﬂation target at the relevant horizon [...].”
+
+12
+
+s
+t
+n
+e
+m
+e
+t
+a
+t
+s
+G
+R
+I
+
+e
+n
+i
+l
+e
+s
+a
+b
+r
+e
+t
+f
+a
+
+s
+d
+a
+e
+r
+p
+s
+
+m
+r
+e
+t
+n
+i
+
+s
+e
+g
+n
+a
+h
+C
+
+:
+4
+
+e
+l
+b
+a
+T
+
+y
+c
+n
+e
+r
+r
+u
+c
+l
+a
+c
+o
+l
+r
+a
+e
+y
+-
+0
+1
+d
+n
+a
+-
+5
+n
+e
+e
+w
+t
+e
+b
+e
+c
+n
+e
+r
+e
+ﬀ
+d
+e
+h
+t
+s
+a
+d
+e
+n
+ﬁ
+e
+d
+
+i
+
+,
+s
+d
+a
+e
+r
+p
+s
+
+m
+r
+e
+t
+n
+
+i
+e
+g
+n
+a
+h
+c
+e
+v
+i
+t
+a
+l
+u
+m
+u
+c
+e
+h
+t
+r
+o
+f
+s
+t
+n
+e
+i
+c
+
+ﬃ
+e
+o
+c
+d
+e
+t
+a
+m
+
+i
+t
+s
+e
+e
+h
+t
+s
+w
+o
+h
+s
+e
+l
+b
+a
+t
+s
+i
+h
+T
+
+d
+e
+t
+a
+l
+u
+c
+l
+a
+c
+
+e
+r
+a
+s
+e
+g
+n
+a
+h
+C
+
+.
+
+x
+i
+d
+n
+e
+p
+p
+A
+e
+h
+t
+n
+
+.
+
+i
+1
+A
+e
+l
+b
+a
+T
+n
+
+i
+
+d
+e
+t
+s
+i
+l
+
+d
+n
+a
+t
+x
+e
+t
+
+e
+h
+t
+n
+
+i
+
+d
+e
+r
+r
+e
+f
+e
+r
+
+s
+t
+n
+e
+m
+e
+t
+a
+t
+s
+G
+R
+I
+
+e
+n
+i
+l
+e
+s
+a
+b
+e
+v
+ﬁ
+e
+h
+t
+
+r
+e
+t
+f
+a
+,
+s
+d
+l
+e
+i
+y
+r
+a
+e
+y
+-
+1
+h
+t
+i
+
+w
+s
+d
+l
+e
+i
+y
+
+n
+o
+d
+e
+s
+a
+b
+
+e
+r
+a
+
+s
+t
+n
+e
+i
+c
+
+ﬃ
+e
+o
+c
+d
+e
+t
+a
+m
+
+i
+t
+s
+E
+
+.
+t
+n
+e
+m
+e
+t
+a
+t
+s
+G
+R
+I
+
+e
+h
+t
+
+i
+
+g
+n
+d
+e
+c
+e
+r
+p
+y
+a
+d
+e
+h
+t
+
+o
+t
+
+e
+v
+i
+t
+a
+l
+e
+r
+
+s
+d
+a
+e
+r
+p
+s
+
+m
+r
+e
+t
+n
+
+i
+
+s
+t
+n
+i
+o
+p
+s
+i
+s
+a
+b
+n
+
+i
+
+i
+
+s
+e
+c
+n
+e
+r
+e
+ﬀ
+d
+e
+v
+i
+t
+a
+l
+u
+m
+u
+c
+
+e
+h
+t
+
+s
+a
+
+t
+n
+e
+m
+e
+c
+n
+u
+o
+n
+n
+a
+
+r
+o
+f
+
+y
+m
+m
+u
+d
+a
+
+,
+
+d
+l
+e
+i
+y
+
+r
+a
+e
+y
+-
+0
+1
+
+y
+c
+n
+e
+r
+r
+u
+c
+-
+l
+a
+c
+o
+l
+
+e
+h
+t
+
+f
+o
+
+l
+e
+v
+e
+l
+
+e
+h
+t
+
+e
+d
+u
+l
+c
+n
+
+i
+
+s
+e
+l
+b
+a
+i
+r
+a
+v
+
+l
+o
+r
+t
+n
+o
+C
+
+.
+3
+
+n
+o
+i
+t
+c
+e
+S
+
+n
+
+i
+
+d
+e
+t
+n
+e
+s
+e
+r
+p
+
+l
+e
+d
+o
+m
+n
+o
+i
+s
+s
+e
+r
+g
+e
+r
+
+e
+h
+t
+
+n
+g
+i
+e
+r
+e
+v
+o
+s
+
+f
+o
+l
+e
+v
+e
+l
+
+e
+h
+t
+
+,
+e
+t
+a
+r
+y
+c
+i
+l
+o
+p
+y
+r
+a
+t
+e
+n
+o
+m
+e
+h
+t
+n
+
+i
+
+e
+g
+n
+a
+h
+c
+y
+l
+i
+a
+d
+e
+h
+t
+
+,
+e
+t
+a
+r
+y
+c
+i
+l
+o
+p
+y
+r
+a
+t
+e
+n
+o
+m
+e
+h
+t
+
+f
+o
+l
+e
+v
+e
+l
+
+e
+h
+t
+
+,
+e
+m
+m
+a
+r
+g
+o
+r
+p
+e
+s
+a
+h
+c
+r
+u
+p
+t
+e
+s
+s
+a
+
+e
+l
+a
+c
+s
+-
+e
+g
+r
+a
+l
+
+f
+o
+
+n
+
+i
+
+n
+w
+o
+h
+s
+
+e
+r
+a
+
+s
+r
+o
+r
+r
+e
+d
+r
+a
+d
+n
+a
+t
+s
+
+t
+s
+u
+b
+o
+R
+
+.
+e
+t
+a
+r
+
+e
+g
+n
+a
+h
+c
+x
+e
+
+e
+h
+t
+
+f
+o
+l
+e
+v
+e
+l
+
+e
+h
+t
+d
+n
+a
+
+,
+
+y
+t
+i
+l
+i
+t
+a
+l
+o
+v
+r
+i
+e
+h
+t
+d
+n
+a
+x
+e
+d
+n
+
+i
+
+e
+g
+n
+a
+h
+c
+x
+e
+k
+c
+o
+t
+s
+
+c
+i
+t
+s
+e
+m
+o
+d
+e
+h
+t
+
+f
+o
+s
+n
+r
+u
+t
+e
+r
+
+e
+h
+t
+
+,
+
+S
+D
+C
+
+∗
+∗
+∗
+d
+n
+a
+
+.
+l
+e
+v
+e
+l
+
+t
+n
+e
+c
+r
+e
+p
+1
+
+t
+a
+e
+c
+n
+a
+c
+ﬁ
+n
+g
+i
+s
+
+i
+
+s
+e
+t
+a
+c
+i
+d
+n
+
+i
+
+,
+l
+e
+v
+e
+l
+
+t
+n
+e
+c
+r
+e
+p
+5
+
+t
+a
+
+e
+c
+n
+a
+c
+ﬁ
+n
+g
+i
+s
+
+i
+
+s
+e
+t
+a
+c
+i
+d
+n
+
+i
+
+,
+l
+e
+v
+e
+l
+
+t
+n
+e
+c
+r
+e
+p
+0
+1
+
+t
+a
+
+e
+c
+n
+a
+c
+ﬁ
+n
+g
+i
+s
+
+i
+
+s
+e
+t
+a
+c
+i
+d
+n
+
+i
+
+.
+s
+i
+s
+e
+h
+t
+n
+e
+r
+a
+p
+
+∗
+∗
+
+∗
+
+8
+5
+6
+
+9
+5
+6
+
+0
+6
+6
+
+1
+6
+6
+
+2
+6
+6
+
+2
+6
+6
+
+8
+5
+6
+
+9
+5
+6
+
+0
+6
+6
+
+1
+6
+6
+
+2
+6
+6
+
+2
+6
+6
+
+s
+b
+O
+
+s
+d
+a
+e
+r
+p
+S
+m
+r
+e
+T
+r
+a
+e
+y
+-
+0
+1
+
+5
+=
+
+t
+
+4
+=
+
+t
+
+3
+=
+
+t
+
+2
+=
+
+t
+
+1
+=
+
+t
+
+0
+=
+
+t
+
+5
+=
+
+t
+
+∗
+∗
+5
+4
+
+.
+
+4
+-
+
+∗
+∗
+∗
+6
+2
+
+.
+
+7
+-
+
+∗
+∗
+∗
+2
+8
+
+.
+
+7
+-
+
+∗
+∗
+∗
+3
+8
+
+.
+
+7
+-
+
+∗
+∗
+∗
+7
+8
+.
+3
+1
+-
+
+)
+0
+6
+9
+1
+(
+
+.
+
+∗
+7
+9
+
+.
+
+1
+-
+
+)
+3
+6
+9
+1
+(
+
+.
+
+∗
+∗
+∗
+5
+3
+
+.
+
+5
+-
+
+)
+2
+3
+0
+2
+(
+
+.
+
+∗
+∗
+∗
+4
+5
+3
+
+.
+
+)
+1
+1
+8
+
+.
+
+1
+(
+
+∗
+∗
+∗
+9
+2
+3
+
+.
+
+)
+6
+0
+1
+
+.
+
+1
+(
+
+∗
+∗
+∗
+9
+3
+5
+
+.
+
+)
+7
+4
+0
+
+.
+
+1
+(
+
+∗
+∗
+∗
+7
+8
+4
+
+.
+
+)
+5
+5
+0
+
+.
+
+1
+(
+
+∗
+∗
+6
+0
+
+.
+
+2
+-
+
+)
+3
+2
+0
+1
+(
+
+.
+
+∗
+∗
+∗
+7
+9
+
+.
+
+5
+
+)
+0
+8
+1
+
+.
+
+1
+(
+
+∗
+∗
+∗
+4
+9
+
+.
+
+1
+-
+
+)
+8
+4
+6
+
+.
+
+0
+(
+
+7
+2
+
+.
+
+3
+-
+
+)
+3
+4
+3
+
+.
+
+1
+(
+
+∗
+∗
+∗
+1
+7
+
+.
+
+1
+-
+
+)
+9
+9
+4
+0
+(
+
+.
+
+∗
+∗
+6
+9
+
+.
+
+5
+-
+
+)
+3
+1
+0
+
+.
+
+1
+(
+
+∗
+∗
+∗
+6
+7
+
+.
+
+2
+-
+
+)
+7
+6
+4
+0
+(
+
+.
+
+6
+1
+
+.
+
+3
+-
+
+)
+1
+0
+1
+1
+(
+
+.
+
+∗
+∗
+∗
+9
+4
+
+.
+
+3
+-
+
+)
+9
+7
+4
+0
+(
+
+.
+
+∗
+∗
+∗
+0
+9
+
+.
+
+0
+1
+-
+
+)
+9
+8
+3
+2
+(
+
+.
+
+)
+2
+7
+5
+
+.
+
+2
+(
+
+)
+7
+4
+9
+
+.
+
+1
+(
+
+)
+0
+0
+6
+
+.
+
+2
+(
+
+)
+5
+7
+7
+.
+1
+(
+
+∗
+∗
+9
+1
+.
+2
+
+)
+3
+2
+0
+.
+1
+(
+
+5
+9
+.
+1
+
+)
+9
+3
+5
+.
+1
+(
+
+∗
+∗
+∗
+9
+1
+.
+3
+-
+
+)
+9
+5
+5
+.
+0
+(
+
+∗
+∗
+∗
+8
+4
+.
+9
+1
+-
+
+)
+9
+7
+9
+.
+1
+(
+
+2
+8
+.
+0
+-
+
+)
+7
+6
+9
+.
+1
+(
+
+9
+0
+.
+0
+
+)
+5
+2
+8
+.
+0
+(
+
+∗
+∗
+∗
+5
+3
+.
+9
+-
+
+)
+2
+0
+7
+.
+0
+(
+
+∗
+∗
+∗
+9
+0
+.
+5
+-
+
+)
+9
+9
+2
+.
+0
+(
+
+∗
+∗
+6
+6
+.
+3
+-
+
+)
+5
+2
+7
+.
+1
+(
+
+∗
+∗
+∗
+0
+8
+.
+5
+2
+
+)
+3
+3
+8
+.
+3
+(
+
+∗
+∗
+∗
+9
+2
+.
+5
+-
+
+)
+9
+5
+3
+.
+1
+(
+
+∗
+∗
+∗
+8
+5
+.
+0
+1
+
+)
+2
+2
+7
+.
+0
+(
+
+∗
+5
+6
+.
+0
+
+)
+8
+4
+3
+.
+0
+(
+
+∗
+∗
+∗
+9
+0
+.
+4
+-
+
+)
+8
+2
+4
+.
+1
+(
+
+4
+=
+
+t
+
+∗
+0
+4
+.
+7
+
+)
+4
+7
+9
+.
+3
+(
+
+∗
+∗
+∗
+2
+2
+.
+8
+-
+
+)
+6
+7
+0
+.
+1
+(
+
+∗
+∗
+∗
+5
+0
+.
+0
+1
+
+)
+1
+9
+6
+.
+0
+(
+
+∗
+∗
+∗
+8
+5
+.
+1
+-
+
+)
+4
+3
+3
+.
+0
+(
+
+3
+0
+.
+0
+
+)
+8
+9
+3
+.
+1
+(
+
+3
+=
+
+t
+
+2
+4
+.
+4
+
+2
+=
+
+t
+
+∗
+7
+0
+.
+7
+
+)
+0
+0
+3
+.
+4
+(
+
+)
+1
+5
+9
+.
+3
+(
+
+s
+d
+a
+e
+r
+p
+S
+m
+r
+e
+T
+r
+a
+e
+y
+-
+5
+
+2
+0
+.
+0
+-
+
+)
+1
+5
+1
+.
+1
+(
+
+∗
+∗
+∗
+2
+8
+.
+7
+
+)
+8
+2
+6
+.
+0
+(
+
+∗
+∗
+∗
+0
+5
+.
+3
+-
+
+)
+5
+6
+2
+.
+0
+(
+
+∗
+∗
+∗
+3
+3
+.
+4
+-
+
+)
+1
+5
+1
+.
+1
+(
+
+9
+3
+.
+0
+-
+
+)
+4
+4
+1
+.
+1
+(
+
+∗
+∗
+∗
+7
+0
+
+.
+
+2
+1
+
+)
+4
+8
+6
+.
+0
+(
+
+∗
+∗
+∗
+3
+6
+.
+1
+-
+
+)
+1
+3
+2
+.
+0
+(
+
+∗
+∗
+∗
+6
+1
+.
+5
+-
+
+)
+4
+6
+3
+.
+1
+(
+
+1
+=
+
+t
+
+7
+3
+.
+5
+-
+
+)
+3
+3
+3
+.
+4
+(
+
+∗
+∗
+∗
+4
+4
+.
+3
+-
+
+)
+1
+5
+2
+.
+1
+(
+
+∗
+∗
+∗
+5
+1
+.
+4
+1
+
+)
+1
+9
+0
+.
+1
+(
+
+3
+4
+.
+0
+-
+
+)
+0
+9
+2
+.
+0
+(
+
+∗
+∗
+∗
+1
+4
+.
+1
+1
+-
+
+)
+6
+8
+8
+.
+0
+(
+
+)
+9
+2
+6
+.
+2
+(
+
+∗
+∗
+∗
+3
+6
+.
+4
+-
+
+)
+8
+1
+8
+.
+0
+(
+
+∗
+∗
+∗
+2
+2
+.
+4
+-
+
+)
+5
+6
+7
+.
+0
+(
+
+∗
+∗
+∗
+3
+3
+.
+2
+-
+
+)
+4
+9
+1
+.
+0
+(
+
+∗
+∗
+8
+9
+.
+1
+-
+
+)
+9
+9
+7
+.
+0
+(
+
+e
+l
+i
+h
+C
+
+a
+i
+d
+n
+I
+
+l
+e
+a
+r
+s
+I
+
+u
+r
+e
+P
+
+0
+=
+
+t
+
+∗
+∗
+∗
+1
+3
+.
+1
+1
+-
+
+l
+i
+z
+a
+r
+B
+
+13
+
+Expected rates also fell after a change in IRG in April 2021 in India, when the central bank
+
+made its guidance open-ended,11 and in Israel when the Bank of Israel re-introduced open-ended
+
+guidance in April 2021 after removing such guidance one year before.12 In the case of Peru, market-
+
+implied policy rates are not available but the decomposition of 10-year yields indicates that both
+
+expected average short-term rates and term premium fell after the adoption of IRG in May 2020
+
+(statement in Table 1).
+
+Interestingly, and as was the case for Brazil, the decrease is more pro-
+
+nounced for the term premium component. This suggests that IRG statements in EMEs may reduce
+
+long-term yields mainly by reducing the risk component of long-term rates.
+
+The reduction in expected interest rates in EMEs was also economically signiﬁcant, despite
+
+diﬀerences across countries due to widely diﬀerent levels (on the days of baseline IRG statements,
+
+policy rates were 2% in Brazil, 0.5% in Chile, 4% in India, 0.1% in Israel, and 0.25% in Peru). Short
+
+rates for 1- and 2-years ahead dropped the most in Brazil, falling 63 and 17 bps, respectively. The
+
+decrease in Israel for 2-years rates was 3 bps, and that for India’s 1-year rate 2 bps. The reduction
+
+in expected rates was much more uniform for medium-term rates, with the 5-year expected rate
+
+falling 9, 18 and 2 bps in Brazil, India and Israel, respectively. These results are consistent with
+
+the empirical evidence of Filardo and Hoﬀmann (2014), documenting reductions in forward inter-
+
+bank rates on the days following IRG eﬀected by the Federal Reserve, the ECB and Japan during
+
+the period 2008-13 (ranging from 2.5 to 30 bps). Del Negro, Giannoni and Patterson (2015) ﬁnd
+
+that US announcements lower the short-term rate four quarters ahead by 15 bps, and the long-term
+
+rate by 20 bps.
+
+11In its policy statement of 5 February, the Reserve Bank of India stated that “[...] The MPC also decided to continue
+with the accommodative stance as long as necessary – at least during the current ﬁnancial year and into the next ﬁnancial year – to
+revive growth on a durable basis [...].” In its statement of 7 April it changed the calendar-based guidance to an open-ended
+guidance, stating that “[...] The MPC also decided to continue with the accommodative stance as long as necessary to sustain
+growth on a durable basis [...].”
+
+12In its policy statement of 19 of April, the Bank of Israel included the statement that “[...] there are still challenges to
+economic activity in view of the health risks in Israel and abroad. The crisis’s adverse eﬀects on the economy, particularly the labor
+market, are expected to be prolonged. The Committee will therefore continue to conduct a very accommodative monetary policy for a
+prolonged time, using a range of tools as necessary, including the interest rate tool [...].” Such statements with explicit guidance
+were stopped in February 2020, after the bank made its ﬁrst IRG statement in August 2019.
+
+14
+
+Figure 3: Changes in expected interest rates and term premia after IRG statements
+(in basis points)
+
+This ﬁgure shows the change in the market-implied policy rate (MIPR) at 1-, 2- and 5-year horizons, and expected
+average short-term rates and term premium derived from 10-year yields after IRG statements. Variables are mea-
+sured as the average in the ﬁve trading days after and before baseline IRG statements. MIPRs are sourced from
+Bloomberg, which computes them using forward interest rates for 1-, 2-, and 5-years. Expected average short-term
+rates (RN10Y) and term premium (TP10Y) are from the decomposition of 10-year local currency yields available
+from CEMLA for Latin American economies.
+
+15
+
+-60-40-200201Y2Y5YRN10YTP10YBrazil-40-20020401Y2Y5YRN10YTP10YChile-40-30-20-100101Y2Y5YRN10YTP10YIndia-40-30-20-100101Y2Y5YRN10YTP10YIsrael-40-30-20-100101Y2Y5YRN10YTP10YPeruIn the case of Chile, a change in wording introduced by the central bank on 30 March 2021,
+
+which switched its guidance from outcome- to calendar-based, resulted in rather higher expected
+
+rates. While contrary to the expected eﬀect of the new explicit interest rate guidance, this seems a
+
+rational reaction to the change in wording and next day’s update to the central bank’s policy rate
+
+corridor showing a higher ceiling for the end-2021 policy rate.13
+
+In summary, we ﬁnd that long-term local-currency yields fell after interest rate guidance state-
+
+ments in emerging economies. The reduction in long-term yields was accompanied by a compres-
+
+sion of term spreads and a fall in market expectations of future policy rates and term premia. The
+
+magnitude of the reduction in long-term yields, terms spreads and expected policy rates is in line
+
+with existing literature studying the eﬀects of interest rate guidance in AEs. These results are ob-
+
+tained non-parametrically based on an event study approach, and also analytically based on the
+
+OLS local projections approach of Jordà (2005) (which allows controlling for a battery of daily
+
+covariates).
+
+5 Did negative market reactions to IRG materialise?
+
+Explicit interest rate guidance statements also carry risks, notably with respect to central bank
+
+credibility, a de-anchoring of inﬂation expectations, and ﬁscal dominance. When their aim is to
+
+commit to keeping monetary conditions loose in future, IRG may risk conveying the idea that
+
+the central bank does not suﬃciently care about ﬁghting inﬂation. This could de-anchor inﬂation
+
+expectations (Hofman and Kamber, 2020). Consistent with addressing such concerns, all IRG
+
+statements in our sample made a point of bringing inﬂation or inﬂation expectations back to its
+
+target; or, in the case of India, reviving growth while ensuring that inﬂation remained within target.
+
+Concerns about ﬁscal dominance may also preclude the central bank from ﬁghting inﬂation
+
+(see Filardo and Hoﬀmann, 2014 and Mishkin, 2017 for a discussion).14 In countries with high
+
+levels of government debt, the central bank may face pressure to keep interest rates low for long
+
+13In its policy statement of 27 January, the Central Bank of Chile stated that “[...] the MPR will remain unchanged
+over most of the two-year monetary policy horizon [...].” While in its statement of 30 March it changed the calendar-based
+guidance to an outcome-based guidance, stating that “[...] the MPR will be held at its 0.5% minimum until the recovery of the
+economy takes hold and spreads to the more lagging components of expenditure, which will take several quarters [...].” In addition,
+this was followed the next day by a monetary policy report showing an interest rate corridor with a higher ceiling for
+the policy rate by end-2021. Unsurprisingly, market-implied policy rates were also brought forward and higher than
+previously expected.
+
+14EME central banks adopting IRG were quite aware of this risk. For example, IRG statements in Brazil were “condi-
+tional on the maintenance of the current ﬁscal regime and on the anchoring of long-term inﬂation expectations,” while statements
+in Israel made references to monitoring “developments in ﬁscal policy.”
+
+16
+
+to keep public debt service costs down. Investors’ concerns about such risks may trigger hikes in
+
+CDS spreads and currency depreciations.15
+
+Market reactions following IRG statements suggest that market participants were not concerned
+
+about these risks. Following the ﬁve IRG statements in our baseline sample, market-based mea-
+
+sures of expectations of inﬂation stayed basically unchanged, remaining in all cases at or below
+
+central banks’ target bands (Figure 4).16 CDS spreads on sovereign bonds stayed ﬂat or fell in
+
+Brazil, Chile and Israel, and increased in India and Peru (Figure 5). These increases, however, were
+
+quite small, in the range of 5 points when the levels of CDS the day before the IRG announcement
+
+were 94 and 104 for India and Peru, respectively. For the median country (bottom right panel),
+
+there is no discernible negative eﬀect. Exchange rates also remained quite stable, with very mild
+
+depreciation of up to 2% by day ﬁve after the IRG announcement in India (and smaller for Peru).
+
+One may argue that these risks may materialise if the interest rate guidance is for a long period,
+
+and may not be identiﬁed when looking only at the baseline IRG statements in our baseline sample.
+
+Also, if small increases in CDS or depreciation are the norm after IRG statements, this could be seen
+
+as troublesome. However, similar patterns of no systematic negative market reactions were present
+
+when looking at all IRG statements (Figures A.4 and A.5 in the Appendix).
+
+Similar results for both subsamples of IRG statements – baseline and all statements – are found
+
+based on OLS local projections à la Jordà (2005) (Tables A.2, A.3, A.4 and A.5 in the Appendix).
+
+While the regressions for the baseline IRG statements indicate that 5-year inﬂation expectations for
+
+Brazil and Israel increased, the increment was relatively small and kept inﬂation expectations well
+
+anchored within the central banks’ target bands (the increases were in the range of between 5 and
+
+40 bps; Table A.2). Short-term inﬂation expectations at a 2-year horizon fell or kept ﬂat. The results
+
+also indicate that sovereign CDS increased and nominal exchange rates depreciated moderately in
+
+India and Peru. These increments were relatively small, up to 4 units for sovereign CDS and up to
+
+1% depreciation (Table A.3).
+
+Importantly, in the full sample of IRG announcements, both the changes in inﬂation expecta-
+
+tions (Table A.4) and in CDS and the nomianl exchange rate (Table A.5) are statistically not diﬀer-
+
+ent from zero. This suggests that there was no systematic negative market reaction in EMEs when
+
+IRG statements were adopted. All in all, changes in sovereign CDS and exchange rates after IRG
+
+statements were negligible, while inﬂation expectations remained well anchored.
+
+15See Zoli (2005) for a discussion of ﬁscal dominance in EMEs during the early 2000s.
+16We proxy markets’ inﬂation expectations by break-even rates derived from inﬂation-linked bonds at 2-, 5-, and 10-
+
+year horizons sourced from Bloomberg (BEIRs, for short). Data availability varies, and there is none for India.
+
+17
+
+Figure 4: Inﬂation expectations around baseline IRG statements
+(in percentage points)
+
+This ﬁgure shows the level of markets’ inﬂation expectations ﬁve days before and after the baseline IRG state-
+ments referred in the text and listed in Table A.1 in the Appendix. Inﬂation expectations are proxied by break-
+even rates derived from inﬂation-linked bonds at 2-, 5-, and 10-year horizons. Day zero is the day of the IRG
+statement. The plots also show the inﬂation target band in each country.
+
+6 Robustness and sensitivity checks
+
+6.1 Diﬀerent types of IRG: outcome-based statements had the largest eﬀects
+
+One factor explaining the cross-country heterogeneity of the eﬀects of IRG observed in Figure 2 may
+
+be the type of statement. We explore this in Figure 6, where we present the cumulative changes in
+
+local-currency yields for two diﬀerent types of IRG statements. The left panel shows the median
+
+change in yields in the two open-ended statements in our baseline sample (IL 19.Apr.2021 and
+
+IN 07.Apr.2021). The right panel shows the median change in the other three statements in the
+
+baseline sample, which were all outcome-based statements (BR 09.Dec.2020, CL 30.Mar.2021, and
+
+18
+
+02460246-505-505BR:09dec2020:Out+chgCL:30mar2021:Out+chgIL:19apr2021:Open+chgPE:07may2020:First+OutBEIR 2YBEIR 5YBEIR 10YTarget bandFigure 5: Changes in sovereign CDS and exchange rates around baseline IRG statements
+(in units for CDS and percentage points for exchange rates)
+
+This ﬁgure shows the cumulative change in CDSs and nominal exchange rates ﬁve days before and after in-
+terest rate guidance statements in the baseline sample of ﬁve baseline IRG statements listed in Table A.1 in the
+Appendix. Changes are calculated as the cumulative diﬀerences in units for CDS and percentage points for
+exchange rates relative to the day prior to the IRG statement. Day zero is the day of the IRG statement. An
+increase in the exchange rate denotes a depreciation of the local currency against the US dollar.
+
+PE 07.May.2020). Because the diﬀerent levels in yields across EMEs, these plots show cumulative
+
+changes in standardised yields.17 These event studies indicate that outcome-based statements had
+
+the most robust eﬀect, aﬀecting both 5- and 10-yields. The size of the eﬀect for 10-year yields is
+
+about the same in the two types of IRG statements.
+
+6.2 Adding lags of all explanatory variables
+
+In the baseline speciﬁcation of model 1 we included the ﬁrst lag of the dependent variable.
+
+This, following Montiel-Olea and Plagborg-Møller (2021) who show that inference based on lag-
+
+augmented local projections models is more robust. In this robustness check we further add the
+
+ﬁrst lags of all explanatory variables. Table A.6 shows the results of this exercise, which corrobo-
+
+rates the baseline ﬁndings.
+
+17We follow the usual practice of standardizing variables by subtracting their sample mean and dividing the result by
+
+the sample standard deviation. Both mean and standard deviation are computed over the period Jan 2019 – Jul 2021.
+
+19
+
+-10010-10010-505-505-505BR:09dec2020:Out+chgCL:30mar2021:Out+chgIL:19apr2021:Open+chgIN:07apr2021:Open+chgPE:07may2020:First+OutMedianCDSExchange rateFigure 6: Changes in local yields by type of interest rate guidance statement
+(in standardised yields)
+
+The left panel shows the median cumulative change in 5- and 10-year local currency yields ﬁve days before and ﬁve
+days after the two baseline open-ended IRG statements: IL 19.Apr.2021 and IN 07.Apr.2021. The right panel shows
+the median change for baseline outcome-based statements: BR 09.Dec.2020, CL 30.Mar.2021, and PE 07.May.2020.
+Changes are calculated as the cumulative diﬀerences in 5- and 10-year yields relative to the day prior to the IRG
+statement using standardised yields.
+
+6.3 Controlling for all IRG statements
+
+In the baseline speciﬁcation of model 1 we included a dummy IRGi,t to identify the eﬀects of
+
+baseline IRG statements, those at the eﬀective lower bound and not simultaneous with an interest
+
+rate cut or LSAP announcement. In this robustness check we additionally include in the model a
+
+dummy that takes the value of one on days that there was an interest rate guidance statement re-
+
+gardless of its type.18 This allows for identiﬁcation of the eﬀect of baseline IRG statements taking
+
+into account that a given country may have made other IRG statements in diﬀerent dates. Fig-
+
+ure A.7 shows the results of this exercise, which corroborates the baseline ﬁndings. In fact, the
+
+estimated eﬀect of baseline IRG statements is somewhat larger in this speciﬁcation.
+
+18This is equivalent to estimating the model with an interaction of the dummy for baseline IRG statements and the
+
+dummy for any IRG statement, plus additionally controlling for the dummy of any IRG statement.
+
+20
+
+-0.2-0.10.00.1-505-505Open-ended IRGOutcome-based IRG5y10y6.4 Were non-ﬁrst, no-wording change IRG statements truly inconsequential?
+
+Our baseline sample only includes policy statements in which IRG was introduced for the ﬁrst
+
+time or the statement’s wording was materially changed. We did this under the premise that the
+
+only consequential statements for markets should be those providing new information. In this
+
+robustness check we double check this presumption. Table A.8 in the Appendix shows results OLS
+
+local projections regressions when only considering non-ﬁrst, no-wording change IRG statements.
+
+They corroborate the presumption that these statements were inconsequential.
+
+6.5 Placebo: US IRG statements
+
+A concern when studying monetary policy in EMEs is whether the evolution of local rates is
+
+driven by developments in AEs. This concern is heightened in the period of study of this paper,
+
+given the massive and forceful actions by central banks in core economies during the Covid-19
+
+pandemic. As a double check, we re-run the analysis for IRG statements deﬁned as those dates
+
+in which the Federal Reserve of the US made a guidance statement in 2020 amid the pandemic
+
+(16.Mar.2020, 16.Sep.2020, and 16.Dec.2020). Table A.9 in the Appendix shows that long-term
+
+local currency yields in EMEs where not responsive to IRG statements in the US. Yields barely
+
+moved in basis points following these statements. This gives credence to the baseline ﬁnding that
+
+changes in yields after EMEs’ IRG statements reﬂect market reaction to such domestic statements,
+
+rather than to developments in global markets.
+
+7 Concluding remarks
+
+In this paper we provided evidence that the adoption of explicit statements on the future path
+
+of interest rates in Brazil, Chile, India, Israel and Peru in 2020-2021 appear to have succeeded in
+
+providing additional monetary accommodation. When made for the ﬁrst time or with signiﬁcant
+
+changes to their wording, IRG statements were followed by reductions in local currency yields,
+
+term spreads and expected policy rates. These eﬀects are found when the nominal interest rate
+
+hit its historical minimum (ie at the eﬀective lower bound), and were not driven by simultaneous
+
+announcements of LSAP programmes or interest rate cuts. This conﬁrms the usefulness of IRG
+
+not only as a policy tool to complement policy rates when policy space has decreased, but also as
+
+a means of inﬂuencing long-term yields. Importantly, we did not observe a systematic negative
+
+market reaction reﬂecting concerns that may be associated with IRG, such as threats to central
+
+21
+
+bank credibility in keeping inﬂation within target, rises in sovereign CDS spreads or depreciation
+
+pressures.
+
+That said, communication regarding the future path of interest rates in EMEs is still in its in-
+
+fancy and it is unclear whether the experience during the Covid-19 pandemic may be replicated,
+
+and what its overall economic impact is. First, the results in this paper are based on a small number
+
+of countries that made IRG statements during extraordinary times, and the evidence so far is in-
+
+suﬃcient to predict whether under diﬀerent circumstances a similar easing of ﬁnancial conditions
+
+without undesirable side eﬀects may be obtained. Similarly, the analysis of negative side eﬀects
+
+was limited to market reactions immediately following IRG statements, and such eﬀects may take
+
+time to materialise. Second, the economic eﬀects on growth in EMEs – not studied in this paper
+
+– may diﬀer from the positive experience reported in AEs (see CGFS, 2019 and Bernanke, 2020).
+
+Some structural features of EMEs, such as a generally greater importance of bank credit relative to
+
+market-based ﬁnance, and a greater share of loans with short maturities and/or with indexed or
+
+variable rates, may render the observed fall in long-term yields less eﬀective than in AEs.
+
+References
+
+Aguilar, A. and Cantú, C. (2020). Monetary policy response in emerging market economies: why was it
+
+diﬀerent this time? BIS Bulletins 32, Bank for International Settlements.
+
+Andrade, P., Breckenfelder, J., De Fiore, F., Karadi, P. and Tristani, O. (2016). The ECB’s asset
+purchase programme: an early assessment. Discussion Papers, No 1956 / September 2016, European
+Central Bank.
+
+Bassetto, M. (2019). Forward guidance: communication, commitment, or both? Volume 108 pp. 69-86,
+
+Journal of Monetary Economics.
+
+Bauer, M. D. and Rudebusch, G. D. (2014). The signaling channel for Federal Reserve Bond Purchases.
+
+September 2014, issue contents, International Journal of Central Banking.
+
+Bernanke, B. S. (2020). The new tools of monetary policy. Lecture, January 4„ American Economic
+
+Association Presidential Address.
+
+Borio, C. and Zabai, A. (2016). Unconventional monetary policies: a re-appraisal. BIS Working Papers
+
+No 570, Bank for International Settlements.
+
+Brubakk, L., Ellen, S. and Xu, H. (2021). Central bank communication through interest rate pro-
+
+jections. Journal of Banking & Finance, 124 (C).
+
+Campbell, J. R. (2013). Odyssean forward guidance in monetary policy: a primer. Economic Perspectives
+
+4Q/2013, Federal Reserve Bank of Chicago.
+
+—, Ferroni, F., Fisher, J. D. M. and Melosi, L. (2019). The limits of forward guidance. Volume 108,
+
+pages 118-134, Journal of Monetary Economics.
+
+22
+
+Cantú, C., Cavallino, P., De Fiore, F. and Yetman, J. (2021). A global database on central banks’ mon-
+
+etary responses to Covid-19. BIS Working Papers 934, Bank for International Settlements.
+
+CGFS (2019). Unconventional monetary policy tools: a cross-country analysis. CGFS Papers 3, Commit-
+
+tee on Global Financial System. Bank for International Settlements.
+
+Del Negro, M., Giannoni, M. and Patterson, C. (2015). The forward guidance puzzle. Staﬀ Reports
+
+574, Federal Reserve Bank of New York.
+
+Ehrmann, M., Gaballo, G., Hoffmann, B. and Georg, S. (2019). Can more public information raise
+uncertainty? The international evidence on forward guidance. Volume 108, pages 93-112, Journal of
+Monetary Eco

@@ -1,0 +1,82 @@
+[
+  {
+    "source": "sec",
+    "url": "https://www.sec.gov/litigation/litreleases/2023/lr25656.htm",
+    "file": "sec_2023.txt"
+  },
+  {
+    "source": "sec",
+    "url": "https://www.sec.gov/litigation/litreleases/2023/lr25700.htm",
+    "file": "sec_2023.txt"
+  },
+  {
+    "source": "sec",
+    "url": "https://www.sec.gov/litigation/litreleases/2023/lr25750.htm",
+    "file": "sec_2023.txt"
+  },
+  {
+    "source": "sec",
+    "url": "https://www.sec.gov/litigation/litreleases/2024/lr25900.htm",
+    "file": "sec_2024.txt"
+  },
+  {
+    "source": "sec",
+    "url": "https://www.sec.gov/litigation/litreleases/2024/lr25950.htm",
+    "file": "sec_2024.txt"
+  },
+  {
+    "source": "sec",
+    "url": "https://www.sec.gov/litigation/litreleases/2022/lr25500.htm",
+    "file": "sec_2022.txt"
+  },
+  {
+    "source": "sec",
+    "url": "https://www.sec.gov/litigation/litreleases/2022/lr25550.htm",
+    "file": "sec_2022.txt"
+  },
+  {
+    "source": "sec",
+    "url": "https://www.sec.gov/litigation/litreleases/2023/lr25600.htm",
+    "file": "sec_2023.txt"
+  },
+  {
+    "source": "sec",
+    "url": "https://www.sec.gov/litigation/litreleases/2023/lr25625.htm",
+    "file": "sec_2023.txt"
+  },
+  {
+    "source": "sec",
+    "url": "https://www.sec.gov/litigation/litreleases/2024/lr25800.htm",
+    "file": "sec_2024.txt"
+  },
+  {
+    "source": "cfpb",
+    "url": "https://www.consumerfinance.gov/enforcement/actions/jpmorgan-chase-bank-na/",
+    "file": "cfpb_jpmorgan_chase_bank_na.txt"
+  },
+  {
+    "source": "cfpb",
+    "url": "https://www.consumerfinance.gov/enforcement/actions/bank-of-america-na/",
+    "file": "cfpb_bank_of_america_na.txt"
+  },
+  {
+    "source": "cfpb",
+    "url": "https://www.consumerfinance.gov/enforcement/actions/equifax-inc/",
+    "file": "cfpb_equifax_inc.txt"
+  },
+  {
+    "source": "cfpb",
+    "url": "https://www.consumerfinance.gov/enforcement/actions/experian-information-solutions-inc/",
+    "file": "cfpb_experian_information_solutions_inc.txt"
+  },
+  {
+    "source": "cfpb",
+    "url": "https://www.consumerfinance.gov/enforcement/actions/ace-cash-express/",
+    "file": "cfpb_ace_cash_express.txt"
+  },
+  {
+    "source": "cfpb",
+    "url": "https://www.consumerfinance.gov/enforcement/actions/enova-international-inc/",
+    "file": "cfpb_enova_international_inc.txt"
+  }
+]

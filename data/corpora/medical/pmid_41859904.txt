@@ -1,0 +1,142 @@
+
+PMID- 41859904
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260424
+LR  - 20260424
+IS  - 2047-9980 (Electronic)
+IS  - 2047-9980 (Linking)
+VI  - 15
+IP  - 8
+DP  - 2026 Apr 21
+TI  - Effect of 2 Weeks of Time-Restricted Eating on Innate Immunity and Systemic 
+      Inflammation in Patients With a History of Myocardial Infarction: A 
+      Randomized-Controlled Crossover Study.
+PG  - e048092
+LID - 10.1161/JAHA.125.048092 [doi]
+AB  - BACKGROUND: Preclinical evidence suggests that time-restricted eating (TRE) 
+      exerts beneficial metabolic and cardiovascular effects by ameliorating 
+      inflammation and modulating immune cell function. However, the effect in patients 
+      with established coronary artery disease remains unknown. METHODS: In this 
+      prospective, randomized, open-label, blinded end point crossover study, we 
+      explored the effect of a 2-week TRE intervention (eating allowed between 8 am and 
+      2 pm) on metabolomic parameters, innate immune cell function, and systemic 
+      inflammation in patients with a history of myocardial infarction. Patients were 
+      randomized to a 2-week TRE intervention or a 2-week control period with their 
+      regular diet, followed by a >/=6-week washout and crossover to the other group. 
+      Blood samples were collected in a fasted state before and after each period. 
+      RESULTS: In total, 19 patients (mean age, 65.3 years [SD 8.1], 2 [11%] female), 
+      of whom 10 were randomized to start with the control diet, and 9 randomized to 
+      start with the TRE diet, were included in the current analysis. All visits were 
+      conducted between November 2022 and January 2024. Compared with the control diet, 
+      the TRE diet led to reduced neutrophil counts, lower neutrophil-to-lymphocyte 
+      ratio, decreased neutrophil CD11b expression, and anti-inflammatory changes in 
+      the monocyte transcriptome. Furthermore, a reduction in low-grade systemic 
+      inflammation was found. The TRE diet was associated with widespread metabolic 
+      changes. No significant effects on monocyte subsets, monocyte inflammatory 
+      surface marker expression, or cytokine production capacity were observed. 
+      CONCLUSIONS: Our findings highlight the capability of TRE in the modulation of 
+      inflammation, suggesting a potential role in reducing cardiovascular risk in 
+      patients with established cardiovascular disease.
+FAU - Los, Jonathan
+AU  - Los J
+AUID- ORCID: 0000-0002-6731-0965
+AD  - Department of Cardiology Radboud University Medical Center Nijmegen the 
+      Netherlands.
+FAU - Broeders, Wieteke
+AU  - Broeders W
+AUID- ORCID: 0000-0002-6466-8937
+AD  - Department of Internal Medicine Radboud University Medical Center Nijmegen the 
+      Netherlands.
+FAU - Bahrar, Harsh
+AU  - Bahrar H
+AUID- ORCID: 0000-0002-7686-4281
+AD  - Department of Internal Medicine Radboud University Medical Center Nijmegen the 
+      Netherlands.
+FAU - Bulut, Ozlem
+AU  - Bulut O
+AUID- ORCID: 0000-0001-7077-6216
+AD  - Department of Internal Medicine Radboud University Medical Center Nijmegen the 
+      Netherlands.
+FAU - Bekkering, Siroon
+AU  - Bekkering S
+AUID- ORCID: 0000-0003-1149-466X
+AD  - Department of Internal Medicine Radboud University Medical Center Nijmegen the 
+      Netherlands.
+FAU - den Boeft, Andrea
+AU  - den Boeft A
+AUID- ORCID: 0000-0002-6756-7867
+AD  - Department of Gastroenterology and Hepatology - Dietetics Radboud University 
+      Medical Center Nijmegen the Netherlands.
+FAU - Sumpter, Nicholas
+AU  - Sumpter N
+AD  - Department of Internal Medicine Radboud University Medical Center Nijmegen the 
+      Netherlands.
+FAU - Cetinyurek-Yavuz, Aysun
+AU  - Cetinyurek-Yavuz A
+AUID- ORCID: 0000-0003-4024-8775
+AD  - Department of IQ Health Radboud University Medical Center Nijmegen the 
+      Netherlands.
+FAU - Hol, Ilse H
+AU  - Hol IH
+AUID- ORCID: 0009-0005-9568-1914
+AD  - Department of Internal Medicine Radboud University Medical Center Nijmegen the 
+      Netherlands.
+FAU - Netea, Mihai G
+AU  - Netea MG
+AD  - Department of Internal Medicine Radboud University Medical Center Nijmegen the 
+      Netherlands.
+FAU - Cornel, Jan H
+AU  - Cornel JH
+AUID- ORCID: 0000-0002-1006-2112
+AD  - Department of Cardiology Radboud University Medical Center Nijmegen the 
+      Netherlands.
+AD  - Department of Cardiology Northwest Clinics Alkmaar the Netherlands.
+AD  - Dutch Network for Cardiovascular Research (WCN) Utrecht the Netherlands.
+FAU - El Messaoudi, Saloua
+AU  - El Messaoudi S
+AUID- ORCID: 0009-0006-0804-2071
+AD  - Department of Cardiology Radboud University Medical Center Nijmegen the 
+      Netherlands.
+FAU - Riksen, Niels P
+AU  - Riksen NP
+AUID- ORCID: 0000-0001-9197-8124
+AD  - Department of Internal Medicine Radboud University Medical Center Nijmegen the 
+      Netherlands.
+LA  - eng
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+DEP - 20260320
+PL  - England
+TA  - J Am Heart Assoc
+JT  - Journal of the American Heart Association
+JID - 101580524
+SB  - IM
+MH  - Humans
+MH  - Female
+MH  - Male
+MH  - Cross-Over Studies
+MH  - Aged
+MH  - *Immunity, Innate
+MH  - *Myocardial Infarction/immunology/diet therapy/blood
+MH  - *Inflammation/immunology/blood/diet therapy
+MH  - Middle Aged
+MH  - Prospective Studies
+MH  - Time Factors
+MH  - *Fasting
+OTO - NOTNLM
+OT  - atherosclerosis
+OT  - inflammation
+OT  - innate immunity
+OT  - intermittent fasting
+OT  - time-restricted eating (TRE)
+EDAT- 2026/03/20 07:10
+MHDA- 2026/04/24 12:36
+CRDT- 2026/03/20 05:53
+PHST- 2026/04/24 12:36 [medline]
+PHST- 2026/03/20 07:10 [pubmed]
+PHST- 2026/03/20 05:53 [entrez]
+AID - 10.1161/JAHA.125.048092 [doi]
+PST - ppublish
+SO  - J Am Heart Assoc. 2026 Apr 21;15(8):e048092. doi: 10.1161/JAHA.125.048092. Epub 
+      2026 Mar 20.

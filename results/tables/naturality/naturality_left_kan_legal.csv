@@ -1,0 +1,6 @@
+method,q_general,q_specific,f1_general,f1_specific,improvement,natural
+left_kan_legal,monetary policy effects,federal funds rate increases on unemployment rate,0.0,0.0,0.0,False
+left_kan_legal,inflation causes,supply chain disruptions causing consumer price inflation,0.0,0.0,0.0,False
+left_kan_legal,economic growth factors,business investment leading to GDP expansion,0.0,0.0,0.0,False
+left_kan_legal,labor market dynamics,wage growth effect on consumer spending,0.0,0.0,0.0,False
+left_kan_legal,financial sector risks,bank credit tightening reducing small business lending,0.0,0.0,0.0,False

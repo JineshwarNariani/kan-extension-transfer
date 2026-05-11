@@ -1,0 +1,168 @@
+
+PMID- 41586910
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260126
+LR  - 20260131
+IS  - 1432-1262 (Electronic)
+IS  - 0179-1958 (Print)
+IS  - 0179-1958 (Linking)
+VI  - 41
+IP  - 1
+DP  - 2026 Jan 26
+TI  - Follow-up intensity after colorectal cancer surgery in patients aged </= 50, 50-70 
+      and > 70 years - an analysis within the COLOFOL randomised clinical trial.
+PG  - 47
+LID - 10.1007/s00384-026-05096-9 [doi]
+LID - 47
+AB  - PURPOSE: The incidence of colorectal cancer (CRC) is increasing in individuals 
+      aged < 50 years of age. This study aimed to examine whether high-frequency 
+      follow-up after CRC surgery reduces 5-year overall mortality, cancer-specific 
+      mortality and recurrence in patients with CRC aged </= 50 years. METHODS: The 
+      COLOFOL trial performed between 2006 and 2010 was used to analyse patients 
+      randomised to high-frequency (computed tomography [CT] of the abdomen and thorax 
+      and a carcinoembryonic antigen [CEA] test at 6, 12, 18, 24 and 36 months) versus 
+      low-frequency (CT and CEA at 12 and 36 months) follow-up after curative CRC 
+      surgery. Intention-to-treat and per-protocol analyses were performed to study the 
+      primary outcomes (5-year overall mortality and cancer-specific mortality) and the 
+      secondary outcome (CRC recurrence), comparing the age groups </= 50, 51-70 
+      and > 70 years. RESULTS: In total, 2,509 patients were included in the 
+      intention-to-treat analysis with 183, 1,714 and 612 patients aged </= 50, 51-70 
+      and > 70 years, respectively. The 5-year overall mortality risk for patients 
+      aged </= 50 was 8.3% in the high-frequency group compared with 8.4% in the 
+      low-frequency group (risk difference 0.2% [95% CI, - 8.0; 8.3]). The 
+      cancer-specific mortality risk for patients aged </= 50 years was 7.1% in the 
+      high-frequency group compared with 7.4% in the low-frequency group (risk 
+      difference, 0.3% [95% CI, - 7.4; 8.0]). The cancer-specific recurrence risk for 
+      patients aged </= 50 years was 12.9% in the high-frequency group compared with 
+      21.0% in the low-frequency group (risk difference 8.1% [95% CI, - 2.6; 18.7]). 
+      CONCLUSION: Among individuals aged </= 50 years with stage II-III CRC, there was no 
+      reduction in overall mortality, cancer-specific mortality and cancer-specific 
+      recurrence with more intensive follow-up using CT and CEA.
+CI  - (c) 2026. The Author(s).
+FAU - Gutlic, Ida
+AU  - Gutlic I
+AD  - Department of Clinical Sciences Malmo, Lund University, 205 02, Malmo, Sweden. 
+      gutlic.ida@gmail.com.
+AD  - Department of Surgery, Skane University Hospital, Malmo, Sweden. 
+      gutlic.ida@gmail.com.
+FAU - Veres, Katalin
+AU  - Veres K
+AD  - Department of Clinical Epidemiology and Center for Population Medicine, Aarhus 
+      University, Aarhus, Denmark.
+FAU - Horvath-Puho, Erzsebet
+AU  - Horvath-Puho E
+AD  - Department of Clinical Epidemiology and Center for Population Medicine, Aarhus 
+      University, Aarhus, Denmark.
+FAU - Lydrup, Marie-Louise
+AU  - Lydrup ML
+AD  - Department of Clinical Sciences Malmo, Lund University, 205 02, Malmo, Sweden.
+AD  - Department of Surgery, Skane University Hospital, Malmo, Sweden.
+FAU - Buchwald, Pamela
+AU  - Buchwald P
+AD  - Department of Clinical Sciences Malmo, Lund University, 205 02, Malmo, Sweden.
+AD  - Department of Surgery, Skane University Hospital, Malmo, Sweden.
+CN  - COLOFOL study group
+LA  - eng
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+DEP - 20260126
+PL  - Germany
+TA  - Int J Colorectal Dis
+JT  - International journal of colorectal disease
+JID - 8607899
+RN  - 0 (Carcinoembryonic Antigen)
+SB  - IM
+MH  - Humans
+MH  - *Colorectal Neoplasms/surgery/mortality/pathology/diagnostic imaging
+MH  - Middle Aged
+MH  - Aged
+MH  - Male
+MH  - Female
+MH  - Follow-Up Studies
+MH  - Neoplasm Recurrence, Local
+MH  - Treatment Outcome
+MH  - Carcinoembryonic Antigen/metabolism
+MH  - Age Factors
+PMC - PMC12835091
+OTO - NOTNLM
+OT  - Colorectal cancer
+OT  - Early-onset
+OT  - Follow-up
+OT  - Sweden
+COIS- Declarations. Competing interest: The authors declare no competing interests.
+FIR - Wille-Jorgensen, Peer
+IR  - Wille-Jorgensen P
+FIR - Laurberg, Soren
+IR  - Laurberg S
+FIR - Pahlman, Lars
+IR  - Pahlman L
+FIR - Renehan, Andrew
+IR  - Renehan A
+FIR - Smedh, Kennet
+IR  - Smedh K
+FIR - Syk, Ingvar
+IR  - Syk I
+FIR - Sorensen, Henrik Toft
+IR  - Sorensen HT
+FIR - Christensen, Henrik
+IR  - Christensen H
+FIR - Gandrup, Per
+IR  - Gandrup P
+FIR - Pedersen, Allan Gorm
+IR  - Pedersen AG
+FIR - Jess, Per
+IR  - Jess P
+FIR - Madsen, Mogens Rorbaek
+IR  - Madsen MR
+FIR - Andersen, Per Vadgaard
+IR  - Andersen PV
+FIR - Wille-Jorgensen, Peer
+IR  - Wille-Jorgensen P
+FIR - Ostergaard, Erling
+IR  - Ostergaard E
+FIR - Bengtsson, Jonas
+IR  - Bengtsson J
+FIR - Bragmark, Mats
+IR  - Bragmark M
+FIR - Folkesson, Joakim
+IR  - Folkesson J
+FIR - Goldinger, Michael
+IR  - Goldinger M
+FIR - Andersson, Pernilla Hansdotter
+IR  - Andersson PH
+FIR - Heuman, Rolf
+IR  - Heuman R
+FIR - Lindberg, Kenneth
+IR  - Lindberg K
+FIR - Martling, Anna
+IR  - Martling A
+FIR - Dahlberg, Michael
+IR  - Dahlberg M
+FIR - Ottosson, Johan
+IR  - Ottosson J
+FIR - Sandzen, Birger
+IR  - Sandzen B
+FIR - Egenvall, Monika
+IR  - Egenvall M
+FIR - Smedh, Kennet
+IR  - Smedh K
+FIR - Farahnak, Parastau
+IR  - Farahnak P
+FIR - Barberousse, Carlos
+IR  - Barberousse C
+EDAT- 2026/01/26 13:00
+MHDA- 2026/01/27 00:52
+PMCR- 2026/01/26
+CRDT- 2026/01/26 11:13
+PHST- 2025/08/18 00:00 [received]
+PHST- 2026/01/13 00:00 [accepted]
+PHST- 2026/01/27 00:52 [medline]
+PHST- 2026/01/26 13:00 [pubmed]
+PHST- 2026/01/26 11:13 [entrez]
+PHST- 2026/01/26 00:00 [pmc-release]
+AID - 10.1007/s00384-026-05096-9 [pii]
+AID - 5096 [pii]
+AID - 10.1007/s00384-026-05096-9 [doi]
+PST - epublish
+SO  - Int J Colorectal Dis. 2026 Jan 26;41(1):47. doi: 10.1007/s00384-026-05096-9.

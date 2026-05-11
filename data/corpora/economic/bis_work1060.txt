@@ -1,0 +1,1835 @@
+BIS Working Papers 
+No 1060 
+
+The burst of high inflation in 
+2021–22: How and why did we 
+get here? 
+
+by Ricardo Reis 
+
+Monetary and Economic Department 
+
+December 2022 
+
+JEL classification: E58, E50, E31. 
+
+Keywords: Price level, central bank independence, r-star, 
+dove, hawk. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BIS  Working  Papers  are  written  by  members  of  the  Monetary  and  Economic 
+Department of the Bank for International Settlements, and from time to time by other 
+economists,  and  are  published  by  the  Bank.  The  papers  are  on  subjects  of  topical 
+interest and are technical in character. The views expressed in them are those of their 
+authors and not necessarily the views of the BIS. 
+
+This publication is available on the BIS website (www.bis.org). 
+
+©  Bank for International Settlements 2022. All rights reserved. Brief excerpts may be 
+
+reproduced or translated provided the source is stated. 
+
+ISSN 1020-0959 (print) 
+ISSN 1682-7678 (online) 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Foreword 
+
+The 21st BIS Annual Conference took place in Basel, Switzerland, on 24 June 2022. 
+The event brought together a distinguished group of central bank Governors, leading 
+academics and former public officials to exchange views on the topic “Central banking 
+after the pandemic: challenges ahead”. The papers presented at the conference are 
+released as BIS Working Papers, nos 1060, 1061, 1062 and 1063. 
+
+BIS  Papers  no  131  contains  panel  remarks  by  Lael  Brainard  (Vice  Chair,  Board  of 
+Governors  of  the  Federal  Reserve  System),  Stefan  Ingves  (Governor,  Sveriges 
+Riksbank) and Eddie Yue (Chief Executive, Hong Kong Monetary Authority).  
+
+WP1060 The burst of high inflation in 2021–22: How and why did we get here? 
+
+i
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Contents 
+
+Foreword ....................................................................................................................................................... i 
+
+The burst of high inflation in 2021–22: How and why did we get here? 
+
+by Ricardo Reis ......................................................................................................................................... 1 
+
+Discussion by Signe Krogstrup  ....................................................................................................... 26 
+
+Discussion by Federico Sturzenegger ........................................................................................... 37 
+
+Previous volumes ................................................................................................................................... 43 
+
+WP1060 The burst of high inflation in 2021–22: How and why did we get here? 
+
+iii
+
+ 
+ 
+ 
+ 
+ 
+The Burst of High Inflation in 2021–22:  
+
+How and Why Did We Get Here? 
+
+Ricardo Reis* 
+London School of Economics 
+June 2022 
+
+Abstract:  The  current  institutional  arrangements  for  monetary  policy  delivered  more  than  two 
+decades of low and stable inflation. Yet, central banks failed to prevent a burst of high inflation in 
+2021-22.  This  paper  inspects  four  tentative  hypotheses  for  why  this  happened.  The  first  is  a 
+misdiagnosis of the nature of shocks during a time of great uncertainty leading to an overly long 
+period of expansionary policy. The second is a neglect of expectations data driven by a strong 
+belief  that  inflation  expectations  were  firmly  anchored  and  so  inflation  increases  would  be 
+temporary. The third is an over-reliance on the credibility earned in the past, creating an illusion 
+of  too  much  room  to  focus  on  the  recovery  of  real  activity  and  underpredicting  the  resulting 
+inflation. The fourth is a revision of strategy that made central banks tolerant of higher inflation 
+because of the trend fall in the return on government bonds, even though the return on private 
+capital stayed high.  
+
+* This essay grew out of speeches and lectures given at Markus’ Academy, the 2022 ECB Watchers conference, the 
+BIS 2022 annual meetings, the 2022 annual Bradesco/BBI conference, the Norges Bank, the Hoover Institution’s 2022 
+Monetary Policy Conference, and the CICC Global Institute. I am grateful to participants at these conferences for 
+many  comments,  and  to  Marina  Feliciano,  Brendan  Kehoe,  and  Borui  Zhu  for  research  assistance.  Contact: 
+r.a.reis@lse.ac.uk  
+
+1 
+
+ 
+ 
+ 
+ 
+ 
+ 
+Inflation  in  most  western  advanced  economies  has  been  rising  at  a  fast  pace  since  the 
+
+middle of 2021. It was tempting (and too common) at the time to dismiss this rise in one of two 
+
+ways. During the first half of 2021, some noted that there was a normal catch up of the price level 
+
+after its sharp fall in 2020 during the pandemic. But this correction became a persistent acceleration 
+
+by the second half of 2021, which gained further momentum in the first half of 2022, well beyond 
+
+any  reasonable  catchup.  Another  dismissal  came  from  remembering  how  central  bankers  had 
+
+worried that inflation might be stuck at too low of a level between 2014 and 2019, for instance 
+
+hovering around 1% and 1.5% in the Eurozone. Maybe a year or so of higher than 2% inflation 
+
+was to be welcome. But, in April of 2022, the one-year inflation rate was 9.0%, 6.3%, and 7.5% 
+
+in the United Kingdom, the United States, and the Eurozone, respectively. Quantitatively, inflation 
+
+is so far above target that concerns of the recent past that inflation was too low seemed trivial. 
+
+Policy makers are worried, as they should be. More than a decade ago, Charles Evans, the 
+
+president of the Federal Reserve Bank of Chicago and the current longest-sitting member of the 
+
+Federal  Open  Markets  Committee,  said  in  a  speech:  “Imagine  that  inflation  was  running  at  5 
+
+percent against our inflation objective of 2 percent. Is there a doubt that any central banker worth 
+
+their salt would be reacting strongly to fight this high inflation rate? No, there isn’t any doubt. 
+
+They would be acting as if their hair was on fire” (Evans 2011). Today, the reality of inflation is 
+
+already well beyond Evans’ imagination, and some central bankers are feeling the heat in their 
+
+heads. How did we get to this dramatic situation?  
+
+The following discussion puts forward four factors behind the recent rise in inflation. The 
+
+guiding framework is the principle that, ultimately, monetary policy can control inflation. That 
+
+control is far from perfect, coming with unavoidable misses, and often it is desirable to let inflation 
+
+deviate from 2% for some time to try to meet other objectives. But, common to all four factors, is 
+
+2 
+
+ 
+ 
+a presumption that inflation rose because monetary policy became used to a state of affairs in the 
+
+past  decade  and  took  too  long  to  shift  its  stance.  Rather  than  highlighting  isolated  mistakes  in 
+
+judgment, I point instead to underlying forces that created a tolerance for inflation that persisted 
+
+even after the deviation from target became large. These factors suggest reforms for the future, as 
+
+well as ways to put out the fire. Perhaps they are of use to the central bankers proving that they are 
+
+worth their salt. I focus the discussion and the references on the ECB and the Federal Reserve, 
+
+although the points apply more broadly to other central banks in advanced economies. 
+
+The Context: 25 Years of Price Stability 
+
+Before looking at what happened in 2021–22, it is important to step back, and recall how 
+
+exceptional  the  previous  three  decades  had  been.  Between  1995  and  2020,  almost  every  major 
+
+advanced economy enjoyed a remarkable period of price stability. I first produced a version of 
+
+figure  1  in  2017  for  a  conference  discussing  the  twenty  years  of  independence  of  the  Bank  of 
+
+England. It shows eight centuries of inflation in the United Kingdom, split into 20-year periods for 
+
+which I computed the average and the standard deviation of inflation. Eight hundred years is a 
+
+long  time,  and  it  included  many  experiments  with  monetary  policy:  from  the  gold  standard  to 
+
+floating exchange rates, with monetarism and Bretton Woods thrown in the mix. Some of them 
+
+got close to the recent past in terms of achieving an average inflation rate near 2%, but they had 
+
+much higher volatility. A few had low volatility, but those came with persistent deflation. None 
+
+worked as well in delivering low and stable inflation as the regime of the last twenty years. Never 
+
+had monetary policy been so successful at controlling inflation as it had been in the two decades 
+
+before the pandemic (Miles et al, 2017). 
+
+3 
+
+ 
+ 
+ 
+ 
+Figure 1. Eight Hundred Years of Inflation in the United Kingdom, 1217 to 2016 
+
+n
+o
+i
+t
+a
+l
+f
+n
+I
+
+f
+o
+
+y
+t
+i
+l
+i
+t
+a
+o
+V
+
+l
+
+15%
+
+1317–36
+
+1377–96
+
+1697–1716
+
+1417–36
+
+10%
+
+1537–56
+
+1217–36
+
+1337–56
+1237–56
+
+1357–76
+
+1517–36
+
+1277–96
+1257–76
+
+1437–56
+
+1557–76
+
+1297–1316
+
+1797–1816
+
+1497–1516
+
+1757–76
+
+1917–36
+
+1397–1416
+
+1577–96
+
+1637–56
+
+1457–76
+
+1477–96
+
+1597–1616
+
+1837–56
+1617–36
+1737–56
+
+5%
+
+1717–36
+
+1817–36
+
+1657–76
+
+1677–96
+
+1857–76
+
+1777–96
+
+1897–1916
+
+1957–76
+
+1977–96
+
+1937–56
+
+1877–96
+
+1997–2016
+
+−3%
+
+−2%
+
+−1%
+
+0%
+
+2%
+
+1%
+CPI inflation
+
+3%
+
+4%
+
+5%
+
+6%
+
+Notes: Data on the annual change in the Consumer Price Index, from the Millennium dataset of the Bank of England, 
+grouped in twenty-year intervals. Horizontal axis has the absolute value of average inflation during twenty years minus 
+2%. 
+
+What does this successful regime consist of? In my view, it is based on three pillars. The 
+
+first is granting central banks independence from the Ministry of Finance, so that managing the 
+
+public debt and helping to balance the public finances is no longer a job for monetary policy, and 
+
+no  longer  overrides  concerns  about  inflation.  It  is  also  important  to  have  independence  from 
+
+governments seeking re-election so that monetary policy is not systematically used to stimulate 
+
+4 
+
+ 
+ 
+ 
+ 
+ 
+the  economy  temporarily,  a  pursuit  that  often  proves  fruitless  but  results  in  high  and  volatile 
+
+inflation. 
+
+The second pillar is the required balance to the first: for a public institution to have the 
+
+power that we confer upon central bankers, then its mandate must be narrow, its actions transparent, 
+
+and its performance measurable and routinely measured. The public has given central banks an 
+
+inflation target that satisfies all these criteria. 
+
+The third pillar is the primacy of interest rates as the main tool of monetary policy, set in 
+
+transparent  and  predictable  ways.  For  most  of  this  time,  the  interest  rate  was  a  short-term  rate 
+
+closely controlled by the central bank, but the period after the great financial crisis saw central 
+
+banks  “go  long”  by  pursuing  policies  that  would  temporarily  steer  long-term  interest  rates  in 
+
+government bonds. Throughout, central bankers followed clear principles—like the Taylor rule or 
+
+gradualism—that made their actions rule-like in allowing the private sector to understand where 
+
+policy was heading and why. 
+
+There  are  endless  debates  on  whether  these  three  pillars  are  necessary  or  sufficient  to 
+
+deliver price stability. But it is unlikely it was a coincidence that inflation was so low and stable 
+
+in a whole host of countries that followed these same three pillars, at different times and in different 
+
+circumstances. I raise them because I fear that in the near future valid criticisms of central bankers' 
+
+choices in the last year, or understandable outrages at how high and persistent inflation becomes, 
+
+can lead to overreactions and entirely new regimes that come with volatility and may fail. The last 
+
+twenty years showed that independent central banks setting interest rates to hit inflation targets 
+
+can succeed. The water may need some cleaning or some change, but the baby should stay in it. 
+
+5 
+
+ 
+ 
+The First Factor: Shocks and Misdiagnoses 
+
+The years 2021 and 2022 saw large and unusual shocks hitting the economy. The job of 
+
+central banks was especially difficult, and choices were made amidst great uncertainty on what the 
+
+state of the economy was in real time and what the nature and persistence of the shocks affecting 
+
+inflation were.  
+
+The  first  and  major  shock  was,  of  course,  the  pandemic  of  2020.  At  first,  it  justified  a 
+
+remarkable degree of monetary stimulus since there were legitimate fears of a depression. The 
+
+Federal Reserve announced a schedule of asset purchases that made its balance sheet expand to a 
+
+record  share  of  GDP.  The  ECB  gave  forward  guidance  that  deposit  rates  would  stay  negative 
+
+extending well beyond one year. Perhaps over-influenced by the experience of the great financial 
+
+crisis, many expected long-lasting scars from the Covid recession. Avoiding a slump demanded a 
+
+strong response. 
+
+Instead, the economy rebounded quickly before 2020 was even over. Between the trough 
+
+in 2020Q2 and the end of 2021, real GDP rose by 14.9% in the United States and 17.5% in the 
+
+euro area. The unemployment rate fell by more than 10% in less than twelve months in the United 
+
+States. Instead of scars and hysteresis, the economy showed an ability to intertemporally substitute 
+
+production  and  consumption.  After  the  lockdown  of  the  second  quarter  of  2020,  the  economy 
+
+responded in the third quarter with intense re-opening and economic activity. The private sectors 
+
+became better at this intertemporal substitution with time, and when a larger health shock came at 
+
+the end of 2020 with the delta wave (in number of infections, deaths, or any other health indicator) 
+
+together with new lockdowns, the fall in production was smaller for the euro area, and inexistent 
+
+for  the  United  States.  Figure  2  shows  how  quick,  relative  to  its  depth,  the  recovery  was  in 
+
+comparison  with  the  other  recessions  since  the  start  of  the  century.  Macroeconomic  policy 
+
+6 
+
+ 
+ 
+deserves credit for this fast recovery. The social insurance programs of 2020 likely contributed to 
+
+minimizing  the  scars  and  prevented  consumers  from  becoming  persistently  pessimistic  and 
+
+unwilling to work or consume. Almost no bank failed during this time, and there was no significant 
+
+crisis in any relevant financial market.  
+
+Figure 2. The Recovery from Recessions in the United States and the Euro Area 
+
+k
+a
+e
+P
+s
+u
+o
+v
+e
+r
+P
+o
+
+i
+
+t
+
+l
+
+e
+v
+i
+t
+a
+e
+R
+P
+D
+G
+
+10%
+
+5%
+
+0%
+
+−5%
+
+−10%
+
+−15%
+
+−20%
+
+US 2001 Q4
+
+EA 2013 Q1
+EA 2009 Q2
+US 2009 Q2
+
+US 2020 Q2
+
+EA 2020 Q2
+
+0
+
+5
+
+10
+
+15
+
+# Quarters from Trough
+
+United States
+
+Euro Area
+
+Notes: Change in real GDP per capita from trough for 4 years afterwards unless a new peak is reached (or the 
+present is reached) according to the recession dates of the CEPR-EABCN and the NBER. 
+
+At the same time, the recovery came with inflation. The framework of the Phillips curve 
+
+says that deviation from steady state inflation can come from three direct channels. The first is the 
+
+expected  inflation  by  households  and  firms.  The  second  is  a  deviation  of  real  activity  from  a 
+
+potential level of output that is determined by technology and costs. The third is a markup shock 
+
+7 
+
+ 
+ 
+ 
+ 
+ 
+ 
+that introduces a gap between the potential and efficient levels of output. While different models 
+
+of  price  stickiness  come  with  different  concrete  causes  behind  each  of  these  three  forces,  this 
+
+organizing  framework  has  repeatedly  been  useful  to  interpret  inflation  dynamics  arising  from 
+
+shocks. 
+
+The fast recovery is an example of the second force driving inflation up. Because tighter 
+
+monetary policy can work through the same force in the opposite direction, it can stabilize the 
+
+output gap and inflation with it. However, monetary policy was kept loose in 2021. Additionally, 
+
+the direct transfers to households and firms in 2020 had led to an accumulation of savings and an 
+
+explosion in broad monetary aggregates that provided the balances for a boom in spending once 
+
+the economy re-opened. The fiscal stimulus at the start of 2021 in the United States (the American 
+
+Rescue Plan of 2021) further raised aggregate demand, likely to a level above the potential output 
+
+of  the  economy.  The  amount  of  fiscal  and  monetary  stimulus  in  2020  was  perhaps  excessive, 
+
+although this judgement comes with the benefit of hindsight. A more pertinent criticism is that 
+
+policy did not reverse course until at least the end of 2021, even as the signs that the fast recovery 
+
+was leading to overheating became clearer. This slow reversal is perhaps best explained by the 
+
+forward guidance given in 2020, serving as a constraint in 2021 on what central banks thought was 
+
+admissible without defrauding expectations. 
+
+A second set of shocks compounded the inflation problem in 2021. They had their origin 
+
+in the supply sector. At different times during the year, ports became clogged, the production of 
+
+microchips  hit  capacity  constraints,  and  global  value  chains  broke  down  as  new  waves  of  the 
+
+pandemic led to a closing of borders. These bottlenecks are shocks to the supply of goods in the 
+
+economy that reflected themselves differently in different countries. Yet, the diagnosis of central 
+
+banks was similar across the advanced economies. In terms of the Phillips curve, policy makers 
+
+8 
+
+ 
+ 
+interpreted  all  these  shocks  as  temporary  markup  shocks,  the  third  channel.  As  such,  they 
+
+concluded that they should not reverse the stimulus stance of monetary policy and not jeopardize 
+
+the recovery. The standard monetary policy prescription against a temporary markup shock is to 
+
+let inflation rise above target so that, even if actual output rises above potential, it stays close (or 
+
+slightly below) the efficient level of output. 
+
+This diagnosis was suspect, both at the time and in hindsight. Many of these shocks can 
+
+just as well be interpreted as shocks to the potential level of output. For instance, the problem with 
+
+global supply chains affects the actual technology used to produce goods, not just the market power 
+
+of firms. Moreover, if the shape of globalization is going to change, as some have argued, this will 
+
+most likely affect the productive capacity of the economy. So, if inflation was rising because of 
+
+the  second  channel  through  lower  potential  output,  as  opposed  to  the  third  through  higher 
+
+deviations from the efficient level of output, the policy prescription would be instead to tighten 
+
+monetary  policy  and  to  keep  inflation  on  target.  Simply  put,  persistent  and  recurrent  negative 
+
+supply shocks to potential output will make the economy poorer: inflation cannot change this, nor 
+
+can monetary policy. 
+
+Energy prices were the third shock. They had been rising since 2021, and sharply increased 
+
+in 2022 with the Russian invasion of Ukraine. The ECB responded again as if this was a temporary 
+
+markup  shock,  as  opposed  to  a  shock  to  potential  output.  Policy  tolerated  a  sharp  increase  in 
+
+inflation, predicting it to be short-lived. It was a defensible priority to strive to avoid mistakes of 
+
+the past, when hikes in oil prices would raise inflation, trigger tighter monetary policy, and cause 
+
+a recession. 
+
+Yet this “see through the shock” policy is a prescription of the literature only if inflation 
+
+expectations are anchored. Otherwise, the sharp increase in the prices of energy will have an over-
+
+9 
+
+ 
+ 
+sized impact on household expectations as the first channel of the Phillips curve becomes operative, 
+
+further pushing inflation up. Not only did central banks again interpret a supply shock as being a 
+
+shock to markups, as opposed to potential output, but they relied on expectations being anchored. 
+
+Yet, large changes in household costs of energy are salient to households and can easily unsettle 
+
+their expectations. 
+
+Three times in a row in a short period of time, a set of shocks pushed inflation up. Three 
+
+times  in  a  row,  monetary  policy  interpreted  them  using  the  lenses  of  the  Phillips  curve  in  the 
+
+direction  that  concluded  that  monetary  policy  should  be  kept  loose.  Three  times  in  a  row,  this 
+
+diagnosis was plausibly right but disputable, and the risk was that inflation would rise too much 
+
+and too persistently. After the fact, in all three cases this risk became reality. A policy framework 
+
+should be robust to shocks, and it should correct misdiagnoses. So many successive errors in the 
+
+same  direction  indicate  more  systematic  problems.  The  next  three  factors  point  to  three  such 
+
+problems. 
+
+The Second Factor: Expectations 
+
+No central banker would deny the importance of inflation expectations for the control of 
+
+inflation.  Over  the  last  decade,  expected  inflation  was  very  sticky,  so  that  its  measurements 
+
+reflected mostly noise with little signal. Household surveys of inflation expectations invariably 
+
+returned an answer of 2%, which in every wave was polluted by measurement error. Only through 
+
+careful econometric work were researchers able to uncover interesting patterns that allowed for 
+
+scientific progress in understanding expectations and inflation. In turn, data from financial markets 
+
+likewise reflected mostly changes in risk attitudes as well as financial shocks which introduced 
+
+noise beyond the expected inflation signal. Inflation expectations were solidly anchored because 
+
+10 
+
+ 
+ 
+ 
+of the success of the past. Staffers at the forecasting team of central banks were justified in ignoring 
+
+expectations data in their econometric models (Coibion et al., 2018). 
+
+The  experience  of  2020  confirmed  this  view.  Despite  a  few  months  of  sharp  deflation, 
+
+followed by sharp month-to-month inflation, expectations of inflation stayed remarkably stable. 
+
+The trust that central banks placed in the anchor is evident in the speech by Jerome Powell at the 
+
+August 2021 Jackson Hole Economic Policy Symposium. The speech discusses data from inflation 
+
+expectations  and  concludes  that:  “Households,  businesses,  and  market  participants  also  believe 
+
+that current high inflation readings are likely to prove transitory and that, in any case, the Fed will 
+
+keep inflation close to our 2 percent objective over time” (Powell 2021). There was nothing to see, 
+
+and the anchor was firmly in the seabed. 
+
+In  fact,  before  inflation  started  rising,  central  bankers  were  mostly  worried  about  the 
+
+possibility  that  expectations  might  be  anchored  at  levels  of  inflation  that  were  too  low.  In  the 
+
+presentation of the Federal Reserve’s new framework in the 2020 Jackson Hole speech, Powell 
+
+discussed  the  problem  of  an  “adverse  cycle  of  ever-lower  inflation  and  inflation  expectations” 
+
+(Powell 2020). The ECB, in its revised monetary policy statement wrote: “In particular, when the 
+
+economy is close to the lower bound, this requires especially forceful or persistent monetary policy 
+
+measures to avoid negative deviations from the inflation target becoming entrenched” (European 
+
+Central Bank 2021).  
+
+Relying  on  anchored  inflation  expectations  and  focusing  on  the  downside  risk  has 
+
+consequences for monetary policy. First, with expected inflation equal to a constant in the Phillips 
+
+curve  framework,  one  of  the  main  drivers  of  inflation  is  absent.  Second,  a  temporary  rise  in 
+
+inflation  expectations  is  welcome.  If  the  fear  is  that  of  a  deflation  trap,  then  a  rise  in  inflation 
+
+expectations is a way to escape the adverse cycle in the Powell quote above. Third, a rise in actual 
+
+11 
+
+ 
+ 
+inflation is likely to be transitory. If expectations stay anchored, they pull inflation towards them, 
+
+making most inflation shocks temporary. These three consequences are interlinked: if expectations 
+
+are solidly anchored, then even sharp rises in inflation will only move them up a little, with no risk 
+
+that the anchor would go adrift. 
+
+However, already halfway through the year 2021, the data showed that expectations were 
+
+not so well-anchored. In line with modern research, the key was to look beyond the measure of 
+
+central  tendency  from  household  surveys  and  to  focus  on  measures  of  disagreement.  Figure  3 
+
+shows three snapshots of the distribution of one-year ahead inflation expectations in the University 
+
+of Michigan Surveys of Consumers household expectations. In the first half of 2021, the skewness 
+
+started rising. That is, a rising share of households started expecting that inflation would be higher, 
+
+even as the median changed little. Then, it was the standard deviation that rose decisively as more 
+
+and more households joined the group of pessimists. By 2022, the shift of the distribution to the 
+
+right was such that the median was rising quickly as well. 
+
+This three-stage movement in the distribution of expectations is not unique to 2021–22. 
+
+Looking back to the end of the 1960s in the United States, again the distribution of survey inflation 
+
+expectations shifted slowly to the right, and this was seen first through an increase in skewness, 
+
+then a rise in standard deviation, and finally the rise in the median (Reis, 2022a). This process took 
+
+a few years back then, as opposed to less than one year in 2021–22, but qualitatively it was similar. 
+
+In the other direction, between 1980 and 1985, as inflation sharply came down, again it was first 
+
+skewness, then standard deviation, and finally median that moved as the distribution shifted to its 
+
+new anchor. Another common feature of these three episodes is that the surveys of professionals 
+
+lagged  those  of  households,  and  after  the  fact  turned  out  to  be  the  more  sluggish  and  less 
+
+informative source of data. In normal times, the opposite happens, as household survey data lags 
+
+12 
+
+ 
+ 
+professional surveys and is less accurate, but during these three past large changes in inflation, 
+
+household data were more informative. 
+
+Figure 3. The Distribution of U.S Household Survey Inflation Expectations Through 2021–22 
+
+Month
+
+2020 December
+2021 June
+2022 April
+
+0.125
+
+0.100
+
+0.075
+
+0.050
+
+0.025
+
+0.000
+
+0% 1.5% 3.5% 5% 7.5%
+
+12%
+
+>= 15%
+
+Expected inflation 1 year ahead
+
+Notes: Data from the University of Michigan Surveys of Consumers household expectations for 1-year ahead expected 
+inflation. 
+
+The  data  in  2021  revealed  that  a  large  change  in  expectations  was  under  way.  The 
+
+expectations anchor had left the seabed after a couple of decades during which it had barely moved. 
+
+Perhaps this was the result of the shocks that hit the economy, or perhaps it was a result of the 
+
+loose  monetary  policy  that  accompanied  them.  Bad  luck  played  a  role,  as  some  of  the  relative 
+
+13 
+
+ 
+ 
+ 
+prices  that  moved  the  most  in  2021  (like  gas  prices  or  cars)  were  among  those  most  visible  to 
+
+consumers,  who  will  tend  to  overreact  to  them  when  forming  their  expectations.  Once  central 
+
+banks  allowed  inflation  to  rise,  those  realizations  themselves  fed  into  households  anticipating 
+
+higher  expected  future  inflation.  A  temporary  inflation  shock  becomes  persistent  if  the 
+
+expectations anchor moves with it. 
+
+The Third Factor: Credibility 
+
+Sharp movements in expected inflation over the next year are alarming for the persistence 
+
+of the shock. But if expectations of the distant future continue to be stable, the damage for inflation 
+
+will be limited. The credibility of an inflation-targeting central bank is ultimately measured by 
+
+whether expected long-run inflation is equal to its target. In the long run, money is neutral, the 
+
+Phillips curve is (nearly) vertical, and expected inflation matches actual inflation. If the central 
+
+bank manages to convince economic agents that inflation in the long run will be on target, then 
+
+most of the work of keeping its actual value on target in the long run will have been done.  
+
+In 2021, it was justified to rely on having significant credibility. After all, such credibility 
+
+had been earned after more than 20 years of inflation very close to 2%. Central banks can enjoy a 
+
+“capital of inattention” in that people do not pay much attention to what the central bank is doing, 
+
+trusting it will deliver inflation on target over the next few years. One important consequence of 
+
+this credibility is that it will make the negative relation between inflation and real activity appear 
+
+to be flatter. As people and firms are inattentive, and update their wages and prices less often, the 
+
+extent  of  nominal  rigidities  in  the  economy  rises,  making  monetary  policy  more  powerful  in 
+
+affecting real activity. Relying on this credibility, the central bank can exploit short-run tradeoffs 
+
+between  inflation  and  real  activity  to  try  to  improve  welfare.  Policy  makers  will  appear  more 
+
+14 
+
+ 
+ 
+ 
+ 
+“dovish”  because  mistakes  in  policies  are  more  likely  to  cause  recessions  than  to  cause  high 
+
+inflation. In 2021, facing an unusual amount of uncertainty about the shocks hitting the economy 
+
+and their ability to measure fast-moving indicators, central banks leaned heavily on their credibility 
+
+by allowing inflation to rise above target to offset the impact of these shocks on real activity. As 
+
+long as they had credibility, inflation would only rise moderately. 
+
+It is hard to survey households on what they expect inflation to be in the distant future. 
+
+Instead, the dominant measure of credibility comes from financial markets. The most used measure 
+
+is the 5-year, 5-year forward inflation expected rate. Using either inflation swaps or nominal and 
+
+inflation-indexed bonds over 5- and 10-year horizons, it computes what the expected inflation will 
+
+be starting in 5 years, on average over the succeeding 5 years. Looking at April 21, 2020, 2021, 
+
+and 2022, this measure increased from 1.34% to 2.13% and then to 2.67%, respectively, in the 
+
+United States. Since market measures include a premium for inflation risk, even the more recent 
+
+number is maybe only slightly above a 2% inflation target. 
+
+However, again the average hides what is behind it in the distribution. Looking beyond the 
+
+mean gives more cause for alarm. Recent research has developed methods to use option prices to 
+
+inspect  these  distributions  and,  especially,  to  accurately  capture  the  probabilities  of  the  tails 
+
+(Hilscher et al, 2022). The top panel of figure 4 shows these distributions for the 10-year horizon 
+
+in the United States throughout 2021. While the average rose little, there was a clear shift to the 
+
+right. Especially during the second half of the year, this shift came with a quick accumulation of 
+
+mass on the right tail. The distributions became increasingly asymmetric as upside risks to inflation 
+
+became dominant. 
+
+15 
+
+ 
+ 
+ 
+Figure 4. Measurements of Credibility of the Federal Reserve from Options Markets 
+
+a. Probability densities for average risk-adjusted inflation over the next ten years 
+
+b. Tail probabilities of a 5-year, 5-year inflation disaster in US and EZ inflation 
+
+United States, >4%
+Eurozone, >4%
+
+United States, >5%
+Eurozone, >5%
+
+y
+t
+i
+l
+i
+
+b
+a
+b
+o
+r
+P
+
+.2
+
+.15
+
+.1
+
+.05
+
+0
+
+2020m1
+
+2020m7
+
+2021m1
+
+2021m7
+
+2022m1
+
+Month
+
+Notes: Estimates using the methods in Hilscher et al (2022). The top panel shows 10-year distributions including 
+risk premia. The bottom panel shows actual forward probabilities over a 5-year, 5-year horizon.  
+
+16 
+
+ 
+ 
+ 
+ 
+The bottom panel of figure 4 focuses on that right tail by presenting probabilities that reflect 
+
+how much market participants are willing to pay to insure themselves against an “inflation disaster,” 
+
+a scenario where inflation is persistently higher. To do so, these estimates adjust the tails from the 
+
+top panel to take out the compensation for risk, and they set the horizon to 5-year,  5-year so as to 
+
+focus  on  credibility,  as  opposed  to  pessimism  about  the  immediate  few  years.  The  numbers 
+
+therefore measure the current date market-perceived probability that average inflation will be more 
+
+than 4% starting in 5 years, over the following 5 years. If central bankers are risk managers, they 
+
+should care more about these disasters than about the average outcome that was so often cited in 
+
+2021. 
+
+In the United States, this probability rose steadily from the middle of 2021 onwards. By 
+
+the last date in this sample, April of 2022, it was 16%. Investors were paying a high price to insure 
+
+against the chance that the Federal Reserve would, considerably and persistently, miss its inflation 
+
+target between 2027 and 2032. This reveals a lack of credibility of the Federal Reserve. Credibility 
+
+in the inflation target of the ECB stayed high until the end of 2021. But then, the perceived disaster 
+
+probability jumped up very quickly to 8%. This is less than in the United States, but it still puts a 
+
+considerable dent into the faith that credibility has remained intact. 
+
+Seeing these numbers, relying on credibility of the inflation target to offset policy shocks 
+
+by letting inflation rise is a bold and risky move. 
+
+The Fourth Factor: R-star and the Tolerance of Inflation 
+
+In  2019,  both  the  Federal  Reserve  and  the  ECB  announced  they  would  be  revising  the 
+
+framework that guides their monetary policies. When presenting the result of this work at the 2020 
+
+Jackson Hole conference, Jerome Powell cited as one of its important motivations the “…fall in 
+
+17 
+
+ 
+ 
+ 
+the  equilibrium  real  interest  rate,  or  ‘r-star.’”  In  turn,  in  the  overview  document  that  the  ECB 
+
+released presenting its own reviews, the first justification offered for why it was needed was that 
+
+“structural developments have lowered the equilibrium real rate of interest.” 
+
+This r-star refers to the real interest rate at which savings are equal to investment and output 
+
+is at its potential. It is often interpreted and measured as the long-run steady state for real returns 
+
+in  the  economy.  Sometimes  it  is  called  the  neutral  rate  of  interest  because,  in  New  Keynesian 
+
+models, having the nominal interest rate of the central bank above r-star plus the inflation target 
+
+captures contractionary policy. Conversely, if the policy rate is below r-star plus 2%, then policy 
+
+is  understood  to  be  expansionary,  putting  upwards  pressure  on  inflation.  R-star  is  difficult  to 
+
+estimate because it is observed in an equilibrium that is never reached but estimates that it has 
+
+fallen make it more likely that monetary policy is contractionary for any given level of the policy 
+
+rate. 
+
+If r-star is indeed lower, it is more likely that when the central bank needs to lower policy 
+
+rates aggressively to push up inflation, it will find itself unable to do so. It would require policy 
+
+rates  that  are  below  their  “effective  lower  bound”  (ELB).  Therefore,  monetary  policy  will 
+
+sometimes be insufficiently expansionary. In principle, this would lead to too little inflation. The 
+
+central bank can “go long,” trying to affect longer-term interest rates by using forward guidance 
+
+and quantitative easing to provide further expansion, but this may not be enough. 
+
+Matters can get worse. If agents start expecting deflation, and the central bank cannot lower 
+
+interest rates, then this breakdown of the Taylor principle because of the ELB makes deflation 
+
+self-fulfilling. As Powell’s 2020 speech noted, in that case, the economy may enter an “adverse 
+
+cycle of ever-lower inflation and inflation expectations,” leading the economy to become stuck in 
+
+a deflation trap. A long academic literature suggests that, to escape this trap, central banks must 
+
+18 
+
+ 
+ 
+find a way to commit to delivering high inflation, above the target, in the future. Future higher 
+
+inflation would boost current inflation, and on average deliver inflation on target. 
+
+An  emphasis  on  a  low  r-star  also  leads  to  a  focus  on  providing  stimulus  to  aggregate 
+
+demand.  In  economies  at  the  ELB,  aggregate  demand  is  too  low.  The  economy  is  persistently 
+
+operating below capacity, so that the looser monetary policy can be, the better. This logic extends 
+
+to fiscal policy, and thus to embracing large deficits and to not worrying about the public debt 
+
+(which, anyway, now pays a lower interest rate). Policies based on supply, in contrast, are less 
+
+important.  At  the  ELB,  the  opportunity  cost  of  liquidity  is  close  to  zero,  so  firms  should  have 
+
+access to abundant liquidity and credit. Improvements in aggregate productivity may even backfire 
+
+and lower output if they lower inflation expectations. 
+
+Putting it all together, if r-star has fallen, then central banks  increasingly start to  worry 
+
+about deflation because of inevitably tight monetary policy even with interest rates near zero. They 
+
+welcome  inflation  rising  above  target,  and  they  focus  on  perpetually  boosting  real  activity  and 
+
+providing  more  and  more  stimulus.  Both  the  Federal  Reserve  and  the  ECB’s  mission  reviews 
+
+moved in this direction. But has r-star fallen? 
+
+Figure 5 shows that the ex-post return on long-term government bonds has fallen in the G-
+
+7 countries over the last twenty or thirty years. Short-term government bond yields were close to 
+
+the ELB for many years including 2021. Monetary policy was certainly constrained in providing 
+
+more stimulus. But the theoretical concept of r-star refers to an equilibrium between savings and 
+
+investment in the overall economy. Why would this happen in the government bond market? In 
+
+fact, in the standard neoclassical growth model that defines the output potential in many modern 
+
+macroeconomic models, the interest rate on government bonds is irrelevant, as government bonds 
+
+are not net wealth. It is the marginal product of capital (and time preferences) that determine where 
+
+19 
+
+ 
+ 
+savings equal investment. The return on government bonds is only useful because with efficient 
+
+and  complete  capital  markets,  it  provides  a  risk-free  measure  of  the  relevant  r-star,  which 
+
+conceptually is the return to capital in the economy. 
+
+Figure 5. Estimates of R-star from Returns on Government Bonds and on Private Capital 
+
+G7
+
+8
+
+6
+
+4
+
+2
+
+0
+
+e
+g
+a
+t
+n
+e
+c
+r
+e
+P
+
+-2
+
+1980
+
+1990
+
+2000
+Year
+
+2010
+
+2020
+
+Return on Private Capital
+
+(Trend)
+
+Return on Public Debt
+
+(Trend)
+
+Notes: Estimates from Reis (2022b). 
+
+Closer to the concept of r-star is to measure the return on investing in the private capital 
+
+stock.  Doing  so  using  financial  returns  is  a  thankless  task  because,  as  the  Modigliani-Miller 
+
+theorem states, the return on capital can be split in many ways between different financial claims, 
+
+and these have likely changed over time. Instead, figure 5 shows a measure of the return to capital 
+
+using  the  income  flows  in  the  aggregate  economy.  Namely,  it  starts  with  value  added  in  the 
+
+economy, subtracts payments to labor and depreciation, and divides it by the private capital stock. 
+
+It is therefore a measure of the average return from owning capital in the economy every year, 
+
+20 
+
+ 
+ 
+ 
+whether those came from profits or costs of finance, or from the payout of loans, bonds, dividends, 
+
+or others. This measure of r-star has been remarkably constant over the last twenty years. There is 
+
+no downward trend in it.  
+
+There has been a trend increase in the difference between the return in the private economy 
+
+and the return on government bonds. Perhaps this is a sign of misallocation of capital away from 
+
+private investment in the capital stock and towards financial investments. It may also reflect an 
+
+inability of capital markets to fund enough investment to bring the marginal product of capital 
+
+down. Or, perhaps it reflects an increasing “specialness” of government bonds in providing safety, 
+
+liquidity, convenience, or some other service that attracts an excess demand for them and justifies 
+
+their paying an inferior return. Whichever it is, the data suggests that r-star may have been constant, 
+
+or it may have fallen, but the difference between private and public returns has definitely risen. 
+
+This  perspective—non-decreasing  return  to  private  capital  and  an  increasing  wedge 
+
+between it and the return on public debt—changes the focus of monetary policy (Reis, 2022b). 
+
+First,  promising  to  increase  inflation  in  the  future  to  raise  inflation  expectations  becomes  less 
+
+appealing. Doing so still lowers the real interest rate on government bonds and boosts consumption 
+
+at the ELB, so it is still an effective policy. However, now it only raises investments if it can reduce 
+
+the real return on the private capital stock, which it may or may not be able to do. Therefore, all 
+
+else being equal, it is likewise less stimulative. The costs of higher inflation may start offsetting 
+
+its benefits. 
+
+Second,  and  related,  the  priority  of  escaping  the  ELB  is  no  longer  as  overwhelming. 
+
+Policies that raise the r-star measured with government bonds may relax the constraint on monetary 
+
+policy. But if these policies do not close the gap to the return on private capital, or even raise the 
+
+21 
+
+ 
+ 
+r-star measured with private capital, then they may backfire. They will crowd out investment and 
+
+potentially lower real activity. 
+
+Third,  to  exit  a  situation  of  a  persistent  deflation  trap  and  accompanying  stagnation, 
+
+lowering  the  gap  between  the  return  on  private  capital  and  the  return  on  the  public  debt  is  an 
+
+alternative strategy. This logic points to working on the supply side of the economy, focusing on 
+
+what is disturbing the allocation of savings. It gives a different focus to the one underlying the 
+
+recent mission reviews with their focus on aggregate demand. It instead leads to thinking harder 
+
+about how financial regulation may be helping or hindering an effective allocation of capital, or to 
+
+what extent asset purchases by central banks have aided or distorted the allocation of capital, to 
+
+give two examples. 
+
+Finally, lower interest payments on the public debt allow for a higher level of public debt 
+
+to be sustainable. But, if the source of these lower payments is a rising gap between the return on 
+
+private capital and the return on government debt that is induced by the specialness of public debt, 
+
+then  monetary  policy  should  ask  how  it  contributed  to  that  specialness.  In  particular,  the 
+
+remarkable achievement in stabilizing inflation over the last twenty years may be related to that 
+
+rising gap. It has meant that one of the major risks in lending to the government, which is inflation, 
+
+has  disappeared.  This  suggests  that  if  higher  inflation  comes  with  more  volatile  inflation,  and 
+
+hence higher inflation risk premia, then this may well close the gap between the two rates of return 
+
+by raising the return that bondholders require on public debt. This would hurt debt sustainability. 
+
+Delivering on the mandate of price stability becomes even more important (Reis, 2022c). 
+
+22 
+
+ 
+ 
+ 
+Conclusion 
+
+The rise in inflation in 2021–22 is such a dramatic event that it will likely spur a large 
+
+literature and a heated debate in trying to explain it over the next many years. Perhaps it may even 
+
+trigger regime changes in how monetary policy is conducted. In the short run, it is surely leading 
+
+to changes in policy to bring inflation back on target. 
+
+This  article  made  some  contributions  to  this  analysis.  It  started  by  reminding  that  the 
+
+institutional regime that is in place today, based on independent central banks with inflation targets 
+
+that set interest rates predictably, has served the advanced economies very well over the previous 
+
+thirty years. It seems unwise to throw it out after one year of high inflation. 
+
+Second, it put forward four structural causes for why inflation rose so much. Common to 
+
+all of them is a presumption that if inflation rises, it is because the central bank allowed it to rise. 
+
+Every year has its shocks hitting the economy and its challenges for central banks. The past always 
+
+seems  rosier  in  comparison  with  the  turmoil  of  the  present.  But  theoretically,  the  institutional 
+
+regime described above is predicated on the principle that ultimately the central bank can always 
+
+use  its  tools  to  rein  in  inflation  around  its  target  on  average  over  a  few  years.  When  it  allows 
+
+inflation to deviate significantly from target in the short run, it is by choice, in trading-off other 
+
+objectives. Empirically, over the last two decades, dozens of countries all over the world adopted 
+
+this institutional regime under all kinds of circumstances and facing all types of shocks. Almost 
+
+all and almost always they were able to deliver low and stable average inflation. 
+
+The first of the causes for the failure this time was that the unusual and large shocks of 
+
+2020–22 were almost always diagnosed in a way that justified keeping monetary policy extremely 
+
+loose. The fast recovery of 2021 was not enough to trigger a quick reversal on previous forward 
+
+guidance since the focus was on real activity. The succession of supply shocks was all interpreted 
+
+23 
+
+ 
+ 
+as  temporary  markup  shocks  as  opposed  to  persistent  changes  in  potential  output.  As  a  result, 
+
+purposely allowing inflation to overshoot its target was seen as optimal and desirable. That is, until 
+
+it became too large to justify. 
+
+The second cause was a steadfast belief that inflation expectations would stay anchored, as 
+
+they had been for two decades. This belief led to relying on surveys of professionals and on the 
+
+median  expectation  of  inflation  from  household  surveys  to  support  this  strong  prior.  The 
+
+distribution  of  survey  inflation  expectations  and  the  historical  experience  with  regime  shifts 
+
+pointed elsewhere already in the second half of 2021, and this became clear in 2022. Missing the 
+
+drift  of  its  anchor,  central  banks  underestimated  the  persistence  that  the  deviations  of  inflation 
+
+from target would have. 
+
+The third cause was an over-reliance on the credibility of monetary policy. The capital of 
+
+inattention  that  the  central  bank  had  earned  in  the  past  would  have  allowed  it  to  focus  on  real 
+
+activity or other parts of its mandate during an uncertain time. Yet, either by bad luck or by leaning 
+
+too hard on this past credibility, some of it was lost, producing an upward spiral of inflation when 
+
+output rose above potential. 
+
+The fourth cause was the influence of estimates of a falling and low r-star in the revision 
+
+of the frameworks for monetary policy. These led to a determination to fight low inflation, and an 
+
+increased  tolerance  for  inflation  above  target,  as  well  as  a  focus  on  stimulating  the  economy 
+
+through  aggregate  demand.  When  inflation  started  rising,  this  contributed  to  not  fighting  it  as 
+
+vigorously as otherwise might have been the case. The r-star that comes from private returns has 
+
+been constant, and the rising gap between those returns and those on public debt suggest that a 
+
+different set of policies might have been warranted. 
+
+24 
+
+ 
+ 
+This  paper  proposed  these  causes  as  hypotheses.  While  there  is  a  strong  case  that  they 
+
+played a role, future research will tell if they were quantitatively the most relevant. For now, facing 
+
+the challenge of bringing down inflation, they suggest that policies in the near term may involve: 
+
+(i) accepting lower levels of real activity in the future, (ii) acting vigorously and sharply in the near 
+
+future  with  raising  interest  rates  to  re-anchor  expectations,  (iii)  re-stating  as  loudly  and 
+
+convincingly  as  possible  the  primacy  of  price  stability  as  the  goal  that  guides  policy,  and  (iv) 
+
+revising upwards the relative costs of high inflation while re-focusing on aggregate supply policies. 
+
+References 
+
+Coibion, Olivier, Yuriy Gorodnichenko and Rupal Kamdar. 2017. “The Formation of Expectations, Inflation, and the 
+
+Phillips Curve.” Journal of Economic Literature 56: 1447–91. 
+
+Evans,  Charles.  2011.  “The  Fed’s  Dual  Mandate  Responsibilities  and  Challenges  Facing  US  Monetary  Policy.” 
+Speech  at  the  European  Economics  and  Financial  Centre,  London,  September  7.  Available  at: 
+https://www.chicagofed.org/publications/speeches/2011/09-07-dual-mandate. 
+
+European  Central  Bank.  2021.  “An  Overview  of  the  ECB’s  Monetary  Policy  Strategy,”  July  8.  Available  at 
+
+https://www.ecb.europa.eu/home/search/review/html/ecb.strategyreview_monpol_strategy_overview.en.ht
+ml. 
+
+Hilscher, Jens, Alon Raviv, and Ricardo Reis. 2022. “How Likely is An Inflation Disaster?” CEPR discussion paper 
+
+17224. 
+
+Miles,  David,  Ugo  Panizza,  Ricardo  Reis,  and  Angel  Ubide.  2017.  And  Yet  It  Moves.  Inflation  and  the  Great 
+
+Recession. Geneva Reports on the World Economy 19, CEPR Press, 2017. 
+
+Powell,  Jerome.  2020.  “New  Economic  Challenges  and  the  Fed’s  Monetary  Policy  Review.”  Speech  at  the  2020 
+at: 
+
+Jackson  Hole,  Wyoming,  August 
+
+economic 
+in 
+https://www.federalreserve.gov/newsevents/speech/powell20200827a.htm. 
+
+27.  Available 
+
+symposium 
+
+policy 
+
+———. 2021. “Monetary Policy in the Time of COVID.” Speech at the 2021 economic policy symposium in Jackson 
+at: 
+
+Hole, 
+https://www.federalreserve.gov/newsevents/speech/powell20210827a.htm. 
+
+Wyoming, 
+
+Available 
+
+August 
+
+27. 
+
+Reis, Ricardo. 2022a. “Losing the Inflation Anchor.” Brookings Papers on Economic Activity, forthcoming. 
+
+———.  2022b.  “Has  Monetary  Policy  Cared  Too  Much  about  a  Poor  Measure  of  r*?”  Unpublished  manuscript, 
+
+presented at the Asian Monetary Policy Forum, May. 
+
+———. 2022c. “Steady Prices, Sustainable Debt.” Finance and Development 59, no. 1 (March): 16–19. 
+
+25 
+
+ 
+ 
+ 
+ 
+DANMARKS
+NATIONALBANK
+
+The burst of high inflation in 2021-22: 
+How and why did we get here? by Ricardo Reis
+
+Discussion by Signe Krogstrup, member of the board of governors, Danmarks Nationalbank
+At the BIS Annual Conference
+24 June 2022
+
+On (mis)diagnosis and hindsight
+
+Strong demand for goods in the US, but less so in the EU…
+
+… while the persistence of global value chain pressures was 
+unexpected
+
+Note: The chart shows private service- and goods consumption in real terms.
+Source: Macrobond and own calculations.
+
+Note: The index is based on a number of indicators including freight costs, delivery times, production backlogs 
+and inventory accumulation, see Benigno m.fl.
+Source: Federal Reserve Bank of New York.
+
+2
+
+-2-1012345Standard deviations from meanNew York Fed Global Supply Chain Pressure IndexIncreased pressure on global supply chainsEarthquake in JapanCovid98000204060810121416182022758085909510010511011512019Q420Q120Q220Q320Q421Q121Q221Q321Q422Q1Index, 2019Q4=100USA, goodsUSA, servicesEuro area, goodsEuro area,servicesInflation expectations deanchoring? 
+Relevant horizon
+
+Inflation expectations at the one-year horizon have indeed 
+picked up …
+
+… but the increase is less dramatic for 3-year inflation 
+expectations
+
+Note: : The chart shows 1-year inflation expectations based on inflation swaps cleaned for risk premiums.
+Source: Refinitiv Eikon and own calculations.
+
+Note: The chart shows 3-year inflation expectations based on inflation swaps cleaned for risk premiums.
+Source: Refinitiv Eikon and own calculations.
+
+3
+
+01234Per centEuro areaUSAInflationtarget121314151617181920212201234Per cent1213141516171819202122USAEuro areaInflationtargetInflation expectations deanchoring?
+What is in the tail?
+
+Danish households disagree about future inflation…
+
+… but if we put less weight on households with poor track 
+record in assessing current inflation, the picture changes
+
+Note: Standard deviations reflect how much households disagree about future inflation. Skewness is a measure for the location of most of the households’ expectations relative to the mean. 
+The chart to the right puts more weight on households who were historically better at assessing current inflation.
+Source: Statistics Denmark and own calculations.
+
+4
+
+-2024681012Standard deviationSkewness07080910111213141516171819202122Covid-19-2024681012Standard deviationSkewness07080910111213141516171819202122Covid-19Inflation expectations are (re-)anchored. But the salience 
+of inflation may change expectations
+
+Expectations of financial market participants based on inflation 
+swaps have priced a deflationary risk until recently…
+
+… including for longer horizons.
+
+Source: Refinitiv Eikon and own calculations.
+
+Source: Refinitiv Eikon and own calculations.
+
+5
+
+0.00.51.01.52.02.53.03.54.0Per centInfation riskpremium5Y5Y inflationswap rateExpected inflation04050607080910111213141516171819202122ECBinflation targe0.00.51.01.52.02.53.03.54.0Per cent040506070809101112131415161718192021225Y inflations swap rateECB inflation target Expected inflationInflation risk premiumR* level and relevant measure
+
+Note: Series are computed based on 3-year moving averages of yields. The Aaa and Baa corporate bond yields are based on the Moody’s seasoned Aaa and Baa corporate bond yields. The 10-year treasury yield is the market yield 
+on U.S. treasury securities at 10-Year constant maturity reported by the Board of Governors of the Federal Reserve System.
+Source: FRED, Federal Reserve Bank of St. Louis.
+
+6
+
+048121619561961196619711976198119861991199620012006201120162021Per centBaa Corporate Bond Yield10-Year U.S. Treasury SecuritiesAaa Corporate Bond YieldSPEECH 
+DISCUSSION OF RICARDO REIS, BY GOVERNOR 
+SIGNE KROGSTRUP, DANMARKS NATIONALBANK 
+AT THE BIS ANNUAL CONFERENCE, 24 JUNE 
+2022, BASEL. 
+
+CHECK AGAINST DELIVERY 
+
+It is a pleasure to comment on Professor Reis’ paper and talk, which ad-
+
+dress an important question: How and why did inflation rates get so 
+
+high? Reis’ underlying presumption is that central banks control inflation, 
+
+and hence, concludes that high inflation levels reflect that monetary pol-
+
+icy was not tightened in time. Reis proposes four hypotheses for this de-
+
+lay in policy tightening:  
+
+1.  A misdiagnosis of shocks in 2021 
+2.  Lack of attention to inflation expectations deanchoring in 2021 
+3.  Reliance on past credibility to allow room for inaction or delay of 
+
+tighening 
+
+4.  The narrative of a low R* and concerns of deanchoring on the down-
+
+side 
+
+I enjoyed reading the paper and found the questions relevant and the an-
+
+swers thought provoking. I agree with many points and observations. I 
+
+am, however, skeptical about some conclusions, and with the hope of 
+
+stimulating debate, I will challenge some of these in my discussion. I will 
+
+focus on the euro area and Denmark in my remarks and push back 
+
+against calling the shocks misdiagnosed in 2021, given the information 
+
+Page 1 of 5 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+set we had at the time, and the uncertainty of the shocks that subse-
+
+quently hit us. I will also challenge whether there were clear signs of 
+
+deanchoring expectations in 2021, or even now, although I agree that ex-
+
+pectations are a key concern. I will finish with a brief comment on R*. 
+
+Slide 2 
+
+Reis describes how the rise in inflation in 2021 was caused by a mix of de-
+
+mand and supply factors in connection with the pandemic:  
+
+•  Strong policy stimulus and surprisingly fast recoveries after lock-
+
+downs. 
+
+•  A global shift in demand toward goods and away from services, as il-
+
+lustrated in slide 2 for the US. 
+
+•  On the supply side, persistent supply chain pressures (see slide 2) and 
+
+other supply constraints, as well as rising energy prices. 
+
+These factors triggered a sharp rise in goods price inflation starting in 
+
+2021, not matched by a corresponding drop in service price inflation. 
+
+Were these pressures mis-diagnosed as temporary, to be “seen through”, 
+
+while in fact it should have been clear already in mid-2021 that they re-
+
+quired policy tightening? Should we have seen it coming? I have two 
+
+comments on this question. 
+
+First, the story is not the same for the US and the Euro area. Demand was 
+
+not strong in the euro area, and the data did not suggest that the euro 
+
+area was overheating in 2021 (see slide 2). Global inflation factors partic-
+
+ularly in the case of goods markets, rather than domestic demand, seem 
+
+to have played an unusually important early role in driving inflation in the 
+
+euro area. 
+
+Second, from a euro area and Danish perspective, based on the available 
+
+information we had in 2021, I see the diagnosis of temporary drivers of 
+
+inflation in 2021 as appropriate, even with hindsight. The predominant 
+
+baseline scenario was that the vaccine rollout would gradually rein in the 
+
+virus, and result in gradual normalization of services vs goods demand, 
+
+and improvements in global supply chains. It may seem naïve now, but 
+
+we had no experience of coming out of a pandemic to rely on. Energy 
+
+prices were assumed not to continue to rise and demand was, as men-
+
+tioned, muted. If this baseline scenario had occurred, it could have been 
+
+Side 2 af 5 
+
+ 
+ 
+temporarily deflationary, not inflationary. Instead, as we know now, the 
+
+opposite occurred. We were hit with new unexpected shocks that further 
+
+stoked global inflation. The point is that from our perspective in 2021, the 
+
+subsequent accelerating inflation path was not inevitable, and not even 
+
+the most likely scenario. 
+
+Slide 3 
+
+My second comment addresses Reis’ point that signs of deanchoring in-
+
+flation expectations were ignored in 2021. My reading of the data is that 
+
+it was broadly suggestive of anchored expectations in 2021, and still is, 
+
+but there is cause for concern. Let me explain. 
+
+Much of Reis’ analysis relies on 1-year expectations. Slide 3 left offers an 
+
+example, indeed indicating a rise above targets in 2021. However, 1-year 
+
+expectations do not capture deanchoring, for two reasons. First, expecta-
+
+tions on this short horizon closely follow actual core inflation develop-
+
+ments, as inflation is persistent. It would have been odd with one-year in-
+
+flation expectations at target when actual inflation was rising well above 
+
+target. Second, it is too short a horizon for monetary policy to influence 
+
+inflation. Monetary policy has notoriously long and variable lags. A three-
+
+year horizon, closer to the horizon that monetary policy can influence, 
+
+shows a more muted rise in inflation expectations and only in 2022, as 
+
+shown on the slide to the right.  
+
+Reis focuses on movements in the distributions of household inflation ex-
+
+pectations as a sign of deanchoring inflation expectations. 
+
+Slide 4 
+
+He shows that while mean inflation expectations were relatively stable, 
+
+skewness, and then the standard deviation, started rising in 2021, and ar-
+
+gues that such patterns have historically been associated with episodes 
+
+of deanchoring. Slide 4, left, illustrates this based on Danish household 
+
+survey data. The rise in skewness is not strong, but the standard 
+
+Side 3 af 5 
+
+ 
+ 
+deviation increases as the pandemic set in, and again in the spring of 
+
+2022. Not shown, but the right tail of expectations of inflation above 10% 
+
+has risen since mid-2021. While clearly a warning sign, I interpret these 
+
+movements as signs of an inflection point with high uncertaintly as to 
+
+where the economy is heading, rather than an indicator of the direction 
+
+that expectations are heading. Earlier episodes with high uncertainty 
+
+have seen similar 

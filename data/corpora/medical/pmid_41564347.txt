@@ -1,0 +1,114 @@
+
+PMID- 41564347
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260421
+LR  - 20260428
+IS  - 1935-5548 (Electronic)
+IS  - 0149-5992 (Print)
+IS  - 0149-5992 (Linking)
+VI  - 49
+IP  - 5
+DP  - 2026 May 1
+TI  - Sleep Extension Improves Sleep Health but Not Insulin Sensitivity in People With 
+      Overweight or Obesity Who Maintain Habitual Short Sleep Schedules.
+PG  - 740-745
+LID - 10.2337/dc25-2083 [doi]
+AB  - OBJECTIVE: To determine whether extending sleep improves insulin sensitivity in 
+      people with overweight or obesity, insulin resistance, and habitual short sleep 
+      schedules (<7 h/night). RESEARCH DESIGN AND METHODS: Participants were randomized 
+      to habitual sleep (HS) (n = 15) or extended sleep (ES) (n = 14) for  approximately 6 weeks. 
+      Multiorgan (whole-body [primarily muscle], hepatic, and adipose tissue) insulin 
+      sensitivity (assessed by the hyperinsulinemic-euglycemic clamp procedure with 
+      tracer infusions) and glycemic control (assessed by 24-h serial plasma glucose 
+      and insulin concentrations during wakefulness) were determined. RESULTS: Time in 
+      bed and sleep duration increased more in the ES group (1.3 +/- 0.6 and 1.1 +/- 0.5 
+      h/night) than in the HS group (0.3 +/- 0.8 and 0.0 +/- 0.4 h/night). Day-to-day 
+      variability in sleep and subjective measures of sleep health improved more in the 
+      ES than HS group, without differences in multiorgan insulin sensitivity or 
+      glycemic control between groups. CONCLUSIONS: Extending sleep by  approximately 1 h/night for 
+       approximately 6 weeks in people with overweight or obesity and short sleep schedules improves 
+      sleep health but not insulin sensitivity or glycemic control.
+CI  - (c) 2026 by the American Diabetes Association.
+FAU - Beals, Joseph W
+AU  - Beals JW
+AD  - Center for Human Nutrition, Washington University in St. Louis School of 
+      Medicine, St. Louis, MO.
+FAU - Smith, Gordon I
+AU  - Smith GI
+AD  - Center for Human Nutrition, Washington University in St. Louis School of 
+      Medicine, St. Louis, MO.
+FAU - Farabi, Sarah S
+AU  - Farabi SS
+AD  - Center for Human Nutrition, Washington University in St. Louis School of 
+      Medicine, St. Louis, MO.
+AD  - Goldfarb School of Nursing, Barnes-Jewish College, St. Louis, MO.
+FAU - Patterson, Bruce W
+AU  - Patterson BW
+AD  - Center for Human Nutrition, Washington University in St. Louis School of 
+      Medicine, St. Louis, MO.
+FAU - Lucey, Brendan P
+AU  - Lucey BP
+AD  - Department of Neurology, Washington University in St. Louis School of Medicine, 
+      St. Louis, MO.
+FAU - Broussard, Josiane L
+AU  - Broussard JL
+AD  - Department of Health and Exercise Science, Colorado State University, Fort 
+      Collins, CO.
+AD  - Department of Integrative Physiology, University of Colorado, Boulder, CO.
+FAU - Wright, Kenneth P Jr
+AU  - Wright KP Jr
+AD  - Department of Integrative Physiology, University of Colorado, Boulder, CO.
+FAU - Klein, Samuel
+AU  - Klein S
+AUID- ORCID: 0000-0001-7127-1156
+AD  - Center for Human Nutrition, Washington University in St. Louis School of 
+      Medicine, St. Louis, MO.
+LA  - eng
+GR  - T32 HL130357/HL/NHLBI NIH HHS/United States
+GR  - R01 DK115502/DK/NIDDK NIH HHS/United States
+GR  - P30 DK056341/DK/NIDDK NIH HHS/United States
+GR  - UL1 TR000448/NH/NIH HHS/United States
+GR  - T32 HL130357/NH/NIH HHS/United States
+GR  - P30 DK020579/DK/NIDDK NIH HHS/United States
+GR  - UL1 TR002345/TR/NCATS NIH HHS/United States
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+PL  - United States
+TA  - Diabetes Care
+JT  - Diabetes care
+JID - 7805975
+RN  - 0 (Blood Glucose)
+RN  - 0 (Insulin)
+SB  - IM
+CIN - Diabetes Care. 2026 May 1;49(5):711-714. doi: 10.2337/dci26-0011. PMID: 42008708
+MH  - Humans
+MH  - *Insulin Resistance/physiology
+MH  - *Sleep/physiology
+MH  - Male
+MH  - Female
+MH  - *Overweight/physiopathology
+MH  - *Obesity/physiopathology/metabolism
+MH  - Adult
+MH  - Middle Aged
+MH  - Blood Glucose/metabolism
+MH  - Insulin/blood
+PMC - PMC13094871
+COIS- Duality of Interest. S.K. serves on scientific advisory boards for AbbVie and 
+      Verdiva Bio and receives investigator-initiated research funding from Merck. No 
+      other potential conflicts of interest relevant to this article were reported.
+EDAT- 2026/01/21 18:49
+MHDA- 2026/04/21 18:34
+PMCR- 2026/01/21
+CRDT- 2026/01/21 15:42
+PHST- 2025/08/25 00:00 [received]
+PHST- 2025/12/18 00:00 [accepted]
+PHST- 2026/04/21 18:34 [medline]
+PHST- 2026/01/21 18:49 [pubmed]
+PHST- 2026/01/21 15:42 [entrez]
+PHST- 2026/01/21 00:00 [pmc-release]
+AID - 164304 [pii]
+AID - 252083 [pii]
+AID - 10.2337/dc25-2083 [doi]
+PST - ppublish
+SO  - Diabetes Care. 2026 May 1;49(5):740-745. doi: 10.2337/dc25-2083.

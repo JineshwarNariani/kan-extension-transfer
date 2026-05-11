@@ -1,0 +1,137 @@
+
+PMID- 41859785
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260421
+LR  - 20260421
+IS  - 1942-0080 (Electronic)
+IS  - 1941-9651 (Print)
+IS  - 1941-9651 (Linking)
+VI  - 19
+IP  - 4
+DP  - 2026 Apr
+TI  - Combined Anatomic and Functional Testing Identifies Patients With Obstructive 
+      Coronary Artery Disease Who Benefit From Revascularization.
+PG  - e019267
+LID - 10.1161/CIRCIMAGING.125.019267 [doi]
+AB  - BACKGROUND: In patients with obstructive coronary artery disease, early 
+      revascularization does not improve outcomes but may reduce angina symptoms. The 
+      objective of this study was to examine whether changes in health status outcomes 
+      following revascularization are explained by the extent of myocardial perfusion 
+      defects and improvement in myocardial perfusion. METHODS: Two trials enrolling 
+      stable patients with new-onset chest pain suggestive of obstructive coronary 
+      artery disease, the ISCHEMIA (International Study of Comparative Health 
+      Effectiveness With Medical and Invasive Approaches) and the Dan-NICAD (Danish 
+      Study of Noninvasive Testing in Coronary Artery Disease) trials, were analyzed. 
+      Patients with single-vessel coronary artery disease who underwent nuclear 
+      myocardial perfusion imaging (nMPI) were included. In the ISCHEMIA trial, 
+      patients with moderate/severe ischemia were randomized to either optimal medical 
+      therapy alone or optimal medical therapy and invasive angiography. The Dan-NICAD 
+      trial enrolled patients with suspected stenosis on coronary computed tomographic 
+      angiography undergoing nMPI. Test-guided revascularization blinded to nMPI was 
+      performed, and patients with initially abnormal nMPI were reassessed after 12 
+      months. The primary outcome was the change in the Seattle Angina Questionnaire 
+      angina frequency score. RESULTS: In total, 584 patients were eligible. In 
+      patients with a summed difference score of 5</=10 (n=149 [25%]) and >/=10 (n=152 
+      [26%]), revascularization was associated with an improved angina frequency score 
+      (mean change +/-SD: 16.4+/-20.9 and 19.0+/-24.1). No improvement was demonstrated in 
+      patients with a summed difference score <5. In multivariable logistic regression 
+      analysis (n=91), an increase in hyperemic myocardial blood flow at follow-up was 
+      associated with freedom from angina (odds ratio, 2.89 [95% CI, 1.04-8.70]). 
+      CONCLUSIONS: In patients with single-vessel coronary artery disease, nMPI may 
+      identify patients more likely to experience improved symptoms from 
+      revascularization, potentially reflecting enhanced myocardial perfusion.
+FAU - Pedersen, Oliver Buchhave
+AU  - Pedersen OB
+AUID- ORCID: 0000-0002-7437-270X
+AD  - Department of Cardiology, Aalborg University Hospital, Denmark (O.B.P.).
+FAU - Rasmussen, Laust Dupont
+AU  - Rasmussen LD
+AUID- ORCID: 0000-0002-2790-2608
+AD  - Department of Cardiology, Godstrup Hospital, Herning, Denmark (L.D.R., J.H.S., 
+      M.B., S.W.).
+AD  - Department of Cardiology, Regional Hospital Central Jutland, Viborg, Denmark 
+      (L.D.R.).
+FAU - Soby, Jacob Hartmann
+AU  - Soby JH
+AUID- ORCID: 0000-0003-1493-5600
+AD  - Department of Cardiology, Godstrup Hospital, Herning, Denmark (L.D.R., J.H.S., 
+      M.B., S.W.).
+FAU - Gormsen, Lars C
+AU  - Gormsen LC
+AUID- ORCID: 0000-0002-0144-1305
+AD  - Department of Nuclear Medicine and PET Centre (L.C.G.), Aarhus University 
+      Hospital, Denmark.
+FAU - Christiansen, Evald Hoj
+AU  - Christiansen EH
+AUID- ORCID: 0000-0002-8740-4862
+AD  - Department of Cardiology (E.H.C.), Aarhus University Hospital, Denmark.
+FAU - Knuuti, Juhani
+AU  - Knuuti J
+AUID- ORCID: 0000-0003-3156-9593
+AD  - Turku PET Centre, Turku University Hospital and University of Turku, Finland 
+      (J.K.).
+FAU - Bottcher, Morten
+AU  - Bottcher M
+AUID- ORCID: 0000-0002-2116-2370
+AD  - Department of Cardiology, Godstrup Hospital, Herning, Denmark (L.D.R., J.H.S., 
+      M.B., S.W.).
+AD  - Institute of Clinical Medicine, Aarhus University, Denmark (M.B., S.W.).
+FAU - Shaw, Leslee
+AU  - Shaw L
+AUID- ORCID: 0000-0003-1268-1491
+AD  - Icahn School of Medicine at Mount Sinai, New York (L.S.).
+FAU - Winther, Simon
+AU  - Winther S
+AUID- ORCID: 0000-0001-8872-3681
+AD  - Department of Cardiology, Godstrup Hospital, Herning, Denmark (L.D.R., J.H.S., 
+      M.B., S.W.).
+AD  - Institute of Clinical Medicine, Aarhus University, Denmark (M.B., S.W.).
+LA  - eng
+GR  - U01 HL105561/HL/NHLBI NIH HHS/United States
+PT  - Journal Article
+PT  - Multicenter Study
+PT  - Randomized Controlled Trial
+DEP - 20260320
+PL  - United States
+TA  - Circ Cardiovasc Imaging
+JT  - Circulation. Cardiovascular imaging
+JID - 101479935
+RN  - 0 (Cardiovascular Agents)
+SB  - IM
+MH  - Humans
+MH  - Male
+MH  - Female
+MH  - Middle Aged
+MH  - *Myocardial Perfusion Imaging/methods
+MH  - Aged
+MH  - *Coronary Angiography/methods
+MH  - Treatment Outcome
+MH  - Predictive Value of Tests
+MH  - *Coronary Artery Disease/physiopathology/therapy/diagnostic imaging
+MH  - *Myocardial Revascularization/methods
+MH  - *Computed Tomography Angiography
+MH  - *Angina Pectoris/physiopathology/therapy/etiology
+MH  - *Coronary Circulation
+MH  - *Tomography, Emission-Computed, Single-Photon
+MH  - Time Factors
+MH  - Severity of Illness Index
+MH  - *Coronary Stenosis/physiopathology/therapy/diagnostic imaging
+MH  - Logistic Models
+MH  - *Coronary Vessels/diagnostic imaging/physiopathology
+MH  - Risk Factors
+MH  - Cardiovascular Agents/therapeutic use
+MH  - Denmark
+MH  - Multivariate Analysis
+MH  - Odds Ratio
+PMC - PMC13007719
+MID - NIHMS2155474
+OTO - NOTNLM
+OT  - angiography
+OT  - chest pain
+OT  - myocardial ischemia
+OT  - myocardial reperfusion
+OT  - myocardial revascularization
+COIS- Dr Rasmussen acknowledges support from Danish Cardiovascular Academy, (grant 
+      number PD5Y-2023001-DCA) which is funded by the Novo Nordisk Foundation (grant 
+      number NNF20SA0067242) and the Danish Heart Foundation. Dr Bottcher has 

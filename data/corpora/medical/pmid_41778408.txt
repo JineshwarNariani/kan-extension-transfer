@@ -1,0 +1,129 @@
+
+PMID- 41778408
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260327
+LR  - 20260402
+IS  - 1522-1555 (Electronic)
+IS  - 0193-1849 (Print)
+IS  - 0193-1849 (Linking)
+VI  - 330
+IP  - 4
+DP  - 2026 Apr 1
+TI  - Acute interleukin-1beta antagonism decreases systemic inflammation, increases GLP-1 
+      release, and modulates insulin secretion in individuals with prediabetes.
+PG  - E500-E509
+LID - 10.1152/ajpendo.00527.2025 [doi]
+AB  - Metabolic stress in obesity and diabetes activates innate immunity. Chronic IL-1beta 
+      antagonism improves insulin secretion in type 2 diabetes. However, it is unclear 
+      how rapidly this effect occurs, whether it is also present in individuals with 
+      prediabetes, and if IL-1beta influences GLP-1 secretion. Therefore, we acutely 
+      antagonized IL-1beta in patients with prediabetes overnight. Two injections of 
+      anakinra significantly reduced total leucocyte count (P < 0.001), neutrophils (P 
+      < 0.001), monocytes (P = 0.006), and CRP (P = 0.030) compared with placebo. 
+      Lymphocytes were slightly elevated (P = 0.045). A mixed meal tolerance tests 
+      showed a trend toward increased early insulin (P = 0.11) and GLP-1 responses (P = 
+      0.055), with GLP-1 (P = 0.020) and glucagon (P = 0.003) levels being 
+      significantly higher at 120 min under anakinra. Cytokine analysis showed elevated 
+      baseline concentrations of IL-1beta, IL-6, and IL-1Ra under anakinra (all P < 
+      0.001), with IL-1beta (P < 0.001) and IL-18BP (P = 0.048) decreased, and IL-6 
+      increased (P = 0.059) after 60 min. Therefore, an acute injection of anakinra 
+      significantly reduces CRP and leucocyte counts in individuals with prediabetes, 
+      indicating effective innate immune modulation even after immediate treatment. 
+      Despite seeing no significant improvements in insulin secretion or glucose 
+      metabolism, we observed a trend toward earlier insulin secretion, along with 
+      increased release of IL-6 and GLP-1. We conclude that acute IL-1 antagonism 
+      dampens systemic inflammation in prediabetes, with the potential to improve 
+      insulin secretion via IL-6-induced GLP-1.NEW & NOTEWORTHY Acute IL-1 blockade 
+      with anakinra markedly reduced CRP and leukocyte counts within 12 h, 
+      demonstrating rapid anti-inflammatory efficacy. Anakinra induced a trend toward 
+      earlier insulin secretion and significantly increased postprandial IL-6 and GLP-1 
+      levels. The study demonstrates that even short-term IL-1 blockade can modulate 
+      both immune and incretin responses in prediabetes. Early IL-1beta antagonism may 
+      represent a preventive, anti-inflammatory approach to preserve GLP-1 secretion 
+      and beta-cell function in individuals with prediabetes.
+FAU - Fischer, Justus S
+AU  - Fischer JS
+AUID- ORCID: 0009-0004-0634-7723
+AD  - Department for Endocrinology, Diabetology and Metabolism, University Hospital 
+      Basel, University of Basel, Basel, Switzerland.
+FAU - Hepprich, Matthias
+AU  - Hepprich M
+AUID- ORCID: 0000-0002-6905-6235
+AD  - Department for Endocrinology, Diabetology and Metabolism, University Hospital 
+      Basel, University of Basel, Basel, Switzerland.
+AD  - Endocrinology and Nutrition Medicine, St. Claraspital Basel, Basel, Switzerland.
+FAU - Cattaneo, Marco
+AU  - Cattaneo M
+AUID- ORCID: 0000-0002-6610-8431
+AD  - Department for Clinical Research, University of Basel, Basel, Switzerland.
+FAU - Seeger, Lucia
+AU  - Seeger L
+AD  - Department for Endocrinology, Diabetology and Metabolism, University Hospital 
+      Basel, University of Basel, Basel, Switzerland.
+FAU - Dobler, Stefanie
+AU  - Dobler S
+AD  - Hospital Dornach, Dornach, Switzerland.
+FAU - Donath, Marc Y
+AU  - Donath MY
+AUID- ORCID: 0000-0002-3143-5045
+AD  - Department for Endocrinology, Diabetology and Metabolism, University Hospital 
+      Basel, University of Basel, Basel, Switzerland.
+AD  - Integrated Centre of Excellence in Metabolic Health, Clinic of Endocrinology, and 
+      Research Centre, University and University Hospital of Montreal, Montreal, 
+      Quebec, Canada.
+AD  - Cantonal Hospital Baden, Baden, Switzerland.
+LA  - eng
+GR  - 214900/Schweizerischer Nationalfonds zur Forderung der Wissenschaftlichen 
+      Forschung (SNF)/
+GR  - 101095433/EC | HORIZON EUROPE Framework Programme (Horizon Europe)/
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+DEP - 20260304
+PL  - United States
+TA  - Am J Physiol Endocrinol Metab
+JT  - American journal of physiology. Endocrinology and metabolism
+JID - 100901226
+RN  - 0 (Interleukin 1 Receptor Antagonist Protein)
+RN  - 89750-14-1 (Glucagon-Like Peptide 1)
+RN  - 0 (Interleukin-1beta)
+RN  - 0 (Insulin)
+RN  - 9007-41-4 (C-Reactive Protein)
+RN  - 0 (IL1B protein, human)
+SB  - IM
+MH  - Humans
+MH  - *Interleukin 1 Receptor Antagonist Protein/pharmacology/therapeutic use
+MH  - Male
+MH  - *Glucagon-Like Peptide 1/metabolism/blood
+MH  - *Prediabetic State/drug therapy/metabolism/immunology/blood
+MH  - Middle Aged
+MH  - Female
+MH  - *Interleukin-1beta/antagonists & inhibitors
+MH  - Insulin Secretion/drug effects
+MH  - *Insulin/metabolism
+MH  - Adult
+MH  - *Inflammation/drug therapy/metabolism
+MH  - Aged
+MH  - C-Reactive Protein
+PMC - PMC7618929
+MID - EMS212816
+OTO - NOTNLM
+OT  - diabetes
+OT  - immunology
+OT  - inflammosome
+OT  - obesity
+COIS- Declaration of Interest Marc Y Donath is member of the clinical advisory board of 
+      Olatec Therapeutics LCC. All other authors declare no conflicts of interest that 
+      could be perceived as prejudicing the impartiality of the research reported.
+EDAT- 2026/03/04 14:26
+MHDA- 2026/03/27 18:52
+PMCR- 2026/04/01
+CRDT- 2026/03/04 06:12
+PHST- 2026/03/27 18:52 [medline]
+PHST- 2026/03/04 14:26 [pubmed]
+PHST- 2026/03/04 06:12 [entrez]
+PHST- 2026/04/01 00:00 [pmc-release]
+AID - 10.1152/ajpendo.00527.2025 [doi]
+PST - ppublish
+SO  - Am J Physiol Endocrinol Metab. 2026 Apr 1;330(4):E500-E509. doi: 
+      10.1152/ajpendo.00527.2025. Epub 2026 Mar 4.

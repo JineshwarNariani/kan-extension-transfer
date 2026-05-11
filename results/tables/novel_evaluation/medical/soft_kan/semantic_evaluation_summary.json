@@ -1,0 +1,38 @@
+{
+  "soft_left_kan": {
+    "soft_f1": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "soft_precision": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "soft_recall": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "hungarian_f1": {
+      "mean": 0.0,
+      "std": 0.0
+    }
+  },
+  "soft_right_kan": {
+    "soft_f1": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "soft_precision": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "soft_recall": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "hungarian_f1": {
+      "mean": 0.0,
+      "std": 0.0
+    }
+  }
+}

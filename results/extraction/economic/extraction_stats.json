@@ -1,0 +1,16 @@
+{
+  "corpus": "economic",
+  "total_triples": 313,
+  "n_subjects": 299,
+  "n_objects": 313,
+  "n_topics": 92,
+  "relation_types": [
+    "leads_to",
+    "causes",
+    "increases",
+    "influences",
+    "reduces",
+    "affects"
+  ],
+  "elapsed_seconds": 1071.6268434524536
+}

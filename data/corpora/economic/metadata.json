@@ -1,0 +1,266 @@
+[
+  {
+    "source": "beige_book",
+    "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202301.htm",
+    "file": "beige_beigebook202301.txt",
+    "chars": 8000
+  },
+  {
+    "source": "beige_book",
+    "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202303.htm",
+    "file": "beige_beigebook202303.txt",
+    "chars": 8000
+  },
+  {
+    "source": "beige_book",
+    "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202307.htm",
+    "file": "beige_beigebook202307.txt",
+    "chars": 8000
+  },
+  {
+    "source": "beige_book",
+    "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202309.htm",
+    "file": "beige_beigebook202309.txt",
+    "chars": 8000
+  },
+  {
+    "source": "beige_book",
+    "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202311.htm",
+    "file": "beige_beigebook202311.txt",
+    "chars": 8000
+  },
+  {
+    "source": "beige_book",
+    "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202401.htm",
+    "file": "beige_beigebook202401.txt",
+    "chars": 8000
+  },
+  {
+    "source": "beige_book",
+    "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202405.htm",
+    "file": "beige_beigebook202405.txt",
+    "chars": 8000
+  },
+  {
+    "source": "beige_book",
+    "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202407.htm",
+    "file": "beige_beigebook202407.txt",
+    "chars": 8000
+  },
+  {
+    "source": "beige_book",
+    "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202411.htm",
+    "file": "beige_beigebook202411.txt",
+    "chars": 8000
+  },
+  {
+    "source": "beige_book",
+    "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202501.htm",
+    "file": "beige_beigebook202501.txt",
+    "chars": 8000
+  },
+  {
+    "source": "beige_book",
+    "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202402.htm",
+    "file": "beige_beigebook202402.txt",
+    "chars": 8000
+  },
+  {
+    "source": "beige_book",
+    "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202502.htm",
+    "file": "beige_beigebook202502.txt",
+    "chars": 8000
+  },
+  {
+    "source": "beige_book",
+    "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202304.htm",
+    "file": "beige_beigebook202304.txt",
+    "chars": 8000
+  },
+  {
+    "source": "beige_book",
+    "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202404.htm",
+    "file": "beige_beigebook202404.txt",
+    "chars": 8000
+  },
+  {
+    "source": "fomc",
+    "date": "20230201",
+    "file": "fomc_20230201.txt",
+    "chars": 12000
+  },
+  {
+    "source": "fomc",
+    "date": "20230322",
+    "file": "fomc_20230322.txt",
+    "chars": 12000
+  },
+  {
+    "source": "fomc",
+    "date": "20230503",
+    "file": "fomc_20230503.txt",
+    "chars": 12000
+  },
+  {
+    "source": "fomc",
+    "date": "20230614",
+    "file": "fomc_20230614.txt",
+    "chars": 12000
+  },
+  {
+    "source": "fomc",
+    "date": "20230726",
+    "file": "fomc_20230726.txt",
+    "chars": 12000
+  },
+  {
+    "source": "fomc",
+    "date": "20230920",
+    "file": "fomc_20230920.txt",
+    "chars": 12000
+  },
+  {
+    "source": "fomc",
+    "date": "20231101",
+    "file": "fomc_20231101.txt",
+    "chars": 12000
+  },
+  {
+    "source": "fomc",
+    "date": "20231213",
+    "file": "fomc_20231213.txt",
+    "chars": 12000
+  },
+  {
+    "source": "fomc",
+    "date": "20240131",
+    "file": "fomc_20240131.txt",
+    "chars": 12000
+  },
+  {
+    "source": "fomc",
+    "date": "20240320",
+    "file": "fomc_20240320.txt",
+    "chars": 12000
+  },
+  {
+    "source": "fomc",
+    "date": "20240501",
+    "file": "fomc_20240501.txt",
+    "chars": 12000
+  },
+  {
+    "source": "fomc",
+    "date": "20240612",
+    "file": "fomc_20240612.txt",
+    "chars": 12000
+  },
+  {
+    "source": "fomc",
+    "date": "20240731",
+    "file": "fomc_20240731.txt",
+    "chars": 12000
+  },
+  {
+    "source": "fomc",
+    "date": "20240918",
+    "file": "fomc_20240918.txt",
+    "chars": 12000
+  },
+  {
+    "source": "fomc",
+    "date": "20241107",
+    "file": "fomc_20241107.txt",
+    "chars": 12000
+  },
+  {
+    "source": "nber",
+    "paper_id": "w31363",
+    "file": "nber_w31363.txt",
+    "chars": 2000
+  },
+  {
+    "source": "nber",
+    "paper_id": "w31211",
+    "file": "nber_w31211.txt",
+    "chars": 2000
+  },
+  {
+    "source": "nber",
+    "paper_id": "w30991",
+    "file": "nber_w30991.txt",
+    "chars": 2000
+  },
+  {
+    "source": "nber",
+    "paper_id": "w30888",
+    "file": "nber_w30888.txt",
+    "chars": 2000
+  },
+  {
+    "source": "nber",
+    "paper_id": "w30744",
+    "file": "nber_w30744.txt",
+    "chars": 2000
+  },
+  {
+    "source": "nber",
+    "paper_id": "w30682",
+    "file": "nber_w30682.txt",
+    "chars": 2000
+  },
+  {
+    "source": "nber",
+    "paper_id": "w30612",
+    "file": "nber_w30612.txt",
+    "chars": 2000
+  },
+  {
+    "source": "nber",
+    "paper_id": "w30431",
+    "file": "nber_w30431.txt",
+    "chars": 2000
+  },
+  {
+    "source": "nber",
+    "paper_id": "w30325",
+    "file": "nber_w30325.txt",
+    "chars": 2000
+  },
+  {
+    "source": "nber",
+    "paper_id": "w30201",
+    "file": "nber_w30201.txt",
+    "chars": 2000
+  },
+  {
+    "source": "nber",
+    "paper_id": "w30099",
+    "file": "nber_w30099.txt",
+    "chars": 2000
+  },
+  {
+    "source": "nber",
+    "paper_id": "w29950",
+    "file": "nber_w29950.txt",
+    "chars": 2000
+  },
+  {
+    "source": "nber",
+    "paper_id": "w29801",
+    "file": "nber_w29801.txt",
+    "chars": 2000
+  },
+  {
+    "source": "nber",
+    "paper_id": "w29700",
+    "file": "nber_w29700.txt",
+    "chars": 2000
+  },
+  {
+    "source": "nber",
+    "paper_id": "w29612",
+    "file": "nber_w29612.txt",
+    "chars": 2000
+  }
+]

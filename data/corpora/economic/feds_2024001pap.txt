@@ -1,0 +1,1356 @@
+Finance and Economics Discussion Series
+
+Federal Reserve Board, Washington, D.C.
+ISSN 1936-2854 (Print)
+ISSN 2767-3898 (Online)
+
+A Field Guide to Monetary Policy Implementation Issues in a
+New World with CBDC, Stablecoin, and Narrow Banks
+
+James A. Clouse
+
+2024-001
+
+Please cite this paper as:
+Clouse, James A. (2024). “A Field Guide to Monetary Policy Implementation Issues in
+a New World with CBDC, Stablecoin, and Narrow Banks,” Finance and Economics Dis-
+cussion Series 2024-001. Washington: Board of Governors of the Federal Reserve System,
+https://doi.org/10.17016/FEDS.2024.001.
+
+NOTE: Staﬀ working papers in the Finance and Economics Discussion Series (FEDS) are preliminary
+materials circulated to stimulate discussion and critical comment. The analysis and conclusions set forth
+are those of the authors and do not indicate concurrence by other members of the research staﬀ or the
+Board of Governors. References in publications to the Finance and Economics Discussion Series (other than
+acknowledgement) should be cleared with the author(s) to protect the tentative character of these papers.
+
+A Field Guide to Monetary Policy Implementation Issues in a 
+New World with CBDC, Stablecoins, and Narrow Banks 
+
+James A. Clouse1 
+Board of Governor of the Federal Reserve System 
+December 2023 
+
+Abstract 
+
+This paper develops an analytical framework aimed at shedding light on the implications of the evolution 
+of financial market structure for monetary policy implementation and transmission.  The basic model 
+builds on that developed in Chen et. al. (2014) which, in turn, draws inspiration from the pioneering work 
+of Tobin (1969) and Gurley and Shaw (1960).  The paper focuses, in particular, on the implications of 
+introducing new types of fixed-rate financial assets in the financial system including retail and wholesale 
+central bank digital currency (CBDC), stablecoins issued by narrow nonbanks, and deposits issued by 
+narrow banks.  The analysis also provides a crude way of capturing some of the effects of bank capital 
+and liquidity regulation on financial intermediation and monetary policy implementation.  Perhaps the 
+most important conclusion is that the introduction of new fixed-rate assets by the Federal Reserve or by 
+other financial intermediaries can have significant effects on equilibrium interest rates and patterns of 
+financial intermediation and may also affect the potency of monetary policy tools.  These effects are most 
+pronounced when new financial assets are close substitutes for existing financial assets.   
+
+1 The views expressed in this paper are those of the author and do not reflect an official view of the Board of 
+Governors or its staff.  The paper has benefitted from the comments and insights of colleagues including Chris Gust, 
+Kyungmin Kim, Romina Ruprecht, Margaret DeBoer, Matthew Malloy, and Don Kim.  This paper is dedicated to 
+the memory of Dave Small, a great economist, friend and colleague at the Board, and a truly devoted student of the 
+Federal Reserve and its history. 
+
+Introduction 
+
+Monetary policy implementation is not in Kansas anymore.  After two of the strongest tornadoes in 
+1.
+recorded economic history ripped through the global economy and financial system in 2008 and 2020, 
+central banks around the world were torn from their foundations and catapulted into a new world of large 
+balance sheets, new policy tools, and rapidly evolving technology, regulation, and financial structure.  In 
+this new environment, the previously placid and technical realm of monetary policy implementation has 
+become an area of intense interest in which new policy questions abound.  How should a central bank 
+employ new tools—administered interest rates on liabilities and asset purchases—to best achieve the 
+desired stance of monetary policy?  What are the linkages between regulatory developments affecting the 
+bank and nonbank sectors and monetary policy implementation?  And how could new technological and 
+structural developments including the advent of central bank digital currencies (CBDC), stablecoin, and 
+narrow banks affect monetary policy implementation and transmission? 
+
+This paper attempts to provide a framework that sheds light on the implications of the evolution of 
+financial market structure for monetary policy implementation and transmission.  The basic model 
+extends the framework developed in Chen et. al. (2014) which, in turn, draws inspiration from the 
+pioneering work of Tobin (1969) and Gurley and Shaw (1960).  To preview the main results, the 
+framework describes a set of interconnected demand and supply curves for all financial instruments in a 
+competitive model of financial markets with two types of frictions—(i) portfolio allocation costs that 
+determine the extent to which households and financial intermediaries are willing to “reach for yield” in 
+their asset allocation decisions and (ii) balance sheet costs for financial intermediaries that determine the 
+extent to which they are willing to expand their balance sheet to take advantage of potential profit 
+opportunities.  In this setup, the Federal Reserve’s administered rates exert a powerful influence over the 
+level of other market interest rates and patterns of financial intermediation.  Within this framework, the 
+discussion considers the implications of structural changes in the financial sector including the 
+introduction of central bank digital currency (CBDC), stablecoins, and deposits offered by narrow banks.  
+In general, we find that the effects of these structural innovations can be large or small depending on the 
+extent to which new instruments substitute for existing financial instruments and how readily the 
+“supply” of existing financial instruments can adjust.  At one extreme, financial innovations that pull 
+demand away from a Federal Reserve liability such as currency may have very little effect on the broader 
+financial system if the Federal Reserve passively adjusts the size and composition of its balance sheet to 
+accommodate the demand for its liabilities.  At another extreme, financial innovations resulting in new 
+financial instruments that directly substitute for deposits or nonbank debt may have more widespread 
+repercussions for interest rates and the size and structure of the balance sheets of households and financial 
+intermediaries.  Financial innovations of this type also tend to have larger implications for the efficacy of 
+the Federal Reserve’s policy tools.  Of course, the nature of the results here stem from the structure and 
+assumptions underlying the basic model, and alternative modeling paradigms could well generate 
+qualitatively different results. 
+
+The remainder of this paper is organized as follows.  Section 2 traces the transition of policy 
+implementation from the “old world” in place prior to the Global Financial Crisis to the “new world” as it 
+exists today.  Section 3 describes the basic structure of the model and section 4 provides a discussion of 
+some basic comparative statics exercises.  Section 5 considers some implications of the model for policy 
+implementation and transmission.  Section 6 considers variations on the basic model that include the 
+
+1 
+introduction of retail and wholesale CBDC, stablecoins, and deposits offered by narrow banks.  Section 7 
+considers some implications of changes in financial market structure for monetary policy implementation 
+and transmission through the Federal Reserve’s balance sheet.  Section 8 concludes. 
+
+Transition to the New World 
+
+For decades prior to the global financial crisis (GFC) in 2008, the Federal Reserve implemented monetary 
+2.
+policy in a “scarce reserves” regime.  In that operating framework, the demand for reserves was largely 
+driven by reserve requirements.2  The Federal Reserve did not have the authority to pay interest on 
+reserves in those years.  As a result, banks typically sought to hold only enough reserves to meet their 
+requirement along with a small buffer of “excess” reserves to guard against the cost of a reserve 
+deficiency.3  The Federal Reserve then conducted open market operations to keep the supply of reserves 
+aligned with the estimated demand for reserves at the intended federal funds rate.  Absent any 
+remuneration on required or excess reserves, banks actively sought to minimize the level of transaction 
+accounts and other reservable liabilities, and thereby minimize the “reserve tax.”  Over the course of the 
+1990s, the development of retail sweep accounts allowed many depositories to greatly reduce their level 
+of required reserves.4  As shown by the gray line in Chart 1, by the early 2000s, the level of reserve 
+balances in the system had dropped to very low levels and in mid-2007 averaged around $10 billion in 
+most weeks.  Even with this very low level of reserves, the Federal Reserve was able to exert effective 
+control over the level of short-term interest rates.  The Open Market Desk conducted frequent operations 
+to keep the aggregate supply of reserves at a level consistent with the target funds rate.  Banks relied on 
+intraday credit at the Federal Reserve to facilitate payments during the day and then settled their end of 
+day positions through late-day transactions in the federal funds market.  In 2006, after years of 
+deliberations, the Congress passed legislation that provided authority for the Federal Reserve to pay 
+interest on reserves maintained by depository institutions beginning in 2011. 
+
+In 2007, funding strains in the banking sector emerged as concerns about the housing sector mounted.  To 
+address pressures in term funding markets, the Federal Reserve established the Term Auction Facility 
+(TAF) in late 2007 as well as liquidity swap lines with a group of major central banks.  The swap lines 
+allowed foreign central banks to obtain dollar funding that could be used to address funding strains in 
+their jurisdictions that might otherwise amplify the strains in U.S. financial markets.  By early 2008, the 
+ground was shifting under the entire U.S. financial system.  The Federal Reserve established two 
+emergency lending programs in early 2008 just prior to the failure of Bear Stearns, and many more were 
+established following the collapse of Lehman Brothers in the fall of 2008.  Among many other actions 
+taken that year, the Congress accelerated the authority for the Federal Reserve to begin paying interest on 
+
+2 Prior to 1980, only banks that were members of the Federal Reserve System were subject to reserve requirements.  
+The Monetary Control Act of 1980 extended reserve requirements to all depository institutions.  The base for 
+reserve requirements was established by statute and included net transaction accounts, nonpersonal time deposits, 
+and net eurocurrency liabilities.  The statute also set minimum and maximum reserve requirement ratios for each of 
+these categories of bank liabilities. 
+3 Reserves were maintained over a two-week maintenance period.  Banks that did not hold reserves sufficient to 
+meet their requirement were subject to a penalty equal to the discount rate plus two percentage points applied to the 
+reserve shortfall.  Banks that incurred frequent reserve deficiencies were also subject to “counseling” by their 
+Reserve Bank. 
+4 In these arrangements, a large portion of customer’s funds would be placed in savings accounts (not subject to 
+reserve requirements) and balances then would be “swept in” to the customer’s transaction accounts at regular 
+intervals to cover payments. 
+
+2 
+ 
+Chart 1: Federal Reserve Securities Holdings and Selected Liabilities
+
+3reserves, pulling the implementation date forward to the fall of 2008.  By December of 2008, the FOMC 
+had cut the federal funds rate to the effective lower bound and launched the first of several programs of 
+large-scale asset purchases aimed at providing additional policy accommodation by putting downward 
+pressure on longer-term interest rates.  Asset purchase programs conducted over the period from 2008 to 
+2014 led to a massive expansion of the Federal Reserve’s securities portfolio (blue line in Chart 1) from 
+about $800 billion in mid-2007 to more than $4 trillion by mid-2014.  The expansion in the Federal 
+Reserve’s assets was accompanied by a corresponding massive increase of reserves in the banking 
+system.  Reserve balances in mid-2014 stood at about $2.6 trillion or 260 times the level of reserves, on 
+average, in mid-2007.   
+
+Following the GFC, the Congress passed the Dodd-Frank Act (DFA) which, along with parallel efforts by 
+the Basel Committee on Bank Supervision, established new standards for bank capital and liquidity.  One 
+particularly important aspect of the new bank regulatory regime was the introduction of new liquidity 
+regulation in the form of a liquidity coverage ratio (LCR) that required banks to maintain so-called high 
+quality liquid assets (HQLA) equal to or greater than an estimate of net outflows over a 30-day period in a 
+stress event; so-called Tier 1 HQLA was limited to Treasury securities and reserves maintained at central 
+banks.5  Other important elements of the new bank regulatory regime included stronger capital 
+requirements, particularly for global systemically important banks (GSIBs).  These developments marked 
+a sea change for bank regulation but also for monetary policy implementation.  While the LCR formally 
+treated reserves and Treasury securities as interchangeable for the purpose of determining high quality 
+liquid assets (HQLA), many banks appeared to have a preference to maintain a significant fraction of 
+their HQLA in the form of reserves.  Those preferences may stem from the need to demonstrate the 
+ability to “monetize” HQLA under the LCR and other aspects of the regulatory regime including liquidity 
+stress tests.  New capital charges also affected the incentives for banks to expand their balance sheets and 
+interacted with aspects of the monetary policy implementation framework.  Flush with reserves, most 
+banks had little need to turn to the late-day federal funds market to cover the garden variety types of 
+payments outflows that supported interbank trading in the funds market in the scarce reserve regime.  
+Moreover, with banks earning interest on reserves, banks with excess reserves were content to leave those 
+balances with the Federal Reserve rather than offer them at lower rates to potential borrowers.  In this 
+environment, the interbank dimension of the federal funds market withered away.  The federal funds 
+market that survived became, in effect, a type of wholesale funding market in which the primary lenders 
+are Federal Home Loan Banks (FHLBs).  FHLBs with excess cash had incentives to lend at rates below 
+the interest on reserve balances (IORB) rate because balances maintained by FHLBs at the Federal 
+Reserve are not eligible to earn interest.  And some banks, notably branches of foreign banking 
+organizations, found overnight borrowing from the FHLBanks to be a useful part of their overall funding 
+mix, particularly in light of the favorable regulatory treatment accorded to overnight borrowing from 
+FHLBanks under the LCR.6 
+
+As the Federal Reserve’s balance sheet was expanding during the long recovery from the crisis in 2008, 
+the Federal Reserve developed a new tool—the overnight reverse repurchase agreement (ON RRP) 
+
+5 The LCR regulation and calculations are quite complex.  For details, see Federal Reserve Board - Federal banking 
+regulators finalize liquidity coverage ratio. 
+6 Under the LCR, the runoff rate on overnight federal funds borrowing from the Federal Home Loan Banks is set at 
+40 percent rather than the 100 percent runoff rate assigned to most forms of unsecured wholesale overnight funding.  
+See LCR40 - Cash inflows and outflows (bis.org) sections 40.40 and 40.42 for details. 
+
+4 
+facility—to facilitate effective monetary policy implementation in a world with abundant reserves.  In 
+many ways, the rate offered at the ON RRP facility operates in a manner similar to the interest rate on 
+reserves for banks.  Both rates establish a lower bound on the rate at which financial intermediaries will 
+lend to private counterparties.  The ON RRP rate establishes a lower bound on the overnight lending rate 
+for the range of institutions designated as counterparties for ON RRP operations—a group including 
+primary dealers, government sponsored enterprises, and eligible money market mutual funds; the IORB 
+rate sets a lower bound on the rate at which depository institutions are willing to lend in overnight 
+funding markets. 
+
+In late 2015, the FOMC lifted the target range for the federal funds rate off the effective lower bound.  To 
+implement this change, the IORB and the rate offered on the ON RRP were both increased by 25 basis 
+points.  The pass through of these changes to other market rates was immediate and complete.  In later 
+years, additional rate increases were similarly implemented through appropriate adjustments in these 
+Federal Reserve administered rates.  All of these actions were completed smoothly.  The new system of 
+implementing monetary policy through administered rates proved highly effective, even with enormous 
+quantities of reserves in the banking system.  Following discussions extending over several years, in 
+2019, the FOMC formally adopted an “ample reserves” regime as its operating framework.7  In this 
+operating framework, the FOMC provides a level of reserves sufficient to keep most banks operating on 
+the “flat portion” of their reserve demand curve.  The level of reserves would expand gradually over time 
+along with the trend growth in reserve demand, but the Federal Reserve would not need to fine tune the 
+daily levels of reserves as in the period prior to the GFC.  Under the ample reserves regime, the key tools 
+for keeping the federal funds rate in the target range established by the FOMC are the interest rate on 
+reserves and the offered rate at the ON RRP facility. 
+
+In 2020, the onset of the pandemic and the “dash for cash” spurred a massive wave of selling in the 
+Treasury market, severely disrupting market functioning and threatening to undermine global financial 
+stability.  In response, the FOMC purchased enormous volumes of Treasury and agency securities from 
+March through May of that year.  Later, the FOMC transitioned to a program of steady, sizable monthly 
+asset purchases that continued through the beginning of March 2022.  The net result of these asset 
+purchase programs was another enormous increase in the size of the Federal Reserve’s balance sheet and 
+a corresponding enormous increase in its liabilities including reserves and balances placed with the ON 
+RRP facility (orange line in Chart 1). 
+
+While designed to support the effective implementation of monetary policy, the advent of IORB and the 
+ON RRP facility created new fixed-rate, risk-free assets potentially available to a wide range of financial 
+institutions.  The availability of these new assets, in turn, spawned interest in new business models 
+centered on these assets.  The availability of IORB spurred renewed interest in “narrow banking” models 
+which featured specialized depository institutions offering deposits and holding only reserve balances as 
+an asset.  Importantly, such specialized depository institutions would not be subject to the same 
+regulations that apply to traditional banking firms and would not be FDIC-insured and so not subject to 
+the FDIC insurance premium assessed on traditional banks.  As a result, such narrow banks could operate 
+profitably with very thin net interest margins.  Nonbank financial institutions, particularly those 
+associated with “stablecoins,” also recognized the potential benefits of gaining access to the Federal 
+
+7 See the press release at https://www.federalreserve.gov/newsevents/pressreleases/monetary20190130c.htm. 
+
+5 
+Reserve’s balance sheet.  To that end, various proposals by nonbank financial intermediaries considered 
+the possibility of becoming an ON RRP counterparty or establishing a special purpose money market 
+mutual fund that would meet the eligibility criteria to become an ON RRP counterparty.  And layered on 
+top of these developments, central banks including the Federal Reserve have discussed the potential 
+benefits of issuing central bank digital currencies (CBDCs) that could provide access to the Federal 
+Reserve’s balance sheet to individuals and other entities in a new way and one that could compete or 
+interact with deposits offered by narrow banks or stablecoins. 
+
+This brief synopsis of the extraordinary developments over the period since the GFC sets the backdrop for 
+many of the analytical issues considered in the remainder of the paper.  In the “old world,” monetary 
+policy implementation was largely “bank centric” with bank reserve requirements and banks’ demand for 
+excess reserves playing a central role.  In that world, absent any remuneration on reserves, reserve 
+balances were largely a “hot potato,” and banks actively sought to minimize the large opportunity cost in 
+holding reserves.  In contrast, in the new world, Federal Reserve liabilities are in high demand by both 
+banks and nonbanks seeking safety, liquidity, and risk-free returns comparable to other money market 
+rates.  Under the ample reserves operating framework, the Federal Reserve accommodates demand for its 
+liabilities, and its policy tools importantly operate through both banks and nonbanks.  And, as discussed 
+in more detail below, the new world of monetary policy implementation is one in which bank regulation, 
+evolving financial structure, and the nature and scale of the Federal Reserve’s assets and liabilities are 
+inextricably intertwined and interact with each other.   
+
+Baseline Model with Passive Balance Sheet Management
+
+3. 
+The baseline model based on Chen et. al. (2014) involves a number of sectors including households, 
+banks, nonbanks, businesses, the government and a foreign sector.  Following in the footprints of Tobin 
+(1969), the model derives the demand for financial assets in each sector based on a simple portfolio 
+optimizing framework.  The key ingredients of the framework are portfolio “habits” that define baseline 
+target asset and liability allocations for households and financial intermediaries.  Households and 
+financial intermediaries may deviate from these portfolio habit allocations but incur portfolio costs in 
+doing so.  In addition to portfolio composition costs, financial intermediaries face a cost of expanding the 
+size of their balance sheets.  
+
+The model adopts a flow of funds framework by focusing on the balance sheets of the financial and 
+Structure of Financial and Nonfinancial Sector Balance Sheets 
+nonfinancial sectors.  As shown in figure 1, to keep things manageable, the baseline model limits 
+financial sectors to banks, nonbanks, and the Federal Reserve.   
+
+As shown in the upper left panel, households have net worth that they invest in various financial assets 
+including Treasury securities, bank deposits, physical currency, and nonbank debt.  Banks invest in 
+Treasury securities, loans, and reserves.  These assets are financed by borrowing in the market for 
+deposits.  Nonbanks invest in Treasury securities, business loans, and Federal Reserve liabilities.  These 
+assets in turn are financed by issuing debt.  Businesses hold inventories and other real assets and finance 
+these holdings with bank loans.  The Federal Reserve issues currency, reserves, and other liabilities with 
+corresponding assets in the form of Treasury securities.  The government sector (not shown) issues 
+securities to finance spending.  The implicit asset for the government sector is the present discounted 
+value of future tax revenues.  In this structure, the household sector is the net source of wealth in the 
+
+6 
+Figure 1: Financial Market Structure in the Baseline Model
+
+Households
+
+Banks
+
+Nonbanks
+
+Assets
+
+Currency
+
+Treasury Securities
+
+Nonbank Debt
+
+Liabilities
+
+Assets
+
+Liabilities
+
+Assets
+
+Liabilities
+
+Treasury Securities
+
+Deposits
+
+Treasury Securities
+
+Nonbank Debt
+
+Loans
+
+Reserves
+
+Loans
+
+Other Fed Liabilities
+
+Deposits
+
+Net Worth
+
+Business
+
+Federal Reserve
+
+Foreign Sector
+
+Assets
+
+Liabilities
+
+Assets
+
+Liabilities
+
+Assets
+
+Liabilities
+
+Physical Assets
+
+Loans
+
+Treasury Securities
+
+Currency
+
+Treasury Securities
+
+Other
+
+Reserves
+
+Other Liabilities
+
+7economy and the only domestic sector that is a net lender.  The government and business sectors are net 
+borrowers.   
+
+In addition to the financial and nonfinancial sectors noted above, the model includes a foreign sector.  The 
+foreign sector holds Treasury securities, and we assume that the foreign sector’s demand for Treasury 
+securities is described by a simple demand curve with a structure similar to that derived for households 
+and financial intermediaries.  The presence of a foreign sector plays a significant role in the model in 
+allowing domestic sectors to shift between loans and other assets while maintaining equilibrium in the 
+Treasury market. 
+
+The formal details of the general specification of the model are discussed in the appendix.  The basic 
+Demand and Supply Across Markets 
+features of the model described above can be illustrated more concretely in a simplified baseline version 
+of the model.  As discussed in the appendix, in this baseline version, we assume the cost functions 
+defining the preferred habitats for households and financial intermediaries take an especially simple form. 
+With this assumption, the household asset demands are all of the form: 
+
+𝐻𝐻𝐻𝐻𝐻𝐻𝑖𝑖
+
+.  The term 
+
+ capture the household habit for a particular 
+
+ is proportional to the inverse of the cost of deviating from the habit 
+
+𝐻𝐻𝐻𝐻𝐻𝐻𝑖𝑖 = 𝛼𝛼𝑖𝑖,𝐻𝐻𝐻𝐻𝐻𝐻𝑊𝑊 + 𝛿𝛿𝑖𝑖,𝐻𝐻𝐻𝐻𝐻𝐻( 𝑟𝑟𝑖𝑖 − 𝑟𝑟̅𝐻𝐻𝐻𝐻𝐻𝐻) = 𝛼𝛼𝑖𝑖,𝐻𝐻𝐻𝐻𝐻𝐻𝑊𝑊 + 𝛼𝛼𝑖𝑖,𝐻𝐻𝐻𝐻𝐻𝐻𝛿𝛿𝐻𝐻𝐻𝐻𝐻𝐻( 𝑟𝑟𝑖𝑖 − 𝑟𝑟̅𝐻𝐻𝐻𝐻𝐻𝐻)
+Here W is the value of household wealth.  The shares 
+asset class 
+and can be thought of as the own-rate interest sensitivity of demand for asset class 
+of 
+ for each asset is scaled by the habit for each asset class.  As a result, if households hold only a 
+small portion of their portfolio in a particular asset class, the extent to which they are willing to deviate 
+from that habit level is scaled down proportionally.  The term  
+average of the rates on the set of assets held by the household sector in the baseline model—a set that 
+includes Treasury securities, nonbank debt, deposits, and physical currency.   
+
+ for households is the habit-weighted 
+
+𝛼𝛼𝑖𝑖,𝐻𝐻𝐻𝐻𝐻𝐻
+
+𝛿𝛿𝑖𝑖,𝐻𝐻𝐻𝐻𝐻𝐻
+
+𝛿𝛿𝑖𝑖,𝐻𝐻𝐻𝐻𝐻𝐻
+
+.  The magnitude 
+
+𝐻𝐻𝐻𝐻𝐻𝐻𝑖𝑖
+
+𝑟𝑟̅𝐻𝐻𝐻𝐻𝐻𝐻
+
+The bank and nonbank optimal asset choices are all of a similar form: 
+
+𝐵𝐵𝐵𝐵𝐻𝐻𝑖𝑖 = 𝛼𝛼𝑖𝑖,𝐵𝐵𝐵𝐵𝐻𝐻𝑆𝑆𝐵𝐵𝐵𝐵 + 𝛿𝛿𝑖𝑖,𝐵𝐵𝐵𝐵𝐻𝐻( 𝑟𝑟𝑖𝑖 − 𝑟𝑟̅𝐵𝐵𝐵𝐵𝐻𝐻) = 𝛼𝛼𝑖𝑖,𝐵𝐵𝐵𝐵𝐻𝐻𝑆𝑆𝐵𝐵𝐵𝐵 + 𝛼𝛼𝑖𝑖,𝐵𝐵𝐵𝐵𝐻𝐻𝛿𝛿𝐵𝐵𝐵𝐵𝐻𝐻( 𝑟𝑟𝑖𝑖 − 𝑟𝑟̅𝐵𝐵𝐵𝐵𝐻𝐻)
+
+(1) 
+
+(2) 
+
+ and 
+
+𝑁𝑁𝐵𝐵𝐻𝐻𝑖𝑖 = 𝛼𝛼𝑖𝑖,𝑁𝑁𝐵𝐵𝐻𝐻𝑆𝑆𝑁𝑁𝐵𝐵 + 𝛿𝛿𝑖𝑖,𝑁𝑁𝐵𝐵𝐻𝐻( 𝑟𝑟𝑖𝑖 − 𝑟𝑟̅𝑁𝑁𝐵𝐵𝐻𝐻) = 𝛼𝛼𝑖𝑖,𝑁𝑁𝐵𝐵𝐻𝐻𝑆𝑆𝑁𝑁𝐵𝐵 + 𝛼𝛼𝑖𝑖,𝑁𝑁𝐵𝐵𝐻𝐻𝛿𝛿𝑁𝑁𝐵𝐵𝐻𝐻( 𝑟𝑟𝑖𝑖 − 𝑟𝑟̅𝑁𝑁𝐵𝐵𝐻𝐻)
+ are the optimal scale of banks and nonbanks, respectively.  As for the case with 
+Here, 
+ is the habit-weigted average of rates across all assets specific to a sector.  For banks, 
+households,  
+𝑆𝑆𝑁𝑁𝐵𝐵
+𝑆𝑆𝐵𝐵𝐵𝐵
+is the habit-weighted average of the rates on Treasury securities, loans, and reserves.  For nonbanks, 
+is the habit-weighted average of the rates for Treasury securities, loans, and other Federal Reserve 
+liabilities.  The terms 
+ are proportional to the inverse of the cost of deviating from the 
+habit with the scale factor again based on the habit for each asset.  These parameters again capture the 
+interest rate sensitivity of the optimal composition of assets for financial intermediaries. 
+
+𝛿𝛿𝑖𝑖,𝐵𝐵𝐵𝐵𝐻𝐻
+
+𝛿𝛿𝑖𝑖,𝐵𝐵𝐵𝐵𝐻𝐻
+
+ and 
+
+𝑟𝑟̅𝐻𝐻
+
+𝑟𝑟̅𝐵𝐵𝐵𝐵𝐻𝐻
+𝑟𝑟̅𝑁𝑁𝐵𝐵𝐻𝐻
+
+The solutions for the scale of banks and nonbanks (or the quantity of deposits and nonbank debt, 
+respectively) are given by: 
+
+𝑆𝑆𝐵𝐵𝐵𝐵 = 𝜙𝜙(𝛼𝛼𝑇𝑇𝑇𝑇𝑟𝑟𝑇𝑇𝑇𝑇 + 𝛼𝛼𝐿𝐿𝑁𝑁𝑟𝑟𝐿𝐿𝑁𝑁 + 𝛼𝛼𝑟𝑟𝑟𝑟𝑟𝑟𝑇𝑇𝑅𝑅 − 𝑟𝑟𝐷𝐷𝐷𝐷)
+
+8 
+  
+  
+ 
+ 
+ 
+𝑆𝑆𝐵𝐵𝐵𝐵 = 𝜙𝜙(𝛼𝛼𝑇𝑇𝑇𝑇𝑟𝑟𝑇𝑇𝑇𝑇 + 𝛼𝛼𝐿𝐿𝑁𝑁𝑟𝑟𝐿𝐿𝑁𝑁 + 𝛼𝛼𝑂𝑂𝐿𝐿𝑟𝑟𝑂𝑂𝐿𝐿 − 𝑟𝑟𝑁𝑁𝐷𝐷)
+ is the inverse of the marginal balance sheet cost.  Thus the optimal scale of financial 
+Where 
+intermediaries is determined by their net interest margin—the expressions inside the parentheses.  Here 
+again, the inverse of the marginal balance sheet cost can be regarded as the sensitivity of the optimal scale 
+of the firm to variations in net interest margin. 
+
+𝜙𝜙
+
+In the baseline model, we assume banks issue only deposits and nonbanks issue only nonbank debt.  In 
+this case, we have: 
+
+𝐵𝐵𝐵𝐵𝐵𝐵𝐷𝐷𝐷𝐷 = 𝑆𝑆𝐵𝐵𝐵𝐵
+
+𝑁𝑁𝐵𝐵𝐵𝐵𝑁𝑁𝐷𝐷 = 𝑆𝑆𝑁𝑁𝐵𝐵
+The expression for the supply of loans issued by the business sector is described by: 
+
+∗
+𝑙𝑙 = 𝜇𝜇 − 𝑎𝑎(𝑟𝑟𝐿𝐿𝑁𝑁 − 𝑟𝑟𝐿𝐿𝑁𝑁
+Here the intuition is simply that desired investment spending is a function of the gap between the loan rate 
+and the equilibrium loan rate, 
+spending. 
+
+.  Loan demand is then assumed to be proportional to investment 
+
+)
+
+∗
+𝑟𝑟𝐿𝐿𝑁𝑁
+
+And the foreign sector demand for Treasury securities is given by: 
+
+𝐻𝐻
+𝑇𝑇𝐹𝐹
+where 
+
+= 𝐹𝐹� + 𝑓𝑓(𝑟𝑟𝑇𝑇𝑇𝑇 − 𝑥𝑥)
+
+ – the average of the Federal Reserve’s administered rates on reserves and other 
+
+𝑥𝑥 = (𝑟𝑟𝑇𝑇𝑅𝑅 + 𝑟𝑟𝑂𝑂𝐿𝐿)/2
+Here the variable 
+Federal Reserve liabilities – is a proxy for returns that foreign investors could earn on assets other than 
+Treasury securities.  The foreign sector demand for Treasury securities just captures the notion that global 
+investors become more interested in investing in Treasury securities when Treasury yields move up 
+relative to other benchmark interest rates. 
+
+𝑥𝑥
+
+The total supply of Treasury debt is exogenous and given by: 
+
+𝐿𝐿
+𝑇𝑇𝐺𝐺
+
+= 𝑇𝑇�
+
+The demand for reserves and other Federal Reserve liabilities is characterized by equations (1) and (2) 
+The Demand for Federal Reserve Liabilities 
+above.  Although perhaps not immediately apparent, these expressions are closely related to standard 
+formulations of the “demand for reserves.”  Cutting through some of the notation and simplifying, the 
+demand for reserves can be rewritten from equation (1) as: 
+
+𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑟𝑟𝑅𝑅𝑅𝑅 𝐷𝐷𝑅𝑅𝐷𝐷𝑎𝑎𝐷𝐷𝐷𝐷 = 𝛼𝛼𝑇𝑇𝑅𝑅𝑆𝑆𝐵𝐵𝐵𝐵 − 𝜌𝜌𝑇𝑇(𝑟𝑟𝑇𝑇𝑇𝑇 − 𝑟𝑟𝑇𝑇𝑅𝑅) − 𝜌𝜌𝐿𝐿𝑁𝑁(𝑟𝑟𝐿𝐿𝑁𝑁 − 𝑟𝑟𝑇𝑇𝑅𝑅)
+
+9 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+𝛼𝛼𝑇𝑇𝑅𝑅𝑆𝑆𝐵𝐵𝐵𝐵
+
+Consistent with the intuition in many models, the demand for reserves in the baseline model is partly a 
+.  This scale effect could stem 
+function of the optimal scale of the bank as captured by the term 
+from precautionary motives in connection with uncertainty about deposit levels as in the classic Poole 
+model (1968).8  Or it could stem from an asset demand for reserves related to the superior safety, 
+liquidity, and return characteristics of reserves as in the “risk-free” asset underlying the capital asset 
+pricing model as in Sharpe (1964).  Of course, both of these underlying sources of demand may be 
+present.  The model implies two opportunity costs that matter for holding reserves—one represented by 
+the spread between the Treasury rate and the interest rate on reserves and another represented by the 
+spread of the loan rate over the interest rate on reserves.  The demand for reserves also depends indirectly 
+on deposit rates through their effect on the scale of the banking firm.  The demand for other Federal 
+Reserve liabilities held by nonbanks and the demand for currency held by households can be written in a 
+similar form.  Many of the results discussed below turn on the relative strength of scale effects and the 
+substitution effects captured by the opportunity cost terms in the demand functions for Federal Reserve 
+liabilities. 
+
+As discussed in the appendix, the solutions to the general model can be expressed in matrix form.  The 
+Equilibrium Rates and Quantities 
+solutions for the baseline version of the model are simple enough to compute analytically as shown in the 
+appendix.  As discussed in more detail in the appendix, with similar calibrations for banks and nonbanks, 
+the system of equations describing the equilibrium rates can be boiled down to two equations—one 
+describing the combinations of the loan rate and Treasury rate consistent with equilibrium in the loan 
+market and one describing the combinations of the loan rate and Treasury rate consistent with equilibrium 
+in the Treasury market.  As shown by the orange line in the left panel of figure 2, the loan market 
+equilibrium curve is upward sloping—all else equal, a higher Treasury rate implies that loan rates must be 
+higher to leave intermediaries willing to provide any given quantity of loans.  The Treasury market 
+equilibrium curve (the green line) is generally downward sloping—all else equal, a lower loan rate 
+induces more borrowing in the loan market requiring higher Treasury rates to induce the additional 
+funding necessary to clear the Treasury market. 
+
+With the equilibrium Treasury rate and loan rate in hand, the determination of the equilibrium rates for 
+deposits and nonbank debt can also be described by a simple diagram.  With the structure assumed in the 
+baseline model, the equilibrium deposit rate is tightly linked to the equilibrium rate for nonbank debt as 
+shown by the orange line in the right panel of figure 2.  The spread between the deposit rate and nonbank 
+debt rate reflects the gap between the administered rate on reserves and the administered rate on other 
+Federal Reserve liabilities and also household’s relative demands for deposits versus nonbank debt.  The 
+funding market equilibrium relationship, the green line in the diagram, describes the balance between 
+household’s desire to invest in deposits and nonbank debt and the supply of deposits and nonbank debt 
+offered by banks and nonbanks.  The position of this curve is strongly affected by the weighted average 
+return on assets for banks and nonbanks and also by the rates on assets that compete with deposits and 
+nonbank debt in household portfolios.  In the baseline model, these are just the rates on physical currency 
+and Treasury securities. 
+
+8 See also recent studies by Lopez-Salido and Vissing-Jorgenson (2023) and Afonso, Giannone, La Spada and 
+Williams (2023). 
+
+10 
+Figure 2: Equilibrium in the Baseline Model
+
+Loan Rate
+
+Deposit Rate
+
+Loan Market 
+Equilibrium
+
+Treasury Market 
+Equilibrium
+
+Deposit Rate and 
+Nonbank Debt Rate 
+Arbitrage
+
+Funding Market 
+Equilibrium
+
+Treasury Rate
+
+Nonbank Debt Rate
+
+11The solutions for the endogenous rates imply corresponding solutions for the equilibrium quantities of all 
+the financial instruments in the model.  Because households are assumed to have relatively strong 
+“habits” for their desired holdings of financial assets, household preferences largely drive the relative size 
+of financial intermediaries.  In particular, the relative size of bank, nonbank, and Federal Reserve balance 
+sheets is largely driven by the relative size of household demands for deposits, nonbank debt, and 
+physical currency respectively.  The composition of assets for banks and nonbanks largely reflects the 
+assumed “habit” composition for these sectors.  Households, the foreign sector, and the Federal Reserve 
+end up holding most of the outstanding stock of Treasury securities. 
+
+The model incorporates many parameters so the calibration is necessarily at a high level.  The most 
+Aspects of Model Calibration 
+important feature of the calibration described in the appendix is that optimal asset allocations for 
+households are not highly responsive to changes in interest rates.  This stems from the assumption that 
+households have relatively high costs of deviating from their “habit” levels for each asset category.  In 
+contrast, financial intermediaries have relatively low costs of deviating from their baseline “habit” 
+allocations across assets.  As a result, the composition of assets for financial intermediaries is sensitive to 
+changes in relative rates of return across assets.  In addition, financial intermediaries have low balance 
+sheet costs and thus are willing to expand their balance sheet in response to a widening in net interest 
+margins.   
+
+The calibration also embeds an assumption that bank substitution effects outweigh balance sheet scale 
+effects in the determination of the optimal desired holdings for any particular asset.  For intermediaries, 
+an increase in a market interest rate on one particular asset, holding all other rates constant, has two types 
+of effects.  An increase in the market rate on a particular asset class, all else equal, pushes up the return on 
+assets and leads an intermediary to want to expand its balance sheet.  The same increase in the market rate 
+on the same particular asset class—all else equal—induces a substitution effect across all assets held by 
+financial intermediaries.  So, for example, an increase in the loan rate tends to lead banks to want to 
+expand their balance sheet and also to shift out of other assets and into loans.  The calibration assumes 
+that the substitution effects dominate when the substitution and scale effects work in opposite directions.  
+For example, an increase in Treasury rates—all else equal—generates a positive scale effect on loans by 
+increasing the rate of return on bank assets.  On the other hand, a change in the rate on Treasury securities 
+relative to loan rates encourages banks to substitute away from loans and toward larger Treasury holdings.  
+We assume parameter settings such that this substitution effect prevails in determining the net effect of an 
+increase in Treasury rates on loans (and vice versa) extended by financial intermediaries. 
+
+The reduced form solutions for the equilibrium rates and quantities (shown in the appendix) capture all of 
+General Features of the Model Solutions 
+the interactions in the model.  Even with the simplified baseline model, these reduced form equations are 
+somewhat complicated.  However, some basic features of the model are readily apparent.  One key 
+feature is that all asset demands in the model depend on relative rates of return across assets.  An 
+implication of this feature is that a given increase in all of the Federal Reserve’s administered rates 
+(including the notional rate on physical currency) along with an equivalent increase in the equilibrium 
+loan rate generates a corresponding increase in all of the endogenous rates in the model.  With all rates in 
+the model rising by equal amounts in this scenario, the relative rates of return among all financial assets 
+
+12are unchanged.  And, as a result, the equilibrium quantities of all financial assets and liabilities are 
+unchanged.   
+
+Another general feature of the baseline model stems from the assumption that the Federal Reserve 
+passively accommodates demands for its liabilities.  As a result, household substitutions between 
+Treasury securities and physical currency have little effect on interest rates.  A shift by households from 
+Treasuries to currency generates corresponding increases in the Federal Reserve’s holdings of Treasury 
+securities and the quantity of currency issued.  The reverse is true for household shifts from currency to 
+Treasury securities.  In that case, the Federal Reserve sheds some of its Treasury securities holdings and 
+reduces the outstanding quantity of currency. 
+
+Comparative Statics in the Baseline Model 
+
+This section illustrates some of the key features of the model through a set of comparative statics 
+4.
+exercises focusing on the effects of changes in key parameters including administered interest rates, the 
+aggregate supply of Treasury securities, balance sheet costs for financial intermediaries, portfolio 
+substitution costs for households and financial intermediaries, and shifts in household habits across 
+financial assets. 
+
+Effects of Changes in the Administered Rate on Reserves 
+An increase in the administered rate on reserves directly affects the rate of return on bank assets and 
+generally tends to put upward pressure on market interest rates.  As shown in the left panel of figure 3, a 
+change in the rate on reserves moves both the loan market equilibrium curve and the Treasury market 
+equilibrium curve up, resulting in an increase in both loan rates and Treasury rates represented by the 
+movement from the blue dot to the red dot.  As shown in the right panel of figure 3, the equilibrium 
+spread between the deposit rate and the nonbank debt rate increases and both rates move up in tandem 
+with the rise in loan rates and Treasury rates.  The rise in deposit rates is slightly larger than the rise in 
+nonbank debt rates because the increase in the interest rate on reserves generates a slightly larger increase 
+in the return on bank assets than in the return on nonbank assets. 
+
+The top panel of figure 4 provides a schematic of the “impulse response” pattern of a change in the 
+administered rate on reserves and all of the endogenous variables.  The first row of this table shows the 
+response coefficients of the equilibrium rates in the model to a 1 basis point rise in the administered rate 
+on reserves.  The blue bar for the column corresponding to the change in the interest rate on reserves has a 
+response coefficient of 1 by definition.  The response coefficients of the other endogenous rates are 
+shown by the magnitude of the bars (blue is a positive response coefficient, red is a negative response 
+coefficient.)  The remaining rows in the table show the response coefficients for the equilibrium holdings 
+of the various financial instruments for each sector.  For example, the second row indicates that 
+households respond to an increase in market rates induced by an increase in the interest rate on reserves 
+by shifting into market instruments—Treasury securities and deposits—with slightly higher rates and 
+away from currency with a fixed rate of zero.  There is also a small net shift out of nonbank debt 
+reflecting the increase in the returns on other assets relative to the nonbank debt rate.  With the interest 
+rate on reserves moving up somewhat more than market rates, the third row shows that banks tend to 
+substitute out of holdings of Treasury securities and loans in favor of holding additional reserves.  The 
+scale of the banking sector increases modestly.  Conversely, with no change in the rate on other Federal 
+Reserve liabilities, relative rates on assets for nonbanks shift in favor of market instruments.  Nonbanks 
+
+13 
+shift out of other Federal Reserve liabilities and into Treasury securities and loans.  The bottom row of the 
+table shows the effect of the change in the rate on reserves on the market totals for each instrument.  The 
+market total for loans edges down with the runoff in loans by banks partially offset by the increase in 
+loans at nonbanks.  Total reserves in the system increase while other Federal Reserve liabilities held by 
+nonbanks decline. 
+
+Effects of Changes in the Administered Rate on Other Liabilities 
+The effects of an increase in the administered rate on other Federal Reserve liabilities largely mirror those 
+for an increase in the rate on reserves.  As shown in the left panel of figure 5, the increase in the rate on 
+other Fed liabilities again shifts the loan market equilibrium and Treasury market equilibrium lines up, 
+resulting in an increase in both loan rates and Treasury rates.  The spread between the deposit rate and the 
+nonbank debt rate narrows and both rates are pulled higher by the rise in loan rates and Treasury rates.  
+The rise in the nonbank debt rate is slightly larger than the increase in the deposit rate because the 
+increase in the rate on other Federal Reserve liabilities results in a slightly larger increase in nonbanks’ 
+return on assets than in banks’ return on assets. 
+
+As shown in figure 6, the change in the administered rate on other liabilities increases the relative return 
+on other Federal Reserve liabilities.  As a result, nonbanks substitute away from other assets including 
+Treasury securities and loans in favor of holding other Federal Reserve liabilities.  Conversely, with no 
+increase in the interest rate on reserves, relative rates of return on assets for banks shift in favor of market 
+instruments.  As a result, banks shift out of reserves and into Treasury securities and loans.  Households 
+again shift into investments in market instruments and away from currency resulting in a small reduction 
+in the size of the Federal Reserve’s balance sheet.  As shown in the bottom row of panel 2 in figure 6, 
+total loans edge down with the runoff of loans at nonbanks partially offset by an increase in loans at 
+banks. 
+
+Effects of a Parallel Shift in the Administered Rates on Reserves and Other Federal 
+Reserve Liabilities 
+When the administered rates on reserves and other Fed liabilities are raised in parallel—as is often the 
+case when the FOMC chooses to raise the target range for the federal funds rate—market rates move up 
+almost one for one with the change in administered rates.  As shown in figure 7, the relative rates of 
+return on assets for banks and nonbanks shift slightly in favor of reserves and other Federal Reserve 
+liabilities.  Moreover, the spread between deposit rates and nonbank debt rates is unaffected and the levels 
+of bank and nonbank funding rates move higher with the level of other market interest rates.   
+
+As shown in figure 8, the sizable effect of the change in administered rates on the level of market interest 
+rates induces households to shift out of currency, on net, and into other assets including the liabilities of 
+banks and nonbanks.  The size of financial intermediaries increases modestly with increased holdings of 
+Treasury securities and Federal Reserve liabilities including both reserves and other liabilities.  Total 
+loans decline significantly, reflecting the increase in the loan rate relative to the equilibrium loan rate. 
+
+The hypothetical effect of a change in the administered rate on physical currency is shown in figure 9.  An 
+Effects of Changes in the Administered Rate on Physical Currency 
+increase in this rate shifts the loan market equilibrium curve higher, resulting in a higher loan rate and a 
+lower Treasury rate.  As calibrated, the return on assets for banks and nonbanks both increase slightly.  As 
+
+14a result, the funding market equilibrium curve moves out and the deposit rate and nonbank debt rate both 
+move up by the same amount. 
+
+With the Federal Reserve passively adjusting the size of its balance sheet to accommodate the increased 
+demand for currency, the increase in the rate on currency effectively generates a higher demand for 
+Treasury securities leading to a lower Treasury rate.  As shown in rows 3 and 4 of figure 10, total bank 
+and nonbank assets decline.  That decline is registered across all bank and nonbank asset categories.  Of 
+note, both banks and nonbanks reduce their credit extension to businesses through the loan market, but 
+only to a modest degree.  The size of the Federal Reserve’s balance sheet increases but not by as much as 
+the increase in currency. 
+
+As shown in figure 11, an increase in Treasury supply causes the Treasury market equilibrium curve to 
+Effects of Changes in Treasury Supply 
+shift out, pulling both loan rates and Treasury rates higher.  In funding markets, the increase in bank and 
+nonbank returns on assets pushes out the funding market equilibrium line, resulting in equal increases in 
+both deposit rates and nonbank debt rates. 
+
+As shown in figure 12, the increase in Treasury rates leads households to shift out of currency, deposits 
+and nonbank debt in favor of Treasury securities.  The pullback from deposits and nonbank debt 
+contributes to the upward pressure on deposit rates and nonbank debt rates.  Higher market interest rates 
+lead banks and nonbanks to substitute out of Federal Reserve liabilities in favor of holding additional 
+Treasury securities.  Both banks and nonbanks also substitute out of loans to a modest extent.  On net, the 
+size of bank and nonbank balance sheets declines modestly while the Federal Reserve’s balance sheet 
+declines substantially.  Much of the increase in the supply of Treasury securities is absorbed by the 
+foreign sector. 
+
+As discussed above, shifts in household preferences from currency to Treasury securities (or vice versa) 
+Shifts in Household Preferences from Currency to Treasury Securities 
+have almost no effect on equilibrium rates.  This type of shift has only a minimal effect on the equilibrium 
+curves shown in figures 13.  As discussed above and shown in figure 14, as households shift from 
+currency to Treasury securities, the Federal Reserve sheds Treasury securities in exactly the amount 
+acquired by households.  With only minor changes in equilibrium interest rates, the effects on bank or 
+nonbank balance sheets are likewise minimal.  As shown in figure 14, households end up with an increase 
+in Treasury holdings matched by a corresponding reduction in currency.  The balance sheets of all other 
+sectors are little changed. 
+
+Another type of experiment of interest is one in which households shift away from bank deposits in favor 
+Shift in Household Preferences Away from Deposits Toward Safe Assets 
+of safe assets such as physical currency or Treasury securities.  The net effects of a shift out of deposits 
+into either currency or Treasury securities are identical.  As shown in figure 15, the shift pushes up the 
+loan market equilibrium line, resulting in higher loan rates.  The shift also boosts the net demand for 
+Treasury securities, pushing Treasury yields down.  As calibrated in the model, the changes in Treasury 
+yields and loan rates result in a net increase in the return on assets for banks and nonbanks.  The funding 
+market equilibrium shifts outward, and the equilibrium spread between deposit rates and nonbank debt 
+rates widens. 
+
+15As shown in figure 16, the size of the banking sector declines somewhat with corresponding reductions in 
+all bank asset categories.  The scale of nonbanks is largely unaffected by this type of shock but the 
+increase in loan rates and modest decline in the Treasury rate induces nonbanks to shift out of Treasury 
+securities and other Federal Reserve liabilities and into loans.  The increase in loans at nonbanks 
+attenuates the overall decline in loans shown in the bottom row. 
+
+As shown in the left panel of figure 17, an increase in intermediary balance sheet costs tends to flatten the 
+Increase in Intermediary Balance Sheet Costs 
+loan market equilibrium curve but also pushes the entire curve higher.  The net effect of the shift and 
+slope changes results in a slightly higher loan rate and a slightly lower Treasury rate.  The effects of an 
+increase in balance sheet costs are much more pronounced in funding markets.  The higher balance sheet 
+cost drives a larger wedge between rates on assets held by intermediaries and the equilibrium rates on 
+their liabilities.  As noted in the right panel, the funding market equilibrium line shifts inward, and the 
+deposit rate spread relative to the nonbank debt rate narrows a bit.  The latter effect stems from the fact 
+that a key factor driving a difference between the deposit rate and nonbank debt rate—the spread between 
+the interest rate on reserves and the interest rate offered on other Federal Reserve liabilities—is not as 
+important when banks and nonbanks become less willing to expand their balance sheets. 
+
+As shown in figure 18, the sizable decline in rates offered on deposits and nonbank debt leads households 
+to shift into alternative assets including Treasury securities and physical currency.  However, households 
+are relatively insensitive to interest rate movements, so the magnitude of these shifts is rather small.  
+Banks and nonbanks then experience small runoffs in their funding that, in turn, is reflected in small 
+corresponding declines in their assets that are spread across all asset categories.  The Federal Reserve’s 
+balance sheet increases modestly with the household shift into currency outweighing the small declines in 
+bank and nonbank holdings of reserves and other Federal Reserve liabilities, respectively. 
+
+The presence of costs capturing the willingness of households to substitute across alternative assets is 
+Increase in Household Costs of Substitution Across Assets 
+another important aspect of the model.  As shown in figure 19, an increase in this cost for households 
+makes them less willing to shift out of currency in favor of market instruments with higher yields.  The 
+interest rate effects of this change are very small.  The pull back in funding provided by households to 
+financial intermediaries puts a bit of upward pressure on deposit rates and nonbank debt rates.  That effect 
+is reflected in the outward shift of the funding market equilibrium line in the right panel.  Higher 
+intermediary funding costs, in turn, result in an inward shift in the loan market equilibrium line in the left 
+panel with a resulting slight increase in the equilibrium loan rate and decline in Treasury rates.   
+
+As noted in figure 20, these changes in rates are accompanied by shifts in households and financial sector 
+balance sheets.  Households shift into currency and away from Treasury securities, deposits and nonbank 
+debt.  The size of financial intermediary balance sheets declines with corresponding declines in their 
+holdings of Treasury securities, loans, and Federal Reserve liabilities.  The increase in currency is larger 
+than the combined outflows from reserves and other Federal Reserve liabilities, resulting in a modest 
+increase in the size of the Federal Reserve’s balance sheet. 
+
+16Figure 3: Response to Increase in Interest Rate on Reserves
+
+Loan Rate
+
+Deposit Rate
+
+Loan Market 
+Equilibrium
+
+Deposit Rate and 
+Nonbank Debt Rate 
+Arbitrage
+
+Treasury Market 
+Equilibrium
+
+Funding Market 
+Equilibrium
+
+Treasury Rate
+
+Nonbank Debt Rate
+
+17Figure 4: Portfolio Effects of Increase in Interest Rate on Reserves
+
+Treasuries
+
+Effect of Change in Rate on Interest on Reserves
+Loans
+Other Fed Liab
+
+Reserves
+
+Currency
+
+Nonbank Debt
+
+Deposits
+
+Sectors/Instruments
+Equilibrium Rates
+Households
+Banks
+Nonbanks
+Federal Reserve
+Foreign Sector
+Business Sector
+Market Totals
+
+18Figure 5: Response to Increase in Interest Rate on Other Liabilities
+
+Loan Rate
+
+Deposit Rate
+
+Loan Market 
+Equilibrium
+
+Deposit Rate and 
+Nonbank Debt Rate 
+Arbitrage
+
+Treasury Market 
+Equilibrium
+
+Funding Market 
+Equilibrium
+
+Treasury Rate
+
+Nonbank Debt Rate
+
+19Figure 6: Portfolio Effects of Increase in Rate on Other Fed Liabilities
+
+Effect of Change in Interest Rate on Other Fed Liabilities
+
+Treasuries
+
+Loans
+
+Reserves
+
+Other Fed Liab
+
+Currency
+
+Nonbank Debt
+
+Deposits
+
+Sectors/Instruments
+Equilibrium Rates
+Households
+Banks
+Nonbanks
+Federal Reserve
+Foreign Sector
+Business Sector
+Market Totals
+
+20Figure 7: Response to Parallel Increase in Rates on Reserves and Other Federal Reserve Liabilities 
+
+Loan Rate
+
+Deposit Rate
+
+Loan Market 
+Equilibrium
+
+Deposit Rate and 
+Nonbank Debt Rate 
+Arbitrage
+
+Treasury Market 
+Equilibrium
+
+Funding Market 
+Equilibrium
+
+Treasury Rate
+
+Nonbank Debt Rate
+
+21Figure 8: Portfolio Effects of Parallel Change in Interest on Reserves and Other Fed Liabilities
+
+Effect of Parallel Changes in Interest on Reserves and Interest on Other Fed Liabilities
+
+Treasuries
+
+Loans
+
+Reserves
+
+Other Fed Liab
+
+Currency
+
+Nonbank Debt
+
+Deposits
+
+Sectors/Instruments
+Equilibrium Rates
+Households
+Banks
+Nonbanks
+Federal Reserve
+Foreign Sector
+Business Sector
+Market Totals
+
+22Figure 9: Response to Increase in Interest Rate on Physical Currency
+
+Loan Rate
+
+Deposit Rate
+
+Loan Market 
+Equilibrium
+
+Deposit Rate and 
+Nonbank Debt Rate 
+Arbitrage
+
+Treasury Market 
+Equilibrium
+
+Funding Market 
+Equilibrium
+
+Treasury Rate
+
+Nonbank Debt Rate
+
+23Figure 10: Effect of Change in Rate on Physical Currency
+
+Effect of Change in Rate on Physical Currency
+Other Fed Liab
+
+Reserves
+
+Loans
+
+Currency
+
+Nonbank Debt
+
+Deposits
+
+Treasuries
+
+Sectors/Instruments
+Equilibrium Rates
+Households
+Banks
+Nonbanks
+Federal Reserve
+Foreign Sector
+Business Sector
+Market Totals
+
+24Figure 11: Response to Increase in Treasury Supply
+
+Loan Rate
+
+Deposit Rate
+
+Loan Market 
+Equilibrium
+
+Deposit Rate and 
+Nonbank Debt Rate 
+Arbitrage
+
+Treasury Market 
+Equilibrium
+
+Funding Market 
+Equilibrium
+
+Treasury Rate
+
+Nonbank Debt Rate
+
+25Figure 12: Effect of Change in Aggregate Supply of Treasury Debt
+
+Effect of Change in Aggregate Supply of Treasury Debt
+
+Treasuries
+
+Loans
+
+Reserves
+
+Other Fed Liab
+
+Currency
+
+Nonbank Debt
+
+Deposits
+
+Sectors/Instruments
+Equilibrium Rates
+Households
+Banks
+Nonbanks
+Federal Reserve
+Foreign Sector
+Business Sector
+Market Totals
+
+26Figure 13: Shift in Household Preferences from Currency to Treasury Securities
+
+Loan Rate
+
+Deposit Rate
+
+Loan Market 
+Equilibrium
+
+Treasury Market 
+Equilibrium
+
+Deposit Rate and 
+Nonbank Debt Rate 
+Arbitrage
+
+Funding Market 
+Equilibrium
+
+Treasury Rate
+
+Nonbank Debt Rate
+
+27Figure 14: Effect of Increase in Household Shift from Currency to Treasury Securities
+
+Effect of Increase in Household Shift from Currency to Treasury Securities
+
+Treasuries
+
+Loans
+
+Reserves
+
+Other Fed Liab
+
+Currency
+
+Nonbank Debt
+
+Deposits
+
+Sectors/Instruments
+Equilibrium Rates
+Households
+Banks
+Nonbanks
+Federal Reserve
+Foreign Sector
+Business Sector
+Market Totals
+
+28Figure 15: Response to Shift in Household Habits Away from Deposits Toward Currency
+
+Loan Rate
+
+Deposit Rate
+
+Loan Market 
+Equilibrium
+
+Deposit Rate and 
+Nonbank Debt Rate 
+Arbitrage
+
+Treasury Market 
+Equilibrium
+
+Funding Market 
+Equilibrium
+
+Treasury Rate
+
+Nonbank Debt Rate
+
+29Figure 16: Effect of Household Shift from Deposits to Currency
+
+Effect of Household Shift from Deposits to Currency
+
+Treasuries
+
+Loans
+
+Reserves
+
+Other Fed Liab
+
+Currency
+
+Nonbank Debt
+
+Deposits
+
+Sectors/Instruments
+Equilibrium Rates
+Households
+Banks
+Nonbanks
+Federal Reserve
+Foreign Sector
+Business Sector
+Market Totals
+
+30Figure 17: Response to Increase in Balance Sheet Costs
+
+Loan Rate
+
+Deposit Rate
+
+Loan Market 
+Equilibrium
+
+Treasury Market 
+Equilibrium
+
+Deposit Rate and 
+Nonbank Debt Rate 
+Arbitrage
+
+Funding Market 
+Equilibrium
+
+Treasury Rate
+
+Nonbank Debt Rate
+
+31Figure 18: Effect of Increase in Financial Intermediary Balance Sheet Costs
+
+Effect of Increase in Financial Intermediary Balance Sheet Costs
+
+Treasuries
+
+Loans
+
+Reserves
+
+Other Fed Liab
+
+Currency
+
+Nonbank Debt
+
+Deposits
+
+Sectors/Instruments
+Equilibrium Rates
+Households
+Banks
+Nonbanks
+Federal Reserve
+Foreign Sector
+Business Sector
+Market Totals
+
+32Figure 19: Response to Increased Cost of  Deviating from Habit for Households
+
+Loan Rate
+
+Deposit Rate
+
+Loan Market 
+Equilibrium
+
+Treasury Market 
+Equilibrium
+
+Deposit Rate and 
+Nonbank Debt Rate 
+Arbitrage
+
+Funding Market 
+Equilibrium
+
+Treasury Rate
+
+Nonbank Debt Rate
+
+33Figure 20: Effect of Increase in Household Substitution Costs
+
+Treasuries
+
+Effect of Increase in Household Substitution Costs
+Loans
+Other Fed Liab
+
+Reserves
+
+Currency
+
+Nonbank Debt
+
+Deposits
+
+Sectors/Instruments
+Equilibrium Rates
+Households
+Banks
+Nonbanks
+Federal Reserve
+Foreign Sector
+Business Sector
+Market Totals
+
+34Figure 21: Response to Increased Cost of  Deviating from Habit for Intermediaries
+
+Loan Rate
+
+Deposit Rate
+
+Loan Market 
+Equilibrium
+
+Treasury Market 
+Equilibrium
+
+Deposit Rate and 
+Nonbank Debt Rate 
+Arbitrage
+
+Funding Market 
+Equilibrium
+
+Treasury Rate
+
+Nonbank Debt Rate
+
+35Figure 22: Effect of Increase in Financial Intermediary Substitution Costs
+
+Effect of Increase in Financial Intermediary Substitution Costs
+
+Treasuries
+
+Loans
+
+Reserves
+
+Other Fed Liab
+
+Currency
+
+Nonbank Debt
+
+Deposits
+
+Sectors/Instruments
+Equilibrium Rates
+Households
+Banks
+Nonbanks
+Federal Reserve
+Foreign Sector
+Business Sector
+Market Totals
+
+36Figure 21 illustrates the case of an increase in the portfolio habit costs for financial intermediaries and a 
+Increase in Financial Intermediary Costs to Substitute Across Assets 
+corresponding decline in their willingness to subst

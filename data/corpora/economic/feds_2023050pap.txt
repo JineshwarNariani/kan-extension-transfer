@@ -1,0 +1,2232 @@
+Finance and Economics Discussion Series
+
+Federal Reserve Board, Washington, D.C.
+ISSN 1936-2854 (Print)
+ISSN 2767-3898 (Online)
+
+Disclosure Regulation, Intangible Capital and the Disappearance
+of Public Firms
+
+Sara Casella, Hanbaek Lee, Sergio Villalvazo
+
+2023-050
+
+Please cite this paper as:
+Casella, Sara, Hanbaek Lee, and Sergio Villalvazo (2023). “Disclosure Regulation, Intan-
+gible Capital and the Disappearance of Public Firms,” Finance and Economics Discus-
+sion Series 2023-050. Washington: Board of Governors of the Federal Reserve System,
+https://doi.org/10.17016/FEDS.2023.050.
+
+NOTE: Staﬀ working papers in the Finance and Economics Discussion Series (FEDS) are preliminary
+materials circulated to stimulate discussion and critical comment. The analysis and conclusions set forth
+are those of the authors and do not indicate concurrence by other members of the research staﬀ or the
+Board of Governors. References in publications to the Finance and Economics Discussion Series (other than
+acknowledgement) should be cleared with the author(s) to protect the tentative character of these papers.
+
+Disclosure Regulation, Intangible Capital and
+the Disappearance of Public Firms†
+
+Sara Casella
+University of Pennsylvania
+
+Hanbaek Lee
+University of Tokyo
+
+Sergio Villalvazo
+Federal Reserve Board
+
+June 30, 2023
+
+Abstract
+
+Since the mid-1990s, the number of listed firms in the U.S. has halved,
+and their public disclosure has become opaquer. To explain these trends, we
+develop a general equilibrium model where the choices of going public or private
+and the transparency of voluntary disclosure are characterized analytically. In
+the equilibrium, the stock market with directed search and the private equity
+market with random search co-exist. According to the estimation, stricter
+disclosure regulation and increased intangible capital share are the key drivers
+of the observed patterns. Lastly, we characterize a policymaker’s trade-off
+between welfare and productivity and analyze the optimal policy.
+
+Keywords: Intangible capital, corporate disclosures, technology diffusion.
+
+JEL codes: D24, G24, G38.
+
+† We are grateful to Manuel Adelino, Ismail Baydur, Santiago Bazdresch, Harold Cole, Jes´us
+Fern´andez-Villaverde, Angus Foulis, Luca Guerrieri, Nicolas L. Jacquet, Ryo Jinnai, In Hwan Jo,
+Dirk Krueger, Adriano Rampini, Serene Tan, Skander Van den Heuvel, David N. Weil, and the partic-
+ipants in the seminar at the Federal Reserve Board, Hitotsubashi University, Singapore Management
+University, National University of Singapore, Lisbon Macro Workshop, ITAM-PIER conference on
+macro-finance, and BIS-CEPR WE ARE IN Macroeconomics and Finance conference for their con-
+structive comments and discussions. Compustat and I/B/E/S data were obtained by the authors
+prior to Villalvazo’s employment at the Federal Reserve Board, while they were PhD candidates at
+the University of Pennsylvania. The views expressed in this paper are solely the responsibility of
+the authors and should not be interpreted as reflecting the views of the Board of Governors of the
+Federal Reserve System or of any other person associated with the Federal Reserve System. All
+remaining errors are our own.
+Casella:
+scas@sas.upenn.edu.
+martin@frb.gov
+
+hanbaeklee1@gmail.com.
+
+sergio.villalvazo-
+
+Villalvazo:
+
+Lee:
+
+1
+
+1
+
+Introduction
+
+Since the mid-1990s, the number of listed firms in the U.S. has decreased almost by
+
+half. Over the same period, we document that listed firms’ performance has become
+
+increasingly difficult to predict; reports of listed firms have become significantly more
+
+opaque. What are the driving forces for these changes? What are their macroeco-
+
+nomic consequences? This paper answers these questions through the lens of a general
+
+equilibrium model of information disclosure and capital markets, where an analytic
+
+solution characterizes a rich set of equilibrium allocations. We then use the model to
+
+analyze the optimal disclosure regulation based on the equilibrium.
+
+The U.S. Securities and Exchange Commission (SEC) requires listed firms to pub-
+
+licly reveal their annual and quarterly financial information and disclose material
+
+events such as transactions involving shareholders and insiders. Moreover, public
+
+firms are not allowed to selectively disclose materials to some investors (e.g., Regu-
+
+lation Fair Disclosure of 2000). Disclosure regulation aims to protect investors and
+
+facilitate a fair capital market. However, the cost of disclosure is that it may also
+
+reveal crucial information to competitors (Bhattacharya and Ritter, 1983). In this
+
+paper, we show that stricter disclosure regulation and the increased importance of in-
+
+tangible capital in production are critical factors driving public firms’ disappearance.
+
+Support exists for the notion that private firms’ ability to avoid public disclosures
+
+is an important factor in their decision to stay private.1 Our second key hypothesis is
+
+that, given its nature, intangible capital is one of the most fragile input factors to the
+
+information disclosure process. While companies may keep patents and trade secrets,
+
+1For example, Dambra, Casares Field, and Gustafson (2015) study the effect of Title I of the
+JOBS Act (Jumpstart Our Business Startups Act), which exempts emerging growth companies from
+certain disclosure requirements during the IPO process and allows issuers to disclose information
+exclusively to investors, but not competitors, until the IPO becomes likely to succeed. They find
+that the act increased the volume of IPOs by 25% compared to their previous level; and this increase
+is concentrated in firms with a high cost of disclosure, such as firms in the tech sector. Aghamolla
+and Thakor (2022) exploit a shock to disclosure requirements in the biopharmaceutical industry to
+show that increased mandatory disclosure requirements for private firms significantly increases their
+propensity of going public.
+
+2
+
+some ideas are simply non-excludable: Once information about intangible capital is
+
+revealed, then it is easily mimicked (Crouzet et al., 2022).2
+
+Using the estimated general equilibrium model, we show that disclosure regulation
+
+increases the welfare of risk-averse investors through more transparent information
+
+disclosure. Regulation can, however, crowd out voluntary disclosure and even backfire
+
+through the extensive-margin channel, as more firms tend to stay in the private equity
+
+market, which is more opaque.3 Moreover, as firms adopt more intangible capital,
+
+which is subject to imitation risk to a greater extent, they have a stronger incentive
+
+to conceal information, leading to an increased tendency to remain privately held.
+
+This technological change also leads to less transparent reporting for firms that stay
+
+public, as observed in the data. Finally, we show that the disappearance of public
+
+firms and overall greater opacity in financial markets substantially reduce productivity
+
+and technological diffusion across firms.
+
+Our approach is motivated by macro- and micro-level empirical evidence. On
+
+the macroeconomic side, we revisit some well-known facts in the literature. The
+
+level of intangible capital has significnatly risen, and the number of public firms has
+
+decreased by almost 50% in the U.S. since 1996. Then, using U.S. Compustat data
+
+and data from the Institutional Brokers’ Estimate System (I/B/E/S), we construct
+
+a transparency measure of the firm-level disclosure based on earnings surprises. Our
+
+measure shows that the average transparency has significantly declined over the same
+
+period of the two aforementioned trends.
+
+2We refer to those components of intangible capital that are not well protected by specific legal
+institutions and thus not necessarily patentable or patented yet. Most importantly, research ideas,
+early stages innovation and R&D, software, but also certain novel business methods and organiza-
+tional innovations, branding and marketing strategies, employee training, proprietary information
+such as some formulas, customer lists, processes, and generally, firms’ strategies and intentions that
+a public firm cannot selectively disclose.
+
+3This is one of the core issues the SEC is concerned about. For example, in a February 2017
+speech, SEC Commissioner Kara Stein posed a question regarding additional disclosures and reg-
+ulation around private market investment: “We also need to understand why more companies are
+staying private for longer periods of time. Should we apply enhanced disclosure laws to these pri-
+vate companies? Or perhaps they require a unique set of rules.” See “The Markets in 2017: What’s
+at Stake?” Commissioner Kara M. Stein, SEC website, https://www.sec.gov/news/speech/stein-
+secspeaks-whats-at-stake.html
+
+3
+
+To investigate the relationship between transparency and intangible capital further
+
+we run a panel regression of the transparency on intangible capital with firm-level
+
+controls and fixed effects. We find that our measure of transparency, which is based
+
+on professional analysts’ forecast errors, is significantly negatively correlated with the
+
+firm level of intangible capital. This cross-sectional fact provides an important bridge
+
+to link the two macro facts: rising intangible capital and declining transparency. We
+
+interpret the result in the following way: the negative relationship between intangible
+
+and transparency, proxied by forecast accuracy, can be due to two reasons: one,
+
+firms with high levels of intangible tend to be less transparent and, therefore, more
+
+difficult to forecast. Two, it may be that, given a certain level of disclosure and
+
+transparency, firms with high intangible capital are inherently more challenging to
+
+forecast due to their nature (Celentano and Rempel, 2023). Using our model, we set
+
+out to disentangle the two forces and their effect.
+
+In order to analyze these empirical patterns and their effect on the macroeconomic
+
+allocations in a unified framework, we introduce a general equilibrium model of het-
+
+erogeneous firms where financing decisions are endogenous.
+
+In the model, ex-ante
+
+homogeneous firms choose whether to go public or private, the level of intangible
+
+capital stock, and the transparency of their intangible capital. The disclosed intan-
+
+gible capital is subject to diffusion to other firms as an externality in the form of
+
+productivity gain.
+
+If a firm goes private, transparency is minimal, and there is no technology diffusion
+
+to the other firms. However, a private firm must search for an investor and is not
+
+guaranteed funding if not matched. When a firm chooses to be public, the firm
+
+is instead subject to a disclosure obligation, composed of mandated and voluntary
+
+components. The minimum mandated portion is enforced by the policymaker. The
+
+voluntary portion is endogenously determined by the firm. As the household prefers
+
+transparent disclosure, a more voluntarily transparent disclosure leads to a greater
+
+value in the funding market. However, a more transparent disclosure undermines
+
+4
+
+the profitability of the firm, especially for high levels of intangible capital. This
+
+trade-off endogenously forms a distribution of firms over the transparency domain
+
+and determines the mass of the non-listed market in equilibrium.
+
+One of the advantages of our model is that these decisions have an analytic so-
+
+lution, which allows us to characterize the model and optimal policy globally and
+
+cleanly. The model generates a general equilibrium distribution of endogenous ob-
+
+jects in analytic form, and as such resembles the one in Burdett and Mortensen (1998).
+
+In their model, the wage distribution is endogenously determined, as the model cap-
+
+tures the endogenous wage postings from the firm side. Similarly, in our model,
+
+a risk-averse representative household with CARA utility endogenously chooses the
+
+amount of funding for each transparency level.
+
+We then conduct a quantitative analysis of the macroeconomic effects of the in-
+
+creasing significance of intangible assets and the impact of information regulation
+
+policies. We estimate our model using data from two distinct periods. The first pe-
+
+riod, spanning from 1992 to 1996, serves as our baseline, while the second period,
+
+from 2012 to 2016, is considered as the new steady state. Therefore, we compare a
+
+period before the dramatic shift in the number of listed firms with a period several
+
+years after the change to assume that it has reached a stationary level.
+
+The key structural parameters in the model include intangible capital share and
+
+the mandated disclosure rule: the changes in these parameters change the incentive
+
+of the voluntary disclosure operating in the listed market. We use the method of
+
+simulated moments (MSM) to estimate the parameters, and target moments such
+
+as the percentage of listed firms after M&A adjustment, the share of intangible-
+
+related expenditures over sales, and the fraction of funded private firms. Moreover,
+
+one of the advantages of our model is that it is tightly linked with the data: While
+
+the distribution of firms’ transparency is not directly observable, the distribution of
+
+forecast errors by analysts is both a model output and is observable in our data.
+
+Therefore, we target several moments of this distribution over the two periods.
+
+5
+
+Our decomposition analysis reveals that stricter SEC regulation and the rising
+
+share of intangible capital accounted for a large part of the decline in listed firms and
+
+transparency. We also estimate that the same level of disclosure by firms translates
+
+into lower information for investors in the more recent period. We interpret this as
+
+intangible capital being inherently more opaque and challenging to understand due
+
+to its nature, contributing to the decline of listed firms. The model also predicts that
+
+access to funds by private investor has become easier, contributing to the reduction
+
+of public firms. These findings highlight that stricter regulation, increased intangible
+
+capital, and greater opacity in financial markets are important driving factors behind
+
+the reduced transparency, number of listed firms, and productivity.
+
+Finally, we set out to find an optimal disclosure policy. To evaluate the conse-
+
+quences of the information disclosure policy, we provide three criteria: output, pro-
+
+ductivity, and investors’ welfare.4 A higher mandated transparency level decreases
+
+the incentive to go public, leading to more private firms in the equilibrium. However,
+
+a stricter policy lowers uncertainty for investors, achieving greater welfare. In the
+
+estimated model, a local policy change from the status quo can achieve only higher
+
+output and productivity or higher welfare.5 From the perspective of the protection
+
+of investors, we find that the recent regulation has substantially improved welfare.
+
+However, we also document that it has led to a loss in productivity in the production
+
+sector.
+
+Contribution and literature. Our paper delivers two main contributions to the
+
+literature. First, we provide a theoretical and quantitative model framework that an-
+
+alyzes the effect of rising intangible capital on the firm-level financing decision.6 Using
+
+4The mission of the SEC is “to protect investors, maintain fair, orderly, and efficient markets,
+
+and facilitate capital formation.” See “Our Goals,” SEC website, https://www.sec.gov/our-goals.
+
+5In the global domain of the policy, there are ranges where welfare and productivity increase
+
+simultaneously along with the policy change. We discuss this in the policy analysis.
+
+6Kahle and Stulz (2017) discussed the possibility of the role of intangible capital in the observed
+declining trends of listed firms. However, the structural analysis of the channel has been missing in
+the literature.
+
+6
+
+the estimated model, we show that the regulation on disclosure and rising intangible
+
+share has been the key driver of the disappearing public firms. Also, the qualitative
+
+aspect of our model is worth highlighting as it allows analytic characterization of rich
+
+equilibrium allocations, including the distribution of public and private firms. This
+
+tractability promotes the transparent illustration of endogenous mechanisms in our
+
+model. Also, it enables a fast and accurate quantitative analysis.7
+
+Second, we bring a novel policy angle, information regulation, to the table and
+
+analyze its macroeconomic trade-off. From the tractable general equilibrium model,
+
+we show that in a reasonable range of parameters, a policymaker faces a trade-off.
+
+between welfare and productivity. We believe the analytic closed-form characteri-
+
+zation of our model would serve as a useful tool for future research on information
+
+regulation policy.
+
+Two strands of the literature are closely related to this paper. The first is the
+
+literature that studies the rising importance of intangible capital. It was only around
+
+a decade ago that intangible capital was first recognized as an important macroe-
+
+conomic factor that affects economic growth and the business cycle. For example,
+
+McGrattan and Prescott (2010) and McGrattan (2020) highlight the importance of
+
+intangible capital as a key input factor for production and show how mismeasurement
+
+of intangible capital may mislead the neoclassical model predictions in terms of eco-
+
+nomic growth. Relatedly, Atkeson and Kehoe (2005) and Eisfeldt and Papanikolaou
+
+(2014) modeled plant-level intangible capital as an important input for production.
+
+Mainly, their intangible capital refers to organizational capital that is partly firm-
+
+specific and partly embodied in key labor inputs.
+
+We contribute to this literature by analyzing a novel macroeconomic implication
+
+of the rising share of intangible capital. Intangible capital has become an important
+
+source of competitiveness, leaving firms to put great effort into research and devel-
+
+7The portion of public firms is often substantially smaller than that of private firms in many
+countries. Then a computation error of 0.1% in the portion of public firms is a significantly large
+error. Therefore, a highly-computational model is easily subject to a high approximation error in
+capturing the portion of large firms.
+
+7
+
+opment (R&D) or developing a productive corporate culture. However, intangible
+
+capital has a strong spillover effect, which can benefit competitors as well as the
+
+owner firm (Crouzet et al., 2022). Therefore, the rising importance of intangible cap-
+
+ital has naturally increased a firm’s incentive to stay opaque in its disclosure. Using
+
+our model, we theoretically and quantitatively analyze how this change affects the
+
+macroeconomy in terms of welfare and productivity.
+
+The second literature is about the disappearance of listed firms. Different expla-
+
+nations have been put forward to shed light on this issue. For example, Gao, Ritter,
+
+and Zhu (2013) point to the increase in mergers and acquisitions (M&A) among U.S.
+
+firms; Doidge, Karolyi, and Stulz (2017) conjecture that as markets have become
+
+more globally integrated, the net benefits of going public in the U.S. versus in other
+
+markets have decreased; Ewens and Farre-Mensa (2020) argue that the deregulation
+
+of securities laws (National Securities Markets Improvement Act of 1996) improved
+
+the private equity market, which reduced the incentives for firms to go public.
+
+In this paper, we propose a complementary explanation. We argue that the rise of
+
+intangible capital, especially the components of intangible capital that could benefit
+
+competitors as well as the owner firm, has increased the cost of disclosing information
+
+and made staying private more attractive, which is exacerbated by stricter disclosure
+
+requirements. The estimated model also predicts that access to funds by venture
+
+capital firms, private equity funds, and other private investors has become easier.
+
+Finally, one of the papers closest to ours is Celentano and Rempel (2023), which
+
+finds that the rising share of intangible capital has amplified public CEOs’ private
+
+information compared to outside investors. This rising informational asymmetry be-
+
+tween firm insiders and the general public leads to an increase in CEO compensation
+
+due to the design of optimal truth-telling compensation contracts, and a decline in
+
+the propensity of going public. We abstract from optimal contracts and the principal-
+
+agent problem; instead, we focus on a different and complementary channel: regu-
+
+lation on information disclosure and its interaction with intangible capital and its
+
+8
+
+spillover to competitors as a positive learning externality. Our model allows us to
+
+calculate welfare and the optimal level of regulation.
+
+The rest of the paper is structured as follows. Section 2 describes our datasets
+
+and empirical results. Section 3 outlines the model. Section 4 describes the equi-
+
+librium and model predictions. Section 5 estimates the structural model, conducts
+
+counterfactuals, and describes the optimal regulation policy. We conclude in Section
+
+6.
+
+2 Empirical analysis
+
+In this section, we empirically analyze the observed patterns in the number of listed
+
+firms and the intangible capital stocks. In the firm-level analysis, the key variables are
+
+intangible capital stock and firm transparency. We first explain our measurement of
+
+these two variables. Then, using the measured allocations, we analyze the time-series
+
+patterns at the macro and sector levels and the cross-sectional relationships at the
+
+firm level.
+
+2.1 Data and Measurement
+
+In this section, we explain how we measure the intangible capital stock of public firms
+
+and firm transparency.
+
+We use firm level data on public U.S. firms from Compustat covering the pe-
+
+riod from 1985 to 2016 to measure firm-level intangible capital stock. Our baseline
+
+measure of internally generated intangible capital is the sum of two components: (i)
+
+estimated knowledge capital, calculated using research and development expenditure
+
+(XRD); and (ii) estimated organizational capital, calculated using selling, general,
+
+and administrative expenses (XSGA). The measure is constructed using the per-
+
+petual inventory method, which aggregates net investment flows over the life of the
+
+9
+
+firm:
+
+[Knowledge capital] :
+
+i,t = (1 − δG) kG
+kG
+
+i,t−1 + R&Dit,
+
+[Organizational capital] :
+
+i,t = (1 − δO) kO
+kO
+
+i,t−1 + γOSG&Ait,
+
+where R&D is research and development expenditure expenditure; SG&A is selling,
+
+general, and administrative expenses. All the intangible flow variables are deflated
+
+by the price of intellectual property products from National Income and Product
+
+Accounts data (NIPA Table 1.1.9, line 12). δG and δO are the depreciation rates.8 γO
+
+is the fraction of selling,general, and administrative (SG&A) expenditure that adds
+
+to the intangible capital stock. We assume γO = 0.20 following Falato et al. (2022).
+
+All the empirical results are robust over other reasonable choices of this parameter
+
+level.
+
+Then, we calculate the net change in the acquired amount of intangibles from
+
+changes in the book values of intangibles after the amortization, using Compustat
+
+variables INTAN and AM. We obtain the acquired intangible stock kB
+
+i,t, applying
+
+the perpetual inventory method to the deflated net change in the intangibles.
+
+Our final measure of firm-level intangible capital stock kI
+
+i,t is obtained by combin-
+
+ing the internally generated intangible stocks and the acquired intangibles stocks:
+
+kI
+i,t = kG
+
+i,t + kO
+
+i,t + kB
+i,t
+
+In order to get a measure of firms’ transparency, we leverage information on earn-
+
+ings surprises. Every quarter, professional financial analysts produce and disseminate
+
+forecasts of firms’ earnings, based on their timely access to all available information
+
+on and off the balance sheet. Our assumption is that it is easier to forecast firms that
+
+disclose more information, and so we can proxy firm transparency using the accuracy
+
+8We use δG = δO = 0.15, which is around the levels estimated in the literature (Corrado, Hulten,
+
+and Sichel, 2009).
+
+10
+
+of these forecasts.9
+
+Specifically, earnings surprise ESi,j,t is defined as the difference between a firm’s
+
+announced actual earnings per share et,i and the earnings forecast per share ϵi,j,t made
+
+by an analyst for that firm, normalized by the price of a share Pi,t:
+
+ESi,j,t :=
+
+ϵi,j,t − ei,t
+Pi,t
+
+where t is the indicator of a quarter; i and j are firm and analyst indicators, respec-
+
+tively. Thus, the surprise is measured at the analyst-firm level.
+
+The data on analysts’ forecasts come from the I/B/E/S. The dataset collects
+
+quarterly estimates made by professional financial analysts on the future earnings of
+
+publicly traded companies. We closely follow Dellavigna and Pollet (2009) for the
+
+detailed steps of the earnings surprise calculation.
+
+Then, we define two different proxies for the transparency of the balance sheet
+
+at the firm level. The first is the inverse of the median absolute value of earnings
+
+surprises:
+
+T ransparency1
+
+i,t :=
+
+1
+median(|ESi,j,t|)
+
+This proxy is based on the intuition that more transparent firms have lower absolute
+
+earnings surprise, on average.10
+
+Our second proxy is the inverse of the variance of earnings surprises:
+
+T ransparency2
+
+i,t :=
+
+1
+var(ESi,j,t)
+
+The intuition behind this proxy is that more transparent firms have lower dispersion
+
+in the earnings surprise among the analysts, on average. Therefore, the second proxy
+
+9Forecast errors may be influenced by other factors as well, namely, idiosyncratic and aggregate
+risk, analysts coverage and effort, and varying inherent difficulty of the task. We discuss how these
+factors influence our analysis in the next sections.
+
+10The median is used instead of the average, this is to rule out the outlier’s level effect on the
+
+average.
+
+11
+
+is calculated only for firms with multiple analysts’ forecasts available in the data. In
+
+our dataset, the average number of analysts covering a firm is three.
+
+2.2 Trends in the number of listed firms, intangible capital,
+
+and transparency
+
+Figure 1: Time series of aggregate variables.
+
+(a) Number of listed firms
+
+(b) Listed firms as share of all firms
+
+(c) Intangible/GDP
+
+(d) Average transparency
+
+Notes: This figure shows the trend in the number and share of listed firms, intangible capital, and
+firm transparency in the U.S. Data comes from Compustat, I/B/E/S, and the World Development
+Indicators. See Section 2.1 for details on measurement.
+
+Figure 1 plots the time series of the variables of interest from 1985 until 2015.
+
+Panel (1a) plots the number of listed firms in the U.S. The data is from the World
+
+12
+
+198519901995200020052010201540005000600070008000YearNumber of listed firms19851990199520002005201020150.080.100.120.140.16YearListed firms as % of all firms19851990199520002005201020151020304050YearIntangible capital stock/GDP (%)1985199019952000200520102015050100150YearTransparency Index (1985's Transparency=100)Transparency 1Transparency 2Development Indicators (WDI) by World Bank.11 As shown in the figure, there has
+
+been a gradually rising trend in the number of listed firms until the mid-1990s. Then,
+
+after the peak in the mid-1990s, the number of listed firms steeply declined to almost
+
+half the level at the peak year: 8,090 listed firms in 1996 reduced to 4,102 listed firms
+
+in 2012. Panel (1b) shows that listed firms have been declining not only in absolute
+
+number, but also as a share of all firms in the U.S.
+
+Panel (1c) shows the time series of the ratio between the total intangible capital
+
+stock of public non-financial corporations and GDP. Over the thirty years, the ratio
+
+has dramatically increased from 10% to 50%. This shows how fast intangible capital
+
+in the U.S. has grown.
+
+Lastly, panel (1d) shows the time series of the cross-sectional average transparency.
+
+The overall patterns of both transparency measures closely mimic the one in the num-
+
+ber of listed firms: transparency has increased until the mid-1990s and decreased after
+
+the peak in 1996.12 The time-series correlation between the transparency measure and
+
+the number of listed firms is 0.80 for the first measure and 0.61 for the second mea-
+
+sure, and all are statistically significant. This co-movement between the number of
+
+listed firms and the average transparency is the key motivation of this paper: what
+
+drives such co-movements?
+
+2.3 The trends by industries
+
+In this section we show trends in the number of firms, intangible capital, and trans-
+
+parency by macro industries. Panel 2a shows the trend in the number of firms for the
+
+Information and Services sector, excluding trade and transportation, Manufacturing,
+
+and other sectors (Trade and transportation, Agriculture and Mining, Construction).
+
+All sectors show an initial increase and then a decline after the mid-nineties, and the
+
+11The number of listed firms in WDI is only negligibly different from the one in the Compustat
+
+data.
+
+12Recessions and especially the Great Recession represent a big shocks to earnings surprises. In
+order to take that into account, we also measure average transparency by excluding recession periods
+as measured by the NBER, and we still find that average transparency has been declining.
+
+13
+
+Figure 2: Number of listed firms and intangible intensity by industry.
+
+(a) Number of listed firms
+
+(b) Intangibles intensity
+
+Notes: This figure shows the trend in the number of listed firms and intangible capital intensity in
+the U.S. Intangible intensity is defined as the ratio of intangible asset to total intangible and tangible
+asset values. The groups are defined as Information and Services, excluding trade and transportation,
+Manufacturing,and other sectors (Trade and transportation, Agriculture and Mining, Construction).
+Data comes from Compustat. See Section 2.1 for details on measurement.
+
+decline is much more pronounced in the information and service sector. We also plot
+
+the normalized number of all non-listed firms in the information and service sector:
+
+as can be seen, only listed firms are affected by the large decline during the entire
+
+period of 2000 and 2010 (well after the dot-com bubble), while the overall number is
+
+only slightly affected by the 2001 and 2008 recessions. Panel 2b shows the intangible
+
+intensity, defined as the ratio of intangible asset to total intangible and tangible asset
+
+values, for the same industries. Manufacturing had historically a higher intangible
+
+intensity, which has been taken over in the early 2000s by the service sector.
+
+Finally, Figure 3 shows our transparency measures for the information and service
+
+sector, compared to all other sectors. The information and service sector has a lower
+
+transparency over the entire period, and both time series of transparency for all
+
+sectors have also declined over time.
+
+Two main take-aways can be taken by the analysis of industry trends: the infor-
+
+mation and services sector has seen the largest increase in its intangible intensity, and
+
+at the same time the largest decline in the number of listed firms and in transparency.
+
+14
+
+198519901995200020052010201550100150200250YearNumber of firm index (1985's number = 100)GroupInformation+ServicesManufacturingOthersInformation+Services (all)19851990199520002005201020150.00.10.20.30.40.50.60.7YearIntangible intensityGroupInformation+ServiceManufacturingOthersFigure 3: Time series of transparency for information and service industries.
+
+(a) Transparency 1
+
+(b) Transparency 2
+
+Notes:
+This figure shows the trend in in transparency for information and service industries
+compared to all other industries. Information and Services excludes trade and transportation. Data
+comes from Compustat and I/B/E/S. See Section 2.1 for details on measurement.
+
+In Appendix A, we show the trends for more disaggregated industries. We also
+
+report the trends in intangible capital using internally generated R&D only, so that
+
+the numbers on intangible intensity can be compared to the ones available in the
+
+Bureau of Economic Analysis (BEA).
+
+2.4 Cross-sectional evidence
+
+In this section we describe cross-sectional evidence that links high reliance on intangi-
+
+ble capital with the value of transparency and earning surprises. We run the following
+
+regression on our baseline sample, which includes all firms in Compustat from 1985 to
+
+2016 for which information on earnings forecasts by at least one analysts is available:
+
+log yi,t = θt + F Es + β × Intangible over total assetsi,t + γ × Xi,t + εi,t
+
+where yi,t is either our first or second transparency measure as described in section
+
+2.1. θt are year fixed effects and FEs include industry fixed effects. Xi,t represents firm
+
+15
+
+198519901995200020052010201550100150YearTransparency Index (1985's Transparency = 100)Transparency 1: AllTransparency 1: Inform.+Service198519901995200020052010201550100150YearTransparency Index (1985's Transparency = 100)controls.13 The firm-level controls include book-to-market ratio, sales, liquid capital
+
+(cash, inventory, and receivables), leverage (total debt over total asset), employment
+
+in logs, age (from the IPO year), and the number of analysts. Intangible, sales, and
+
+liquid capital are normalized by total asset.
+
+Table 1 reports the results for the coefficient on intangible capital asset ratio. We
+
+report the full regression table in Appendix B. The regressions show that intangible
+
+capital and transparency are inversely related, i.e., firms that have a higher share of
+
+intangible capital compared to their size are more difficult to forecast. Specifically, an
+
+increase of one percentage point in the intangible capital over assets ratio decreases
+
+the value of the first transparency by 0.31 percent, and the value of the second
+
+transparency measure by 0.63 percent.
+
+We interpret the result in the following way. Given the inclusion of year fixed
+
+effects and the number of analysts covering a given firm, we can exclude the effect of
+
+a gradual worsening of analysts’ ability and effort, analysts’ coverage, and common
+
+changes in idiosyncratic and aggregate risk. Therefore, we can directly link the rise
+
+in intangible capital with a decline in the ability of the market to forecast a firm.
+
+This relationship can be due to two reasons: one, firms with high intangible intensity
+
+tend to be less transparent, and, therefore, more difficult to forecast. Two, it may be
+
+that, given a certain level of disclosure and transparency, firms with high intangible
+
+intensity are inherently more challenging to forecast due to their nature. We include
+
+both possibilities in our model and set out to disentangle the two effects using our
+
+structural estimation.
+
+13Firm-level controls and regression specifications are based on Li (2010) and Bird, Karolyi, and
+
+Ruchti (2017).
+
+16
+
+Table 1: Regression of transparency proxies on intangibles
+
+Dependent Variables:
+
+Transparency 1 Transparency 2
+
+Intangibleit
+
+-0.31
+
+(0.046)
+
+-0.627
+
+(0.096)
+
+Industry FE
+
+Year FE
+
+Controls
+
+Two-way cluster
+
+Observations
+
+Adj. R2
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+256,962
+
+0.275
+
+256,962
+
+0.289
+
+Notes: This table reports the estimates of the coefficients from the following regression using our
+
+baseline sample, which includes all firms in Compustat from 1985 to 2016 for which information on
+
+earnings forecasts by at least one analysts is available:
+
+log yi,t = θt + F Es + β × Intangible capital over total assetsi,t + γXi,t + εi,t
+
+where yi,t is either the inverse absolute value of earning surprises from the consensus, or the inverse
+
+of variance of earning surprises when more than one analyst forecast is present. θt are year fixed
+
+effects and FEs include industry fixed effects. Xi,t represents firm controls.
+
+3 Baseline model
+
+In this section, we introduce a general equilibrium model, where the firm-level equi-
+
+librium allocations are characterized in the closed form. Using this model, we will
+
+qualitatively and quantitatively analyze the cause and consequences of the empirical
+
+patterns we have shown in the previous section.
+
+We consider a stand-in household and a continuum of measure one of the ex-ante
+
+17
+
+homogeneous firms. The model is static.14 A representative household decides its
+
+asset portfolio and consumes the payouts from the portfolio. An entrepreneur decides
+
+in which market the firm operates between the public and private equity markets. If
+
+a firm is listed, the entrepreneur chooses the disclosure level of the firm’s intangible
+
+capital to the public, which we define as transparency. On the other hand, the
+
+entrepreneur does not disclose any intangible capital to the public if a firm is private.
+
+3.1 Household
+
+A stand-in household decides on the asset portfolio and consumes the portfolio return.
+
+The household is given a wealth level a > 0. The household is risk-averse, and the
+
+utility takes the following constant absolute risk aversion form (CARA):
+
+u(C) = −e−ΛC,
+
+where Λ > 0 is the absolute risk aversion parameter.
+
+In the listed market, the household forms a belief about the return (cid:101)r(q) based
+on the balance sheet information of a listed firm with transparency level q and the
+
+mandated transparency level q. The belief about the return is assumed as follows:
+
+(cid:18)
+
+(cid:101)r(q) ∼iid N
+
+r(q),
+
+(cid:19)
+
+1
+ξ + (q + q)ψ
+
+s.t.
+
+r =
+
+π(q)
+P (q)
+
+,
+
+where q ∈ [0, 1 − q] is the transparency of the balance sheet information.15 q is the
+
+mandated transparency required by the policy maker, ξ is the baseline information
+
+level a household has about both listed and non-listed firms, ψ > 0 is the marginal
+
+14The model is intended to capture an equilibrium that is formed over long years. Therefore, the
+dynamic aspect is abstracted. Also, the static setup gives a great degree of tractability in the model,
+as will be described in the equilibrium analysis.
+
+15The range of transparency is assumed at our convenience. However, the qualitative and quan-
+
+titative results of this paper are unaffected by this normalization assumption.
+
+18
+
+contribution of transparency to the household’s information about the listed firm.16
+
+π(q) is the profit of the firm with transparency q, and P (q) is the price of the firm
+
+with transparency q.
+
+In the private equity market, the household forms the following belief about the
+
+non-listed firms:
+
+(cid:101)rN ∼iid N
+
+(cid:18)
+
+rN ,
+
+(cid:19)
+
+1
+ξ
+πN
+P N ,
+
+s.t.
+
+rN =
+
+where πN and P N are the profit, and price of a non-listed firm. As non-listed firms
+
+do not disclose any information publicly, the household does not distinguish one non-
+
+listed firm from another.
+
+Then, the household solves the following portfolio choice problem:
+
+max
+x(q),xN
+
+E(−e−ΛC)
+
+(cid:90)
+
+s.t. C =
+
+x((cid:101)q)(cid:101)r((cid:101)q)d(cid:101)q + xN
+
+(cid:101)rN ,
+
+(cid:90)
+
+x((cid:101)q)d(cid:101)q + xN = a,
+
+where x(q) is the funding supply for firms with transparency level q, and xN is the
+
+funding supply for non-listed firms. As the model does not include the inter-temporal
+
+decision of the household, all the payoffs from the equity investment are consumed.
+
+3.2 Technology
+
+A measure one of the ex-ante homogeneous firms produces output using two inputs:
+
+tangible capital (kT ) and intangible capital (kI). In this economy, there are two types
+
+of production technologies. One is listed firms’ production technology, and the other
+
+16We regard ψ as the functions of a structural parameter θ, the share of intangible capital in the
+production function.
+Intuitively, the importance of intangible capital in the production function
+affects the information quality household can access from the balance sheet. We do not impose any
+structural assumption on this function. Instead, we identify the level of ψ in our estimation using
+the firm-level data. Then, in the quantitative analysis, we interpret a change in ψ is affected by the
+variation in θ.
+
+19
+
+is non-listed firms’ production technology.
+
+3.2.1 Production function of listed firms
+
+A listed firm i operates using the following production function:
+
+f L(kT
+
+i , kI
+
+i , qi; q, Φex) = z(kT
+
+i )α(kI
+
+i (1 − q − qi))θ(Φex)γ,
+
+where q is the mandated portion of intangible disclosure imposed by the policy maker,
+
+qi is the voluntarily disclosed portion of intangible, Φex is the shared intangible cap-
+
+ital from all other firms, z is a constant aggregate productivity level, γ is the scale
+
+parameter for the externality, and α and θ are the tangible and intangible capital
+
+shares, respectively. We assume α + θ + γ ≤ 1.
+
+Importantly, we assume the revealed portion of intangible capital disappears from
+
+the private intangible stock. This assumption is to let the revealed intangible capital
+
+be symmetrically used between the disclosing firms and the free-riding firms without
+
+double counting. If this symmetry is not guaranteed, partial knowledge sharing needs
+
+to be specified, which requires an additional intensive margin in the shared informa-
+
+tion. We simplify the model by assuming pure symmetry to avoid such complications.
+
+We assume that a listed firm’s disclosed portion of intangibles can range from q
+
+to 1, which does not rule out the possibility of publicly sharing nearly all intangi-
+
+bles. Therefore, the intangible in this model does not include patents or intellectual
+
+properties that are legally protected in terms of ownership. Therefore, we treat these
+
+assets as tangible assets.17
+
+We assume a firm i’s disclosed intangible qi is perfectly substitutable by the other
+
+disclosed intangible. Therefore, the shared intangibles are aggregated in the following
+
+additive form:
+
+17Given these assets are even used as collateral in reality, the exclusion of them from the definition
+intangible is desired for the focus of this paper. In our estimation, we target the intangible share
+calculated based on the expenditures rather than the stock. Therefore, the protected intangible
+assets, such as patent do not significantly affect the main results.
+
+20
+
+Φex =
+
+(cid:90) 1
+
+0
+
+
+
+1{i∈Listed} × kI,i
+
+
+
+q
+(cid:124)(cid:123)(cid:122)(cid:125)
+Disclosure mandated by the policy maker
+
++
+
+qi
+(cid:124)(cid:123)(cid:122)(cid:125)
+Voluntary disclosure
+
+
+
+ di.
+
+A firm chooses first the voluntary disclosure level of the intangible before the
+
+operation. The choice problem of voluntary disclosure is elaborated on in the following
+
+section.18 The ex-post profit of a firm with voluntary transparency qi is obtained after
+
+taking out the operational costs rkT
+
+i + pkI
+
+i from the revenue:
+
+π(qi; q, Φex) := max
+i ,kI
+kT
+i
+
+z(kT
+
+i )α(kI
+
+i (1 − q − qi))θ(Φex)γ − rkT
+
+i − pkI
+i ,
+
+where r is the capital rental rate, and p is the R&D cost per unit of intangible capital.
+
+For the notational brevity, we assume r and p already include the depreciation rates.
+
+3.2.2 Production function of non-listed (private) firms
+
+If a firm is private, it does not disclose the intangible capital publicly. The production
+
+function of a non-listed firm i is as follows:
+
+f N (kT
+
+i , kI
+
+i ; Φex) = z(kT
+
+i )α(kI
+
+i )θ(Φex)γ.
+
+Except for the disclosure of the intangible capital, the production function is assumed
+
+to take the same form and parameters as the one for the listed firms. The profit is
+
+also defined similarly to that of listed firms:
+
+πN (Φex) := max
+i ,kI
+kT
+i
+
+3.3 Financial markets
+
+z(kT
+
+i )α(kI
+
+i )θ(Φex)γ − rkT
+
+i − pkI
+i .
+
+In this section, we characterize the financial market in the model. The funding supply
+
+is driven by the representative household’s portfolio choice problem. The funding
+
+18The assumption of timing is solely for the descriptive purpose. Even if the decision of input
+
+levels and the disclosure level occur simultaneously, the model stays unaffected.
+
+21
+
+demand is determined by each firm’s value maximization problem.
+
+3.3.1 Funding supply: The household’s mean-variance portfolio
+
+From the i.i.d assumption of the stock return uncertainty, the consumption (income)
+
+satisfies
+
+(cid:18)(cid:90)
+
+C ∼ N
+
+x((cid:101)q)r((cid:101)q)d(cid:101)q + xN rN ,
+
+(cid:90)
+
+x((cid:101)q)2
+
+1
+ξ + ψ(q + q)
+
+d(cid:101)q + (xN )2 1
+
+ξ
+
+(cid:19)
+
+.
+
+Then the investors’ expected utility maximization problem is translated into the fol-
+
+lowing form:19
+
+max
+(cid:82) x((cid:101)q)d(cid:101)q+xN =a
+
+− e−Λ
+
+(cid:16)(cid:82) x((cid:101)q) π((cid:101)q)
+
+P ((cid:101)q) d(cid:101)q+xN πN
+
+P N − Λ
+
+2
+
+(cid:82) x((cid:101)q)2
+
+1
+
+ξ+ψ(q+q) d(cid:101)q− Λ
+
+2 (xN )2 1
+
+ξ
+
+(cid:17)
+
+.
+
+After a strictly-increasing (log) transformation, the problem reduces down to
+
+max
+(cid:82) x((cid:101)q)d(cid:101)q+xN =a
+
+(cid:90)
+
+x((cid:101)q)
+
+π((cid:101)q)
+P ((cid:101)q)
+
+d(cid:101)q + xN πN
+
+P N −
+
+Λ
+2
+
+(cid:90)
+
+x((cid:101)q)2
+
+1
+ξ + ψ(q + q)
+
+d(cid:101)q −
+
+Λ
+2
+
+(xN )2 1
+ξ
+
+.
+
+The first-order condition with respect to x(q) yields
+
+π(q)
+P (q)
+
+− Λx∗(q)
+
+1
+ξ + ψ(q + q)
+
+− µ = 0,
+
+where µ is the Lagrange multiplier of the wealth constraint. From this equation, we
+
+can derive the following supply curve of funding for the listed market:
+
+x∗(q) =
+
+π(q)/P (q) − µ
+Λ/(ξ + ψ(q + q))
+
+,
+
+where x∗(q) is the funding supply in a dollar amount for firms with the transparency
+
+level q. So, the household is willing to invest π(q)/P (q)−µ
+
+Λ
+
+1
+ξ+ψ(q+q)
+
+in the firms with transparency
+
+19The derivation of the mean-variance portfolio objective function is as follows: consider a random
+
+variable, y ∼ N (µy, σ2
+
+y). Then,
+
+E(−e−Λy) = −E(e−Λy) = −e−Λ(µy− Λ
+
+2 σ2
+
+y).
+
+The last equation is derived from the moment generating function of the normal distribution.
+
+22
+
+level q.
+
+Similarly, from the first-order condition with respect to xN , the funding supply
+
+curve for non-listed firms is characterized as follows:
+
+xN ∗ =
+
+πN /P N − µ
+Λ/ξ
+
+.
+
+From this point on, we assume the representative household has a large enough
+
+wealth a, as our interest is not in the household’s constrained optimization. Thus,
+
+µ = 0.
+
+3.3.2 Funding demand: Listed firms’ value maximization
+
+A manager of a firm chooses where to operate to maximize the firm’s price. The price
+
+is interchangeable with the value of a firm. The decision problem of where to operate
+
+is characterized as follows:
+
+max{ max
+
+q∈[0,1−q]
+
+P (q), P N }.
+
+Where P (q) is the price of the firm operating in the listed market with the trans-
+
+parency level at q, and P N is the price of a non-listed firm.
+
+In the funding market for the listed firms, the price of a firm, P (q), is determined
+
+at the level where funding supply in the number of firms x∗(q)
+
+P (q) meets funding demand
+
+in the number of firms M(q). Thus, the market-clearing condition is as follows:
+
+x∗(q)
+P (q)
+
+= M(q).
+
+Recall that a manager needs to determine the transparency level, after going on the
+
+listed market:
+
+max
+q≥0
+
+P (q).
+
+Given the funding demand and the market-clearing condition, this problem is equiv-
+
+23
+
+alent to the following form:
+
+max
+q≥0
+
+(cid:115) π(q)
+Λ M(q)
+
+ξ+ψ(q+q)
+
+,
+
+which is equivalently transformed to
+
+max
+q≥0
+
+π(q)
+M(q)
+ξ+ψ(q+q)
+
+.
+
+Now, we define a net funding intensity ϕL(q) as follows:
+
+ϕL(q) :=
+
+ξ + ψ(q + q)
+M(q)
+
+.
+
+Therefore, a listed firm’s problem can be summarized as the following form:
+
+J L(M) = max
+
+q
+
+max
+kT ,kI
+
+(cid:0)zkα
+
+T (kI(1 − q − q))θ(Φex)γ − rkT − pkI
+
+(cid:1) ϕL(q)
+
+s.t. ϕL(q) =
+
+ξ + ψ(q + q)
+M(q)
+
+,
+
+where J L is the value of a listed firm given the distribution of listed firms M.20 The
+
+solution to this problem characterizes the funding demand in the listed market.
+
+3.3.3 Financial market for non-listed firms
+
+The price of a non-listed firm, P N , is determined at the level where funding supply
+in the number of firms, xN ∗
+
+P N is matched with the demand in a frictional private eq-
+uity market. Especially, we assume the congestion among non-listed firms generates
+
+attrition in the funding opportunity in the following way:
+
+xN ∗
+P N = MN ,
+20Note that the price P is not identical to J L, as one is a monotonically transformed version of
+
+1
+νN
+
+the other. Specifically, ΛP (q)2 = J L(q).
+
+24
+
+where MN is the total number of non-listed firms and νN > 1 is a structural parameter
+
+that captures the congestion effect in the non-listed financial market.
+
+Then, we define a net funding intensity ϕN (q) as follows:
+
+ϕN := ξ/(νN MN ).
+
+A non-listed firm’s problem can be written down as follows, similar to the listed
+
+firm’s problem:
+
+J N (MN ) = max
+kT ,kI
+
+(cid:0)zkα
+
+T (kI)θ(Φex)γ − rkT − pkI
+
+(cid:1) ϕN
+
+s.t. ϕN = ξ/(νN MN ).
+
+3.4 Summary of a firm’s problem
+
+A firm’s manager decides whether to go listed or non-listed before the operation. If
+
+a firm becomes non-listed, the manager does not have to worry about the leakage of
+
+their intangibles through disclosure. However, investors penalize the opacity of the
+
+non-listed firms by allowing only a low funding intensity.
+
+If a firm becomes public, the manager should decide on the level of transparency
+
+q ≥ 0. If too many firms choose the same transparency level, it will decrease the
+
+firm’s value in the listed market due to demand-side competition.
+
+A firm’s problem could be summarized as follows:
+
+[Entry decision] max{J L(M), J N (MN )},
+(cid:0)zkα
+
+[Listed firm] J L(M) := max
+
+T (kI(1 − q − q))θ(Φex)γ − rkT − pkI
+
+(cid:1) ϕL(q)
+
+[Non-listed firm] J N (MN ) := max
+kT ,kI
+
+T (kI)θ(Φex)γ − rkT − pkI
+
+(cid:1) ϕN
+
+s.t. ϕL(q) =
+
+q
+
+max
+kT ,kI
+ξ + ψ(q + q)
+M(q)
+(cid:0)zkα
+
+,
+
+s.t. ϕN := ξ/(νN MN ).
+
+25
+
+4 Equilibrium
+
+Here we define an equilibrium where the economy is given total intangible capital
+
+reserve K I (fixed aggregate intangible supply). This equilibrium endogenously de-
+
+termines the R&D cost of intangible capital p. The R&D cost is not a price for a
+
+trade. Instead, it is a cost that increases if all the other firms increase their spending
+
+in R&D. This captures the intuition that developing new knowledge is harder if more
+
+firms seek new knowledge. The rental rate for the tangible capital r is exogenously
+
+given.
+
+Definition 1. A collection of functions (kT , kI, q, M, MN , p, P, P N , x∗, xN ∗, Φex) is
+
+an equilibrium if
+
+1. (cid:0)x∗, xN ∗(cid:1) solves the household’s problem.
+
+2. (kT (q, M), kI(q, M), q(M)) solves the listed firm’s problem.
+
+3. The measure of listed firms choosing a transparency level q is consistent with
+
+M(q) for all q ∈ [0, 1 − q].
+
+4. The measure of non-listed firms is MN and satisfies
+
+(cid:90) 1−q
+
+0
+
+M(q)dq + MN = 1.
+
+5. R&D cost of intangible capital p is determined by the following equation:
+
+K I =
+
+(cid:90) 1
+
+0
+
+kI,idi.
+
+6. Aggregate shared knowledge satisfies
+
+Φex =
+
+(cid:90) 1
+
+0
+
+1{i∈Listed} × kI,i(q + qi)di.
+
+7. Financial market is cleared:
+
+26
+
+x∗(q)
+P (q)
+
+= M(q)
+
+and
+
+1
+νN
+
+xN ∗
+P N = MN .
+
+8. Indifference in the extensive-margin decision:
+
+P (q) = P N , for ∀q ∈ [0, 1 − q].
+
+With the endogenously determined distribution M of firms for each q, we can re-
+
+write the market-clearing condition for intangible capital and the externality condition
+
+using M. In the definition, each firm is aggregated along with index i ∈ [0, 1]. Instead,
+
+we aggregate firms over the distribution of firms at each q. This aggregation is doable
+
+since M is endogenously obtained, and kI is also a function of q and M. Therefore,
+
+we re-write those two conditions in the following way:
+
+K I =
+
+(cid:90) 1−q
+
+0
+
+kI(q, M)M(q)dq,
+
+Φex =
+
+(cid:90) 1−q
+
+0
+
+kI(q, M)(q + q)M(q)dq.
+
+Among all possible equilibrium, we are interested in the non-degenerate equilib-
+
+rium where all the homogeneous firms use mixed strategies over the transparency
+
+level q. The mixed strategy leads to the distribution of firms at each level of q. In
+
+the equilibrium, this distribution needs to be consistent with the distribution that a
+
+firm takes as a given state variable.
+
+In the following section, we analytically characterize the equilibrium allocations
+
+in this economy.
+
+4.1 A listed firm’s decision
+
+First, we solve a listed firm’s problem backward from the decision on the transparency
+
+level and the other allocations. Then, we solve the firm’s decision on which financial
+
+market to enter the public market of the private one.
+
+27
+
+Given a net funding intensity function, ϕL and the externality, Φex, a listed firm’s
+
+problem is characterized as follows:
+
+(cid:122)
+(cid:20)
+
+max
+q
+
+max
+kT ,kI
+
+Interim problem
+(cid:125)(cid:124)
+T (kI(1 − q − q))θ(Φex)γ − rkT − pkI
+
+(cid:0)zkα
+
+(cid:123)
+(cid:21)
+(cid:1) ϕL(q)
+
+s.t. ϕL(q) =
+
+ξ + ψ(q + q)
+M(q)
+
+.
+
+From the optimality conditions of the interim problem, we can derive the relationship
+
+among the transparency q, the regulation parameter q, and the intangible capital kI.
+
+The relationship is formally stated in the following proposition:
+
+Proposition 1. (Intangibles and the transparency)
+
+Given α + θ < 1, kI(q, M; q) decreases in both q and q. Specifically,
+
+kI(q, M; q) =
+
+(cid:32)(cid:18) αz(Φex)γ
+
+r
+
+(cid:19) 1
+
+1−α−θ (cid:18) rθ
+pα
+
+(cid:19) 1−α
+
+1−α−θ
+
+(cid:33)
+
+(1 − q − q)
+
+θ
+1−α−θ .
+
+Proof.
+
+See Appendix D.
+
+■
+
+If a firm is in a state where the knowledge has to be transparently revealed to the
+
+public, it naturally disincentivizes the firm to accumulate less knowledge. Therefore,
+
+the marginal increase in voluntary or mandatory transparency leads to a marginal
+
+decrease in the deployment of intangible capital stock. This result is consistent with
+
+the empirical observation we document in the empirical analysis section.
+
+Moreover, the incentive to reveal the information interacts with the importance
+
+of the intangible in the production function, θ. When the intangible becomes more
+
+important in production, the negative association between the intangible and trans-
+
+parency strengthens. In other words, given the fixed intangible capital stock, a greater
+
+θ is associated with a stronger incentive to conceal the information (lower q). Propo-
+
+sition 2 theoretically shows this relationship.
+
+28
+
+Proposition 2 (Intangible share and the transparency).
+
+Given α + θ < 1, the sensitivity of kI(q, M; q, θ) to the changes in q and q increases
+
+in θ.
+
+Proof.
+
+See Appendix D.
+
+■
+
+Then, from the optimality condition with respect to the transparency, q, we can
+
+characterize an ordinary differential equation (ODE) where the function of interest is
+
+the net funding intensity function ϕ(q). The ODE is specified in Appendix D. Solving
+
+the ODE, we characterize the transparency distribution M in the analytic form. We
+
+state the analytic form of M in the following proposition:
+
+Proposition 3. (Transparency distribution)
+
+The unnormalized probability density function M of transparency q has the following
+
+analytic form:
+
+Proof.
+
+See Appendix D.
+
+M(q) = (ξ + ψ(q + q)) (1 − q − q)
+
+θ
+1−α−θ
+
+1
+ϕN .
+
+■
+
+In the multiplicative form of the closed-form endogenous distribution in Proposi-
+
+tion 3, each component is directly interpretable.21
+
+M(q) = (ξ + ψ(q + q))
+
+(1 − q − q)
+
+θ
+1−α−θ
+
+(cid:124)
+
+(cid:123)(cid:122)
+funding supply
+
+(cid:125)
+
+(cid:124)
+
+(cid:123)(cid:122)
+funding demand
+
+(cid:125)
+
+1
+ϕN .
+(cid:124)(cid:123)(cid:122)(cid:125)
+eq. normalizer
+
+The first component is the household’s preference for transparent firms. For a higher
+
+q, the household is willing to provide greater funding to the firm. This behavior gen-
+
+erates an incentive for a firm to choose high q. In contrast, the second term captures
+
+21It is worth noting that the endogenous distribution is independent of the productivity level z.
+Thus, the firm-level productivity heterogeneity does not matter in this setup. In the quantitative
+analysis, we normalize the productivity z at 1.
+
+29
+
+firms’ incentive to reveal less information. This is consistent with the intuition that
+
+a greater revelation only benefits competitors at the firm’s own cost. The third term
+
+is the equilibrium object that balances the measure of listed and non-listed firms.
+
+The following corollary establishes that the equilibrium distribution is unique for
+
+the given support of the transparency [0, 1 − q].
+
+Corollary 1. (Uniqueness of the transparency distribution)
+
+Given the support [0, 1 − q], the equilibrium unnormalized probability density function
+
+M is unique.
+
+Proof. The result is immediate from the uniqueness of the ODE solution that satisfies
+
+the boundary condition.
+
+■
+
+The probability density function M(q) belongs to a variant of a well-known class
+
+of density functions: Beta distribution. In the following corollary, we prove that M(q)
+
+follows a shifted truncated beta distribution and provide the closed-form characteri-
+
+zation of the net funding intensity of the private firms, ϕN . For brevity of notation,
+
+we define B := θ
+
+1−α−θ .
+
+Corollary 2. (Truncated normalized Beta distribution)
+
+The gross transparency, y := q + q, follows a truncated normalized Beta distribution
+
+where the shape parameters are B + 1 and 2, and the support is [q, 1].
+
+q + q ∼
+
+I{q ∈ [0, 1 − q]}
+1 − MN
+
+× Beta (B + 1, 2) ,
+
+where B = θ
+
+1−α−θ .
+
+Proof.
+
+See Appendix D.
+
+■
+
+It is worth noting that the probability density of q depends on the net funding
+
+intensity of non-listed firms, ϕN . This net funding intensity is determined by the
+
+30
+
+following identity that requires the total measure of firms is unity:
+
+1
+ϕN
+
+(cid:90) 1−q
+
+0
+
+(ξ + ψ(q + q))(1 − q − q)Bdq = 1 −
+
+(cid:18) ξ
+
+νN ϕN
+
+(cid:19)
+
+.
+
+(1)
+
+Equivalently, we can write down the identity in terms of the mass of non-listed firms
+
+as follows:
+
+ψ
+
+νN
+ξ
+
+MN
+
+(cid:90) 1−q
+
+0
+
+(cid:18) ξ
+ψ
+
+(cid:19)
+
++ (q + q)
+
+(1 − q − q)Bdq = 1 − MN .
+
+(2)
+
+Therefore, we have the following closed-form solution for MN :
+
+MN =
+
+1
+
+1 + ψ νN
+ξ
+
+(cid:82) 1−q
+0
+
+( ξ
+ψ + (q + q))(1 − q − q)Bdq
+
+.
+
+(3)
+
+Equation (3) is the fundamental component of the model, which captures how
+
+the total measure of non-listed firms, MN , behaves when the policy parameter q
+
+changes. Using Corollary 2, we can integrate out the M (q) in the right-hand side of
+
+the equation in the following steps, using y = 1−q−q
+
+1+ξ/ψ ∈ [0, 1−q
+
+1+ξ/ψ ]:
+
+MN =
+
+1 + ψ νN
+
+ξ (1 + ξ
+
+1
+ψ )B+2 (cid:82) 1−q
+
+1+ξ/ψ
+0
+
+.
+
+(1 − y)(y)Bdy
+
+Then, we divide the numerator and the denominator by a beta function, B(B +1, 2).22
+
+MN =
+
+1/B(B + 1, 2) + ψ νN
+
+ξ (1 + ξ
+
+1/B(B + 1, 2)
+ψ )B+2B(B + 1, 2) (cid:82) 1−q
+
+1+ξ/ψ
+0
+
+.
+
+yB(1 − y)dy
+
+We integrate the denominator using the cumulative distribution function of beta
+
+22The beta function is defined as follows:
+
+B(a, b) :=
+
+Γ(a)Γ(b)
+Γ(a + b)
+
+=
+
+(a − 1)!(b − 1)!
+(a + b − 1)!
+
+=
+
+(cid:90) 1
+
+0
+
+xa−1(1 − x)b−1dx.
+
+31
+
+distribution, F :
+
+MN =
+
+1/B(B + 1, 2) + ψ νN
+
+1/B(B + 1, 2)
+ξ (1 + ξ
+
+ψ )B+2F
+
+(cid:16) 1−q
+
+1+ξ ; B + 1, 2
+
+(cid:17).
+
+By multiplying B(B + 1, 2) on the numerator and the denominator, we obtain the
+
+following analytic form:
+
+MN =
+
+1
+
+1 + ψ νN
+
+ξ (1 + ξ
+
+ψ )B+2B(B + 1, 2)F
+
+(cid:16) 1−q
+
+1+ξ ; B + 1, 2
+
+(cid:17) .
+
+(4)
+
+Equation (4) characterizes the measure of private firms in the analytic form. Im-
+
+portantly, the equation does not include either the price of the intangible or the
+
+externality. That is, the measure of private firms is independently determined from
+
+the general equilibrium effects and externality. The intuition behind this result is that
+
+both the productivity shift through the externality and the general equilibrium effect
+
+uniformly affect the operating profit of each firm, so they do not affect the decision
+
+of how to finance their operating activities.23 Due to this separation, a measure of
+
+private firm MN is determined directly by Equation (4). MN determines the funding
+
+intensity of private firm ϕN . Then, from Proposition 3, the distribution of firms over
+
+transparency is also independently determined from the general equilibrium effect
+
+and the externality. Therefore, the mandated transparency q affects the firm-level
+
+distribution directly through Equation (4) without any feedback effects in the gen-
+
+eral equilibrium. Also, it is worth noting that Equation (4) theoretically predicts that
+
+MN increases in q.
+
+Proposition 4. (The relationship between the policy and the measure of listed firms)
+
+MN strictly increases in q ∈ [0, 1].
+
+Proof.
+
+23For the same logic, the heterogeneous firm-level productivity does not affect the analytic form
+
+in the current setup.
+
+32
+
+See Appendix D.
+
+■
+
+As the policymaker requires a stricte

@@ -1,0 +1,58 @@
+
+[EconFetch] === Beige Book ===
+  [BB] beigebook202301 saved (8000 chars).
+  [BB] beigebook202303 saved (8000 chars).
+  [BB] 404 for https://www.federalreserve.gov/monetarypolicy/beigebook202305.htm, skipping.
+  [BB] beigebook202307 saved (8000 chars).
+  [BB] beigebook202309 saved (8000 chars).
+  [BB] beigebook202311 saved (8000 chars).
+  [BB] beigebook202401 saved (8000 chars).
+  [BB] 404 for https://www.federalreserve.gov/monetarypolicy/beigebook202403.htm, skipping.
+  [BB] beigebook202405 saved (8000 chars).
+  [BB] beigebook202407 saved (8000 chars).
+  [BB] 404 for https://www.federalreserve.gov/monetarypolicy/beigebook202409.htm, skipping.
+  [BB] beigebook202411 saved (8000 chars).
+  [BB] beigebook202501 saved (8000 chars).
+  [BB] 404 for https://www.federalreserve.gov/monetarypolicy/beigebook202503.htm, skipping.
+  [BB] 404 for https://www.federalreserve.gov/monetarypolicy/beigebook202302.htm, skipping.
+  [BB] beigebook202402 saved (8000 chars).
+  [BB] beigebook202502 saved (8000 chars).
+  [BB] beigebook202304 saved (8000 chars).
+  [BB] beigebook202404 saved (8000 chars).
+  [BB] 404 for https://www.federalreserve.gov/monetarypolicy/beigebook202406.htm, skipping.
+
+[EconFetch] === FOMC Minutes ===
+  [FOMC] 20230201 saved (12000 chars).
+  [FOMC] 20230322 saved (12000 chars).
+  [FOMC] 20230503 saved (12000 chars).
+  [FOMC] 20230614 saved (12000 chars).
+  [FOMC] 20230726 saved (12000 chars).
+  [FOMC] 20230920 saved (12000 chars).
+  [FOMC] 20231101 saved (12000 chars).
+  [FOMC] 20231213 saved (12000 chars).
+  [FOMC] 20240131 saved (12000 chars).
+  [FOMC] 20240320 saved (12000 chars).
+  [FOMC] 20240501 saved (12000 chars).
+  [FOMC] 20240612 saved (12000 chars).
+  [FOMC] 20240731 saved (12000 chars).
+  [FOMC] 20240918 saved (12000 chars).
+  [FOMC] 20241107 saved (12000 chars).
+
+[EconFetch] === NBER Abstracts ===
+  [NBER] w31363 saved (2000 chars).
+  [NBER] w31211 saved (2000 chars).
+  [NBER] w30991 saved (2000 chars).
+  [NBER] w30888 saved (2000 chars).
+  [NBER] w30744 saved (2000 chars).
+  [NBER] w30682 saved (2000 chars).
+  [NBER] w30612 saved (2000 chars).
+  [NBER] w30431 saved (2000 chars).
+  [NBER] w30325 saved (2000 chars).
+  [NBER] w30201 saved (2000 chars).
+  [NBER] w30099 saved (2000 chars).
+  [NBER] w29950 saved (2000 chars).
+  [NBER] w29801 saved (2000 chars).
+  [NBER] w29700 saved (2000 chars).
+  [NBER] w29612 saved (2000 chars).
+
+[EconFetch] Done. 44 documents saved to /home/jnariani_umass_edu/cat_theory/kan_transfer/data/corpora/economic

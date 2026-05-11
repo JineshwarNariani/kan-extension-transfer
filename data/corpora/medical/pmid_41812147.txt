@@ -1,0 +1,101 @@
+
+PMID- 41812147
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260311
+LR  - 20260313
+IS  - 1438-8871 (Electronic)
+IS  - 1439-4456 (Print)
+IS  - 1438-8871 (Linking)
+VI  - 28
+DP  - 2026 Mar 11
+TI  - Enhancing Adherence to Home-Based Expiratory Muscle Strength Training in 
+      Parkinson Disease: Randomized Controlled Trial of an mHealth Intervention.
+PG  - e78022
+LID - 10.2196/78022 [doi]
+LID - e78022
+AB  - BACKGROUND: Aspiration pneumonia is a leading cause of death in Parkinson disease 
+      (PD). Expiratory muscle strength training (EMST) is a promising intervention for 
+      respiratory and swallowing dysfunction. However, long-term EMST adherence is 
+      frequently poor in PD. OBJECTIVE: This study aims to determine whether mobile 
+      health (mHealth)-assisted EMST with the SpiroGym app (Czech Technical University) 
+      improves long-term adherence and physiological outcomes versus conventional EMST 
+      among participants at risk for nonadherence. METHODS: In this single-center, 
+      parallel, phase 2 randomized controlled trial, 75 individuals with PD were 
+      randomized 1:1 to conventional EMST (control; n=38) or the same protocol enhanced 
+      with the SpiroGym app (experimental; n=37), using a simple computer-generated 
+      randomization sequence. The SpiroGym is an mHealth app that provides real-time 
+      performance monitoring, direct visual feedback, and longitudinal progress 
+      tracking. All participants completed 8 weeks of semisupervised intensive EMST 
+      with biweekly in-person reassessments, followed by 16 weeks of unsupervised 
+      maintenance training. The primary outcome was adherence during weeks 8 to 24 
+      among participants at risk for nonadherence, defined a priori at week 8 as 
+      Self-Efficacy for Home Exercise Program Scale (SEHEPS) less than 59. Because risk 
+      status was determined at week 8 and all participants subsequently entered the 
+      unsupervised phase, individuals not classified as at-risk were not excluded. 
+      Their data from week 8 onward were reported alongside the at-risk group. 
+      Secondary outcomes were changes in maximum expiratory pressure and SEHEPS. 
+      RESULTS: No study-related adverse events occurred. Groups were well matched at 
+      baseline (control vs experimental: mean disease duration 7.0 (SD 5.7) vs 7.3 SD 
+      4.7) y; mean Hoehn-Yahr 1.97 (SD 0.6) vs 2.0 (SD 0.5)). The mixed-effects model 
+      showed no significant 3-way interaction (groupxintervalxSEHEPS risk; P=.14). At 
+      week 24, the at-risk category for the nonadherence cohort comprised 34 
+      participants (control, n=17; experimental, n=17). In this at-risk cohort, the 
+      experimental group demonstrated a smaller decline in adherence during weeks 8 to 
+      24 than controls (beta=496.9, 95% CI 130.7-863.3; P=.008), completing 1073 (95% CI 
+      643-1502) expiratory maneuvers versus 525 (95% CI 358-692). Maximum expiratory 
+      pressure increased in both groups from weeks 0 to 24, with larger gains in the 
+      experimental group (+43.1, 95% CI 32.4-53.8 cmH(2)O) than in controls (+22.8, 95% 
+      CI 13.8-31.8 cmH(2)O; P=.006; Cohen d=0.74). SEHEPS improved after intensive 
+      training in both groups, but only the experimental group exceeded the 12-point 
+      minimal detectable change at the 95% confidence limit. CONCLUSIONS: This is the 
+      first randomized controlled trial to integrate mHealth with EMST. Unlike prior 
+      studies in the EMST field, we focused on sustaining long-term exercise adherence. 
+      SpiroGym-assisted EMST resulted in higher long-term adherence and greater gains 
+      in expiratory muscle strength than conventional EMST. In real-world PD care, 
+      assessing self-efficacy after the supervised EMST phase may help identify 
+      individuals who would benefit from digital support, making mHealth-assisted EMST 
+      a practical approach for maintaining exercise adherence.
+CI  - (c) Martin Srp, Martina Hoskovcova, Rebeka Lagnerova, Katerina Dvorakova, Radim 
+      Kliment, Jan Muzik, Radim Krupicka, Ota Gal, Evzen Ruzicka. Originally published 
+      in the Journal of Medical Internet Research (https://www.jmir.org).
+FAU - Srp, Martin
+AU  - Srp M
+AUID- ORCID: 0000-0003-2215-0272
+AD  - Department of Neurology and Center of Clinical Neuroscience, General University 
+      Hospital and First Faculty of Medicine, Charles University, Katerinska 30, 
+      Prague, 120 00, Czech Republic, 420 224965550.
+FAU - Hoskovcova, Martina
+AU  - Hoskovcova M
+AUID- ORCID: 0000-0001-5798-8740
+AD  - Department of Neurology and Center of Clinical Neuroscience, General University 
+      Hospital and First Faculty of Medicine, Charles University, Katerinska 30, 
+      Prague, 120 00, Czech Republic, 420 224965550.
+FAU - Lagnerova, Rebeka
+AU  - Lagnerova R
+AUID- ORCID: 0009-0001-3899-4229
+AD  - Department of Neurology and Center of Clinical Neuroscience, General University 
+      Hospital and First Faculty of Medicine, Charles University, Katerinska 30, 
+      Prague, 120 00, Czech Republic, 420 224965550.
+FAU - Dvorakova, Katerina
+AU  - Dvorakova K
+AUID- ORCID: 0009-0005-4463-8414
+AD  - Department of Neurology and Center of Clinical Neuroscience, General University 
+      Hospital and First Faculty of Medicine, Charles University, Katerinska 30, 
+      Prague, 120 00, Czech Republic, 420 224965550.
+FAU - Kliment, Radim
+AU  - Kliment R
+AUID- ORCID: 0000-0002-6418-9434
+AD  - Department of Information and Communication Technologies in Medicine, Faculty of 
+      Biomedical Engineering, Czech Technical University in Prague, Prague, Czech 
+      Republic.
+FAU - Muzik, Jan
+AU  - Muzik J
+AUID- ORCID: 0000-0002-4851-7899
+AD  - Department of Information and Communication Technologies in Medicine, Faculty of 
+      Biomedical Engineering, Czech Technical University in Prague, Prague, Czech 
+      Republic.
+FAU - Krupicka, Radim
+AU  - Krupicka R
+AUID- ORCID: 0000-0002-0280-215X
+AD  - Department of Biomedical In

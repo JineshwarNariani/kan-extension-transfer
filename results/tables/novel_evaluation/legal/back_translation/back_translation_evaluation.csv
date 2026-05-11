@@ -1,0 +1,31 @@
+query,method,fidelity,fidelity_max,fidelity_min,n_back_translated,n_predicted
+Roles and responsibilities of individual board members,left_kan,0.7061499953269958,0.8213789463043213,0.5719361305236816,4,4
+Federal Reserve Annual Reports and Financial Disclosures,left_kan,0.653766930103302,0.8777819871902466,0.4816870093345642,5,5
+Redundant payment gateway architecture and failover switching mechanisms,left_kan,0.0,,,0,0
+federal reserve public communication channels,left_kan,0.6401214361190796,0.7065653204917908,0.5637630224227905,5,5
+Indemnification and liability protection policies for board members,left_kan,0.6762347221374512,0.7729623913764954,0.5637630224227905,5,5
+Monetary Policy Reports Submitted to Congress,left_kan,0.708755624294281,0.7729623913764954,0.5910875797271729,5,5
+Proportional representation methods and their implementation,left_kan,0.0,,,0,0
+The impact of unconvent,left_kan,0.0,,,0,0
+Beige Book Regional Economic Condition Reports,left_kan,0.0,,,0,0
+Federal Reserve Bank Presidents' Speeches and Public Addresses,left_kan,0.0,,,0,0
+Roles and responsibilities of individual board members,right_kan,0.7150828242301941,0.8571102619171143,0.5719361305236816,4,4
+Federal Reserve Annual Reports and Financial Disclosures,right_kan,0.0,,,0,0
+Redundant payment gateway architecture and failover switching mechanisms,right_kan,0.0,,,0,0
+federal reserve public communication channels,right_kan,0.0,,,0,0
+Indemnification and liability protection policies for board members,right_kan,0.0,,,0,0
+Monetary Policy Reports Submitted to Congress,right_kan,0.0,,,0,0
+Proportional representation methods and their implementation,right_kan,0.0,,,0,0
+The impact of unconvent,right_kan,0.0,,,0,0
+Beige Book Regional Economic Condition Reports,right_kan,0.0,,,0,0
+Federal Reserve Bank Presidents' Speeches and Public Addresses,right_kan,0.0,,,0,0
+Roles and responsibilities of individual board members,naive_rag,0.6764373421669007,0.8599813580513,0.5821703672409058,5,5
+Federal Reserve Annual Reports and Financial Disclosures,naive_rag,0.6557421326637268,0.8013951778411865,0.502141535282135,5,5
+Redundant payment gateway architecture and failover switching mechanisms,naive_rag,0.6312310457229614,0.7589100003242493,0.5570166707038879,5,5
+federal reserve public communication channels,naive_rag,0.7111651659011841,0.7878029346466064,0.5873829126358032,5,5
+Indemnification and liability protection policies for board members,naive_rag,0.8262138843536377,0.9468433260917664,0.7364978194236755,5,5
+Monetary Policy Reports Submitted to Congress,naive_rag,0.7101357579231262,0.8239141702651978,0.5883616209030151,5,5
+Proportional representation methods and their implementation,naive_rag,0.7200900673866272,0.8785977363586426,0.6138665080070496,5,5
+The impact of unconvent,naive_rag,0.7249309420585632,0.9634498357772827,0.5873829126358032,5,5
+Beige Book Regional Economic Condition Reports,naive_rag,0.7257060766220093,0.8107357025146484,0.6000112295150757,5,5
+Federal Reserve Bank Presidents' Speeches and Public Addresses,naive_rag,0.6525780320167541,0.7509041428565979,0.5719361305236816,5,5

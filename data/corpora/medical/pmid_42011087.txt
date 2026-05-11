@@ -1,0 +1,4 @@
+TITLE: A novel methodology using direct patient contact and UK national registries to collect long-term data from randomised trials: TARGIT-X - an extended follow-up study of the TARGIT-A trial of targeted intraoperative radiotherapy for breast cancer.
+
+ABSTRACT:
+Many diseases, including breast cancer, have a long natural history; therefore, longer-term effects of treatments are important for patients and for their full evaluation. However, trial follow-up data are collected by specific staff and are funded for a relatively short duration.

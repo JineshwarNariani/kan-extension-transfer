@@ -1,0 +1,135 @@
+
+PMID- 41690189
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260313
+LR  - 20260313
+IS  - 1879-0046 (Electronic)
+IS  - 0376-8716 (Linking)
+VI  - 281
+DP  - 2026 Apr 1
+TI  - Achieving SVR is associated with long term reduced hazardous alcohol use for 
+      people who inject drugs receiving HCV treatment: The HERO study.
+PG  - 113081
+LID - S0376-8716(26)00062-1 [pii]
+LID - 10.1016/j.drugalcdep.2026.113081 [doi]
+AB  - BACKGROUND/AIMS: People who inject drugs (PWID) have high rates of HCV infection. 
+      Concurrent alcohol use is associated with higher rates of HCV and acceleration of 
+      HCV-related liver disease. This study analyzed alcohol use among PWID both during 
+      and after treatment of HCV with direct-acting antivirals. APPROACH/RESULTS: We 
+      conducted a secondary analysis of the HERO study, a multisite pragmatic 
+      randomized trial, in which PWID with active drug use (n = 755) were assigned to 
+      either patient navigation or modified directly observed therapy models of HCV 
+      care. Alcohol use was measured using the modified Addiction Severity Index (ASI) 
+      and the Alcohol Use Disorders Identification Test-Concise (AUDIT-C). Linear 
+      mixed-effects models were used to analyze changes in alcohol use between 
+      baseline, treatment (weeks 4, 8, and 12), and after-treatment follow-up visits 
+      (weeks 24, 72, 120, 168). Overall, there were no significant differences in ASI 
+      or AUDIT-C scores by sustained virological response (SVR) or treatment arm. Among 
+      patients who achieved SVR, there was a significant reduction in AUDIT-C scores at 
+      all follow-up visits compared to baseline (all, p < 0.05). Among those with high 
+      AUDIT-C score at baseline, there were significant reductions in drinking at all 
+      visits compared to baseline in both treatment arms (all, p </= 0.001). CONCLUSIONS: 
+      Among PWID who achieved SVR or with high AUDIT-C scores at baseline, there was a 
+      significant reduction in AUDIT-C scores at all visits after baseline. The 
+      treatment period for HCV may represent a unique opportunity to address dual 
+      causes of liver disease, especially for individuals with hazardous alcohol use.
+CI  - Copyright (c) 2026 The Authors. Published by Elsevier B.V. All rights reserved.
+FAU - Waters, Emily
+AU  - Waters E
+AD  - University of South Carolina School of Medicine Greenville, Greenville, SC, 
+      United States.
+FAU - Obeysekare, Jessica
+AU  - Obeysekare J
+AD  - University of South Carolina School of Medicine Greenville, Greenville, SC, 
+      United States; Department of Psychiatry, Prisma Health, Greenville, SC, United 
+      States; School of Health Research, Clemson University, Clemson, SC, United 
+      States.
+FAU - Lopes, Snehal
+AU  - Lopes S
+AD  - Department of Public Health Sciences, Clemson University, Clemson, SC, United 
+      States.
+FAU - Pericot-Valverde, Irene
+AU  - Pericot-Valverde I
+AD  - Department of Psychology, Clemson University College of Behavioral, Social and 
+      Health Sciences, Clemson, SC, United States.
+FAU - Norton, Brianna L
+AU  - Norton BL
+AD  - Department of Medicine, Albert Einstein College of Medicine/Montefiore Medical 
+      Center, Bronx, NY, United States.
+FAU - Tsui, Judith I
+AU  - Tsui JI
+AD  - Department of Medicine, University of Washington, Seattle, WA, United States.
+FAU - Mehta, Shruti H
+AU  - Mehta SH
+AD  - Department of Epidemiology, Johns Hopkins Bloomberg School of Public Health, 
+      Baltimore, MD, United States.
+FAU - Taylor, Lynn E
+AU  - Taylor LE
+AD  - Department of Pharmacy Practice and Clinical Research, University of Rhode 
+      Island, Kingston, RI, United States.
+FAU - Lum, Paula J
+AU  - Lum PJ
+AD  - Department of Medicine, University of California, San Francisco, San Francisco, 
+      CA, United States.
+FAU - Feinberg, Judith
+AU  - Feinberg J
+AD  - Department of Behavioral Medicine and Psychiatry, and Department of Medicine, 
+      Section of Infectious Diseases, West Virginia University School of Medicine, 
+      Morgantown, WV, United States.
+FAU - Kim, Arthur Y
+AU  - Kim AY
+AD  - Division of Infectious Diseases, Massachusetts General Hospital and Harvard 
+      Medical School, Boston, MA, United States.
+FAU - Page, Kimberly
+AU  - Page K
+AD  - Department of Internal Medicine, University of New Mexico Health Sciences Center, 
+      University of New Mexico, Albuquerque, NM, United States.
+FAU - Anderson, Jessica
+AU  - Anderson J
+AD  - Department of Internal Medicine, University of New Mexico Health Sciences Center, 
+      University of New Mexico, Albuquerque, NM, United States.
+FAU - Murray-Krezan, Cristina
+AU  - Murray-Krezan C
+AD  - Department of Medicine, University of Pittsburgh, Pittsburgh, PA, United States.
+FAU - Heo, Moonseong
+AU  - Heo M
+AD  - Department of Public Health Sciences, Clemson University, Clemson, SC, United 
+      States.
+FAU - Litwin, Alain H
+AU  - Litwin AH
+AD  - University of South Carolina School of Medicine Greenville, Greenville, SC, 
+      United States; School of Health Research, Clemson University, Clemson, SC, United 
+      States; Department of Medicine, Prisma Health, Greenville, SC, United States. 
+      Electronic address: alain.litwin@prismahealth.org.
+CN  - HERO Study Group
+LA  - eng
+PT  - Journal Article
+PT  - Multicenter Study
+PT  - Pragmatic Clinical Trial
+PT  - Randomized Controlled Trial
+DEP - 20260210
+PL  - Ireland
+TA  - Drug Alcohol Depend
+JT  - Drug and alcohol dependence
+JID - 7513587
+RN  - 0 (Antiviral Agents)
+SB  - IM
+MH  - Humans
+MH  - Male
+MH  - Female
+MH  - *Substance Abuse, Intravenous/complications/epidemiology/psychology
+MH  - Adult
+MH  - *Antiviral Agents/therapeutic use
+MH  - Middle Aged
+MH  - *Hepatitis C/drug therapy/complications/epidemiology
+MH  - *Alcoholism/complications/epidemiology
+MH  - Sustained Virologic Response
+MH  - *Alcohol Drinking/epidemiology
+MH  - Treatment Outcome
+OTO - NOTNLM
+OT  - Alcohol
+OT  - Hcv
+OT  - Modified directly observed therapy
+OT  - Patient navigation
+O

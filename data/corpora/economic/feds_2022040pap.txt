@@ -1,0 +1,2712 @@
+Finance and Economics Discussion Series
+
+Federal Reserve Board, Washington, D.C.
+ISSN 1936-2854 (Print)
+ISSN 2767-3898 (Online)
+
+Cost of Banking for LMI and Minority Communities
+
+Marco Migueis, Michael Suher, and Jessie Xu
+
+2022-040
+
+Please cite this paper as:
+Migueis, Marco, Michael Suher, and Jessie Xu (2022). “Cost of Banking for LMI and Minor-
+ity Communities,” Finance and Economics Discussion Series 2022-040. Washington: Board
+of Governors of the Federal Reserve System, https://doi.org/10.17016/FEDS.2022.040.
+
+NOTE: Staﬀ working papers in the Finance and Economics Discussion Series (FEDS) are preliminary
+materials circulated to stimulate discussion and critical comment. The analysis and conclusions set forth
+are those of the authors and do not indicate concurrence by other members of the research staﬀ or the
+Board of Governors. References in publications to the Finance and Economics Discussion Series (other than
+acknowledgement) should be cleared with the author(s) to protect the tentative character of these papers.
+
+Cost of Banking for LMI and Minority Communities
+
+Marco Migueis*, Michael Suher*, and Jessie Xu†
+
+June 14, 2022
+
+Abstract: Bank accounts are critical for participation in the modern economy. However, these
+
+accounts frequently require maintenance fees and incur overdraft charges. We assess whether min­
+
+imum account balances to avoid fees, account maintenance fee amounts, and non­sufficient funds
+
+charges are systematically different in LMI and majority­minority communities, and find that they
+
+are generally higher. For example, the minimum account balance to avoid fees in a non­interest
+
+checking account is about $50 higher in LMI Census tracts than in higher income tracts, and $75
+
+higher in majority­minority tracts. Differences in bank fees between LMI, majority­minority, and
+
+other communities result from various factors, including bank lending income, bank operating
+
+costs, and bank size.
+
+Keywords: Bank fees; deposit accounts; LMI; majority­minority
+
+JEL Classification Numbers: G21, G50, L11, J15, R23, I30
+
+*Federal Reserve Board
+†Duke University
+
+The views expressed in this manuscript belong to the authors and do not represent official positions of the Federal
+Reserve Board or the Federal Reserve System. The authors thank Elizabeth Duncan and Natalie Kratts for excellent
+research assistance.
+
+1
+
+1
+
+Introduction
+
+Bank accounts facilitate participation in the modern economy and their use is an integral part
+
+of middle­class lifestyle in modern societies; for example, wages in most salaried jobs are typically
+
+paid through direct deposit to a bank account. However, fees relating to deposit accounts take
+
+a particular toll on low­income bank customers. Account maintenance fees are often charged to
+
+customers with low balances, making those with limited savings more susceptible to these fees.
+
+Low­income bank customers are also more likely to frequently overdraft their accounts, which can
+
+result in hefty charges (Pew Charitable Trusts, 2016).
+
+This paper investigates whether disadvantaged communities face the double whammy of higher
+
+minimum account balances and higher bank account fees. We begin by assessing the relation be­
+
+tween bank fees and the income of bank customers by comparing the fees and minimum account
+
+balances charged by banks in low­ and moderate­income (LMI) Census tracts relative to banks in
+
+higher income areas. We find that banks in LMI tracts charge higher maintenance fees and require
+
+larger balances to avoid those fees. For example, banks in LMI neighborhoods require, on aver­
+
+age, a balance about $50 higher to qualify for free checking and otherwise charge a $0.36 higher
+
+monthly maintenance fee, 5% higher than the minimums and fees in non­LMI areas.
+
+We also investigate fees in majority­minority Census tracts. Majority­minority tracts face sig­
+
+nificantly higher fees and minimum account balances across the various types of bank accounts.
+
+The association of LMI tracts with higher fees and minimums attenuates somewhat after accounting
+
+for the majority­minority status of a tract, but retains statistical significance in most cases. Tracts
+
+which are both LMI and majority­minority see minimum balance and maintenance fees on basic
+
+checking accounts which are 9% higher on average than for similar accounts in higher income,
+
+majority­white tracts.
+
+We consider potential drivers for such differences in bank account fees between LMI commu­
+
+nities, majority­minority communities, and other communities, including other business opportu­
+
+nities for banks, operating costs, demographic characteristics, bank age, and bank size. In Census
+
+tracts where banks earn more lending income and where homeownership is higher, bank account
+
+2
+
+fees are lower on average. Similarly, in tracts where bank operating costs are higher, fees are
+
+higher. Meanwhile, we find that older and larger banks charge higher fees. Controlling for these
+
+factors substantially reduces the association between LMI and majority­minority tracts and bank
+
+account fees and generally makes the association between LMI and bank account fees not statis­
+
+tically significant, though the association between majority­minority tracts and higher fees cannot
+
+be fully explained.
+
+Our results are generally consistent with Adams (2017), who finds that low­income and mi­
+
+nority populations generally pay higher bank fees. Unlike Adams (2017), our analysis is squarely
+
+focused on the question of cost of banking for LMI and majority­minority populations and we con­
+
+sider several additional indicators of the cost of retail banking services, such as minimum deposit
+
+balances to avoid account maintenance fees. Our results are also consistent with the findings of
+
+Faber and Friedline (2020) that minimum account balances to avoid fees are substantially higher
+
+in majority­minority communities than in majority­white communities.
+
+The rest of this article is divided as follows: Section 2 provides background and discusses
+
+the literature on the cost of banking for LMI and minority populations; Section 3 describes our
+
+data; Section 4 describes our statistical methodology and presents our empirical results; Section 5
+
+concludes.
+
+2 Background
+
+Bank fee revenues have more than doubled in the past three decades, which has led them to grow
+
+as a share of banks’ total revenues (Pew Charitable Trusts, 2016).1 According to bank regulatory
+
+reports, service charges on deposit accounts accounted for 21% of the net income of US banks in
+
+2015, the year of our study. Major fee types include account maintenance fees and overdraft and
+
+non­sufficient funds (NSF) fees.
+
+1Previous research papers have argued that high retail banking fees may be, in part, an unintended consequence
+of legislation (Bernard, 2011; Sarin, 2019). Following the 2008 financial crisis, the Durbin Amendment of the 2010
+Dodd­Frank Act required banks to cut fees charged on debit card processing. Banks were estimated to lose $6.6 billion
+in revenues from this act, which these papers argue caused many banks to introduce new monthly maintenance fees.
+
+3
+
+Account maintenance fees have significant impacts on the financial health of low­income and
+
+minority bank customers. LMI households are estimated to have paid $1.4 billion out of the $2.5
+
+billion U.S. banks earned from checking and savings account maintenance fees in 2021 (Greene
+
+et al., 2021). Also, Faber and Friedline (2020) find that checking accounts have higher minimum
+
+account balances to avoid fees in majority­minority communities than in majority­white commu­
+
+nities ($810 in majority­minority communities vs. $620 in majority­white communities).
+
+U.S. banks with assets over $1 billion collected over $11.45 billion in overdraft and NSF fees
+
+in 2017 (Smith, 2018). Overdraft fees are high – the median overdraft fee was $35 as of 2016 (Pew
+
+Charitable Trusts, 2016) – and often not well understood by customers.2,3 Overdraft and NSF fee
+
+revenue is concentrated in a small share of customers.4 The most frequent overdrafters have low
+
+credit scores (sub­600) or lack credit scores completely, carry low account balances, and are more
+
+likely to use debit card transactions and ATM services. Overdraft fees are especially detrimental
+
+to low­income consumers. As of 2014, seven in ten consumers paying over $100 in overdraft fees
+
+belonged to households with less than $50,000 in annual income (Pew Charitable Trusts, 2016).
+
+Banked households are defined by the Federal Deposit Insurance Corporation (FDIC) as those
+
+that have at least one checking or savings account at a bank or credit union; unbanked households
+
+as those that have no bank or credit union account; and underbanked households as those that use
+
+both traditional banking services and alternative financial services (AFS), such as payday lending
+
+(Federal Deposit Insurance Corporation, 2018).5 According to a 2017 FDIC survey, 8.4 million
+
+US households (6.5%) are “unbanked” and an additional 24.2 million households (18.7%) are “un­
+
+2The federal “opt­in” rule prohibits financial institutions from charging overdraft fees on ATM and one­time debit­
+card transactions without customer consent (Federal Reserve System, 2009). However, banks often fail to discuss
+alternatives with frequent overdrafters. Seven in ten overdrafters are not aware that they have the right to overdraft
+protection on debit cards for free (Pew Charitable Trusts, 2017).
+
+3Alan et al. (2018) find that Turkish bank clients were more likely to overdraft when the fee was high, but not
+mentioned in the account promotional materials, than when the fee was low but mentioned in the account promotional
+materials.
+
+4A 2017 study from the Consumer Financial Protection Bureau (CFPB) found that 79% of overdraft and NSF fees
+are paid by just 9% of account holders (Low et al., 2017). A survey discussed in Stango and Zinman (2009) finds that
+68% of respondents paid no overdraft fees, while the 90th percentile of those who had some positive overdraft amount
+paid $43 per month on average.
+
+5AFS is a broad term for a wide range of services, including check­cashing, payday loans, pawn shops, early­access
+
+wages, or high­fee prepaid cards.
+
+4
+
+derbanked.” The lack of a relationship with a bank often results in low­income households keeping
+
+cash at home (Brobeck, 2020). According to the 2016 Federal Reserve Survey of Consumer Fi­
+
+nances, households in the lowest quintile of the income distribution held only $900 in financial
+
+assets on average (which is less than the average minimum balance, $971, to have a free non­
+
+interest checking account according to 2015 RateWatch data) and only 31% of households in this
+
+quintile held a bank savings or money market deposit account (Brobeck, 2020).
+
+Low­income consumers cite multiple reasons for not using traditional bank accounts including
+
+lack of sufficient savings to need an account, high fees and minimum balance requirements, and
+
+hidden fees levied by banks (Booz­Allen Hamilton and Shugoll Research, 1997; Berry, 2004; Pew
+
+Health Group, 2011; Sarin, 2019).6 Our study aims to assess whether the bank account fees faced
+
+by LMI and minority communities are relatively higher than those faced by higher income and
+
+white households, and what factors may explain this difference.
+
+3 Data
+
+Data on retail banking fees are gathered from a 2015­16 survey by RateWatch. Our dataset in­
+
+cludes 1,885 banks with a total of 70,404 branches, accounting for 77% of bank branches across the
+
+US in 2015. We focus our analysis on bank account maintenance fees, specifically on the minimum
+
+account balances to avoid account maintenance fees and the account maintenance fee amounts for
+
+non­interest checking deposit accounts, interest checking deposit accounts, and savings accounts.
+
+In addition, we consider other fees associated with bank accounts, specifically the returned check
+
+fees due to NSF and the daily maximum NSF charges.
+
+The unit of analysis in the main regressions of our paper is the Census tract. To understand the
+
+bank fees experienced by the residents of a certain census tract, we average the account minimum
+
+6Studies have also found that banks are significantly underrepresented in low­income, urban neighborhoods. To­
+gether with high fees, distance to bank branches causes households located in low­income areas to be more likely to use
+AFS providers instead of traditional banking services (Caskey, 1994; Goodstein and Rhine, 2017). AFS providers tar­
+get their services towards low to middle­income borrowers (Barr, 2004), and low­income consumers see AFS providers
+as attractive for their ability to provide cash quickly.
+
+5
+
+balances and the fee amounts across the banks with branches either inside the reference tract or
+
+within 3 kilometers of the tract centroid.7 Figure 1 visualizes this process for an example neigh­
+
+borhood. In this instance, the highlighted reference tract in Washington, DC is linked to the two
+
+branches inside its border and seven more branches within the 3 km radius, all indicated by the
+
+triangles. More distant branches denoted by the circles are considered outside this neighborhood’s
+
+geographic market.
+
+Figure 1: Defining Neighborhood Bank Branches
+
+Note: Branch locations from FDIC Summary of Deposits. Shown is an example of how the extent of the local
+banking market is defined geographically for a given Census tract as any branches within 3 km of the tract centroid.
+
+Table 1 presents descriptive statistics for the bank fee variables.
+
+Interest bearing checking
+
+7In less dense areas where there are no bank branches within 3 km of a Census tract centroid, the closest branch to
+the tract centroid is considered that neighborhood’s local banking option with its associated menu of fees and account
+minimums. If there is no branch within 15 km of a tract’s centroid, it is dropped from the sample.
+
+6
+
+accounts – which pay interest without the withdrawal limitations associated with savings accounts
+
+– require higher account balances to avoid account maintenance fees, on average, than non­interest
+
+bearing checking accounts ($7,234 vs. $971). Meanwhile, savings accounts require, on average,
+
+the smallest balances to avoid account maintenance fees ($273). The average account maintenance
+
+fee amounts also line up similarly ($15.87 for interest bearing checking accounts, $7.67 for non­
+
+interest bearing checking accounts, and $4.37 for savings accounts). Maximum daily NSF fees
+
+average $167, and the average fee for a returned check due to NSF is $34. Minimum account
+
+balances to avoid account maintenance fees and fee amounts are positively correlated across the
+
+board.
+
+Table 1: Account fees and minimum balance requirements by Census tract
+
+N
+
+Mean Std Dev Minimum Maximum
+
+No­Interest Checking Minimum 60,423
+61,546
+Interest Checking Minimum
+61,676
+Savings Minimum
+61,672
+No­Interest Checking Fee
+61,671
+Interest Checking Fee
+61,657
+Savings Fee
+59,774
+NSF Daily Max
+62,321
+NSF Returned Check
+
+971
+7,234
+273
+7.67
+15.87
+4.37
+166.9
+33.60
+
+637
+4,402
+146
+3.04
+4.98
+1.41
+38.4
+2.70
+
+0
+0
+0
+0
+0
+0
+0
+10
+
+15,000
+25,000
+10,000
+20
+50
+25
+500
+45
+
+Note: Bank fee data from RateWatch survey of U.S. banks from 2015/2016. Data is averaged by Census tract as
+described at the beginning of section 3. Minimum refers to the account balance required to avoid monthly
+maintenance fees. NSF stands for Non­sufficient funds.
+
+We obtain the main explanatory variables of our study, whether a Census tract is LMI or
+
+majority­minority, from the 2015 Federal Financial Institutions Examination Council (FFIEC) Cen­
+
+sus File. LMI tracts have median family income below 80% of their metro area median family
+
+income. Majority­minority tracts have a minority share of the tract population above 50%. In
+
+addition, our analysis controls for multiple demographic factors obtained from the American Com­
+
+munity Survey 2013­2017 five­year sample (ACS). Demographic variables include the percentage
+
+of the population above 65, the percentage of the population that attained a bachelor’s degree, and
+
+7
+
+the percentage of home owner­occupiers. Tract classifications as urban, suburban, or rural come
+
+from the Department of Housing and Urban Development (HUD) Urbanization Perceptions Small
+
+Area Index (UPSAI). HUD used survey responses in the 2017 American Housing Survey where
+
+residents self­identified their tract as urban, suburban, or rural and statistically extrapolated these
+
+labels to all tracts using ACS data.
+
+In addition, our analysis includes several controls at the bank level. We obtain operating costs
+
+and lending income for 2015 and total assets as of 2015Q4 from a bank’s call report. We obtain the
+
+number of branches a bank has in a tract’s market area and branch ages from the FDIC Summary
+
+of Deposits data. We construct tract level controls for these variables as follows: 1) in calculating
+
+the operating cost control, we first divide a bank’s total operating cost by its number of branches;8
+
+then, the average operating cost for banks in a tract is calculated based on an average across the
+
+branches in a tract that follows the same procedure as our averaging of bank fees; 2) in calculating
+
+the lending income control, we first divide a bank’s lending income by its total assets; then, the
+
+average lending income for banks in a tract is calculated based on an average across the branches
+
+in a tract that follows the same procedure as in 1); 3) the bank size control reflects the proportion
+
+of bank branches in a tract that belong to a bank with more than 500 U.S. branches; and 4) average
+
+branch age in a tract’s market area is labelled newer if it is less than 15 years and labelled older if
+
+it is greater than 35 years.
+
+To facilitate comparisons of effects, we standardized the following control variables to their z­
+
+score: lending income, percentage of owner­occupied housing, operating costs, percentage of the
+
+population over 65, and percentage of the population with a bachelor’s degree.
+
+Table 2 presents the descriptive statistics of the explanatory and control variables used in our
+
+analysis.
+
+8We exclude from the sample the banks at the 1st and 99th percentile of operating costs per branch as a few firms
+
+had implausible values for this variable.
+
+8
+
+Table 2: Descriptive Statistics
+
+N
+
+Mean Std Dev Minimum Maximum
+
+LMI
+Majority­Minority
+Lending Income
+Owner Occupied
+Operating Costs
+Rural
+Urban
+New Banks
+Old Banks
+Large Banks
+% Over 65
+% BA
+
+69,551
+69,551
+69,551
+69,549
+69,551
+69,551
+69,551
+69,551
+69,551
+69,551
+69,551
+69,551
+
+0.299
+0.292
+0.025
+63.0
+4,166
+0.204
+0.310
+0.132
+0.520
+0.485
+15.5
+29.9
+
+0.458
+0.455
+0.005
+22.7
+2,730
+0.403
+0.462
+0.339
+0.500
+0.350
+7.7
+19.0
+
+0
+0
+0
+0
+356
+0
+0
+0
+0
+0
+0
+0
+
+1
+1
+0.168
+100
+38,934
+1
+1
+1
+1
+1
+91.0
+96.4
+
+Note: LMI and majority­minority tracts are from the 2015 FFIEC Census File. Demographic variables are from the
+ACS 2013­2017 five­year sample. Operating cost per branch (Dollar amounts in thousands) and lending income over
+assets are from CALL reports. Urban, suburban, or rural tracts come from the HUD Urbanization Perceptions Small
+Area Index. Number of branches and branch age are from FDIC Summary of Deposits data. Variable construction
+described in section 3.
+
+4 Empirical Analysis
+
+4.1 LMI communities, majority­minority communities, and bank account
+
+fees
+
+We start by exploring how average account fees and minimum account balances in a Census
+
+tract relate to whether a tract is LMI. This is meant to describe the retail banking environment
+
+that characterizes LMI neighborhoods and assess whether systematic differences exist. Because
+
+LMI designations are specific to each metropolitan statistical areas (MSA), we include MSA fixed
+
+effects in all specifications.9
+
+Yic = β0 + γc + β11(LM I)ic + εic.
+
+(1)
+
+9Census tracts outside metro areas are grouped together as a single unit in each state.
+
+9
+
+Here Y is a fee or minimum variable, i is a tract, and c is a metro area. 1(LM I)ic is an indicator
+
+equal to one if tract i is considered low or moderate income in metro c, and zero if it is middle or
+
+upper income. Table 3 presents the results of these regressions.
+
+Table 3: LMI tracts
+
+No­Int Check
+
+Int Check
+
+Savings
+
+No­Int Check
+
+Int Check
+
+Savings
+
+NSF
+
+NSF
+
+Minimum
+
+Minimum
+
+Minimum
+
+Fee
+
+Fee
+
+Fee
+
+Daily Max Ret Check Fee
+
+LMI tract
+
+Constant
+
+48.6***
+
+(4.10)
+
+955***
+
+(2.79)
+
+291***
+
+(28.4)
+
+7,142***
+
+(18.0)
+
+Observations
+
+60,423
+
+R­squared
+
+0.302
+
+61,546
+
+0.362
+
+Robust standard errors in parentheses
+∗ p < 0.1, ∗∗ p < 0.05, ∗∗∗ p < 0.01
+
+7.06***
+
+(0.94)
+
+271***
+
+(0.74)
+
+61,676
+
+0.183
+
+0.36***
+
+(0.018)
+
+7.55***
+
+(0.012)
+
+61,672
+
+0.435
+
+0.52***
+
+(0.031)
+
+15.7***
+
+(0.020)
+
+61,671
+
+0.404
+
+0.071***
+
+­1.43***
+
+(0.0097)
+
+4.34***
+
+(0.0061)
+
+61,657
+
+0.276
+
+(0.25)
+
+167***
+
+(0.16)
+
+59,774
+
+0.334
+
+0.15***
+
+(0.017)
+
+33.6***
+
+(0.011)
+
+62,321
+
+0.374
+
+Note: All specifications include metro area fixed effects.
+
+Bank accounts are consistently more expensive in LMI communities, both in their maintenance
+
+fees and minimum account balances required to avoid those fees. For the most basic accounts,
+
+non­interest checking, the minimum balance required to not pay a maintenance fee was $49 higher
+
+on average in LMI census tracts compared to non­LMI census tracts, and the maintenance fee was
+
+$0.36 larger. For perspective, this implies that in the average LMI tract, failure to maintain a $1,000
+
+minimum balance would result in annual maintenance fees of about $100, spelling the erosion of
+
+at least 10% of the account’s value.
+
+Returned check fees are also higher on average in LMI tracts. Among the variables that we
+
+consider, the one exception to LMI communities facing higher fees is the daily limit for NSF fees,
+
+which are somewhat smaller.
+
+Following prior research that documented disparities in retail banking for minority customers,
+
+we also look at how the environment differs in majority­minority neighborhoods.
+
+10
+
+Yic = β0 + αc + β11(LM I)ic + β21(M ajority_minority)ic + εic.
+
+(2)
+
+Table 4 presents the results of these regressions.
+
+Table 4: Minority tracts
+
+No­Int Check
+
+Int Check
+
+Savings
+
+No­Int Check
+
+Int Check
+
+Savings
+
+NSF
+
+NSF
+
+Minimum
+
+Minimum
+
+Minimum
+
+Fee
+
+Fee
+
+Fee
+
+Daily Max Ret Check Fee
+
+LMI tract
+
+48.6***
+
+(4.10)
+
+Maj. Min. tract
+
+75.4***
+
+LMI tract
+
+(3.78)
+
+20.6***
+
+(4.79)
+
+Maj. Min. tract
+
+64.0***
+
+Constant
+
+(4.47)
+
+944***
+
+(2.93)
+
+291***
+
+(28.4)
+
+514***
+
+(31.2)
+
+87.8***
+
+(33.4)
+
+466***
+
+(36.8)
+
+7,060***
+
+(19.4)
+
+Observations
+
+R­squared
+
+60,423
+
+0.304
+
+61,546
+
+0.363
+
+Robust standard errors in parentheses
+∗ p < 0.1, ∗∗ p < 0.05, ∗∗∗ p < 0.01
+
+7.06***
+
+(0.94)
+
+14.8***
+
+(1.39)
+
+0.80
+
+(0.93)
+
+14.3***
+
+(1.48)
+
+269***
+
+(0.89)
+
+61,676
+
+0.184
+
+0.36***
+
+(0.018)
+
+0.57***
+
+(0.019)
+
+0.15***
+
+(0.022)
+
+0.49***
+
+(0.023)
+
+7.47***
+
+(0.013)
+
+61,672
+
+0.438
+
+0.52***
+
+(0.031)
+
+0.84***
+
+(0.035)
+
+0.20***
+
+(0.037)
+
+0.73***
+
+(0.041)
+
+15.6***
+
+(0.021)
+
+61,671
+
+0.407
+
+0.071***
+
+(0.0097)
+
+­1.43***
+
+(0.25)
+
+0.079***
+
+­3.40***
+
+(0.010)
+
+(0.27)
+
+0.048***
+
+(0.011)
+
+0.083
+
+(0.30)
+
+0.053***
+
+­3.44***
+
+(0.012)
+
+4.34***
+
+(0.0066)
+
+61,657
+
+0.276
+
+(0.32)
+
+168***
+
+(0.17)
+
+59,774
+
+0.335
+
+0.15***
+
+(0.017)
+
+0.20***
+
+(0.017)
+
+0.079***
+
+(0.020)
+
+0.16***
+
+(0.021)
+
+33.5***
+
+(0.011)
+
+62,321
+
+0.374
+
+Note: The top panels show the results from univariate regressions. All specifications include metro area fixed effects.
+
+The results in the second row describe average differences in majority­minority neighborhoods
+
+relative to other neighborhoods. majority­minority tracts have higher minimums and fees across
+
+all account types. No­interest checking minimum balances to avoid fees are on average $75 higher
+
+and account maintenance fees are $0.57 higher. These results are consistent with the findings of
+
+Faber and Friedline (2020) who, using a different bank survey, also find that banks in minority
+
+neighborhoods required higher minimum balances to avoid account maintenance fees.
+
+The lower panel of Table 4 presents results when indicators for whether tracts are LMI or
+
+majority­minority are included simultaneously in the regressions. Coefficients on both indicators
+
+decrease relative to the univariate regressions, which is expected given that, as shown in Table 5,
+
+they have a correlation of about 0.5. For example, the coefficient on the LMI tract indicator for the
+
+11
+
+regression of the minimum account balance required to avoid a maintenance fee on a no­interest
+
+checking account goes down from $49 to $21. Still, the coefficients associated with LMI tracts
+
+remain positive and statistically significant in most regressions. The coefficients on the majority­
+
+minority indicators are positive (again with the exception of the daily limit on NSF fees) and of
+
+larger magnitude than the coefficients on the LMI indicators. This suggests that the factors under­
+
+pinning higher bank fees are stronger in majority­minority Census tracts than in LMI tracts. Im­
+
+portantly though, these differences are additive for tracts that are both LMI and majority­minority.
+
+Banks in neighborhoods that are both LMI and majority­minority require a $85 higher minimum
+
+account balance on average to avoid maintenance fees on no­interest checking accounts than do
+
+banks in tracts that are both higher income and majority­white.
+
+4.2 Explanations for higher bank fees in LMI and majority­minority com­
+
+munities
+
+Retail banking services are more costly for lower income customers because they are more
+
+likely to fall below minimum balance requirements and have more frequent overdrafts. It does not
+
+directly follow though that retail banking services would in general be more expensive in lower
+
+income neighborhoods as we have documented above, and it is even less clear why this is also the
+
+case in minority neighborhoods. To try and shed some light on this we consider some possible
+
+explanations for these higher prices related to lack of competition, business models, and operating
+
+costs.
+
+A bank’s ability to earn revenue from sources besides retail fees may influence how high a bank
+
+sets those fees. For example, a bank more focused on prospective lending income may set lower
+
+fees to attract customers it can then sell other products. Per Table 5, the lending income of banks
+
+is somewhat negatively correlated with whether a tract is LMI or majority­minority. As another
+
+proxy for prospective lending income, we also include in our regressions the home ownership rate
+
+in a tract. More local owner occupied housing likely enhances a bank’s ability to earn income from
+
+products such as mortgages instead of fees on its deposit accounts. The owner­occupied housing
+
+12
+
+rate in a Census tract is also negatively correlated with whether a tract is LMI or majority­minority.
+
+Table 5: Correlation Table
+
+LMI
+
+Majority­Minority
+
+Lending Income
+
+% Owner Occupied
+
+Operating Costs
+
+Rural
+
+Urban
+
+New Banks
+
+Old Banks
+
+Large Banks
+
+% Over 65
+
+% BA
+
+LMI
+
+1.00
+
+0.47
+
+­0.10
+
+­0.55
+
+0.12
+
+­0.18
+
+0.43
+
+­0.14
+
+0.17
+
+0.13
+
+­0.25
+
+­0.40
+
+Maj­Minority
+
+0.47
+
+1.00
+
+­0.21
+
+­0.45
+
+0.34
+
+­0.25
+
+0.41
+
+­0.08
+
+0.08
+
+0.24
+
+­0.32
+
+­0.30
+
+Bank operating costs are a plausible driver of fee levels, as banks with higher costs likely need
+
+to charge their customers higher fees to recoup costs. We find that operating costs are positively
+
+correlated with whether a tract is LMI or majority­minority. The density of a location may also
+
+affect bank fees, at least partly due to its effect on bank operating costs. Thus, we include dummy
+
+variables for whether a tract is rural or urban (suburban is the excluded category).
+
+Bank age may have effects on bank fees if, for example, older banks have a more loyal customer
+
+base who will abide at least somewhat higher fees. On the flip side, newer banks may use lower fees
+
+or no­minimum checking accounts to entice new customers. To test this we include two dummy
+
+variables in the regressions for whether branches in a tract are relatively new on average or relatively
+
+old. LMI and majority­minority census tracts generally have older branches.
+
+Bank size may also plausibly affect bank fees, due to economies of scale (which may make
+
+fees lower) and to market power (which may make fees higher). The proportion of large banks in
+
+a Census tract, which we define as having a branch network with at least 500 locations, correlates
+
+13
+
+positively with whether a tract is LMI or majority­minority.
+
+The share of seniors or of individuals with a bachelor’s degree may also plausibly affect bank
+
+fees. One possible mechanism is financial literacy. Research has shown that senior individuals
+
+and individuals with less schooling score lower in financial literacy tests (Bumcrot and Lusardi,
+
+2013).10 Lower financial literacy could may mean individuals are less aware of sometimes opaque
+
+fee and minimum structures and the availability of lower cost options at other branches or online.
+
+Standard economic theory holds that, all else equal, more competition should be associated
+
+with lower prices for consumers of goods and services. We explored proxying for the competition
+
+a bank faces through two variables: 1) the average number of other banks in a census tract, and 2)
+
+the average number of AFS providers in a census tract.11 When included in the fee and minimum
+
+regressions, we find these counts of banks and AFS outlets are actually associated with higher fees
+
+and minimums. This suggests that these metrics are not capturing lack of competition well or are
+
+more a proxy of some other cost driver like very high­density within the ”urban” tract classifica­
+
+tion. We will omit these count variables from the regressions that we present below while noting
+
+that other variables we do include, which proxy for customer loyalty, financial sophistication, or
+
+openness to online banking, do relate to market power and lack of effective competition.
+
+Table 6 presents the results of these regressions. The control variables we consider gener­
+
+ally have regression coefficients in line with theoretical predictions. Higher lending income home
+
+ownership rates are generally associated with lower fees and minimums. Higher operating costs are
+
+generally associated with higher fees and minimums. Banks charge lower fees and require lower
+
+minimum balances in rural areas. Confirming our hypothesis, newer branches are associated with
+
+lower fees (older branches are not consistently associated with fee differences). Somewhat sur­
+
+prisingly, we find that a higher proportion of individuals with bachelor’s degree is associated with
+
+higher fees. We find no consistent relation between the proportion of population over 65 and fees
+
+10Williams (2016) finds that median age is negatively associated with bank overdraft fees, and that the effect of
+
+education on fees is not statistically significant.
+
+11Melzer and Morgan (2015) find that banks and credit unions reduce overdraft limits and prices when payday
+lending is banned. They interpret this joint finding to imply that when payday lending is banned, banks and credit
+unions take less risk (i.e., allow less overdrafts) and this ends up resulting in lower overdraft prices.
+
+14
+
+Table 6: Cost explanations
+
+No­Int Check
+
+Int Check
+
+Savings
+
+No­Int Check
+
+Int Check
+
+Savings
+
+NSF
+
+NSF
+
+Minimum
+
+Minimum
+
+Minimum
+
+Fee
+
+Fee
+
+Fee
+
+Daily Max Ret Check Fee
+
+LMI tract
+
+Maj. Min. tract
+
+LMI tract
+
+Maj. Min. tract
+
+% Over 65
+
+% BA
+
+Operating costs
+
+20.6***
+
+(4.79)
+
+64.0***
+
+(4.47)
+
+­7.40
+
+(5.66)
+
+12.8***
+
+(4.84)
+
+­5.91***
+
+(2.01)
+
+1.19
+
+(2.30)
+
+119***
+
+(4.80)
+
+87.8***
+
+(33.4)
+
+466***
+
+(36.8)
+
+­34.1
+
+(38.3)
+
+64.6*
+
+(38.9)
+
+8.06
+
+(16.0)
+
+63.8***
+
+(16.3)
+
+844***
+
+(39.9)
+
+Lending income
+
+­94.4***
+
+­1,182***
+
+(10.4)
+
+% Owner occupied
+
+­7.10***
+
+(2.24)
+
+(57.2)
+
+­36.6**
+
+(16.0)
+
+0.80
+
+(0.93)
+
+14.3***
+
+(1.48)
+
+­2.89**
+
+(1.13)
+
+8.99***
+
+(1.65)
+
+2.30***
+
+(0.43)
+
+5.34***
+
+(0.48)
+
+3.82***
+
+(0.91)
+
+5.33*
+
+(2.89)
+
+(0.51)
+
+­44.3***
+
+­442***
+
+­12.9***
+
+(11.8)
+
+1.17
+
+(4.34)
+
+(63.6)
+
+­86.7***
+
+(29.5)
+
+(2.31)
+
+4.49***
+
+(1.01)
+
+0.15***
+
+(0.022)
+
+0.49***
+
+(0.023)
+
+0.046**
+
+(0.023)
+
+0.11***
+
+(0.022)
+
+­0.020**
+
+(0.0091)
+
+0.063***
+
+(0.0098)
+
+0.80***
+
+(0.023)
+
+0.20***
+
+(0.037)
+
+0.73***
+
+(0.041)
+
+0.093**
+
+(0.041)
+
+0.29***
+
+(0.042)
+
+­0.0096
+
+(0.016)
+
+0.17***
+
+(0.018)
+
+0.92***
+
+(0.035)
+
+­1.49***
+
+­2.00***
+
+(0.047)
+
+(0.0098)
+
+­0.49***
+
+(0.037)
+
+­0.018
+
+(0.018)
+
+(0.070)
+
+­0.031*
+
+(0.018)
+
+­0.60***
+
+(0.066)
+
+­0.083***
+
+(0.031)
+
+­3.80***
+
+­0.026***
+
+0.079***
+
+(0.020)
+
+0.16***
+
+(0.021)
+
+0.034
+
+(0.024)
+
+0.013
+
+(0.022)
+
+­0.014
+
+(0.0089)
+
+0.044***
+
+(0.0100)
+
+0.20***
+
+(0.016)
+
+­0.15***
+
+(0.055)
+
+0.057***
+
+(0.011)
+
+0.048***
+
+(0.011)
+
+0.083
+
+(0.30)
+
+0.053***
+
+­3.44***
+
+(0.012)
+
+(0.32)
+
+0.021
+
+(0.015)
+
+0.0067
+
+(0.013)
+
+­0.0021
+
+(0.0053)
+
+0.036***
+
+(0.0059)
+
+0.50
+
+(0.36)
+
+­1.19***
+
+(0.34)
+
+0.033
+
+(0.14)
+
+1.58***
+
+(0.15)
+
+­0.054***
+
+­12.8***
+
+(0.011)
+
+­0.020
+
+(0.030)
+
+­0.016***
+
+(0.0059)
+
+­0.12***
+
+(0.023)
+
+0.023**
+
+(0.011)
+
+(0.40)
+
+17.3***
+
+(0.71)
+
+­0.18
+
+(0.15)
+
+­2.09***
+
+­0.39***
+
+(0.63)
+
+0.56**
+
+(0.28)
+
+(0.041)
+
+0.075***
+
+(0.019)
+
+­91.2***
+
+­740***
+
+­21.8***
+
+­0.39***
+
+­1.08***
+
+­0.19***
+
+­4.27***
+
+­0.56***
+
+(9.09)
+
+14.3**
+
+(5.58)
+
+268***
+
+(15.9)
+
+677***
+
+(8.98)
+
+60,421
+
+0.352
+
+(58.6)
+
+­35.5
+
+(32.9)
+
+(1.70)
+
+­6.32***
+
+(1.54)
+
+3,318***
+
+99.6***
+
+(99.9)
+
+4,236***
+
+(47.7)
+
+61,544
+
+0.468
+
+(2.46)
+
+224***
+
+(2.48)
+
+61,674
+
+0.220
+
+(0.034)
+
+­0.0037
+
+(0.019)
+
+2.21***
+
+(0.061)
+
+5.00***
+
+(0.030)
+
+61,670
+
+0.605
+
+(0.063)
+
+0.020
+
+(0.035)
+
+3.56***
+
+(0.10)
+
+12.1***
+
+(0.053)
+
+61,669
+
+0.533
+
+(0.023)
+
+­0.026**
+
+(0.012)
+
+0.84***
+
+(0.039)
+
+3.98***
+
+(0.019)
+
+61,655
+
+0.302
+
+(0.62)
+
+0.20
+
+(0.31)
+
+22.3***
+
+(0.98)
+
+176***
+
+(0.48)
+
+59,772
+
+0.387
+
+(0.039)
+
+0.0090
+
+(0.020)
+
+1.51***
+
+(0.069)
+
+32.6***
+
+(0.031)
+
+62,319
+
+0.414
+
+Rural
+
+Urban
+
+Newer
+
+Older
+
+Big bank share
+
+Constant
+
+Observations
+
+R­squared
+
+Robust standard errors in parentheses
+∗ p < 0.1, ∗∗ p < 0.05, ∗∗∗ p < 0.01
+
+Note: The top panel reprints the results when no controls are included from Table 4 for ease of comparison. The
+variables % Over 65, % BA, Operating costs, Lending income, and % Owner occupied enter as z­scores meaning
+those coefficients capture a difference of one standard deviation in that variable across the distribution over all
+Census tracts. All specifications include metro area fixed effects.
+
+15
+
+or minimums. Lastly, we find a strong positive relationship with the presence of large banks. This
+
+suggests that larger banks with their higher market power can charge higher bank account fees and
+
+set higher minimum account balances to avoid fees.
+
+With all the controls included LMI tracts are generally no longer associated with higher fees
+
+or minimums implying that standard economic explanations underpin the systematically less fa­
+
+vorable retail banking environment observed in low­ and moderate­income communities. The in­
+
+clusion of the explanatory variables reduces the estimated coefficients of majority­minority tract
+
+indicators across the range of bank fee variables considered, but does not eliminate their statistical
+
+significance. For example, the minimum balance required to avoid maintenance fees for no­interest
+
+checking accounts in majority­minority tracts is still $13 higher on average than in other tracts even
+
+accounting for all controls.
+
+4.3 Bank­level analysis
+
+Because empirically most fee and minimum decisions are made at the bank rather than the
+
+branch level, we turn to analogous regressions at the firm level. This alternative setup provides a
+
+more direct lens into bank decision­making, as opposed to the focus on the impact on communities
+
+that is achieved through the Census tract level regressions.
+
+Under this approach, bank fee and minimum account balance variables generally require no
+
+averaging, as most banks (95%) report the same fee and minimum account balances across their
+
+various branches. The few banks where some differences were reported tend to be large firms. In
+
+those cases, we average fee and minimum values across the bank’s branch network with every link
+
+between a branch and a tract contributing equally. Other bank variables, such as lending income,
+
+bank age, and size, are also directly used for each bank.
+
+To construct the demographic variables that may influence the fees and minimum account bal­
+
+ances a bank sets, we take averages of the Census variables across all tracts deemed within a given
+
+bank’s branch network market as detailed in section 3.
+
+In assessing whether banks in LMI communities or in majority­minority communities set higher
+
+16
+
+minimum account balances to avoid fees or set higher fee amounts, we estimate two regression
+
+specifications: first one where the extent to which a bank’s branches are located in LMI or majority­
+
+minority neighborhoods are the only explanatory variables and second one where the various con­
+
+trol variables previously discussed for the Census­tract level regressions are included. All explana­
+
+tory variables, with the exception of the big bank indicator, enter as z­scores. This means the
+
+coefficients capture a difference of one standard deviation in that variable across the distribution
+
+over all banks and that the constant gives the average of the dependent variables for a bank with the
+
+mean value of each variable. The mean LMI tract concentration is 24% with a standard deviation
+
+of 25% and the mean majority­minority tract concentration is 15% with a standard deviation of
+
+25%. Table 7 presents the results of these regressions.
+
+Banks more concentrated in LMI tracts require a higher minimum account balance to avoid
+
+maintenance fees on interest checking accounts, have higher daily NSF fee limits, and charge higher
+
+returned check fees. We find no statistically significant relation between a bank’s concentration in
+
+LMI communities and other fee variables. Banks more concentrated in majority­minority tracts
+
+require higher account balances to avoid fees and charge higher fees across the various categories
+
+considered. For example, the minimum account balance to avoid a maintenance fee on a non­
+
+interest checking account set by banks rises on average about $100 for a bank one standard deviation
+
+more concentrated in majority­minority tracts.
+
+Once the control variables are added to the regressions, the coefficients associated with banks
+
+being located in LMI tracts generally decrease, and statistical significance is only retained for the
+
+minimum balance to avoid maintenance fees on an interest checking account and the fee for a re­
+
+turned check due to NSF. The coefficients associated with banks being located in majority­minority
+
+tracts also decrease across all regressions but retain statistical significance in most cases. For exam­
+
+ple, the minimum account balance to avoid a maintenance fee on a non­interest checking account
+
+set by banks still rises on average about $60 for a bank one standard deviation more concentrated
+
+in majority­minority tracts, even once all controls are taken into account.
+
+17
+
+Table 7: Bank level
+
+No­Int Check
+
+Int Check
+
+Savings
+
+No­Int Check
+
+Int Check
+
+Savings
+
+NSF
+
+NSF
+
+Minimum
+
+Minimum
+
+Minimum
+
+Fee
+
+Fee
+
+Fee
+
+Daily Max Ret Check Fee
+
+LMI tract
+
+Maj. Min. tract
+
+LMI tract
+
+Maj. Min. tract
+
+% Over 65
+
+% BA
+
+Operating costs
+
+37.3
+
+(28.4)
+
+97.4***
+
+(22.6)
+
+­31.9
+
+(27.7)
+
+63.3**
+
+(26.4)
+
+9.22
+
+(25.1)
+
+­76.9**
+
+(34.4)
+
+62.4*
+
+(35.7)
+
+Lending income
+
+­104***
+
+% Owner occupied
+
+­116***
+
+(35.6)
+
+Rural
+
+Urban
+
+Newer
+
+Older
+
+Big bank
+
+Constant
+
+Observations
+
+R­squared
+
+(39.0)
+
+33.7
+
+(27.1)
+
+36.0
+
+(36.9)
+
+­83.3**
+
+(34.0)
+
+­96.1**
+
+(40.1)
+
+283**
+
+(143)
+
+361***
+
+(22.1)
+
+1,433
+
+0.038
+
+279***
+
+(94.6)
+
+236***
+
+(90.1)
+
+183**
+
+(84.4)
+
+78.3
+
+(94.2)
+
+60.1
+
+(93.7)
+
+287**
+
+(115)
+
+238*
+
+(138)
+
+­227**
+
+(91.1)
+
+­16.7
+
+(132)
+
+­55.3
+
+(96.9)
+
+174*
+
+(93.9)
+
+­113
+
+(105)
+
+­125
+
+(108)
+
+4,671***
+
+(1,430)
+
+1,820***
+
+(79.2)
+
+1,583
+
+0.064
+
+Robust standard errors in parentheses
+∗ p < 0.1, ∗∗ p < 0.05, ∗∗∗ p < 0.01
+
+9.21
+
+(5.81)
+
+52.2***
+
+(12.0)
+
+­0.0044
+
+(0.12)
+
+1.13***
+
+(0.12)
+
+0.078
+
+(0.14)
+
+1.13***
+
+(0.18)
+
+0.013
+
+(0.090)
+
+0.66***
+
+(0.091)
+
+­0.058
+
+(9.16)
+
+­0.27*
+
+(0.15)
+
+0.013
+
+(0.17)
+
+­0.046
+
+(0.10)
+
+43.9***
+
+0.99***
+
+0.92***
+
+0.52***
+
+(11.7)
+
+4.11
+
+(5.88)
+
+1.04
+
+(7.91)
+
+9.67
+
+(6.32)
+
+­11.5
+
+(7.30)
+
+­23.6
+
+(15.2)
+
+­5.74
+
+(10.7)
+
+­9.12
+
+(14.3)
+
+­0.99
+
+(9.16)
+
+­19.8**
+
+(8.06)
+
+113***
+
+(31.3)
+
+143***
+
+(7.36)
+
+1,631
+
+0.031
+
+(0.12)
+
+0.075
+
+(0.14)
+
+­0.12
+
+(0.16)
+
+0.43**
+
+(0.19)
+
+­0.37***
+
+(0.13)
+
+­0.50***
+
+(0.19)
+
+0.44***
+
+(0.16)
+
+0.23
+
+(0.16)
+
+­0.31**
+
+(0.16)
+
+­0.34**
+
+(0.17)
+
+3.07***
+
+(0.79)
+
+3.39***
+
+(0.100)
+
+1,617
+
+0.102
+
+(0.19)
+
+0.31*
+
+(0.18)
+
+0.83***
+
+(0.19)
+
+0.36*
+
+(0.21)
+
+­0.18
+
+(0.16)
+
+­0.059
+
+(0.25)
+
+­0.16
+
+(0.20)
+
+0.17
+
+(0.20)
+
+­0.43**
+
+(0.20)
+
+­0.45*
+
+(0.24)
+
+5.81***
+
+(1.61)
+
+8.89***
+
+(0.13)
+
+1,617
+
+0.098
+
+(0.093)
+
+­0.097
+
+(0.093)
+
+0.10
+
+(0.10)
+
+­0.0052
+
+(0.10)
+
+0.079
+
+(0.095)
+
+0.13
+
+(0.13)
+
+­0.31**
+
+(0.13)
+
+0.051
+
+(0.12)
+
+0.0024
+
+(0.12)
+
+­0.28**
+
+(0.13)
+
+1.09*
+
+(0.60)
+
+3.17***
+
+(0.072)
+
+1,633
+
+0.065
+
+4.82**
+
+(2.34)
+
+7.09***
+
+(2.01)
+
+1.08
+
+(2.60)
+
+4.36**
+
+(2.18)
+
+2.95
+
+(2.54)
+
+4.27*
+
+(2.23)
+
+­4.15
+
+(2.55)
+
+3.41
+
+(2.82)
+
+­6.54**
+
+(2.94)
+
+­0.93
+
+(3.23)
+
+2.06
+
+(2.69)
+
+­2.65
+
+(2.90)
+
+0.76***
+
+(0.15)
+
+0.95***
+
+(0.13)
+
+0.62***
+
+(0.15)
+
+0.69***
+
+(0.13)
+
+0.48***
+
+(0.13)
+
+0.58***
+
+(0.15)
+
+­0.13
+
+(0.16)
+
+­0.32**
+
+(0.16)
+
+­0.0016
+
+(0.20)
+
+­0.80***
+
+(0.19)
+
+0.11
+
+(0.17)
+
+­0.082
+
+(0.18)
+
+­7.96**
+
+­0.98***
+
+(3.33)
+
+15.7
+
+(14.5)
+
+154***
+
+(1.71)
+
+1,056
+
+0.059
+
+(0.20)
+
+2.03**
+
+(0.94)
+
+29.7***
+
+(0.11)
+
+1,859
+
+0.158
+
+Note: The top panel shows results when no controls are included. All explanatory variables except the indicator for
+big bank enter as z­scores meaning those coefficients capture a difference of one standard deviation in that variable
+across the distribution over all banks.
+
+18
+
+5 Discussion
+
+Our analysis finds strong evidence that banks in LMI communities and, particularly, banks
+
+in majority­minority communities require higher account balances to avoid maintenance fees and
+
+charge higher fees. These fee differences are compounded for communities that are both LMI and
+
+majority­minority. Banks’ higher fees and minimums in LMI and majority­minority communities
+
+are partially explained by economic factors such as banks’ alternative sources of income (such
+
+as interest income) and operating costs. Still, the economic disadvantages to LMI and majority­
+
+minority communities resulting from higher costs of retail banking are real, regardless of whether
+
+they are underpinned by reasonable business considerations of banks.
+
+Reducing cost inequalities in access to financial services would increase the standard of living
+
+for LMI and majority­minority communities and reduce economic inequality.12 Direct regulation of
+
+fees is an option, but if high fees are due to economic factors such regulation may have unintended
+
+consequences as is suggested by recent research. For example, Dlugosz et al. (2021) find that in
+
+states where federal regulation preempted state­based regulations that limited the fees charged by
+
+national banks, the unbanked population decreased.
+
+Several other policy options are possible. Armstrong and Vickers (2012) and Sarin (2019) sug­
+
+gest that regulators could enhance welfare by making fees more salient; Sarin (2019) also adds that
+
+the cross­subsidization of products (e.g., low­income bank clients often cross­subsidize products
+
+for high­income bank clients) could be regulated. Initiatives such as FDIC’s Model Safe Accounts
+
+Pilot have also showed possible approaches to offer low­cost banking services for unbanked, low­
+
+income individuals. But given the challenges to profitably providing inexpensive access to retail
+
+financial services in LMI communities, alternative approaches could also be considered, such as
+
+the provision of checking accounts to individuals through the U.S. Post Office (see for example
+
+Baradaran (2014)) or the Federal Reserve System (see for example Crawford et al. (2021)).
+
+Future research should aim to confirm the findings of this paper using a longer sample period.
+
+12See Beck et al. (2009) and Mookerjee and Kalipioni (2010) for discussions of the relation between access to
+financial services and income inequality. More specifically regarding access to bank accounts, Prina (2015) finds that
+free access to savings accounts increased financial well­being of Nepalese women.
+
+19
+
+Also, further understanding of some of the drivers of higher bank fees, such as bank size, likely
+
+merit additional investigation.
+
+References
+
+Adams, Robert M. (2017), “Bank Fees, Aftermarkets, and Consumer Behavior.” Finance and Eco­
+
+nomics Discussion Series 2017­054, Board of Governors of the Federal Reserve System.
+
+Alan, Sule, Mehmet Cemalcilar, Dean Karlan, and Jonathan Zinman (2018), “Unshrouding: Evi­
+
+dence from Bank Overdrafts in Turkey.” Journal of Finance, 73, 481–522.
+
+Armstrong, Mark and John Vickers (2012), “Consumer Protection and Contingent Charges.” Jour­
+
+nal of Economic Literature, 50, 477–93.
+
+Baradaran, Mehrsa (2014), “It’s Time for Postal Banking.” Harvard Law Review Forum, 127, 165–
+
+175.
+
+Barr, Michael (2004), “Banking the Poor.” Yale Journal on Regulation, 21, 121–237.
+
+Beck, Thorsten, Asli Demirgüç­Kunt, and Patrick Honohan (2009), “Access to Financial Services.”
+
+World Bank Research Observer, 24, 119–145.
+
+Bernard, Tara Siegel (2011), “In Retreat, Bank of America Cancels Debit Card Fee.” The New York
+
+Times.
+
+Berry, Christopher (2004), “To Bank or Not to Bank? A Survey of Low­Income Households.”
+
+Working paper series, Joint Center for Housing Studies, Harvard University.
+
+Booz­Allen Hamilton and Shugoll Research (1997), “Mandatory EFT Demographic Study.” De­
+
+partment of the Treasury, Financial Management Service.
+
+Brobeck, Stephen (2020), “Do Big Banks Provide Affordable Access To Lower Income Savers?”
+
+Discussion paper, Consumer Federation of America.
+
+20
+
+Bumcrot, Judy Lin, Christopher and Annamaria Lusardi (2013), “The Geography of Financial Lit­
+
+eracy.” Numeracy, 6.
+
+Caskey, John P (1994), Fringe banking: Check­cashing Outlets, Pawnshops, and the Poor. Russell
+
+Sage Foundation.
+
+Crawford, John, Lev Menand, and Morgan Ricks (2021), “FedAccounts: Digital Dollars.” Geo.
+
+Wash. L. Rev., 89, 113.
+
+Dlugosz, Jennifer, Brian Melzer, and Donald P Morgan (2021), “Who Pays the Price? Overdraft
+
+Fee Ceilings and the Unbanked.” FRB of New York Staff Report.
+
+Faber, Jacob William and Terri Friedline (2020), “The Racialized Costs of “Traditional” Banking
+
+in Segregated America: Evidence from Entry­Level Checking Accounts.” Race and Social
+
+Problems, 12, 344–361.
+
+Federal Deposit Insurance Corporation (2018), “2017 National Survey of Unbanked and Under­
+
+banked Households.”
+
+Federal Reserve System (2009), “Electronic Fund Transfers.” Federal Register 12 CFR Part 205,
+
+74, 59033–59056.
+
+Goodstein, Ryan M and Sherrie LW Rhine (2017), “The Effects of Bank and Nonbank Provider Lo­
+
+cations on Household Use of Financial Transaction Services.” Journal of Banking & Finance,
+
+78, 91–107.
+
+Greene, Meghan, Hannah Gdalman, Elaine Golden, Stephen Arves, and Necati Celik (2021), “The
+
+FinHealth Spend Report 2021—What Financially Coping and Vulnerable Americans Pay for
+
+Everyday Financial Services.” Financial Health Network.
+
+Low, David, Eva Nagypál, Leslie Parrish, Akaki Skhirtladze, and Corey Stone (2017), “Frequent
+
+Overdrafters.” Data point, Consumer Financial Protection Bureau.
+
+21
+
+Melzer, Brian T and Donald P Morgan (2015), “Competition in a Consumer Loan Market: Payday
+
+Loans and Overdraft Credit.” Journal of Financial Intermediation, 24, 25–44.
+
+Mookerjee, Rajen and Paul Kalipioni (2010), “Availability of Financial Services and Income In­
+
+equality: The Evidence from Many Countries.” Emerging Markets Review, 11, 404–408.
+
+Pew Charitable Trusts (2016), “Consumers Need Protection From Excessive Overdraft Costs.”
+
+Pew Charitable Trusts (2017), “Overdraft Does Not Meet the Needs of Most Consumers.” Issue
+
+Brief.
+
+Pew Health Group (2011), “Slipping Behind: Low­Income Los Angeles Households Drift Further
+
+from the Financial Mainstream.”
+
+Prina, Silvia (2015), “Banking the Poor via Savings Accounts: Evidence from a Field Experiment.”
+
+Journal of Development Economics, 115, 16–31.
+
+Sarin, Natasha (2019), “Making Consumer Finance Work.” Columbia Law Review, 119, 1519–
+
+1596.
+
+Smith, Peter (2018), “Unfair Market—The State of High­Cost Overdraft Practices in 2017.” Center
+
+for Responsible Lending.
+
+Stango, Victor and Jonathan Zinman (2009), “What Do Consumers Really Pay on their Checking
+
+and Credit Card Accounts? Explicit, Implicit, and Avoidable Costs.” American Economic
+
+Review: Papers Proceedings, 99, 424–29.
+
+Williams, Marlon L (2016), “Bank Overdraft Pricing and Myopic Consumers.” Economics Letters,
+
+139, 84–87.
+
+22
+
+

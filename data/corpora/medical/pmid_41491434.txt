@@ -1,0 +1,130 @@
+
+PMID- 41491434
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260204
+LR  - 20260206
+IS  - 1471-2253 (Electronic)
+IS  - 1471-2253 (Linking)
+VI  - 26
+IP  - 1
+DP  - 2026 Jan 6
+TI  - Individualized intraoperative blood pressure control with norepinephrine reduces 
+      kidney injury biomarkers but not creatinine-defined acute kidney injury in older 
+      patients with hypertension undergoing major abdominal surgery: a single-center 
+      randomized controlled trial.
+PG  - 85
+LID - 10.1186/s12871-025-03588-9 [doi]
+LID - 85
+AB  - BACKGROUND: This randomized trial aimed to determine whether achievement of 
+      individualized blood pressure targets through norepinephrine administration can 
+      mitigate acute kidney injury (AKI) and reduce urine concentration, which serves 
+      as a surrogate marker for fluid retention, in older patients undergoing major 
+      abdominal surgery. METHODS: This study included 166 patients aged 55-80 years who 
+      were scheduled to undergo gastrectomy or colorectal cancer resection. They were 
+      randomly assigned to the individualized care group, in which systolic blood 
+      pressure or mean arterial pressure was maintained within +/- 10% and +/- 20% of 
+      baseline, respectively, using norepinephrine; or to the usual care group, in 
+      which mean arterial pressure was maintained at >/= 65 mmHg without individualized 
+      titration. Individuals in both groups underwent continuous arterial monitoring 
+      and goal-directed fluid therapy. AKI was diagnosed based on the Kidney Disease: 
+      Improving Global Outcomes criteria. Further, renal injury was assessed based on 
+      serum neutrophil gelatinase-associated lipocalin (NGAL) and kidney injury 
+      molecule-1 (KIM-1) levels. Urine concentration scores were calculated from the 
+      urine parameters. RESULTS: AKI occurred in 13.5% and 14.3% of patients in the 
+      individualized and usual care groups, respectively. Patients in the usual care 
+      group experienced significant intraoperative fluctuations in mean arterial 
+      pressure. Norepinephrine was administered to 80.9% and 17.1% of patients in the 
+      individualized and usual care groups, respectively. Compared with the usual care 
+      group, the individualized care group demonstrated reduced NGAL levels and KIM-1 
+      levels at the end of surgery and on postoperative day 2, and lower urine 
+      concentration scores at the end of surgery and on postoperative day 1. 
+      CONCLUSION: Individualized blood pressure management using norepinephrine 
+      mitigated kidney damage, as indicated by elevated biomarkers, and decreased urine 
+      concentration, a surrogate indicator of fluid retention. However, it did not 
+      significantly reduce the incidence of AKI. TRIAL REGISTRATION: This trial was 
+      registered in the Chinese Clinical Trial Registry (ChiCTR2100049843) on August 
+      10, 2021 ( https://www.chictr.org.cn/ ).
+CI  - (c) 2026. The Author(s).
+FAU - Li, Jipeng
+AU  - Li J
+AD  - Department of Anesthesia, Shaoxing People's Hospital, North Zhongxing Road, No. 
+      568, Yuecheng District, Shaoxing, 312000, Zhejiang Province, China.
+FAU - Jiang, Huayong
+AU  - Jiang H
+AD  - Department of Anesthesia, Shaoxing People's Hospital, North Zhongxing Road, No. 
+      568, Yuecheng District, Shaoxing, 312000, Zhejiang Province, China.
+FAU - Song, Qi-Liang
+AU  - Song QL
+AD  - Department of Anesthesia, Shaoxing People's Hospital, North Zhongxing Road, No. 
+      568, Yuecheng District, Shaoxing, 312000, Zhejiang Province, China.
+FAU - Jiang, Zong-Ming
+AU  - Jiang ZM
+AD  - Department of Anesthesia, Shaoxing People's Hospital, North Zhongxing Road, No. 
+      568, Yuecheng District, Shaoxing, 312000, Zhejiang Province, China. 
+      jiangzhejiang120@163.com.
+FAU - Liu, Shuyun
+AU  - Liu S
+AD  - Department of Anesthesia, Shaoxing People's Hospital, North Zhongxing Road, No. 
+      568, Yuecheng District, Shaoxing, 312000, Zhejiang Province, China. 
+      liushuyun8912@163.com.
+LA  - eng
+GR  - LY24H090002/Natural Science Foundation of Zhejiang Province/
+GR  - 2024KY465/Zhejiang Provincial Medical Health Program/
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+DEP - 20260106
+PL  - England
+TA  - BMC Anesthesiol
+JT  - BMC anesthesiology
+JID - 100968535
+RN  - X4W3ENH1CV (Norepinephrine)
+RN  - 0 (Biomarkers)
+RN  - AYI8EX34EU (Creatinine)
+RN  - 0 (Lipocalin-2)
+SB  - IM
+MH  - Humans
+MH  - *Acute Kidney Injury/prevention & control
+MH  - Aged
+MH  - Female
+MH  - Male
+MH  - *Norepinephrine/administration & dosage/therapeutic use/pharmacology
+MH  - Middle Aged
+MH  - *Hypertension/drug therapy/complications
+MH  - Biomarkers/urine/blood
+MH  - Aged, 80 and over
+MH  - Creatinine/urine/blood
+MH  - *Blood Pressure/drug effects
+MH  - Abdomen/surgery
+MH  - Lipocalin-2/blood
+PMC - PMC12870050
+OTO - NOTNLM
+OT  - Acute kidney injury
+OT  - Blood pressure management
+OT  - Hypertension
+OT  - Individualized care
+OT  - Norepinephrine
+OT  - Older patients
+OT  - Urine
+COIS- Declarations. Ethics approval and consent to participate: The study protocol was 
+      reviewed and approved by the Ethics Committee of Shaoxing People's Hospital on 
+      September 10, 2019 (Approval No: 2019-K-Y-010-02). This study adhered to the 
+      principles of the Declaration of Helsinki. Written informed consent was obtained 
+      from each patient or their legal guardian before enrollment. Consent for 
+      publication: Not applicable. Competing interest: The authors declare no competing 
+      interests.
+EDAT- 2026/01/06 13:05
+MHDA- 2026/02/04 11:32
+PMCR- 2026/01/06
+CRDT- 2026/01/06 11:13
+PHST- 2025/07/14 00:00 [received]
+PHST- 2025/12/24 00:00 [accepted]
+PHST- 2026/02/04 11:32 [medline]
+PHST- 2026/01/06 13:05 [pubmed]
+PHST- 2026/01/06 11:13 [entrez]
+PHST- 2026/01/06 00:00 [pmc-release]
+AID - 10.1186/s12871-025-03588-9 [pii]
+AID - 3588 [pii]
+AID - 10.1186/s12871-025-03588-9 [doi]
+PST - epublish
+SO  - BMC Anesthesiol. 2026 Jan 6;26(1):85. doi: 10.1186/s12871-025-035

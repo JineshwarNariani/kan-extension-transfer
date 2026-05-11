@@ -1,0 +1,4 @@
+TITLE: The Effectiveness and Mechanisms of Action of App-Based Interventions for Improving Mental Health and Workplace Well-Being: Randomized Controlled Trial.
+
+ABSTRACT:
+Depression is the most common mental health disorder worldwide and frequently leads to workplace absence. As face-to-face treatment can be difficult to access, app-based interventions are a popular solution, although their effectiveness in working populations and their mechanisms of action are unclear. Deficits in executive function may contribute to the onset and maintenance of depression, and executive function training is proposed to improve symptoms by enhancing executive function. Responders to cognitive behavioral therapy (CBT) show improvements in executive function, suggesting that this may be one mechanism of action.

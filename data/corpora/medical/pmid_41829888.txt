@@ -1,0 +1,109 @@
+
+PMID- 41829888
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260314
+LR  - 20260316
+IS  - 2072-6643 (Electronic)
+IS  - 2072-6643 (Linking)
+VI  - 18
+IP  - 5
+DP  - 2026 Feb 24
+TI  - Effect of Prebiotic Supplementation With and Without Physiotherapy on Pain and 
+      Pain Sensitivity in People with Knee Osteoarthritis.
+LID - 10.3390/nu18050714 [doi]
+LID - 714
+AB  - Background: Emerging evidence links the gut microbiome to chronic pain 
+      processing. Inulin, a prebiotic fibre, modulates the gut microbiome, while 
+      physiotherapy-supported exercise (PSE) improves pain and function. We evaluated 
+      the effects of inulin supplementation with and without PSE on knee osteoarthritis 
+      (OA) pain. Methods: In a 2 x 2 factorial RCT, 117 community-dwelling adults with 
+      knee OA received 6 weeks of: (A) 20 g/day inulin, (B) digital PSE (Joint 
+      Academy), (C) inulin +PSE, or (D) 10 g/day maltodextrin. Primary outcome: pain 
+      (Numerical Rating Scale). Secondary: 30 s sit-to-stand (30-CST), timed up and go 
+      (TUG), grip strength, and quantitative sensory testing. Serum short-chain fatty 
+      acids (SCFAs) and glucagon-like peptide-1 (GLP-1) were measured. The study was 
+      not powered to detect synergistic interaction. Results: A total of 117 
+      participants (58.1% female; mean +/- SD age = 67.5 +/- 9.4 years; BMI = 29.5 +/- 5.3 
+      kg/m(2); NRS = 3.96 +/- 2.67) completed the trial. Pain improved with inulin 
+      (baseline-adjusted between-group mean difference (Delta) = -1.11 [95%CI -2.18, 
+      -0.04], p = 0.045) and PSE (Delta = -1.55 [95%CI -2.52, -0.58], p = 0.002) compared 
+      to placebo, with no synergistic effect. PSE improved TUG (p = 0.02) and 30-CST (p 
+      = 0.0004), while inulin improved grip strength (p = 0.002), pressure pain 
+      thresholds (p = 0.009) and temporal summation (p = 0.025) compared to placebo and 
+      had significantly lower dropout rates (3.6%) compared with PSE (21% p < 0.01). 
+      Only inulin increased SCFA butyrate (p = 0.0248) and GLP-1 (p = 0.0109), and 
+      higher GLP-1 was associated with improved grip strength, suggesting a gut-muscle 
+      link. Conclusions: Inulin and PSE each produced meaningful pain reductions. Only 
+      inulin improved pain sensitivity and grip strength, the latter paralleled by 
+      increased GLP-1, and had much higher rates of retention compared to PSE.
+FAU - Kouraki, Afroditi
+AU  - Kouraki A
+AUID- ORCID: 0000-0002-5976-9047
+AD  - NIHR Nottingham Biomedical Research Centre, School of Medicine, University of 
+      Nottingham, Nottingham NG7 2UH, UK.
+AD  - Academic Unit of Injury, Recovery and Inflammation Sciences, School of Medicine, 
+      University of Nottingham, Nottingham NG7 2UH, UK.
+AD  - Arthritis UK Pain Centre, University of Nottingham, Nottingham NG5 1PB, UK.
+FAU - Franks, Susan
+AU  - Franks S
+AUID- ORCID: 0009-0000-7577-4658
+AD  - NIHR Nottingham Biomedical Research Centre, School of Medicine, University of 
+      Nottingham, Nottingham NG7 2UH, UK.
+AD  - Academic Unit of Injury, Recovery and Inflammation Sciences, School of Medicine, 
+      University of Nottingham, Nottingham NG7 2UH, UK.
+AD  - Arthritis UK Pain Centre, University of Nottingham, Nottingham NG5 1PB, UK.
+FAU - Vijay, Amrita
+AU  - Vijay A
+AD  - NIHR Nottingham Biomedical Research Centre, School of Medicine, University of 
+      Nottingham, Nottingham NG7 2UH, UK.
+AD  - Academic Unit of Injury, Recovery and Inflammation Sciences, School of Medicine, 
+      University of Nottingham, Nottingham NG7 2UH, UK.
+AD  - Arthritis UK Pain Centre, University of Nottingham, Nottingham NG5 1PB, UK.
+FAU - Kurien, Thomas
+AU  - Kurien T
+AD  - NIHR Nottingham Biomedical Research Centre, School of Medicine, University of 
+      Nottingham, Nottingham NG7 2UH, UK.
+AD  - Academic Unit of Injury, Recovery and Inflammation Sciences, School of Medicine, 
+      University of Nottingham, Nottingham NG7 2UH, UK.
+AD  - Arthritis UK Pain Centre, University of Nottingham, Nottingham NG5 1PB, UK.
+AD  - Division of Trauma and Orthopaedics, Nottingham University Hospitals NHS Trust, 
+      Nottingham NG5 1PB, UK.
+FAU - Taylor, Moira A
+AU  - Taylor MA
+AUID- ORCID: 0000-0003-4100-8343
+AD  - NIHR Nottingham Biomedical Research Centre, School of Medicine, University of 
+      Nottingham, Nottingham NG7 2UH, UK.
+AD  - The David Greenfield Human Physiology Unit, School of Life Sciences, University 
+      of Nottingham, Nottingham NG7 2TQ, UK.
+FAU - Smith, Stephanie L
+AU  - Smith SL
+AUID- ORCID: 0000-0002-3365-0144
+AD  - NIHR Nottingham Biomedical Research Centre, School of Medicine, University of 
+      Nottingham, Nottingham NG7 2UH, UK.
+AD  - Academic Unit of Injury, Recovery and Inflammation Sciences, School of Medicine, 
+      University of Nottingham, Nottingham NG7 2UH, UK.
+AD  - Arthritis UK Pain Centre, University of Nottingham, Nottingham NG5 1PB, UK.
+FAU - Smith, Benjamin
+AU  - Smith B
+AD  - NIHR Nottingham Biomedical Research Centre, School of Medicine, University of 
+      Nottingham, Nottingham NG7 2UH, UK.
+AD  - University Hospitals of Derby and Burton NHS Foundation Trust, Derby DE22 3NE, 
+      UK.
+FAU - Kelly, Anthony
+AU  - Kelly A
+AUID- ORCID: 0000-0001-9859-7957
+AD  - NIHR Nottingham Biomedical Research Centre, School of Medicine, University of 
+      Nottingham, Nottingham NG7 2UH, UK.
+AD  - Academic Unit of Injury, Recovery and Inflammation Sciences, School of Medicine, 
+      University of Nottingham, Nottingham NG7 2UH, UK.
+AD  - Arthritis UK Pain Centre, University of Nottingham, Nottingham NG5 1PB, UK.
+FAU - Valdes, Ana M
+AU  - Valdes AM
+AUID- ORCID: 0000-0003-1141-4471
+AD  - NIHR Nottingham Biomedical Research Centre, School of Medicine, University of 
+      Nottingham, Nottingham NG7 2UH, UK.
+AD  - Academic Unit of Injury, Recovery and Inflammation Sciences, School of Medicine, 
+      University of Nottingham, Nottingham NG7 2UH, UK.
+AD  - Arthritis UK Pain Centre, University of Nottingham, Nottingham NG5 1PB, UK.
+LA  - 

@@ -1,0 +1,41 @@
+query,method,motif_similarity,n_pos_feedback_pred,n_neg_feedback_pred,cascade_depth_pred,n_fanout_pred,n_fanin_pred,n_bottleneck_pred,n_pos_feedback_gt,n_neg_feedback_gt,cascade_depth_gt,n_fanout_gt,n_fanin_gt,n_bottleneck_gt
+Roles and responsibilities of individual board members,soft_left_kan,0.0,0,0,1,0,0,0,0,0,0,0,0,0
+Federal Reserve Annual Reports and Financial Disclosures,soft_left_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+Redundant payment gateway architecture and failover switching mechanisms,soft_left_kan,0.0,0,0,1,0,0,0,0,0,0,1,0,0
+federal reserve public communication channels,soft_left_kan,1.0,0,0,1,0,0,0,0,0,1,0,0,0
+Indemnification and liability protection policies for board members,soft_left_kan,0.0,0,0,0,0,0,0,0,0,0,1,0,0
+Monetary Policy Reports Submitted to Congress,soft_left_kan,0.0,0,0,0,0,0,0,0,0,1,1,0,0
+Proportional representation methods and their implementation,soft_left_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+The impact of unconvent,soft_left_kan,1.0,0,0,1,0,0,0,0,0,1,0,0,0
+Beige Book Regional Economic Condition Reports,soft_left_kan,0.0,0,0,1,0,0,0,0,0,0,1,0,0
+Federal Reserve Bank Presidents' Speeches and Public Addresses,soft_left_kan,0.0,0,0,0,0,0,0,0,0,1,1,0,0
+Cross-border financial contagion and central bank coordination frameworks,soft_left_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+Recovery and resolution planning for financial market infrastructures,soft_left_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+Fiduciary duties and legal obligations of board members,soft_left_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+Committee formations and their specific functions,soft_left_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+Quorum requirements and participation thresholds,soft_left_kan,0.0,0,0,1,0,0,0,0,0,0,0,0,0
+Unconventional monetary policy tools during economic crises,soft_left_kan,0.0,0,0,0,0,0,0,0,0,0,0,0,0
+Open market operations and asset purchase programs,soft_left_kan,0.0,0,0,0,0,0,0,0,0,0,0,0,0
+board of governors structural organization,soft_left_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+The Taylor Rule and systematic policy frameworks,soft_left_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+Real Estate and Construction Market Conditions Across Regions,soft_left_kan,0.7071067690849304,0,0,1,0,0,0,0,0,1,1,0,0
+Roles and responsibilities of individual board members,soft_right_kan,0.0,0,0,0,0,0,0,0,0,0,0,0,0
+Federal Reserve Annual Reports and Financial Disclosures,soft_right_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+Redundant payment gateway architecture and failover switching mechanisms,soft_right_kan,0.0,0,0,0,0,0,0,0,0,1,1,0,0
+federal reserve public communication channels,soft_right_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+Indemnification and liability protection policies for board members,soft_right_kan,0.0,0,0,0,0,0,0,0,0,0,1,0,0
+Monetary Policy Reports Submitted to Congress,soft_right_kan,0.0,0,0,0,0,0,0,0,0,0,1,0,0
+Proportional representation methods and their implementation,soft_right_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+The impact of unconvent,soft_right_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+Beige Book Regional Economic Condition Reports,soft_right_kan,0.0,0,0,0,0,0,0,0,0,1,1,0,0
+Federal Reserve Bank Presidents' Speeches and Public Addresses,soft_right_kan,0.0,0,0,0,0,0,0,0,0,1,1,0,0
+Cross-border financial contagion and central bank coordination frameworks,soft_right_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+Recovery and resolution planning for financial market infrastructures,soft_right_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+Fiduciary duties and legal obligations of board members,soft_right_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+Committee formations and their specific functions,soft_right_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+Quorum requirements and participation thresholds,soft_right_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+Unconventional monetary policy tools during economic crises,soft_right_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+Open market operations and asset purchase programs,soft_right_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+board of governors structural organization,soft_right_kan,0.0,0,0,0,0,0,0,0,0,0,0,0,0
+The Taylor Rule and systematic policy frameworks,soft_right_kan,0.0,0,0,0,0,0,0,0,0,1,0,0,0
+Real Estate and Construction Market Conditions Across Regions,soft_right_kan,0.0,0,0,0,0,0,0,0,0,0,1,0,0

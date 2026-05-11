@@ -1,0 +1,132 @@
+
+PMID- 41932694
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260403
+LR  - 20260408
+IS  - 2053-3624 (Print)
+IS  - 2053-3624 (Electronic)
+IS  - 2053-3624 (Linking)
+VI  - 13
+IP  - 1
+DP  - 2026 Apr 3
+TI  - Women's IschemiA TRial to Reduce Events In Non-ObstRuctive CAD (WARRIOR): a 
+      randomised controlled trial.
+LID - 10.1136/openhrt-2026-004115 [doi]
+LID - e004115
+AB  - IMPORTANCE: Women with angina due to suspected ischaemia referred for coronary 
+      angiography often have no obstructive coronary artery disease (ANOCA/INOCA). 
+      OBJECTIVE: To determine if intensive medical treatment (IMT) reduces major 
+      ischaemic events (major adverse cardiovascular event, MACE) among women with 
+      suspected ANOCA/INOCA. DESIGN: Randomised, prospective, blinded-outcomes 
+      evaluation. SETTING: 71 sites in the USA. PARTICIPANTS: 2476 women with suspected 
+      ANOCA/INOCA. INTERVENTIONS: IMT-high intensity statin, ACE inhibitor (ACEi) or 
+      angiotensin receptor blocker (ARB) and aspirin versus usual care (UC). MAIN 
+      OUTCOMES AND MEASURES: Primary: all cause death, myocardial infarction, 
+      stroke/transient ischaemic attack, hospitalisation for angina or heart failure 
+      (MACE). Secondary: components of the primary, quality of life and win ratio. 
+      RESULTS: Recruitment was lower than planned (n=2476), yielding an aged population 
+      (mean, 64 years) with well-controlled blood pressure and low-density lipoprotein 
+      cholesterol at baseline, and relatively high rates of statin and ACEI/ARB use. At 
+      2.5 years, 421 events occurred (221 in IMT, 200 in UC) with no difference in the 
+      primary outcome (HR=1.13 (95% CI 0.94 to 1.37) for IMT vs UC, p=0.20) or 
+      secondary outcomes. Hospitalisations for angina were the dominant contributor to 
+      MACE. Sensitivity analysis of contamination provided an estimated HR for IMT 
+      versus UC of 0.74 95% CI (0.352 to 1.558), p=0.43. CONCLUSIONS AND RELEVANCE: 
+      Among women with suspected ANOCA/INOCA, outcomes were dominated by chest pain and 
+      IMT did not improve outcomes, although limited power precludes concluding that it 
+      may not be helpful. The findings support the need for more investigation in this 
+      population with high burden of angina hospitalisation, health resource 
+      consumption and poor quality of life. TRIAL REGISTRATION NUMBER: NCT03417388.
+CI  - (c) Author(s) (or their employer(s)) 2026. Re-use permitted under CC BY-NC. No 
+      commercial re-use. See rights and permissions. Published by BMJ Group.
+FAU - Pepine, Carl J
+AU  - Pepine CJ
+AD  - Division of Cardiology, Department of Medicine, University of Florida, 
+      Gainesville, Florida, USA.
+FAU - Handberg, Eileen
+AU  - Handberg E
+AD  - Division of Cardiology, Department of Medicine, University of Florida, 
+      Gainesville, Florida, USA.
+FAU - Cooper-DeHoff, Rhonda
+AU  - Cooper-DeHoff R
+AD  - Department of Pharmacotherapy and Translational Research, University of Florida 
+      College of Pharmacy, Gainesville, Florida, USA.
+FAU - Cook-Wiens, Galen
+AU  - Cook-Wiens G
+AD  - Biostatistics Shared Resource, Cedars-Sinai Medical Center, Los Angeles, 
+      California, USA.
+FAU - Diniz, Marcio A
+AU  - Diniz MA
+AD  - Department of Population Health Science and Policy, Icahn School of Medicine, New 
+      York, New York, USA.
+FAU - Frayne, Susan
+AU  - Frayne S
+AD  - Center for Innovation to Implementation (Ci2i), VA Palo Alto Health Care System, 
+      Palo Alto, California, USA.
+AD  - Division of Primary Care and Population Health, Stanford University School of 
+      Medicine, Stanford, California, USA.
+FAU - Lo, Margaret C
+AU  - Lo MC
+AD  - Division of Internal Medicine, Department of Medicine, University of Florida, 
+      Gainesville, Florida, USA.
+FAU - Smith, Steven M
+AU  - Smith SM
+AD  - Division of Cardiology, Department of Medicine, University of Florida, 
+      Gainesville, Florida, USA.
+AD  - Department of Pharmacotherapy and Translational Research, University of Florida 
+      College of Pharmacy, Gainesville, Florida, USA.
+FAU - Harris, Barbara
+AU  - Harris B
+AD  - Division of Cardiology, Department of Medicine, University of Florida, 
+      Gainesville, Florida, USA.
+FAU - Wei, Janet
+AU  - Wei J
+AD  - Barbra Streisand Women's Heart Center, Cedars-Sinai Smidt Heart Institute, Los 
+      Angeles, California, USA.
+FAU - Chaitman, Bernard R
+AU  - Chaitman BR
+AD  - Cardiovascular Department, St. Louis University School of Medicine, St. Louis, 
+      Missouri, USA.
+FAU - Spertus, John A
+AU  - Spertus JA
+AD  - Healthcare Institute for Innovations in Quality, University of Missouri-Kansas 
+      City, Kansas City, Missouri, USA.
+AD  - St. Luke's Mid America Heart Institute, Kansas City, Missouri, USA.
+FAU - Berry, Colin
+AU  - Berry C
+AD  - University of Glasgow, Glasgow, UK.
+FAU - Weintraub, William
+AU  - Weintraub W
+AUID- ORCID: 0000-0002-5384-5571
+AD  - Cardiology, MedStar Washington Hospital Center, Washington, District of Columbia, 
+      USA.
+FAU - Bairey Merz, C Noel
+AU  - Bairey Merz CN
+AUID- ORCID: 0000-0002-9933-5155
+AD  - Barbra Streisand Women's Heart Center, Cedars-Sinai Smidt Heart Institute, Los 
+      Angeles, California, USA Noel.BaireyMerz@cshs.org.
+LA  - eng
+SI  - ClinicalTrials.gov/NCT03417388
+PT  - Journal Article
+PT  - Multicenter Study
+PT  - Randomized Controlled Trial
+DEP - 20260403
+PL  - England
+TA  - Open Heart
+JT  - Open heart
+JID - 101631219
+RN  - 0 (Angiotensin-Converting Enzyme Inhibitors)
+RN  - 0 (Hydroxymethylglutaryl-CoA Reductase Inhibitors)
+RN  - 0 (Angiotensin Receptor Antagonists)
+RN  - R16CO5Y76E (Aspirin)
+SB  - IM
+MH  - Humans
+MH  - Female
+MH  - Middle Aged
+MH  - Prospective Studies
+MH  - *Angiotensin-Converting Enzyme Inhibitors/therapeutic use/administration & dosage
+MH  - *Hydroxymethylglutaryl-CoA Reductase Inhibitors/therapeutic use/administration & 
+      dosage
+MH  - *Angiotensin Receptor Antagonists/therapeutic use/administration & dosage
+MH  - *Coronary Artery Disease/drug

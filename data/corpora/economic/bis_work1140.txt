@@ -1,0 +1,1890 @@
+BIS Working Papers 
+No 1140 
+
+Relationship discounts in 
+corporate bond trading  
+
+by Simon Jurkatis, Andreas Schrimpf, Karamfil Todorov, 
+Nicholas Vause 
+
+Monetary and Economic Department 
+
+November 2023 
+
+JEL classification: G12, G14, G23, G24 
+
+Keywords:  corporate  bonds,  Covid-19,  dealers,  over-
+the-counter markets, trading relationships 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BIS  Working  Papers  are  written  by  members  of  the  Monetary  and  Economic 
+Department of the Bank for International Settlements, and from time to time by other 
+economists,  and  are  published  by  the  Bank.  The  papers  are  on  subjects  of  topical 
+interest and are technical in character. The views expressed in them are those of their 
+authors and not necessarily the views of the BIS. 
+
+This publication is available on the BIS website (www.bis.org). 
+
+©  Bank for International Settlements 2023. All rights reserved. Brief excerpts may be 
+
+reproduced or translated provided the source is stated. 
+
+ISSN 1020-0959 (print) 
+ISSN 1682-7678 (online) 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Relationship discounts in corporate bond trading ∗
+
+Simon Jurkatis
+
+Bank of England
+
+Andreas Schrimpf
+
+BIS & CEPR
+
+simon.jurkatis@bankofengland.co.uk
+
+andreas.schrimpf@bis.org
+
+Karamfil Todorov
+
+BIS
+
+Nicholas Vause
+
+Bank of England
+
+karamfil.todorov@bis.org
+
+nicholas.vause@bankofengland.co.uk
+
+This version: October 30, 2023
+
+Abstract
+
+We find that clients with stronger past trading relationships with a dealer receive consis-
+tently better prices in corporate bond trading. The top 1% of relationship clients enjoy
+transaction costs that are 51% lower than those of the median client—an effect which was
+particularly beneficial when transaction costs spiked during the COVID-19 turmoil. We
+find clients’ liquidity provision to be a key motive why dealers grant relationship discounts:
+clients to whom balance-sheet constrained dealers can turn as a source of liquidity are re-
+warded with relationship discounts. Another important motive for dealers to give discounts
+to relationship clients is because these clients generate the bulk of dealers’ profits. Finally,
+we find no evidence that extraction of information from clients’ order flow is related to
+relationship discounts.
+
+JEL Classification: G12, G14, G23, G24
+
+Keywords: Corporate bonds, COVID-19, Dealers, Over-the-counter markets, Trading re-
+
+lationships
+
+∗The views expressed in this paper are those of the authors and do not necessarily represent those of the
+Bank for International Settlements (BIS) or the Bank of England. For helpful comments and discussion we are
+grateful to Matteo Aquilina, Ben Charoenwong (discussant), Jaewon Choi, Francesco Franzoni, Thierry Foucault,
+Jonathan Hall, Wenqian Huang, Maureen O’Hara, Igor Kozhanov (discussant), Ulf Lewrick, Jane Li (discussant),
+Jessica Li (discussant), Gabor Pinter, Marco Rossi (discussant), Dimitri Vayanos, Adam Zawadowski (discussant),
+Alex Zhou, and seminar participants at WFA, EFA, Microstructure Exchange, 3rd CEU-ESSEC OTC Workshop,
+10th SAFE Asset Pricing Workshop, Tenth Annual Conference on Financial Market Regulation at the SEC, Bank
+of England, Swiss Finance Institute in Lugano, 17th Central Bank Conference on the Microstructure of Financial
+Markets, 8th SDU Finance Workshop, Financial Stability Board Conference on Systemic risks in Non-Bank
+Financial Institutions and Policies to Address Them, and the Junior European Finance Conference.
+
+1.
+
+Introduction
+
+The over-the-counter (OTC) structure of the corporate bond market makes the value of bilateral
+
+interactions particularly important for investors. From a client’s perspective, having an estab-
+
+lished relationship with a dealer can be valuable as it may allow the client to buy or sell bonds
+
+at greater ease or lower cost. For dealers, having a relationship with a client could be beneficial
+
+for managing inventory risk, for generating larger profits from loyal clients, or for extracting
+
+information from the client’s order flow. The benefits of such trading relationships may be par-
+
+ticularly pronounced during times of severe stress, like at the outbreak of the COVID-19 crisis
+
+in March 2020, when the corporate bond market experienced significant dislocations.
+
+In this paper, we use a unique regulatory data set on corporate bond transactions to study
+
+bilateral trading relationships in the dealer-customer segment of the market. The dataset con-
+
+tains information about the identities of the traders, which allows us to dig deeper into the
+
+drivers of relationships than previous studies by exploring a rich cross-section of client types.
+
+Our primary goal is to quantify how the heterogeneity in prices faced by different clients – a
+
+common feature of corporate bond markets, similar to other OTC markets – can be traced to
+
+the strength of relationships with the dealer. To guide our empirical analysis, we formulate three
+
+hypotheses that could explain why relationships matter for dealers and test them in the data.
+
+Our contribution is to show that clients’ liquidity provision and the attendant management of
+
+costly balance-sheet space are important factors that can explain why dealers value relationships
+
+with certain clients and quote them better prices. We also provide evidence that relationship
+
+clients generate the bulk of dealers’ trading profits, suggesting a strong incentive for dealers to
+
+keep these high-value clients as customers.
+
+To measure the strength of dealer-client relationships, we rely on past bilateral trading volume
+
+between the two counterparties. Specifically, we define a client as having a strong relationship
+
+with a dealer if the client accounts for a sizable share of the dealer’s total trading volume (Qrel)
+
+in the past. To measure the transaction-cost benefits of relationships, we follow Hendershott and
+
+Madhavan (2015) by quantifying these costs as the log-difference between the transaction price
+
+1
+
+and the closest reference price before the transaction. We use reference prices from MarketAxess
+
+at a quality and accuracy usually only available to sophisticated market participants. Our
+
+measure of relationship benefits captures the notion that a client who has a close relationship
+
+with a dealer obtains better prices relative to other clients of the same dealer. To precisely
+
+identify the reduction in transaction costs related to client-dealer-specific variation, we use panel
+
+regressions with a rich set of fixed effects (which absorb any bond, dealer, client, time, and
+
+industry-related variation) and controls for other transaction-specific variables.
+
+In the first part of our analysis, we provide several new stylised facts on dealer-client rela-
+
+tionships in corporate bond markets. These facts shed new light on price differentiation in OTC
+
+markets, which are often opaque and lack comprehensive data.
+
+In the second part of our analysis, we examine whether relationship clients obtain better
+
+prices. The results from our baseline panel regression imply that the top 1% of relationship
+
+clients face a sizable 51% (4.6 basis points) reduction in transaction costs relative to the median
+
+client. This relationship discount maps to total annual savings of around £1.3m in transaction
+
+costs for the average top relationship client. These results are robust to various alternative
+
+specifications and show that there are important client-dealer relationships in the corporate
+
+bond market.
+
+Zooming in on the COVID-19 crisis stress episode, we find the decrease in transaction costs
+
+to be particularly important during stress times. The relationship discount more than doubled to
+
+above 10 basis points in this period. Having a relationship with a dealer is therefore particularly
+
+valuable during stress times, when top clients can trade bonds at much better prices compared
+
+to others.
+
+We also show that relationship discounts are higher for trades that affect the dealer’s balance
+
+sheet. This result is particularly pronounced during stress times. In the COVID-19 crisis period,
+
+when dealers were closer to inventory risk limits, relationship discounts rose sharply and became
+
+larger for client sales. This pattern is consistent with dealers steering their residual trading
+
+capacity towards favoured clients, especially for trades that would further increase their inventory
+
+risk.
+
+2
+
+In the third part of our analysis, we dig deeper into the underlying mechanisms driving
+
+dealer-client relationship discounts. To guide this analysis, we test three hypotheses in the
+
+data. Our first hypothesis, “liquidity provision”, is that dealers value relationships with clients
+
+to whom they can off-load bonds bought from other investors. Dealers may reward such clients
+
+with relationship discounts to ensure continued access to this source of liquidity. To test this
+
+hypothesis, we interact our relationship metric with a dummy variable for liquidity-providing
+
+clients. We identify such clients as counterparties to whom the dealer regularly off-loads bonds
+
+bought from other investors. If the hypothesis was true, we would expect to see that dealers
+
+charge lower transaction costs for relationship clients who regularly provide liquidity.
+
+Our second hypothesis, “retaining high-value clients”, builds on the idea that an important
+
+motive for a dealer to offer better prices to certain clients is to maintain their loyalty and earn
+
+larger profits as a result of greater trading volumes (see e.g., Maskin and Riley (1984)). The
+
+effect is similar to shoppers continuing to go to the same shop due to discounts offered to them
+
+(e.g., via discount cards). To test this hypothesis, we compute dealers’ total trading profits
+
+from top and non-top clients. If the hypothesis was true, we would expect to see larger profits
+
+from top clients relative to non-top clients on average. In addition, similar to the test for the
+
+liquidity provision hypothesis, we interact the main relationship metric with a dummy variable
+
+for high-value clients to test whether these clients pay lower transaction costs.
+
+The third hypothesis, “information extraction”, is that dealers are willing to offer better
+
+prices to relationship clients from whom they can learn private information about the value
+
+of transacted bonds by observing their order flows (e.g., proprietary trading firms).
+
+If such
+
+considerations play a role, the relationship metric should have a more pronounced impact on
+
+transaction costs for such informed clients. To test this hypothesis, we interact the main rela-
+
+tionship metric with a dummy variable for ‘informed’ clients, which we identify as those whose
+
+trades tend to predict future price moves.
+
+Our results strongly support the “liquidity provision” hypothesis.
+
+In particular, we find
+
+evidence that dealers use relationship discounts to help control their inventories and that clients
+
+who regularly help dealers in this way receive larger discounts. We show that clients who
+
+3
+
+consistently provide liquidity to dealers – i.e. by purchasing bonds shortly after dealers have
+
+absorbed sales from other clients – receive larger relationship discounts than other top clients.
+
+This extra discount was magnified six times during the COVID-19 episode.
+
+In fact, it was
+
+essentially only liquidity-providing clients who received relationship discounts during this period
+
+of stress.
+
+We also find evidence in support of the “retaining high-value clients” hypothesis. We show
+
+that the average profit dealers make from top relationship clients is more than 18 times larger
+
+than the profit from non-top clients. The much larger profit extracted from top clients gives
+
+dealers a strong incentive to retain trading volume from these clients by offering them more
+
+competitive prices. In addition, we find that dealers give high-value clients a larger discount
+
+than other relationship clients, after controlling for liquidity- and information-related motives.
+
+However, we find no evidence in support of the “information extraction” hypothesis. Rela-
+
+tionship clients receive no additional transaction-cost discounts when their order flow provides
+
+valuable signals about future bond returns. This finding could be explained by regulatory re-
+
+strictions on proprietary trading by dealer-banks that were introduced in the wake of the global
+
+financial crisis (GFC). These regulations limited the extent to which dealers can trade on sig-
+
+nals from customer flows, thus weakening the incentive to build relationships for the purpose of
+
+information extraction. In addition, dealers may also be reluctant to trade with informed clients
+
+who correctly anticipate future price changes on average, or could at least charge them higher
+
+transaction costs, due to the risk of the price moving against them after trading.
+
+Taken together, our results point to two main economic mechanisms that could explain
+
+relationship discounts received by clients. First, dealers value clients to whom they can “out-
+
+source” some of their liquidity provision.
+
+In providing liquidity to the market, dealers often
+
+take on inventory risk. Shifting some of this risk onto liquidity-providing clients is valuable
+
+and rewarded with transaction-cost discounts. These discounts appeared particularly impor-
+
+tant during the COVID-19 crisis when inventory risk was magnified by asset price volatility,
+
+and liquidity-providing clients were the only client type to receive significant transaction-cost
+
+discounts. Second, we find that dealers earn much higher profits from a handful of high-value
+
+4
+
+clients compared to the vast majority of clients. This creates a strong incentive for dealers to
+
+retain these high-value clients as loyal customers by offering them trading discounts.
+
+The findings of our paper have several implications for investors and policy makers. First,
+
+we find evidence that dealers continued to provide liquidity at discounted prices to relationship
+
+clients during the COVID-19 shock. These results indicate that the OTC market structure
+
+centred around dealer intermediation proved relatively resilient for such clients, with relationships
+
+apparently incentivizing dealers to provide liquidity even during stress times. That said, our
+
+findings also suggest that it is only dealers’ top clients who benefit from such relationships.
+
+Many smaller market participants do not enjoy such benefits and their cost of accessing dealers’
+
+balance sheets can surge in stress episodes. Second, dealers appear to particularly value clients
+
+to whom they can turn for liquidity provision. Such access to liquidity could help dealers to
+
+operate with smaller inventories, which are cheaper to maintain, and thus increase their own
+
+liquidity provision. Third, the fact that dealers do not offer larger discounts to informed clients
+
+is consistent with dealers scaling back proprietary trades, which contributed to the build-up of
+
+risk before the GFC and were subsequently discouraged by new regulations.
+
+Related Literature. Our paper contributes to the growing literature on the value of relation-
+
+ships in OTC markets. Three important papers in this literature which, similar to ours, focus
+
+on corporate bond markets, are Di Maggio et al. (2017), Hendershott et al. (2020) and O’Hara
+
+et al. (2023). Di Maggio et al. (2017) show that dealers value relationships with other dealers in
+
+US corporate bond markets, particularly in stress times. That study, however, focuses entirely
+
+on relationships in the inter-dealer market whereas our paper covers the dealer-client segment
+
+(i.e., dealer trades with ultimate “end-users”). In our sample, the dealer-client market is roughly
+
+four times larger than the inter-dealer market as measured by the average daily trading volume.
+
+Also, the sample in Di Maggio et al. (2017) ends in 2011 and hence covers a period that predates
+
+important regulations implemented in the aftermath of the GFC, which had a material impact
+
+on dealer behavior (see, inter alia, Bao et al., 2018; Dick-Nielsen and Rossi, 2019).1
+
+1Bao et al. (2018) study the effects of the Dodd–Frank Act over the period 21 July 2010 to 31 March 2014,
+and the effects of the Volcker Rule from 1 April 2014 to 31 March 2016. The authors show that dealers reduced
+their market-making activity in response to the Volcker Rule.
+
+5
+
+Hendershott et al. (2020) study the dealer-to-client segment, but they do so for only a narrow
+
+subset of clients, studying primarily insurance companies. The authors find that the number of
+
+trading relationships that insurance companies have with dealers has a non-monotonic impact on
+
+their transaction costs. Transaction costs decrease initially with a rise in the number of dealers
+
+due to increased competition, but eventually increase as bilateral relationships become more
+
+dispersed and weaker. Compared to Hendershott et al. (2020), we study transactions of dealers
+
+with a much broader set of clients, covering all clients with a legal entity identifier (LEI). This
+
+includes key players such as asset managers, non-dealer banks, principal trading firms and hedge
+
+funds. Insurance companies account for less than 9% of total trading volume in our sample.
+
+Consistent with the findings of our paper, O’Hara et al. (2023) show that dealers improve their
+
+liquidity provision in the corporate bond market when they have trading relationships with
+
+insurers.
+
+Understanding the value of relationships from the client’s perspective is particularly impor-
+
+tant against the backdrop of an evolving microstructure of bond markets. Key developments in
+
+recent years have been the advent of electronic trading platforms, particularly based on request-
+
+for-quote (RFQ) protocols, which represent an electronic form of dealer-intermediated OTC
+
+trading. Despite this “electronification”, all-to-all trading – a prominent feature of equities or
+
+futures markets – has so far remained very limited in cash bond markets (O’ Hara et al., 2018;
+
+O’Hara and Zhou, 2021). Our finding that relationship clients trade on better terms than non-
+
+relationship clients, especially in stress times, could help explain why the market may be slow
+
+to adapt to a fully electronic and anonymous market structure. Despite the generally favourable
+
+liquidity of market structures built around centralized limit order books (Hendershott and Mad-
+
+havan, 2015; Abudy and Wohl, 2018), the OTC structure has shown remarkable resilience in
+
+fixed income markets.
+
+The preference of institutional investors for a bilateral OTC market structure is also discussed
+
+in Biais and Green (2019) and Wittwer and Allen (2021). In particular, Biais and Green (2019)
+
+highlight institutional traders’ preference for low price impact and their relative bargaining power
+
+compared to retail traders as key factors in explaining the historical evolution of the US bond
+
+6
+
+markets towards an OTC structure. Wittwer and Allen (2021) include a loyalty benefit in their
+
+structural model, where institutional investors choose between trading on an RFQ platform or
+
+bilaterally. Our findings confirm the importance of including such loyalty benefits in structural
+
+models.
+
+Our paper highlights the heterogeneity of trading relationships between dealers and clients
+
+and shows that this leads to large differences in trading costs. These findings have implications
+
+for models analysing the welfare benefits of different market structures (Plante, 2018; Lee and
+
+Wang, 2018; Vogel, 2018; Wittwer and Allen, 2021). On the one hand, removing relationship
+
+benefits by mandating a centralized and anonymous market structure through all-to-all trading
+
+would directly impact the utility of clients enjoying relationship discounts. On the other hand,
+
+relationship benefits are typically given to selected clients and could be implicitly subsidized by
+
+other clients who are less capable of establishing a relationship (e.g., due to less-frequent trading
+
+activity).
+
+Our paper is also related to the broader literature on dealer-client relationships in other OTC
+
+markets, notably Hau et al. (2021). In this paper, the authors show that unsophisticated clients,
+
+that have a relationship with only one dealer, incur larger transaction costs in FX derivatives.
+
+More broadly, our paper also relates to the literature on dealer intermediation in the after-
+
+math of the GFC. Several studies argue that dealers have become more constrained in their
+
+liquidity provision and are generally less willing to warehouse bonds in their inventory (Adrian
+
+et al., 2017; Bao et al., 2018; Dick-Nielsen and Rossi, 2019; Choi et al., 2021). This has led to
+
+a partial shift away from the principal model of market making, where dealers warehouse risk
+
+on their balance sheet, towards more “balance sheet-light” approaches where dealers mostly line-
+
+up opposing client trades in advance of simultaneous execution. Our paper shows that clients
+
+are asymmetrically impacted by these developments. Choi et al. (2021) document that clients
+
+complement the role of dealers by stepping in as liquidity providers in the post-GFC period.
+
+They show that dealers are more likely to turn to insurance companies with whom they have
+
+stronger relationships to offset trades with other clients. Our paper covers dealers’ customer base
+
+comprehensively and shows that it is mostly asset managers and brokers that provide liquidity
+
+7
+
+to dealers, accounting for almost 90% of the volume across liquidity-providing clients. Insurers,
+
+by contrast, account for less than 6% of this volume. In addition, we show that dealers value
+
+relationships with liquidity-providing clients. They do so not only by giving discounts to those
+
+clients in normal times, but also by being prepared to support them in times of stress by offering
+
+significant transaction-cost discounts to trade with them, and especially to absorb bond sales
+
+from them.
+
+Finally, a number of papers study trading relationships in OTC markets in the context of
+
+informed trading. Kondor and Pint´er (2022) and Czech and Pint´er (2020) show that clients who
+
+spread their trades over a larger number of dealers outperform other clients, consistent with them
+
+hiding private information. We show, however, that dealers do not quote better prices to more
+
+informed clients, which may be due to post-GFC regulations that have discouraged proprietary
+
+trading or because of fears of being adversely selected.
+
+2. Data on dealer-client transactions and corporate bond
+
+reference prices
+
+This section introduces our two main data sets, which come from MiFID II regulatory reporting
+
+and MarketAxess. It then provides descriptive statistics on the corporate bonds and dealer-client
+
+transactions in our sample.
+
+2.1. MiFID II data
+
+The first main dataset for our analysis consists of transaction reports in corporate bonds sub-
+
+mitted to regulatory authorities under MiFID II, which took effect on 3 January 2018. Under
+
+this regulation, investment firms and other trading institutions are mandated to submit reports
+
+for their trades in debt instruments that are permitted to trade on a venue. Venues include
+
+regulated markets (such as the London Stock Exchange), multilateral trading facilities (such as
+
+8
+
+RFQ platforms like TradeWeb, MarketAxess, or Bloomberg) and organised trading facilities.2
+
+Trades have to be reported irrespective of whether they are actually carried out on a venue, as
+
+long as the instrument is admitted to be traded on a venue. This amendment to the previous
+
+legal framework marks a significant improvement in terms of the data coverage of OTC markets.
+
+Under the preceding directive (MiFID I), trades had to be reported only when the instrument
+
+was permitted to trade on a regulated market—a requirement that many corporate bonds do
+
+not fulfil. Using these data distinguishes our paper from studies that used data collected under
+
+the MiFID I regime. Another benefit of our data is the level of granularity and detail compared
+
+to TRACE data for US corporate bonds. The key advantage of our MiFID II data is that they
+
+allow us to identify both counterparties of the trade, instead of only the dealer as in TRACE.
+
+The data are made available to us by the Financial Conduct Authority (FCA), the UK’s
+
+financial markets regulator. The FCA receives reports for all transactions in reportable financial
+
+instruments involving at least one UK investment firm or executed on a UK trading venues. Each
+
+report includes information on the ISIN of the instrument traded, the time of the transaction
+
+(time-stamped to at least the nearest second), the price and the quantity. As mentioned above,
+
+each report also identifies both counterparties of the trade, including for those trades where
+
+the counterparty is a client. This beneficial feature of our data allows us to study trading
+
+relationships between each dealer-client pair, going beyond the inter-dealer segment. As a result,
+
+we are able to shed light on the nature and importance of relationships from the perspective
+
+of clients, who are the ultimate end-users that shed or take on risk exposures.3 Finally, we
+
+complement these data with information on bond characteristics, such as maturity and credit
+
+ratings, from S&P Capital IQ and ESMA’s Financial Instruments Reference Database System
+
+(FIRDS).
+
+2For precise definitions see point 20 to 23 of Article 4(1) of the MiFID II Directive. The trades in our data are
+executed on a UK venue, involve at least one UK counterparty, or executed on a EU venue in a bond regulated
+by the FCA. The vast majority of bonds in our sample are denominated in EUR and USD, as shown in columns
+1 and 2 of Table A.1 in the Appendix.
+
+3Inter-dealer transactions, by contrast, typically serve the purpose of inventory risk management. While
+taking bonds into inventory is commonplace for non-dealers, a key incentive of dealers is to minimize inventory
+risk. This is often achieved by trading in inter-dealer markets.
+
+9
+
+2.2. Reference prices from MarketAxess
+
+For the computation of transaction costs, we require reference prices that reflect the fair value of
+
+the asset at the time of the transaction. However, in OTC markets, which are highly fragmented
+
+with only intermittent trading activity, establishing a reference price is not straightforward. A
+
+common practice in the literature is to use inter-dealer prices, but dealer-client trades and inter-
+
+dealer reference trades are not always proximate in the corporate bond market.
+
+Indeed, not
+
+infrequently they are days apart, by which time the reference price would likely have moved.
+
+For our reference prices, we use proprietary mid-quote data from MarketAxess Composite+
+
+(CP+). These data provide a level of pricing information that is usually only available to
+
+sophisticated market participants.4 CP+ is based on a proprietary machine-learning pricing
+
+algorithm developed by MarketAxess that generates pre-trade reference prices for corporate
+
+bond investors. The pricing engine leverages data not only on the bond being priced, but also
+
+other related bonds. The sources of data include reported trade prices, RFQ responses sent
+
+by liquidity providers on the MarketAxess trading platform, and indications of trading interest
+
+streamed by dealers.5 We received reference prices sampled at 8am London time, 8am New York
+
+time and 4pm London time each day. For the period 1 to 18 March 2020, which we will use as
+
+our crisis period, MarketAxess also provided us with reference prices on a tick-by-tick basis.
+
+2.3. Descriptive statistics
+
+Table 1 provides key descriptive statistics for the dealer-client transactions in our sample, which
+
+runs from 3 January 2018 (the start of MiFID II reporting) to 18 March 2020 (the end of the
+
+2020 dash-for-cash episode).6 In much of our paper, we investigate relationship discounts and
+
+4The MarketAxess CP+ reference prices are observed much more frequently than inter-dealer quotes, which
+are typically used in the literature to date. Table A.3 in the Appendix shows that MarketAxess CP+ prices
+are observed almost four times more frequently, on average: every 2.2 hours compared to every 8 hours for
+inter-dealer trades.
+
+5The input data is then fed into a tree-based machine learning algorithm called Gradient Boosting Method
+
+(GBM). For more information, see MarketAxess (2018).
+
+6We do not use data shortly after the end of the COVID-19 turmoil period in order to avoid confounding our
+findings with the effects of policy measures introduced in response to the COVID-19 crisis. See Table 1 on page
+14 of the Bank of England’s May 2020 Monetary Policy Report.
+
+10
+
+transaction costs separately during normal and crisis times. Hence, we split our sample into a
+
+pre-crisis (before March 2020) and crisis period (1 to 18 March 2020). We set the beginning of
+
+the turmoil period to the start of increased selling pressure in bond markets.7 We choose the
+
+end of the turmoil period, March 18, as the time when the “dash for cash” abated, due in large
+
+part to the actions of major central banks.
+
+Overall, our dataset comprises transactions of more than 50 dealers in corporate bond markets
+
+pre-crisis, with almost all of them active during the COVID-19 crisis too (Panel A of Table 1).
+
+In total, dealers interact with more than 17,300 (4,500) clients before (during) the crisis.8 We
+
+record a total of 6.7 million dealer-client transactions in our sample, worth a total nominal value
+
+of GBP 5.8 trillion. Overall, more than 39,200 (17,500) different bonds were traded at least once
+
+before the COVID-19 crisis (during the crisis period).
+
+Next, we analyze the concentration of trading, both across dealers and clients. Figure 1 (left
+
+panel) shows that dealers differ significantly in terms of their market footprint (as measured by
+
+their share of aggregate trading volume). Trading is highly concentrated, with the largest 14
+
+dealers accounting for 80% of trading volume of all dealer-client transactions.9 The right panel
+
+of Figure 1, in turn, displays the size distribution for the largest 500 clients. The concentration
+
+of client volumes is even more extreme than that of dealers. The trading volumes of the largest
+
+clients are equivalent to those of medium-sized dealers.
+
+The ’Averages’ section of Panel A of Table 1 provides some further insights into trading by
+
+dealers and customers. On average, 48 dealers were active on any given day before the crisis and
+
+around 50 were active during the crisis. Client demand for dealers’ intermediation services and
+
+the supply of those services both appeared to increase during the crisis: the number of clients
+
+active in the market increased from 1,400 to 1,600, and dealers’ average daily trading volume
+
+increased by roughly 40%. Clients interact on average with about 3 dealers on a given day,
+
+7See, for example, charts A.4 to A.6 in the Bank of England’s August 2020 Financial Stability Report.
+8This refers to all clients endowed with a Legal Entity Identifier (LEI). We exclude all transactions between
+dealers and clients where both belong to the same parent company, as identified by the Global Legal Entity
+Identifier Foundation (GLEIF) database.
+
+9This finding is consistent with other studies of the corporate bond market, which also find that few dealers
+
+have a large share of total trading volume, e.g. O’ Hara et al. (2018).
+
+11
+
+Table 1: Descriptive statistics
+
+Panel A: Dealer-to-client trades
+
+Totals
+
+Averages
+
+Daily
+
+Dealer-day
+
+Client-day
+
+Bond-day
+
+Pre-crisis
+
+Crisis Pre-crisis Crisis Pre-crisis
+
+Crisis Pre-crisis Crisis Pre-crisis Crisis
+
+#Dealers
+#Clients
+#Bonds
+#Trades
+Volume
+
+50.3
+47.9
+53
+1.6k
+1.4k
+17.3k
+5.2k
+6.4k
+39.2k
+11.8k 16.3k
+6.5m
+5.6tn 181.9bn 10.2bn 14.0bn
+
+51
+4.5k
+17.5k
+211k
+
+Panel B: Bond characteristics
+
+3.2
+
+3.2
+
+94.9
+177.2
+245.8
+
+104.9
+8.1
+221.9
+9.9
+323.1
+212.3m 277.6m 7.1m 8.5m
+
+6.9
+8.3
+
+1.6
+1.9
+
+1.8
+2.1
+
+2.3
+
+2.6
+1.9m 2.2m
+
+Rating distribution (in %) Maturity Illiquidity
+%ZTD
+AAA A-AA
+54.23
+29.70
+6.18
+48.59
+31.74
+6.01
+
+HY (years)
+7.38
+7.62
+
+BBB
+39.54 24.59
+34.40 27.86
+
+pre-crisis
+crisis
+
+%
+
+Panel C: Client sector
+Sector
+Asset Manager 58.98
+15.39
+Bank
+8.42
+PFLDI
+8.16
+Broker
+7.85
+Hedge Fund
+1.19
+PTF
+
+Panel D: Transaction costs (bps)
+
+Panel E: Qrel correlation
+
+#Obs mean
+
+std median
+
+pre-crisis
+
+crisis
+
+buy
+sell
+
+buy
+sell
+
+1.2m
+1.2m
+
+41.6k
+60.6k
+
+9.2
+8.7
+
+1.0
+50.2
+
+Panel F: Qrel distribution
+
+Qrel (in %)
+
+36.7
+37.6
+
+64.3
+81.3
+
+mean
+
+1.30
+
+5.2
+3.9
+
+4.4
+21.7
+
+std
+
+3.53
+
+(t, t − 1)
+(i, j)
+
+(t, t − 1)
+(i, j)
+
+(in %)
+
+79.0
+20.6
+
+87.4
+16.8
+
+1%
+
+0.00
+
+25% 50%
+
+75% 99%
+
+0.06 0.28
+
+1.01 16.78
+
+Notes: This Table shows descriptive statistics for the pre-crisis (3 January 2018 to 29 February 2020) and crisis
+period (1 to 18 March 2020). Panel A displays the total number of dealers (#Dealers), clients (#Clients), bonds
+(#Bonds) and trades (#Trades), as well as total trading volume measured in GBP. Panel B presents bond
+characteristics. Maturity is the volume-weighted average residual maturity across transactions and is measured
+in years. %ZTD is a measure of illiquidity calculated as the share of days with no trade in a particular bond.
+The rating distribution is measured in terms of trading volume of all bonds that had a rating in February 2020.
+High-yield (HY) is all ratings below BBB. Panel C shows the share of trading volume by client sector: asset
+managers, banks, pension funds, insurers and liability-driven investors (PFLDI), brokers including executing and
+investing services firms, hedge funds, and proprietary trading firms (PTF). Panel D shows average transaction
+costs measured in basis points (bps) for client buys and sells. Panel E presents average relationship persistence
+(row (t, t − 1)) and overlap (row (i, j)) as defined in Eqs. (4) – (5). The relationship metric is calculated as the
+client’s trading volume relative to that of all other clients of the same dealer over a window of 180 days before the
+time of the transaction: see Eq. (3). Panel F presents the distribution of the relationship metric Qrel measured
+in % across all transactions.
+
+12
+
+Figure 1: Trading volume concentration across dealers and clients
+
+Notes: The Figure displays the share of trading volume (in %) for dealers (left) and clients (right) over the full
+sample period.
+
+whereas dealers interact with 95 clients (105 during crisis), corroborating the earlier observation
+
+that clients’ trading behavior is much more concentrated than that of dealers.
+
+We next study the main characteristics of the bonds traded in our sample in terms of credit
+
+risk, duration, and liquidity. Specifically, we provide statistics for volume-weighted aggregate
+
+measures of the bonds’ credit rating, time-to-maturity, and percentage of zero-trading-days
+
+(%ZTD). Panel B of Table 1 shows that the average bond has around 7.4 years to maturity
+
+and does not trade on 54% of trading days. The latter figure decreases to 49% in the crisis, sug-
+
+gesting that more liquid bonds were traded during the COVID turmoil. In terms of credit quality,
+
+around one (three) quarter(s) of trading volume is in high-yield (investment-grade) bonds.
+
+Finally, we study the composition of investors active in corporate bond trading. Panel C of
+
+Table 1 reports the distribution of trading volume across different client sectors in the whole
+
+sample. The asset management sector is by far the largest, accounting for 59% of the trading
+
+volume. Banks that do not form part of the dealer community are the second largest group with
+
+more than 15% of trading volume. Pension funds, insurance companies and other liability-driven
+
+investors (PFLDI), as well as brokers and hedge funds each account for around 8% of trading
+
+volume. Principal trading firms (PTFs) have a small share of the total trading volume, which
+
+might be related to the low degree of electronification in corporate bond trading. We provide
+
+13
+
+some additional summary statistics on currencies, countries of residence of issuers, and industries
+
+in the Online Appendix, Table A.1 and Table A.2.
+
+3. Empirical strategy and measurement of key variables
+
+The main goal of our paper is to study the extent to which dealers give transaction-cost discounts
+
+to clients, depending on the strength of their past trading relationships with those clients. In this
+
+section, we start by setting out our econometric approach—panel regressions with a rich set of
+
+fixed effects in order to tease out the effect of relationships on transaction costs. We then describe
+
+and present stylized facts on our main dependent and independent variables: transaction costs
+
+faced by different clients and our measure of dealer-client relationship strength (Qrel).
+
+3.1. Econometric approach
+
+To understand if the strength of relationships between dealers and their clients affects the trans-
+
+action costs that clients incur, we estimate panel regressions with fixed effects of the form:
+
+T Cbdct = γ Qreldct + X′
+
+bdct β + 1′µ + εbdct,
+
+(1)
+
+where T Cbdct is the transaction cost for a trade between dealer d and client c in bond b at time
+
+t and Qreldct is our relationship measure (which we describe below).
+
+Fixed effects. The vector µ in Eq. (1) contains bond-month, dealer-month, client-month and
+
+industry-day fixed effects. This rich set of fixed effects allows us to control for many observable
+
+and unobservable variables that may influence transaction costs. For example, a bond’s liquidity
+
+likely affects transaction costs for all clients. Including bond-month fixed effects thus ensures
+
+that our results are not affected by relationship clients systematically trading more liquid bonds.
+
+Similarly, the size, network centrality, or market power of clients and dealers could also affect
+
+transaction costs. However, including client-month and dealer-month fixed effects ensures that
+
+14
+
+our results are not driven by such characteristics. Industry-day fixed effects absorb any variation
+
+in transaction costs related to systematic time-varying differences by day and across industries:
+
+e.g., if relationship clients systematically trade bonds from certain industries, which could affect
+
+the crisis results, for example, given the nature of the COVID shock. In several robustness tests,
+
+we also include dealer-day and bond-day fixed effects.
+
+Additional controls. We control for additional variables in the vector Xbdct. These include three
+
+dummy variables, sellbdct, matchbdct and M T Fbdct, which take the value 1 if the client sells, the
+
+dealer matches the trade with a transaction in the opposite direction, or the trade is executed on
+
+a regulated market or multilateral trading facility, respectively.10 To compute matchbdct, a match
+
+is defined to be a transaction in which the dealer buys/sells the bond instantaneously and does
+
+not take on any balance-sheet risk. In practice, a dealer would line up these trades with different
+
+clients in advance and then execute them simultaneously, which is captured by our dummy.11
+
+In general, we would expect such transactions to be associated with lower costs for the client,
+
+as shown by Goldstein and Hotchkiss (2020). We also expect that having a strong relationship
+
+with a dealer could be more beneficial for non-matched trades, which would require the dealer
+
+to warehouse some risk. Since more volatile bonds could have larger transaction costs, we also
+
+control for bond’s volatility by including the lagged squared intra-day return on the benchmark,
+
+bt−1.12 Finally, we also control for the size of the transaction (in logs).
+r2
+
+3.2. Measuring transaction costs
+
+To capture price discounts that dealers offer to (certain) clients, we compute the transaction
+
+costs faced by clients trading with the dealer. We follow Hendershott and Madhavan (2015),
+
+10Since trading on regulated markets, such as the London Stock Exchange, accounts for less than 1%, the
+
+M T F dummy effectively captures trading on multilateral trading facilities.
+
+11All other trades in which the dealer trades the same bond in opposing directions - even if only a few seconds
+
+apart - are not pre-arranged and thus are risky for the dealer since she acts as a principal.
+
+12We use lagged squared returns instead of contemporaneous ones to avoid bias in OLS estimates, which stems
+
+from using future benchmark price changes for transactions observed before the end of the day.
+
+15
+
+Hau et al. (2021) and others to measure transaction costs as
+
+T C = log
+
+(cid:19)
+
+(cid:18) P
+Pb
+
+× D,
+
+(2)
+
+where P denotes the transaction price, Pb is the closest CP+ mid-quote for the traded bond
+
+in the 24 hours prior to the transaction, and D is the trade direction of the client, taking the
+
+value +1 for a purchase and -1 for a sale. We multiply transaction costs in Eq. (2) by 10,000 to
+
+measure them in basis points (bps).
+
+The transaction cost measure in Eq. (2) captures the extent to which the price paid by the
+
+client differs from the reference price prevailing in the market at the time of the transaction.
+
+This measure captures the transaction costs from the client’s perspective.
+
+Basic descriptive statistics on transaction costs. Panel D of Table 1 reports the volume-
+
+weighted average transaction costs for client purchases and sales (denoted by buy/sell), both
+
+before and during the March 2020 stress period.13 We see that average transaction costs for
+
+client sales (dealer purchases) of 9.2 bps were similar to those for client purchases (8.7 bps) in
+
+the pre-crisis period. However, during the crisis period, transaction costs became highly asym-
+
+metric for client sales vs. client purchases. Transaction costs dropped to around 1 bp for client
+
+purchases but jumped fivefold to 50 bps for sales during the crisis. At this time, dealers faced
+
+significant net selling pressure from clients. Hence, they may have tried to discourage client sales
+
+(which would have further increased the size of their balance sheets) through higher transaction
+
+costs, and encouraged client purchases (which would provide balance sheet relief) through lower
+
+transaction costs.
+
+3.3. Measuring dealer-client relationship strength
+
+We now turn to the measurement of our key variable that seeks to capture the strength of a
+
+relationship between a dealer and a client.
+
+13The number of observations in Panel D and in our regression sample is smaller relative to other panels in
+
+Table 1 because we use only transactions for which there is a benchmark price observed in the last 24 hours.
+
+16
+
+We measure the strength of dealer-client relationships ahead of each transaction. To do this,
+
+we begin by calculating the total trading volume of the dealer-client pair across all bonds over
+
+the previous 180 days, lagged by one week.14 We then divide that measure by the total volume
+
+of trading between the dealer and all of its clients. This gives us the share of trading volume
+
+that dealer d obtains from trading with client c:
+
+Qreldct =
+
+(cid:80)
+
+k∈C
+
+(cid:80)t−7
+
+τ =t−187 Qdcτ
+(cid:80)t−7
+
+τ =t−187 Qdkτ
+
+,
+
+(3)
+
+where C is the set of clients of the dealer over the 180 days window. Intuitively, Qrel captures,
+
+from a dealer’s perspective, the importance of a particular client based on its contribution to
+
+the dealer’s overall trading volume over the past 180 days.
+
+Basic facts on dealer-client relationships. We now present some basic descriptive statistics
+
+on our dealer-client relationship measure. Panel F of Table 1 reports the distribution of the
+
+relationship metric over all dealer-client transactions in our sample. As the Table shows, the
+
+vast majority of clients only account for a small share of a dealer’s trading volume: the median
+
+Qrel client accounts for only 0.28% of dealer’s trading volume. However, there is a significant
+
+heterogeneity among clients as indicated by the large standard deviation (relative to the median
+
+and mean). An important observation is that there is a small number of clients who account for
+
+a sizeable portion of a dealer’s overall trading business: the top 1% of Qrel clients accounts for
+
+about a sixth of a dealer’s trading volume over the past 180 days.
+
+To gain further insights into the nature of relationships in corporate bond trading, we examine
+
+the persistence and overlap of relationships. First, for each dealer, we measure the persistence of
+
+client relationships over time based on the correlation of client volume shares over two adjacent,
+
+14We use the lagged measure to make sure that the information is readily available to a dealer and can serve
+as an input into the quote setting when responding to a client’s trading requests. Our results are similar if we
+use one day or one week lag, or 90 days window (see Table A.4 in the Online Appendix).
+
+17
+
+non-overlapping periods:
+
+corrQd(t, t − 1) = corr(Qreld,t, Qreld,t−1),
+
+(4)
+
+where Qreld,t denotes the vector of client volume shares in a dealer’s overall trading volume at
+
+time t.15 Panel E in Table 1 shows that relationship strengths are fairly persistent over time.
+
+The average corrQd(t, t − 1) is 79% in the pre-crisis period and the correlation measure increases
+
+to 87% during the COVID-19 turmoil.
+
+Second, to investigate whether relationship clients of one dealer (i) overlap with those of
+
+other dealers (j), we use a similar metric to corrQd(t, t − 1), but computed over the cross-section
+
+of dealers:
+
+corrQt(i, j) = Corr(Qreli,t, Qrelj,t).
+
+(5)
+
+Panel E in Table 1 shows that relationship clients are not especially common across dealers.16
+
+On average, the cross-sectional correlation measure corrQt(i, j) is only 21% in the pre-crisis
+
+period. This finding suggests that when clients have a strong relationship with a dealer they tend
+
+to be quite loyal to that dealer and do not simultaneously show up as a strong relationship client
+
+for another dealer. The cross-sectional correlation between dealers’ Qrel measures decreased
+
+slightly during the crisis period. This pattern suggests that the trading of relationship clients
+
+became even more concentrated during that episode, with clients increasing their reliance on
+
+their relationship dealer.
+
+15In unreported results we used the rank correlation and, as an alternative measure, the share of a dealer’s top
+clients in one period that were also top clients in the previous 180-days period. Both measures also showed high
+persistence of relationships over time.
+
+16Again, this finding is robust to using the rank correlation and an alternative measure based on the share of
+a dealer’s top clients that are also top clients of another dealer during the same period. The results are excluded
+for brevity.
+
+18
+
+4. Relationship discounts in corporate bond trading
+
+In this section, we report our baseline results on relationship discounts obtained from estimating
+
+Eq. (1). We begin with relationship discounts in normal times, before turning to discounts
+
+during the COVID-19 crisis period. We also report how transaction costs vary with several
+
+trade characteristics.
+
+Table 2 (Panel A) presents results for the pre-crisis period. It shows that the relationship
+
+metric Qrel has a negative and statistically significant effect on transaction costs, regardless of
+
+our fixed effects specification. The coefficient estimates in columns 1 and 2 imply that transaction
+
+costs are 0.28 basis points lower for every percentage point increase in Qrel. This suggests
+
+that top-percentile clients, with Qrel = 16.8 (as reported in Table 1), pay transaction costs
+
+that are 4.6 basis points lower than those of median clients with Qrel = 0.3 (calculated as
+
+−0.28 × (16.8 − 0.3) = −4.6). This reduction for relationship clients represents a sizeable 51%
+
+discount on the average transaction cost of 9 basis points that the typical clients face in the
+
+pre-crisis period. It amounts to annual savings of £1.3m based an average daily trading volume
+
+of £11m for top clients and 252 trading days (£11m ×4.6/10, 000 × 252 = 1.3m).
+
+Table 2 (Panel B) presents results for the COVID-19 crisis period. It shows coefficient es-
+
+timates for Qrel that are roughly double their pre-crisis values. For example, the medium
+
+estimate in column 5 suggests that transaction costs were 0.61 basis point lower for every
+
+percentage point increase in Qrel. This implies that top-percentile clients paid transaction
+
+costs that were 10.1 basis points lower than those of median clients during the crisis period
+
+(−0.61 × (16.8 − 0.3) = −10.1), more than double the 4.6 basis point reduction in the pre-crisis
+
+period.
+
+These pre-crisis and crisis results hold after controlling for other potential determinants of
+
+transaction costs. In particular, we control for several trade characteristics that may influence
+
+transaction costs, including through their effects on dealer balance sheets.
+
+First, we allow for trade size to affect transaction costs. Consistent with previous studies
+
+(e.g. Pint´er et al., 2022b), we find that larger trades are more expensive to execute. This may
+
+19
+
+Table 2: Baseline results on relationship discounts
+
+Panel A: Pre-crisis
+
+Panel B: Crisis
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+−27.93∗∗
+(9.78)
+−3.45∗∗∗
+(0.85)
+−0.77
+(1.44)
+0.61∗∗∗
+(0.06)
+2.34∗∗
+(0.85)
+−0.07
+(0.38)
+
+−27.85∗∗
+(9.80)
+−3.45∗∗∗
+(0.85)
+−0.80
+(1.43)
+0.61∗∗∗
+(0.06)
+2.31∗∗
+(0.85)
+−0.44
+(0.30)
+
+−31.93∗∗∗ −52.89∗∗
+(26.13)
+(10.12)
+−3.64∗∗∗ −10.07∗∗∗
+(0.74)
+−0.02
+(1.63)
+0.69∗∗∗
+(0.06)
+2.59∗∗
+(1.06)
+
+(2.56)
+38.49∗∗∗
+(3.96)
+0.47∗
+(0.28)
+−0.73
+(2.17)
+6.68∗∗∗
+(0.59)
+
+−60.89∗∗
+(27.75)
+−7.63∗∗∗
+(2.02)
+36.19∗∗∗
+(3.79)
+0.53∗
+(0.28)
+0.57
+(1.98)
+−0.95
+(0.76)
+
+−69.15∗∗
+(29.92)
+−6.37∗∗∗
+(1.78)
+39.60∗∗∗
+(4.56)
+1.24∗∗∗
+(0.33)
+0.15
+(2.25)
+
+2.3m
+0.20
+
+2.3m
+0.21
+
+1.9m
+0.35
+
+91.6k
+0.31
+
+91.6k
+0.36
+
+84.5k
+0.48
+
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+Yes
+
+Yes
+
+Yes
+Yes
+
+Yes
+
+Yes
+Yes
+Yes
+
+Yes
+Yes
+
+Yes
+
+Yes
+Yes
+Yes
+
+Qrel
+
+ismatch
+
+sell
+
+logQ
+
+MTF
+
+r2
+bt−1
+
+Nobs
+R2
+
+Fixed effects
+dealer × month
+client × month
+bond × month
+industry × day
+dealer × day
+bond × day
+dealer
+client
+bond
+
+Notes: This Table shows the results of our baseline regression (Eq. (1)) for the pre-crisis period from 3 Jan
+2018 to 29 Feb 2020 (Panel A) and the crisis period from 1 to 18 March 2020 (Panel B). The dependent variable
+is the transaction cost of a corporate bond trade between a dealer and a client as described in Eq. (2) and
+measured in basis points. The independent variables are: Qrel, the share of the client’s trading volume in total
+dealer’s trading volume over a past window of 180 days as defined in Eq. (3); match, an indicator variable
+equal to one if the dealer offsets the trade with other trades executed at the same instant and in the opposite
+direction; sell, an indicator variable equal to one if the client is selling; MTF, an indicator variable equal to one
+if the trade is executed on a regulated market (e.g., London Stock Exchange) or a multilateral trading facility
+(e.g., MarketAxess); logQ, the natural logarithm of the trade size measured in GBP and r2
+bt−1, the MarketAxess
+benchmark’s lagged squared daily return. Standard errors (shown in parentheses) are clustered at the dealer and
+month level for the pre-crisis period and at the dealer level for the crisis period. Asterisks indicate significance
+levels (∗∗∗= 1%, ∗∗= 5%, ∗= 10%).
+
+20
+
+reflect compensation for dealers for taking on more inventory risk when absorbing larger trades.
+
+Second, we include a control dummy variable that takes the value of one for trades executed
+
+electronically on a multilateral trading platform. We find that in non-crisis times, transaction
+
+costs for trades executed on such platforms are about 2.5 basis points higher than for other OTC
+
+trades.
+
+Third, we control for matched trades. In a matched trade, a dealer simultaneously executes
+
+pre-arranged offsetting sales and purchases, such that the set of trades has no effect on its
+
+bond inventory. Transaction costs may be lower for matched trades as dealers do not require
+
+compensations for any additional inventory risk (Goldstein and Hotchkiss, 2020; Choi et al.,
+
+2021). Indeed, we find that in normal times transaction costs for matched trades are about 3.5
+
+basis points lower than for non-matched trades. We also find this effect to be 2–3 times larger
+
+in the crisis period. This suggests that dealers charge more for balance-sheet-intensive trades,
+
+especially at times of crisis, when dealer balance sheets are likely to be more constrained.
+
+Finally, we allow transaction costs to vary with the direction of the client’s trade. In situations
+
+where dealers do not already have a pre-arranged matching trade, a client sale results in the
+
+dealer taking the bond into its inventory, whereas a client purchase draws from the dealer’s
+
+inventory. While the former will tighten balance-sheet constraints, the latter will alleviate them.
+
+Despite this asymmetry, we find no significant difference between transaction costs for client
+
+purchases and sales in the pre-crisis period. In the crisis period (Panel B of Table 2), however,
+
+we find that client sales were much more expensive than client purchases: in fact, 36–40 basis
+
+points more expensive. A likely explanation is that higher volatility during the crisis boosted
+
+dealers’ inventory risk and left them less able to absorb additional bond sales. This was likely
+
+compounded by expectations that bonds would need to be held in inventories for longer, given
+
+the imbalanced market with few buyers. Hence, dealers tried to deter trades that would add to
+
+their inventories by making them relatively expensive.
+
+Relationship discounts for unmatched trades. We next study whether balance sheet motives
+
+interact with the size of the discount given to relationship clients. Since unmatched trades are
+
+21
+
+more likely to affect dealer inventories, we first test whether the discount given on unmatched
+
+trades differs across relationship and non-relationship clients. We do so by estimating:
+
+T Cbdct = γ Qreldct + α1 nomatchbdct + β1 nomatchbdct × Qreldct + X′
+
+bdctβ + 1′µ + εbdct.
+
+(6)
+
+As shown in the first column of Panel A in Table 3, and consistent with earlier results, dealers
+
+charge roughly 4 basis points more to execute unmatched trades compared to matched trades
+
+in the pre-crisis period (α1). More importantly, dealers offer a relationship discount of about
+
+31 basis points per unit of Qrel for unmatched trades (γ + β1), compared to an insignificant
+
+9 basis points discount for matched trades (γ). During the crisis period (Panel B), both the
+
+unconditional cost of unmatched trades (α1) and the relationship discounts for such trades
+
+(γ + β1) increased sharply. These results are consistent with dealers applying preferential pricing
+
+to relationship clients in principal trades that require dealers to warehouse risk on their balance
+
+sheet.
+
+We next study whether dealers give larger discounts for unmatched client sales than un-
+
+matched client purchases.
+
+In the corporate bond market, a client sale usually increases the
+
+dealer’s inventory, whereas a client purchase tends to be filled out of the dealer’s inventory and
+
+hence reduces it.
+
+Hence, we interact the dummy variables for unmatched trades and client sales and estimate
+
+the following regression:
+
+T Cbdct = γ Qreldct + α1 nomatchbdct + α2 sellbdct + α3 nomatchbdct × sellbdct
+
++ β1 Qreldct × nomatchbdct + β2 Qreldct × sellbdct + β3 Qreldct × nomatchbdct × sellbdct
+
++ X′
+
+bdctβ + 1′µ + εbdct.
+
+(7)
+
+The coefficient β3 then captures the additional relationship discount for unmatched client
+
+sales, and the overall relationship discount for such trades is γ + β1 + β2 + β3. The large negative
+
+estimate on β3 in column 4 shows that dealers charge relationship clients significantly smaller
+
+22
+
+costs for unmatched client sales during the crisis.17 Thus, when dealers faced one-sided selling
+
+pressure that clogged their balance sheets, they gave preferential pricing to relationship clients.
+
+The results from this section suggest two immediate conclusions about transaction costs in
+
+corporate bond markets. First, they differ markedly depending on the strength of the dealer-
+
+client trading relationship. Second, they depend on how the trade affects the dealer’s inventory.
+
+In line with this, we observe that non-matched trades in general, and client sales in the crisis
+
+period, are more expensive. Taken together, these two inferences suggest that dealers ration
+
+their balance-sheet space through their pricing behavior, but that they do so in a differentiated
+
+way across clients depending on the strength of the trading relationships with these clients.
+
+5. Why do dealers give relationship discounts?
+
+In this section, we test three hypotheses that could explain why dealers give relationship discounts
+
+to clients: “liquidity provision”, “retaining high-value clients” and “information extraction”. We
+
+find that dealers give larger discounts to clients to whom they often turn for liquidity provision,
+
+which allows them to manage their bond inventories more efficiently. We also find that discounts
+
+appear related to dealers’ profit motives, as “high value” clients, who generate the bulk of dealers’
+
+trading profits, receive lower transaction costs. However, we find no evidence that information
+
+extraction is a driver of relationship discounts.
+
+To test the three hypotheses, we identify the top 1% of liquidity-providing, high-value, and
+
+informed clients, and estimate the following regression:
+
+T Cbdct = γ Qreldct + δ Qreldct × ιdct + α ιdct + Xbdctβ + 1′µ + εbdct,
+
+(8)
+
+where ιdct is a dummy for the respective category of clients. If δ < 0, the category of clients
+
+receives a larger discount than other clients supplying the same share of the dealer’s trade volume
+
+(Qrel).
+
+17The total reduction in transaction costs during the crisis γ + β1 + β2 + β3 = −159.38 is significant at the
+
+12% level.
+
+23
+
+Table 3: Relationship discounts and balance-sheet intensive trades
+
+Panel A: Pre-crisis
+
+Panel B: Crisis
+
+nomatch
+(1)
+
+nomatch × sell
+(2)
+
+nomatch
+(3)
+
+nomatch × sell
+(4)
+
+−8.82
+(7.57)
+−22.10∗∗∗
+(7.30)
+
+3.82∗∗∗
+(0.92)
+−0.80
+(1.43)
+
+−30.91∗∗∗
+
+2.3m
+0.21
+
+−11.86
+(7.03)
+−22.58∗∗
+(10.28)
+5.88
+(8.16)
+1.59
+(13.45)
+
+3.34∗∗∗
+(0.87)
+−1.77
+(1.67)
+0.95∗∗∗
+(0.33)
+
+−34.44∗∗
+−5.98
+−26.97∗
+
+2.3m
+0.21
+
+−43.96
+(46.61)
+−19.72
+(38.37)
+
+7.99∗∗∗
+(1.72)
+36.20∗∗∗
+(3.79)
+
+−63.67∗∗
+
+91.6k
+0.36
+
+−39.63
+(63.86)
+133.30
+(88.87)
+−9.51
+(66.43)
+−243.50∗
+(142.60)
+8.76
+(6.11)
+40.98∗∗∗
+(9.11)
+−1.68
+(9.63)
+
+93.62
+−49.14
+−159.38
+
+91.6k
+0.36
+
+Qrel (γ)
+
+Qrel × nomatch (β1)
+
+Qrel × sell (β2)
+
+Qrel × nomatch × sell (β3)
+
+nomatch (α1)
+
+sell (α2)
+
+nomatch × sell (α3)
+
+γ + β1
+γ + β2
+γ + β1 + β2 + β3
+
+Nobs
+R2
+
+Notes: This Table shows the estimates from the regressions Eq. (6) (columns (1) and (3)) and Eq. (7) (columns (2)
+and (4)) for the pre-crisis and crisis period. Pre-crisis regressions (Panel A) include dealer-month, client-month,
+bond-month and industry-day fixed effects, and standard errors (shown in parentheses) are double clustered by
+month and dealer. For the crisis period (Panel B) regressions include dealer, client, bond and industry-day fixed
+effects, and standard errors are clustered by dealers. Asterisks indicate significance levels (∗∗∗= 1%, ∗∗= 5%, ∗=
+10%).
+
+24
+
+Table 4: Percent of trading volume by sector in different client categories
+
+sector
+
+Asset Manager
+Bank
+PFLDI
+Broker
+Hedge Fund
+PTF
+
+top clients
+(1)
+
+liquidity clients high-value clients
+(3)
+
+(2)
+
+informed clients
+(4)
+
+63.17
+2.32
+11.11
+18.12
+4.57
+0.71
+
+60.27
+0.94
+5.83
+28.70
+3.68
+0.59
+
+85.22
+0.03
+11.04
+0.00
+3.17
+0.54
+
+66.56
+8.93
+11.94
+8.10
+1.97
+2.50
+
+Notes: The table shows the percentage of trading volume by client sector (excluding other financials, non-
+financials and unclassified clients). ‘Broker’ includes brokers, executing and investing services, ‘PFLDI’ include
+pension funds, insurers and liability driven investors, ‘PTF’ are proprietary trading firms. The column ’top
+clients’ shows the percentage by sector among the dealers’ top-1% clients according to their Qrel measure, the
+columns ’liquidity clients’, ’high-value clients’ and ’informed-clients’ show the percentages among the top 1%
+liquidity

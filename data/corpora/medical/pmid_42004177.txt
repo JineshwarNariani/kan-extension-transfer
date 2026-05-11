@@ -1,0 +1,135 @@
+
+PMID- 42004177
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260421
+LR  - 20260421
+IS  - 1178-2048 (Electronic)
+IS  - 1176-6344 (Print)
+IS  - 1176-6344 (Linking)
+VI  - 22
+DP  - 2026
+TI  - Taoren Honghua Jian Regulate NLRP3 Inflammasome of Coronary Artery Disease 
+      Patients: A Multi-Center, Double-Blind, Randomized Controlled Trial.
+PG  - 569054
+LID - 10.2147/VHRM.S569054 [doi]
+LID - 569054
+AB  - OBJECTIVE: This multicenter, double-blind, randomized controlled trial sought to 
+      assess the clinical efficacy of Taoren Honghua Jian (THJ) in patients with 
+      coronary artery disease (CAD) exhibiting Qi stagnation and blood stasis syndrome, 
+      and investigated its effect on NLRP3 inflammasome expression in peripheral blood 
+      mononuclear cells (PBMCs). METHODS: One hundred and twenty eligible CAD patients 
+      from three Shanghai hospitals were randomized to receive either the THJ granule 
+      (18.3 g, twice daily) or placebo for four weeks, with a four-week follow-up. 
+      Traditional Chinese Medicine Syndrome Score (TCMSS), Seattle Angina Questionnaire 
+      (SAQ), and lipid levels were measured before and after treatments. NLRP3 
+      inflammasome components were examined in PBMCs using quantitative PCR, whereas 
+      plasma inflammatory cytokines were detected using ELISA. RESULTS: A total of 120 
+      participants participated in the trial. The THJ group showed reduced TCMSS 
+      compared to the placebo group (P < 0.01). After four weeks of intervention, the 
+      THJ group scored considerably higher on five SAQ aspects compared to the placebo 
+      group (P < 0.01). However, lipid levels showed no significance. In PBMCs, THJ 
+      lowered mRNA expression of NLRP3 inflammasome components (NLRP3, ASC, caspase-1, 
+      IL-1beta, IL-18) (P < 0.01). Patients in the THJ group showed significantly lower 
+      plasma levels of IL-1beta, IL-2, and IL-18 following therapy compared to the placebo 
+      group (P < 0.01). CONCLUSION: THJ reduces angina symptoms and improves quality of 
+      life in CAD patients, which suggests that it suppresses NLRP3-related 
+      transcriptional activity and hence reduces pro-inflammatory cytokine production. 
+      These data suggest that THJ might be an effective adjuvant treatment for 
+      inflammation-driven coronary atherosclerosis.
+CI  - (c) 2026 Du et al.
+FAU - Du, Min
+AU  - Du M
+AD  - Dependent of Cardiology, Longhua Hospital, Shanghai University of Traditional 
+      Chinese Medicine, Shanghai, People's Republic of China.
+FAU - Feng, Xiaoteng
+AU  - Feng X
+AD  - Dependent of Cardiology, Longhua Hospital, Shanghai University of Traditional 
+      Chinese Medicine, Shanghai, People's Republic of China.
+FAU - Zhang, Na
+AU  - Zhang N
+AD  - Dependent of Cardiology, Longhua Hospital, Shanghai University of Traditional 
+      Chinese Medicine, Shanghai, People's Republic of China.
+FAU - Mao, Meijiao
+AU  - Mao M
+AD  - Dependent of Cardiology, Longhua Hospital, Shanghai University of Traditional 
+      Chinese Medicine, Shanghai, People's Republic of China.
+FAU - Du, Leyi
+AU  - Du L
+AD  - Department of Traditional Chinese Medicine, Shanghai Pudong New Area Gongli 
+      Hospital, Shanghai, People's Republic of China.
+FAU - Yang, Ying
+AU  - Yang Y
+AD  - Department of Traditional Chinese Medicine, Shanggang Community Health Service 
+      Center of Shanghai Pudong New Area, Shanghai, People's Republic of China.
+FAU - Zhang, Yifan
+AU  - Zhang Y
+AD  - Dependent of Cardiology, Longhua Hospital, Shanghai University of Traditional 
+      Chinese Medicine, Shanghai, People's Republic of China.
+FAU - Li, Sijin
+AU  - Li S
+AD  - Dependent of Cardiology, Longhua Hospital, Shanghai University of Traditional 
+      Chinese Medicine, Shanghai, People's Republic of China.
+FAU - Wang, Jiarou
+AU  - Wang J
+AD  - Dependent of Cardiology, Longhua Hospital, Shanghai University of Traditional 
+      Chinese Medicine, Shanghai, People's Republic of China.
+FAU - Chang, Xindi
+AU  - Chang X
+AD  - Dependent of Cardiology, Longhua Hospital, Shanghai University of Traditional 
+      Chinese Medicine, Shanghai, People's Republic of China.
+FAU - Ding, Jie
+AU  - Ding J
+AD  - Dependent of Cardiology, Longhua Hospital, Shanghai University of Traditional 
+      Chinese Medicine, Shanghai, People's Republic of China.
+FAU - Liu, Ping
+AU  - Liu P
+AD  - Dependent of Cardiology, Longhua Hospital, Shanghai University of Traditional 
+      Chinese Medicine, Shanghai, People's Republic of China.
+FAU - Zhang, Yiyi
+AU  - Zhang Y
+AD  - Intensive Care Unit, Longhua Hospital, Shanghai University of Traditional Chinese 
+      Medicine, Shanghai, People's Republic of China.
+FAU - Wang, Yiru
+AU  - Wang Y
+AUID- ORCID: 0000-0002-2691-8050
+AD  - Dependent of Cardiology, Longhua Hospital, Shanghai University of Traditional 
+      Chinese Medicine, Shanghai, People's Republic of China.
+LA  - eng
+PT  - Case Reports
+PT  - Clinical Trial
+PT  - Journal Article
+PT  - Multicenter Study
+PT  - Randomized Controlled Trial
+DEP - 20260414
+PL  - New Zealand
+TA  - Vasc Health Risk Manag
+JT  - Vascular health and risk management
+JID - 101273479
+RN  - 0 (NLR Family, Pyrin Domain-Containing 3 Protein)
+RN  - 0 (Inflammasomes)
+RN  - 0 (Drugs, Chinese Herbal)
+RN  - 0 (NLRP3 protein, human)
+RN  - 0 (Inflammation Mediators)
+RN  - 0 (Anti-Inflammatory Agents)
+RN  - 0 (Biomarkers)
+RN  - 0 (Cytokines)
+SB  - IM
+MH  - Humans
+MH  - Double-Blind Method
+MH  - *NLR Family, Pyrin Domain-Containing 3 Protein/genetics/metabolism/blood
+MH  - Male
+MH  - *Coronary Artery Disease/drug therapy/immunology/diagnosis/blood/genetics
+MH  - Middle Aged
+MH  - Female
+MH  - *Inflammasomes/genetics/metabolism/drug effects/blood
+MH  - Treatment Outcome
+MH  - *Drugs, Chinese Herbal/therapeutic use/adverse effects
+MH  - Aged
+MH  - Inflammation Mediators/blood
+MH  - China
+MH  - *Leukocytes, Mononuclear/drug effects/metabolism/immunology
+MH  - *Anti-Inflammatory Agents/adverse effects/therapeutic use
+MH  - Time Factors
+MH  - Biomarkers/blood
+MH

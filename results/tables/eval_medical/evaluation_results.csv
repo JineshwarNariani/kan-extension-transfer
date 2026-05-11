@@ -1,0 +1,61 @@
+query,method,edge_precision,edge_recall,edge_f1,relation_precision,relation_recall,relation_f1,node_jaccard,semantic_node_recall,pred_size,true_size,pred_nodes,true_nodes
+Roles and responsibilities of individual board members,left_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,17,0,34
+Federal Reserve Annual Reports and Financial Disclosures,left_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,14,0,28
+Redundant payment gateway architecture and failover switching mechanisms,left_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,18,0,35
+federal reserve public communication channels,left_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,19,0,38
+Indemnification and liability protection policies for board members,left_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,17,0,33
+Monetary Policy Reports Submitted to Congress,left_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,15,0,29
+Proportional representation methods and their implementation,left_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,18,0,36
+The impact of unconvent,left_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,16,0,32
+Beige Book Regional Economic Condition Reports,left_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,14,0,27
+Federal Reserve Bank Presidents' Speeches and Public Addresses,left_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,17,0,33
+Cross-border financial contagion and central bank coordination frameworks,left_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,15,0,30
+Recovery and resolution planning for financial market infrastructures,left_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,15,0,30
+Fiduciary duties and legal obligations of board members,left_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,16,0,32
+Committee formations and their specific functions,left_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,16,0,32
+Quorum requirements and participation thresholds,left_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,16,0,32
+Unconventional monetary policy tools during economic crises,left_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,16,0,32
+Open market operations and asset purchase programs,left_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,17,0,34
+board of governors structural organization,left_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,16,0,32
+The Taylor Rule and systematic policy frameworks,left_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,17,0,34
+Real Estate and Construction Market Conditions Across Regions,left_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,17,0,33
+Roles and responsibilities of individual board members,right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,17,0,34
+Federal Reserve Annual Reports and Financial Disclosures,right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,14,0,28
+Redundant payment gateway architecture and failover switching mechanisms,right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,18,0,35
+federal reserve public communication channels,right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,19,0,38
+Indemnification and liability protection policies for board members,right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,17,0,33
+Monetary Policy Reports Submitted to Congress,right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,15,0,29
+Proportional representation methods and their implementation,right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,18,0,36
+The impact of unconvent,right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,16,0,32
+Beige Book Regional Economic Condition Reports,right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,14,0,27
+Federal Reserve Bank Presidents' Speeches and Public Addresses,right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,17,0,33
+Cross-border financial contagion and central bank coordination frameworks,right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,15,0,30
+Recovery and resolution planning for financial market infrastructures,right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,15,0,30
+Fiduciary duties and legal obligations of board members,right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,16,0,32
+Committee formations and their specific functions,right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,16,0,32
+Quorum requirements and participation thresholds,right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,16,0,32
+Unconventional monetary policy tools during economic crises,right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,16,0,32
+Open market operations and asset purchase programs,right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,17,0,34
+board of governors structural organization,right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,16,0,32
+The Taylor Rule and systematic policy frameworks,right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,17,0,34
+Real Estate and Construction Market Conditions Across Regions,right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,17,0,33
+Roles and responsibilities of individual board members,naive_rag,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20,17,39,34
+Federal Reserve Annual Reports and Financial Disclosures,naive_rag,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20,14,39,28
+Redundant payment gateway architecture and failover switching mechanisms,naive_rag,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20,18,39,35
+federal reserve public communication channels,naive_rag,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20,19,39,38
+Indemnification and liability protection policies for board members,naive_rag,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20,17,40,33
+Monetary Policy Reports Submitted to Congress,naive_rag,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20,15,39,29
+Proportional representation methods and their implementation,naive_rag,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20,18,39,36
+The impact of unconvent,naive_rag,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20,16,40,32
+Beige Book Regional Economic Condition Reports,naive_rag,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20,14,39,27
+Federal Reserve Bank Presidents' Speeches and Public Addresses,naive_rag,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20,17,39,33
+Cross-border financial contagion and central bank coordination frameworks,naive_rag,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20,15,39,30
+Recovery and resolution planning for financial market infrastructures,naive_rag,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20,15,39,30
+Fiduciary duties and legal obligations of board members,naive_rag,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20,16,39,32
+Committee formations and their specific functions,naive_rag,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20,16,37,32
+Quorum requirements and participation thresholds,naive_rag,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20,16,40,32
+Unconventional monetary policy tools during economic crises,naive_rag,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20,16,40,32
+Open market operations and asset purchase programs,naive_rag,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20,17,38,34
+board of governors structural organization,naive_rag,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20,16,40,32
+The Taylor Rule and systematic policy frameworks,naive_rag,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20,17,39,34
+Real Estate and Construction Market Conditions Across Regions,naive_rag,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20,17,39,33

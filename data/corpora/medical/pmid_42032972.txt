@@ -1,0 +1,4 @@
+TITLE: Validation of the SMART-REACH model after stroke and the effect of colchicine by atherosclerotic cardiovascular disease risk category: a secondary analysis of the CONVINCE randomised clinical trial.
+
+ABSTRACT:
+The Colchicine for prevention of vascular inflammation in Non-CardioEmbolic stroke (CONVINCE) trial showed that recurrent events were significantly reduced among colchicine-adherent non-cardioembolic stroke patients in the on-treatment analysis. This study aimed to validate the SMART-REACH risk score in stroke patients, and to determine whether colchicine's efficacy varies by baseline atherosclerotic cardiovascular disease (ASCVD) risk.

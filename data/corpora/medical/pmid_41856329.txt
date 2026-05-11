@@ -1,0 +1,129 @@
+
+PMID- 41856329
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260411
+LR  - 20260411
+IS  - 1872-8227 (Electronic)
+IS  - 0168-8227 (Linking)
+VI  - 235
+DP  - 2026 May
+TI  - Participant recruitment, baseline characteristics and burden of cardiometabolic 
+      risk markers among adults with prediabetes in Kenya: insights from the fermented 
+      foods and prediabetes study.
+PG  - 113214
+LID - S0168-8227(26)00133-6 [pii]
+LID - 10.1016/j.diabres.2026.113214 [doi]
+AB  - AIMS: Cardiometabolic abnormalities such as obesity, hypertension, and 
+      dyslipidemia are rising globally and straining health systems. This study 
+      assessed the burden of cardiometabolic risk factors among prediabetic adults in 
+      Kenya. METHODS: We analyzed baseline data from the Fermented Foods and 
+      Prediabetes Randomized Controlled Trial, which recruited adults with prediabetes 
+      (HbA1c 39-46 mmol/mol; 5.7%-6.4%) from Aga Khan University Hospital outreach 
+      clinics in five Kenyan counties. Standardized questionnaires and clinical 
+      assessments were conducted, with HbA1c measured via turbidimetric inhibition 
+      immunoassay. Data were managed in REDCap and analyzed in Stata v13. Poisson 
+      regression identified factors associated with co-occurrence of cardiometabolic 
+      risk factors. RESULTS: Of 210 participants (mean age 44.1 years; 60.5% female), 
+      96.2% had at least one additional metabolic abnormality alongside prediabetes, 
+      including 16.7% with normal BMI. Excess weight was present in 83.3% and elevated 
+      blood pressure in 77.1%. In adjusted analyses, age was independently associated 
+      with a higher number of cardiometabolic risk factors (IRR = 1.013; 95% CI: 
+      1.005-1.021; p = 0.002). CONCLUSION: Prediabetic adults in Kenya exhibit a high 
+      clustering of cardiometabolic abnormalities, highlighting elevated risk of type 2 
+      diabetes, cardiovascular disease, and premature mortality. Comprehensive 
+      interventions should target glucose, weight, blood pressure, lipids, and 
+      lifestyle factors.
+CI  - Copyright (c) 2026. Published by Elsevier B.V.
+FAU - Iseme-Ondiek, Rosebella
+AU  - Iseme-Ondiek R
+AD  - Department of Population Health, Medical College, Aga Khan University-East 
+      Africa, Nairobi, Kenya. Electronic address: rosebella.ondiek@aku.edu.
+FAU - Muia, Alex
+AU  - Muia A
+AD  - Family Medicine Department, Medical College, Aga Khan University-East Africa, 
+      Nairobi, Kenya. Electronic address: alex.muia@scholar.aku.edu.
+FAU - Shabani, Jacob Shundi
+AU  - Shabani JS
+AD  - Family Medicine Department, Medical College, Aga Khan University-East Africa, 
+      Nairobi, Kenya. Electronic address: jacob.shabani@aku.edu.
+FAU - Mucheru, Samuel
+AU  - Mucheru S
+AD  - Family Medicine Department, Medical College, Aga Khan University-East Africa, 
+      Nairobi, Kenya.
+FAU - Gathu, Catherine
+AU  - Gathu C
+AD  - Family Medicine Department, Medical College, Aga Khan University-East Africa, 
+      Nairobi, Kenya. Electronic address: catherine.gathu@aku.edu.
+FAU - Gitonga, Eliphas
+AU  - Gitonga E
+AD  - Department of Environmental and Occupational Health, School of Health Sciences, 
+      Kenyatta University, Nairobi, Kenya. Electronic address: 
+      gitonga.eliphas@ku.ac.ke.
+FAU - Mutisya, Redempta
+AU  - Mutisya R
+AD  - Department of Environmental and Occupational Health, School of Health Sciences, 
+      Kenyatta University, Nairobi, Kenya. Electronic address: 
+      mutisya.redempta@ku.ac.ke.
+FAU - Kioko, Peter
+AU  - Kioko P
+AD  - Family Medicine Department, Medical College, Aga Khan University-East Africa, 
+      Nairobi, Kenya. Electronic address: peter.kioko@aku.edu.
+FAU - Safipour, Jalal
+AU  - Safipour J
+AD  - Department of Health and Caring Sciences, Linnaeus University, Vaxjo, Sweden. 
+      Electronic address: jalal.safipour@lnu.se.
+FAU - Witthoft, Cornelia
+AU  - Witthoft C
+AD  - Department of Chemistry and Biomedical Sciences, Linnaeus University, Kalmar, 
+      Sweden. Electronic address: cornelia.witthoft@lnu.se.
+LA  - eng
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+DEP - 20260317
+PL  - Ireland
+TA  - Diabetes Res Clin Pract
+JT  - Diabetes research and clinical practice
+JID - 8508335
+RN  - 0 (Biomarkers)
+RN  - 0 (Glycated Hemoglobin)
+SB  - IM
+MH  - Humans
+MH  - *Prediabetic State/epidemiology/complications
+MH  - Kenya/epidemiology
+MH  - Female
+MH  - Adult
+MH  - Male
+MH  - Middle Aged
+MH  - Cardiometabolic Risk Factors
+MH  - Biomarkers/analysis
+MH  - *Fermented Foods
+MH  - Risk Factors
+MH  - *Cardiovascular Diseases/epidemiology
+MH  - Glycated Hemoglobin/analysis
+OTO - NOTNLM
+OT  - Cardiometabolic risk factors
+OT  - Cardiovascular disease
+OT  - Excess weight
+OT  - Hypertension
+OT  - Prediabetes
+OT  - Premature mortality
+OT  - Sub-Saharan Africa
+OT  - Type 2 diabetes
+COIS- Declaration of competing interest The authors declare that they have no known 
+      competing financial interests or personal relationships that could have appeared 
+      to influence the work reported in this paper.
+EDAT- 2026/03/20 00:59
+MHDA- 2026/04/12 04:37
+CRDT- 2026/03/19 20:14
+PHST- 2025/09/12 00:00 [received]
+PHST- 2026/02/23 00:00 [revised]
+PHST- 2026/03/15 00:00 [accepted]
+PHST- 2026/04/12 04:37 [medline]
+PHST- 2026/03/20 00:59 [pubmed]
+PHST- 2026/03/19 20:14 [entrez]
+AID - S0168-8227(26)00133-6 [pii]
+AID - 10.1016/j.diabres.2026.113214 [doi]
+PST - ppublish
+SO  - Diabetes Res Clin Pract. 2026 May;235:113214. doi: 10.1016/j.diabres.2026.113214. 
+      Epub 2026 Mar 17.

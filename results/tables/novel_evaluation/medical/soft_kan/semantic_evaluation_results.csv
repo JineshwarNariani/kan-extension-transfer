@@ -1,0 +1,41 @@
+query,method,soft_precision,soft_recall,soft_f1,hungarian_precision,hungarian_recall,hungarian_f1,pred_size,true_size
+Roles and responsibilities of individual board members,soft_left_kan,0.0,0.0,0.0,0.0,0.0,0.0,20,17
+Federal Reserve Annual Reports and Financial Disclosures,soft_left_kan,0.0,0.0,0.0,0.0,0.0,0.0,39,14
+Redundant payment gateway architecture and failover switching mechanisms,soft_left_kan,0.0,0.0,0.0,0.0,0.0,0.0,15,18
+federal reserve public communication channels,soft_left_kan,0.0,0.0,0.0,0.0,0.0,0.0,27,19
+Indemnification and liability protection policies for board members,soft_left_kan,0.0,0.0,0.0,0.0,0.0,0.0,12,17
+Monetary Policy Reports Submitted to Congress,soft_left_kan,0.0,0.0,0.0,0.0,0.0,0.0,39,15
+Proportional representation methods and their implementation,soft_left_kan,0.0,0.0,0.0,0.0,0.0,0.0,27,18
+The impact of unconvent,soft_left_kan,0.0,0.0,0.0,0.0,0.0,0.0,12,16
+Beige Book Regional Economic Condition Reports,soft_left_kan,0.0,0.0,0.0,0.0,0.0,0.0,23,14
+Federal Reserve Bank Presidents' Speeches and Public Addresses,soft_left_kan,0.0,0.0,0.0,0.0,0.0,0.0,36,17
+Cross-border financial contagion and central bank coordination frameworks,soft_left_kan,0.0,0.0,0.0,0.0,0.0,0.0,4,15
+Recovery and resolution planning for financial market infrastructures,soft_left_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,15
+Fiduciary duties and legal obligations of board members,soft_left_kan,0.0,0.0,0.0,0.0,0.0,0.0,8,16
+Committee formations and their specific functions,soft_left_kan,0.0,0.0,0.0,0.0,0.0,0.0,24,16
+Quorum requirements and participation thresholds,soft_left_kan,0.0,0.0,0.0,0.0,0.0,0.0,19,16
+Unconventional monetary policy tools during economic crises,soft_left_kan,0.0,0.0,0.0,0.0,0.0,0.0,23,16
+Open market operations and asset purchase programs,soft_left_kan,0.0,0.0,0.0,0.0,0.0,0.0,15,17
+board of governors structural organization,soft_left_kan,0.0,0.0,0.0,0.0,0.0,0.0,11,16
+The Taylor Rule and systematic policy frameworks,soft_left_kan,0.0,0.0,0.0,0.0,0.0,0.0,27,17
+Real Estate and Construction Market Conditions Across Regions,soft_left_kan,0.0,0.0,0.0,0.0,0.0,0.0,12,17
+Roles and responsibilities of individual board members,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,17
+Federal Reserve Annual Reports and Financial Disclosures,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,14
+Redundant payment gateway architecture and failover switching mechanisms,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,18
+federal reserve public communication channels,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,19
+Indemnification and liability protection policies for board members,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,17
+Monetary Policy Reports Submitted to Congress,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,15
+Proportional representation methods and their implementation,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,18
+The impact of unconvent,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,16
+Beige Book Regional Economic Condition Reports,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,14
+Federal Reserve Bank Presidents' Speeches and Public Addresses,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,17
+Cross-border financial contagion and central bank coordination frameworks,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,4,15
+Recovery and resolution planning for financial market infrastructures,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,15
+Fiduciary duties and legal obligations of board members,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,4,16
+Committee formations and their specific functions,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,16
+Quorum requirements and participation thresholds,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,16
+Unconventional monetary policy tools during economic crises,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,16
+Open market operations and asset purchase programs,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,17
+board of governors structural organization,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,16
+The Taylor Rule and systematic policy frameworks,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,17
+Real Estate and Construction Market Conditions Across Regions,soft_right_kan,0.0,0.0,0.0,0.0,0.0,0.0,0,17

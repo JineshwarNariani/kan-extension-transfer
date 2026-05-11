@@ -1,0 +1,133 @@
+
+PMID- 41685810
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260403
+LR  - 20260405
+IS  - 1097-0215 (Electronic)
+IS  - 0020-7136 (Print)
+IS  - 0020-7136 (Linking)
+VI  - 158
+IP  - 11
+DP  - 2026 Jun 1
+TI  - Nonavalent HPV vaccine to prevent recurrent anal or vulvar high-grade squamous 
+      intraepithelial lesions (VIVA trial): A randomized, double-blind, 
+      placebo-controlled trial.
+PG  - 2983-2994
+LID - 10.1002/ijc.70366 [doi]
+AB  - The nonavalent human papillomavirus (9vHPV) vaccine protects against HPV 
+      infection and high-grade squamous intraepithelial lesions (HSIL) when 
+      administered prior to exposure, but evidence supporting its potential therapeutic 
+      benefit has been inconsistent. This randomized, double-blind, placebo-controlled 
+      trial evaluated whether the 9vHPV vaccine reduces recurrence of HSIL or HPV 
+      persistence in 27-69-year-old persons previously treated for anal or vulvar HSIL. 
+      Participants were HSIL-free at enrollment and received 9vHPV or placebo at months 
+      0, 2, and 6. High-resolution anoscopy or vulvoscopy was performed at months 18 
+      and 36, and anal or vulvar swabs were collected at months 0, 18, 24, and 36 for 
+      HPV DNA detection. The primary endpoints were HSIL recurrence and HPV persistence 
+      (>/=2 consecutive positive swabs for the same 9vHPV-type). Of 185 participants 
+      included in the intent-to-treat analysis, 91 received vaccine and 94 received 
+      placebo. The DSMB recommended early termination for futility. The 9vHPV vaccine 
+      was not more effective than placebo in preventing recurrent HSIL, with 16 HSIL 
+      among 9vHPV recipients versus 21 HSIL in placebo recipients (incidence 8.1 vs. 
+      10.1/100 person-years; p = .54). HPV persistence was 21% in vaccine versus 31% in 
+      placebo recipients (p = .20). The 9vHPV vaccine delivered after treatment of anal 
+      or vulvar HSIL did not reduce HSIL recurrence or HPV detection. Our study 
+      underlines the importance of HPV vaccine administration prior to HPV exposure and 
+      the need for novel treatments for HSIL with high recurrence potential.
+CI  - (c) 2026 The Author(s). International Journal of Cancer published by John Wiley & 
+      Sons Ltd on behalf of UICC.
+FAU - Stankiewicz Karita, Helen C
+AU  - Stankiewicz Karita HC
+AD  - Department of Medicine, University of Washington, Seattle, Washington, DC, USA.
+FAU - Magaret, Amalia S
+AU  - Magaret AS
+AD  - Department of Laboratory Medicine and Pathology, University of Washington, 
+      Seattle, Washington, DC, USA.
+AD  - Department of Biostatistics, University of Washington, Seattle, Washington, DC, 
+      USA.
+FAU - Doody, David R
+AU  - Doody DR
+AD  - Public Health Sciences Division, Fred Hutchinson Cancer Center, Seattle, 
+      Washington, DC, USA.
+FAU - Schouten, Jeffrey T
+AU  - Schouten JT
+AD  - Department of Medicine, University of Washington, Seattle, Washington, DC, USA.
+AD  - Vaccine and Infectious Diseases Division, Fred Hutchinson Cancer Center, Seattle, 
+      Washington, DC, USA.
+AD  - Department of Surgery, University of Washington, Seattle, Washington, DC, USA.
+FAU - Mao, Constance
+AU  - Mao C
+AD  - Department of Obstetrics and Gynecology, University of Washington, Seattle, 
+      Washington, DC, USA.
+FAU - Huh, Warner K
+AU  - Huh WK
+AD  - Department of Obstetrics and Gynecology, University of Alabama at Birmingham, 
+      Birmingham, Alabama, USA.
+FAU - Grieco, Verena S
+AU  - Grieco VS
+AD  - Department of Laboratory Medicine and Pathology, University of Washington, 
+      Seattle, Washington, DC, USA.
+FAU - Seymour, Matthew A
+AU  - Seymour MA
+AD  - Department of Medicine, University of Washington, Seattle, Washington, DC, USA.
+FAU - Varon, Dana
+AU  - Varon D
+AD  - Department of Medicine, University of Washington, Seattle, Washington, DC, USA.
+FAU - Shrader, Kelly H
+AU  - Shrader KH
+AD  - Public Health Sciences Division, Fred Hutchinson Cancer Center, Seattle, 
+      Washington, DC, USA.
+FAU - Xi, Long Fu
+AU  - Xi LF
+AD  - Department of Laboratory Medicine and Pathology, University of Washington, 
+      Seattle, Washington, DC, USA.
+FAU - Galloway, Denise A
+AU  - Galloway DA
+AD  - Public Health Sciences Division, Fred Hutchinson Cancer Center, Seattle, 
+      Washington, DC, USA.
+AD  - Human Biology Division, Fred Hutchinson Cancer Center, Seattle, Washington, DC, 
+      USA.
+FAU - Wald, Anna
+AU  - Wald A
+AD  - Department of Medicine, University of Washington, Seattle, Washington, DC, USA.
+AD  - Department of Laboratory Medicine and Pathology, University of Washington, 
+      Seattle, Washington, DC, USA.
+AD  - Vaccine and Infectious Diseases Division, Fred Hutchinson Cancer Center, Seattle, 
+      Washington, DC, USA.
+AD  - Department of Epidemiology, University of Washington, Seattle, Washington, DC, 
+      USA.
+FAU - Madeleine, Margaret M
+AU  - Madeleine MM
+AD  - Public Health Sciences Division, Fred Hutchinson Cancer Center, Seattle, 
+      Washington, DC, USA.
+AD  - Department of Epidemiology, University of Washington, Seattle, Washington, DC, 
+      USA.
+LA  - eng
+GR  - R01 CA213130/CA/NCI NIH HHS/United States
+GR  - 6R01CA213130-06/CA/NCI NIH HHS/United States
+GR  - 6R01CA213130-06/CA/NCI NIH HHS/United States
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+DEP - 20260213
+PL  - United States
+TA  - Int J Cancer
+JT  - International journal of cancer
+JID - 0042124
+RN  - 0 (Papillomavirus Vaccines)
+SB  - IM
+MH  - Humans
+MH  - Female
+MH  - *Papillomavirus Vaccines/administration & dosage/therapeutic use
+MH  - Double-Blind Method
+MH  - Adult
+MH  - Middle Aged
+MH  - *Squamous Intraepithelial Lesions/prevention & control/virology/pathology
+MH  - *Papillomavirus Infections/prevention & control/virology
+MH  - *Vulvar Neoplasms/prevention & control/virology/pathology
+MH  - *Neoplasm Recurrence, Local/prevention & control/virology
+MH  - *Anus Neoplasms/prevention & control/virology/pathology
+MH  - Aged
+MH  - Papillomaviridae/immunology
+PMC - PMC13047244
+OTO - NOTNLM

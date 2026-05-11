@@ -1,0 +1,2267 @@
+BIS Working Papers 
+No WP1130 
+
+can  20  billion 
+What 
+financial  transactions  tell 
+us  about  the  impacts  of 
+COVID-19 fiscal transfers? 
+
+by  Pongpitch  Amatyakul,  Panchanok  Jumrustanasan, 
+Pornchanok Tapkham 
+
+Monetary and Economic Department 
+
+October 2023 
+
+JEL classification:   D12, H31, C55 
+
+Keywords: 
+transaction-level data 
+
+Impacts  of 
+
+fiscal  transfers,  COVID-19, 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BIS  Working  Papers  are  written  by  members  of  the  Monetary  and  Economic 
+Department of the Bank for International Settlements, and from time to time by other 
+economists,  and  are  published  by  the  Bank.  The  papers  are  on  subjects  of  topical 
+interest and are technical in character. The views expressed in them are those of their 
+authors and not necessarily the views of the BIS. 
+
+This publication is available on the BIS website (www.bis.org). 
+
+©  Bank for International Settlements 2023. All rights reserved. Brief excerpts may be 
+
+reproduced or translated provided the source is stated. 
+
+ISSN 1020-0959 (print) 
+ISSN 1682-7678 (online) 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+What can 20 billion financial transactions
+tell us about the impacts of COVID-19 fiscal
+transfers?
+
+Pongpitch Amatyakul ∗
+Panchanok Jumrustanasan †
+Pornchanok Tapkham ‡§
+
+October 2023
+
+Abstract
+
+We investigate the impacts of fiscal transfers on households during the COVID-19
+recovery period using a novel transaction-level money transfer dataset. The study
+focuses on direct fiscal transfers in 2021 that occurred as a result of the second major
+wave of COVID-19 in Thailand and analyzes spending patterns for the recipients. We
+group the recipients by income levels and analyze patterns at the monthly and daily
+levels. The two main research questions are: (1) How much more spending did the
+groups make as a proportion of the fiscal stimulus? and (2) Did the stimulus make-
+up for lost spending during lock-down? We find that overall the recipients spent, on
+average, 40% of the money received over the first six days and 49% accumulatively
+over the first three months compared to a matched control group with similar charac-
+teristics. Unsurprisingly, the lower income group spent the highest proportion of the
+money received and the fiscal injection more than covered up for their lost spending
+during the lock-down period.
+
+Keywords: Impacts of fiscal transfers, COVID-19, transaction-level data
+JEL Codes: D12, H31, C55
+Topics: Household Behaviors, Fiscal policy, Econometric Modeling
+
+∗Pongpitch.Amatyakul@bis.org, Bank for International Settlements and Bank of Thailand
+†PanchaJu@bot.or.th, Monetary Policy Department, Bank of Thailand
+‡PornchTa@bot.or.th, Monetary Policy Department, Bank of Thailand
+§The views of the paper are solely of the authors’ and may not be representative of the views held by
+
+the Bank for International Settlements or the Bank of Thailand.
+
+1
+
+1
+
+Introduction
+
+The COVID-19 pandemic has had significant and far-reaching consequences; not only on
+
+public health, but also on the economy. The contraction in economic activity due to lock-
+
+downs led to job losses and financial hardships for a large number of households. In order
+
+to mitigate the adverse impacts on households, authorities resort to fiscal, monetary, and
+
+financial measures to provide assistance to those in need. One of the most widely leveraged
+
+fiscal measures is the provision of direct cash transfers to individuals1. Our paper examines
+
+the patterns of income and expenditures of the recipients of direct fiscal transfers. This
+
+offers insightful perspectives to the impacts of transfers on household financial well-being.
+
+Thailand’s economy was disproportionately impacted by the COVID-19 pandemic. Two
+
+of the largest drivers of the economy, tourism and exports of goods, drastically shrunk due
+
+to poor global demand and lock-downs. As a response to the first wave of COVID-19, the
+
+government initiated a program of direct transfers starting in April 2020, where 3 monthly
+
+payments of 5,000 THB were dispersed; targeting workers in the informal sector. The
+
+second major wave of COVID-19 struck Thailand in the middle of 2021; the government
+
+expanded its support by sending out 5,000 to 15,000 THB in direct transfers to those
+
+registered in the social security program who resided in areas affected by lock-downs.
+
+The transaction-level dataset allows us to study patterns of income and expenditures
+
+before and after the cash transfers. Given the time span of our dataset from July 2020 and
+
+December 2021, we choose to perform an event study on the fiscal transfers made in 2021.
+
+This enables us to observe the expenditures leading up to the second wave of COVID-19,
+
+during the lockdown period of the second wave itself, and after the targeted cash transfers
+
+were made. With this event study, we wish to answer two research questions: (1) Did
+
+the transfers have statistically positive impacts on spending? and (2) Did the transfers
+
+compensate for lost expenditures during lock-downs?
+
+We quantify the results first by using OLS regressions, then a more granular analysis
+
+using control/treatment matching. Overall, we find positive relationships between transfers
+
+and additional spending. Compared to the control group, the recipients on average spent
+
+1The literature on this topic is rich and has shown improvements in economic outcomes; for example,
+
+Egger et al. (2022) and Bastagli et al. (2019)
+
+2
+
+40% of received transfers in the following 5 days and 49% in the following three months
+
+after the cash injection. There is a large degree of heterogeneity, as expected, with stronger
+
+positive effects and higher spending rates for lower-income individuals. For the second
+
+research question, we observe that the fiscal transfers more than made up for lost spending
+
+for lower-income individuals, making them spend more in the whole period than those who
+
+did not reside in the lock-down areas.
+
+In addition to COVID-19 specific transfers, we also observe recurring payments for the
+
+Old Age Allowance (OAA), the Child Support Grant (CSG), and the Disability Allowance
+
+(DA) programs. We provide the profiles of the recipients for each of the main transfer
+
+programs. We find that the profiles are in line with the targeted groups specified by the
+
+government.
+
+The organization of the paper is as follows. Section 2 reviews the literature regarding
+
+the impacts of cash transfers to individuals or households that were implemented during the
+
+COVID-19 pandemic. Section 3 describes the proprietary transaction-level data that was
+
+compiled from the largest banks in Thailand. Section 4 delves into the different programs
+
+of fiscal transfer instituted in 2020 and 2021 that were identified using our comprehensive
+
+dataset. We then visually demonstrate and quantify the impacts of the transfers, both at
+
+the monthly-level in Section 5, and daily-level in Section 6. In the concluding section, we
+
+synthesize key findings and provide policy recommendations that can further improve fiscal
+
+responses to future crises.
+
+2 Literature Review
+
+This paper joins a fast-growing literature on the effects of the COVID-19 pandemic on
+
+consumer spending using transactions data. The initial lock-downs caused sharp declines
+
+in consumption, as evidenced by data from China (Chen et al. 2021), Europe (Andersen
+
+et al. 2022, Carvalho et al. 2021, Bounie et al. 2023), and the United States (Cox et al.
+
+2020). These researchers were able to analyze and quantify many aspects of consumer
+
+behaviors, but in summary, the observed aggregate spending was estimated to have declined
+
+by between 25% and 60% in the weeks and months following imposition of lock-downs.
+
+Governments responded to this decline in economic activity by providing fiscal packages,
+
+3
+
+from healthcare expenditures increases, tax relief, subsidies, and direct cash transfers. Our
+
+paper focuses on the impacts of direct cash transfers during the pandemic. The empirical
+
+literature can be broken down into two strands, one using survey data, and the other using
+
+transaction data.
+
+Survey-based analyses of the impacts of COVID-19 cash transfers were performed by
+
+Jaroszewicz et al. (2022) and Coibion et al. (2020) in the United States, Banerjee et al.
+
+(2020) in Kenya, and Bui et al. (2022) in Thailand and Vietnam. Jaroszewicz et al. (2022)
+
+and Banerjee et al. (2020) set up their own field experiments to test the concepts of universal
+
+basic income and unconditional cash transfers while the rest simply conduct surveys based
+
+on recent government transfers. In general, literature suggests that cash transfers improve
+
+well-being and spending, particularly in the short term. The results from Bui et al. (2022)
+
+is geographically most relevant to our paper, and they calculated that the Thai population
+
+were 11% more likely to have bought durable goods after receiving financial support from
+
+the government in 2020.
+
+Baker et al. (2020) analyzed the spending responses to the CARES ACT of roughly
+
+40,000 US households using high-frequency transaction data from a personal finance mobile
+
+application. They found that household spending increased by 0.25-0.40 USD per dollar
+
+received during the first week. This paper points out that liquidity is a key determinant
+
+of the heterogeneity in marginal propensity to consume (MPC) and poor households with
+
+greater income drops and lower levels of liquidity had stronger MPC responses to the
+
+stimulus. Karger & Rajan (2020) also analyzed roughly 20,000 recipients of the US fiscal
+
+transfer by using transaction-level bank account data. They estimated the MPC to be as
+
+high as 60% for those living paycheck-to-paycheck and only 24% for savers with higher
+
+incomes.
+
+Also using transaction-level data, Kaneda et al. (2021) looked at spending patterns
+
+of over 200,000 recipients of Japanese fiscal transfers using data from a personal finance
+
+management mobile application. They reported lower MPC than those observed in the US,
+
+only 16%, but also found heterogeneity in the responses depending on liquidity constraints.
+
+The heterogeneity that can be observed using transaction-level data supports the shift of
+
+moving from representative economic models towards models with heterogeneity such as
+
+4
+
+those developed in Kaplan et al. (2020) and Bayer et al. (2023).
+
+3 Data
+
+The dataset in this study are transaction-level money transfers originating from the five
+
+largest banks2 in Thailand between July 2020 and December 2021. With these banks
+
+being dominant players in the space, the data covers nearly 80% of all money transfers
+
+in the Thai banking system. Money transfers in our dataset include transactions made
+
+at the branch or through electronic channels: ATM, mobile, and internet banking. The
+
+contactless nature of electronic payments meant that their adoption has accelerated during
+
+the COVID-19 pandemic at the expense of cash usage as individuals strived to maintain
+
+social-distancing3. This is reflected in the number of transactions observed in the dataset,
+
+which started at roughly 800 million monthly transactions in July 2020 and ended at just
+
+over 1.5 billion monthly transactions in December 2021. This is shown in Figure 1.
+
+Figure 1: The number of monthly transactions that are captured in our dataset.
+
+The data captured for each transaction include many different aspects: the transaction
+
+amount, transaction purpose (where available), bulk payment flag (mainly used for payroll
+
+payments), and channel of transaction (through a branch, an ATM, or by internet/mobile
+
+2Bangkok Bank, Kasikorn Bank, Krungthai Bank, Siam Commercial Bank, and Bank of Ayudhya.
+3Observed by Agur et al. (2020) across both developed and emerging markets.
+
+5
+
+phone). Each transaction is stamped with a date and time, down to the second. The
+
+sending bank and the bank account number are registered, along with the receiving bank
+
+and the corresponding bank account number. If the transfer is made via the recipient’s
+
+national identification number, as could be the case if the transfer is made through the
+
+national digital payment program (Promptpay), then the ID number is available instead
+
+of the recipient’s bank account number.
+
+The unique aspect of this dataset is that we also have the profile information available for
+
+senders and recipients if they have an account at one of the largest five banks4. We are able
+
+to obtain both the senders’ and recipients’ profile information for 79% of all transactions.
+
+The profile information includes the zip codes of three addresses (where available): mailing
+
+address, workplace address, and registered address according to the national ID card. If the
+
+profile is for an individual, it will contain the gender, year of birth, income, education level,
+
+and occupation. If the profile is registered to a firm, it will instead contain the International
+
+Standard Industrial Classification of All Economic Activities (ISIC) code, allowing us to
+
+pinpoint the specific industry the firm is operating in5.
+
+Despite having a rich transaction-level dataset, there are limitations. First, it does not
+
+include other forms of payments: cash, cheques, and credit card transactions6. Despite the
+
+push towards electronic payments, the usage of cash still plays an important role in the
+
+Thai economy. Second, the dataset may be biased as it only includes payments originating
+
+from the five largest banks. Lastly, the profile information from the banks may not be
+
+up to date. There is a reasonable chance that the last time an individual updates his/her
+
+income and occupation information may be the time he/she opened an account.
+
+Figure 2 plots the distributions of the logarithm, to base 10, of averaged inflows and
+
+outflows over the last nine months in 2021 of a one million samples. The log normal
+
+distributions suggest highly right-skewed inflows and outflows. As a result, expenditure
+
+outlier removal is necessary in later analyses to avoid unreliable results.
+
+4Since the data is based on the sending bank, we have profiles of all senders but not all recipients.
+5In addition, if the transaction is performed in-branch or at an ATM, we can specify the location and zip
+
+code of where the transaction occurred. However, this part is not utilized to answer our research question.
+
+6Although credit-card bill payments are included.
+
+6
+
+Figure 2: Histograms of monthly averaged outflows (left) and inflows (right) of one million
+
+sampled individuals. The averages are over April - December 2021. The count is as a
+
+proportion to the total sample size. Only active recipients and non-recipients with no
+
+missing characteristic data are included. Profiles with zero inflows or outflows are dropped
+
+from the plots.
+
+4 Fiscal Transfers
+
+We find a few fiscal transfer programs in the 18 months between July 2020 and December
+
+2021 that can be tracked from the dataset. They can be grouped into two categories:
+
+recurring transfers and COVID-specific transfers7.
+
+4.1 Identification
+
+The data contains two transaction purposes that are relevant to identifying fiscal transfers:
+
+‘elderly welfare’ and ‘general government welfare.’ We find that the purposes themselves,
+
+especially the ‘general government welfare’ tag, are not comprehensive and do not cover
+
+every direct fiscal transfers. Therefore, we use these two identifiers to observe transfer
+
+patterns in order to identify more direct fiscal transfers. We find that the transfers from
+
+these two purposes were made in bulk at midnight and that the transfers originate from
+
+a concentrated number of accounts with industry code either in ‘general government’ or
+
+7We want to note that the our dataset does not include transfers to the government welfare card which
+
+cover roughly 20 million individuals as of 2020. The government welfare card covers a range of programs
+
+for lower-income households and acts as an e-wallet which can be used for spending on essential items and
+
+public transport and receiving discounts for utilities and goods at participating stores.
+
+7
+
+‘local government’ categories. We leverage this information and tag all transfers made from
+
+government related entities to individuals that are made at midnight in bulk as direct fiscal
+
+transfers.
+
+4.2 Recurring Transfers
+
+4.2.1 Old Age Allowance (OAA)
+
+The OAA is a non-contributory social pension program that provides monthly financial
+
+support to the elderly. Since 2009, the program has been expanded into a universal social
+
+pension for all citizens over 60 years of age8. The allowance has been adjusted several times
+
+and, in 2021, it is incremental based on age: 600 THB, 700 THB, 800 THB, and 1000 THB
+
+for participants who are 60-69, 70-79, 80-89, and over 90 years old, respectively. In the
+
+fiscal year 2021, the Thai Government reported to having spent 66 Billion THB for the
+
+program covering roughly 8 million participants9.
+
+There are two means of receiving the allowance. The first way is for the recipients to
+
+physically receive cash at their local government offices. This option would be observed
+
+in the dataset as one large transfer from the Comptroller General’s Department account
+
+to local government office accounts, leaving us with no further way to track the individual
+
+recipients’ profiles. The other way is for the recipients to receive the cash transfer from
+
+the Comptroller General’s Department account directly to their registered bank accounts.
+
+The latter option allows us to investigate participants’ profiles such as occupation, age, and
+
+self-reported income. On average, we find 2.4 million recipients in our dataset each month
+
+from July 2020 to December 2021.
+
+Figure 3 shows ages, which is the main program requirement, of the program recipients.
+
+Almost all recipients are older than 60 years old, consistent with the age requirement. In
+
+addition, the incremental amounts of allowances are accurately transferred to recipients
+
+of corresponding ages. Despite the seemingly accurate transfer to the OAA recipients,
+
+there are some individuals whose ages are not qualify for the program but still receive
+
+8As of 2021; as long as they are not already entitled to pensions from the government; this technically
+
+excludes retired government officers and state-owned-enterprises (SOE) officers.
+
+9According to the Government Public Relations Department.
+
+8
+
+Figure 3: Ages of participants in the OAA in December 2021. Only ages from 30 to 100
+
+years old are shown.
+
+the allowance every month. An explanation could be that these recipients are delegates for
+
+their qualified family members and have the allowances transferred into their bank accounts.
+
+The delegation is possible and common in recipients who are physically dependent on their
+
+younger family members.
+
+4.2.2 Disability Allowance (DA) and Child Support Grant (CSG)
+
+The other two recurring programs in the dataset are the DA and the CSG. These two non-
+
+contributory social pension programs are mostly tagged as ‘general government welfare’ in
+
+their transaction purpose field. The DA targets any registered Thai citizen with disabilities,
+
+regardless of age. Those under 18 years old are entitled to cash transfer of 1,00010 THB
+
+and those who are 18 and over are entitled to 800 THB a month. The CSG supports 600
+
+THB a month to registered families with a child under six years old and having annual
+
+household income below 100,000 THB11. Similar to the OAA, qualified persons or families
+
+can receive either cash from their local government offices or direct transfer to registered
+
+bank accounts of targeted persons themselves or of their legal guardians. In the fiscal year
+
+10Before October 2020, those under 18 years old are entitled to 800 THB a month.
+11The requirement was updated and adopted in 2020.
+
+9
+
+2021, the government reported that the DA and the CSG had benefited roughly 1.9 and
+
+2.1 million registered individuals, respectively12.
+
+On average, we find 1.2 million combined recipients for the two programs in our dataset
+
+each month from July 2020 – December 2021. Ages of recipients to both programs are
+
+consistent with their age qualifications (Figure 4). Ages of the DA recipients, receiving
+
+800 THB, span from 20 to 90 years old, while a few who receive 1,000 THB should be the
+
+parents of disable individuals under the age of 18, with profile age being around 40 years
+
+old. As for the CSG recipients, they are younger, mostly 20-40 years old, corresponding to
+
+age of the parents with children under six years old.
+
+Figure 4: Ages of participants in the DA (amount 800 and 1,000 THB) and the CSG
+
+(amount 600 THB) in December 2021. Only ages from 0 to 100 years old are shown.
+
+4.3 COVID-specific Transfers
+
+4.3.1 Transfers in 2020
+
+The first set of transfers in response to the COVID pandemic occurred just before the start
+
+of our dataset in April, May, and June 2020. However, there are some people who missed
+
+out receiving the transfer during the regular window and ended up receiving the transfers
+
+in July and August.
+
+12According to news outlets: Isra News and Khaosod.
+
+10
+
+4.3.2 Transfers in 2021
+
+Two additional measures were implemented in August 2021 to aid formal and informal
+
+workers in certain sectors13 who resided in the lock-down area. The first measure financially
+
+supported formal workers under Social Security Act’s Section 33 (company employees) who
+
+resided in the strict controlled areas14. In addition to receiving half of their regular salaries
+
+as a compensation, workers under Section 33 would also get an additional 2,500 THB. The
+
+second measure financially benefited informal workers under Social Security Act’s Section
+
+39 (former company employees who still contribute to the Social Security Fund) and Section
+
+40 (self-employed workers) who resided in the strict controlled areas by providing them with
+
+5,000 THB a month. Qualified workers who resided in the first set of the strict controlled
+
+areas received the transfer for two months. These transfers appear in our dataset as either
+
+2,500 THB twice15 for Section 33 workers or 5,000 THB twice16 for Section 39 and 40
+
+workers. For those residing in the second set of the controlled areas, participants received
+
+either a transfer of 2,500 THB for Section 33 workers or a transfer of 5,000 THB for Section
+
+39 and 40 workers (only once). There are reportedly 3.8 and 8.6 million workers benefited
+
+from the first and the second measures respectively17.
+
+Our dataset is able to capture 2.9 and 5.7 million recipients to Section 33 and Sections
+
+39 and 40, respectively, equivalent to 32.5 and 71.2 billion THB in terms of the transfer
+
+amount to individual recipients. Recipients are well targeted as 79% of the recipients
+
+have the qualified occupations in their bank profile information, which are employees, self-
+
+13Must be in one of the following nine sectors: (i) construction, (ii) accommodation and food service
+
+activities, (iii) arts, entertainment and recreation, (iv) other service activities, (v) wholesale and retail
+
+trade (repair of motor vehicles and motorcycles), (vi) transportation and storage, (vii) administrative and
+
+support service activities, (viii) professional, scientific and technical activities, and (ix) information and
+
+communication.
+
+14The first set of the strict controlled area includes Bangkok, Nakhon Pathom, Nonthaburi, Pathum
+
+Thani, Samut Prakan, Samut Sakhon, Yala, Pattani, Narathiwat, Songkhla, Chachoengsao, Chonburi,
+
+Ayutthata (13 provinces). The second set includes Ang Thong, Nakhon Nayok, Nakhon Ratchasima,
+
+Kanchanaburi, Lop Buri, Phetchabun, Phetchaburi, Prachuap Khiri Khan, Prachin Buri, Ratchaburi,
+
+Rayong, Samut Songkhram, Saraburi, Sing Buri, Suphan Buri, and Tak (16 provinces).
+
+15Or 5,000 THB in one month in the case of late registrations.
+16Or 10,000 THB in one month in the case of late registrations.
+17https://www.thaigov.go.th/news/contents/details/61310
+
+11
+
+employed, and business owners, representing workers under Section 33, Section 39, and
+
+Section 40 (Figure 5). There are still recipients with unqualified occupations, possibly
+
+due to outdated bank account information. Additionally, 64% of the beneficiaries are low
+
+income individuals, reporting to earn less than 15,000 a month.
+
+Figure 5: The counts of occupation (left) and self-reported income (right) as a percentage
+
+of total recipients. “Qualified occupation” includes employee, self-employed, and business
+
+owner. “Other” includes government officer, SOE officer, retired, unemployed, and self-
+
+reported other occupation. Self-reported income is in THB per month.
+
+5 Analysis using data at monthly frequency
+
+In this section, we study whether the fiscal transfers have positive impacts on the recipients’
+
+spending. Specifically, we focus only on the largest COVID-specific transfers that target
+
+workers under Section 39 and Section 40 in either August or September 2021, which covered
+
+75% of the total COVID-specific transfer amount to individuals in those two months.
+
+We address this question by quantifying the observed expenditures of recipients during
+
+the transfer into two parts: the portion that would have happened without government
+
+intervention and the portion that happened because of it. Two estimation methods are
+
+implemented: panel ordinary least squares regression and matched observational study.
+
+12
+
+5.1 Recipients and non-recipients
+
+Let us first define the population samples that we use in the analysis. We define “recipient”
+
+as individuals who receive at least one transfer from this specific fiscal program and “non-
+
+recipient” as those who never receive any fiscal transfer, regardless of the program, during
+
+the 18 months in the dataset18. Our sample contains 5.7 million individual recipients and
+
+24.0 million non-recipients.
+
+For data preparation, we perform the following steps prior to the analysis. First, only
+
+“active” individuals who made at least two outbound transfers every month in 2021 are
+
+included in the analysis. Second, any individuals with missing data on gender, occupation,
+
+self-reported income, and age are excluded from the analysis with some exceptions: (i) those
+
+with missing income whose occupations are either “unemployed” or “student” are included
+
+in the analysis as having zero income and (ii) those with missing occupation are included
+
+in the analysis as having occupation “other”. Additionally, all included individuals must
+
+be over 15 but not older than 100 years old in 2021. Moreover, given that expenditures
+
+distinctly spike in March and December of 2021, we only focus on transactions that occur
+
+in April through November 2021. Lastly, we keep only recipients whose total spendings
+
+over that period are below the 90th percentile to account for highly right-skewed spending
+
+distribution. The original 5.7 million individual recipients (and 24.0 million non-recipients)
+
+whom we have profile information on are reduced to 2.2 million recipients (and 11.8 million
+
+non-recipients) for the analysis.
+
+5.2 Research Question
+
+Our main research objective is to quantify the impacts of the fiscal transfers. Here, we
+
+further refine it into two questions. The first being how the transfers affect spending.
+
+The answer to this question would tell us whether the program implementation generated
+
+a desirable positive impact on the economy and how it could be improved to achieve a
+
+better outcome given the fiscal resource scarcity. The second question is whether the
+
+transfers compensate for lost expenditures during lockdowns. This would help us evaluate
+
+18To ensure that any patterns we extract from the non-recipient data are not influenced by any additional
+
+income from the government.
+
+13
+
+the effectiveness of the program in terms of the total impacts of both lockdowns and
+
+transfers.
+
+5.3 Question 1: Panel Ordinary Least Squares Regression
+
+We perform panel ordinary least squares regressions with the following specification, using
+
+recipients’ data:
+
+Yi,t = α + β ∗ Baselinei + γ ∗ Dummyi,t + δ ∗ chari + θ ∗ nonrecipient spendingt + ϵi,t (1)
+
+where Yi,t represents the amount that recipient i spends in month t. Baselinei is the
+
+amount recipient i spends in January 2021 to capture a recipient’s baseline level of spending.
+
+Dummyi,t is a 0 or 1 dummy that indicates whether recipient i has received fiscal transfer
+
+in or prior to month t. chari is the individual-specific characteristics, which are gender,
+
+age group, occupation, and the log of the self-reported income. nonrecipient spendingt is
+
+the non-recipients’ monthly median spending in month t.
+
+The regression result of Equation 1 is shown as Model 1 in Table 1. A recipient spends
+
+2470 THB, on average, more each month once they receive the fiscal transfer compared to
+
+the months prior to the transfer. Moreover, highest spending is associated with being in
+
+the age group between 25 and 40 years old, the prime-working age group which is likely
+
+to spend more to provide for their families. Business owners spend the most among all
+
+occupations, followed by retirees. Students are the lowest spenders. The significance of the
+
+results on Dummy and occupation are confirmed by Model 2, which excludes Baseline.
+
+Further robustness checks (Table A1) show that these results hold even in the full sample
+
+where the spending above 90th percentiles are included. However, the coefficient on gender
+
+is not as robust, given that the sign of the coefficient changes from positive to negative in
+
+alternative specifications.
+
+5.4 Question 1: Matched Observational Study
+
+The spending behaviors of non-recipients ideally could provide us with more information as
+
+a counter-factual; how a recipient behaves had he/she not received the fiscal arrangement
+
+14
+
+Yi,t: Monthly spending
+
+Coefficient Standard Error Coefficient Standard Error
+
+Model 1
+
+Model 2
+
+Fiscal Dummy
+
+Baseline
+
+Non-recipient Spending
+
+Income (log)
+
+Gender - male
+
+Occupation
+
+Business owner
+
+Employee
+
+Government officer
+
+Retired
+
+Self-employed
+
+Student
+
+Unemployed
+
+Other
+
+Age
+
+(25, 40]
+
+(40, 50]
+
+(50,60]
+
+(60, 100]
+
+Constant
+
+Adjusted R2
+
+Observations
+
+2470***
+
+0.02***
+
+1.21***
+
+2939***
+
+-2028***
+
+17850***
+
+-3743***
+
+-3283***
+
+6360***
+
+-786**
+
+-6612***
+
+2837***
+
+-133
+
+11331***
+
+7817***
+
+3466***
+
+-1557***
+
+-19832***
+
+(50.44)
+
+2492***
+
+(50.69)
+
+(0.00)
+
+(0.01)
+
+(8.54)
+
+(34.10)
+
+(294.9)
+
+(294.55)
+
+(346.84)
+
+(580.23)
+
+(293.82)
+
+(299.45)
+
+(300.40)
+
+(302.47)
+
+(47.56)
+
+(48.46)
+
+(56.98)
+
+(135.65)
+
+(431.45)
+
+1.2***
+
+3025***
+
+-2052***
+
+18224***
+
+-3851***
+
+-3419***
+
+7001***
+
+-878***
+
+-6802***
+
+2902***
+
+-143
+
+11601***
+
+8003***
+
+3597***
+
+-1363***
+
+-19491***
+
+(0.01)
+
+(8.58)
+
+(34.27)
+
+(296.36)
+
+(296.02)
+
+(348.56)
+
+(583.12)
+
+(295.29)
+
+(300.93)
+
+(301.89)
+
+(303.98)
+
+(47.79)
+
+(48.70)
+
+(57.26)
+
+(136.32)
+
+(433.59)
+
+0.05
+
+2247808
+
+0.04
+
+2247808
+
+Table 1: Panel ordinary least squares regression results of Model 1 (Equation 1) and Model
+
+2 (without Baseline). Occupation SOE officer, gender female, and age group (15-25] are
+
+used as basis values in the regressions. The symbol ∗, ∗∗, and ∗ ∗ ∗ indicate the significance
+
+level at 10%, 5%, and 1%, respectively.
+
+while leaving everything else the same. However, without a randomized controlled experi-
+
+ment, recipients and non-recipients may possess different features other than receiving and
+
+not receiving the transfer. This fact prevents us from directly comparing them without
+
+suffering from bias. Matched observational study provides one approach that is used in
+
+many studies to handle such a problem. Guo et al. (2020) discussed several matching meth-
+
+ods to reduce the bias including nearest neighbor with caliper and Mahalanobis distance
+
+15
+
+matching.
+
+Opting for this approach, we match the treatment group (recipients) to a subset of the
+
+control group (non-recipients), by following ideas in Rosenbaum (2010) and Rosenbaum
+
+(2020). We use a combination of a nearest neighbor model of the Mahalanobis distance and
+
+a caliper on the logistic propensity score of the likelihood of being in the treatment group.
+
+The Mahalanobis distance and the logistic propensity score are based on the following
+
+features: age, the log of the self-reported income, and monthly spending prior to the
+
+month of interest. A caliper is also used enhance the matching result, with the cutoff set
+
+to 0.2 as suggested in Cochran & Rubin (1973).
+
+We approach the first question by inspecting how a recipient and a non-recipient with
+
+similar characteristics and pre-transfer spending patterns behave differently after the first
+
+transfers occur in August 2021. That is, using the full sample from the panel OLS exercise
+
+(2.5 million recipients and 11.8 million non recipients), we match the treatment and the
+
+control groups based on the following features: occupation19, the log of self-reported in-
+
+come, age, and their monthly spending between April and July 2021. Figure 6 shows that
+
+distributions for different characteristics of the control group become more similar to those
+
+of the treatment group.
+
+The matched sample is segmented into four groups depending on the percentile of the
+
+treatment’s self-reported income: (i) below the 25th percentile, (ii) between the 25th and
+
+the 50th percentiles, (iii) between the 50th and the 75th percentiles, and (iv) between the
+
+75th and the 90th percentiles. Additionally, outliers are removed to mitigate the effect of
+
+highly right-skewed spending distribution. Outliers are defined here to be those whose
+
+spending in any month in the 2021 is over the 90th percentile of that month’s spending or
+
+their corresponding matches are outliers. Table A3 in the Appendix reports the subsample
+
+sizes after the removal of outliers for different cases.
+
+Figure 7 displays monthly spending patterns for each of the self-reported income groups
+
+to account for heterogeneity. The expenditures of both the treatment and the control groups
+
+are similar during April through July 2021, which is not surprising since we restrict them to
+
+be so in the matching process. After the first fiscal transfer in August, the treatment group
+
+19We perform multiple but smaller matchings within each of the occupations, as a result, recipients and
+
+non-recipients in each matched pair have the same occupation.
+
+16
+
+(a) Age
+
+(b) Logged Self-reported Income
+
+(c) April Spending
+
+(d) May Spending
+
+(e) June Spending
+
+(f) July Spending
+
+Figure 6: Characteristic distributions of recipients (left), non-recipients (middle), and
+
+matched non-recipients (right).
+
+17
+
+starts to spend slightly more, compared to the control group; this is more noticeable in
+
+the groups with lower incomes. For comparison, the marginal per-month median spending
+
+after the transfer is 1514 THB, which is comparable in magnitude to the 2470 THB found
+
+in Model 1 of the regression.
+
+To further quantify the spending difference between the treatment and control groups,
+
+we compute the marginal propensity to consume (MPC) over the periods between August
+
+and October 2021. For each treatment, there is a corresponding control who, by the
+
+matching process, is supposedly identical to the treatment with one difference: that he/she
+
+does not receive the fiscal transfer. Thus, each of the corresponding controls can be thought
+
+of as a counter-factual instance of the matched treatment if he/she had not received the
+
+transfer. Then, the difference spending between each pair is the marginal spending as a
+
+result of the transfer, and the difference divided by the fiscal transfer amount received
+
+is defined here to be the MPC20. We find that the fiscal transfers result in a spending
+
+increase of 49% of the fiscal transfer amount for the overall population and is higher for the
+
+groups with lower income (Table 2)21. Therefore, to answer the first question, the transfers
+
+have positive impacts on the spending and the impact is amplified for the lower income
+
+population.
+
+Figure 7: Question 1: the impact of the fiscal transfer. The 90% confidence interval of
+
+averaged monthly expenditures of the treatment group (red) and the control group (blue)
+
+from April - December 2021, by income groups. The confidence intervals are constructed
+
+from 10,000 bootstraps with sample size of 10,000 in each bootstrap.
+
+20Without cash withdrawals data, this value could be underestimated.
+21We find similar results when applying an alternative outlier removal process that considers the total
+
+spending in 2021 instead of the monthly spending. See Figure A1 and Table A4 in the Appendix.
+
+18
+
+Income group
+
+Below the 25th percentile
+
+Between the 25th and 50th percentiles
+
+Between the 50th and 75th percentiles
+
+Between the 75th and 90th percentiles
+
+MPC
+
+0.62*
+
+0.55*
+
+0.27*
+
+-0.08
+
+Overall MPC: Below the 90th percentile
+
+0.49*
+
+Table 2: Question 1: the impact of the fiscal transfer. MPC over August through October
+
+2021, by income groups. The symbol * indicates the significance level of 10%.
+
+5.5 Question 2: Fiscal Transfers as a Compensation Tool for Lost
+
+Spending
+
+To inspect whether the transfer compensates for losses in spending during the lockdown,
+
+we want to compare the effect of the transfers on a recipient against a non-recipient who
+
+behaved similarly prior to the lockdown. We conduct a similar matching analysis by relying
+
+on the same demographic characteristics as in the previous exercise and pre-lockdown
+
+monthly spending amounts in January - April 2021. Unlike the previous analysis, whether
+
+a person is affected directly by the lockdown matters, therefore, we impose an additional
+
+restriction on locations so that the treatment group covers only the recipients who work or
+
+reside in one of the 29 lockdown provinces and the control groups are non-recipients who
+
+do not reside in the lockdown provinces. The matching result ensures that each pair of a
+
+recipient and a non-recipient has (i) similar characteristics, (ii) similar spending pattern
+
+prior to the lockdown in May 2021, and (iii) recipients are in lockdown areas while non-
+
+recipients are not. The difference in spending behavior after May 2021 would, then, reflect
+
+the impact of the lockdown and the recovery path afterwards. The additional restriction
+
+on location leads to 2 million recipients and 4.3 million non-recipients for the full sample
+
+analysis. The same outlier removal process as the previous analysis is repeated. There is
+
+65% out of the 2 million matches remaining in the analysis (Table A3).
+
+Overall, the expenditure of the treatment group starts to drop below the control group’s
+
+in May and begins to catch back up in the month of the first transfer for some income groups
+
+19
+
+Figure 8: Question 2: fiscal transfers as a compensation tool for lost spending. The
+
+90% confidence interval of averaged monthly expenditures of the treatment group (red)
+
+and the control group (blue) from January - December 2021, by income groups. The
+
+confidence intervals are constructed from 10,000 bootstraps with sample size of 10,000 in
+
+each bootstrap.
+
+(Figure 8). The two lower income groups living in the lockdown area spend significantly less
+
+than the control groups by 1,460.8 and 1,619.3 THB (Table 3). During the transfer period
+
+in August - October, the individuals in the lockdown area who receive the fiscal transfers
+
+spend significantly more than the control groups by 5,075.9 and 4,248.7 THB per month.
+
+As a result, the losses in spending in May through July are more than compensated for by
+
+the fiscal transfer as the net spending of both income groups are significantly positive over
+
+the entire period when compared to the corresponding control groups. On the contrary,
+
+the two higher income groups end up not recovering from the lockdown spending loss. The
+
+spendings of higher-income individuals in the lockdown areas are significantly less than of
+
+the corresponding control groups during the lockdown and by the end of the fiscal program
+
+in October despite receiving the fiscal stimulus. That is, only the lower income groups
+
+have recovered from the lockdown with higher total spending while it is not the case for
+
+the higher income groups.
+
+6 Analysis using data at daily frequency
+
+With the high frequency dataset, we are able to investigate expenditure and inflow patterns
+
+on a daily basis. In this section, we are interested in how recipients spend their money,
+
+especially on the day of and a few days after the transfer date, and how their spending
+
+20
+
+Income Group
+
+Apr - Jul Aug - Oct
+
+Net
+
+Below the 25th percentile
+
+-1460.8*
+
+5,075.9*
+
+3,615.1*
+
+Between the 25th and 50th percentiles
+
+-1,619.3*
+
+4,248.7*
+
+2,629.4*
+
+Between the 50th and 75th percentiles
+
+-5,727.3*
+
+-429.4
+
+-6,156.8*
+
+Between the 75th and 90th percentiles
+
+-13,224.3*
+
+-9160.7*
+
+-22,385.0*
+
+Table 3: Question 2: fiscal transfers as a compensation tool for lost spending. The averaged
+
+differences of total expenditures between the treatment and the control groups over April
+
+- July 2021, August - October 2021, and the net between the two periods. The symbol *
+
+indicates the significance level at 10%. Positive sign means expenditures of the treatment
+
+group is higher than of the control group.
+
+patterns are different from those who do not receive the transfers.
+
+To achieve this, we take the 2.5 million treatment-control pairs from the monthly anal-
+
+ysis for question 1, where all recipients’ first transfers occurred in August or September
+
+2021. We let the first transfer date of each individual be day t = 0. The individuals’ days
+
+t = 0 are not necessarily the same calendar date as the transfer dates can vary by 1-3
+
+days within the second halves of the months. The analysis focuses on what happens during
+
+15 days before and after day t = 0. We start with the full sample of matched pairs in
+
+the monthly analysis, and apply an outlier removal similar to the monthly analysis. That
+
+is, outliers are defined as those (including their corresponding matches) who have daily
+
+spending over the 97.5th percentile in any day over the 31 day period. There is 63% out
+
+of the 2.5 million matches remaining in the analysis (Table A3). The average inflow and
+
+outflow of the treatment group are compared against those of the control group and the
+
+results are displayed based on self-reported income as in the monthly analysis.
+
+6.1 Daily Inflows during the Transfer Period
+
+Inflow patterns (Figure 9) of the treatment and the control groups are not much different
+
+except on the first transfer date and the five days after. The treatment group’s daily inflows
+
+temporarily spikes to over 7,000 THB on day t = 0, while the inflows of the control group
+
+gradually increase on the same day with a much smaller size and linger longer for two
+
+21
+
+Figure 9: The average monetary inflows over 31 days (15 days prior and after the first
+
+government transfer date) of the treatment group (red) and the control group (blue). The
+
+averages are of sample means from 10,000 bootstraps with sample size of 10,000 in each
+
+bootstrap.
+
+to three days. It is by definition that the government transfer explains the spike on day
+
+t = 0 for the treatment group. As for the control group, the increase in the days after
+
+t = 0 could reflect a small circulation of money in the economy that the transfers stimulate
+
+before dying down.
+
+After the first decline, both groups’ inflow patterns similarly, amount-wise and time-
+
+wise, increase again around day t = 6 to t = 10. It is highly likely that the synchronous
+
+inclines in both groups are due to their payrolls since most recipients’ first transfer dates
+
+are during the 20th to the 25th of a month, making day t = 6 through t = 10 fall around
+
+the end of month, which is the monthly payroll period in Thailand. During the payroll
+
+period, the treatment groups amongst all income levels receive slightly less income than
+
+the corresponding control groups, suggesting a decrease in regular payroll compared to how
+
+much the treatment groups would have obtained. No heterogeneity in inflow patterns is
+
+observed.
+
+6.2 Daily Expenditures after Transfers
+
+The expenditure patterns in Figure 10 are similar to the inflow graphs in Figure 9. There are
+
+two distinct peaks that occur at the same time period as in the inflow pattern. Individuals
+
+are likely to spend as soon as they receive the transfers. As a result, we see high peaks on
+
+day t = 0 when the treatment group receives the transfers and smaller peaks around day
+
+22
+
+Figure 10: The average monetary outflows over 31 days (15 days prior and after the first
+
+government transfer date) of the treatment group (red) and the control group (blue). The
+
+averages are of sample means from 10,000 bootstraps with sample size of 10,000 in each
+
+bootstrap.
+
+t = 6 to day t = 10 during the payroll period for both groups. No heterogeneity is observed
+
+except for that high self-reported income individuals generally spend more.
+
+6.3 Marginal Propensity to Consume
+
+To quantify the difference in expenditure between the two groups, we now focus on the
+
+MPC, defined in the same way as in Section 5.4. As seen in Figure 9 and Figure 10,
+
+expenditures during the second peak may be generated not by the fiscal transfer but regular
+
+monthly payroll. To account for this, only expenditures from day t = 0 to day t = 5 are
+
+included in the MPC calculation.
+
+Table 4 reports the MPC results22. We find that the transfers made in August and
+
+September 2021 result in an MPC of 40% overall over the 6 days since the date of the
+
+transfers. When considering by income groups, the MPCs are larger for low self-reported
+
+income individuals. The transfers generate more spending by 44% of the transfer amount
+
+for individuals with self-reported income below the 25th percentile. The number decreases
+
+as the self-reported income increases. As for the individuals between the 75th and 90th
+
+percentiles of income, the spending that the transfers generate increase by only 16% of the
+
+transfer amount.
+
+22We find a similar result when removing outliers based on the total spending over the 31 day period.
+
+See Table A6.
+
+23
+
+Income Group
+
+Below the 25th percentile
+
+Between the 25th and 50th percentiles
+
+Between the 50th and 75th percentiles
+
+Between the 75th and 90th percentiles
+
+Overall MPC: Below the 90th percentile
+
+MPC
+
+0.44*
+
+0.42*
+
+0.26*
+
+0.16*
+
+0.40*
+
+Table 4: MPC over day t = 0 to day t = 5 by income group, with outlier pairs removed.
+
+The symbol * indicates the significance level of 10%. Outliers are considered based on their
+
+daily spending.
+
+7 Conclusion
+
+This paper examines the impacts of COVID-19 fiscal transfers using a rich transaction
+
+dataset. We first document the profiles of the recipients, which were in line with the
+
+groups targeted by the government; before specifically looking at an event study for the
+
+COVID-specific transfers made in 2021. For this event study, we find that total marginal
+
+propensity to consume (in our case, spend) to be 49% of the amount transferred. However,
+
+the impacts of the transfers were heterogeneous. The spending of lower-income individuals
+
+statistically rose after the transfers, with marginal propensity to consume (spend) of up
+
+to 62% of the value received from the transfers. We also observe that these lower-income
+
+individuals who lived through the lockdown and received fiscal transfers spend more on
+
+aggregate than similar individuals that didn’t live in lockdown areas and, therefore, did not
+
+receive government support. On the other hand, we find no statistical evidence that higher
+
+income individuals spend more after the transfer and their aggregate spending is much
+
+lower than those individuals living in non-lockdown areas who did not receive government
+
+support.
+
+At the daily level, we find that most individuals spend the money in the day of the
+
+transfers or the days immediately after receiving them. This is an interesting finding but
+
+will require further analysis to fully explain.
+
+The paper adds to the empirical literature on the impacts of direct fiscal transfers
+
+24
+
+to households and the heterogeneous impacts fiscal transfers can have. The results also
+
+substantiate the development of economic models that take into account the heterogeneity
+
+in consumption patterns based on income levels.
+
+25
+
+References
+
+Agur, I., Peria, S. M. & Rochon, C. (2020), ‘Digital financial services and the pandemic:
+
+Opportunities and risks for emerging and developing economies’, International Monetary
+
+Fund Special Series on COVID-19, Transactions 1, 2–1.
+
+Andersen, A. L., Hansen, E. T., Johannesen, N. & Sheridan, A. (2022), ‘Consumer re-
+
+sponses to the covid-19 crisis: Evidence from bank account transaction data’, The Scan-
+
+dinavian Journal of Economics 124(4), 905–929.
+
+Baker, S. R., Farrokhnia, R. A., Meyer, S., Pagel, M. & Yannelis, C. (2020), Income, liquid-
+
+ity, and the consumption response to the 2020 economic stimulus payments, Technical
+
+report, National Bureau of Economic Research.
+
+Banerjee, A., Faye, M., Krueger, A. B., Niehaus, P. & Suri, T. (2020), ‘Effects of a universal
+
+basic income during the pandemic*’, Innovations for Poverty Action Working Paper .
+
+Bastagli, F., Hagen-Zanker, J., Harman, L., Barca, V., Sturge, G. & Schmidt, T. (2019),
+
+‘The impact of cash transfers: a review of the evidence from low-and middle-income
+
+countries’, Journal of Social Policy 48(3), 569–594.
+
+Bayer, C., Born, B., Luetticke, R. & M¨uller, G. J. (2023), ‘The coronavirus stimulus
+
+package: How large is the transfer multiplier’, The Economic Journal 133(652), 1318–
+
+1347.
+
+Bounie, D., Camara, Y. & Galbraith, J. W. (2023), ‘Consumer mobility and expenditure
+
+during the covid-19 containments: Evidence from french transaction data’, European
+
+Economic Review 151, 104326.
+
+Bui, D., Dr¨ager, L., Hayo, B. & Nghiem, G. (2022), ‘The effects of fiscal policy on house-
+
+holds during the covid-19 pandemic: Evidence from thailand and vietnam’, World de-
+
+velopment 153, 105828.
+
+Carvalho, V. M., Garcia, J. R., Hansen, S., Ortiz, ´A., Rodrigo, T., Rodr´ıguez Mora, J. V.
+
+& Ruiz, P. (2021), ‘Tracking the covid-19 crisis with high-resolution transaction data’,
+
+Royal Society Open Science 8(8), 210218.
+
+26
+
+Chen, H., Qian, W. & Wen, Q. (2021), The impact of the covid-19 pandemic on consump-
+
+tion: Learning from high-frequency transaction data, in ‘AEA Papers and Proceedings’,
+
+Vol. 111, pp. 307–11.
+
+Cochran, W. G. & Rubin, D. B. (1973), ‘Controlling bias in observational studies: A
+
+review’, The Indian Journal of Statistics 35, 417–446.
+
+Coibion, O., Gorodnichenko, Y. & Weber, M. (2020), How did us consumers use their
+
+stimulus payments?, Technical report, National Bureau of Economic Research.
+
+Cox, N., Ganong, P., Noel, P., Vavra, J., Wong, A., Farrell, D., Greig, F. & Deadman, E.
+
+(2020), ‘Initial impacts of the pandemic on consumer behavior: Evidence from linked in-
+
+come, spending, and savings data’, Brookings Papers on Economic Activity 2020(2), 35–
+
+82.
+
+Egger, D., Haushofer, J., Miguel, E., Niehaus, P. & Walker, M. (2022), ‘General Equi-
+
+librium Effects of Cash Transfers: Experimental Evidence From Kenya’, Econometrica
+
+90(6), 2603–2643.
+
+URL: https://ideas.repec.org/a/wly/emetrp/v90y2022i6p2603-2643.html
+
+Guo, S., Fraser, M. & Chen, Q. (2020), ‘Propensity score analysis: recent debate and
+
+discussion’, Journal of the Society for Social Work and Research 11(3), 463–482.
+
+Jaroszewicz, A., Jachimowicz, J., Hauser, O. & Jamison, J. (2022), ‘How effective is (more)
+
+money? randomizing unconditional cash transfer amounts in the us’, Randomizing Un-
+
+conditional Cash Transfer Amounts in the US (July 5, 2022) .
+
+Kaneda, M., Kubota, S. & Tanaka, S. (2021), ‘Who spent their covid-19 stimulus pay-
+
+ment? evidence from personal finance software in japan’, The Japanese Economic Review
+
+72(3), 409–437.
+
+Kaplan, G., Moll, B. & Violante, G. L. (2020), The great lockdown and the big stimulus:
+
+Tracing the pandemic possibility frontier for the us, Technical report, National Bureau
+
+of Economic Research.
+
+27
+
+Karger, E. & Rajan, A. (2020), ‘Heterogeneity in the marginal propensity to consume:
+
+evidence from covid-19 stimulus payments’.
+
+Rosenbaum, P. R. (2010), Design of observational studies, Springer.
+
+Rosenbaum, P. R. (2020), ‘Modern algorithms for matching in observational studies’, An-
+
+nual Review of Statistics and Its Application 7, 143–176.
+
+28
+
+A Robustness
+
+This section includes supplementary estimations as robustness exercises for the analyses in
+
+Section 5 and Section 6.
+
+A.1 The Variations of Panel OLS specifications
+
+We perform four additional estimations with different specifications and/or on different
+
+subsamples to substantiate the results of the two main estimations in Section 5.3. Tables A1
+
+and A2 report the supplementary results. Model 3 and Model 4 have the same specification
+
+as Model 1 and Model 2, respectively, but are estimated on the full sample. Model 5 and
+
+Model 6 use the ratio of monthly spending over their January 2021 spending as a dependent
+
+variable, instead of monthly expenditure as in the previous models. The T rend variable in
+
+the ratio estimations is correspondingly changed to the monthly median of non recipients’
+
+ratio. Similarly to the main estimations, occupation SOE officer, gender female, and age
+
+group (15-25] are used as basis values in the regressions.
+
+The positive impact of the fiscal transfer is supported by the positive coefficients of
+
+Dummy in Model 3 and Model 4, although being twice as much. However, the ratio
+
+models (Model 5 and Model 6) do not report significant results for any variable.
+
+A.2 An Alternative Outlier Removal Process
+
+In addition to the outlier removal method in Section 5 and Section 6, we perform a more
+
+relax, alternative approach where outliers are determined as observations whose total spend-
+
+ing over 2021 for the monthly analysis and over the 31 day period for the daily analysis is
+
+greater than the 90th percentile. Observations are still considered as outliers if their corre-
+
+sponding matches are one. Table A3 reports the remaining observations as a percentage of
+
+the full sample.
+
+Matched to address the first question (Section 5.4), monthly spendings and incomes
+
+are displayed in Figure A1. Similar to the main estimation, the treatment group starts
+
+to spend more in August, where the lower income group spends relatively more when
+
+compared to their corresponding matches. Moreover, both groups behave more similarly in
+
+29
+
+Yi,t: Monthly spending
+
+Coefficient Standard Error Coefficient Standard Error
+
+Model 3
+
+Model 4
+
+Fiscal Dummy
+
+Baseline
+
+Non-recipient Spending
+
+Income (log)
+
+Gender - male
+
+Occupation
+
+Business owner
+
+Employee
+
+Government officer
+
+Retired
+
+Self-employed
+
+Student
+
+Unemployed
+
+Other
+
+Age
+
+(25, 40]
+
+(40, 50]
+
+(50,60]
+
+(60, 100]
+
+Constant
+
+Adjusted R2
+
+Observations
+
+4594***
+
+0.57***
+
+2.99***
+
+10966***
+
+3289***
+
+89249***
+
+12261**
+
+5951
+
+47637***
+
+23044***
+
+30107***
+
+47065***
+
+23940***
+
+4435***
+
+-3998***
+
+-15344***
+
+-19501***
+
+-157927***
+
+(749)
+
+(0.00)
+
+(0.16)
+
+(128)
+
+(506)
+
+(4435)
+
+(4435)
+
+(5230)
+
+(8403)
+
+(4424)
+
+(4512)
+
+(4522)
+
+(4553)
+
+(708)
+
+(722)
+
+(848)
+
+(2008)
+
+(6452)
+
+6148***
+
+(820)
+
+2.74***
+
+20659***
+
+5595***
+
+155898***
+
+16069***
+
+6227
+
+119791***
+
+28275***
+
+50534***
+
+74544***
+
+39577***
+
+18810***
+
+7804***
+
+-7424***
+
+-1759
+
+-208204***
+
+(0.18)
+
+(141)
+
+(555)
+
+(4856)
+
+(4856)
+
+(5727)
+
+(9201)
+
+(4844)
+
+(4940)
+
+(4952)
+
+(4985)
+
+(776)
+
+(790)
+
+(928)
+
+(2199)
+
+(7064)
+
+0.169
+
+2497565
+
+0.004
+
+2497565
+
+Table A1: Panel ordinary least squares regression results of supplementary estimations of
+
+monthly spending amount on the full sample. Occupation SOE officer, gender female, and
+
+age group (15-25] are used as basis values in the regressions. The symbol ∗, ∗∗, and ∗ ∗ ∗
+
+indicate the significance level at 10%, 5%, and 1%, respectively.
+
+November onward. As for the MPC, the transfers have positive impacts on the two lower
+
+income groups, with the MPCs at 55% and 47% (Table A4). However, there is not enough
+
+evidence of this finding when looking at the overall population.
+
+Figure A2 and Table A5 report the robustness exercises to address the second question
+
+of the monthly analysis. The essence of the results is in line with the main findings.
+
+However, there is not enough evidence that the lower income groups are compensated more
+
+30
+
+Yi,t: Monthly ratio
+
+Coefficient Standard Error Coefficient Standard Error
+
+Model 5
+
+Model 6
+
+Fiscal Dummy
+
+Non-recipient Spending
+
+Income (log)
+
+Gender - male
+
+Occupation
+
+Business owner
+
+Employee
+
+Government officer
+
+Retired
+
+Self-employed
+
+Student
+
+Unemployed
+
+Other
+
+Age
+
+(25, 40]
+
+(40, 50]
+
+(50,60]
+
+(60, 100]
+
+Constant
+
+Adjusted R2
+
+Observations
+
+2.21
+
+19.74
+
+0.21
+
+-2.99
+
+1.77
+
+3.1
+
+0.64
+
+4.71
+
+3.51
+
+2.04
+
+2.72
+
+41.99**
+
+3.14
+
+-4.01
+
+-4.12
+
+-4.73
+
+-21.97
+
+(2.85)
+
+(15.42)
+
+(0.51)
+
+(2.04)
+
+(17.61)
+
+(17.59)
+
+(20.71)
+
+(34.64)
+
+(17.54)
+
+(17.88)
+
+(17.94)
+
+(18.06)
+
+(2.84)
+
+(2.89)
+
+(3.4)
+
+(8.1)
+
+(25.1)
+
+-7.01
+
+40.31
+
+-0.65
+
+9.2*
+
+0.61
+
+1.6
+
+-0.95
+
+6.75
+
+15.81
+
+2.34
+
+2.39
+
+36.71
+
+2.3
+
+13.01*
+
+-4.85
+
+-4.52
+
+-40.15
+
+(6.82)
+
+(36.91)
+
+(1.24)
+
+(4.88)
+
+(42.7)
+
+(42.7)
+
+(50.35)
+
+(80.9)
+
+(42.59)
+
+(43.44)
+
+(43.54)
+
+(43.83)
+
+(6.82)
+
+(6.95)
+
+(8.16)
+
+(19.33)
+
+(60.55)
+
+0.00
+
+2247808
+
+0.00
+
+2497565
+
+Table A2: Panel ordinary least squares regression results of supplementary estimations of
+
+monthly ratio on the sub sample (Model 5) and the full sample (Model 6). Occupation SOE
+
+officer, gender female, and age group (15-25] are used as basis values in the regressions.
+
+The symbol ∗, ∗∗, and ∗ ∗ ∗ indicate the significance level at 10%, 5%, and 1%, respectively.
+
+than they have lost, while the higher income groups still do not fully recover from the
+
+lockdown. For the robustness exercise of the daily analysis, the spending patterns (Figure
+
+A3) suggest similar messages as the main findings, and the MPC estimation (Table A6)
+
+are still positive for the overall and the lower income groups.
+
+31
+
+Main Appendix (Robustness)
+
+Monthly (1st question)
+
+Monthly (2nd question)
+
+Daily
+
+70%
+
+65%
+
+63%
+
+89%
+
+88%
+
+86%
+
+Table A3: The percentage of the remaining matches. All analyses use the 90th percentile as
+
+a threshold, except for the main daily analysis, which uses the 97.5th percentile, to ensure
+
+that the sub sample size is more than 60% of the full sample.
+
+(a) Averaged monthly expenditures
+
+(b) Averaged monthly incomes
+
+Figure A1: The 90% confidence intervals of averaged monthly expenditures (top) and
+
+incomes (bottom) of the treatment group (red) and the control group (blue) from April -
+
+December 2021, by income groups. An alternative where outliers are considered based on
+
+the total spending in 2021 is used. The confidence intervals are constructed from 10,000
+
+bootstraps with sample size of 10,000 in each bootstrap.
+
+32
+
+Income group
+
+Below the 25th percentile
+
+Between the 25th and 50th percentiles
+
+Between the 50th and 75th percentiles
+
+MPC
+
+0.55*
+
+0.47*
+
+-0.10
+
+Between the 75th and 90th percentiles
+
+-1.06*
+
+Overall MPC: Below the 90th percentile
+
+0.24
+
+Table A4: MPC over August, September, and October 2021 by income groups. The symbol
+
+* indicates the significance level of 10%. An alternative where outliers are considered based
+
+on the total monthly spending of all 12 months in 2021.
+
+(a) Averaged monthly expenditures
+
+(b) Averaged monthly incomes
+
+Figure A2: The 90% confidence intervals of averaged monthly expenditures (top) and
+
+incomes (bottom) of the treatment group (red) and the control group (blue) from January
+
+- December 2021, by income groups. An alternative where outliers are considered based on
+
+the total spending in 2021 is used. The confidence intervals are constructed from 10,000
+
+bootstraps with sample size of 10,000 in each bootstrap.
+
+33
+
+Income Group
+
+Apr - Jul Aug - Oct
+
+Net
+
+Below the 25th percentile
+
+-3,154.6*
+
+4,084.3*
+
+929.7
+
+Between the 25th and 50th percentiles
+
+-4,225.3*
+
+2,140.9
+
+-2,084.4
+
+Between the 50th and 75th percentiles
+
+-13,216.9*
+
+-7,067.8*
+
+-20,284.7*
+
+Between the 75th and 90th percentiles
+
+-26,195.3*
+
+-22,386.8*
+
+-48,582.1*
+
+Table A5: The averaged differences of 

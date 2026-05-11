@@ -1,0 +1,104 @@
+
+PMID- 41610852
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260408
+LR  - 20260408
+IS  - 1932-7420 (Electronic)
+IS  - 1550-4131 (Linking)
+VI  - 38
+IP  - 4
+DP  - 2026 Apr 7
+TI  - Blood-flow restriction resistance training improves skeletal muscle mitochondrial 
+      capacity and cardiovascular risk factors in type 2 diabetes.
+PG  - 812-823.e6
+LID - S1550-4131(25)00547-9 [pii]
+LID - 10.1016/j.cmet.2025.12.016 [doi]
+AB  - Impaired muscle strength and mitochondrial functionality are hallmarks of type 2 
+      diabetes (T2D). Conventional combined resistance/endurance exercise training has 
+      limited efficacy to simultaneously improve muscle function and metabolism. We 
+      examined whether low-load blood-flow restriction training (BFRT) increases both 
+      muscle strength and mitochondrial oxidative capacity in T2D. Over 12 weeks, BFRT 
+      and conventional resistance training (CREST) similarly improved muscle strength 
+      despite lower workload in BFRT. Uniquely, BFRT enhanced muscle and adipose tissue 
+      oxidative capacity and increased muscle mitochondrial content. Transcriptomic 
+      profiling revealed more pronounced changes, particularly in angiogenesis-linked 
+      pathways, upon BFRT. BFRT also preferentially led to reductions in visceral 
+      adipose tissue volume and waist circumference, whereas CREST more effectively 
+      decreased subcutaneous adipose tissue volume. Both interventions lowered resting 
+      heart rate and diastolic blood pressure. These findings position BFRT as a 
+      promising low-load exercising strategy to simultaneously improve mitochondrial 
+      oxidative capacity, muscle strength, and body composition in individuals with 
+      T2D.
+CI  - Copyright (c) 2025 The Author(s). Published by Elsevier Inc. All rights reserved.
+FAU - Trinks, Nina
+AU  - Trinks N
+AD  - Institute for Clinical Diabetology, German Diabetes Center, Leibniz Institute for 
+      Diabetes Research at Heinrich Heine University, Dusseldorf, Germany; German 
+      Center for Diabetes Research (DZD e.V.), Munchen-Neuherberg, Germany.
+FAU - Gancheva, Sofiya
+AU  - Gancheva S
+AD  - Institute for Clinical Diabetology, German Diabetes Center, Leibniz Institute for 
+      Diabetes Research at Heinrich Heine University, Dusseldorf, Germany; German 
+      Center for Diabetes Research (DZD e.V.), Munchen-Neuherberg, Germany; Department 
+      of Endocrinology and Diabetology, Medical Faculty and University Hospital, 
+      Heinrich Heine University, Dusseldorf, Germany; Departamento de Nutricion, 
+      Diabetes y Metabolismo, Escuela de Medicina, Facultad de Medicina, Pontificia 
+      Universidad Catolica de Chile, Santiago, Chile.
+FAU - Putzer, Jennifer
+AU  - Putzer J
+AD  - Institute for Clinical Diabetology, German Diabetes Center, Leibniz Institute for 
+      Diabetes Research at Heinrich Heine University, Dusseldorf, Germany; German 
+      Center for Diabetes Research (DZD e.V.), Munchen-Neuherberg, Germany.
+FAU - Schon, Martin
+AU  - Schon M
+AD  - Institute for Clinical Diabetology, German Diabetes Center, Leibniz Institute for 
+      Diabetes Research at Heinrich Heine University, Dusseldorf, Germany; German 
+      Center for Diabetes Research (DZD e.V.), Munchen-Neuherberg, Germany; Department 
+      of Endocrinology and Diabetology, Medical Faculty and University Hospital, 
+      Heinrich Heine University, Dusseldorf, Germany.
+FAU - Huttasch, Maximilian
+AU  - Huttasch M
+AD  - Institute for Clinical Diabetology, German Diabetes Center, Leibniz Institute for 
+      Diabetes Research at Heinrich Heine University, Dusseldorf, Germany; German 
+      Center for Diabetes Research (DZD e.V.), Munchen-Neuherberg, Germany.
+FAU - Pafili, Kalliopi
+AU  - Pafili K
+AD  - Institute for Clinical Diabetology, German Diabetes Center, Leibniz Institute for 
+      Diabetes Research at Heinrich Heine University, Dusseldorf, Germany; German 
+      Center for Diabetes Research (DZD e.V.), Munchen-Neuherberg, Germany; Department 
+      of Endocrinology and Diabetology, Medical Faculty and University Hospital, 
+      Heinrich Heine University, Dusseldorf, Germany.
+FAU - Mastrototaro, Lucia
+AU  - Mastrototaro L
+AD  - Institute for Clinical Diabetology, German Diabetes Center, Leibniz Institute for 
+      Diabetes Research at Heinrich Heine University, Dusseldorf, Germany; German 
+      Center for Diabetes Research (DZD e.V.), Munchen-Neuherberg, Germany.
+FAU - Dewidar, Bedair
+AU  - Dewidar B
+AD  - Institute for Clinical Diabetology, German Diabetes Center, Leibniz Institute for 
+      Diabetes Research at Heinrich Heine University, Dusseldorf, Germany; German 
+      Center for Diabetes Research (DZD e.V.), Munchen-Neuherberg, Germany.
+FAU - Kupriyanova, Yuliya
+AU  - Kupriyanova Y
+AD  - Institute for Clinical Diabetology, German Diabetes Center, Leibniz Institute for 
+      Diabetes Research at Heinrich Heine University, Dusseldorf, Germany; German 
+      Center for Diabetes Research (DZD e.V.), Munchen-Neuherberg, Germany.
+FAU - Herder, Christian
+AU  - Herder C
+AD  - Institute for Clinical Diabetology, German Diabetes Center, Leibniz Institute for 
+      Diabetes Research at Heinrich Heine University, Dusseldorf, Germany; German 
+      Center for Diabetes Research (DZD e.V.), Munchen-Neuherberg, Germany; Department 
+      of Endocrinology and Diabetology, Medical Faculty and University Hospital, 
+      Heinrich Heine University, Dusseldorf, Germany.
+FAU - Strassburger, Klaus
+AU  - Strassburger K
+AD  - German Center for Diabetes Research (DZD e.V.), Munchen-Neuherberg, Germany; 
+      Institute for Biometrics and Epidemiology, German Diabetes Center, Leibniz 
+      Institute for Diabetes Research at Heinrich Heine University, Dusseldorf, 
+      Germany.
+FAU - Zaharia, Oana P
+AU  - Zaharia OP
+AD  - Institute for Clinical Diabetology, German Diabetes Center, Leibniz Institute for 
+      Diabetes Research at Heinrich Heine University, Dusseldorf, Germany; German 
+      Center for Diabetes Research (DZD e.V.),

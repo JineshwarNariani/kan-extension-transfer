@@ -1,0 +1,138 @@
+
+PMID- 41660627
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260209
+LR  - 20260211
+IS  - 1664-3224 (Electronic)
+IS  - 1664-3224 (Linking)
+VI  - 16
+DP  - 2025
+TI  - POLB 001, a p38 MAPK inhibitor, decreases local and systemic inflammatory 
+      responses following in vivo LPS administration in healthy volunteers: a 
+      randomised, double-blind, placebo-controlled study.
+PG  - 1684307
+LID - 10.3389/fimmu.2025.1684307 [doi]
+LID - 1684307
+AB  - BACKGROUND AND AIM: POLB 001 is an oral p38 mitogen-activated protein kinase 
+      (MAPK) inhibitor in development for the prevention of cancer 
+      immunotherapy-induced cytokine release syndrome (CRS). It has previously been 
+      shown to be well tolerated and capable of decreasing ex vivo lipopolysaccharide 
+      (LPS)-induced tumour necrosis factor (TNF) secretion in a phase 1 first-in-human 
+      trial. This study aimed to evaluate the anti-inflammatory effects of POLB 001 
+      following in vivo LPS administration in healthy volunteers. METHODS: Participants 
+      received POLB 001 at doses of 30, 70, or 150 mg, or placebo, twice daily for 
+      seven consecutive days and were challenged locally with intradermal (ID) LPS on 
+      day 4 and systemically with intravenous (IV) LPS on day 6. Following ID LPS 
+      administration, skin perfusion and erythema were measured, and skin suction 
+      blisters were created to collect blister fluid containing infiltrating immune 
+      cells and extracellular fluid. Following IV LPS administration, circulating 
+      cytokine levels, leukocyte counts, leukocyte p38 MAPK phosphorylation levels, and 
+      vital signs were measured. RESULTS: POLB 001 was well tolerated. It reduced the 
+      ID LPS-driven immune cell attraction and cytokine responses measured in blister 
+      fluid. The suppression of immune cell recruitment was most pronounced in 
+      neutrophils (72.4%-81.5%, p = 0.0091), classical monocytes (68.4%-73.6%, p = 
+      0.0036), CD3(+) T cells (56.4%-65.9%, p = 0.0047), and myeloid dendritic cells 
+      (59%-64.4%, p = 0.0174). The suppression of cytokine responses was most 
+      pronounced for TNF (35.3%-65.1%, p = 0.0099). Overall, POLB 001 did not 
+      substantially modulate the intradermal LPS-driven increase in local erythema and 
+      perfusion. POLB 001 significantly reduced the IV LPS-driven increase in 
+      interleukin (IL)-6, IL-8, and TNF (37.7%-80.7%, all p < 0.0003), p38 MAPK 
+      phosphorylation levels in target cells (16.7%-60.9%, all p < 0.0001), and heart 
+      rate increase (4-9.3 bpm, p < 0.0001). CONCLUSION: POLB 001 was safe and 
+      well-tolerated. Pharmacodynamic findings confirm that POLB 001 inhibits 
+      LPS-induced local and systemic inflammation in vivo through inhibition of p38 
+      MAPK. CLINICAL TRIAL REGISTRATION: https://onderzoekmetmensen.nl/en/trial/51741, 
+      identifier NL81214.056.22.
+CI  - Copyright (c) 2026 de Bruin, Jansen, Pereira, van Schijndel, Klaassen, Otto, 
+      Skillington, Maguire, Tremble, Bell, Maher, Mihara, Sumeray, Gilroy, Klarenbeek 
+      and Moerland.
+FAU - de Bruin, Digna T
+AU  - de Bruin DT
+AD  - Centre for Human Drug Research (CHDR), Leiden, Netherlands.
+AD  - Leiden University Medical Center, Leiden, Netherlands.
+FAU - Jansen, Manon A A
+AU  - Jansen MAA
+AD  - Centre for Human Drug Research (CHDR), Leiden, Netherlands.
+FAU - Pereira, Diana R
+AU  - Pereira DR
+AD  - Centre for Human Drug Research (CHDR), Leiden, Netherlands.
+FAU - van Schijndel, Lisa
+AU  - van Schijndel L
+AD  - Centre for Human Drug Research (CHDR), Leiden, Netherlands.
+FAU - Klaassen, Erica S
+AU  - Klaassen ES
+AD  - Centre for Human Drug Research (CHDR), Leiden, Netherlands.
+FAU - Otto, Marije E
+AU  - Otto ME
+AD  - Centre for Human Drug Research (CHDR), Leiden, Netherlands.
+AD  - Leiden Academic Centre for Drug Research, Universiteit Leiden, 
+      Leiden, Netherlands.
+FAU - Skillington, Jeremy
+AU  - Skillington J
+AD  - Poolbeg Pharma Limited, London, United Kingdom.
+FAU - Maguire, Paula
+AU  - Maguire P
+AD  - Poolbeg Pharma Limited, London, United Kingdom.
+FAU - Tremble, Liam
+AU  - Tremble L
+AD  - Poolbeg Pharma Limited, London, United Kingdom.
+FAU - Bell, Alan
+AU  - Bell A
+AD  - Poolbeg Pharma Limited, London, United Kingdom.
+FAU - Maher, Laura
+AU  - Maher L
+AD  - Poolbeg Pharma Limited, London, United Kingdom.
+FAU - Mihara, Katsuhiro
+AU  - Mihara K
+AD  - Poolbeg Pharma Limited, London, United Kingdom.
+FAU - Sumeray, Mark
+AU  - Sumeray M
+AD  - Poolbeg Pharma Limited, London, United Kingdom.
+FAU - Gilroy, Derek W
+AU  - Gilroy DW
+AD  - Department of Experimental and Translational Medicine, University College London 
+      Research, London, United Kingdom.
+FAU - Klarenbeek, Naomi B
+AU  - Klarenbeek NB
+AD  - Centre for Human Drug Research (CHDR), Leiden, Netherlands.
+AD  - Leiden University Medical Center, Leiden, Netherlands.
+FAU - Moerland, Matthijs
+AU  - Moerland M
+AD  - Centre for Human Drug Research (CHDR), Leiden, Netherlands.
+AD  - Leiden University Medical Center, Leiden, Netherlands.
+LA  - eng
+PT  - Clinical Trial
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+DEP - 20260123
+PL  - Switzerland
+TA  - Front Immunol
+JT  - Frontiers in immunology
+JID - 101560960
+RN  - 0 (Lipopolysaccharides)
+RN  - EC 2.7.11.24 (p38 Mitogen-Activated Protein Kinases)
+RN  - 0 (Cytokines)
+RN  - 0 (Protein Kinase Inhibitors)
+RN  - 0 (Anti-Inflammatory Agents)
+SB  - IM
+MH  - Humans
+MH  - *Lipopolysaccharides/immunology
+MH  - Male
+MH  - *p38 Mitogen-Activated Protein Kinases/antagonists & inhibitors/metabolism
+MH  - Adult
+MH  - Double-Blind Method
+MH  - Female
+MH  - Healthy Volunteers
+MH  - Cytokines/metabolism/blood
+MH  - Young Adult
+MH  - *Protein Kinase Inhibitors/therapeutic use/administration & dosage
+MH  - *Inflammation/drug therapy
+MH  - *Anti-Inflammatory Agents/therapeutic use
+MH  - *Cytokine Release Syndrome/prevention & control/drug therapy
+PMC - PMC12877788
+OTO - NOTNLM
+OT  - Cytokine release syndrome (CRS)
+OT  - LPS
+OT  - in vivo
+OT  - inflamm

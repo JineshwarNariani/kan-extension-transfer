@@ -1,0 +1,1323 @@
+BIS Working Papers 
+No 1090 
+Tackling the fiscal  
+policy-financial stability 
+nexus  
+
+by Claudio Borio, Marc Farag and Fabrizio Zampolli 
+
+Monetary and Economic Department 
+
+April 2023 
+
+JEL classification: E6; G2; G3; H1; H3; H6; H8 
+
+Keywords: financial crises; doom loops; sovereign 
+exposures; prudential policy; fiscal policy. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BIS Working Papers are written by members of the Monetary and Economic Department of the Bank for 
+International Settlements, and from time to time by other economists, and are published by the Bank. The 
+papers are on subjects of topical interest and are technical in character. The views expressed in them are 
+those of their authors and not necessarily the views of the BIS. 
+
+This publication is available on the BIS website (www.bis.org). 
+
+©  Bank  for  International  Settlements  2023.  All  rights  reserved.  Brief  excerpts  may  be  reproduced  or 
+
+translated provided the source is stated. 
+
+ISSN 1020-0959 (print) 
+ISSN 1682-7678 (online) 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Tackling the fiscal policy-financial stability nexus 
+
+•
+Claudio Borio, Marc Farag and Fabrizio Zampolli
+
++
+
+Last updated: 14 April 2023 
+
+Abstract 
+
+Tackling the fiscal policy-financial stability nexus is essential to ensure financial and hence macroeconomic 
+stability. In this paper, we review the literature on this topic and suggest how policy could best tackle the 
+link. Doing so involves action on two fronts. First, incorporating financial stability considerations in the 
+design of fiscal policy. This means, in particular, considering the risk of financial crises when assessing fiscal 
+space, recognising the flattering effects of financial booms on fiscal positions and removing or reducing 
+fiscal  incentives  to  private  debt  accumulation.  Second,  acknowledging  that  domestic  currency-
+denominated  public  debt  is  not  fully  risk-free  in  the  design  of  the  prudential  regulation  of  financial 
+institutions. This calls for carefully balanced risk-sensitive capital charges or other measures to limit banks’ 
+sovereign exposures with due regard to the special role of government bonds in the financial system and 
+country-specific characteristics. That said, prudent regulation cannot substitute for fiscal prudence.   
+
+Keywords: financial crises; doom loops; sovereign exposures; prudential policy; fiscal policy. 
+JEL classification: E6; G2; G3; H1; H3; H6; H8. 
+
+•  
+
++  
+
+Bank for International Settlements (BIS): Claudio.Borio@bis.org; Marc.Farag@bis.org; Fabrizio.Zampolli@bis.org.  
+
+This paper draws partly on “Towards a financial stability-oriented fiscal policy”, Chapter V of the BIS 86th Annual Report June 
+2016. However, the views expressed in this paper are those of the authors and not necessarily those of the BIS. The authors 
+thank Dietrich Domanski and Ingo Fender for close cooperation on previous drafts and Enrique Alberola, Fernando Avalos, Stijn 
+Claessens, Bryan Hardy, Frank Packer, Toshio Tsuiki and Sonya Zhu for helpful comments. Berenice Martinez provided excellent 
+research assistance. 
+
+BIS Working Paper 1090 
+
+i
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Contents 
+
+Abstract ................................................................................................................................................................................................... i 
+
+Introduction ......................................................................................................................................................................................... 1 
+
+1. 
+
+The two-way propagation channels of bank-sovereign risk ......................................................................... 2 
+
+Propagation from the banks to the sovereign .................................................................................................... 3 
+
+Propagation from the sovereign to the banks .................................................................................................... 6 
+
+Bank exposures to sovereign risk and post-pandemic trends ........................................................................................ 8 
+
+Default on domestic currency debt, inflation and financial repression .................................................... 9 
+
+Risk amplification and “doom loops” ................................................................................................................... 11 
+
+2. 
+
+Fiscal policy to support financial stability ........................................................................................................... 12 
+
+Fiscal buffers ................................................................................................................................................................... 12 
+
+Cyclical adjustments .................................................................................................................................................... 14 
+
+Reducing the debt bias in the tax system ........................................................................................................... 16 
+
+3. 
+
+Financial regulation ...................................................................................................................................................... 17 
+
+Banks .................................................................................................................................................................................. 17 
+
+NBFI .................................................................................................................................................................................... 22 
+
+Conclusion .......................................................................................................................................................................................... 24 
+
+References .......................................................................................................................................................................................... 25 
+
+BIS Working Paper 1090 
+
+iii
+
+ 
+ 
+ 
+ 
+ 
+ 
+Introduction 
+
+The Great Financial Crisis (GFC) prompted major policy responses. Above all, policymakers have embarked 
+on wide-ranging financial reforms. They have tightened prudential regulation and supervision, by both 
+improving  standards  for  individual  institutions  and  strengthening  the  systemic,  or  macroprudential, 
+orientation of their policy frameworks (Borio, Farag and Tarashev (2020)). And there has also been an active 
+debate about whether and, if so, how, monetary policy frameworks should be adjusted in order to promote 
+financial stability.1 
+
+While  these  efforts  are  essential  to  strengthen  the  financial  sector’s  resilience  and  reduce  the 
+probability and cost of financial crises, in this paper we argue that they are not sufficient. In particular, 
+policymakers have not as yet adequately addressed the link between fiscal policy and financial stability. 
+The Covid-19 pandemic has further highlighted the importance of adopting such a holistic approach (BIS 
+(2020)).  Until  this  is  done,  a  fully  integrated  macro-financial  stability  framework,  involving  prudential, 
+monetary and fiscal policy, will remain beyond reach (BIS (2014, 2022), Borio, Shim and Shin (2022), Borio, 
+Robinson and Shin (2023)). 
+
+The close link between fiscal policy and the financial sector – and banks in particular – was on full 
+display during the GFC, very much in line with the historical record (Bordo and Meissner (2016)). In many 
+advanced  economies,  unsustainable  credit  booms  led  to  serious  financial  strains,  financial  institution 
+bailouts and large-scale fiscal stimulus to fight deep recessions. This resulted in large increases in public 
+debt. In turn, high public debt limited the room for fiscal stimulus and raised financing costs for many 
+sovereigns and banks. This weighed down on the recovery and, in some cases, exacerbated the decline in 
+economic activity. A number of European countries had to draw on external official aid to refinance their 
+public debt or to recapitalise banks.  
+
+Tackling the fiscal policy-financial stability nexus involves action on two fronts. First, policymakers 
+need  to  strengthen  the  ability  of  the  sovereign  to  withstand  banking  crises  that  result  from  excessive 
+private  sector  indebtedness  and  ensure  that  it  does  not  inadvertently  contribute  to  them.  Here,  large 
+financial expansions and contractions – financial cycles – play a key role (see eg Borio (2014b)). Second, 
+policymakers also need to strengthen banks’ ability to face sovereign risk resulting from excessive public 
+sector  indebtedness.  Action  on  both  these  fronts  is  necessary  to  prevent  a  sovereign-bank  doom  loop, 
+whereby deteriorations in the creditworthiness of the sovereign and the banks reinforce each other.  
+
+Strengthening  the  sovereign  requires  explicitly  incorporating  financial  stability  considerations 
+into fiscal policy. One element is to ensure that measures of fiscal space explicitly incorporate the costs 
+that  possible  future  banking  crises  can  generate.  A  second  element  is  to  extend  the  principle  of  a 
+countercyclical  policy  to  address  the  impact  of  the  financial  cycle  on  the  fiscal  accounts,  not  least  the 
+flattering  effect  of  financial  booms  (Borio,  Lombardi  and  Zampolli  (2017)).  If  sufficient  buffers  are 
+maintained or built up in a financial boom, room is created to help repair balance sheets and stimulate 
+demand if a crisis occurs (Obstfeld (2013)). Drawing on recent work (Borio, Contreras and Zampolli (2020) 
+and  Borio,  Lombardi  and  Zampolli  (2017),  Borio,  Gambacorta  and  Hofmann  (2017)),  we  suggest  how 
+policymakers could meet these two challenges in practice – estimating the necessary fiscal buffers and 
+cyclical adjustments. A third element – of a more structural nature – is to reduce or remove the debt bias 
+inherent in the tax/subsidy regimes of many countries. Some of these incentives favouring debt over equity 
+were introduced well before financial liberalisation to promote desirable economic and social goals (eg 
+
+1  
+
+See eg Borio (2014a), Borio, Shim and Shin (2022), Borio, Robinson and Shin (2023), BIS (2016, 2019), IMF (2015) and references 
+therein. 
+
+BIS Working Paper 1090 
+
+1
+
+ 
+ 
+ 
+ 
+ 
+ 
+promoting  home  ownership).  But  nowadays  they  can  unwittingly  contribute  to  excessive  leverage  and 
+greater financial fragility.2 
+
+Strengthening the banks requires a proper prudential treatment of their sovereign exposures. By 
+and  large,  local  currency  government  debt  tends  to  be  treated  as  a  risk-free  credit  in  prudential 
+regulations, even if the historical record and market prices indicate otherwise. Ensuring that the regulatory 
+treatment  of  sovereign  exposures  reflects  sovereign  risk  more  accurately  would  help  diminish  the 
+amplification of risk and inhibit excessive accumulation of public debt. That said, the implementation of 
+this principle would need to consider the special role of sovereign bonds in the financial system as well as 
+country-specific  characteristics.  Furthermore,  banks  would  continue  to  be  exposed  to  sovereign  risks 
+indirectly,  through  the  increased  macroeconomic  instability  that  unsustainable  fiscal  positions  can 
+generate. Therefore, no prudential treatment, regardless of its stringency, can substitute for fiscal prudence 
+along the lines suggested above.  
+
+The rest of the paper proceeds as follows. Section 1 describes and documents in some detail the 
+channels through which fiscal and financial risks propagate and mutually reinforce each other, including 
+through the so-called doom loop. In recent years these channels have been most in evidence in the euro 
+area, but they are much more general, as highlighted in several emerging market crises since the early 
+1980s. Section 2 explores the need to ensure that countries have sufficient fiscal buffers to address financial 
+sector  risks.  This  section  explores  how  financial  stability  considerations  can  be  incorporated  into  the 
+measurement of fiscal space and cyclically adjusted fiscal balances. It also reviews the evidence on the 
+debt bias inherent in the current systems of taxes and subsidies in major economies. Section 3 discusses 
+the role of risk-sensitive prudential regulation in the treatment of sovereign exposures. It also sets out 
+some  high-level  reflections  on  the  implications  for  non-bank  financial  intermediation  (NBFI).  The 
+conclusion  summarises  the  policy  implications  of  the  analysis,  highlighting  the  elements  of  a  macro-
+financial stability framework needed to address the fiscal policy-financial stability nexus. 
+
+1. 
+
+The two-way propagation channels of bank-sovereign risk  
+
+The financial and public sectors are closely intertwined. Banks (and other financial institutions) are a key 
+source of funding for governments.3 Governments, in turn, provide the ultimate backstop for the financial 
+sector and underpin an economy’s performance more generally. As a result, risks can propagate both ways 
+through various  channels.  In one  direction, a weak  financial  system  can undermine  fiscal health;  in the 
+other direction, a weak fiscal position can undermine the financial system’s health (Graph 1).  
+
+2  
+
+3  
+
+2 
+
+Other  aspects  of  a  macro-financial  stability  framework  are  also  relevant,  including  the  use  of  capital  flow  management 
+measures or taxing risk exposures as a complement or substitute to prudential regulation. Discussing these measures, however, 
+goes beyond the scope of this paper. 
+
+Henceforth we use the terms “government” and “sovereign” interchangeably. We sometimes also use the term “banks” as a 
+shorthand for the financial sector as a whole.  
+
+BIS Working Paper 1090
+
+ 
+ 
+ 
+ 
+ 
+ 
+Bank-sovereign nexus transmission channels 
+
+Graph 1 
+
+Exchange rate depreciation 
+
+Lower real 
+economy 
+growth
+
+Reduced ability 
+to support banks
+
+Banks’ ratings 
+downgraded
+
+Worsening 
+funding 
+conditions
+
+Write-offs on 
+loans increase
+
+Increased riskiness of 
+sovereign exposures
+
+FX rate 
+depreciation
+
+Exchange rate 
+depreciation
+
+Sovereign(s)
+Fiscal 
+position 
+deteriorates
+
+Bank(s)
+Balance 
+sheets
+deteriorate
+
+Direct/indirect 
+support by 
+sovereign(s)
+
+Fiscal 
+tightening
+
+Rating 
+downgrade
+
+Government 
+bond yields 
+rise
+
+Reduced 
+credit/higher 
+spreads
+
+Source: authors’ elaboration. 
+
+Propagation from the banks to the sovereign 
+
+Banks can affect the sovereign in several ways, all of which raise the risk of a substantial increase in public 
+debt. 
+
+First, the sovereign is directly exposed to bank risk, both explicitly – through deposit insurance or 
+other  guarantees  –  and  implicitly  –  through  the  expectation  that  it  would  be  compelled  to  bail  out 
+institutions in trouble (see eg Diaz-Alejandro (1985)). Intervention can range from purchasing bad assets 
+to  recapitalising  institutions,  sometimes  through  temporary  ownership.  In  some  cases,  the  sovereign’s 
+support also extends to non-financial borrowers, including both corporations and households. While post-
+GFC  reforms  have  aimed  to  allow  authorities  to  resolve  banks  without  resorting  to  the  taxpayer,  state 
+support for failing banks has continued and obstacles to resolvability remain (FSB (2020)).  
+
+Direct bailout costs can be quite large, especially in emerging market economies (EMEs) (see eg 
+Honahan and Klingebiel (2003), Reinhart and Rogoff (2009), Laeven and Valencia (2013,  2020), Bova et al 
+(2016)). For instance, the median cost of over 150 systemic banking crises during the period 1970–2017 is 
+6.7%  of  GDP  for  advanced  economies  and  10%  for  emerging  market  economies  (Laeven  and  Valencia 
+(2020)). Importantly, there is significant variation across jurisdictions and banking crises. Most notably, the 
+costs were huge in advanced economies during the GFC, with outlays for rescue packages amounting to 
+close to 20% of GDP in the Netherlands, 44% in the United Kingdom and 70% in the United States (Panetta 
+et al (2009), Marshall et al (2015)).4 And the indirect bailout costs – encompassing measures such as debt 
+guarantee  schemes  –  are  even  larger:  resources  committed  in  rescue  packages  during  the  GFC  often 
+exceeded 50% of GDP.  
+
+4  
+
+Recent research estimates this cost to be somewhat smaller for the United States, at 3.5% of GDP (Lucas (2019)). 
+
+BIS Working Paper 1090 
+
+3
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Second, the sovereign is indirectly exposed to financial sector risk through the macroeconomic 
+fallout of crises. After a banking crisis, fiscal balances tend to deteriorate much more and for much longer 
+than following ordinary recessions. Two factors are responsible:  
+
+• 
+
+• 
+
+The size and persistence of output and employment losses. Measured from peak to trough or 
+from the peak to the point at which growth returns to pre-crisis rates, the average output loss 
+ranges  between  6  and  15%  across  countries,  compared  with  less  than  4%  in  recessions  not 
+preceded by a banking crisis.5 More importantly, following a banking crisis, output rarely returns 
+to its pre-crisis trend. And it takes several years on average for output to exceed its pre-crisis 
+peak.6 Trend growth may also suffer a lasting decline (Ball (2014), Borio, Kharroubi, Upper and 
+Zampolli (2015), Jordà et al (2013), Reinhart and Reinhart (2015)). The interaction with automatic 
+stabilisers exacerbates the impact of macroeconomic weakness on fiscal positions. Typically, the 
+decline  in  fiscal  balances  tends  to  be  larger  in  advanced  economies  than  in EMEs,  given their 
+bigger automatic stabilisers (see eg Laeven and Valencia (2020)).  
+
+The  compositional  change  in  tax  revenues  linked  to  the  collapse  in  asset  prices  and  financial 
+activity. For instance, in a financial bust, housing transactions fall sharply and may create a large 
+hole in public finances. Eschenbach and Schuknecht (2004) estimate that between 30 and 40% of 
+the deterioration of fiscal balances in Sweden and the United Kingdom in the early 1990s bust 
+was due to asset price effects, especially in the real estate market. More recent evidence indicates 
+that  financial  variables  boost  fiscal  balances  over  and  above  the  impact  of  output  and 
+employment (Price and Dang (2011), Bénétrix and Lane (2017), Schuknecht (2020)).  
+
+Third, sovereigns tend to respond to crises with discretionary fiscal expansions. Provided that a 
+country has sufficient fiscal space, such a response can help stabilise output and prevent the financial crisis 
+from deepening. However, unless properly calibrated, this may leave a stubborn legacy of larger debt. In 
+advanced economies, a discretionary fiscal response is frequently the single most important cause of the 
+post-crisis public debt increase. By contrast, in EMEs the room for manoeuvre is typically smaller, most 
+likely due to the tighter financing constraints they face (Laeven and Valencia (2020)). Most of the fiscal 
+expansion in advanced economies during the 2008–09 recession was discretionary and, starting in mid-
+2010, was partly reversed as economies began to recover.7 
+
+Finally, the sovereign is also exposed to financial sector risk through the currency depreciation 
+and interest rate hikes that may accompany financial stress or an outright banking crisis. Whenever a large 
+share  of  public  debt  is  denominated  in  foreign  currency  or  indexed  to  it,  such  depreciation  would 
+significantly raise the domestic currency value of the public debt. Similarly, to the extent that the interest 
+rates on debt are short term, higher domestic interest rates would quickly boost the debt service burden.8 
+
+5  
+
+6  
+
+7  
+
+8  
+
+4 
+
+BCBS (2010) surveys the literature on the output costs of financial crises. See also Box III.B in BIS (2014). For more recent studies, 
+see Furceri and Zdzienicka (2012), Cline (2016), and Romer and Romer (2017). Cerra and Saxena (2008), in particular, find that 
+the output costs are permanent, in contrast to normal recessions. Some studies have also found permanent effects for ordinary 
+recessions (see eg Martin et al (2015), Blanchard et al (2015)). See also Cruces and Trebesch (2013), Trebesch and Zabel (2017) 
+and Forni et al (2021), that highlight how the output loss and growth depend on the severity of the crises. 
+
+Reinhart and Rogoff (2009) find that it took more than four years on average for output per capita to return to its pre-crisis 
+level after post-World War II crises and more than 10 years after the Great Depression crises. 
+
+Bernardini  and  Forni  (2020)  show  that  financial  crises,  which  are  often  preceded  by  a  build-up  of  private  debt,  tend  to  be 
+followed by a larger and more prolonged increase in public debt than after an ordinary recession.  
+
+Foreign  currency  borrowing,  especially  in  US  dollars,  has  always  played  a  large  role  in  EMEs.  Over  the  past  three  decades, 
+however, its relevance has declined as countries, at least sovereigns, have increasingly borrowed in local currency from foreign 
+investors. This has reduced but not eliminated vulnerabilities. Hofmann et al (2020) show that changes in local currency bond 
+yields may be amplified by fluctuations in the US dollar exchange rate. Carstens and Shin (2019) call this phenomenon “original 
+sin redux”.  
+
+BIS Working Paper 1090
+
+ 
+ 
+ 
+ 
+Even with little foreign currency debt, an increase in financial sector risk could lead to a sharp currency 
+depreciation, large capital outflows and increases in local currency bond yields, making it more costly for 
+the  sovereign  to  roll  over  its  domestic  currency  debt.  Furthermore,  in  case  of  a  sharp  devaluation,  the 
+sovereign may be forced to support other sectors that run currency mismatches (see eg Chui, Fender and 
+Sushko (2014), Chui, Kuruc and Turner (2016)).9 
+
+Government debt level after a crisis1 
+
+Banking crises between 1970 and 2017; in percent of GDP 
+
+Graph 2
+
+Advanced economies pre-GFC2 
+
+Advanced economies post-GFC2 
+
+Emerging market economies3 
+
+100
+
+80
+
+60
+
+40
+
+20
+
+0
+
+100
+
+80
+
+60
+
+40
+
+20
+
+0
+
+100
+
+80
+
+60
+
+40
+
+20
+
+0
+
+–8
+
+–6
+
+–4
+
+–2
+
+0
+
+2
+
+4
+
+6
+
+8
+
+–8
+
+–6
+
+–4
+
+–2
+
+0
+
+2
+
+4
+
+6
+
+8
+
+–8
+
+–6
+
+–4
+
+–2
+
+0
+
+2
+
+4
+
+6
+
+8
+
+Years around crisis
+
+Years around crisis
+
+Years around crisis
+
+1970–2006:
+Median
+25th–75th percentile
+
+2007–17:
+
+Median
+25th–75th percentile
+
+1970–2017:
+Median
+25th–75th percentile
+
+The vertical line indicates the year when the crisis starts. 
+
+1  Median value across countries in the region and period.    2  Starting years  of the crises in parentheses.  Australia (1989),  Austria (2008), 
+Belgium (2008), Denmark (1987 and 2008), Finland (1991), France (1994 and 2008), Germany (2008), Greece (1991 and 2008), Ireland (2008),
+Italy (2008), Japan (1997), Luxemburg (2008), New Zealand (1987 and 2008), the Netherlands (2008), Norway (1991 and 2009), Portugal (2008),
+Spain  (1977  and  2008),  Sweden  (1991  and  2008),  Switzerland  (2008),  the  United  Kingdom  (2007)  and  the  United  States  (1988  and
+2007).    3  Starting years of the crises in parentheses. Argentina (1980, 1989, 1995 and 2001), Brazil (1990, 1994 and 2001), Chile (1976 and
+1981), China (2003), Colombia (1982 and 1998), the Czech Republic (1996), Egypt (1980 and 1991), Hungary (1991 and 2008), India (1993 and
+2008), Indonesia (1994 and 1997), Korea (1997), Malaysia (1997), Mexico (1981 and 1994), Peru (1983), the Philippines (1983 and 1997), Poland 
+(1992), Russia (1998 and 2008), Thailand (1983 and 1997) and Turkey (1982, 1994 and 2000). 
+
+Sources:  Laeven  and  Valencia  (2020);  Reinhart,  www.carmenreinhart.com/data;  IMF,  International  Financial  Statistics  and  World  Economic
+Outlook; OECD, Economic Outlook; national data; authors’ calculations. 
+
+One way to capture both direct and indirect fiscal costs of a banking crisis is to look at the change 
+in public debt in its aftermath. The historical record shows that these costs are very large. For instance, for 
+the  post-war  period,  Reinhart  and  Rogoff  (2009,  2013)  find  that,  in  both  advanced  and  emerging 
+economies, central government debt almost doubled on average within three years of the crisis outbreak 
+(86% increase). Covering the period since 1970, the median cumulative increase in the government debt-
+to-GDP ratio in the five post-crisis years for advanced economies is approximately 20 percentage points 
+and almost 40 percentage points, depending on whether one considers the pre- or post-GFC subsample 
+
+9  
+
+The sovereign may also experience a currency crisis if investors come to expect a bailout of the private sector and the resulting 
+impact on fiscal positions, inflation, depreciation and/or the imposition of capital controls (see eg Corsetti, Pesenti and Roubini 
+(1999)). Theoretical models of currency crises that formalise this type of narrative include Velasco (1987), Calvo and Mendoza 
+(1996) and Burnside et al (2004). See also Corsetti and Dedola (2016). 
+
+BIS Working Paper 1090 
+
+5
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(Graph 2).10 For EMEs, the post-banking crisis median increase is smaller but still sizeable, at 12 percentage 
+points.  In  all  cases,  there  is  considerable  variation  across  countries  and  episodes  (see  also  Laeven  and 
+Valencia (2020), Bova et al (2016)).  
+
+Given  the  potentially  large  fiscal  cost,  it  is  unsurprising  that  empirical  research  has  found 
+significant contamination from financial to sovereign risk. For instance, analysis of pre- and post-GFC data 
+shows that, in advanced economies, sovereign credit default swap (CDS) spreads are positively related to 
+measures of the pre-crisis exposure of the financial system and pre-crisis growth in their assets (Dieckmann 
+and Plank (2012)) as well as to cross-border bank exposures (Kallestrup et al (2016)). Risks arising from the 
+non-financial  corporate  sector  also  matter.  In  a  panel  of  EMEs,  sovereign  risk,  as  measured  by  local 
+currency spreads over a synthetic risk-free rate (Du and Schreger (2016)), is found to be related to the 
+extent of currency mismatches in the non-financial corporate sector both over time and across countries, 
+over and above the size and composition of public debt (Du and Schreger (2022)).  
+
+Propagation from the sovereign to the banks 
+
+Sovereign  credit  events  typically  involve  significant  losses  for  sovereign  debt  holders.11  This  is  most 
+obvious in the case of default, through adverse contract changes (eg longer maturities and lower interest 
+rates). Since the 1970s, loss-given-default rates have averaged 37%, with large variations across episodes. 
+Moreover, large haircuts have typically led to protracted periods of market exclusion and/or high credit 
+spreads, which contribute to making the output loss deeper and the recovery slower (Cruces and Trebesch 
+(2013), Trebesch and Zabel (2017)). Short of default, rating downgrades and other events can still result in 
+sizeable losses (see eg Aizenman et al (2013)). 
+
+Even  if  a  severe  credit  event  does  not  materialise,  an  increase  in sovereign  risk  (reflecting  the 
+probability of such an event) can boost financial risk. There are at least three channels through which this 
+can occur (see eg CGFS (2011)).12    
+
+First, the drop in the price of government securities weakens banks’ balance sheets directly. Even 
+short of a government default, an increase in sovereign risk premia will generate losses on direct holdings 
+and depress the value of sovereign bonds as collateral. The size of these effects depends on the amount 
+and duration of the government bonds held, although the extent of the recognition of the losses varies 
+according to accounting treatment (eg historical cost versus marked-to-market). 
+
+Second, an increase in sovereign risk can tighten banks’ funding conditions. Investors are likely 
+to  perceive  banks  as  riskier  and  therefore  charge  higher  spreads.  It  also  saps  the  value  of  explicit  and 
+implicit government guarantees. Financial institutions holding a significant stock of foreign currency debt 
+and/or facing maturity mismatches may be especially vulnerable: the higher risk of currency depreciation, 
+
+10   Approximating these costs with changes in public debt over a sufficiently long horizon – in this case five years – allows for 
+
+accounting for any recovery rates and reversal in fiscal stimulus.  
+
+11  
+
+12  
+
+6 
+
+Sovereign credit events may come in different forms (BCBS (2017)): missed payments, debt restructuring or outright defaults, 
+currency redenomination (or the risk thereof), loss from unanticipated inflation owing to sovereign distress, debt monetisation 
+and/or sharp currency devaluations, and fluctuations in the value of sovereign exposures resulting from non-default events 
+such  as  sovereign  downgrades  or  market  stress.  The  risk  from  such  events  covers  the  full  universe  of  sovereign  entities, 
+including central governments, central banks, subnational governments and public sector entities (see eg Liu and Tan (2009) 
+and references therein). 
+
+Theoretical models that capture the contagion from fiscal to financial risk and broader macroeconomic effects include Bocola 
+(2016), Bocola and Dovis (2019), Brutti (2011), Bolton and Jeanne (2011), Corsetti, Kuester, Meier and Müller (2012), Gennaioli 
+et al (2014), Mendoza and Yue (2012), Sosa-Padilla (2018). Early models of currency crisis, following the seminal contribution 
+of Krugman (1979), draw attention to unsustainable fiscal policy as a fundamental cause. Alberola et al (2021) show in a model 
+of sovereign default that an increase in sovereign risk drives the currency risk premium. 
+
+BIS Working Paper 1090
+
+ 
+ 
+ 
+ 
+sharp  interest  rate  increases  or  impending  capital  controls  may  make  investors  and  depositors  more 
+reluctant to provide funding.  
+
+Third, an increase in sovereign risk can weaken banks through its broader impact on the economy. 
+Currency depreciation, lower stock prices and a lower credit rating13 can make it more difficult for both 
+financial and non-financial firms to tap capital markets, weakening aggregate demand and sapping banks’ 
+strength. In addition, fiscal policy may have less room for a countercyclical response and to support the 
+banking system directly.  
+
+Research  confirms  the  quantitative  relevance  of  the  transmission  from  fiscal  to  financial  risk. 
+Higher  sovereign  risk  tends  to  depress  bank  valuations,  raise  measures  of  bank  risk  and  reduce  bank 
+lending to a degree that depends on sovereign exposures. This does not simply reflect country risk: indeed, 
+within the same country during the euro area debt crisis, banks with larger domestic sovereign exposures 
+cut credit by more than their peers in response to increased sovereign risk (Acharya et al (2018), Altavilla 
+et al (2017), Arellano et al (2019), Başkaya et al (2023), Bofondi et al (2018), Bottero et al (2020), Popov and 
+van Horen (2015)). Country- and bank-level data show that this effect also holds for different periods and 
+a  large  set  of  countries,  including  emerging  market  and  developing  economies  (Gennaioli  et  al  (2014, 
+2018)). (Box A sheds some empirical light on the evolution of banks’ holdings of sovereign debt over time.) 
+
+Interestingly,  even  well  capitalised  banks  without  significant  sovereign  exposures  face  higher 
+borrowing costs and reduced credit supply. The evidence points to different underlying factors. One such 
+factor  is  the  concern  that  slower  economic  activity  would  raise  borrowers’  default  rates.  For  instance, 
+Bocola (2016) estimates that this channel explains almost half of the sharp increase in bank lending spreads 
+(60 basis points) faced by non-financial firms in Italy at the height of sovereign tensions. Another factor 
+relates to rating agencies’ sovereign ceiling policies. In response to a sovereign downgrade, banks whose 
+rating is at the sovereign ceiling face higher funding costs and cut lending more than those that are further 
+away, regardless of fundamentals (Adelino and Ferreira (2016)). Likewise, the reduction in non-financial 
+firms’ spending varies with how close their rating is to the ceiling (Almeida et al (2017), Dell’Ariccia et al 
+(2018), IMF (2022), Deghi et al (2022)).  
+
+13  
+
+The “sovereign ceiling” policies of rating agencies require that firms remain at or below the sovereign rating of their country of 
+domicile. Firms’ credit rating may therefore be reduced mechanically following a sovereign downgrade, which curtails their 
+ability to obtain external finance regardless of whether their fundamentals have deteriorated.  
+
+BIS Working Paper 1090 
+
+7
+
+ 
+ 
+ 
+ 
+ 
+ 
+Box A 
+
+Bank exposures to sovereign risk and post-pandemic trends 
+
+This box reviews the evolution of banks’ sovereign debt holdings – focusing on domestic government exposures – 
+over time and across jurisdictions. It then outlines a few considerations for the outlook of the bank-sovereign nexus 
+channels in light of post-pandemic macro-financial developments.  
+
+There are three takeaways when looking at banks’ sovereign exposures over a long horizon.  
+
+First,  banks’  sovereign  holdings  have  varied  over  time  (Graph  A1,  left-hand  panel).  In  both  advanced 
+economies (AEs) and emerging market economies (EMEs), exposures (as a share of assets) were on a declining trend 
+before the Great Financial Crisis (GFC).  As public debt rose sharply following the GFC and the euro area debt crisis, 
+exposures rose in both groups of economies. Thereafter, the downward trend resumed in AEs, supported by central 
+banks’ large-scale purchases of government securities. In contrast, in EMEs exposures have steadily increased since 
+the start of the pandemic.  
+
+Second,  and  perhaps  most  notably,  aggregate  data  mask  sizeable  differences  in  the  level  of  sovereign 
+holdings across and within jurisdictions at any given time (Graph A1, right-hand panel). For example, the range of 
+banks’ domestic government holdings at the end of 2022 was between 1% (United Kingdom) and almost 25% (Mexico) 
+of total assets. There is also substantial variation across banks within a given jurisdiction: for example, the share of 
+sovereign bonds held by Italian banks ranges from approximately 15 to almost 60% of total assets.  More broadly, 
+banks’  domestic  government  bond  holdings  in  EMEs  have  historically  been  approximately  twice  those  of  their  AE 
+peers (Graph A1). This may, in part, reflect differences in the development of institutional investors. Similarly, while the 
+median bank’s sovereign debt holding as a share of its assets has remained broadly unchanged since 2005, banks in 
+nearly half of the jurisdictions in our sample have increased their sovereign exposures (right-hand panel). 
+
+Banks’ sovereign exposures vary significantly across countries and over time1 
+
+As a share of total assets, in per cent 
+
+Graph A1
+
+Exposure to domestic government2 
+
+  Exposure to domestic government 
+
+AEs
+
+EMEs
+
+30
+
+20
+
+10
+
+0
+
+IT
+
+JP
+
+PT
+
+BE
+
+AT
+
+SE
+
+DK
+
+GB
+
+LU
+
+US
+
+ES
+
+AU
+
+NO
+
+FR
+
+FI
+
+NL
+
+IE
+
+30
+
+20
+
+10
+
+0
+
+PE
+
+HK
+
+92
+
+97
+
+02
+
+07
+
+12
+
+17
+
+22
+
+AEs/EMEs
+
+  Median
+  Interquartile range
+
+TRMX
+PH
+
+BR
+
+HU
+
+ZA
+
+CZ
+
+AR
+
+PL
+
+ID
+
+THMY
+CO
+
+CN
+
+CL
+
+KR
+
+2005
+
+2008
+
+2019
+
+2022
+
+1  By  residence.  The  reporting  population  comprises  all  solo  entities  resident  in  the  country,  including  those  that  are  foreign-owned 
+subsidiaries or branches of foreign entities. Branches and subsidiaries abroad of domestically owned entities are not included.    2  Median 
+across  20  AEs  and  22  EMEs.  AEs:  Austria,  Australia,  Belgium,  Canada,,  Denmark,  Finland,  France,  Germany,  Greece,  Ireland,  Italy,  Japan,
+Luxembourg, Netherlands, Norway, Portugal, Sweden, Switzerland, and the United States.  EMEs: Argentina, Brazil, Chile, China, Colombia,
+Czechia,  Hong  Kong  SAR,  Hungary,  India,  Indonesia,  Korea,  Malaysia,  Mexico,  Peru,  Philippines,  Poland,  Russia,  Saudi  Arabia,  Singapore,
+Thailand, Türkiye and South Africa.  
+
+Sources: ECB; IMF, International Financial Statistics; national data; BIS calculations. 
+
+8 
+
+BIS Working Paper 1090
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Third, while banks’ sovereign debt holdings may appear to comprise a relatively small share of their balance 
+sheets,  this  may  understate  their  materiality  when  it  comes  to  banks’  resilience,  as  measured  by  loss-absorbing 
+capacity. For example, domestic government debt has accounted for around 6% and 11% of total assets for the median 
+bank in AEs and EMEs, respectively (left-hand panel), while over the past decade, banks’ capital levels – as measured 
+by the Basel III Tier 1 leverage ratio – have varied from 3.5% to over 6% (BCBS (2023)). Moreover, as noted above, the 
+data used in this box capture only domestic government holdings and do not reflect broader sovereign exposures 
+(including, most notably, exposures to foreign governments and public sector entities).  
+
+Reflecting  these  developments,  the  importance  of  banks  as  investors  in  sovereign  debt  has  evolved 
+differently across AEs and EMEs recently. At the outset of the pandemic, nearly 80% of sovereign debt issued was 
+picked up by (mostly local) banks, with this share falling progressively to under 10% at the end of 2021, due to the 
+greater share of sovereign bonds held by central banks resulting from large-scale asset purchase programmes. The 
+flipside of this change is that that banks’ exposures to central banks – in the form of reserves – grew commensurately 
+during this period (Hardy and Zhu (2023)). Looking ahead, the eventual unwinding of large-scale bond purchases may 
+increase the importance of banks as sovereign debt investors. Both instances speak to the importance of ensuring 
+that banks are well capitalised against the risk of sovereign disruptions, as discussed in Section 3.  
+
+  During the euro area debt crisis, sovereign exposures increased more in countries under financial stress. Possible, non-mutually exclusive, 
+
+explanations include: (i) “risk shifting” behaviour by banks from private sector assets towards public debt; (ii) “gambling for resurrection”, 
+
+whereby  banks’  equity  holders  and  managers  shift  part  of  the  additional  sovereign  risk  onto  creditors  and  taxpayers;  and/or  (iii)  “moral 
+
+suasion”,  whereby  authorities  may  induce  banks  to  play  a  stabilising  role  as  contrarian  investors.  For  recent  theoretical  models  with  risk 
+
+shifting or credit discrimination, see eg Ari (2018), Broner et al (2014), Cooper and Nikolov (2018), Farhi and Tirole (2018) and Uhlig (2014). 
+
+There is evidence that some of these factors played a role in the euro area debt crisis (see eg Acharya and Steffen (2015)). In euro area stressed 
+
+countries, publicly owned banks or banks that had recently been bailed out increased their holdings of domestic debt more than other banks 
+
+and fared worse in response to spikes in sovereign risk. This contributed to amplifying the contraction in the lending supply (Altavilla et al 
+
+(2017),  De  Marco  and  Macchiavelli  (2016)).      Changes  over  time  within  countries  reflect  both  secular  and  cyclical  forces.  In  EMEs,  the 
+
+decline in exposures before 2017 partly echoes the increasing financial sophistication and integration of EMEs. In both AEs and EMEs, changes 
+
+partly reflect the business and financial cycles. Unsurprisingly, when credit demand declines and risk appetite is low, the demand for domestic 
+
+public  debt  increases  given  its  greater  liquidity  and  safety.      As  of  30  June  2022,  based  on  the  EBA’s  2022  EU-wide  transparency 
+
+exercise.      Cross-country differences tend to persist and partly reflect structural factors, such as financial depth, the level of public debt, 
+
+the central bank operations framework and regulatory constraints. 
+
+Default on domestic currency debt, inflation and financial repression  
+
+A widespread view is that default or restructuring is not realistic for local currency domestic debt: if push 
+comes to shove, countries can always “inflate away”, possibly supported by financial repression. History, 
+however,  indicates  that  formal  default  on  domestic  currency  debt  may  happen,  often  alongside  both 
+inflation  and  financial  repression.  And,  even  when  default  does  not  occur,  the  costs  imposed  on  the 
+financial  system  and  on  banks  to  avoid  it  may  not  necessarily  be  small.  Indeed,  as  noted  above,  the 
+definition  of  sovereign  risk  encompasses  a  broad  range  of  events  (beyond  a  formal  default)  that  can 
+damage the financial system.  
+
+Inflating away debt through inflation alone is difficult. Inflation naturally reduces the real value of 
+outstanding domestic currency debt.14 However, for the typical average maturity (and share of inflation-
+indexed bonds), the reduction appears to be quantitatively small unless the inflation “surprise” – ie not 
+embedded in the interest rate compensation when the contract is struck – is in double-digit percentage 
+
+14   Given that fiscal items are set in nominal terms (and are not perfectly indexed to inflation), inflation – even if fully anticipated 
+– can also help to shrink any fiscal deficit by reducing public spending and increasing tax revenue in real terms. For example, 
+Persson et al (1998) estimate that, given the state of public finances and the economy in Sweden in 1994, an increase in inflation 
+from 2 to 12% would have produced a net gain of 3–4% of 1998 GDP. However, Persson et al (1998) also estimate that these 
+benefits would have fallen short of the costs of higher inflation, including those arising from higher real interest rates.  
+
+BIS Working Paper 1090 
+
+9
+
+ 
+ 
+ 
+ 
+ 
+ 
+points. In addition, the window to exploit this option may close fast once fiscal problems begin to emerge, 
+as investors may demand ever shorter durations to protect themselves (see eg Hilscher et al (2022) for the 
+case of the United States).15 Indeed, increasingly higher inflation may be needed – eventually ushering in 
+hyperinflation.16 
+
+This is why a typical way of eroding the value of the debt is to combine inflation with financial 
+repression.  This  involves  restrictions  that  compel  financial  institutions  and  the  public  to  hold  domestic 
+public  debt  at  below-market  interest  rates.  These  restrictions  will  typically  include  cross-border  capital 
+controls to prevent capital outflows.17 Although financial repression played an important role in reducing 
+public debt ratios in the aftermath of World War II (Reinhart et al (2015), Reinhart and Sbrancia (2015)), it 
+is unclear how far it could work in today’s environment of highly mobile capital and liberalised financial 
+services. 
+
+The historical record shows that defaults on domestic debt (which is typically denominated in 
+domestic currency) are far from rare, albeit less frequent than those on foreign debt (Reinhart and Rogoff 
+(2011b)). Often, but not always, domestic defaults accompany external defaults, tending to occur when 
+countries face harsher economic conditions and markedly higher inflation. Indeed, an important lesson 
+from  history  is  that  countries  that  had  been  considered  “good  sovereigns”  did  default,  often  after  big 
+geopolitical events (see eg Flandreau et al (2010), Flandreau (2013)). Evidence based on the period 1996–
+2012 finds that local and foreign currency bond defaults are equally likely and that the default probabilities 
+of local currency bonds rise with the level of inflation (Jeanneret and Souissi (2016)).  
+
+Based on the historical record, rating agencies have fully incorporated the possibility of default 
+on domestic currency debt. As a matter of course, they assign separate domestic currency and foreign 
+currency sovereign ratings. For advanced economies, even those with small or negligible shares of foreign 
+currency debt, domestic currency debt is not always rated triple A. As to EME ratings, domestic currency 
+debt ratings were historically higher than sovereign bonds issued in a foreign currency, which may have 
+reflected the view that sovereigns were less likely to default on local currency obligations (Amstad et al 
+(2020)). However, the rating of local currency debt has declined over time so that today the gap between 
+the two ratings is almost negligible (Graph 3).18  
+
+Even without a default, a high inflation scenario may hurt banks. In the short run, this could be 
+the case owing to valuation effects. Higher inflation will lead to higher yields and hence lower prices on 
+securities, as banks typically have assets of a longer duration (interest rate sensitivity) than their liabilities 
+(see eg Perry (1992)). Banks would also suffer from a currency depreciation to the extent that they have a 
+net  liability  foreign  currency  position.  In  the  long  run,  higher  inflation  may  hurt  banks  by  reducing 
+
+15  
+
+This is not to deny that, as stressed by the fiscal theory of the price level (FTPL), some inflation may help smooth the adjustment 
+to adverse fiscal developments, thus allowing countries to avoid a sharper fiscal policy tightening (see eg Sims (2013, 2016)). 
+But this presumes that the costs of inflation are sufficiently small, and that inflation is “controllable”, staying below a reasonable 
+rate and not causing large economic distortions or large and arbitrary wealth redistributions. Such an outcome would require 
+sufficient policy credibility and institutional safeguards. Moreover, this view presumes that higher inflation will not disrupt the 
+orderly functioning of financial markets. Typical models of the FTPL do not capture this effect. Finally, inflation is not a free 
+lunch: it is best seen as a highly regressive tax, hitting the poorer segments of society disproportionately.  
+
+16   High inflation and hyper-inflation are often the consequence of fiscal imbalances and accommodative behaviour by monetary 
+policymakers (see eg Fischer et al (2002)). That said, without correcting the fiscal imbalance, tighter monetary policy may only 
+postpone higher inflation (Sargent and Wallace (1981)). 
+
+17  
+
+18  
+
+10 
+
+Financial restrictions may also be the outcome of financial regulation or credit policies. For instance, following the GFC, it has 
+been argued that elements of financial repression have de facto reappeared in advanced economies, although not motivated 
+by concerns with either sovereign risk or inflation (see eg Reinhart (2012) and van Riet (2013)). 
+
+For inflation targeting regimes, Amstad et al (2020) find evidence supporting the hypothesis that higher inflation increases the 
+willingness to contemplate default. 
+
+BIS Working Paper 1090
+
+ 
+ 
+ 
+ 
+economic  and  financial  activity,  offsetting  the  higher  net  interest  margins  typically  linked  with  higher 
+nominal interest rates (see eg Borio, Gambacorta and Hofmann (2017), Claessens, Coleman and Donnelly 
+(2016)).  Indeed,  high  and  especially  variable  inflation  tends  to  coincide  with  a  smaller  financial  sector, 
+worse bank performance and lower average growth (see eg Choi et al (1996), Boyd et al (2001), Boyd and 
+Champ (2006, 2009), Rousseau and Wachtel (2002)).  
+
+Local and foreign currency EME sovereign debt ratings have converged over time1 
+
+Graph 3
+
+14
+
+12
+
+10
+
+8
+
+3
+
+2
+
+1
+
+0
+
+1995
+
+2000
+
+2005
+
+2010
+
+2015
+
+2020
+
+Local ratings (lhs)
+Foreign ratings (lhs)
+
+Gaps (rhs)
+
+1  The left-hand axis is a numerical scale translating the average sovereign debt ratings from Fitch, Moody’s and S&P for a sample of 73 EMEs, 
+where 20 represents a rating of AAA or equivalent, and 1 represents a rating of CC or equivalent. The right-hand axis shows the difference 
+between local and foreign ratings.  
+
+Sources: Amstad et al (2020); authors’ calculations. 
+
+Similarly, the introduction of financial repression would also hurt banks. By design, the restrictions 
+would oblige them to hold low-yielding assets. And, in the long run, banks could suffer indirectly, to the 
+extent that financial repression lowers growth, most likely owing to credit and capital misallocation (see 
+eg Roubini and Sala-i-Martin (1992, 1995), Levine (2005)). 
+
+Risk amplification and “doom loops” 
+
+The previous discussion indicates that sovereign and financial risks can be mutually reinforcing and may 
+therefore generate “doom loops”. Banking crises are a major source of deterioration in fiscal positions; in 
+turn, a weaker sovereign can sap banks’ strength. Indeed, banking and sovereign crises have frequently 
+occurred simultaneously or have followed one another in quick succession (see eg Bordo and Meissner 
+(2016)).19 Market prices, too, reflect this mutual amplification of risks. 
+
+Outside  default  episodes,  bank  and  sovereign  risks  tend  to  move  in  tandem.  This  is  the  case 
+regardless of how these risks are measured (eg by CDS spreads, expected default probabilities or interest 
+rate spreads). Studies focusing on euro area countries in the aftermath of the GFC generally find evidence 
+
+19  
+
+Systemic banking crises are more frequent than sovereign debt crises and tend to lead them. They are typically preceded by a 
+large and rapid rise in private credit and asset prices. See Borio and Lowe (2002), Drehmann et al (2011), Claessens, Kose and 
+Terrones  (2011),  Reinhart  and  Rogoff  (2011b),  Schularick  and  Taylor  (2012),  Laeven  and  Valencia  (2013),  Jordà  et  al  (2013, 
+2016)), Herrera et al (2019). Recent theoretical models of endogenous credit booms include Boissay et al (2016) and Gorton 
+and Ordoñez (2020). Public debt does not tend to rise fast before a crisis: if anything, it is on average slightly countercyclical 
+(Jordà et al (2016)) and not a common cause of banking crises (Kaminsky and Reinhart (1999)). Based on the historical record, 
+the 2009–10 debt crisis in Greece looks more like the exception than the rule. That said, during a private credit boom, contingent 
+financial liabilities build up, which translates into higher debt levels after a financial crisis materialises.  
+
+BIS Working Paper 1090 
+
+11
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+of a direct causal interdependence: the correlation between the two risks is stronger than can be explained 
+by common factors, such as the state of the economy, market volatility and aggregate global risk (see eg 
+Gerlach et al (2010), de Bruyckere et al (2013), Acharya et al (2014), Fratzscher and Rieth (2019), Hardy and 
+Zhu (2023)). The strength of this correlation varies depending on a host of factors. For instance, it tends to 
+be stronger in countries with less fiscal space – eg, higher government debt to GDP ratios – and where 
+banks are weaker – eg more leveraged, more reliant on wholesale funding and holding larger amounts of 
+government  securities.  Balance  sheet  variables  also  explain  the  strength  of  the  correlation  between 
+individual bank risk and sovereign risk within the same country (de Bruyckere et al (2013), Acharya et al 
+(2014)). 
+
+In EMEs, the correlation between sovereign and bank risks (as proxied by the expected default 
+frequency) is also found to be strong, although it varies considerably over time and across countries. It 
+tends to increase with the level of distress in the banking sector and with the tightness of global financial 
+conditions. Furthermore, the spillovers vary across sectors: they are on average stronger from sovereign 
+to banks than in the opposite direction. And they vary across countries: they are larger in those with higher 
+public debt and larger bank holdings of public debt (IMF (2022), Deghi et al (2022)).  
+
+2. 
+
+Fiscal policy to support financial stability 
+
+The previous discussion indicates that having adequate fiscal space is a prerequisite for financial stability, 
+even when a debt crisis does not originate from public sector borrowing. Fiscal space dampens or breaks 
+the vicious circle that propagates and amplifies any adverse event that hits the banking sector, making 
+financial crises less likely.20 In addition, it is a necessary condition for solving a crisis in an orderly way once 
+it arises, including by backing up any lender of last resort or buyer of last resort central bank operations.  
+
+As is well known, many factors can undermine fiscal sustainability. But how can one specifically 
+measure those linked to financial stability? That is, how can one assess in real time the potential impact of 
+future financial (banking) crises on fiscal space (stock) or that of a financial boom on cyclically adjusted 
+fiscal positions (flow)? Consider each question in turn. 
+
+Fiscal buffers 
+
+There  is  no  hard  and  fast  rule  for  determining  the  minimum  or  optimal  size  of  a  fiscal  buffer  against 
+banking risk. To get a sense of the potential magnitudes, one can look at the mean or median fiscal costs 
+experienced in past banking crises, which are quite large (Graph 2 above). However, since the direct and 
+indirect  fiscal  costs  vary  greatly  across  countries  and  episodes,  to  come  up  with  an  assessment  more 
+suitable  for  policy,  it  is  important  to  understand  what  explains  this  variation.  And  because  any  such 
+assessment is shrouded in uncertainty, it is best to base it on a distribution of possible outcomes rather 
+than on point estimates.  
+
+Borio, Contreras and Zampolli (2020) put forward a method for computing the distribution of the 
+potential fiscal costs of a banking crisis based on the distribution of past crises’ fiscal costs. This approach 
+
+20  
+
+12 
+
+Lack of fiscal space may also imply persistently higher credit spreads and more distortionary taxation, which in turn may exert 
+a significant drag on productivity and growth (see eg Cecchetti et al (2011), Checherita-Westphal and Rother (2012), Reinhart 
+et al (2012), Baum et al (2013), Woo and Kumar (2015), Chudik et al (2017)). Lower average growth may then gradually erode 
+the profitability and solidity of financial institutions, raising the probability of financial crises and creating the conditions for 
+slow trend growth to be self-perpetuating. 
+
+BIS Working Paper 1090
+
+ 
+ 
+ 
+ 
+is  equivalent,  in  credit  risk  management  parlance,  to  estimating  losses  given  default  as  opposed  to 
+estimating default probabilities. It comprises three steps.  
+
+The first step is to approximate the overall ex post fiscal cost with the increase in gross public 
+debt over a five-year window, as is standard in the literature (see eg Laeven and Valencia (2013, 2020), 
+Bova et al (2016)). Such a measure includes both direct and indirect costs; and because it calculates the 
+change over several years, it is less likely to overstate the true fiscal cost (see also Graph 2 and footnote 
+10).  
+
+The second step consists in finding the factors that best predict the fiscal cost in past banking 
+crises. Here the authors find that a relatively small set of variables appears to provide the best prediction.21 
+One variable pertains to the fiscal position itself: the pre-crisis government debt-to-GDP ratio tends to 
+raise the fiscal cost – probably acting as a proxy for policy headroom.22 The other variables include the 
+pre-crisis level and growth rate of domestic credit to the private non-financial sector (aggravating factor) 
+as well as foreign exchange reserves and bank capital (mitigating factors). 
+
+The  third  step  consists  in  computing  the  mean  and  various  percentiles  of  the  conditional 
+distribution of the fiscal cost given that a crisis has taken place. This is done based on quantile regressions 
+that include the risk factors identified in the previous step. The projected quantiles are then interpolated 
+to obtain a smooth distribution using a method akin to the one employed by Adrian et al (2019) in the 
+“growth-at-risk model”.  
+
+Based  on  data  available  at  the  end  of  2018,  the  approach  finds  that  the  fiscal  costs  linked  to 
+possible future crises estimated based on those factors are significant (Graph 4). The expected average 
+fiscal cost is within a range of 5–30% of GDP for advanced economies, with a cross-country average of 
+20%. The range is similar for emerging markets and less developed economies, although the cross-country 
+average  is  lower.  At  the  tail  of  the  distribution,  the  fiscal  losses  can  be  substantial.  On  average  across 
+advanced economies, the 95th quantile is approximately 38% of GDP and the 99th quantile exceeds 40%.  
+
+Comparing estimates of these fiscal cost with typical estimates of fiscal space for OECD countries 
+(eg  Fournier  and  Fall  (2017),  Fournier  and  Bétin  (2018))  suggests  that  the  available  space  should  be 
+sufficient to absorb the cost of the crisis for most, but not all, economies in our sample.23 However, these 
+measures of fiscal space are likely to overstate the true amount of space available as they do not consider 
+several sources of uncertainty. In the case of EMEs, considering the calculations of, for instance, Ganiko et 
+al (2016) which account for various sources of uncertainty, fiscal sustainability in a number of countries 
+looks vulnerable in the case of serious financial stress.  
+
+Any estimate of a fiscal cost is inevitably subject to a very high degree of uncertainty due to the 
+method  used,  data  availability  and  the  impossibility  of  incorporating  all  relevant  information.  For  this 
+reason, the method proposed by Borio, Contreras and Zampolli (2020) is intended to be just one input in 
+what is a much more complex decision. In particular, the method does not take into account the probability 
+of a crisis; only the fiscal cost given a crisis. In addition, the estimates of fiscal cost might not capture the 
+full benefits of the financial reforms following the GFC. These have not just raised bank capital, but also 
+improved  its  quality  and  robustness,  introduced  liquidity  standards,  implemented  macroprudential 
+
+21  
+
+22  
+
+23  
+
+See also Amaglobeli et al (2017). 
+
+This is consistent with evidence for advanced economies indicating that higher public debt at the onset of a crisis leads to 
+deeper recessions and slower recoveries (Jordà et al (2016), Romer and Romer (2018), Aizenman et al (2019)). 
+
+Producing estimates of fiscal space is notoriously complicated (see eg D’Erasmo et al (2016)). One simple method that has 
+gained some traction in policy circles – and employed by Fournier and Fall (2017) and Fournier and Bétin (2018) – is to compute 
+debt limits using a non-linear fiscal reaction function. This amounts to postulating that, for sufficiently high debt levels, the 
+response of the fiscal authorities diminishes as debt increases (see eg Ghosh et al (2013)). However, this method may lead to 
+significant over-estimation of fiscal space (see eg Box V.B in BIS (2016)). 
+
+BIS Working Paper 1090 
+
+13
+
+ 
+ 
+ 
+ 
+ 
+ 
+frameworks  and  put  in  place  specific  arrangements  to  ensure  the  orderly  resolution  of  systemically 
+important banks (BIS (2018), Borio, Farag and Tarashev (2020)). Finally, large estimates of the ex ante fiscal 
+cost do not imply that the best solution is necessarily or exclusively of a fiscal nature: prudential regulation 
+is always an essential part of the solution (see below). 
+
+Size of required fiscal buffers to cover banking crisis fiscal cost, as of 2018 
+
+Percentage of GDP 
+
+Graph 4
+
+ Advanced
+economies1
+
+ Emerging
+economies2
+
+Emerging
+   Asia3
+
+Emerging
+ Europe4
+
+Latin America 

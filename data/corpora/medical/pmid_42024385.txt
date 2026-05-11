@@ -1,0 +1,4 @@
+TITLE: Vitamin D Receptor Polymorphisms and the Effect of Vitamin D Supplementation on Diabetes Risk Among Adults With Prediabetes.
+
+ABSTRACT:
+Achieving and maintaining a serum 25-hydroxyvitamin D (25[OH]D) level of 40 ng/mL or higher, compared with 20 to 30 ng/mL, may lower diabetes risk among adults with prediabetes. It is not known whether a genetically defined subgroup is more likely to experience benefits from targeting higher 25(OH)D levels with vitamin D3 supplementation.

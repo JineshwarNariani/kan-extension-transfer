@@ -1,0 +1,114 @@
+
+PMID- 41504702
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20260108
+LR  - 20260115
+IS  - 2474-9842 (Electronic)
+IS  - 2474-9842 (Linking)
+VI  - 10
+IP  - 1
+DP  - 2025 Dec 29
+TI  - Reinforced tension-line suture after laparotomy: long-term results of Rein4CeTo1 
+      randomized clinical trial.
+LID - 10.1093/bjsopen/zraf150 [doi]
+LID - zraf150
+AB  - BACKGROUND: Incisional hernia remains the most common complication of open 
+      abdominal surgery. The aim was to investigate whether a reinforced tension-line 
+      suture combined with standard 4 : 1 small-bite closure reduces the 3-year 
+      incidence of computed tomography-detected incisional hernia in open colorectal 
+      cancer surgery. METHODS: Patients aged > 18 years, scheduled for colorectal 
+      cancer resection through a midline incision between 2017 and 2021 at Skane 
+      University Hospital Malmo and Kristianstad County Hospital, Sweden, were eligible 
+      for inclusion. Patients were randomized to fascial closure by reinforced 
+      tension-line suture combined with 4 : 1 small-bite closure with polypropylene 
+      sutures (RTL group) or 4 : 1 small-bite closure alone with polydioxanone sutures 
+      (PDS group), in a 1 : 1 ratio. Computed tomography interpreters were blinded to 
+      study groups. Univariate, bivariate, and multivariate logistic regression 
+      analyses were performed to investigate and adjust study groups for potential risk 
+      factors for incisional hernia. RESULTS: The study randomized 80 patients in each 
+      group. At 3 years, 101 remained for analysis: 43 in the RTL group and 58 in the 
+      PDS group. Incisional hernia was detected in 27 patients: 6 of 43 (14%) in the 
+      RTL and 21 of 58 (36%) in the PDS group, resulting in a significant risk 
+      difference of 22% (odds ratio 3.50, 95% confidence interval 1.27 to 9.66; P = 
+      0.016). In multivariate analysis, the PDS group (odds ratio 3.40, 1.14 to 10.14; 
+      P = 0.028) and adjuvant chemotherapy (odds ratio 2.98, 1.10 to 8.08; P = 0.032) 
+      were significant risk factors for incisional hernia. No adverse events related to 
+      the closure techniques were found in either group. CONCLUSION: Adding a 
+      reinforced tension-line suture significantly reduced the long-term incidence of 
+      incisional hernia compared with the 4 : 1 small-bite technique alone in patients 
+      undergoing open colorectal cancer surgery. These findings suggest that the 
+      reinforced tension-line suture is an efficient and easy way to prevent incisional 
+      hernia.
+CI  - (c) The Author(s) 2026. Published by Oxford University Press on behalf of BJS 
+      Foundation Ltd.
+FAU - Wenzelberg, Charlotta L
+AU  - Wenzelberg CL
+AUID- ORCID: 0000-0001-8079-1276
+AD  - Department of Clinical Sciences Malmo, Lund University, Lund, Sweden.
+AD  - Department of Surgery, Skane University Hospital Malmo, Malmo, Sweden.
+FAU - Rogmark, Peder
+AU  - Rogmark P
+AD  - Department of Clinical Sciences Malmo, Lund University, Lund, Sweden.
+AD  - Department of Surgery, Skane University Hospital Malmo, Malmo, Sweden.
+FAU - Ekberg, Olle
+AU  - Ekberg O
+AD  - Department of Translational Medicine Malmo, Lund University, Lund, Sweden.
+AD  - Department of Radiology Diagnostics, Skane University Hospital Malmo, Malmo, 
+      Sweden.
+FAU - Petersson, Ulf
+AU  - Petersson U
+AD  - Department of Clinical Sciences Malmo, Lund University, Lund, Sweden.
+AD  - Department of Surgery, Skane University Hospital Malmo, Malmo, Sweden.
+FAU - Ronnow, Carl-Fredrik
+AU  - Ronnow CF
+AUID- ORCID: 0000-0001-5848-1407
+AD  - Department of Clinical Sciences Malmo, Lund University, Lund, Sweden.
+AD  - Department of Surgery, Skane University Hospital Malmo, Malmo, Sweden.
+LA  - eng
+GR  - Skane University Hospital/
+GR  - Einar and Inga Nilsson fund/
+GR  - Helge B. Wulff funds/
+GR  - Region of Skane/
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+PL  - England
+TA  - BJS Open
+JT  - BJS open
+JID - 101722685
+RN  - 31621-87-1 (Polydioxanone)
+RN  - 0 (Polypropylenes)
+SB  - IM
+MH  - Humans
+MH  - Female
+MH  - Male
+MH  - *Incisional Hernia/prevention & control/epidemiology/etiology/diagnostic imaging
+MH  - Middle Aged
+MH  - Aged
+MH  - *Suture Techniques
+MH  - *Sutures
+MH  - *Colorectal Neoplasms/surgery
+MH  - *Laparotomy/adverse effects/methods
+MH  - Sweden/epidemiology
+MH  - Tomography, X-Ray Computed
+MH  - Polydioxanone
+MH  - Polypropylenes
+MH  - Risk Factors
+MH  - Incidence
+MH  - Abdominal Wound Closure Techniques
+PMC - PMC12781198
+EDAT- 2026/01/08 17:53
+MHDA- 2026/01/08 17:54
+PMCR- 2026/01/01
+CRDT- 2026/01/08 10:33
+PHST- 2025/08/14 00:00 [received]
+PHST- 2025/10/19 00:00 [accepted]
+PHST- 2026/01/08 17:54 [medline]
+PHST- 2026/01/08 17:53 [pubmed]
+PHST- 2026/01/08 10:33 [entrez]
+PHST- 2026/01/01 00:00 [pmc-release]
+AID - 8417284 [pii]
+AID - zraf150 [pii]
+AID - 10.1093/bjsopen/zraf150 [doi]
+PST - ppublish
+SO  - BJS Open. 2025 Dec 29;10(1):zraf150. doi: 10.1093/bjsopen/zraf150.

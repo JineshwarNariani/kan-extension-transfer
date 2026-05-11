@@ -179,7 +179,7 @@ Wall-time on UNITY (job 56498824): 30 min for the headline run, plus ~15 min for
 
 ![Kan crossover](kan_transfer/results/figures/kan_crossover.png)
 
-*Figure 1. Mean edge-F1 of left vs. right Kan as a function of domain proximity. Exact-match F1 is 0 in both cases (see §4.3), but the empirical content of the plot lies in the **edge-counts**, not the F1: medical→economic (proximity 0.035) yields effectively empty graphs from either Kan; legal→economic (proximity 0.480) yields populated graphs with the predicted Lan ≫ Ran asymmetry.*
+*Figure 1. Mean edge-F1 of left vs. right Kan as a function of domain proximity. Exact-match F1 is 0 in both cases (see §4.3), but the empirical content of the plot lies in the **edge-counts**, not the F1: medical→economic (proximity 0.0354) yields effectively empty graphs from either hard Kan; legal→economic (proximity 0.4802) yields populated graphs with the predicted Lan ≫ Ran asymmetry.*
 
 **Edge-count asymmetry (the textbook prediction).** Across all 20 legal→economic queries, left Kan produces an average of **6.75 edges per graph** (max 18), right Kan **0.40 edges per graph** (max 4). This ~17:1 ratio is exactly the qualitative pattern predicted by the coend / end duality: the colimit (free union) admits any edge that *some* source supports; the limit (strict intersection) admits only edges supported by a super-majority. For medical→economic — where the source and target domains share virtually no semantic ground (proximity 0.0354) — both hard-Kan variants collapse to the empty graph, *also* as predicted (an empty colimit signals there is no `Hom(J(c), d)` mass above the τ=0.25 threshold). The soft-Kan variants partially break this collapse and are discussed in §4.6.
 
@@ -215,7 +215,7 @@ Three signals are clearly present in this table; we discuss each in §5.
 
 ![Sensitivity Legal](kan_transfer/results/figures/sensitivity_legal.png)
 
-*Figure 2. Exact-match edge-F1 across the pre-registered sweeps: number of source topics `k ∈ {5, 10, 15}`, similarity threshold `τ ∈ {0.15, 0.25, 0.35}`, and right-Kan consensus fraction `∈ {0.4, 0.6, 0.8}`. All cells are 0.0 — but this is the **expected** behaviour of exact-match F1 in cross-domain transfer (see §4.3 and §5.1).*
+*Figure 2. Exact-match edge-F1 across the pre-registered sweeps: number of source topics `k ∈ {5, 10, 15}`, similarity threshold `τ ∈ {0.15, 0.25, 0.35}`, and right-Kan consensus fraction `∈ {0.4, 0.6, 0.8}`. All cells are 0.0 — but this is the **expected** behaviour of exact-match F1 in cross-domain transfer (discussed in §5.2).*
 
 The sensitivity table (`results/tables/sensitivity/sensitivity_analysis.csv`) confirms that the *zero exact-match F1* is a structural property of cross-domain transfer, not a hyper-parameter accident: across all 20 unique hyperparameter combinations (a 3×3 grid in (k, τ) run for both methods at consensus_frac=0.60, plus 2 additional consensus values for right Kan at k=10, τ=0.25), edge-F1 remains identically 0.0 — because the predicted edges live in source-domain vocabulary (e.g., `"sec enforcement"`, `"clinical trial"`) while the ground truth lives in economic vocabulary (e.g., `"open market operations"`). String-equality between them is mathematically impossible. This is the *measurement gap* that motivates the semantic and structural evaluators in §3.5.
 
@@ -231,7 +231,7 @@ The sheaf-gluing test (`evaluation/sheaf_test.py`) asks whether jointly using bo
 
 ![Legal q0](kan_transfer/results/figures/comparison_legal_q0.png)
 
-*Figure 4. Causal-graph comparison for the legal→economic query "Roles and responsibilities of individual board members". Left to right: Ground-Truth (economic), Left Kan, Right Kan, Naive RAG. Green = true positive; red = false positive; black = false negative. The exact-match F1 is 0 everywhere because the predicted edges are in legal vocabulary while the ground-truth is in economic vocabulary — but the **shape** of the predicted graphs differs meaningfully across methods, which is exactly what the structural / homology / motif evaluators are designed to detect.*
+*Figure 4. Causal-graph comparison for the legal→economic query "Roles and responsibilities of individual board members". Left to right: Ground-Truth (economic), Left Kan, Right Kan, Naive RAG. Green = true positive; red = false positive; gray = false negative. The exact-match F1 is 0 everywhere because the predicted edges are in legal vocabulary while the ground-truth is in economic vocabulary — but the **shape** of the predicted graphs differs meaningfully across methods, which is exactly what the structural / homology / motif evaluators are designed to detect.*
 
 ### 4.6 The Soft-Kan / RN-derivative experiment
 
@@ -257,7 +257,7 @@ Three findings:
 
 (1) **On legal, soft-left-Kan produces ~5× more transferred edges than hard left-Kan** (35.10 vs. 6.75), confirming that RN-derivative reweighting `ρ(c,d) = sim(c,d) / freq(c)^0.5` does upweight rare cross-domain topics. Yet semantic soft-F1 is essentially unchanged (0.027 vs. 0.029) and the motif fingerprint is *identical* (0.135 in both): the added edges come from topics with similar relational structure to the original top-k, so the soft Kan densifies the graph without altering its structural signature. *RN-reweighting at the topic-selection stage does not close the vocabulary gap*.
 
-(2) **On medical, soft-Kan partially escapes the empty-graph collapse.** Where hard left-Kan produces 0 edges in 20/20 medical queries, soft-left-Kan produces 19.65 edges on average — and recovers a motif score of **0.354**, the highest motif score of any (method, source) combination in the entire experiment. The semantic soft-F1 remains 0 (vocabulary still does not overlap), but the structural fingerprint is recovered. The RN-derivative is therefore doing the work it was theoretically designed to do, but in the motif/structure space — not in the surface-semantic space.
+(2) **On medical, soft-Kan partially escapes the empty-graph collapse.** Where hard left-Kan produces 0 edges in 20/20 medical queries, soft-left-Kan produces 19.65 edges on average — and recovers a motif score of **0.354**, the highest motif score across all Kan-based methods (hard or soft) on either source. (Naive RAG scores higher in absolute terms — 0.447 on medical and 0.435 on legal — but this is the surface artefact discussed in §5.1: RAG is rating the source graph against a graph derived from the source graph, so its motif score is essentially measuring self-similarity.) The semantic soft-F1 for soft-left-Kan medical remains 0 (vocabulary still does not overlap), but the structural fingerprint is recovered. The RN-derivative is therefore doing the work it was theoretically designed to do, but in the motif/structure space — not in the surface-semantic space.
 
 (3) **The colimit / limit asymmetry persists in the soft setting.** Soft-right-Kan stays empty on legal (avg 0.00) and near-empty on medical (avg 0.40); soft-left-Kan densifies on both. This mirrors the §4.1 hard-Kan asymmetry exactly: free union scales with RN reweighting, strict intersection does not.
 

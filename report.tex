@@ -159,7 +159,7 @@ For each of $\{\text{left\_kan}, \text{right\_kan}, \text{naive\_rag}\}$ and eac
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.75\linewidth]{kan_crossover.png}
-\caption{Mean edge-F1 of left vs. right Kan as a function of domain proximity. Exact-match F1 is 0 in both cases (see \S\ref{sec:zerof1}); the empirical content lies in edge counts (Table~\ref{tab:edges}).}
+\caption{Mean edge-F1 of left vs.\ right Kan as a function of domain proximity. Exact-match F1 is $0$ in both cases (see \S\ref{sec:zerof1}); the empirical content lies in edge counts (Table~\ref{tab:edges}). Domain proximities: medical${\to}$economic $= 0.0354$; legal${\to}$economic $= 0.4802$.}
 \label{fig:crossover}
 \end{figure}
 
@@ -239,7 +239,7 @@ Across all $20$ unique hyperparameter combinations ($3{\times}3$ grid in $(k, \t
 \begin{figure}[h]
 \centering
 \includegraphics[width=\linewidth]{comparison_legal_q0.png}
-\caption{Causal-graph comparison for legal${\to}$economic query ``Roles and responsibilities of individual board members''. Left to right: Ground Truth, Left Kan, Right Kan, Naive RAG. Green/red/black = TP/FP/FN. Exact-match F1 is $0$ everywhere but \emph{graph shape} differs meaningfully --- exactly what the motif / homology evaluators are designed to detect.}
+\caption{Causal-graph comparison for legal${\to}$economic query ``Roles and responsibilities of individual board members''. Left to right: Ground Truth, Left Kan, Right Kan, Naive RAG. Green/red/gray = TP/FP/FN. Exact-match F1 is $0$ everywhere but \emph{graph shape} differs meaningfully --- exactly what the motif / homology evaluators are designed to detect.}
 \label{fig:perquery}
 \end{figure}
 
@@ -269,13 +269,13 @@ Three findings:
 
 (1)~\textbf{On legal, soft-left-Kan produces ${\sim}5{\times}$ more transferred edges than hard left-Kan} ($35.10$ vs.\ $6.75$), confirming that $\rho$-reweighting upweights rare cross-domain topics. Semantic soft-F1 is essentially unchanged ($0.027$ vs.\ $0.029$) and the motif fingerprint is \emph{identical} ($0.135$ in both): the added edges come from topics with similar relational structure to the original top-$k$, so the soft Kan densifies the graph without altering its structural signature. RN-reweighting at the topic-selection stage does not close the vocabulary gap.
 
-(2)~\textbf{On medical, soft-Kan partially escapes the empty-graph collapse.} Where hard left-Kan produces $0$ edges in $20/20$ medical queries, soft-left-Kan produces $19.65$ edges on average --- and recovers a motif score of $\mathbf{0.354}$, the highest motif score of any (method, source) combination in this study. Semantic soft-F1 remains $0$ (vocabulary still does not overlap), but the structural fingerprint is recovered. The RN-derivative is therefore doing the work it was theoretically designed to do, in the \emph{motif/structure space} --- not in the surface-semantic space.
+(2)~\textbf{On medical, soft-Kan partially escapes the empty-graph collapse.} Where hard left-Kan produces $0$ edges in $20/20$ medical queries, soft-left-Kan produces $19.65$ edges on average --- and recovers a motif score of $\mathbf{0.354}$, the highest motif score across all Kan-based methods (hard or soft) on either source. (Naive RAG scores higher in absolute terms --- $0.447$ on medical and $0.435$ on legal --- but this is the surface artefact discussed in \S\ref{sec:5-1}: RAG rates the source graph against a graph derived from the source graph, so its motif score is essentially measuring self-similarity.) Semantic soft-F1 for soft-left-Kan medical remains $0$ (vocabulary still does not overlap), but the structural fingerprint is recovered. The RN-derivative is therefore doing the work it was theoretically designed to do, in the \emph{motif/structure space} --- not in the surface-semantic space.
 
 (3)~\textbf{The colimit/limit asymmetry persists in the soft setting.} Soft-right-Kan stays empty on legal ($0.00$) and near-empty on medical ($0.40$); soft-left-Kan densifies on both. This mirrors the \S\ref{sec:zerof1} hard-Kan asymmetry exactly: free union scales with RN reweighting, strict intersection does not.
 
 \section{Discussion}
 
-\subsection{What the seven dimensions actually say}
+\subsection{What the seven dimensions actually say}\label{sec:5-1}
 
 \paragraph{(1) Left Kan strictly dominates Right Kan on every dimension.} On legal${\to}$economic: SoftF1 $0.029{>}0.003$, Motif $0.135{>}0.100$, Homology $0.592{>}0.095$, Universality $0.766{>}0.743$, BackT $0.339{>}0.072$, Coherence $0.500{>}0.100$. This is the cleanest empirical confirmation of the coend / end asymmetry we are aware of: the categorical duality predicts which method actually transfers structure.
 

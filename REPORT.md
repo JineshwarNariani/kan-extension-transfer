@@ -323,9 +323,9 @@ The present evaluation framework (Motif, Homology, Universality) partially addre
 
 ### 6.3 Open implementation tasks
 
-1. Soft-Kan's full 6-metric pass currently only runs Motif (the rest are skipped due to a wiring bug in `run_novel_evaluation.py` lines 318–323 that confines soft variants to a `soft_kan/` subdirectory). Fixing this is a half-day task.
-2. The CLIFF integration stub in `cliff_integration/kan_transfer_agentic.py` is not yet wired into the CLIFF agentic-router; doing so would let users issue cross-domain causal queries directly through CLIFF.
-3. Repeat the full experiment with the *Anthropic Claude* backend (currently OpenAI / Democritus). The `extraction/anthropic_client.py` skeleton is in place; this would partially satisfy the "Functorially Equivalent?" experiment from our initial brainstorm.
+1. Extend the soft-Kan evaluation to the full 6-metric pass. The soft variants are currently routed through *two* of the six evaluators that run on the main methods — Semantic Soft-F1 (`run_novel_evaluation.py:310`) and Structural Motif (`run_novel_evaluation.py:319`) — and the remaining four (Homology, Universality, Back-Translation, Coherence) are not yet plumbed through for `soft_method_preds`. The motif results also land in a `soft_kan/` subdirectory rather than being merged into `master_summary.json`'s top-level `motif` block, which is why §4.2 had to read them from the per-source CSVs. The line-318 comment promises "motif/homology" but only motif is actually called — a minor code/comment mismatch. Half-day task.
+2. The CLIFF integration stub in `cliff_integration/kan_transfer_agentic.py` (166 lines, with explicit "To integrate into CLIFF" instructions at the top) is not yet wired into the CLIFF agentic-router; doing so would let users issue cross-domain causal queries directly through CLIFF.
+3. Repeat the full experiment with the *Anthropic Claude* backend (currently OpenAI / Democritus). The `extraction/anthropic_client.py` skeleton (125 lines, exposing an `AnthropicChatClient` that conforms to the LLMClient protocol used by Democritus) is in place; this would partially satisfy the "Functorially Equivalent?" experiment from our initial brainstorm.
 
 ---
 

@@ -316,7 +316,7 @@ The professor also flagged: \emph{``RAG really should not work that well in tran
 
 \subsection{Open implementation tasks}
 
-(1) Run Soft-Kan's full $6$-metric pass (currently confined to a sub-directory by a wiring bug). (2) Wire \texttt{cliff\_integration/kan\_transfer\_agentic.py} into CLIFF's agentic-router. (3) Re-run with the Anthropic Claude backend to partially satisfy the multi-LLM ``functorial equivalence'' question.
+(1) Extend the soft-Kan evaluation to the full $6$-metric pass: the soft variants are currently routed through Semantic Soft-F1 and Motif only (\texttt{run\_novel\_evaluation.py} lines $310$ and $319$); Homology, Universality, Back-Translation, and Coherence are not yet plumbed through for \texttt{soft\_method\_preds}, and the motif output lands in a \texttt{soft\_kan/} subdirectory rather than being merged into \texttt{master\_summary.json}'s top-level \texttt{motif} block. The line-$318$ comment promises ``motif/homology'' but only motif is actually called. (2) Wire \texttt{cliff\_integration/kan\_transfer\_agentic.py} ($166$-line stub) into CLIFF's agentic-router. (3) Re-run with the Anthropic Claude backend; the \texttt{extraction/anthropic\_client.py} skeleton ($125$ lines, implements an LLMClient-protocol \texttt{AnthropicChatClient}) is in place. This would partially satisfy the multi-LLM ``functorial equivalence'' question.
 
 \section{Conclusion}
 
